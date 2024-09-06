@@ -33,26 +33,27 @@
     
   </head>
   <body>
-    <div id="header"><div class="ypvro">
-  <div class="ypvrotitle">
-    <div class="ypvrotitlebody">
-      <div class="ypvrotitlebodytitle">
+    <div id="header"><div class="r9ums">
+  <div class="r9umstitle">
+    <div class="r9umstitlebody">
+      <div class="r9umstitlebodytitle">
         Ajans Mobil Web Sitemize Hoşgeldiniz
       </div>
-      <div class="ypvrotitlebodylang">
+      <div class="r9umstitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="ypvrobody">
-    <a href="/tr"><img src="/img/logo.svg" class="ypvrobodylogo" /></a>
-  </div>
-  <div class="ypvromenubody">
-    <div class="ypvromenu">
-      <div class="ypvromenulistbody">
-        <div class="ypvromenulist">
+
+  <div class="r9umsChildren">
+    <div class="r9umsbody">
+      <a href="/tr"><img src="/img/logo.svg" class="r9umsbodylogo" /></a>
+    </div>
+    <div class="r9umsmenu">
+      <div class="r9umsmenulistbody">
+        <div class="r9umsmenulist">
           <ul>
             <a href="/tr/">Anasayfa </a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/referanslari/">Referansları</a><a href="/tr/blog/">Blog</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
@@ -63,69 +64,85 @@
 </div>
 
 <style>
-  .ypvro {
+  .r9umsChildren {
+    display: flex;
+    width: var(--max);
+    gap: 15px;
+    align-items: center;
+  }
+
+  .r9ums {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .ypvrotitle {
+
+  .r9umstitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .ypvrotitlebody {
+
+  .r9umstitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .ypvrotitlebodytitle {
+
+  .r9umstitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .ypvrotitlebodylang {
+
+  .r9umstitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .ypvrotitlebodylang ul {
+
+  .r9umstitlebodylang ul {
     display: flex;
     gap: 5px;
   }
-  .ypvrobody {
-    width: var(--max);
+
+  .r9umsbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
-  .ypvromenu {
+
+  .r9umsmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
-    width: var(--max);
+    width: 100%;
   }
-  .ypvromenulist {
+
+  .r9umsmenulist {
     width: calc(100% - 20px);
     background-color: #165858;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .ypvromenubody {
+
+  .r9umsmenubody {
     width: 100%;
     background-color: #165858;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .ypvromenulist ul {
+
+  .r9umsmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -134,7 +151,8 @@
     padding: 0;
     overflow-x: auto;
   }
-  .ypvromenulist ul a {
+
+  .r9umsmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -145,121 +163,47 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .ypvromenulist ul a:hover {
+
+  .r9umsmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
-  .ypvromenulistbody {
+
+  .r9umsmenulistbody {
     width: 100%;
   }
-  .ypvrobodylogo {
+
+  .r9umsbodylogo {
     height: 100px;
     max-width: 90vw;
     max-height: 100px;
   }
+
   @media screen and (max-width: 1024px) {
-    .ypvromenu {
+    .r9umsmenu {
       overflow-x: auto;
     }
-    .ypvromenulist ul {
+
+    .r9umsmenulist ul {
       flex-direction: row;
     }
-    .ypvrobodylogo {
+
+    .r9umsbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
   }
+
   @media screen and (max-width: 768px) {
-    .ypvromenulist ul a {
+    .r9umsmenulist ul a {
       font-size: 14px;
     }
   }
-</style>
-</div>
-    <div id="content"><div class="cguns-title f36">
-  <span>Sosyal Medya Yönetimi</span>
-</div>
-
-<div class="cguns">
-  <div class="cguns-body"><h1>Profesyonel Sosyal Medya Yönetimi Hizmetleri</h1><p>Ajan Mobil olarak, sosyal medya platformlarında markanızı doğru şekilde temsil ediyor ve hedef kitlenizle etkileşimi artırıyoruz. Kapsamlı sosyal medya yönetimi hizmetlerimizle dijital varlığınızı güçlendiriyoruz.</p><h2>Sosyal Medya Hizmetlerimiz</h2><ul><li>Strateji Geliştirme</li><li>İçerik Üretimi ve Paylaşım Planlaması</li><li>Topluluk Yönetimi</li><li>Sosyal Medya Reklamcılığı</li><li>Performans Analizi ve Raporlama</li></ul><h2>Neden Ajan Mobil'in Sosyal Medya Yönetimi?</h2><p>1. Kişiselleştirilmiş Stratejiler: Her marka için özel sosyal medya stratejileri geliştiriyoruz.</p><p>2. Yaratıcı İçerik Üretimi: Markanızı en iyi şekilde yansıtan özgün içerikler oluşturuyoruz.</p><p>3. Aktif Topluluk Yönetimi: Takipçilerinizle etkileşimi artırıyor, marka sadakatini güçlendiriyoruz.</p><p>4. Veri Odaklı Yaklaşım: Analitik araçlarla performansınızı ölçüyor ve sürekli iyileştiriyoruz.</p><p>5. Çok Platformlu Yönetim: Facebook, Instagram, Twitter, LinkedIn ve diğer platformlarda bütünleşik yönetim sağlıyoruz.</p><h2>Sosyal Medya Pazarlama Sürecimiz</h2><p>1. Durum Analizi: Mevcut sosyal medya varlığınızı ve rakiplerinizi analiz ediyoruz.</p><p>2. Strateji Oluşturma: Hedeflerinize uygun bir sosyal medya stratejisi geliştiriyoruz.</p><p>3. İçerik Planlaması: Markanıza özel içerik takvimi oluşturuyor ve yönetiyoruz.</p><p>4. Topluluk Etkileşimi: Takipçilerinizle aktif iletişim kurarak marka bilinirliğini artırıyoruz.</p><p>5. Reklam Yönetimi: Hedef kitlenize ulaşmak için etkili sosyal medya reklamları yönetiyoruz.</p><p>6. Performans Değerlendirmesi: Düzenli raporlarla sosyal medya performansınızı ölçüyor ve optimize ediyoruz.</p><h2>Sosyal Medyada Markanızı Öne Çıkarın</h2><p>Ajan Mobil'in profesyonel sosyal medya yönetimi hizmetleriyle dijital dünyada markanızı güçlendirin. Etkili içerik stratejileri, aktif topluluk yönetimi ve veri odaklı optimizasyonlarla sosyal medya başarınızı artırın.</p></div>
-  <div class="cguns-img">
-    <img src="/page/j6vwxyz7a8/ksmes.png" width="100%" />
-  </div>
-</div>
-
-<style>
-  .cguns-title {
-    width: 100%;
-    height: 200px;
-    background-color: #000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    color: #fff;
-    font-weight: bold;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  }
-  .cguns-title::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('/page/j6vwxyz7a8/{{bgimg}}');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    opacity: 0.5;
-    z-index: 1;
-  }
-  .cguns-title span {
-    position: relative;
-    z-index: 2;
-    font-size: 50px;
-  }
-  .cguns {
-    width: var(--max);
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    margin-top: 20px;
-  }
-  .cguns-body {
-    flex: 2;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  .cguns-img {
-    flex: 1;
-    display: flex;
-    align-items: start;
-    justify-content: center;
-  }
-  @media screen and (max-width: 1024px) {
-    .cguns {
-      flex-direction: column;
-      width: calc(100% - 10px);
-      padding: 5px;
-      gap: 20px;
-    }
-    .cguns-img {
-      width: 100%;
-    }
-    .cguns-body {
-      width: 100%;
-    }
-  }
-  #content {
-    justify-content: flex-start;
-  }
-</style>
-</div>
+</style></div>
+    <div id="content">{{body}}</div>
     <div id="footer"><footer class="footer">
   <div class="waves">
     <div class="wave" id="wave1"></div>

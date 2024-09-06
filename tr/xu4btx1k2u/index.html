@@ -33,26 +33,27 @@
     
   </head>
   <body>
-    <div id="header"><div class="woggu">
-  <div class="woggutitle">
-    <div class="woggutitlebody">
-      <div class="woggutitlebodytitle">
+    <div id="header"><div class="qskrr">
+  <div class="qskrrtitle">
+    <div class="qskrrtitlebody">
+      <div class="qskrrtitlebodytitle">
         Ajans Mobil Web Sitemize Hoşgeldiniz
       </div>
-      <div class="woggutitlebodylang">
+      <div class="qskrrtitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="woggubody">
-    <a href="/tr"><img src="/img/logo.svg" class="woggubodylogo" /></a>
-  </div>
-  <div class="woggumenubody">
-    <div class="woggumenu">
-      <div class="woggumenulistbody">
-        <div class="woggumenulist">
+
+  <div class="qskrrChildren">
+    <div class="qskrrbody">
+      <a href="/tr"><img src="/img/logo.svg" class="qskrrbodylogo" /></a>
+    </div>
+    <div class="qskrrmenu">
+      <div class="qskrrmenulistbody">
+        <div class="qskrrmenulist">
           <ul>
             <a href="/tr/">Anasayfa </a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/referanslari/">Referansları</a><a href="/tr/blog/">Blog</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
@@ -63,69 +64,85 @@
 </div>
 
 <style>
-  .woggu {
+  .qskrrChildren {
+    display: flex;
+    width: var(--max);
+    gap: 15px;
+    align-items: center;
+  }
+
+  .qskrr {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .woggutitle {
+
+  .qskrrtitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .woggutitlebody {
+
+  .qskrrtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .woggutitlebodytitle {
+
+  .qskrrtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .woggutitlebodylang {
+
+  .qskrrtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .woggutitlebodylang ul {
+
+  .qskrrtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
-  .woggubody {
-    width: var(--max);
+
+  .qskrrbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
-  .woggumenu {
+
+  .qskrrmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
-    width: var(--max);
+    width: 100%;
   }
-  .woggumenulist {
+
+  .qskrrmenulist {
     width: calc(100% - 20px);
     background-color: #165858;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .woggumenubody {
+
+  .qskrrmenubody {
     width: 100%;
     background-color: #165858;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .woggumenulist ul {
+
+  .qskrrmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -134,7 +151,8 @@
     padding: 0;
     overflow-x: auto;
   }
-  .woggumenulist ul a {
+
+  .qskrrmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -145,121 +163,47 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .woggumenulist ul a:hover {
+
+  .qskrrmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
-  .woggumenulistbody {
+
+  .qskrrmenulistbody {
     width: 100%;
   }
-  .woggubodylogo {
+
+  .qskrrbodylogo {
     height: 100px;
     max-width: 90vw;
     max-height: 100px;
   }
+
   @media screen and (max-width: 1024px) {
-    .woggumenu {
+    .qskrrmenu {
       overflow-x: auto;
     }
-    .woggumenulist ul {
+
+    .qskrrmenulist ul {
       flex-direction: row;
     }
-    .woggubodylogo {
+
+    .qskrrbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
   }
+
   @media screen and (max-width: 768px) {
-    .woggumenulist ul a {
+    .qskrrmenulist ul a {
       font-size: 14px;
     }
   }
-</style>
-</div>
-    <div id="content"><div class="roz43-title f36">
-  <span>Mobil Yazılım</span>
-</div>
-
-<div class="roz43">
-  <div class="roz43-body">Ajan Mobil, Mobil ve yazılım çözümleri sunuyoruz.</div>
-  <div class="roz43-img">
-    <img src="/page/xu4btx1k2u/x22vi.png" width="100%" />
-  </div>
-</div>
-
-<style>
-  .roz43-title {
-    width: 100%;
-    height: 200px;
-    background-color: #000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    color: #fff;
-    font-weight: bold;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  }
-  .roz43-title::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('/page/xu4btx1k2u/{{bgimg}}');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    opacity: 0.5;
-    z-index: 1;
-  }
-  .roz43-title span {
-    position: relative;
-    z-index: 2;
-    font-size: 50px;
-  }
-  .roz43 {
-    width: var(--max);
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    margin-top: 20px;
-  }
-  .roz43-body {
-    flex: 2;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  .roz43-img {
-    flex: 1;
-    display: flex;
-    align-items: start;
-    justify-content: center;
-  }
-  @media screen and (max-width: 1024px) {
-    .roz43 {
-      flex-direction: column;
-      width: calc(100% - 10px);
-      padding: 5px;
-      gap: 20px;
-    }
-    .roz43-img {
-      width: 100%;
-    }
-    .roz43-body {
-      width: 100%;
-    }
-  }
-  #content {
-    justify-content: flex-start;
-  }
-</style>
-</div>
+</style></div>
+    <div id="content">{{body}}</div>
     <div id="footer"><footer class="footer">
   <div class="waves">
     <div class="wave" id="wave1"></div>

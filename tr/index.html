@@ -33,26 +33,27 @@
     
   </head>
   <body>
-    <div id="header"><div class="wri5r">
-  <div class="wri5rtitle">
-    <div class="wri5rtitlebody">
-      <div class="wri5rtitlebodytitle">
+    <div id="header"><div class="uki5z">
+  <div class="uki5ztitle">
+    <div class="uki5ztitlebody">
+      <div class="uki5ztitlebodytitle">
         Ajans Mobil Web Sitemize Hoşgeldiniz
       </div>
-      <div class="wri5rtitlebodylang">
+      <div class="uki5ztitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="wri5rbody">
-    <a href="/tr"><img src="/img/logo.svg" class="wri5rbodylogo" /></a>
-  </div>
-  <div class="wri5rmenubody">
-    <div class="wri5rmenu">
-      <div class="wri5rmenulistbody">
-        <div class="wri5rmenulist">
+
+  <div class="uki5zChildren">
+    <div class="uki5zbody">
+      <a href="/tr"><img src="/img/logo.svg" class="uki5zbodylogo" /></a>
+    </div>
+    <div class="uki5zmenu">
+      <div class="uki5zmenulistbody">
+        <div class="uki5zmenulist">
           <ul>
             <a href="/tr/">Anasayfa </a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/referanslari/">Referansları</a><a href="/tr/blog/">Blog</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
@@ -63,69 +64,85 @@
 </div>
 
 <style>
-  .wri5r {
+  .uki5zChildren {
+    display: flex;
+    width: var(--max);
+    gap: 15px;
+    align-items: center;
+  }
+
+  .uki5z {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .wri5rtitle {
+
+  .uki5ztitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .wri5rtitlebody {
+
+  .uki5ztitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .wri5rtitlebodytitle {
+
+  .uki5ztitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .wri5rtitlebodylang {
+
+  .uki5ztitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .wri5rtitlebodylang ul {
+
+  .uki5ztitlebodylang ul {
     display: flex;
     gap: 5px;
   }
-  .wri5rbody {
-    width: var(--max);
+
+  .uki5zbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
-  .wri5rmenu {
+
+  .uki5zmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
-    width: var(--max);
+    width: 100%;
   }
-  .wri5rmenulist {
+
+  .uki5zmenulist {
     width: calc(100% - 20px);
     background-color: #165858;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .wri5rmenubody {
+
+  .uki5zmenubody {
     width: 100%;
     background-color: #165858;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .wri5rmenulist ul {
+
+  .uki5zmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -134,7 +151,8 @@
     padding: 0;
     overflow-x: auto;
   }
-  .wri5rmenulist ul a {
+
+  .uki5zmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -145,41 +163,47 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .wri5rmenulist ul a:hover {
+
+  .uki5zmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
-  .wri5rmenulistbody {
+
+  .uki5zmenulistbody {
     width: 100%;
   }
-  .wri5rbodylogo {
+
+  .uki5zbodylogo {
     height: 100px;
     max-width: 90vw;
     max-height: 100px;
   }
+
   @media screen and (max-width: 1024px) {
-    .wri5rmenu {
+    .uki5zmenu {
       overflow-x: auto;
     }
-    .wri5rmenulist ul {
+
+    .uki5zmenulist ul {
       flex-direction: row;
     }
-    .wri5rbodylogo {
+
+    .uki5zbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
   }
+
   @media screen and (max-width: 768px) {
-    .wri5rmenulist ul a {
+    .uki5zmenulist ul a {
       font-size: 14px;
     }
   }
-</style>
-<div class="swiper-container qeciz">
-  <div class="swiper-wrapper" id="qeciz"><div class="swiper-slide"><img src="/img/ayn5ph/1.png" /></div></div>
+</style><div class="swiper-container kc2wm">
+  <div class="swiper-wrapper" id="kc2wm"><div class="swiper-slide"><img src="/img/ayn5ph/1.png" /></div></div>
   <div class="swiper-button-next"></div>
   <div class="swiper-button-prev"></div>
   <div class="swiper-pagination"></div>
@@ -217,7 +241,7 @@
 </style>
 
 <script>
-  var swiper = new Swiper('.qeciz', {
+  var swiper = new Swiper('.kc2wm', {
     slidesPerView: 1,
     spaceBetween: 30,
     loop: true,
@@ -232,66 +256,66 @@
   });
 </script>
 </div>
-    <div id="content"><div class="sliderxxye8r">
-  <div class="slider-xye8rt-itle">Hizmetlerimiz</div>
-  <div class="xye8r swiper-container">
+    <div id="content"><div class="sliderxc2bmo">
+  <div class="slider-c2bmot-itle">Hizmetlerimiz</div>
+  <div class="c2bmo swiper-container">
     <div class="swiper-wrapper"><a href="/tr/web-tasarim" class="swiper-slide">
-        <div class="swiper-xye8r">
-          <div class="img-xye8r">
+        <div class="swiper-c2bmo">
+          <div class="img-c2bmo">
             <img src="/page/h2owvlghn8/eb11w.png" />
           </div>
-          <div class="title-xye8r">Web Tasarım</div>
-          <div class="spot-xye8r">Etkileyici ve fonksiyonel web siteleri</div>
-          <div class="button-xye8r">Devamı...</div>
+          <div class="title-c2bmo">Web Tasarım</div>
+          <div class="spot-c2bmo">Etkileyici ve fonksiyonel web siteleri</div>
+          <div class="button-c2bmo">Devamı...</div>
         </div>
       </a><a href="/tr/grafik-tasarim" class="swiper-slide">
-        <div class="swiper-xye8r">
-          <div class="img-xye8r">
+        <div class="swiper-c2bmo">
+          <div class="img-c2bmo">
             <img src="/page/g3pqrst4u5/ukeyz.png" />
           </div>
-          <div class="title-xye8r">Grafik Tasarım</div>
-          <div class="spot-xye8r">Markanızı yansıtan görsel tasarımlar</div>
-          <div class="button-xye8r">Devamı...</div>
+          <div class="title-c2bmo">Grafik Tasarım</div>
+          <div class="spot-c2bmo">Markanızı yansıtan görsel tasarımlar</div>
+          <div class="button-c2bmo">Devamı...</div>
         </div>
       </a><a href="/tr/sosyal-medya-yonetimi" class="swiper-slide">
-        <div class="swiper-xye8r">
-          <div class="img-xye8r">
+        <div class="swiper-c2bmo">
+          <div class="img-c2bmo">
             <img src="/page/j6vwxyz7a8/ksmes.png" />
           </div>
-          <div class="title-xye8r">Sosyal Medya Yönetimi</div>
-          <div class="spot-xye8r">Sosyal medyada markanızı öne çıkarın</div>
-          <div class="button-xye8r">Devamı...</div>
+          <div class="title-c2bmo">Sosyal Medya Yönetimi</div>
+          <div class="spot-c2bmo">Sosyal medyada markanızı öne çıkarın</div>
+          <div class="button-c2bmo">Devamı...</div>
         </div>
       </a><a href="/tr/fxco5ofht7" class="swiper-slide">
-        <div class="swiper-xye8r">
-          <div class="img-xye8r">
+        <div class="swiper-c2bmo">
+          <div class="img-c2bmo">
             <img src="/page/fxco5ofht7/w864p.png" />
           </div>
-          <div class="title-xye8r">Ai Çözümler</div>
-          <div class="spot-xye8r">Ai ve yazılım çözümleri</div>
-          <div class="button-xye8r">Devamı...</div>
+          <div class="title-c2bmo">Ai Çözümler</div>
+          <div class="spot-c2bmo">Ai ve yazılım çözümleri</div>
+          <div class="button-c2bmo">Devamı...</div>
         </div>
       </a><a href="/tr/xu4btx1k2u" class="swiper-slide">
-        <div class="swiper-xye8r">
-          <div class="img-xye8r">
+        <div class="swiper-c2bmo">
+          <div class="img-c2bmo">
             <img src="/page/xu4btx1k2u/x22vi.png" />
           </div>
-          <div class="title-xye8r">Mobil Yazılım</div>
-          <div class="spot-xye8r">Mobil ve yazılım çözümleri</div>
-          <div class="button-xye8r">Devamı...</div>
+          <div class="title-c2bmo">Mobil Yazılım</div>
+          <div class="spot-c2bmo">Mobil ve yazılım çözümleri</div>
+          <div class="button-c2bmo">Devamı...</div>
         </div>
       </a></div>
-    <div class="swiper-pagination-xye8r"></div>
+    <div class="swiper-pagination-c2bmo"></div>
   </div>
-  <div class="swiper-button-next swiper-button-next-xye8r"></div>
-  <div class="swiper-button-prev swiper-button-prev-xye8r"></div>
+  <div class="swiper-button-next swiper-button-next-c2bmo"></div>
+  <div class="swiper-button-prev swiper-button-prev-c2bmo"></div>
 </div>
 
 <style>
-  .title-xye8r {
+  .title-c2bmo {
     font-size: 18px;
   }
-  .xye8rbody {
+  .c2bmobody {
     display: flex;
     align-items: stretch;
     padding: 15px 0px 15px 0px;
@@ -302,20 +326,20 @@
     align-items: center;
     justify-content: center;
   }
-  .swiper-pagination-xye8r {
+  .swiper-pagination-c2bmo {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 5px !important;
   }
-  .sliderxxye8r {
+  .sliderxc2bmo {
     position: relative;
     width: 100%;
     max-width: var(--max);
     margin-top: 20px;
     margin-bottom: 20px;
   }
-  .slider-xye8rt-itle {
+  .slider-c2bmot-itle {
     width: 100%;
     font-size: 28px;
     font-weight: 500;
@@ -324,8 +348,8 @@
     justify-content: left;
     margin-bottom: 10px;
   }
-  .swiper-button-prev-xye8r,
-  .swiper-button-next-xye8r {
+  .swiper-button-prev-c2bmo,
+  .swiper-button-next-c2bmo {
     color: #000 !important;
     font-size: 28px;
     font-weight: bold;
@@ -337,18 +361,18 @@
     transform: translateY(-50%);
     /* Center it vertically */
   }
-  .swiper-button-prev-xye8r {
+  .swiper-button-prev-c2bmo {
     left: -30px !important;
   }
-  .swiper-button-next-xye8r {
+  .swiper-button-next-c2bmo {
     right: -30px !important;
   }
   @media screen and (max-width: 1024px) {
-    .sliderxxye8r {
+    .sliderxc2bmo {
       width: 100%;
     }
   }
-  .img-xye8r {
+  .img-c2bmo {
     aspect-ratio: 3/2;
     display: flex;
     align-items: center;
@@ -361,7 +385,7 @@
     position: relative;
     overflow: hidden;
   }
-  .img-xye8r > img {
+  .img-c2bmo > img {
     max-height: 100%;
     max-width: 100%;
     object-fit: contain;
@@ -372,7 +396,7 @@
     top: 0;
     left: 0;
   }
-  .spot-xye8r {
+  .spot-c2bmo {
     flex: 1;
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -381,13 +405,13 @@
     text-overflow: ellipsis;
     white-space: normal;
   }
-  .button-xye8r {
+  .button-c2bmo {
     background-color: #165858;
     padding: 8px;
     border-radius: 5px;
     color: #fff;
   }
-  .swiper-xye8r {
+  .swiper-c2bmo {
     background-color: #fff;
     aspect-ratio: 3/4;
     width: 100%;
@@ -402,16 +426,16 @@
     transition: filter 0.3s;
     cursor: pointer;
   }
-  .xye8r {
+  .c2bmo {
     overflow-x: auto;
   }
-  .xye8r::-webkit-scrollbar {
+  .c2bmo::-webkit-scrollbar {
     display: none;
   }
 </style>
 
 <script>
-  new Swiper('.xye8r', {
+  new Swiper('.c2bmo', {
     slidesPerView: 2,
     simulateTouch: true,
     loop: true,
@@ -422,51 +446,51 @@
       1200: { slidesPerView: 5 },
     },
     pagination: {
-      el: '.swiper-pagination-xye8r',
+      el: '.swiper-pagination-c2bmo',
       clickable: true,
     },
     navigation: {
-      nextEl: '.swiper-button-next-xye8r',
-      prevEl: '.swiper-button-prev-xye8r',
+      nextEl: '.swiper-button-next-c2bmo',
+      prevEl: '.swiper-button-prev-c2bmo',
     },
   });
 </script>
 
 
-<div class="sliderxsfsyebody">
+<div class="sliderxfq3v9body">
 
 
-<div class="sliderxsfsye">
-  <div class="sliderxsfsyetitle">Partnerlerimiz</div>
-  <div class="sfsye swiper-container">
+<div class="sliderxfq3v9">
+  <div class="sliderxfq3v9title">Partnerlerimiz</div>
+  <div class="fq3v9 swiper-container">
     <div class="swiper-wrapper"><div href="/img/jyfy3k/undefined"  class="swiper-slide">
       <div class="swiper-slide33">
-        <img src="/img/jyfy3k/1.png" class="modulchildsfsye2" />
+        <img src="/img/jyfy3k/1.png" class="modulchildfq3v92" />
       </div>
     </div><div href="/img/jyfy3k/undefined"  class="swiper-slide">
       <div class="swiper-slide33">
-        <img src="/img/jyfy3k/2.png" class="modulchildsfsye2" />
+        <img src="/img/jyfy3k/2.png" class="modulchildfq3v92" />
       </div>
     </div><div href="/img/jyfy3k/undefined"  class="swiper-slide">
       <div class="swiper-slide33">
-        <img src="/img/jyfy3k/3.png" class="modulchildsfsye2" />
+        <img src="/img/jyfy3k/3.png" class="modulchildfq3v92" />
       </div>
     </div><div href="/img/jyfy3k/undefined"  class="swiper-slide">
       <div class="swiper-slide33">
-        <img src="/img/jyfy3k/4.png" class="modulchildsfsye2" />
+        <img src="/img/jyfy3k/4.png" class="modulchildfq3v92" />
       </div>
     </div><div href="/img/jyfy3k/undefined"  class="swiper-slide">
       <div class="swiper-slide33">
-        <img src="/img/jyfy3k/5.png" class="modulchildsfsye2" />
+        <img src="/img/jyfy3k/5.png" class="modulchildfq3v92" />
       </div>
     </div><div href="/img/jyfy3k/undefined"  class="swiper-slide">
       <div class="swiper-slide33">
-        <img src="/img/jyfy3k/6.png" class="modulchildsfsye2" />
+        <img src="/img/jyfy3k/6.png" class="modulchildfq3v92" />
       </div>
     </div></div>
-    <div class="swiper-button-next swiper-button-next-sfsye"></div>
-    <div class="swiper-button-prev swiper-button-prev-sfsye"></div>
-    <div class="swiper-pagination-sfsye"></div>
+    <div class="swiper-button-next swiper-button-next-fq3v9"></div>
+    <div class="swiper-button-prev swiper-button-prev-fq3v9"></div>
+    <div class="swiper-pagination-fq3v9"></div>
   </div>
 </div>
 
@@ -475,7 +499,7 @@
 
 <style>
 
-  .sliderxsfsyebody{
+  .sliderxfq3v9body{
     width: 100%;
     display: flex;
     align-items: center;
@@ -484,29 +508,29 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .sliderxsfsye {
+  .sliderxfq3v9 {
     width: var(--max);
     margin: 10px 0px 10px 0px;
   }
-  .swiper-pagination-sfsye {
+  .swiper-pagination-fq3v9 {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 5px !important;
   }
-  .sliderxsfsyetitle {
+  .sliderxfq3v9title {
     width: 100%;
     font-size: 24px;
     font-weight: 500;
     color: #fff;
   }
   @media screen and (max-width: 1024px) {
-    .sliderxsfsye {
+    .sliderxfq3v9 {
       width: 100%;
     }
   }
-  .swiper-button-prev-sfsye,
-  .swiper-button-next-sfsye {
+  .swiper-button-prev-fq3v9,
+  .swiper-button-next-fq3v9 {
     color: #000;
     font-size: 28px;
     font-weight: bold;
@@ -521,13 +545,13 @@
     cursor: pointer;
   
   }
-  .sfsye {
+  .fq3v9 {
     overflow-x: auto;
   }
-  .sfsye::-webkit-scrollbar {
+  .fq3v9::-webkit-scrollbar {
     display: none;
   }
-  .modulchildsfsye2 {
+  .modulchildfq3v92 {
     text-align: -webkit-center;
     width: 100%;
     float: left;
@@ -536,10 +560,10 @@
     background-color: #fff;
     filter: grayscale(1);
   }
-  .modulchildsfsye2:hover {
+  .modulchildfq3v92:hover {
     filter: grayscale(0);
   }
-  .modulchildsfsye3 {
+  .modulchildfq3v93 {
     float: left;
     padding: 5px;
   }
@@ -551,12 +575,12 @@ var jsonslider = {
   simulateTouch: true,
   loop: true,
   pagination: {
-    el: '.swiper-pagination-sfsye',
+    el: '.swiper-pagination-fq3v9',
     clickable: true,
   },
   navigation: {
-      nextEl: '.swiper-button-next-sfsye',
-      prevEl: '.swiper-button-prev-sfsye',
+      nextEl: '.swiper-button-next-fq3v9',
+      prevEl: '.swiper-button-prev-fq3v9',
     },
   breakpoints: {
     480: {
@@ -577,369 +601,116 @@ var jsonslider = {
 if ("false" === "true") {
 
 } else {
-  document.querySelector('.swiper-button-next-sfsye').style.display = 'none';
-  document.querySelector('.swiper-button-prev-sfsye').style.display = 'none';
+  document.querySelector('.swiper-button-next-fq3v9').style.display = 'none';
+  document.querySelector('.swiper-button-prev-fq3v9').style.display = 'none';
 }
-var swiper = new Swiper('.sfsye', jsonslider);
+var swiper = new Swiper('.fq3v9', jsonslider);
 
 </script>
-<div class="ex4gv">
-  <div class="ex4gvbody">
-    <img src="/img/map.png" />
-    <div class="ex4gvcontainer">
-      <div class="ex4gvcontainerbody">
-        <div class="ex4gvcontainertitle">Bize Ulaşın</div>
-        <div class="ex4gvcontainerlist">
-   <div>
-    <span class="material-symbols-outlined">
-         phone
-    </span>
-  </div>
-    <div>0531 679 10 14</div>
-  </div><div class="ex4gvcontainerlist">
-   <div>
-    <span class="material-symbols-outlined">
-         email
-    </span>
-  </div>
-    <div>info@ajansmobil.com</div>
-  </div>
-      </div>
-    </div>
-  </div>
-  <div class="ex4gv-background-overlay"></div>
-</div>
-
-<style>
-  .ex4gv {
-    width: 100%;
-    padding: 50px 0px 50px 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-  }
-  .ex4gvcontainertitle {
-    font-size: 26px;
-    font-weight: bold;
-    margin-bottom: 15px;
-  }
-  .ex4gvcontainerlist {
-    padding: 5px;
-    display: flex;
-    border-radius: 5px;
-    border-bottom: solid 1px;
-    gap: 15px;
-  }
-  .ex4gvcontainerlist > div {
-    display: flex;
-    align-items: center;
-    font-size: 18px;
-  }
-  .ex4gvcontainer {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  .ex4gvcontainerbody {
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  .ex4gvbody > * {
-    width: 50%;
-    background-color: #ffffff90;
-  }
-  .ex4gvbody {
-    width: calc(var(--max) - 20px);
-    background-color: #e9e9e9d9;
-    display: flex;
-    padding: 10px;
-    border-radius: 10px;
-    gap: 10px;
-  }
-  .ex4gv-background-overlay {
-    position: absolute;
-    /* Position overlay absolutely */
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('/img/map.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    opacity: 0.3;
-    z-index: -1;
-  }
-  @media screen and (max-width: 1024px) {
-    .ex4gvbody > * {
-      width: 100%;
-      background-color: #ffffff90;
-    }
-    .ex4gvbody {
-      flex-direction: column;
-      gap: 20px;
-    }
-  }
-</style>
-
-
-<div class="sliderxwyvulbody">
-
-
-<div class="sliderxwyvul">
-  <div class="sliderxwyvultitle">Partnerlerimiz</div>
-  <div class="wyvul swiper-container">
-    <div class="swiper-wrapper"><div href="/img/jyfy3k/undefined"  class="swiper-slide">
-      <div class="swiper-slide33">
-        <img src="/img/jyfy3k/1.png" class="modulchildwyvul2" />
-      </div>
-    </div><div href="/img/jyfy3k/undefined"  class="swiper-slide">
-      <div class="swiper-slide33">
-        <img src="/img/jyfy3k/2.png" class="modulchildwyvul2" />
-      </div>
-    </div><div href="/img/jyfy3k/undefined"  class="swiper-slide">
-      <div class="swiper-slide33">
-        <img src="/img/jyfy3k/3.png" class="modulchildwyvul2" />
-      </div>
-    </div><div href="/img/jyfy3k/undefined"  class="swiper-slide">
-      <div class="swiper-slide33">
-        <img src="/img/jyfy3k/4.png" class="modulchildwyvul2" />
-      </div>
-    </div><div href="/img/jyfy3k/undefined"  class="swiper-slide">
-      <div class="swiper-slide33">
-        <img src="/img/jyfy3k/5.png" class="modulchildwyvul2" />
-      </div>
-    </div><div href="/img/jyfy3k/undefined"  class="swiper-slide">
-      <div class="swiper-slide33">
-        <img src="/img/jyfy3k/6.png" class="modulchildwyvul2" />
-      </div>
-    </div></div>
-    <div class="swiper-button-next swiper-button-next-wyvul"></div>
-    <div class="swiper-button-prev swiper-button-prev-wyvul"></div>
-    <div class="swiper-pagination-wyvul"></div>
-  </div>
-</div>
-
-</div>
-
-
-<style>
-
-  .sliderxwyvulbody{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #165858;
-    padding: 10px 0px 10px 0px;
-  }
-
-  .sliderxwyvul {
-    width: var(--max);
-    margin: 10px 0px 10px 0px;
-  }
-  .swiper-pagination-wyvul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 5px !important;
-  }
-  .sliderxwyvultitle {
-    width: 100%;
-    font-size: 24px;
-    font-weight: 500;
-    color: #fff;
-  }
-  @media screen and (max-width: 1024px) {
-    .sliderxwyvul {
-      width: 100%;
-    }
-  }
-  .swiper-button-prev-wyvul,
-  .swiper-button-next-wyvul {
-    color: #000;
-    font-size: 28px;
-    font-weight: bold;
-    z-index: 10;
-    opacity: 0.4;
-  }
- 
-  .swiper-slide > .swiper-slide33 {
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-    cursor: pointer;
-  
-  }
-  .wyvul {
-    overflow-x: auto;
-  }
-  .wyvul::-webkit-scrollbar {
-    display: none;
-  }
-  .modulchildwyvul2 {
-    text-align: -webkit-center;
-    width: 100%;
-    float: left;
-    border-radius: 8px;
-    box-shadow: 0px 5px 11px 0px rgba(0, 0, 0, 0.4);
-    background-color: #fff;
-    filter: grayscale(1);
-  }
-  .modulchildwyvul2:hover {
-    filter: grayscale(0);
-  }
-  .modulchildwyvul3 {
-    float: left;
-    padding: 5px;
-  }
-</style>
-
-<script>
-var jsonslider = {
-  slidesPerView: 2,
-  simulateTouch: true,
-  loop: true,
-  pagination: {
-    el: '.swiper-pagination-wyvul',
-    clickable: true,
-  },
-  navigation: {
-      nextEl: '.swiper-button-next-wyvul',
-      prevEl: '.swiper-button-prev-wyvul',
-    },
-  breakpoints: {
-    480: {
-      slidesPerView: 2,
-    },
-    640: {
-      slidesPerView: 3,
-    },
-    768: {
-      slidesPerView: 4,
-    },
-    960: {
-      slidesPerView: '6',  // Replace '6' with a number
-    },
-  },
-};
-
-if ("false" === "true") {
-
-} else {
-  document.querySelector('.swiper-button-next-wyvul').style.display = 'none';
-  document.querySelector('.swiper-button-prev-wyvul').style.display = 'none';
-}
-var swiper = new Swiper('.wyvul', jsonslider);
-
-</script>
-<div class="pn0it2">
-  <div class="pn0it">
+<div class="lpk0a2">
+  <div class="lpk0a">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 283.5 27.8"
       preserveAspectRatio="none"
-      class="pn0ittop"
+      class="lpk0atop"
     >
       <path
-        class="pn0it-svg"
+        class="lpk0a-svg"
         d="M283.5,9.7c0,0-7.3,4.3-14,4.6c-6.8,0.3-12.6,0-20.9-1.5c-11.3-2-33.1-10.1-44.7-5.7	s-12.1,4.6-18,7.4c-6.6,3.2-20,9.6-36.6,9.3C131.6,23.5,99.5,7.2,86.3,8c-1.4,0.1-6.6,0.8-10.5,2c-3.8,1.2-9.4,3.8-17,4.7 c-3.2,0.4-8.3,1.1-14.2,0.9c-1.5-0.1-6.3-0.4-12-1.6c-5.7-1.2-11-3.1-15.8-3.7C6.5,9.2,0,10.8,0,10.8V0h283.5V9.7z M260.8,11.3 c-0.7-1-2-0.4-4.3-0.4c-2.3,0-6.1-1.2-5.8-1.1c0.3,0.1,3.1,1.5,6,1.9C259.7,12.2,261.4,12.3,260.8,11.3z M242.4,8.6 c0,0-2.4-0.2-5.6-0.9c-3.2-0.8-10.3-2.8-15.1-3.5c-8.2-1.1-15.8,0-15.1,0.1c0.8,0.1,9.6-0.6,17.6,1.1c3.3,0.7,9.3,2.2,12.4,2.7	C239.9,8.7,242.4,8.6,242.4,8.6z M185.2,8.5c1.7-0.7-13.3,4.7-18.5,6.1c-2.1,0.6-6.2,1.6-10,2c-3.9,0.4-8.9,0.4-8.8,0.5	c0,0.2,5.8,0.8,11.2,0c5.4-0.8,5.2-1.1,7.6-1.6C170.5,14.7,183.5,9.2,185.2,8.5z M199.1,6.9c0.2,0-0.8-0.4-4.8,1.1 c-4,1.5-6.7,3.5-6.9,3.7c-0.2,0.1,3.5-1.8,6.6-3C197,7.5,199,6.9,199.1,6.9z M283,6c-0.1,0.1-1.9,1.1-4.8,2.5s-6.9,2.8-6.7,2.7	c0.2,0,3.5-0.6,7.4-2.5C282.8,6.8,283.1,5.9,283,6z M31.3,11.6c0.1-0.2-1.9-0.2-4.5-1.2s-5.4-1.6-7.8-2C15,7.6,7.3,8.5,7.7,8.6	C8,8.7,15.9,8.3,20.2,9.3c2.2,0.5,2.4,0.5,5.7,1.6S31.2,11.9,31.3,11.6z M73,9.2c0.4-0.1,3.5-1.6,8.4-2.6c4.9-1.1,8.9-0.5,8.9-0.8 c0-0.3-1-0.9-6.2-0.3S72.6,9.3,73,9.2z M71.6,6.7C71.8,6.8,75,5.4,77.3,5c2.3-0.3,1.9-0.5,1.9-0.6c0-0.1-1.1-0.2-2.7,0.2	C74.8,5.1,71.4,6.6,71.6,6.7z M93.6,4.4c0.1,0.2,3.5,0.8,5.6,1.8c2.1,1,1.8,0.6,1.9,0.5c0.1-0.1-0.8-0.8-2.4-1.3	C97.1,4.8,93.5,4.2,93.6,4.4z M65.4,11.1c-0.1,0.3,0.3,0.5,1.9-0.2s2.6-1.3,2.2-1.2s-0.9,0.4-2.5,0.8C65.3,10.9,65.5,10.8,65.4,11.1 z M34.5,12.4c-0.2,0,2.1,0.8,3.3,0.9c1.2,0.1,2,0.1,2-0.2c0-0.3-0.1-0.5-1.6-0.4C36.6,12.8,34.7,12.4,34.5,12.4z M152.2,21.1 c-0.1,0.1-2.4-0.3-7.5-0.3c-5,0-13.6-2.4-17.2-3.5c-3.6-1.1,10,3.9,16.5,4.1C150.5,21.6,152.3,21,152.2,21.1z"
       ></path>
       <path
-        class="pn0it-svg"
+        class="lpk0a-svg"
         d="M269.6,18c-0.1-0.1-4.6,0.3-7.2,0c-7.3-0.7-17-3.2-16.6-2.9c0.4,0.3,13.7,3.1,17,3.3	C267.7,18.8,269.7,18,269.6,18z"
       ></path>
       <path
-        class="pn0it-svg"
+        class="lpk0a-svg"
         d="M227.4,9.8c-0.2-0.1-4.5-1-9.5-1.2c-5-0.2-12.7,0.6-12.3,0.5c0.3-0.1,5.9-1.8,13.3-1.2	S227.6,9.9,227.4,9.8z"
       ></path>
       <path
-        class="pn0it-svg"
+        class="lpk0a-svg"
         d="M204.5,13.4c-0.1-0.1,2-1,3.2-1.1c1.2-0.1,2,0,2,0.3c0,0.3-0.1,0.5-1.6,0.4	C206.4,12.9,204.6,13.5,204.5,13.4z"
       ></path>
       <path
-        class="pn0it-svg"
+        class="lpk0a-svg"
         d="M201,10.6c0-0.1-4.4,1.2-6.3,2.2c-1.9,0.9-6.2,3.1-6.1,3.1c0.1,0.1,4.2-1.6,6.3-2.6	S201,10.7,201,10.6z"
       ></path>
       <path
-        class="pn0it-svg"
+        class="lpk0a-svg"
         d="M154.5,26.7c-0.1-0.1-4.6,0.3-7.2,0c-7.3-0.7-17-3.2-16.6-2.9c0.4,0.3,13.7,3.1,17,3.3	C152.6,27.5,154.6,26.8,154.5,26.7z"
       ></path>
       <path
-        class="pn0it-svg"
+        class="lpk0a-svg"
         d="M41.9,19.3c0,0,1.2-0.3,2.9-0.1c1.7,0.2,5.8,0.9,8.2,0.7c4.2-0.4,7.4-2.7,7-2.6	c-0.4,0-4.3,2.2-8.6,1.9c-1.8-0.1-5.1-0.5-6.7-0.4S41.9,19.3,41.9,19.3z"
       ></path>
       <path
-        class="pn0it-svg"
+        class="lpk0a-svg"
         d="M75.5,12.6c0.2,0.1,2-0.8,4.3-1.1c2.3-0.2,2.1-0.3,2.1-0.5c0-0.1-1.8-0.4-3.4,0	C76.9,11.5,75.3,12.5,75.5,12.6z"
       ></path>
       <path
-        class="pn0it-svg"
+        class="lpk0a-svg"
         d="M15.6,13.2c0-0.1,4.3,0,6.7,0.5c2.4,0.5,5,1.9,5,2c0,0.1-2.7-0.8-5.1-1.4	C19.9,13.7,15.7,13.3,15.6,13.2z"
       ></path>
     </svg>
-    <div class="pn0it-body">
-      <div class="pn0it-body-chile">
-        <div class="pn0it-body-title">Bizden Haberdar Olamk İçin</div>
+    <div class="lpk0a-body">
+      <div class="lpk0a-body-chile">
+        <div class="lpk0a-body-title">Bizden Haberdar Olamk İçin</div>
         <div class="input-container">
           <input type="text" class="inputmatrix1" placeholder="E-Posta" />
           <label for="input" class="placeholder">E-Posta</label>
         </div>
-        <div class="pn0it-body-form-button">Gönder</div>
+        <div class="lpk0a-body-form-button">Gönder</div>
       </div>
     </div>
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 283.5 27.8"
       preserveAspectRatio="none"
-      class="pn0itbotton"
+      class="lpk0abotton"
     >
       <path
-        class="pn0it-svg"
+        class="lpk0a-svg"
         d="M283.5,9.7c0,0-7.3,4.3-14,4.6c-6.8,0.3-12.6,0-20.9-1.5c-11.3-2-33.1-10.1-44.7-5.7	s-12.1,4.6-18,7.4c-6.6,3.2-20,9.6-36.6,9.3C131.6,23.5,99.5,7.2,86.3,8c-1.4,0.1-6.6,0.8-10.5,2c-3.8,1.2-9.4,3.8-17,4.7 c-3.2,0.4-8.3,1.1-14.2,0.9c-1.5-0.1-6.3-0.4-12-1.6c-5.7-1.2-11-3.1-15.8-3.7C6.5,9.2,0,10.8,0,10.8V0h283.5V9.7z M260.8,11.3 c-0.7-1-2-0.4-4.3-0.4c-2.3,0-6.1-1.2-5.8-1.1c0.3,0.1,3.1,1.5,6,1.9C259.7,12.2,261.4,12.3,260.8,11.3z M242.4,8.6 c0,0-2.4-0.2-5.6-0.9c-3.2-0.8-10.3-2.8-15.1-3.5c-8.2-1.1-15.8,0-15.1,0.1c0.8,0.1,9.6-0.6,17.6,1.1c3.3,0.7,9.3,2.2,12.4,2.7	C239.9,8.7,242.4,8.6,242.4,8.6z M185.2,8.5c1.7-0.7-13.3,4.7-18.5,6.1c-2.1,0.6-6.2,1.6-10,2c-3.9,0.4-8.9,0.4-8.8,0.5	c0,0.2,5.8,0.8,11.2,0c5.4-0.8,5.2-1.1,7.6-1.6C170.5,14.7,183.5,9.2,185.2,8.5z M199.1,6.9c0.2,0-0.8-0.4-4.8,1.1 c-4,1.5-6.7,3.5-6.9,3.7c-0.2,0.1,3.5-1.8,6.6-3C197,7.5,199,6.9,199.1,6.9z M283,6c-0.1,0.1-1.9,1.1-4.8,2.5s-6.9,2.8-6.7,2.7	c0.2,0,3.5-0.6,7.4-2.5C282.8,6.8,283.1,5.9,283,6z M31.3,11.6c0.1-0.2-1.9-0.2-4.5-1.2s-5.4-1.6-7.8-2C15,7.6,7.3,8.5,7.7,8.6	C8,8.7,15.9,8.3,20.2,9.3c2.2,0.5,2.4,0.5,5.7,1.6S31.2,11.9,31.3,11.6z M73,9.2c0.4-0.1,3.5-1.6,8.4-2.6c4.9-1.1,8.9-0.5,8.9-0.8 c0-0.3-1-0.9-6.2-0.3S72.6,9.3,73,9.2z M71.6,6.7C71.8,6.8,75,5.4,77.3,5c2.3-0.3,1.9-0.5,1.9-0.6c0-0.1-1.1-0.2-2.7,0.2	C74.8,5.1,71.4,6.6,71.6,6.7z M93.6,4.4c0.1,0.2,3.5,0.8,5.6,1.8c2.1,1,1.8,0.6,1.9,0.5c0.1-0.1-0.8-0.8-2.4-1.3	C97.1,4.8,93.5,4.2,93.6,4.4z M65.4,11.1c-0.1,0.3,0.3,0.5,1.9-0.2s2.6-1.3,2.2-1.2s-0.9,0.4-2.5,0.8C65.3,10.9,65.5,10.8,65.4,11.1 z M34.5,12.4c-0.2,0,2.1,0.8,3.3,0.9c1.2,0.1,2,0.1,2-0.2c0-0.3-0.1-0.5-1.6-0.4C36.6,12.8,34.7,12.4,34.5,12.4z M152.2,21.1 c-0.1,0.1-2.4-0.3-7.5-0.3c-5,0-13.6-2.4-17.2-3.5c-3.6-1.1,10,3.9,16.5,4.1C150.5,21.6,152.3,21,152.2,21.1z"
       ></path>
       <path
-        class="pn0it-svg"
+        class="lpk0a-svg"
         d="M269.6,18c-0.1-0.1-4.6,0.3-7.2,0c-7.3-0.7-17-3.2-16.6-2.9c0.4,0.3,13.7,3.1,17,3.3	C267.7,18.8,269.7,18,269.6,18z"
       ></path>
       <path
-        class="pn0it-svg"
+        class="lpk0a-svg"
         d="M227.4,9.8c-0.2-0.1-4.5-1-9.5-1.2c-5-0.2-12.7,0.6-12.3,0.5c0.3-0.1,5.9-1.8,13.3-1.2	S227.6,9.9,227.4,9.8z"
       ></path>
       <path
-        class="pn0it-svg"
+        class="lpk0a-svg"
         d="M204.5,13.4c-0.1-0.1,2-1,3.2-1.1c1.2-0.1,2,0,2,0.3c0,0.3-0.1,0.5-1.6,0.4	C206.4,12.9,204.6,13.5,204.5,13.4z"
       ></path>
       <path
-        class="pn0it-svg"
+        class="lpk0a-svg"
         d="M201,10.6c0-0.1-4.4,1.2-6.3,2.2c-1.9,0.9-6.2,3.1-6.1,3.1c0.1,0.1,4.2-1.6,6.3-2.6	S201,10.7,201,10.6z"
       ></path>
       <path
-        class="pn0it-svg"
+        class="lpk0a-svg"
         d="M154.5,26.7c-0.1-0.1-4.6,0.3-7.2,0c-7.3-0.7-17-3.2-16.6-2.9c0.4,0.3,13.7,3.1,17,3.3	C152.6,27.5,154.6,26.8,154.5,26.7z"
       ></path>
       <path
-        class="pn0it-svg"
+        class="lpk0a-svg"
         d="M41.9,19.3c0,0,1.2-0.3,2.9-0.1c1.7,0.2,5.8,0.9,8.2,0.7c4.2-0.4,7.4-2.7,7-2.6	c-0.4,0-4.3,2.2-8.6,1.9c-1.8-0.1-5.1-0.5-6.7-0.4S41.9,19.3,41.9,19.3z"
       ></path>
       <path
-        class="pn0it-svg"
+        class="lpk0a-svg"
         d="M75.5,12.6c0.2,0.1,2-0.8,4.3-1.1c2.3-0.2,2.1-0.3,2.1-0.5c0-0.1-1.8-0.4-3.4,0	C76.9,11.5,75.3,12.5,75.5,12.6z"
       ></path>
       <path
-        class="pn0it-svg"
+        class="lpk0a-svg"
         d="M15.6,13.2c0-0.1,4.3,0,6.7,0.5c2.4,0.5,5,1.9,5,2c0,0.1-2.7-0.8-5.1-1.4	C19.9,13.7,15.7,13.3,15.6,13.2z"
       ></path>
     </svg>
   </div>
-  <div class="pn0it-bg"></div>
+  <div class="lpk0a-bg"></div>
 </div>
 
 <style>
-  .pn0it-body {
+  .lpk0a-body {
     min-height: 200px !important;
     display: flex;
     align-items: center;
@@ -947,7 +718,7 @@ var swiper = new Swiper('.wyvul', jsonslider);
     color: #fff;
     width: var(--max);
   }
-  .pn0it-body-title {
+  .lpk0a-body-title {
     font-size: 36px;
     font-weight: bold;
     color: #165858;
@@ -958,23 +729,23 @@ var swiper = new Swiper('.wyvul', jsonslider);
       0 0 1em white,
       0 0 0.2em white;
   }
-  .pn0it-body-form {
+  .lpk0a-body-form {
     width: var(--max);
     display: flex;
     gap: 10px;
     border-radius: 10px;
   }
-  .pn0it-body-chile {
+  .lpk0a-body-chile {
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
   }
-  .pn0it-body-chile > div {
+  .lpk0a-body-chile > div {
     width: 100% !important;
   }
-  .pn0it-body-form-button {
+  .lpk0a-body-form-button {
     background-color: #165858;
     border-radius: 10px;
     margin-top: 15px;
@@ -984,7 +755,7 @@ var swiper = new Swiper('.wyvul', jsonslider);
     width: 100%;
     padding: 20px 0px 20px 0px;
   }
-  .pn0it2 {
+  .lpk0a2 {
     margin-top: 10px;
     margin-bottom: 10px;
     position: relative;
@@ -994,22 +765,22 @@ var swiper = new Swiper('.wyvul', jsonslider);
     justify-content: center;
     overflow: hidden;
   }
-  .pn0it {
+  .lpk0a {
     display: flex;
     flex-direction: column;
     /* 0.5 değeri opaklık seviyesini belirler, 0 ile 1 arasında değer alır */
   }
-  .pn0it > svg {
+  .lpk0a > svg {
     width: 100vw;
   }
-  .pn0itbotton {
+  .lpk0abotton {
     transform: scaleY(-1);
     margin-bottom: -1px;
   }
-  .pn0it-svg {
+  .lpk0a-svg {
     fill: #fff;
   }
-  .pn0it-bg {
+  .lpk0a-bg {
     background-image: url('/img/zw1v5e/bg.jpg') !important;
     background-size: cover;
     background-position: center center;
@@ -1024,6 +795,259 @@ var swiper = new Swiper('.wyvul', jsonslider);
     z-index: -1;
   }
   @media screen and (max-width: 1024px) {
+  }
+</style>
+
+
+<div class="sliderxpsk6gbody">
+
+
+<div class="sliderxpsk6g">
+  <div class="sliderxpsk6gtitle">Partnerlerimiz</div>
+  <div class="psk6g swiper-container">
+    <div class="swiper-wrapper"><div href="/img/jyfy3k/undefined"  class="swiper-slide">
+      <div class="swiper-slide33">
+        <img src="/img/jyfy3k/1.png" class="modulchildpsk6g2" />
+      </div>
+    </div><div href="/img/jyfy3k/undefined"  class="swiper-slide">
+      <div class="swiper-slide33">
+        <img src="/img/jyfy3k/2.png" class="modulchildpsk6g2" />
+      </div>
+    </div><div href="/img/jyfy3k/undefined"  class="swiper-slide">
+      <div class="swiper-slide33">
+        <img src="/img/jyfy3k/3.png" class="modulchildpsk6g2" />
+      </div>
+    </div><div href="/img/jyfy3k/undefined"  class="swiper-slide">
+      <div class="swiper-slide33">
+        <img src="/img/jyfy3k/4.png" class="modulchildpsk6g2" />
+      </div>
+    </div><div href="/img/jyfy3k/undefined"  class="swiper-slide">
+      <div class="swiper-slide33">
+        <img src="/img/jyfy3k/5.png" class="modulchildpsk6g2" />
+      </div>
+    </div><div href="/img/jyfy3k/undefined"  class="swiper-slide">
+      <div class="swiper-slide33">
+        <img src="/img/jyfy3k/6.png" class="modulchildpsk6g2" />
+      </div>
+    </div></div>
+    <div class="swiper-button-next swiper-button-next-psk6g"></div>
+    <div class="swiper-button-prev swiper-button-prev-psk6g"></div>
+    <div class="swiper-pagination-psk6g"></div>
+  </div>
+</div>
+
+</div>
+
+
+<style>
+
+  .sliderxpsk6gbody{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #165858;
+    padding: 10px 0px 10px 0px;
+  }
+
+  .sliderxpsk6g {
+    width: var(--max);
+    margin: 10px 0px 10px 0px;
+  }
+  .swiper-pagination-psk6g {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px !important;
+  }
+  .sliderxpsk6gtitle {
+    width: 100%;
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+  }
+  @media screen and (max-width: 1024px) {
+    .sliderxpsk6g {
+      width: 100%;
+    }
+  }
+  .swiper-button-prev-psk6g,
+  .swiper-button-next-psk6g {
+    color: #000;
+    font-size: 28px;
+    font-weight: bold;
+    z-index: 10;
+    opacity: 0.4;
+  }
+ 
+  .swiper-slide > .swiper-slide33 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    cursor: pointer;
+  
+  }
+  .psk6g {
+    overflow-x: auto;
+  }
+  .psk6g::-webkit-scrollbar {
+    display: none;
+  }
+  .modulchildpsk6g2 {
+    text-align: -webkit-center;
+    width: 100%;
+    float: left;
+    border-radius: 8px;
+    box-shadow: 0px 5px 11px 0px rgba(0, 0, 0, 0.4);
+    background-color: #fff;
+    filter: grayscale(1);
+  }
+  .modulchildpsk6g2:hover {
+    filter: grayscale(0);
+  }
+  .modulchildpsk6g3 {
+    float: left;
+    padding: 5px;
+  }
+</style>
+
+<script>
+var jsonslider = {
+  slidesPerView: 2,
+  simulateTouch: true,
+  loop: true,
+  pagination: {
+    el: '.swiper-pagination-psk6g',
+    clickable: true,
+  },
+  navigation: {
+      nextEl: '.swiper-button-next-psk6g',
+      prevEl: '.swiper-button-prev-psk6g',
+    },
+  breakpoints: {
+    480: {
+      slidesPerView: 2,
+    },
+    640: {
+      slidesPerView: 3,
+    },
+    768: {
+      slidesPerView: 4,
+    },
+    960: {
+      slidesPerView: '6',  // Replace '6' with a number
+    },
+  },
+};
+
+if ("false" === "true") {
+
+} else {
+  document.querySelector('.swiper-button-next-psk6g').style.display = 'none';
+  document.querySelector('.swiper-button-prev-psk6g').style.display = 'none';
+}
+var swiper = new Swiper('.psk6g', jsonslider);
+
+</script>
+<div class="sld4v">
+  <div class="sld4vbody">
+    <img src="/img/map.png" />
+    <div class="sld4vcontainer">
+      <div class="sld4vcontainerbody">
+        <div class="sld4vcontainertitle">Bize Ulaşın</div>
+        <div class="sld4vcontainerlist">
+   <div>
+    <span class="material-symbols-outlined">
+         phone
+    </span>
+  </div>
+    <div>0531 679 10 14</div>
+  </div><div class="sld4vcontainerlist">
+   <div>
+    <span class="material-symbols-outlined">
+         email
+    </span>
+  </div>
+    <div>info@ajansmobil.com</div>
+  </div>
+      </div>
+    </div>
+  </div>
+  <div class="sld4v-background-overlay"></div>
+</div>
+
+<style>
+  .sld4v {
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .sld4vcontainertitle {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  .sld4vcontainerlist {
+    padding: 5px;
+    display: flex;
+    border-radius: 5px;
+    border-bottom: solid 1px;
+    gap: 15px;
+  }
+  .sld4vcontainerlist > div {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+  }
+  .sld4vcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .sld4vcontainerbody {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .sld4vbody > * {
+    width: 50%;
+    background-color: #ffffff90;
+  }
+  .sld4vbody {
+    width: calc(var(--max) - 20px);
+    background-color: #e9e9e9d9;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 10px;
+  }
+  .sld4v-background-overlay {
+    position: absolute;
+    /* Position overlay absolutely */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/img/map.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  @media screen and (max-width: 1024px) {
+    .sld4vbody > * {
+      width: 100%;
+      background-color: #ffffff90;
+    }
+    .sld4vbody {
+      flex-direction: column;
+      gap: 20px;
+    }
   }
 </style>
 </div>

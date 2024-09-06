@@ -33,26 +33,27 @@
     
   </head>
   <body>
-    <div id="header"><div class="jspg9">
-  <div class="jspg9title">
-    <div class="jspg9titlebody">
-      <div class="jspg9titlebodytitle">
+    <div id="header"><div class="d5d0t">
+  <div class="d5d0ttitle">
+    <div class="d5d0ttitlebody">
+      <div class="d5d0ttitlebodytitle">
         Ajans Mobil Web Sitemize Hoşgeldiniz
       </div>
-      <div class="jspg9titlebodylang">
+      <div class="d5d0ttitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="jspg9body">
-    <a href="/tr"><img src="/img/logo.svg" class="jspg9bodylogo" /></a>
-  </div>
-  <div class="jspg9menubody">
-    <div class="jspg9menu">
-      <div class="jspg9menulistbody">
-        <div class="jspg9menulist">
+
+  <div class="d5d0tChildren">
+    <div class="d5d0tbody">
+      <a href="/tr"><img src="/img/logo.svg" class="d5d0tbodylogo" /></a>
+    </div>
+    <div class="d5d0tmenu">
+      <div class="d5d0tmenulistbody">
+        <div class="d5d0tmenulist">
           <ul>
             <a href="/tr/">Anasayfa </a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/referanslari/">Referansları</a><a href="/tr/blog/">Blog</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
@@ -63,69 +64,85 @@
 </div>
 
 <style>
-  .jspg9 {
+  .d5d0tChildren {
+    display: flex;
+    width: var(--max);
+    gap: 15px;
+    align-items: center;
+  }
+
+  .d5d0t {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .jspg9title {
+
+  .d5d0ttitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .jspg9titlebody {
+
+  .d5d0ttitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .jspg9titlebodytitle {
+
+  .d5d0ttitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .jspg9titlebodylang {
+
+  .d5d0ttitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .jspg9titlebodylang ul {
+
+  .d5d0ttitlebodylang ul {
     display: flex;
     gap: 5px;
   }
-  .jspg9body {
-    width: var(--max);
+
+  .d5d0tbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
-  .jspg9menu {
+
+  .d5d0tmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
-    width: var(--max);
+    width: 100%;
   }
-  .jspg9menulist {
+
+  .d5d0tmenulist {
     width: calc(100% - 20px);
     background-color: #165858;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .jspg9menubody {
+
+  .d5d0tmenubody {
     width: 100%;
     background-color: #165858;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .jspg9menulist ul {
+
+  .d5d0tmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -134,7 +151,8 @@
     padding: 0;
     overflow-x: auto;
   }
-  .jspg9menulist ul a {
+
+  .d5d0tmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -145,40 +163,46 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .jspg9menulist ul a:hover {
+
+  .d5d0tmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
-  .jspg9menulistbody {
+
+  .d5d0tmenulistbody {
     width: 100%;
   }
-  .jspg9bodylogo {
+
+  .d5d0tbodylogo {
     height: 100px;
     max-width: 90vw;
     max-height: 100px;
   }
+
   @media screen and (max-width: 1024px) {
-    .jspg9menu {
+    .d5d0tmenu {
       overflow-x: auto;
     }
-    .jspg9menulist ul {
+
+    .d5d0tmenulist ul {
       flex-direction: row;
     }
-    .jspg9bodylogo {
+
+    .d5d0tbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
   }
+
   @media screen and (max-width: 768px) {
-    .jspg9menulist ul a {
+    .d5d0tmenulist ul a {
       font-size: 14px;
     }
   }
-</style>
-</div>
+</style></div>
     <div id="content"></div>
     <div id="footer"><footer class="footer">
   <div class="waves">

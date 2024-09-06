@@ -33,26 +33,27 @@
     
   </head>
   <body>
-    <div id="header"><div class="k2vl8">
-  <div class="k2vl8title">
-    <div class="k2vl8titlebody">
-      <div class="k2vl8titlebodytitle">
+    <div id="header"><div class="fuaco">
+  <div class="fuacotitle">
+    <div class="fuacotitlebody">
+      <div class="fuacotitlebodytitle">
         Ajans Mobil Web Sitemize Hoşgeldiniz
       </div>
-      <div class="k2vl8titlebodylang">
+      <div class="fuacotitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="k2vl8body">
-    <a href="/tr"><img src="/img/logo.svg" class="k2vl8bodylogo" /></a>
-  </div>
-  <div class="k2vl8menubody">
-    <div class="k2vl8menu">
-      <div class="k2vl8menulistbody">
-        <div class="k2vl8menulist">
+
+  <div class="fuacoChildren">
+    <div class="fuacobody">
+      <a href="/tr"><img src="/img/logo.svg" class="fuacobodylogo" /></a>
+    </div>
+    <div class="fuacomenu">
+      <div class="fuacomenulistbody">
+        <div class="fuacomenulist">
           <ul>
             <a href="/tr/">Anasayfa </a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/referanslari/">Referansları</a><a href="/tr/blog/">Blog</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
@@ -63,69 +64,85 @@
 </div>
 
 <style>
-  .k2vl8 {
+  .fuacoChildren {
+    display: flex;
+    width: var(--max);
+    gap: 15px;
+    align-items: center;
+  }
+
+  .fuaco {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .k2vl8title {
+
+  .fuacotitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .k2vl8titlebody {
+
+  .fuacotitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .k2vl8titlebodytitle {
+
+  .fuacotitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .k2vl8titlebodylang {
+
+  .fuacotitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .k2vl8titlebodylang ul {
+
+  .fuacotitlebodylang ul {
     display: flex;
     gap: 5px;
   }
-  .k2vl8body {
-    width: var(--max);
+
+  .fuacobody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
-  .k2vl8menu {
+
+  .fuacomenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
-    width: var(--max);
+    width: 100%;
   }
-  .k2vl8menulist {
+
+  .fuacomenulist {
     width: calc(100% - 20px);
     background-color: #165858;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .k2vl8menubody {
+
+  .fuacomenubody {
     width: 100%;
     background-color: #165858;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .k2vl8menulist ul {
+
+  .fuacomenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -134,7 +151,8 @@
     padding: 0;
     overflow-x: auto;
   }
-  .k2vl8menulist ul a {
+
+  .fuacomenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -145,121 +163,47 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .k2vl8menulist ul a:hover {
+
+  .fuacomenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
-  .k2vl8menulistbody {
+
+  .fuacomenulistbody {
     width: 100%;
   }
-  .k2vl8bodylogo {
+
+  .fuacobodylogo {
     height: 100px;
     max-width: 90vw;
     max-height: 100px;
   }
+
   @media screen and (max-width: 1024px) {
-    .k2vl8menu {
+    .fuacomenu {
       overflow-x: auto;
     }
-    .k2vl8menulist ul {
+
+    .fuacomenulist ul {
       flex-direction: row;
     }
-    .k2vl8bodylogo {
+
+    .fuacobodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
   }
+
   @media screen and (max-width: 768px) {
-    .k2vl8menulist ul a {
+    .fuacomenulist ul a {
       font-size: 14px;
     }
   }
-</style>
-</div>
-    <div id="content"><div class="fpeeu-title f36">
-  <span>Ai Çözümler</span>
-</div>
-
-<div class="fpeeu">
-  <div class="fpeeu-body">Ajan Mobil, Ai ve yazılım çözümleri sunuyoruz.</div>
-  <div class="fpeeu-img">
-    <img src="/page/fxco5ofht7/w864p.png" width="100%" />
-  </div>
-</div>
-
-<style>
-  .fpeeu-title {
-    width: 100%;
-    height: 200px;
-    background-color: #000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    color: #fff;
-    font-weight: bold;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  }
-  .fpeeu-title::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('/page/fxco5ofht7/{{bgimg}}');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    opacity: 0.5;
-    z-index: 1;
-  }
-  .fpeeu-title span {
-    position: relative;
-    z-index: 2;
-    font-size: 50px;
-  }
-  .fpeeu {
-    width: var(--max);
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    margin-top: 20px;
-  }
-  .fpeeu-body {
-    flex: 2;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  .fpeeu-img {
-    flex: 1;
-    display: flex;
-    align-items: start;
-    justify-content: center;
-  }
-  @media screen and (max-width: 1024px) {
-    .fpeeu {
-      flex-direction: column;
-      width: calc(100% - 10px);
-      padding: 5px;
-      gap: 20px;
-    }
-    .fpeeu-img {
-      width: 100%;
-    }
-    .fpeeu-body {
-      width: 100%;
-    }
-  }
-  #content {
-    justify-content: flex-start;
-  }
-</style>
-</div>
+</style></div>
+    <div id="content">{{body}}</div>
     <div id="footer"><footer class="footer">
   <div class="waves">
     <div class="wave" id="wave1"></div>

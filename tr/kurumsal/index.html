@@ -33,26 +33,27 @@
     
   </head>
   <body>
-    <div id="header"><div class="m8b5a">
-  <div class="m8b5atitle">
-    <div class="m8b5atitlebody">
-      <div class="m8b5atitlebodytitle">
+    <div id="header"><div class="xwk1h">
+  <div class="xwk1htitle">
+    <div class="xwk1htitlebody">
+      <div class="xwk1htitlebodytitle">
         Ajans Mobil Web Sitemize Hoşgeldiniz
       </div>
-      <div class="m8b5atitlebodylang">
+      <div class="xwk1htitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="m8b5abody">
-    <a href="/tr"><img src="/img/logo.svg" class="m8b5abodylogo" /></a>
-  </div>
-  <div class="m8b5amenubody">
-    <div class="m8b5amenu">
-      <div class="m8b5amenulistbody">
-        <div class="m8b5amenulist">
+
+  <div class="xwk1hChildren">
+    <div class="xwk1hbody">
+      <a href="/tr"><img src="/img/logo.svg" class="xwk1hbodylogo" /></a>
+    </div>
+    <div class="xwk1hmenu">
+      <div class="xwk1hmenulistbody">
+        <div class="xwk1hmenulist">
           <ul>
             <a href="/tr/">Anasayfa </a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/referanslari/">Referansları</a><a href="/tr/blog/">Blog</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
@@ -63,69 +64,85 @@
 </div>
 
 <style>
-  .m8b5a {
+  .xwk1hChildren {
+    display: flex;
+    width: var(--max);
+    gap: 15px;
+    align-items: center;
+  }
+
+  .xwk1h {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .m8b5atitle {
+
+  .xwk1htitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .m8b5atitlebody {
+
+  .xwk1htitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .m8b5atitlebodytitle {
+
+  .xwk1htitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .m8b5atitlebodylang {
+
+  .xwk1htitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .m8b5atitlebodylang ul {
+
+  .xwk1htitlebodylang ul {
     display: flex;
     gap: 5px;
   }
-  .m8b5abody {
-    width: var(--max);
+
+  .xwk1hbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
-  .m8b5amenu {
+
+  .xwk1hmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
-    width: var(--max);
+    width: 100%;
   }
-  .m8b5amenulist {
+
+  .xwk1hmenulist {
     width: calc(100% - 20px);
     background-color: #165858;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .m8b5amenubody {
+
+  .xwk1hmenubody {
     width: 100%;
     background-color: #165858;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .m8b5amenulist ul {
+
+  .xwk1hmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -134,7 +151,8 @@
     padding: 0;
     overflow-x: auto;
   }
-  .m8b5amenulist ul a {
+
+  .xwk1hmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -145,40 +163,46 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .m8b5amenulist ul a:hover {
+
+  .xwk1hmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
-  .m8b5amenulistbody {
+
+  .xwk1hmenulistbody {
     width: 100%;
   }
-  .m8b5abodylogo {
+
+  .xwk1hbodylogo {
     height: 100px;
     max-width: 90vw;
     max-height: 100px;
   }
+
   @media screen and (max-width: 1024px) {
-    .m8b5amenu {
+    .xwk1hmenu {
       overflow-x: auto;
     }
-    .m8b5amenulist ul {
+
+    .xwk1hmenulist ul {
       flex-direction: row;
     }
-    .m8b5abodylogo {
+
+    .xwk1hbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
   }
+
   @media screen and (max-width: 768px) {
-    .m8b5amenulist ul a {
+    .xwk1hmenulist ul a {
       font-size: 14px;
     }
   }
-</style>
-</div>
+</style></div>
     <div id="content"></div>
     <div id="footer"><footer class="footer">
   <div class="waves">
