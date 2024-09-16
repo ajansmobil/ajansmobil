@@ -33,13 +33,13 @@
     
   </head>
   <body>
-    <div id="header"><div class="uo5a2">
-  <div class="uo5a2title">
-    <div class="uo5a2titlebody">
-      <div class="uo5a2titlebodytitle">
+    <div id="header"><div class="u03ym">
+  <div class="u03ymtitle">
+    <div class="u03ymtitlebody">
+      <div class="u03ymtitlebodytitle">
         Ajans Mobil Web Sitemize Hoşgeldiniz
       </div>
-      <div class="uo5a2titlebodylang">
+      <div class="u03ymtitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"></a></li>
         </ul>
@@ -47,31 +47,39 @@
     </div>
   </div>
 
-  <div class="uo5a2Children">
-    <div class="uo5a2body">
-      <a href="/tr"><img src="/img/logo.svg" class="uo5a2bodylogo" /></a>
+  <div class="u03ymChildren">
+    <div class="u03ymbody">
+      <a href="/tr"
+        ><img src="/img/logo.svg" class="u03ymbodylogo"
+      /></a>
     </div>
-    <div class="uo5a2menu">
-      <div class="uo5a2menulistbody">
-        <div class="uo5a2menulist">
-          <ul>
-            <a href="/tr/">Anasayfa </a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/referanslari/">Referansları</a><a href="/tr/blog/">Blog</a><a href="/tr/iletisim/">İletişim</a>
-          </ul>
-        </div>
-      </div>
+
+    <div class="u03ymmenumobil">
+      <div class="material-symbols-outlined">menu</div>
+    </div>
+
+    <div class="u03ymmenulist">
+      <ul>
+        <a href="/tr/">Anasayfa </a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/referanslari/">Referansları</a><a href="/tr/bb44xk9jzz/">Hizmetlerimiz</a><a href="/tr/blog/">Blog</a><a href="/tr/iletisim/">İletişim</a>
+      </ul>
     </div>
   </div>
 </div>
 
 <style>
-  .uo5a2Children {
+  .u03ymmenumobil {
+    display: none;
+    cursor: pointer;
+  }
+
+  .u03ymChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .uo5a2 {
+  .u03ym {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -80,7 +88,7 @@
     background-color: #fff;
   }
 
-  .uo5a2title {
+  .u03ymtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -88,7 +96,7 @@
     justify-content: center;
   }
 
-  .uo5a2titlebody {
+  .u03ymtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -96,46 +104,40 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .uo5a2titlebodytitle {
+  .u03ymtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .uo5a2titlebodylang {
+  .u03ymtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .uo5a2titlebodylang ul {
+  .u03ymtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .uo5a2body {
+  .u03ymbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .uo5a2menu {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    width: 100%;
-  }
-
-  .uo5a2menulist {
-    width: calc(100% - 20px);
+  .u03ymmenulist {
+    display: block;
     background-color: #165858;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
   }
 
-  .uo5a2menubody {
+  .u03ymmenubody {
     width: 100%;
     background-color: #165858;
     display: flex;
@@ -143,7 +145,7 @@
     justify-content: center;
   }
 
-  .uo5a2menulist ul {
+  .u03ymmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -153,7 +155,7 @@
     overflow-x: auto;
   }
 
-  .uo5a2menulist ul a {
+  .u03ymmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -165,33 +167,74 @@
     white-space: nowrap;
   }
 
-  .uo5a2menulist ul a:hover {
+  .u03ymmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .uo5a2menulistbody {
-    width: 100%;
-  }
-
-  .uo5a2bodylogo {
+  .u03ymbodylogo {
     height: 100px;
     max-width: 90vw;
     max-height: 100px;
   }
 
+  @media screen and (min-width: 1024px) {
+    .u03ymmenumobil {
+      display: none !important;
+    }
+
+    .u03ymmenulist {
+      display: flex !important;
+    }
+  }
+
   @media screen and (max-width: 1024px) {
-    .uo5a2menu {
+    .u03ymmenumobil {
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      background-color: #165858;
+      width: 100%;
+    }
+
+    .u03ymmenumobil div {
+      font-size: 32px;
+      color: #fff;
+      padding: 5px;
+    }
+
+    .u03ymmenulist {
+      display: none;
+    }
+
+    .u03ymbody {
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .u03ymChildren {
+      width: 100%;
+      gap: 0px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .u03ymmenulist ul a {
+      padding: 10px 0px 10px 0px;
+    }
+
+    .u03ymmenu {
       overflow-x: auto;
     }
 
-    .uo5a2menulist ul {
-      flex-direction: row;
+    .u03ymmenulist ul {
+      flex-direction: column;
     }
 
-    .uo5a2bodylogo {
+    .u03ymbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -199,11 +242,25 @@
   }
 
   @media screen and (max-width: 768px) {
-    .uo5a2menulist ul a {
+    .u03ymmenulist ul a {
       font-size: 14px;
     }
   }
-</style></div>
+</style>
+
+<script>
+  document
+    .querySelector('.u03ymmenumobil')
+    .addEventListener('click', function () {
+      const menu = document.querySelector('.u03ymmenulist');
+      if (menu.style.display === 'flex') {
+        menu.style.display = 'none';
+      } else {
+        menu.style.display = 'flex';
+      }
+    });
+</script>
+</div>
     <div id="content"></div>
     <div id="footer"><footer class="footer">
   <div class="waves">
@@ -235,7 +292,7 @@
     </li>
   </ul>
   <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/tr">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/kurumsal">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/referanslari">Referansları</a></li><li class="menu__item"><a class="menu__link" href="/tr/blog">Blog</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim">İletişim</a></li>
+    <li class="menu__item"><a class="menu__link" href="/tr">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/kurumsal">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/referanslari">Referansları</a></li><li class="menu__item"><a class="menu__link" href="/tr/bb44xk9jzz">Hizmetlerimiz</a></li><li class="menu__item"><a class="menu__link" href="/tr/blog">Blog</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim">İletişim</a></li><li class="menu__item"><a class="menu__link" href="/tr/qeoxcokqmz">Misyon</a></li><li class="menu__item"><a class="menu__link" href="/tr/arkjwyoin6">Vizyon</a></li><li class="menu__item"><a class="menu__link" href="/tr/kyefautw0x">Kişisel Veriler</a></li><li class="menu__item"><a class="menu__link" href="/tr/orcivgdmim">Yasal Uyarı</a></li><li class="menu__item"><a class="menu__link" href="/tr/p0xrohbisc">Çerez Politikası</a></li>
   </ul>
   <p>Ajans Mobil 2024 cognite. &copy;</p>
 </footer>

@@ -33,13 +33,13 @@
     
   </head>
   <body>
-    <div id="header"><div class="jc7a2">
-  <div class="jc7a2title">
-    <div class="jc7a2titlebody">
-      <div class="jc7a2titlebodytitle">
+    <div id="header"><div class="fvu9e">
+  <div class="fvu9etitle">
+    <div class="fvu9etitlebody">
+      <div class="fvu9etitlebodytitle">
         Ajans Mobil Web Sitemize Hoşgeldiniz
       </div>
-      <div class="jc7a2titlebodylang">
+      <div class="fvu9etitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"></a></li>
         </ul>
@@ -47,31 +47,39 @@
     </div>
   </div>
 
-  <div class="jc7a2Children">
-    <div class="jc7a2body">
-      <a href="/tr"><img src="/img/logo.svg" class="jc7a2bodylogo" /></a>
+  <div class="fvu9eChildren">
+    <div class="fvu9ebody">
+      <a href="/tr"
+        ><img src="/img/logo.svg" class="fvu9ebodylogo"
+      /></a>
     </div>
-    <div class="jc7a2menu">
-      <div class="jc7a2menulistbody">
-        <div class="jc7a2menulist">
-          <ul>
-            <a href="/tr/">Anasayfa </a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/referanslari/">Referansları</a><a href="/tr/blog/">Blog</a><a href="/tr/iletisim/">İletişim</a>
-          </ul>
-        </div>
-      </div>
+
+    <div class="fvu9emenumobil">
+      <div class="material-symbols-outlined">menu</div>
+    </div>
+
+    <div class="fvu9emenulist">
+      <ul>
+        <a href="/tr/">Anasayfa </a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/referanslari/">Referansları</a><a href="/tr/bb44xk9jzz/">Hizmetlerimiz</a><a href="/tr/blog/">Blog</a><a href="/tr/iletisim/">İletişim</a>
+      </ul>
     </div>
   </div>
 </div>
 
 <style>
-  .jc7a2Children {
+  .fvu9emenumobil {
+    display: none;
+    cursor: pointer;
+  }
+
+  .fvu9eChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .jc7a2 {
+  .fvu9e {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -80,7 +88,7 @@
     background-color: #fff;
   }
 
-  .jc7a2title {
+  .fvu9etitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -88,7 +96,7 @@
     justify-content: center;
   }
 
-  .jc7a2titlebody {
+  .fvu9etitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -96,46 +104,40 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .jc7a2titlebodytitle {
+  .fvu9etitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .jc7a2titlebodylang {
+  .fvu9etitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .jc7a2titlebodylang ul {
+  .fvu9etitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .jc7a2body {
+  .fvu9ebody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .jc7a2menu {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    width: 100%;
-  }
-
-  .jc7a2menulist {
-    width: calc(100% - 20px);
+  .fvu9emenulist {
+    display: block;
     background-color: #165858;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
   }
 
-  .jc7a2menubody {
+  .fvu9emenubody {
     width: 100%;
     background-color: #165858;
     display: flex;
@@ -143,7 +145,7 @@
     justify-content: center;
   }
 
-  .jc7a2menulist ul {
+  .fvu9emenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -153,7 +155,7 @@
     overflow-x: auto;
   }
 
-  .jc7a2menulist ul a {
+  .fvu9emenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -165,33 +167,74 @@
     white-space: nowrap;
   }
 
-  .jc7a2menulist ul a:hover {
+  .fvu9emenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .jc7a2menulistbody {
-    width: 100%;
-  }
-
-  .jc7a2bodylogo {
+  .fvu9ebodylogo {
     height: 100px;
     max-width: 90vw;
     max-height: 100px;
   }
 
+  @media screen and (min-width: 1024px) {
+    .fvu9emenumobil {
+      display: none !important;
+    }
+
+    .fvu9emenulist {
+      display: flex !important;
+    }
+  }
+
   @media screen and (max-width: 1024px) {
-    .jc7a2menu {
+    .fvu9emenumobil {
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      background-color: #165858;
+      width: 100%;
+    }
+
+    .fvu9emenumobil div {
+      font-size: 32px;
+      color: #fff;
+      padding: 5px;
+    }
+
+    .fvu9emenulist {
+      display: none;
+    }
+
+    .fvu9ebody {
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .fvu9eChildren {
+      width: 100%;
+      gap: 0px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .fvu9emenulist ul a {
+      padding: 10px 0px 10px 0px;
+    }
+
+    .fvu9emenu {
       overflow-x: auto;
     }
 
-    .jc7a2menulist ul {
-      flex-direction: row;
+    .fvu9emenulist ul {
+      flex-direction: column;
     }
 
-    .jc7a2bodylogo {
+    .fvu9ebodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -199,11 +242,25 @@
   }
 
   @media screen and (max-width: 768px) {
-    .jc7a2menulist ul a {
+    .fvu9emenulist ul a {
       font-size: 14px;
     }
   }
-</style></div>
+</style>
+
+<script>
+  document
+    .querySelector('.fvu9emenumobil')
+    .addEventListener('click', function () {
+      const menu = document.querySelector('.fvu9emenulist');
+      if (menu.style.display === 'flex') {
+        menu.style.display = 'none';
+      } else {
+        menu.style.display = 'flex';
+      }
+    });
+</script>
+</div>
     <div id="content"></div>
     <div id="footer"><footer class="footer">
   <div class="waves">
@@ -235,7 +292,7 @@
     </li>
   </ul>
   <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/tr">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/kurumsal">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/referanslari">Referansları</a></li><li class="menu__item"><a class="menu__link" href="/tr/blog">Blog</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim">İletişim</a></li>
+    <li class="menu__item"><a class="menu__link" href="/tr">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/kurumsal">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/referanslari">Referansları</a></li><li class="menu__item"><a class="menu__link" href="/tr/bb44xk9jzz">Hizmetlerimiz</a></li><li class="menu__item"><a class="menu__link" href="/tr/blog">Blog</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim">İletişim</a></li><li class="menu__item"><a class="menu__link" href="/tr/qeoxcokqmz">Misyon</a></li><li class="menu__item"><a class="menu__link" href="/tr/arkjwyoin6">Vizyon</a></li><li class="menu__item"><a class="menu__link" href="/tr/kyefautw0x">Kişisel Veriler</a></li><li class="menu__item"><a class="menu__link" href="/tr/orcivgdmim">Yasal Uyarı</a></li><li class="menu__item"><a class="menu__link" href="/tr/p0xrohbisc">Çerez Politikası</a></li>
   </ul>
   <p>Ajans Mobil 2024 cognite. &copy;</p>
 </footer>

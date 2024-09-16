@@ -33,13 +33,13 @@
     
   </head>
   <body>
-    <div id="header"><div class="xeald">
-  <div class="xealdtitle">
-    <div class="xealdtitlebody">
-      <div class="xealdtitlebodytitle">
+    <div id="header"><div class="s52md">
+  <div class="s52mdtitle">
+    <div class="s52mdtitlebody">
+      <div class="s52mdtitlebodytitle">
         Ajans Mobil Web Sitemize Hoşgeldiniz
       </div>
-      <div class="xealdtitlebodylang">
+      <div class="s52mdtitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"></a></li>
         </ul>
@@ -47,31 +47,39 @@
     </div>
   </div>
 
-  <div class="xealdChildren">
-    <div class="xealdbody">
-      <a href="/tr"><img src="/img/logo.svg" class="xealdbodylogo" /></a>
+  <div class="s52mdChildren">
+    <div class="s52mdbody">
+      <a href="/tr"
+        ><img src="/img/logo.svg" class="s52mdbodylogo"
+      /></a>
     </div>
-    <div class="xealdmenu">
-      <div class="xealdmenulistbody">
-        <div class="xealdmenulist">
-          <ul>
-            <a href="/tr/">Anasayfa </a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/referanslari/">Referansları</a><a href="/tr/blog/">Blog</a><a href="/tr/iletisim/">İletişim</a>
-          </ul>
-        </div>
-      </div>
+
+    <div class="s52mdmenumobil">
+      <div class="material-symbols-outlined">menu</div>
+    </div>
+
+    <div class="s52mdmenulist">
+      <ul>
+        <a href="/tr/">Anasayfa </a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/referanslari/">Referansları</a><a href="/tr/bb44xk9jzz/">Hizmetlerimiz</a><a href="/tr/blog/">Blog</a><a href="/tr/iletisim/">İletişim</a>
+      </ul>
     </div>
   </div>
 </div>
 
 <style>
-  .xealdChildren {
+  .s52mdmenumobil {
+    display: none;
+    cursor: pointer;
+  }
+
+  .s52mdChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .xeald {
+  .s52md {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -80,7 +88,7 @@
     background-color: #fff;
   }
 
-  .xealdtitle {
+  .s52mdtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -88,7 +96,7 @@
     justify-content: center;
   }
 
-  .xealdtitlebody {
+  .s52mdtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -96,46 +104,40 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .xealdtitlebodytitle {
+  .s52mdtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .xealdtitlebodylang {
+  .s52mdtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .xealdtitlebodylang ul {
+  .s52mdtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .xealdbody {
+  .s52mdbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .xealdmenu {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    width: 100%;
-  }
-
-  .xealdmenulist {
-    width: calc(100% - 20px);
+  .s52mdmenulist {
+    display: block;
     background-color: #165858;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
   }
 
-  .xealdmenubody {
+  .s52mdmenubody {
     width: 100%;
     background-color: #165858;
     display: flex;
@@ -143,7 +145,7 @@
     justify-content: center;
   }
 
-  .xealdmenulist ul {
+  .s52mdmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -153,7 +155,7 @@
     overflow-x: auto;
   }
 
-  .xealdmenulist ul a {
+  .s52mdmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -165,33 +167,74 @@
     white-space: nowrap;
   }
 
-  .xealdmenulist ul a:hover {
+  .s52mdmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .xealdmenulistbody {
-    width: 100%;
-  }
-
-  .xealdbodylogo {
+  .s52mdbodylogo {
     height: 100px;
     max-width: 90vw;
     max-height: 100px;
   }
 
+  @media screen and (min-width: 1024px) {
+    .s52mdmenumobil {
+      display: none !important;
+    }
+
+    .s52mdmenulist {
+      display: flex !important;
+    }
+  }
+
   @media screen and (max-width: 1024px) {
-    .xealdmenu {
+    .s52mdmenumobil {
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      background-color: #165858;
+      width: 100%;
+    }
+
+    .s52mdmenumobil div {
+      font-size: 32px;
+      color: #fff;
+      padding: 5px;
+    }
+
+    .s52mdmenulist {
+      display: none;
+    }
+
+    .s52mdbody {
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .s52mdChildren {
+      width: 100%;
+      gap: 0px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .s52mdmenulist ul a {
+      padding: 10px 0px 10px 0px;
+    }
+
+    .s52mdmenu {
       overflow-x: auto;
     }
 
-    .xealdmenulist ul {
-      flex-direction: row;
+    .s52mdmenulist ul {
+      flex-direction: column;
     }
 
-    .xealdbodylogo {
+    .s52mdbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -199,150 +242,26 @@
   }
 
   @media screen and (max-width: 768px) {
-    .xealdmenulist ul a {
+    .s52mdmenulist ul a {
       font-size: 14px;
     }
   }
-</style></div>
-    <div id="content"><div class="xnrym-title f36">
-  <span>Ai Çözümler</span>
-</div>
-
-<div class="xnrym">
-  <div class="xnrym-menu"><a   href="/tr/kurumsal" >Kurumsal</a><a   href="/tr/referanslari" >Referansları</a><a   href="/tr/blog" >Blog</a><a   href="/tr/iletisim" >İletişim</a></div>
-  <div class="xnrym-desc">
-    <div class="xnrym-desc-body">
-      <div class="xnrym-img">
-        <img src="/page/fxco5ofht7/w864p.png" width="100%" />
-      </div>
-      
-    </div>
-    <div class="xnrym-body"><h1>Ajan Mobil, Ai ve yazılım çözümleri sunuyoruz.</h1></div>
-  </div>
-</div>
-
-<style>
-  #content {
-    justify-content: start;
-  }
-  .xnrym {
-    width: var(--max);
-    margin-top: 20px;
-    gap: 10px;
-    float: left;
-  }
-  .xnrym-menu {
-    width: 200px;
-    background-color: #e0e0e0;
-    border-radius: 5px;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    float: left;
-  }
-  .xnrym-desc {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    float: right;
-  }
-  .xnrym-menu > a {
-    background-color: #fff;
-    padding: 10px;
-    float: left;
-  }
-  .xnrym-menu > .active {
-    background-color: #1e3046;
-    color: #fff;
-    display: flex;
-  }
-  .xnrym-desc-menu {
-    width: 200px;
-    background-color: #1e3046;
-    display: flex;
-    flex-direction: column;
-    border-radius: 5px;
-  }
-  .xnrym-desc-menu > div {
-    padding: 5px;
-    border-radius: 5px;
-    background-color: #fff;
-    margin: 5px;
-  }
-  .xnrym-desc-body {
-    display: flex;
-    justify-content: space-between;
-  }
-  .xnrym-title {
-    width: 100%;
-    height: 200px;
-    background-color: #000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    color: #fff;
-    font-weight: bold;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  }
-  .xnrym-title::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('/page/fxco5ofht7/{{bgimg}}');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    opacity: 0.5;
-    z-index: 1;
-  }
-  .xnrym-title span {
-    position: relative;
-    z-index: 2;
-    font-size: 50px;
-  }
-  .xnrym-body {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  .xnrym-img {
-    display: flex;
-    align-items: start;
-    justify-content: center;
-    width: calc(var(--max) - 460px);
-  }
-  @media screen and (min-width: 1024px) {
-    .xnrym-desc {
-      width: calc(var(--max) - 240px);
-    }
-  }
-  @media screen and (max-width: 1024px) {
-    .xnrym {
-      flex-direction: column;
-      width: calc(100% - 10px);
-      padding: 5px;
-      gap: 20px;
-    }
-    .xnrym-img {
-      width: 100%;
-    }
-    .xnrym-body {
-      width: 100%;
-    }
-    .xnrym-menu {
-      display: none;
-    }
-    .xnrym-desc {
-      width: 100% !important;
-    }
-  }
 </style>
+
+<script>
+  document
+    .querySelector('.s52mdmenumobil')
+    .addEventListener('click', function () {
+      const menu = document.querySelector('.s52mdmenulist');
+      if (menu.style.display === 'flex') {
+        menu.style.display = 'none';
+      } else {
+        menu.style.display = 'flex';
+      }
+    });
+</script>
 </div>
+    <div id="content">{{body}}</div>
     <div id="footer"><footer class="footer">
   <div class="waves">
     <div class="wave" id="wave1"></div>
@@ -373,7 +292,7 @@
     </li>
   </ul>
   <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/tr">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/kurumsal">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/referanslari">Referansları</a></li><li class="menu__item"><a class="menu__link" href="/tr/blog">Blog</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim">İletişim</a></li>
+    <li class="menu__item"><a class="menu__link" href="/tr">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/kurumsal">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/referanslari">Referansları</a></li><li class="menu__item"><a class="menu__link" href="/tr/bb44xk9jzz">Hizmetlerimiz</a></li><li class="menu__item"><a class="menu__link" href="/tr/blog">Blog</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim">İletişim</a></li><li class="menu__item"><a class="menu__link" href="/tr/qeoxcokqmz">Misyon</a></li><li class="menu__item"><a class="menu__link" href="/tr/arkjwyoin6">Vizyon</a></li><li class="menu__item"><a class="menu__link" href="/tr/kyefautw0x">Kişisel Veriler</a></li><li class="menu__item"><a class="menu__link" href="/tr/orcivgdmim">Yasal Uyarı</a></li><li class="menu__item"><a class="menu__link" href="/tr/p0xrohbisc">Çerez Politikası</a></li>
   </ul>
   <p>Ajans Mobil 2024 cognite. &copy;</p>
 </footer>

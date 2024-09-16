@@ -33,13 +33,13 @@
     
   </head>
   <body>
-    <div id="header"><div class="vyr3j">
-  <div class="vyr3jtitle">
-    <div class="vyr3jtitlebody">
-      <div class="vyr3jtitlebodytitle">
+    <div id="header"><div class="ez9z6">
+  <div class="ez9z6title">
+    <div class="ez9z6titlebody">
+      <div class="ez9z6titlebodytitle">
         Ajans Mobil Web Sitemize Hoşgeldiniz
       </div>
-      <div class="vyr3jtitlebodylang">
+      <div class="ez9z6titlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"></a></li>
         </ul>
@@ -47,31 +47,39 @@
     </div>
   </div>
 
-  <div class="vyr3jChildren">
-    <div class="vyr3jbody">
-      <a href="/tr"><img src="/img/logo.svg" class="vyr3jbodylogo" /></a>
+  <div class="ez9z6Children">
+    <div class="ez9z6body">
+      <a href="/tr"
+        ><img src="/img/logo.svg" class="ez9z6bodylogo"
+      /></a>
     </div>
-    <div class="vyr3jmenu">
-      <div class="vyr3jmenulistbody">
-        <div class="vyr3jmenulist">
-          <ul>
-            <a href="/tr/">Anasayfa </a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/referanslari/">Referansları</a><a href="/tr/blog/">Blog</a><a href="/tr/iletisim/">İletişim</a>
-          </ul>
-        </div>
-      </div>
+
+    <div class="ez9z6menumobil">
+      <div class="material-symbols-outlined">menu</div>
+    </div>
+
+    <div class="ez9z6menulist">
+      <ul>
+        <a href="/tr/">Anasayfa </a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/referanslari/">Referansları</a><a href="/tr/bb44xk9jzz/">Hizmetlerimiz</a><a href="/tr/blog/">Blog</a><a href="/tr/iletisim/">İletişim</a>
+      </ul>
     </div>
   </div>
 </div>
 
 <style>
-  .vyr3jChildren {
+  .ez9z6menumobil {
+    display: none;
+    cursor: pointer;
+  }
+
+  .ez9z6Children {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .vyr3j {
+  .ez9z6 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -80,7 +88,7 @@
     background-color: #fff;
   }
 
-  .vyr3jtitle {
+  .ez9z6title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -88,7 +96,7 @@
     justify-content: center;
   }
 
-  .vyr3jtitlebody {
+  .ez9z6titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -96,46 +104,40 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .vyr3jtitlebodytitle {
+  .ez9z6titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .vyr3jtitlebodylang {
+  .ez9z6titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .vyr3jtitlebodylang ul {
+  .ez9z6titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .vyr3jbody {
+  .ez9z6body {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .vyr3jmenu {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    width: 100%;
-  }
-
-  .vyr3jmenulist {
-    width: calc(100% - 20px);
+  .ez9z6menulist {
+    display: block;
     background-color: #165858;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
   }
 
-  .vyr3jmenubody {
+  .ez9z6menubody {
     width: 100%;
     background-color: #165858;
     display: flex;
@@ -143,7 +145,7 @@
     justify-content: center;
   }
 
-  .vyr3jmenulist ul {
+  .ez9z6menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -153,7 +155,7 @@
     overflow-x: auto;
   }
 
-  .vyr3jmenulist ul a {
+  .ez9z6menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -165,33 +167,74 @@
     white-space: nowrap;
   }
 
-  .vyr3jmenulist ul a:hover {
+  .ez9z6menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .vyr3jmenulistbody {
-    width: 100%;
-  }
-
-  .vyr3jbodylogo {
+  .ez9z6bodylogo {
     height: 100px;
     max-width: 90vw;
     max-height: 100px;
   }
 
+  @media screen and (min-width: 1024px) {
+    .ez9z6menumobil {
+      display: none !important;
+    }
+
+    .ez9z6menulist {
+      display: flex !important;
+    }
+  }
+
   @media screen and (max-width: 1024px) {
-    .vyr3jmenu {
+    .ez9z6menumobil {
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      background-color: #165858;
+      width: 100%;
+    }
+
+    .ez9z6menumobil div {
+      font-size: 32px;
+      color: #fff;
+      padding: 5px;
+    }
+
+    .ez9z6menulist {
+      display: none;
+    }
+
+    .ez9z6body {
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .ez9z6Children {
+      width: 100%;
+      gap: 0px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .ez9z6menulist ul a {
+      padding: 10px 0px 10px 0px;
+    }
+
+    .ez9z6menu {
       overflow-x: auto;
     }
 
-    .vyr3jmenulist ul {
-      flex-direction: row;
+    .ez9z6menulist ul {
+      flex-direction: column;
     }
 
-    .vyr3jbodylogo {
+    .ez9z6bodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -199,12 +242,26 @@
   }
 
   @media screen and (max-width: 768px) {
-    .vyr3jmenulist ul a {
+    .ez9z6menulist ul a {
       font-size: 14px;
     }
   }
-</style><div class="swiper-container zopjj">
-  <div class="swiper-wrapper" id="zopjj"><div class="swiper-slide"><img src="/img/ayn5ph/1.png" /></div></div>
+</style>
+
+<script>
+  document
+    .querySelector('.ez9z6menumobil')
+    .addEventListener('click', function () {
+      const menu = document.querySelector('.ez9z6menulist');
+      if (menu.style.display === 'flex') {
+        menu.style.display = 'none';
+      } else {
+        menu.style.display = 'flex';
+      }
+    });
+</script>
+<div class="swiper-container x50cg">
+  <div class="swiper-wrapper" id="x50cg"><div class="swiper-slide"><img src="/img/ayn5ph/1.png" /></div></div>
   <div class="swiper-button-next"></div>
   <div class="swiper-button-prev"></div>
   <div class="swiper-pagination"></div>
@@ -242,7 +299,7 @@
 </style>
 
 <script>
-  var swiper = new Swiper('.zopjj', {
+  var swiper = new Swiper('.x50cg', {
     slidesPerView: 1,
     spaceBetween: 30,
     loop: true,
@@ -257,17 +314,17 @@
   });
 </script>
 </div>
-    <div id="content"><div class="sliderxli9to">
-  <div class="slider-li9tot-itle">Hizmetlerimiz</div>
-  <div class="li9to swiper-container">
+    <div id="content"><div class="sliderxt9frx">
+  <div class="slider-t9frxt-itle">Hizmetlerimiz</div>
+  <div class="t9frx swiper-container">
     <div class="swiper-wrapper"><a href="/tr/web-tasarim" class="swiper-slide">
-        <div class="swiper-li9to">
-          <div class="img-li9to">
+        <div class="swiper-t9frx">
+          <div class="img-t9frx">
             <img src="/page/h2owvlghn8/eb11w.png" />
           </div>
-          <div class="title-li9to">Web Tasarım</div>
-          <div class="spot-li9to">Etkileyici ve fonksiyonel web siteleri</div>
-          <div class="button-li9to">
+          <div class="title-t9frx">Web Tasarım</div>
+          <div class="spot-t9frx">Etkileyici ve fonksiyonel web siteleri</div>
+          <div class="button-t9frx">
           
           <div class="w100">    Devamı...</div>
 
@@ -280,13 +337,13 @@ arrow_forward_ios
           </div>
         </div>
       </a><a href="/tr/grafik-tasarim" class="swiper-slide">
-        <div class="swiper-li9to">
-          <div class="img-li9to">
+        <div class="swiper-t9frx">
+          <div class="img-t9frx">
             <img src="/page/g3pqrst4u5/ukeyz.png" />
           </div>
-          <div class="title-li9to">Grafik Tasarım</div>
-          <div class="spot-li9to">Markanızı yansıtan görsel tasarımlar</div>
-          <div class="button-li9to">
+          <div class="title-t9frx">Grafik Tasarım</div>
+          <div class="spot-t9frx">Markanızı yansıtan görsel tasarımlar</div>
+          <div class="button-t9frx">
           
           <div class="w100">    Devamı...</div>
 
@@ -299,13 +356,13 @@ arrow_forward_ios
           </div>
         </div>
       </a><a href="/tr/sosyal-medya-yonetimi" class="swiper-slide">
-        <div class="swiper-li9to">
-          <div class="img-li9to">
+        <div class="swiper-t9frx">
+          <div class="img-t9frx">
             <img src="/page/j6vwxyz7a8/ksmes.png" />
           </div>
-          <div class="title-li9to">Sosyal Medya Yönetimi</div>
-          <div class="spot-li9to">Sosyal medyada markanızı öne çıkarın</div>
-          <div class="button-li9to">
+          <div class="title-t9frx">Sosyal Medya Yönetimi</div>
+          <div class="spot-t9frx">Sosyal medyada markanızı öne çıkarın</div>
+          <div class="button-t9frx">
           
           <div class="w100">    Devamı...</div>
 
@@ -318,13 +375,13 @@ arrow_forward_ios
           </div>
         </div>
       </a><a href="/tr/ai-cozumler" class="swiper-slide">
-        <div class="swiper-li9to">
-          <div class="img-li9to">
+        <div class="swiper-t9frx">
+          <div class="img-t9frx">
             <img src="/page/fxco5ofht7/w864p.png" />
           </div>
-          <div class="title-li9to">Ai Çözümler</div>
-          <div class="spot-li9to">Ai ve yazılım çözümleri</div>
-          <div class="button-li9to">
+          <div class="title-t9frx">Ai Çözümler</div>
+          <div class="spot-t9frx">Ai ve yazılım çözümleri</div>
+          <div class="button-t9frx">
           
           <div class="w100">    Devamı...</div>
 
@@ -337,13 +394,13 @@ arrow_forward_ios
           </div>
         </div>
       </a><a href="/tr/mobil-yazilim" class="swiper-slide">
-        <div class="swiper-li9to">
-          <div class="img-li9to">
+        <div class="swiper-t9frx">
+          <div class="img-t9frx">
             <img src="/page/xu4btx1k2u/x22vi.png" />
           </div>
-          <div class="title-li9to">Mobil Yazılım</div>
-          <div class="spot-li9to">Mobil ve yazılım çözümleri</div>
-          <div class="button-li9to">
+          <div class="title-t9frx">Mobil Yazılım</div>
+          <div class="spot-t9frx">Mobil ve yazılım çözümleri</div>
+          <div class="button-t9frx">
           
           <div class="w100">    Devamı...</div>
 
@@ -356,17 +413,17 @@ arrow_forward_ios
           </div>
         </div>
       </a></div>
-    <div class="swiper-pagination-li9to"></div>
+    <div class="swiper-pagination-t9frx"></div>
   </div>
-  <div class="swiper-button-next swiper-button-next-li9to"></div>
-  <div class="swiper-button-prev swiper-button-prev-li9to"></div>
+  <div class="swiper-button-next swiper-button-next-t9frx"></div>
+  <div class="swiper-button-prev swiper-button-prev-t9frx"></div>
 </div>
 
 <style>
-  .title-li9to {
+  .title-t9frx {
     font-size: 18px;
   }
-  .li9tobody {
+  .t9frxbody {
     display: flex;
     align-items: stretch;
     padding: 15px 0px 15px 0px;
@@ -377,20 +434,20 @@ arrow_forward_ios
     align-items: center;
     justify-content: center;
   }
-  .swiper-pagination-li9to {
+  .swiper-pagination-t9frx {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 5px !important;
   }
-  .sliderxli9to {
+  .sliderxt9frx {
     position: relative;
     width: 100%;
     max-width: var(--max);
     margin-top: 20px;
     margin-bottom: 20px;
   }
-  .slider-li9tot-itle {
+  .slider-t9frxt-itle {
     width: 100%;
     font-size: 28px;
     font-weight: 500;
@@ -399,8 +456,8 @@ arrow_forward_ios
     justify-content: left;
     margin-bottom: 10px;
   }
-  .swiper-button-prev-li9to,
-  .swiper-button-next-li9to {
+  .swiper-button-prev-t9frx,
+  .swiper-button-next-t9frx {
     color: #000 !important;
     font-size: 28px;
     font-weight: bold;
@@ -412,18 +469,18 @@ arrow_forward_ios
     transform: translateY(-50%);
     /* Center it vertically */
   }
-  .swiper-button-prev-li9to {
+  .swiper-button-prev-t9frx {
     left: -30px !important;
   }
-  .swiper-button-next-li9to {
+  .swiper-button-next-t9frx {
     right: -30px !important;
   }
   @media screen and (max-width: 1024px) {
-    .sliderxli9to {
+    .sliderxt9frx {
       width: 100%;
     }
   }
-  .img-li9to {
+  .img-t9frx {
     aspect-ratio: 3/2;
     display: flex;
     align-items: center;
@@ -436,7 +493,7 @@ arrow_forward_ios
     position: relative;
     overflow: hidden;
   }
-  .img-li9to > img {
+  .img-t9frx > img {
     max-height: 100%;
     max-width: 100%;
     object-fit: contain;
@@ -447,7 +504,7 @@ arrow_forward_ios
     top: 0;
     left: 0;
   }
-  .spot-li9to {
+  .spot-t9frx {
     flex: 1;
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -456,7 +513,7 @@ arrow_forward_ios
     text-overflow: ellipsis;
     white-space: normal;
   }
-  .button-li9to {
+  .button-t9frx {
     background-color: #165858;
     padding: 8px;
     border-radius: 5px;
@@ -464,23 +521,23 @@ arrow_forward_ios
     display: flex;
   }
 
-  .button-li9to > * {
+  .button-t9frx > * {
   display: flex;
   align-items: center;
   justify-content: left;
 }
 
-.button-li9to:hover {
+.button-t9frx:hover {
   filter: brightness(0.9);
   transition: filter 0.3s;
 }
 
-.button-li9to:hover span {
+.button-t9frx:hover span {
   transform: translateX(8px) scale(1.2); /* Move and scale the icon */
   transition: transform 0.4s ease, color 0.4s ease;
 }
 
-.button-li9to:hover .w100 {
+.button-t9frx:hover .w100 {
   transition: color 0.4s ease;
 
 }
@@ -489,7 +546,7 @@ arrow_forward_ios
 
 
   
-  .swiper-li9to {
+  .swiper-t9frx {
     background-color: #fff;
     aspect-ratio: 3/4;
     width: 100%;
@@ -504,16 +561,16 @@ arrow_forward_ios
     transition: filter 0.3s;
     cursor: pointer;
   }
-  .li9to {
+  .t9frx {
     overflow-x: auto;
   }
-  .li9to::-webkit-scrollbar {
+  .t9frx::-webkit-scrollbar {
     display: none;
   }
 </style>
 
 <script>
-  new Swiper('.li9to', {
+  new Swiper('.t9frx', {
     slidesPerView: 2,
     simulateTouch: true,
     loop: true,
@@ -524,51 +581,51 @@ arrow_forward_ios
       1200: { slidesPerView: 5 },
     },
     pagination: {
-      el: '.swiper-pagination-li9to',
+      el: '.swiper-pagination-t9frx',
       clickable: true,
     },
     navigation: {
-      nextEl: '.swiper-button-next-li9to',
-      prevEl: '.swiper-button-prev-li9to',
+      nextEl: '.swiper-button-next-t9frx',
+      prevEl: '.swiper-button-prev-t9frx',
     },
   });
 </script>
 
 
-<div class="sliderxe3a9fbody">
+<div class="sliderxik3lmbody">
 
 
-<div class="sliderxe3a9f">
-  <div class="sliderxe3a9ftitle">Partnerlerimiz</div>
-  <div class="e3a9f swiper-container">
+<div class="sliderxik3lm">
+  <div class="sliderxik3lmtitle">Partnerlerimiz</div>
+  <div class="ik3lm swiper-container">
     <div class="swiper-wrapper"><div href="/img/jyfy3k/undefined"  class="swiper-slide">
       <div class="swiper-slide33">
-        <img src="/img/jyfy3k/1.png" class="modulchilde3a9f2" />
+        <img src="/img/jyfy3k/1.png" class="modulchildik3lm2" />
       </div>
     </div><div href="/img/jyfy3k/undefined"  class="swiper-slide">
       <div class="swiper-slide33">
-        <img src="/img/jyfy3k/2.png" class="modulchilde3a9f2" />
+        <img src="/img/jyfy3k/2.png" class="modulchildik3lm2" />
       </div>
     </div><div href="/img/jyfy3k/undefined"  class="swiper-slide">
       <div class="swiper-slide33">
-        <img src="/img/jyfy3k/3.png" class="modulchilde3a9f2" />
+        <img src="/img/jyfy3k/3.png" class="modulchildik3lm2" />
       </div>
     </div><div href="/img/jyfy3k/undefined"  class="swiper-slide">
       <div class="swiper-slide33">
-        <img src="/img/jyfy3k/4.png" class="modulchilde3a9f2" />
+        <img src="/img/jyfy3k/4.png" class="modulchildik3lm2" />
       </div>
     </div><div href="/img/jyfy3k/undefined"  class="swiper-slide">
       <div class="swiper-slide33">
-        <img src="/img/jyfy3k/5.png" class="modulchilde3a9f2" />
+        <img src="/img/jyfy3k/5.png" class="modulchildik3lm2" />
       </div>
     </div><div href="/img/jyfy3k/undefined"  class="swiper-slide">
       <div class="swiper-slide33">
-        <img src="/img/jyfy3k/6.png" class="modulchilde3a9f2" />
+        <img src="/img/jyfy3k/6.png" class="modulchildik3lm2" />
       </div>
     </div></div>
-    <div class="swiper-button-next swiper-button-next-e3a9f"></div>
-    <div class="swiper-button-prev swiper-button-prev-e3a9f"></div>
-    <div class="swiper-pagination-e3a9f"></div>
+    <div class="swiper-button-next swiper-button-next-ik3lm"></div>
+    <div class="swiper-button-prev swiper-button-prev-ik3lm"></div>
+    <div class="swiper-pagination-ik3lm"></div>
   </div>
 </div>
 
@@ -577,7 +634,7 @@ arrow_forward_ios
 
 <style>
 
-  .sliderxe3a9fbody{
+  .sliderxik3lmbody{
     width: 100%;
     display: flex;
     align-items: center;
@@ -587,29 +644,29 @@ arrow_forward_ios
     margin: 0px 0px 0px 0px;
   }
 
-  .sliderxe3a9f {
+  .sliderxik3lm {
     width: var(--max);
     margin: 10px 0px 10px 0px;
   }
-  .swiper-pagination-e3a9f {
+  .swiper-pagination-ik3lm {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 5px !important;
   }
-  .sliderxe3a9ftitle {
+  .sliderxik3lmtitle {
     width: 100%;
     font-size: 24px;
     font-weight: 500;
     color: #fff;
   }
   @media screen and (max-width: 1024px) {
-    .sliderxe3a9f {
+    .sliderxik3lm {
       width: 100%;
     }
   }
-  .swiper-button-prev-e3a9f,
-  .swiper-button-next-e3a9f {
+  .swiper-button-prev-ik3lm,
+  .swiper-button-next-ik3lm {
     color: #000;
     font-size: 28px;
     font-weight: bold;
@@ -624,13 +681,13 @@ arrow_forward_ios
     cursor: pointer;
   
   }
-  .e3a9f {
+  .ik3lm {
     overflow-x: auto;
   }
-  .e3a9f::-webkit-scrollbar {
+  .ik3lm::-webkit-scrollbar {
     display: none;
   }
-  .modulchilde3a9f2 {
+  .modulchildik3lm2 {
     text-align: -webkit-center;
     width: 100%;
     float: left;
@@ -639,10 +696,10 @@ arrow_forward_ios
     background-color: #fff;
     filter: grayscale(1);
   }
-  .modulchilde3a9f2:hover {
+  .modulchildik3lm2:hover {
     filter: grayscale(0);
   }
-  .modulchilde3a9f3 {
+  .modulchildik3lm3 {
     float: left;
     padding: 5px;
   }
@@ -654,12 +711,12 @@ var jsonslider = {
   simulateTouch: true,
   loop: true,
   pagination: {
-    el: '.swiper-pagination-e3a9f',
+    el: '.swiper-pagination-ik3lm',
     clickable: true,
   },
   navigation: {
-      nextEl: '.swiper-button-next-e3a9f',
-      prevEl: '.swiper-button-prev-e3a9f',
+      nextEl: '.swiper-button-next-ik3lm',
+      prevEl: '.swiper-button-prev-ik3lm',
     },
   breakpoints: {
     480: {
@@ -680,116 +737,116 @@ var jsonslider = {
 if ("false" === "true") {
 
 } else {
-  document.querySelector('.swiper-button-next-e3a9f').style.display = 'none';
-  document.querySelector('.swiper-button-prev-e3a9f').style.display = 'none';
+  document.querySelector('.swiper-button-next-ik3lm').style.display = 'none';
+  document.querySelector('.swiper-button-prev-ik3lm').style.display = 'none';
 }
-var swiper = new Swiper('.e3a9f', jsonslider);
+var swiper = new Swiper('.ik3lm', jsonslider);
 
 </script>
-<div class="y2hsw2">
-  <div class="y2hsw">
+<div class="ssz372">
+  <div class="ssz37">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 283.5 27.8"
       preserveAspectRatio="none"
-      class="y2hswtop"
+      class="ssz37top"
     >
       <path
-        class="y2hsw-svg"
+        class="ssz37-svg"
         d="M283.5,9.7c0,0-7.3,4.3-14,4.6c-6.8,0.3-12.6,0-20.9-1.5c-11.3-2-33.1-10.1-44.7-5.7	s-12.1,4.6-18,7.4c-6.6,3.2-20,9.6-36.6,9.3C131.6,23.5,99.5,7.2,86.3,8c-1.4,0.1-6.6,0.8-10.5,2c-3.8,1.2-9.4,3.8-17,4.7 c-3.2,0.4-8.3,1.1-14.2,0.9c-1.5-0.1-6.3-0.4-12-1.6c-5.7-1.2-11-3.1-15.8-3.7C6.5,9.2,0,10.8,0,10.8V0h283.5V9.7z M260.8,11.3 c-0.7-1-2-0.4-4.3-0.4c-2.3,0-6.1-1.2-5.8-1.1c0.3,0.1,3.1,1.5,6,1.9C259.7,12.2,261.4,12.3,260.8,11.3z M242.4,8.6 c0,0-2.4-0.2-5.6-0.9c-3.2-0.8-10.3-2.8-15.1-3.5c-8.2-1.1-15.8,0-15.1,0.1c0.8,0.1,9.6-0.6,17.6,1.1c3.3,0.7,9.3,2.2,12.4,2.7	C239.9,8.7,242.4,8.6,242.4,8.6z M185.2,8.5c1.7-0.7-13.3,4.7-18.5,6.1c-2.1,0.6-6.2,1.6-10,2c-3.9,0.4-8.9,0.4-8.8,0.5	c0,0.2,5.8,0.8,11.2,0c5.4-0.8,5.2-1.1,7.6-1.6C170.5,14.7,183.5,9.2,185.2,8.5z M199.1,6.9c0.2,0-0.8-0.4-4.8,1.1 c-4,1.5-6.7,3.5-6.9,3.7c-0.2,0.1,3.5-1.8,6.6-3C197,7.5,199,6.9,199.1,6.9z M283,6c-0.1,0.1-1.9,1.1-4.8,2.5s-6.9,2.8-6.7,2.7	c0.2,0,3.5-0.6,7.4-2.5C282.8,6.8,283.1,5.9,283,6z M31.3,11.6c0.1-0.2-1.9-0.2-4.5-1.2s-5.4-1.6-7.8-2C15,7.6,7.3,8.5,7.7,8.6	C8,8.7,15.9,8.3,20.2,9.3c2.2,0.5,2.4,0.5,5.7,1.6S31.2,11.9,31.3,11.6z M73,9.2c0.4-0.1,3.5-1.6,8.4-2.6c4.9-1.1,8.9-0.5,8.9-0.8 c0-0.3-1-0.9-6.2-0.3S72.6,9.3,73,9.2z M71.6,6.7C71.8,6.8,75,5.4,77.3,5c2.3-0.3,1.9-0.5,1.9-0.6c0-0.1-1.1-0.2-2.7,0.2	C74.8,5.1,71.4,6.6,71.6,6.7z M93.6,4.4c0.1,0.2,3.5,0.8,5.6,1.8c2.1,1,1.8,0.6,1.9,0.5c0.1-0.1-0.8-0.8-2.4-1.3	C97.1,4.8,93.5,4.2,93.6,4.4z M65.4,11.1c-0.1,0.3,0.3,0.5,1.9-0.2s2.6-1.3,2.2-1.2s-0.9,0.4-2.5,0.8C65.3,10.9,65.5,10.8,65.4,11.1 z M34.5,12.4c-0.2,0,2.1,0.8,3.3,0.9c1.2,0.1,2,0.1,2-0.2c0-0.3-0.1-0.5-1.6-0.4C36.6,12.8,34.7,12.4,34.5,12.4z M152.2,21.1 c-0.1,0.1-2.4-0.3-7.5-0.3c-5,0-13.6-2.4-17.2-3.5c-3.6-1.1,10,3.9,16.5,4.1C150.5,21.6,152.3,21,152.2,21.1z"
       ></path>
       <path
-        class="y2hsw-svg"
+        class="ssz37-svg"
         d="M269.6,18c-0.1-0.1-4.6,0.3-7.2,0c-7.3-0.7-17-3.2-16.6-2.9c0.4,0.3,13.7,3.1,17,3.3	C267.7,18.8,269.7,18,269.6,18z"
       ></path>
       <path
-        class="y2hsw-svg"
+        class="ssz37-svg"
         d="M227.4,9.8c-0.2-0.1-4.5-1-9.5-1.2c-5-0.2-12.7,0.6-12.3,0.5c0.3-0.1,5.9-1.8,13.3-1.2	S227.6,9.9,227.4,9.8z"
       ></path>
       <path
-        class="y2hsw-svg"
+        class="ssz37-svg"
         d="M204.5,13.4c-0.1-0.1,2-1,3.2-1.1c1.2-0.1,2,0,2,0.3c0,0.3-0.1,0.5-1.6,0.4	C206.4,12.9,204.6,13.5,204.5,13.4z"
       ></path>
       <path
-        class="y2hsw-svg"
+        class="ssz37-svg"
         d="M201,10.6c0-0.1-4.4,1.2-6.3,2.2c-1.9,0.9-6.2,3.1-6.1,3.1c0.1,0.1,4.2-1.6,6.3-2.6	S201,10.7,201,10.6z"
       ></path>
       <path
-        class="y2hsw-svg"
+        class="ssz37-svg"
         d="M154.5,26.7c-0.1-0.1-4.6,0.3-7.2,0c-7.3-0.7-17-3.2-16.6-2.9c0.4,0.3,13.7,3.1,17,3.3	C152.6,27.5,154.6,26.8,154.5,26.7z"
       ></path>
       <path
-        class="y2hsw-svg"
+        class="ssz37-svg"
         d="M41.9,19.3c0,0,1.2-0.3,2.9-0.1c1.7,0.2,5.8,0.9,8.2,0.7c4.2-0.4,7.4-2.7,7-2.6	c-0.4,0-4.3,2.2-8.6,1.9c-1.8-0.1-5.1-0.5-6.7-0.4S41.9,19.3,41.9,19.3z"
       ></path>
       <path
-        class="y2hsw-svg"
+        class="ssz37-svg"
         d="M75.5,12.6c0.2,0.1,2-0.8,4.3-1.1c2.3-0.2,2.1-0.3,2.1-0.5c0-0.1-1.8-0.4-3.4,0	C76.9,11.5,75.3,12.5,75.5,12.6z"
       ></path>
       <path
-        class="y2hsw-svg"
+        class="ssz37-svg"
         d="M15.6,13.2c0-0.1,4.3,0,6.7,0.5c2.4,0.5,5,1.9,5,2c0,0.1-2.7-0.8-5.1-1.4	C19.9,13.7,15.7,13.3,15.6,13.2z"
       ></path>
     </svg>
-    <div class="y2hsw-body">
-      <div class="y2hsw-body-chile">
-        <div class="y2hsw-body-title">Bizden Haberdar Olamk İçin</div>
+    <div class="ssz37-body">
+      <div class="ssz37-body-chile">
+        <div class="ssz37-body-title">Bizden Haberdar Olamk İçin</div>
         <div class="input-container">
           <input type="text" class="inputmatrix1" placeholder="E-Posta" />
           <label for="input" class="placeholder">E-Posta</label>
         </div>
-        <div class="y2hsw-body-form-button">Gönder</div>
+        <div class="ssz37-body-form-button">Gönder</div>
       </div>
     </div>
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 283.5 27.8"
       preserveAspectRatio="none"
-      class="y2hswbotton"
+      class="ssz37botton"
     >
       <path
-        class="y2hsw-svg"
+        class="ssz37-svg"
         d="M283.5,9.7c0,0-7.3,4.3-14,4.6c-6.8,0.3-12.6,0-20.9-1.5c-11.3-2-33.1-10.1-44.7-5.7	s-12.1,4.6-18,7.4c-6.6,3.2-20,9.6-36.6,9.3C131.6,23.5,99.5,7.2,86.3,8c-1.4,0.1-6.6,0.8-10.5,2c-3.8,1.2-9.4,3.8-17,4.7 c-3.2,0.4-8.3,1.1-14.2,0.9c-1.5-0.1-6.3-0.4-12-1.6c-5.7-1.2-11-3.1-15.8-3.7C6.5,9.2,0,10.8,0,10.8V0h283.5V9.7z M260.8,11.3 c-0.7-1-2-0.4-4.3-0.4c-2.3,0-6.1-1.2-5.8-1.1c0.3,0.1,3.1,1.5,6,1.9C259.7,12.2,261.4,12.3,260.8,11.3z M242.4,8.6 c0,0-2.4-0.2-5.6-0.9c-3.2-0.8-10.3-2.8-15.1-3.5c-8.2-1.1-15.8,0-15.1,0.1c0.8,0.1,9.6-0.6,17.6,1.1c3.3,0.7,9.3,2.2,12.4,2.7	C239.9,8.7,242.4,8.6,242.4,8.6z M185.2,8.5c1.7-0.7-13.3,4.7-18.5,6.1c-2.1,0.6-6.2,1.6-10,2c-3.9,0.4-8.9,0.4-8.8,0.5	c0,0.2,5.8,0.8,11.2,0c5.4-0.8,5.2-1.1,7.6-1.6C170.5,14.7,183.5,9.2,185.2,8.5z M199.1,6.9c0.2,0-0.8-0.4-4.8,1.1 c-4,1.5-6.7,3.5-6.9,3.7c-0.2,0.1,3.5-1.8,6.6-3C197,7.5,199,6.9,199.1,6.9z M283,6c-0.1,0.1-1.9,1.1-4.8,2.5s-6.9,2.8-6.7,2.7	c0.2,0,3.5-0.6,7.4-2.5C282.8,6.8,283.1,5.9,283,6z M31.3,11.6c0.1-0.2-1.9-0.2-4.5-1.2s-5.4-1.6-7.8-2C15,7.6,7.3,8.5,7.7,8.6	C8,8.7,15.9,8.3,20.2,9.3c2.2,0.5,2.4,0.5,5.7,1.6S31.2,11.9,31.3,11.6z M73,9.2c0.4-0.1,3.5-1.6,8.4-2.6c4.9-1.1,8.9-0.5,8.9-0.8 c0-0.3-1-0.9-6.2-0.3S72.6,9.3,73,9.2z M71.6,6.7C71.8,6.8,75,5.4,77.3,5c2.3-0.3,1.9-0.5,1.9-0.6c0-0.1-1.1-0.2-2.7,0.2	C74.8,5.1,71.4,6.6,71.6,6.7z M93.6,4.4c0.1,0.2,3.5,0.8,5.6,1.8c2.1,1,1.8,0.6,1.9,0.5c0.1-0.1-0.8-0.8-2.4-1.3	C97.1,4.8,93.5,4.2,93.6,4.4z M65.4,11.1c-0.1,0.3,0.3,0.5,1.9-0.2s2.6-1.3,2.2-1.2s-0.9,0.4-2.5,0.8C65.3,10.9,65.5,10.8,65.4,11.1 z M34.5,12.4c-0.2,0,2.1,0.8,3.3,0.9c1.2,0.1,2,0.1,2-0.2c0-0.3-0.1-0.5-1.6-0.4C36.6,12.8,34.7,12.4,34.5,12.4z M152.2,21.1 c-0.1,0.1-2.4-0.3-7.5-0.3c-5,0-13.6-2.4-17.2-3.5c-3.6-1.1,10,3.9,16.5,4.1C150.5,21.6,152.3,21,152.2,21.1z"
       ></path>
       <path
-        class="y2hsw-svg"
+        class="ssz37-svg"
         d="M269.6,18c-0.1-0.1-4.6,0.3-7.2,0c-7.3-0.7-17-3.2-16.6-2.9c0.4,0.3,13.7,3.1,17,3.3	C267.7,18.8,269.7,18,269.6,18z"
       ></path>
       <path
-        class="y2hsw-svg"
+        class="ssz37-svg"
         d="M227.4,9.8c-0.2-0.1-4.5-1-9.5-1.2c-5-0.2-12.7,0.6-12.3,0.5c0.3-0.1,5.9-1.8,13.3-1.2	S227.6,9.9,227.4,9.8z"
       ></path>
       <path
-        class="y2hsw-svg"
+        class="ssz37-svg"
         d="M204.5,13.4c-0.1-0.1,2-1,3.2-1.1c1.2-0.1,2,0,2,0.3c0,0.3-0.1,0.5-1.6,0.4	C206.4,12.9,204.6,13.5,204.5,13.4z"
       ></path>
       <path
-        class="y2hsw-svg"
+        class="ssz37-svg"
         d="M201,10.6c0-0.1-4.4,1.2-6.3,2.2c-1.9,0.9-6.2,3.1-6.1,3.1c0.1,0.1,4.2-1.6,6.3-2.6	S201,10.7,201,10.6z"
       ></path>
       <path
-        class="y2hsw-svg"
+        class="ssz37-svg"
         d="M154.5,26.7c-0.1-0.1-4.6,0.3-7.2,0c-7.3-0.7-17-3.2-16.6-2.9c0.4,0.3,13.7,3.1,17,3.3	C152.6,27.5,154.6,26.8,154.5,26.7z"
       ></path>
       <path
-        class="y2hsw-svg"
+        class="ssz37-svg"
         d="M41.9,19.3c0,0,1.2-0.3,2.9-0.1c1.7,0.2,5.8,0.9,8.2,0.7c4.2-0.4,7.4-2.7,7-2.6	c-0.4,0-4.3,2.2-8.6,1.9c-1.8-0.1-5.1-0.5-6.7-0.4S41.9,19.3,41.9,19.3z"
       ></path>
       <path
-        class="y2hsw-svg"
+        class="ssz37-svg"
         d="M75.5,12.6c0.2,0.1,2-0.8,4.3-1.1c2.3-0.2,2.1-0.3,2.1-0.5c0-0.1-1.8-0.4-3.4,0	C76.9,11.5,75.3,12.5,75.5,12.6z"
       ></path>
       <path
-        class="y2hsw-svg"
+        class="ssz37-svg"
         d="M15.6,13.2c0-0.1,4.3,0,6.7,0.5c2.4,0.5,5,1.9,5,2c0,0.1-2.7-0.8-5.1-1.4	C19.9,13.7,15.7,13.3,15.6,13.2z"
       ></path>
     </svg>
   </div>
-  <div class="y2hsw-bg"></div>
+  <div class="ssz37-bg"></div>
 </div>
 
 <style>
-  .y2hsw-body {
+  .ssz37-body {
     min-height: 200px !important;
     display: flex;
     align-items: center;
@@ -797,7 +854,7 @@ var swiper = new Swiper('.e3a9f', jsonslider);
     color: #fff;
     width: var(--max);
   }
-  .y2hsw-body-title {
+  .ssz37-body-title {
     font-size: 36px;
     font-weight: bold;
     color: #165858;
@@ -808,23 +865,23 @@ var swiper = new Swiper('.e3a9f', jsonslider);
       0 0 1em white,
       0 0 0.2em white;
   }
-  .y2hsw-body-form {
+  .ssz37-body-form {
     width: var(--max);
     display: flex;
     gap: 10px;
     border-radius: 10px;
   }
-  .y2hsw-body-chile {
+  .ssz37-body-chile {
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
   }
-  .y2hsw-body-chile > div {
+  .ssz37-body-chile > div {
     width: 100% !important;
   }
-  .y2hsw-body-form-button {
+  .ssz37-body-form-button {
     background-color: #165858;
     border-radius: 10px;
     margin-top: 15px;
@@ -834,7 +891,7 @@ var swiper = new Swiper('.e3a9f', jsonslider);
     width: 100%;
     padding: 20px 0px 20px 0px;
   }
-  .y2hsw2 {
+  .ssz372 {
     margin-top: 10px;
     margin-bottom: 10px;
     position: relative;
@@ -844,22 +901,22 @@ var swiper = new Swiper('.e3a9f', jsonslider);
     justify-content: center;
     overflow: hidden;
   }
-  .y2hsw {
+  .ssz37 {
     display: flex;
     flex-direction: column;
     /* 0.5 değeri opaklık seviyesini belirler, 0 ile 1 arasında değer alır */
   }
-  .y2hsw > svg {
+  .ssz37 > svg {
     width: 100vw;
   }
-  .y2hswbotton {
+  .ssz37botton {
     transform: scaleY(-1);
     margin-bottom: -1px;
   }
-  .y2hsw-svg {
+  .ssz37-svg {
     fill: #fff;
   }
-  .y2hsw-bg {
+  .ssz37-bg {
     background-image: url('/img/zw1v5e/bg.jpg') !important;
     background-size: cover;
     background-position: center center;
@@ -988,17 +1045,17 @@ var swiper = new Swiper('.e3a9f', jsonslider);
     }
   }
 </style>
-<div class="zql18">
-  <div class="zql18body">
-    <div class="zql18container">
-      <div class="zql18containerbody">
-        <div class="zql18containertitle">Bize Ulaşın</div>
-        <a href="tel:05316791014" target="_blank" class="zql18containerlist">
+<div class="fum44">
+  <div class="fum44body">
+    <div class="fum44container">
+      <div class="fum44containerbody">
+        <div class="fum44containertitle">Bize Ulaşın</div>
+        <a href="tel:05316791014" target="_blank" class="fum44containerlist">
                   <span class="material-symbols-outlined">
                    phone
                   </span> 
                   <div>0531 679 10 14</div>
-                </a><a href="email:info@ajansmobil.com" target="_blank" class="zql18containerlist">
+                </a><a href="email:info@ajansmobil.com" target="_blank" class="fum44containerlist">
                   <span class="material-symbols-outlined">
                    email
                   </span> 
@@ -1011,7 +1068,7 @@ var swiper = new Swiper('.e3a9f', jsonslider);
 
 
 <style>
-  .zql18 {
+  .fum44 {
     width: 100%;
     padding: 60px 20px;
     display: flex;
@@ -1020,14 +1077,14 @@ var swiper = new Swiper('.e3a9f', jsonslider);
     position: relative;
   }
 
-  .zql18containertitle {
+  .fum44containertitle {
     font-size: 28px;
     font-weight: bold;
     color: #333;
     margin-bottom: 20px;
   }
 
-  .zql18containerlist {
+  .fum44containerlist {
     padding: 10px;
     display: flex;
     border-radius: 8px;
@@ -1036,26 +1093,26 @@ var swiper = new Swiper('.e3a9f', jsonslider);
     transition: background-color 0.3s ease;
   }
 
-  .zql18containerlist > div {
+  .fum44containerlist > div {
     display: flex;
     align-items: center;
     font-size: 20px;
     color: #444;
   }
 
-  .zql18containerlist:hover {
+  .fum44containerlist:hover {
     background-color: #f9f9f9;
     border-bottom-color: #165858;
   }
 
-  .zql18container {
+  .fum44container {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 20px;
   }
 
-  .zql18containerbody {
+  .fum44containerbody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -1065,7 +1122,7 @@ var swiper = new Swiper('.e3a9f', jsonslider);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
 
-  .zql18body {
+  .fum44body {
     width: calc(var(--max) - 40px);
     background-color: #ebebeb;
     border: 1px solid #dedede;
@@ -1080,12 +1137,12 @@ var swiper = new Swiper('.e3a9f', jsonslider);
   }
 
   @media screen and (max-width: 1024px) {
-    .zql18body {
+    .fum44body {
       width: 100%;
       padding: 20px;
       flex-direction: column;
     }
-    .zql18containerbody {
+    .fum44containerbody {
       padding: 15px;
     }
   }
@@ -1121,7 +1178,7 @@ var swiper = new Swiper('.e3a9f', jsonslider);
     </li>
   </ul>
   <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/tr">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/kurumsal">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/referanslari">Referansları</a></li><li class="menu__item"><a class="menu__link" href="/tr/blog">Blog</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim">İletişim</a></li>
+    <li class="menu__item"><a class="menu__link" href="/tr">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/kurumsal">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/referanslari">Referansları</a></li><li class="menu__item"><a class="menu__link" href="/tr/bb44xk9jzz">Hizmetlerimiz</a></li><li class="menu__item"><a class="menu__link" href="/tr/blog">Blog</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim">İletişim</a></li><li class="menu__item"><a class="menu__link" href="/tr/qeoxcokqmz">Misyon</a></li><li class="menu__item"><a class="menu__link" href="/tr/arkjwyoin6">Vizyon</a></li><li class="menu__item"><a class="menu__link" href="/tr/kyefautw0x">Kişisel Veriler</a></li><li class="menu__item"><a class="menu__link" href="/tr/orcivgdmim">Yasal Uyarı</a></li><li class="menu__item"><a class="menu__link" href="/tr/p0xrohbisc">Çerez Politikası</a></li>
   </ul>
   <p>Ajans Mobil 2024 cognite. &copy;</p>
 </footer>

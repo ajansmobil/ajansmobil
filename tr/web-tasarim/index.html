@@ -33,13 +33,13 @@
     
   </head>
   <body>
-    <div id="header"><div class="zeza2">
-  <div class="zeza2title">
-    <div class="zeza2titlebody">
-      <div class="zeza2titlebodytitle">
+    <div id="header"><div class="cctp5">
+  <div class="cctp5title">
+    <div class="cctp5titlebody">
+      <div class="cctp5titlebodytitle">
         Ajans Mobil Web Sitemize Hoşgeldiniz
       </div>
-      <div class="zeza2titlebodylang">
+      <div class="cctp5titlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"></a></li>
         </ul>
@@ -47,31 +47,39 @@
     </div>
   </div>
 
-  <div class="zeza2Children">
-    <div class="zeza2body">
-      <a href="/tr"><img src="/img/logo.svg" class="zeza2bodylogo" /></a>
+  <div class="cctp5Children">
+    <div class="cctp5body">
+      <a href="/tr"
+        ><img src="/img/logo.svg" class="cctp5bodylogo"
+      /></a>
     </div>
-    <div class="zeza2menu">
-      <div class="zeza2menulistbody">
-        <div class="zeza2menulist">
-          <ul>
-            <a href="/tr/">Anasayfa </a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/referanslari/">Referansları</a><a href="/tr/blog/">Blog</a><a href="/tr/iletisim/">İletişim</a>
-          </ul>
-        </div>
-      </div>
+
+    <div class="cctp5menumobil">
+      <div class="material-symbols-outlined">menu</div>
+    </div>
+
+    <div class="cctp5menulist">
+      <ul>
+        <a href="/tr/">Anasayfa </a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/referanslari/">Referansları</a><a href="/tr/bb44xk9jzz/">Hizmetlerimiz</a><a href="/tr/blog/">Blog</a><a href="/tr/iletisim/">İletişim</a>
+      </ul>
     </div>
   </div>
 </div>
 
 <style>
-  .zeza2Children {
+  .cctp5menumobil {
+    display: none;
+    cursor: pointer;
+  }
+
+  .cctp5Children {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .zeza2 {
+  .cctp5 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -80,7 +88,7 @@
     background-color: #fff;
   }
 
-  .zeza2title {
+  .cctp5title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -88,7 +96,7 @@
     justify-content: center;
   }
 
-  .zeza2titlebody {
+  .cctp5titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -96,46 +104,40 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .zeza2titlebodytitle {
+  .cctp5titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .zeza2titlebodylang {
+  .cctp5titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .zeza2titlebodylang ul {
+  .cctp5titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .zeza2body {
+  .cctp5body {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .zeza2menu {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    width: 100%;
-  }
-
-  .zeza2menulist {
-    width: calc(100% - 20px);
+  .cctp5menulist {
+    display: block;
     background-color: #165858;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
   }
 
-  .zeza2menubody {
+  .cctp5menubody {
     width: 100%;
     background-color: #165858;
     display: flex;
@@ -143,7 +145,7 @@
     justify-content: center;
   }
 
-  .zeza2menulist ul {
+  .cctp5menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -153,7 +155,7 @@
     overflow-x: auto;
   }
 
-  .zeza2menulist ul a {
+  .cctp5menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -165,33 +167,74 @@
     white-space: nowrap;
   }
 
-  .zeza2menulist ul a:hover {
+  .cctp5menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .zeza2menulistbody {
-    width: 100%;
-  }
-
-  .zeza2bodylogo {
+  .cctp5bodylogo {
     height: 100px;
     max-width: 90vw;
     max-height: 100px;
   }
 
+  @media screen and (min-width: 1024px) {
+    .cctp5menumobil {
+      display: none !important;
+    }
+
+    .cctp5menulist {
+      display: flex !important;
+    }
+  }
+
   @media screen and (max-width: 1024px) {
-    .zeza2menu {
+    .cctp5menumobil {
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      background-color: #165858;
+      width: 100%;
+    }
+
+    .cctp5menumobil div {
+      font-size: 32px;
+      color: #fff;
+      padding: 5px;
+    }
+
+    .cctp5menulist {
+      display: none;
+    }
+
+    .cctp5body {
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .cctp5Children {
+      width: 100%;
+      gap: 0px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .cctp5menulist ul a {
+      padding: 10px 0px 10px 0px;
+    }
+
+    .cctp5menu {
       overflow-x: auto;
     }
 
-    .zeza2menulist ul {
-      flex-direction: row;
+    .cctp5menulist ul {
+      flex-direction: column;
     }
 
-    .zeza2bodylogo {
+    .cctp5bodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -199,150 +242,26 @@
   }
 
   @media screen and (max-width: 768px) {
-    .zeza2menulist ul a {
+    .cctp5menulist ul a {
       font-size: 14px;
     }
   }
-</style></div>
-    <div id="content"><div class="xr89g-title f36">
-  <span>Web Tasarım</span>
-</div>
-
-<div class="xr89g">
-  <div class="xr89g-menu"><a   href="/tr/kurumsal" >Kurumsal</a><a   href="/tr/referanslari" >Referansları</a><a   href="/tr/blog" >Blog</a><a   href="/tr/iletisim" >İletişim</a></div>
-  <div class="xr89g-desc">
-    <div class="xr89g-desc-body">
-      <div class="xr89g-img">
-        <img src="/page/h2owvlghn8/eb11w.png" width="100%" />
-      </div>
-      
-    </div>
-    <div class="xr89g-body"><h1><h1>Profesyonel Web Tasarım Hizmetleri</h1><p>Ajan Mobil olarak, işletmenizin çevrimiçi varlığını güçlendirmek için özel web tasarım çözümleri sunuyoruz. Modern, hızlı ve kullanıcı dostu web siteleri tasarlıyoruz.</p><h2>Neden Ajan Mobil'in Web Tasarım Hizmetlerini Tercih Etmelisiniz?</h2><ul><li>Responsive ve Mobil Uyumlu Tasarımlar</li><li>SEO Dostu Yapı</li><li>Hızlı Yükleme Süreleri</li><li>Kullanıcı Deneyimi Odaklı Arayüzler</li><li>Özelleştirilebilir Temalar ve Modüller</li></ul><h2>Web Tasarım Sürecimiz</h2><p>1. İhtiyaç Analizi: Firmanızın hedeflerini ve ihtiyaçlarını detaylı bir şekilde analiz ediyoruz.</p><p>2. Tasarım Konsepti: Markanızı en iyi şekilde yansıtan özgün tasarımlar oluşturuyoruz.</p><p>3. Geliştirme: En son web teknolojilerini kullanarak sitenizi hayata geçiriyoruz.</p><p>4. Test ve Optimizasyon: Sitenizin tüm cihazlarda sorunsuz çalışmasını sağlıyoruz.</p><p>5. Lansman ve Destek: Sitenizi yayına alıyor ve sürekli teknik destek sunuyoruz.</p><h2>Web Sitenizle Fark Yaratın</h2><p>Profesyonel web tasarım hizmetlerimizle dijital dünyadaki rekabette öne çıkın. Ajan Mobil olarak, işletmenizin online başarısı için çalışıyoruz.</p></h1></div>
-  </div>
-</div>
-
-<style>
-  #content {
-    justify-content: start;
-  }
-  .xr89g {
-    width: var(--max);
-    margin-top: 20px;
-    gap: 10px;
-    float: left;
-  }
-  .xr89g-menu {
-    width: 200px;
-    background-color: #e0e0e0;
-    border-radius: 5px;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    float: left;
-  }
-  .xr89g-desc {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    float: right;
-  }
-  .xr89g-menu > a {
-    background-color: #fff;
-    padding: 10px;
-    float: left;
-  }
-  .xr89g-menu > .active {
-    background-color: #1e3046;
-    color: #fff;
-    display: flex;
-  }
-  .xr89g-desc-menu {
-    width: 200px;
-    background-color: #1e3046;
-    display: flex;
-    flex-direction: column;
-    border-radius: 5px;
-  }
-  .xr89g-desc-menu > div {
-    padding: 5px;
-    border-radius: 5px;
-    background-color: #fff;
-    margin: 5px;
-  }
-  .xr89g-desc-body {
-    display: flex;
-    justify-content: space-between;
-  }
-  .xr89g-title {
-    width: 100%;
-    height: 200px;
-    background-color: #000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    color: #fff;
-    font-weight: bold;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  }
-  .xr89g-title::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('/page/h2owvlghn8/{{bgimg}}');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    opacity: 0.5;
-    z-index: 1;
-  }
-  .xr89g-title span {
-    position: relative;
-    z-index: 2;
-    font-size: 50px;
-  }
-  .xr89g-body {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  .xr89g-img {
-    display: flex;
-    align-items: start;
-    justify-content: center;
-    width: calc(var(--max) - 460px);
-  }
-  @media screen and (min-width: 1024px) {
-    .xr89g-desc {
-      width: calc(var(--max) - 240px);
-    }
-  }
-  @media screen and (max-width: 1024px) {
-    .xr89g {
-      flex-direction: column;
-      width: calc(100% - 10px);
-      padding: 5px;
-      gap: 20px;
-    }
-    .xr89g-img {
-      width: 100%;
-    }
-    .xr89g-body {
-      width: 100%;
-    }
-    .xr89g-menu {
-      display: none;
-    }
-    .xr89g-desc {
-      width: 100% !important;
-    }
-  }
 </style>
+
+<script>
+  document
+    .querySelector('.cctp5menumobil')
+    .addEventListener('click', function () {
+      const menu = document.querySelector('.cctp5menulist');
+      if (menu.style.display === 'flex') {
+        menu.style.display = 'none';
+      } else {
+        menu.style.display = 'flex';
+      }
+    });
+</script>
 </div>
+    <div id="content">{{body}}</div>
     <div id="footer"><footer class="footer">
   <div class="waves">
     <div class="wave" id="wave1"></div>
@@ -373,7 +292,7 @@
     </li>
   </ul>
   <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/tr">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/kurumsal">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/referanslari">Referansları</a></li><li class="menu__item"><a class="menu__link" href="/tr/blog">Blog</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim">İletişim</a></li>
+    <li class="menu__item"><a class="menu__link" href="/tr">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/kurumsal">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/referanslari">Referansları</a></li><li class="menu__item"><a class="menu__link" href="/tr/bb44xk9jzz">Hizmetlerimiz</a></li><li class="menu__item"><a class="menu__link" href="/tr/blog">Blog</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim">İletişim</a></li><li class="menu__item"><a class="menu__link" href="/tr/qeoxcokqmz">Misyon</a></li><li class="menu__item"><a class="menu__link" href="/tr/arkjwyoin6">Vizyon</a></li><li class="menu__item"><a class="menu__link" href="/tr/kyefautw0x">Kişisel Veriler</a></li><li class="menu__item"><a class="menu__link" href="/tr/orcivgdmim">Yasal Uyarı</a></li><li class="menu__item"><a class="menu__link" href="/tr/p0xrohbisc">Çerez Politikası</a></li>
   </ul>
   <p>Ajans Mobil 2024 cognite. &copy;</p>
 </footer>

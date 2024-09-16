@@ -33,13 +33,13 @@
     
   </head>
   <body>
-    <div id="header"><div class="m5y8r">
-  <div class="m5y8rtitle">
-    <div class="m5y8rtitlebody">
-      <div class="m5y8rtitlebodytitle">
+    <div id="header"><div class="gzcq0">
+  <div class="gzcq0title">
+    <div class="gzcq0titlebody">
+      <div class="gzcq0titlebodytitle">
         Ajans Mobil Web Sitemize Hoşgeldiniz
       </div>
-      <div class="m5y8rtitlebodylang">
+      <div class="gzcq0titlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"></a></li>
         </ul>
@@ -47,31 +47,39 @@
     </div>
   </div>
 
-  <div class="m5y8rChildren">
-    <div class="m5y8rbody">
-      <a href="/tr"><img src="/img/logo.svg" class="m5y8rbodylogo" /></a>
+  <div class="gzcq0Children">
+    <div class="gzcq0body">
+      <a href="/tr"
+        ><img src="/img/logo.svg" class="gzcq0bodylogo"
+      /></a>
     </div>
-    <div class="m5y8rmenu">
-      <div class="m5y8rmenulistbody">
-        <div class="m5y8rmenulist">
-          <ul>
-            <a href="/tr/">Anasayfa </a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/referanslari/">Referansları</a><a href="/tr/blog/">Blog</a><a href="/tr/iletisim/">İletişim</a>
-          </ul>
-        </div>
-      </div>
+
+    <div class="gzcq0menumobil">
+      <div class="material-symbols-outlined">menu</div>
+    </div>
+
+    <div class="gzcq0menulist">
+      <ul>
+        <a href="/tr/">Anasayfa </a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/referanslari/">Referansları</a><a href="/tr/bb44xk9jzz/">Hizmetlerimiz</a><a href="/tr/blog/">Blog</a><a href="/tr/iletisim/">İletişim</a>
+      </ul>
     </div>
   </div>
 </div>
 
 <style>
-  .m5y8rChildren {
+  .gzcq0menumobil {
+    display: none;
+    cursor: pointer;
+  }
+
+  .gzcq0Children {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .m5y8r {
+  .gzcq0 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -80,7 +88,7 @@
     background-color: #fff;
   }
 
-  .m5y8rtitle {
+  .gzcq0title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -88,7 +96,7 @@
     justify-content: center;
   }
 
-  .m5y8rtitlebody {
+  .gzcq0titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -96,46 +104,40 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .m5y8rtitlebodytitle {
+  .gzcq0titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .m5y8rtitlebodylang {
+  .gzcq0titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .m5y8rtitlebodylang ul {
+  .gzcq0titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .m5y8rbody {
+  .gzcq0body {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .m5y8rmenu {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    width: 100%;
-  }
-
-  .m5y8rmenulist {
-    width: calc(100% - 20px);
+  .gzcq0menulist {
+    display: block;
     background-color: #165858;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
   }
 
-  .m5y8rmenubody {
+  .gzcq0menubody {
     width: 100%;
     background-color: #165858;
     display: flex;
@@ -143,7 +145,7 @@
     justify-content: center;
   }
 
-  .m5y8rmenulist ul {
+  .gzcq0menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -153,7 +155,7 @@
     overflow-x: auto;
   }
 
-  .m5y8rmenulist ul a {
+  .gzcq0menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -165,33 +167,74 @@
     white-space: nowrap;
   }
 
-  .m5y8rmenulist ul a:hover {
+  .gzcq0menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .m5y8rmenulistbody {
-    width: 100%;
-  }
-
-  .m5y8rbodylogo {
+  .gzcq0bodylogo {
     height: 100px;
     max-width: 90vw;
     max-height: 100px;
   }
 
+  @media screen and (min-width: 1024px) {
+    .gzcq0menumobil {
+      display: none !important;
+    }
+
+    .gzcq0menulist {
+      display: flex !important;
+    }
+  }
+
   @media screen and (max-width: 1024px) {
-    .m5y8rmenu {
+    .gzcq0menumobil {
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      background-color: #165858;
+      width: 100%;
+    }
+
+    .gzcq0menumobil div {
+      font-size: 32px;
+      color: #fff;
+      padding: 5px;
+    }
+
+    .gzcq0menulist {
+      display: none;
+    }
+
+    .gzcq0body {
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .gzcq0Children {
+      width: 100%;
+      gap: 0px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .gzcq0menulist ul a {
+      padding: 10px 0px 10px 0px;
+    }
+
+    .gzcq0menu {
       overflow-x: auto;
     }
 
-    .m5y8rmenulist ul {
-      flex-direction: row;
+    .gzcq0menulist ul {
+      flex-direction: column;
     }
 
-    .m5y8rbodylogo {
+    .gzcq0bodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -199,150 +242,26 @@
   }
 
   @media screen and (max-width: 768px) {
-    .m5y8rmenulist ul a {
+    .gzcq0menulist ul a {
       font-size: 14px;
     }
   }
-</style></div>
-    <div id="content"><div class="wywsn-title f36">
-  <span>Sosyal Medya Yönetimi</span>
-</div>
-
-<div class="wywsn">
-  <div class="wywsn-menu"><a   href="/tr/kurumsal" >Kurumsal</a><a   href="/tr/referanslari" >Referansları</a><a   href="/tr/blog" >Blog</a><a   href="/tr/iletisim" >İletişim</a></div>
-  <div class="wywsn-desc">
-    <div class="wywsn-desc-body">
-      <div class="wywsn-img">
-        <img src="/page/j6vwxyz7a8/ksmes.png" width="100%" />
-      </div>
-      
-    </div>
-    <div class="wywsn-body"><h1><h1>Profesyonel Sosyal Medya Yönetimi Hizmetleri</h1><p>Ajan Mobil olarak, sosyal medya platformlarında markanızı doğru şekilde temsil ediyor ve hedef kitlenizle etkileşimi artırıyoruz. Kapsamlı sosyal medya yönetimi hizmetlerimizle dijital varlığınızı güçlendiriyoruz.</p><h2>Sosyal Medya Hizmetlerimiz</h2><ul><li>Strateji Geliştirme</li><li>İçerik Üretimi ve Paylaşım Planlaması</li><li>Topluluk Yönetimi</li><li>Sosyal Medya Reklamcılığı</li><li>Performans Analizi ve Raporlama</li></ul><h2>Neden Ajan Mobil'in Sosyal Medya Yönetimi?</h2><p>1. Kişiselleştirilmiş Stratejiler: Her marka için özel sosyal medya stratejileri geliştiriyoruz.</p><p>2. Yaratıcı İçerik Üretimi: Markanızı en iyi şekilde yansıtan özgün içerikler oluşturuyoruz.</p><p>3. Aktif Topluluk Yönetimi: Takipçilerinizle etkileşimi artırıyor, marka sadakatini güçlendiriyoruz.</p><p>4. Veri Odaklı Yaklaşım: Analitik araçlarla performansınızı ölçüyor ve sürekli iyileştiriyoruz.</p><p>5. Çok Platformlu Yönetim: Facebook, Instagram, Twitter, LinkedIn ve diğer platformlarda bütünleşik yönetim sağlıyoruz.</p><h2>Sosyal Medya Pazarlama Sürecimiz</h2><p>1. Durum Analizi: Mevcut sosyal medya varlığınızı ve rakiplerinizi analiz ediyoruz.</p><p>2. Strateji Oluşturma: Hedeflerinize uygun bir sosyal medya stratejisi geliştiriyoruz.</p><p>3. İçerik Planlaması: Markanıza özel içerik takvimi oluşturuyor ve yönetiyoruz.</p><p>4. Topluluk Etkileşimi: Takipçilerinizle aktif iletişim kurarak marka bilinirliğini artırıyoruz.</p><p>5. Reklam Yönetimi: Hedef kitlenize ulaşmak için etkili sosyal medya reklamları yönetiyoruz.</p><p>6. Performans Değerlendirmesi: Düzenli raporlarla sosyal medya performansınızı ölçüyor ve optimize ediyoruz.</p><h2>Sosyal Medyada Markanızı Öne Çıkarın</h2><p>Ajan Mobil'in profesyonel sosyal medya yönetimi hizmetleriyle dijital dünyada markanızı güçlendirin. Etkili içerik stratejileri, aktif topluluk yönetimi ve veri odaklı optimizasyonlarla sosyal medya başarınızı artırın.</p></h1></div>
-  </div>
-</div>
-
-<style>
-  #content {
-    justify-content: start;
-  }
-  .wywsn {
-    width: var(--max);
-    margin-top: 20px;
-    gap: 10px;
-    float: left;
-  }
-  .wywsn-menu {
-    width: 200px;
-    background-color: #e0e0e0;
-    border-radius: 5px;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    float: left;
-  }
-  .wywsn-desc {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    float: right;
-  }
-  .wywsn-menu > a {
-    background-color: #fff;
-    padding: 10px;
-    float: left;
-  }
-  .wywsn-menu > .active {
-    background-color: #1e3046;
-    color: #fff;
-    display: flex;
-  }
-  .wywsn-desc-menu {
-    width: 200px;
-    background-color: #1e3046;
-    display: flex;
-    flex-direction: column;
-    border-radius: 5px;
-  }
-  .wywsn-desc-menu > div {
-    padding: 5px;
-    border-radius: 5px;
-    background-color: #fff;
-    margin: 5px;
-  }
-  .wywsn-desc-body {
-    display: flex;
-    justify-content: space-between;
-  }
-  .wywsn-title {
-    width: 100%;
-    height: 200px;
-    background-color: #000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    color: #fff;
-    font-weight: bold;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  }
-  .wywsn-title::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('/page/j6vwxyz7a8/{{bgimg}}');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    opacity: 0.5;
-    z-index: 1;
-  }
-  .wywsn-title span {
-    position: relative;
-    z-index: 2;
-    font-size: 50px;
-  }
-  .wywsn-body {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  .wywsn-img {
-    display: flex;
-    align-items: start;
-    justify-content: center;
-    width: calc(var(--max) - 460px);
-  }
-  @media screen and (min-width: 1024px) {
-    .wywsn-desc {
-      width: calc(var(--max) - 240px);
-    }
-  }
-  @media screen and (max-width: 1024px) {
-    .wywsn {
-      flex-direction: column;
-      width: calc(100% - 10px);
-      padding: 5px;
-      gap: 20px;
-    }
-    .wywsn-img {
-      width: 100%;
-    }
-    .wywsn-body {
-      width: 100%;
-    }
-    .wywsn-menu {
-      display: none;
-    }
-    .wywsn-desc {
-      width: 100% !important;
-    }
-  }
 </style>
+
+<script>
+  document
+    .querySelector('.gzcq0menumobil')
+    .addEventListener('click', function () {
+      const menu = document.querySelector('.gzcq0menulist');
+      if (menu.style.display === 'flex') {
+        menu.style.display = 'none';
+      } else {
+        menu.style.display = 'flex';
+      }
+    });
+</script>
 </div>
+    <div id="content">{{body}}</div>
     <div id="footer"><footer class="footer">
   <div class="waves">
     <div class="wave" id="wave1"></div>
@@ -373,7 +292,7 @@
     </li>
   </ul>
   <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/tr">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/kurumsal">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/referanslari">Referansları</a></li><li class="menu__item"><a class="menu__link" href="/tr/blog">Blog</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim">İletişim</a></li>
+    <li class="menu__item"><a class="menu__link" href="/tr">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/kurumsal">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/referanslari">Referansları</a></li><li class="menu__item"><a class="menu__link" href="/tr/bb44xk9jzz">Hizmetlerimiz</a></li><li class="menu__item"><a class="menu__link" href="/tr/blog">Blog</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim">İletişim</a></li><li class="menu__item"><a class="menu__link" href="/tr/qeoxcokqmz">Misyon</a></li><li class="menu__item"><a class="menu__link" href="/tr/arkjwyoin6">Vizyon</a></li><li class="menu__item"><a class="menu__link" href="/tr/kyefautw0x">Kişisel Veriler</a></li><li class="menu__item"><a class="menu__link" href="/tr/orcivgdmim">Yasal Uyarı</a></li><li class="menu__item"><a class="menu__link" href="/tr/p0xrohbisc">Çerez Politikası</a></li>
   </ul>
   <p>Ajans Mobil 2024 cognite. &copy;</p>
 </footer>
