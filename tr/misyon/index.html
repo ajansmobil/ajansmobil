@@ -33,29 +33,29 @@
     
   </head>
   <body>
-    <div id="header"><div class="jozel">
-  <div class="jozeltitle">
-    <div class="jozeltitlebody">
-      <div class="jozeltitlebodytitle">
-        Ajans Mobil Web Sitemize Hoşgeldiniz
+    <div id="header"><div class="vuser">
+  <div class="vusertitle">
+    <div class="vusertitlebody">
+      <div class="vusertitlebodytitle">
+        Ajans Mobil - Mobil Uygulama Geliştirme Web Sitemize Hoşgeldiniz
       </div>
-      <div class="jozeltitlebodylang">
+      <div class="vusertitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="jozelChildren">
-    <div class="jozelbody">
+  <div class="vuserChildren">
+    <div class="vuserbody">
       <a href="/tr"
-        ><img src="/img/logo.svg" class="jozelbodylogo"
+        ><img src="/img/logo.svg" class="vuserbodylogo"
       /></a>
     </div>
-    <div class="jozelmenumobil">
+    <div class="vusermenumobil">
       <div class="material-symbols-outlined">menu</div>
     </div>
-    <div class="jozelmenulist">
+    <div class="vusermenulist">
       <ul>
         <a href="/tr/">Anasayfa </a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/referanslari/">Referansları</a><a href="/tr/hizmetlerimiz/">Hizmetlerimiz</a><a href="/tr/iletisim/">İletişim</a>
       </ul>
@@ -63,17 +63,17 @@
   </div>
 </div>
 <style>
-  .jozelmenumobil {
+  .vusermenumobil {
     display: none;
     cursor: pointer;
   }
-  .jozelChildren {
+  .vuserChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
-  .jozel {
+  .vuser {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -81,41 +81,41 @@
     justify-content: center;
     background-color: #fff;
   }
-  .jozeltitle {
+  .vusertitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .jozeltitlebody {
+  .vusertitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .jozeltitlebodytitle {
+  .vusertitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .jozeltitlebodylang {
+  .vusertitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .jozeltitlebodylang ul {
+  .vusertitlebodylang ul {
     display: flex;
     gap: 5px;
   }
-  .jozelbody {
+  .vuserbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
-  .jozelmenulist {
+  .vusermenulist {
     display: block;
     background-color: #165858;
     padding: 10px;
@@ -123,14 +123,14 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 100%;
   }
-  .jozelmenubody {
+  .vusermenubody {
     width: 100%;
     background-color: #165858;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .jozelmenulist ul {
+  .vusermenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -139,7 +139,7 @@
     padding: 0;
     overflow-x: auto;
   }
-  .jozelmenulist ul a {
+  .vusermenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -150,78 +150,77 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .jozelmenulist ul a:hover {
+  .vusermenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
-  .jozelbodylogo {
+  .vuserbodylogo {
     height: 100px;
     max-width: 90vw;
-    max-height: 100px;
   }
   @media screen and (min-width: 1024px) {
-    .jozelmenumobil {
+    .vusermenumobil {
       display: none !important;
     }
-    .jozelmenulist {
+    .vusermenulist {
       display: flex !important;
     }
   }
   @media screen and (max-width: 1024px) {
-    .jozelmenumobil {
+    .vusermenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
       background-color: #165858;
       width: 100%;
     }
-    .jozelmenumobil div {
+    .vusermenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
-    .jozelmenulist {
+    .vusermenulist {
       display: none;
     }
-    .jozelbody {
+    .vuserbody {
       flex-direction: column;
       gap: 20px;
     }
-    .jozelChildren {
+    .vuserChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
       align-items: center;
       justify-content: center;
     }
-    .jozelmenulist ul a {
+    .vusermenulist ul a {
       padding: 10px 0px 10px 0px;
     }
-    .jozelmenu {
+    .vusermenu {
       overflow-x: auto;
     }
-    .jozelmenulist ul {
+    .vusermenulist ul {
       flex-direction: column;
     }
-    .jozelbodylogo {
+    .vuserbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
   }
   @media screen and (max-width: 768px) {
-    .jozelmenulist ul a {
+    .vusermenulist ul a {
       font-size: 14px;
     }
   }
 </style>
 <script>
   document
-    .querySelector('.jozelmenumobil')
+    .querySelector('.vusermenumobil')
     .addEventListener('click', function () {
-      const menu = document.querySelector('.jozelmenulist');
+      const menu = document.querySelector('.vusermenulist');
       if (menu.style.display === 'flex') {
         menu.style.display = 'none';
       } else {
@@ -230,24 +229,24 @@
     });
 </script>
 </div>
-    <div id="content"><div class="n1224-title f36">
+    <div id="content"><div class="g1pbf-title f36">
   <span>Misyon</span>
 </div>
-<div class="n1224">
-  <div class="n1224-menu"><a class="active"  href="/tr/misyon" >Misyon</a><a   href="/tr/vizyon" >Vizyon</a><a   href="/tr/kisisel-veriler" >Kişisel Veriler</a><a   href="/tr/yasal-uyari" >Yasal Uyarı</a><a   href="/tr/cerez-politikasi" >Çerez Politikası</a></div>
-  <div class="n1224-body"><p></p><br></div>
+<div class="g1pbf">
+  <div class="g1pbf-menu"><a class="active"  href="/tr/misyon" >Misyon</a><a   href="/tr/vizyon" >Vizyon</a><a   href="/tr/kisisel-veriler" >Kişisel Veriler</a><a   href="/tr/yasal-uyari" >Yasal Uyarı</a><a   href="/tr/cerez-politikasi" >Çerez Politikası</a></div>
+  <div class="g1pbf-body"><p></p><br></div>
 </div>
 <style>
   #content {
     justify-content: start;
   }
-  .n1224 {
+  .g1pbf {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .n1224-menu {
+  .g1pbf-menu {
     width: 220px;
     background-color: #f4f4f4 ;
     border-radius: 5px;
@@ -257,7 +256,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .n1224-menu > a {
+  .g1pbf-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -265,18 +264,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .n1224-menu > a:hover,
-  .n1224-menu > .active {
+  .g1pbf-menu > a:hover,
+  .g1pbf-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .n1224-body {
+  .g1pbf-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .n1224-title {
+  .g1pbf-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -288,7 +287,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .n1224-title::before {
+  .g1pbf-title::before {
     content: '';
     position: absolute;
     top: 0;
@@ -302,21 +301,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .n1224-title span {
+  .g1pbf-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .n1224 {
+    .g1pbf {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .n1224-menu {
+    .g1pbf-menu {
       display: none;
     }
-    .n1224-body {
+    .g1pbf-body {
       width: 100%;
     }
   }
@@ -354,7 +353,7 @@
   <ul class="menu">
     <li class="menu__item"><a class="menu__link" href="/tr">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/kurumsal">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/referanslari">Referansları</a></li><li class="menu__item"><a class="menu__link" href="/tr/hizmetlerimiz">Hizmetlerimiz</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim">İletişim</a></li><li class="menu__item"><a class="menu__link" href="/tr/misyon">Misyon</a></li><li class="menu__item"><a class="menu__link" href="/tr/vizyon">Vizyon</a></li><li class="menu__item"><a class="menu__link" href="/tr/kisisel-veriler">Kişisel Veriler</a></li><li class="menu__item"><a class="menu__link" href="/tr/yasal-uyari">Yasal Uyarı</a></li><li class="menu__item"><a class="menu__link" href="/tr/cerez-politikasi">Çerez Politikası</a></li>
   </ul>
-  <p>Ajans Mobil 2024 cognite. &copy;</p>
+  <p>Ajans Mobil - Mobil Uygulama Geliştirme 2024 cognite. &copy;</p>
 </footer>
 <style>
   .footer {
