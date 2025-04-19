@@ -1,15 +1,15 @@
 
-  .lfz4kmenumobil {
+  .nuibbmenumobil {
     display: none;
     cursor: pointer;
   }
-  .lfz4kChildren {
+  .nuibbChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
-  .lfz4k {
+  .nuibb {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -17,41 +17,41 @@
     justify-content: center;
     background-color: #fff;
   }
-  .lfz4ktitle {
+  .nuibbtitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .lfz4ktitlebody {
+  .nuibbtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .lfz4ktitlebodytitle {
+  .nuibbtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .lfz4ktitlebodylang {
+  .nuibbtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .lfz4ktitlebodylang ul {
+  .nuibbtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
-  .lfz4kbody {
+  .nuibbbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
-  .lfz4kmenulist {
+  .nuibbmenulist {
     display: block;
     background-color: #165858;
     padding: 10px;
@@ -59,14 +59,14 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 100%;
   }
-  .lfz4kmenubody {
+  .nuibbmenubody {
     width: 100%;
     background-color: #165858;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .lfz4kmenulist ul {
+  .nuibbmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -75,7 +75,7 @@
     padding: 0;
     overflow-x: auto;
   }
-  .lfz4kmenulist ul a {
+  .nuibbmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -86,68 +86,68 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .lfz4kmenulist ul a:hover {
+  .nuibbmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
-  .lfz4kbodylogo {
+  .nuibbbodylogo {
     height: 100px;
     max-width: 90vw;
   }
   @media screen and (min-width: 1024px) {
-    .lfz4kmenumobil {
+    .nuibbmenumobil {
       display: none !important;
     }
-    .lfz4kmenulist {
+    .nuibbmenulist {
       display: flex !important;
     }
   }
   @media screen and (max-width: 1024px) {
-    .lfz4kmenumobil {
+    .nuibbmenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
       background-color: #165858;
       width: 100%;
     }
-    .lfz4kmenumobil div {
+    .nuibbmenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
-    .lfz4kmenulist {
+    .nuibbmenulist {
       display: none;
     }
-    .lfz4kbody {
+    .nuibbbody {
       flex-direction: column;
       gap: 20px;
     }
-    .lfz4kChildren {
+    .nuibbChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
       align-items: center;
       justify-content: center;
     }
-    .lfz4kmenulist ul a {
+    .nuibbmenulist ul a {
       padding: 10px 0px 10px 0px;
     }
-    .lfz4kmenu {
+    .nuibbmenu {
       overflow-x: auto;
     }
-    .lfz4kmenulist ul {
+    .nuibbmenulist ul {
       flex-direction: column;
     }
-    .lfz4kbodylogo {
+    .nuibbbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
   }
   @media screen and (max-width: 768px) {
-    .lfz4kmenulist ul a {
+    .nuibbmenulist ul a {
       font-size: 14px;
     }
   }
@@ -183,10 +183,10 @@
   }
 
 
-  .title-reqni {
+  .title-vqjvi {
     font-size: 18px;
   }
-  .reqnibody {
+  .vqjvibody {
     display: flex;
     align-items: stretch;
     padding: 15px 0px 15px 0px;
@@ -197,20 +197,20 @@
     align-items: center;
     justify-content: center;
   }
-  .swiper-pagination-reqni {
+  .swiper-pagination-vqjvi {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 5px !important;
   }
-  .sliderxreqni {
+  .sliderxvqjvi {
     position: relative;
     width: 100%;
     max-width: var(--max);
     margin-top: 20px;
     margin-bottom: 20px;
   }
-  .slider-reqnit-itle {
+  .slider-vqjvit-itle {
     width: 100%;
     font-size: 28px;
     font-weight: 500;
@@ -219,8 +219,8 @@
     justify-content: left;
     margin-bottom: 10px;
   }
-  .swiper-button-prev-reqni,
-  .swiper-button-next-reqni {
+  .swiper-button-prev-vqjvi,
+  .swiper-button-next-vqjvi {
     color: #000 !important;
     font-size: 28px;
     font-weight: bold;
@@ -232,18 +232,18 @@
     transform: translateY(-50%);
     /* Center it vertically */
   }
-  .swiper-button-prev-reqni {
+  .swiper-button-prev-vqjvi {
     left: -30px !important;
   }
-  .swiper-button-next-reqni {
+  .swiper-button-next-vqjvi {
     right: -30px !important;
   }
   @media screen and (max-width: 1024px) {
-    .sliderxreqni {
+    .sliderxvqjvi {
       width: 100%;
     }
   }
-  .img-reqni {
+  .img-vqjvi {
     aspect-ratio: 3/2;
     display: flex;
     align-items: center;
@@ -256,7 +256,7 @@
     position: relative;
     overflow: hidden;
   }
-  .img-reqni > img {
+  .img-vqjvi > img {
     max-height: 100%;
     max-width: 100%;
     object-fit: contain;
@@ -267,7 +267,7 @@
     top: 0;
     left: 0;
   }
-  .spot-reqni {
+  .spot-vqjvi {
     flex: 1;
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -276,33 +276,33 @@
     text-overflow: ellipsis;
     white-space: normal;
   }
-  .button-reqni {
+  .button-vqjvi {
     background-color: #165858;
     padding: 8px;
     border-radius: 5px;
     color: #fff;
     display: flex;
   }
-  .button-reqni > * {
+  .button-vqjvi > * {
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .button-reqni:hover {
+  .button-vqjvi:hover {
     filter: brightness(0.9);
     transition: filter 0.3s;
   }
-  .button-reqni:hover span {
+  .button-vqjvi:hover span {
     transform: translateX(8px) scale(1.2);
     /* Move and scale the icon */
     transition:
       transform 0.4s ease,
       color 0.4s ease;
   }
-  .button-reqni:hover .w100 {
+  .button-vqjvi:hover .w100 {
     transition: color 0.4s ease;
   }
-  .swiper-reqni {
+  .swiper-vqjvi {
     background-color: #fff;
     aspect-ratio: 3/4;
     width: 100%;
@@ -317,15 +317,15 @@
     transition: filter 0.3s;
     cursor: pointer;
   }
-  .reqni {
+  .vqjvi {
     overflow-x: auto;
   }
-  .reqni::-webkit-scrollbar {
+  .vqjvi::-webkit-scrollbar {
     display: none;
   }
 
 
-  .sliderxicfw3body {
+  .sliderxazubvbody {
     width: 100%;
     display: flex;
     align-items: center;
@@ -334,29 +334,29 @@
     padding: 10px 0px 10px 0px;
     margin: 0px 0px 0px 0px;
   }
-  .sliderxicfw3 {
+  .sliderxazubv {
     width: var(--max);
     margin: 10px 0px 10px 0px;
   }
-  .swiper-pagination-icfw3 {
+  .swiper-pagination-azubv {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 5px !important;
   }
-  .sliderxicfw3title {
+  .sliderxazubvtitle {
     width: 100%;
     font-size: 24px;
     font-weight: 500;
     color: #fff;
   }
   @media screen and (max-width: 1024px) {
-    .sliderxicfw3 {
+    .sliderxazubv {
       width: 100%;
     }
   }
-  .swiper-button-prev-icfw3,
-  .swiper-button-next-icfw3 {
+  .swiper-button-prev-azubv,
+  .swiper-button-next-azubv {
     color: #000;
     font-size: 28px;
     font-weight: bold;
@@ -369,13 +369,13 @@
     margin: 10px;
     cursor: pointer;
   }
-  .icfw3 {
+  .azubv {
     overflow-x: auto;
   }
-  .icfw3::-webkit-scrollbar {
+  .azubv::-webkit-scrollbar {
     display: none;
   }
-  .modulchildicfw32 {
+  .modulchildazubv2 {
     text-align: -webkit-center;
     width: 100%;
     float: left;
@@ -384,16 +384,16 @@
     background-color: #fff;
     filter: grayscale(1);
   }
-  .modulchildicfw32:hover {
+  .modulchildazubv2:hover {
     filter: grayscale(0);
   }
-  .modulchildicfw33 {
+  .modulchildazubv3 {
     float: left;
     padding: 5px;
   }
 
 
-  .bp2zd-body {
+  .my6ma-body {
     min-height: 200px !important;
     display: flex;
     align-items: center;
@@ -401,7 +401,7 @@
     color: #fff;
     width: var(--max);
   }
-  .bp2zd-body-title {
+  .my6ma-body-title {
     font-size: 36px;
     font-weight: bold;
     color: #165858;
@@ -412,23 +412,23 @@
       0 0 1em white,
       0 0 0.2em white;
   }
-  .bp2zd-body-form {
+  .my6ma-body-form {
     width: var(--max);
     display: flex;
     gap: 10px;
     border-radius: 10px;
   }
-  .bp2zd-body-chile {
+  .my6ma-body-chile {
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
   }
-  .bp2zd-body-chile > div {
+  .my6ma-body-chile > div {
     width: 100% !important;
   }
-  .bp2zd-body-form-button {
+  .my6ma-body-form-button {
     background-color: #165858;
     border-radius: 10px;
     margin-top: 15px;
@@ -438,7 +438,7 @@
     width: 100%;
     padding: 20px 0px 20px 0px;
   }
-  .bp2zd2 {
+  .my6ma2 {
     margin-top: 10px;
     margin-bottom: 10px;
     position: relative;
@@ -448,22 +448,22 @@
     justify-content: center;
     overflow: hidden;
   }
-  .bp2zd {
+  .my6ma {
     display: flex;
     flex-direction: column;
     /* 0.5 değeri opaklık seviyesini belirler, 0 ile 1 arasında değer alır */
   }
-  .bp2zd > svg {
+  .my6ma > svg {
     width: 100vw;
   }
-  .bp2zdbotton {
+  .my6mabotton {
     transform: scaleY(-1);
     margin-bottom: -1px;
   }
-  .bp2zd-svg {
+  .my6ma-svg {
     fill: #fff;
   }
-  .bp2zd-bg {
+  .my6ma-bg {
     background-image: url("/img/zw1v5e/bg.jpg") !important;
     background-size: cover;
     background-position: center center;
@@ -481,7 +481,7 @@
   }
 
 
-  .fnv9f-whatsapp {
+  .hqila-whatsapp {
     margin: --margin--;
     width: 100%;
     padding: 5px 0px 5px 0px;
@@ -497,58 +497,58 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
-  .fnv9f-whatsapp:hover {
+  .hqila-whatsapp:hover {
     background-color: #128c7e;
     transform: translateY(-5px);
   }
 
-  .fnv9f-wh-svg-icon- {
+  .hqila-wh-svg-icon- {
     width: 70px;
     height: 70px;
     fill: #ffffff;
   }
 
-  .fnv9f-body {
+  .hqila-body {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     width: var(--max);
   }
 
-  .fnv9f-icon {
+  .hqila-icon {
     margin-right: 15px;
     animation: bounce 2s infinite;
   }
 
-  .fnv9f-info {
+  .hqila-info {
     flex-grow: 1;
   }
 
-  .fnv9f-name {
+  .hqila-name {
     font-size: 22px;
     font-weight: bold;
     color: #ffffff;
     margin-bottom: 4px;
   }
 
-  .fnv9f-number {
+  .hqila-number {
     font-size: 22px;
     color: #ffffff;
     display: flex;
     align-items: center;
   }
 
-  .fnv9f-phone-icon {
+  .hqila-phone-icon {
     width: 26px;
     height: 26px;
     margin-right: 6px;
   }
 
-  .fnv9f-arrow {
+  .hqila-arrow {
     margin-left: 15px;
   }
 
-  .fnv9f-arrow-icon {
+  .hqila-arrow-icon {
     width: 74px;
     height: 74px;
     animation: arrowBounce 1.5s infinite ease-in-out;
@@ -584,7 +584,7 @@
   }
 
 
-  .hv8sn {
+  .t9xqf {
     width: 100%;
     padding: 60px 20px;
     display: flex;
@@ -592,13 +592,13 @@
     justify-content: center;
     position: relative;
   }
-  .hv8sncontainertitle {
+  .t9xqfcontainertitle {
     font-size: 28px;
     font-weight: bold;
     color: #333;
     margin-bottom: 20px;
   }
-  .hv8sncontainerlist {
+  .t9xqfcontainerlist {
     padding: 10px;
     display: flex;
     border-radius: 8px;
@@ -606,23 +606,23 @@
     gap: 20px;
     transition: background-color 0.3s ease;
   }
-  .hv8sncontainerlist > div {
+  .t9xqfcontainerlist > div {
     display: flex;
     align-items: center;
     font-size: 20px;
     color: #444;
   }
-  .hv8sncontainerlist:hover {
+  .t9xqfcontainerlist:hover {
     background-color: #f9f9f9;
     border-bottom-color: #165858;
   }
-  .hv8sncontainer {
+  .t9xqfcontainer {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 20px;
   }
-  .hv8sncontainerbody {
+  .t9xqfcontainerbody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -631,24 +631,24 @@
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
-  .hv8snbody {
+  .t9xqfbody {
     width: calc(var(--max) - 40px);
     background-color: #ebebeb;
     border: 1px solid #dedede;
     border-radius: 10px;
     padding: 20px;
   }
-  .hv8sncontainerlist > span {
+  .t9xqfcontainerlist > span {
     font-size: 24px;
     color: #165858;
   }
   @media screen and (max-width: 1024px) {
-    .hv8snbody {
+    .t9xqfbody {
       width: 100%;
       padding: 20px;
       flex-direction: column;
     }
-    .hv8sncontainerbody {
+    .t9xqfcontainerbody {
       padding: 15px;
     }
   }

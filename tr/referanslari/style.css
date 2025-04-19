@@ -1,15 +1,15 @@
 
-  .ls753menumobil {
+  .mzresmenumobil {
     display: none;
     cursor: pointer;
   }
-  .ls753Children {
+  .mzresChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
-  .ls753 {
+  .mzres {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -17,41 +17,41 @@
     justify-content: center;
     background-color: #fff;
   }
-  .ls753title {
+  .mzrestitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .ls753titlebody {
+  .mzrestitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .ls753titlebodytitle {
+  .mzrestitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .ls753titlebodylang {
+  .mzrestitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .ls753titlebodylang ul {
+  .mzrestitlebodylang ul {
     display: flex;
     gap: 5px;
   }
-  .ls753body {
+  .mzresbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
-  .ls753menulist {
+  .mzresmenulist {
     display: block;
     background-color: #165858;
     padding: 10px;
@@ -59,14 +59,14 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 100%;
   }
-  .ls753menubody {
+  .mzresmenubody {
     width: 100%;
     background-color: #165858;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .ls753menulist ul {
+  .mzresmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -75,7 +75,7 @@
     padding: 0;
     overflow-x: auto;
   }
-  .ls753menulist ul a {
+  .mzresmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -86,68 +86,68 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .ls753menulist ul a:hover {
+  .mzresmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
-  .ls753bodylogo {
+  .mzresbodylogo {
     height: 100px;
     max-width: 90vw;
   }
   @media screen and (min-width: 1024px) {
-    .ls753menumobil {
+    .mzresmenumobil {
       display: none !important;
     }
-    .ls753menulist {
+    .mzresmenulist {
       display: flex !important;
     }
   }
   @media screen and (max-width: 1024px) {
-    .ls753menumobil {
+    .mzresmenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
       background-color: #165858;
       width: 100%;
     }
-    .ls753menumobil div {
+    .mzresmenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
-    .ls753menulist {
+    .mzresmenulist {
       display: none;
     }
-    .ls753body {
+    .mzresbody {
       flex-direction: column;
       gap: 20px;
     }
-    .ls753Children {
+    .mzresChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
       align-items: center;
       justify-content: center;
     }
-    .ls753menulist ul a {
+    .mzresmenulist ul a {
       padding: 10px 0px 10px 0px;
     }
-    .ls753menu {
+    .mzresmenu {
       overflow-x: auto;
     }
-    .ls753menulist ul {
+    .mzresmenulist ul {
       flex-direction: column;
     }
-    .ls753bodylogo {
+    .mzresbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
   }
   @media screen and (max-width: 768px) {
-    .ls753menulist ul a {
+    .mzresmenulist ul a {
       font-size: 14px;
     }
   }
