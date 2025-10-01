@@ -1,0 +1,200 @@
+{
+  "data": [
+    {
+      "index": 0,
+      "name": "Menü 4",
+      "path": "menu-4",
+      "local": "header",
+      "desing": {
+        "logo": "logo.svg",
+        "color": "#0f70b7",
+        "height": "100px",
+        "background-color": "#fff"
+      },
+      "id": "f3hsb0",
+      "category": "menu"
+    },
+    {
+      "index": 1,
+      "name": "Footer 1",
+      "path": "footer-1",
+      "local": "footer",
+      "desing": {
+        "bgcolor": "#0f70b7",
+        "color": "#fff",
+        "img": "",
+        "imgwidth": "250px"
+      },
+      "id": "ei3jbw",
+      "category": "footer",
+      "data": []
+    },
+    {
+      "index": 2,
+      "name": "İletişim",
+      "path": "contact-3",
+      "local": "body",
+      "desing": {
+        "color": "#165858",
+        "name": {
+          "tr": "Bize Ulaşın"
+        },
+        "margin": "30px 0px 30px 0px"
+      },
+      "data": [
+        {
+          "icon": "phone",
+          "text": "0531 679 10 14",
+          "url": "tel:05316791014"
+        },
+        {
+          "icon": "email",
+          "text": "info@ajansmobil.com",
+          "url": "email:info@ajansmobil.com"
+        }
+      ],
+      "id": "a5mvw9",
+      "category": "contact"
+    },
+    {
+      "index": 3,
+      "name": "Slider",
+      "path": "slider",
+      "local": "header",
+      "desing": {
+        "delay": 3000
+      },
+      "data": [
+        {
+          "img": "seo çalışmaları.jpg"
+        },
+        {
+          "img": "web tasarım.jpg"
+        },
+        {
+          "img": "google reklam yönetimi.jpg"
+        },
+        {
+          "img": "asansör reklamları.jpg"
+        },
+        {
+          "img": "sosyal medya.jpg"
+        },
+        {
+          "img": "belediye otobüs reklamları 2.jpg"
+        },
+        {
+          "img": "belediye otobüs reklamları.jpg"
+        },
+        {
+          "img": "foto çekimi.jpg"
+        },
+        {
+          "img": "taksi reklamları.jpg"
+        },
+        {
+          "img": "tranvay reklamalrı.jpg"
+        }
+      ],
+      "id": "ayn5ph",
+      "category": "slider"
+    },
+    {
+      "index": 4,
+      "name": "Hizmetlerimiz",
+      "path": "page-slider-5",
+      "local": "body",
+      "desing": {
+        "page": "services",
+        "name": {
+          "tr": "Hizmetlerimiz"
+        },
+        "aspect-ratio": "3/2",
+        "size": 4,
+        "category": "",
+        "margin": "0px 0px 0px 0px",
+        "max": 8,
+        "color": "#006B65",
+        "delay": 4000
+      },
+      "id": "i0uquh",
+      "category": "page slider"
+    },
+    {
+      "index": 5,
+      "name": "Açık Hava ve Gezen Reklam",
+      "path": "page-slider-5",
+      "local": "body",
+      "desing": {
+        "page": "acikhava",
+        "name": {
+          "tr": "Açık Hava ve Gezen Reklam"
+        },
+        "aspect-ratio": "3/2",
+        "size": 4,
+        "category": "",
+        "margin": "0px 0px 0px 0px",
+        "max": 8,
+        "delay": 4000,
+        "color": "#006B65"
+      },
+      "id": "i0uquh2",
+      "category": "page slider"
+    },
+    {
+      "index": 6,
+      "name": "Module Slider Liste",
+      "path": "module-slider",
+      "local": "body",
+      "category": "slider",
+      "desing": {
+        "name": {
+          "tr": "Partnerlerimiz"
+        },
+        "size": 6,
+        "button": "false",
+        "bgcolor": "#0f70b7",
+        "titlecolor": "#fff",
+        "padding": "10px 0px 10px 0px",
+        "margin": "0px 0px 0px 0px"
+      },
+      "data": [
+        {
+          "img": "1.png"
+        },
+        {
+          "img": "2.png"
+        },
+        {
+          "img": "3.png"
+        },
+        {
+          "img": "4.png"
+        },
+        {
+          "img": "5.png"
+        },
+        {
+          "img": "6.png"
+        }
+      ],
+      "id": "jyfy3k"
+    },
+    {
+      "index": 7,
+      "name": "Page Desing",
+      "path": "page-desing-5",
+      "local": "body",
+      "category": "page",
+      "desing": {
+        "height": "200",
+        "opacity": "0.5",
+        "font-size": "50",
+        "backgroundcolor": "#000",
+        "category": "page",
+        "menu-active": "#000"
+      },
+      "id": "dajchd"
+    }
+  ]
+}

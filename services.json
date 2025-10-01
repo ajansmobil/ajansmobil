@@ -1,0 +1,149 @@
+{
+  "name": "Hizmetlerimiz",
+  "path": "services",
+  "desc": [],
+  "index": 1,
+  "desing": {
+    "header": [],
+    "body": [
+      "dajchd"
+    ],
+    "footer": []
+  },
+  "modulestatus": {
+    "img": true,
+    "detail": true
+  },
+  "data": [
+    {
+      "name": {
+        "tr": "Web Tasarım"
+      },
+      "status": "play",
+      "category": "",
+      "id": "ytf1pt3kuv",
+      "url": "",
+      "path": "web-tasarim",
+      "index": 0,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "spot": {
+        "tr": "Modern, mobil uyumlu ve SEO dostu web tasarım hizmetleri. Gaziantep'te profesyonel kurumsal web sitesi ve e-ticaret çözümleri."
+      },
+      "icon": "home",
+      "img": "gh69q.png",
+      "description": {
+        "tr": "Ajans Mobil Gaziantep web tasarım hizmetleri - Mobil uyumlu, SEO uyumlu, hızlı ve modern web siteleri. Kurumsal web tasarım, e-ticaret sitesi ve özel yazılım çözümleri."
+      },
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Reklam Yönetimi"
+      },
+      "status": "play",
+      "category": "",
+      "id": "atv4542pic",
+      "url": "",
+      "path": "reklam-yonetimi",
+      "index": 1,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "spot": {
+        "tr": "Google Ads, Facebook, Instagram reklam yönetimi ile satışlarınızı artırın. Profesyonel dijital reklam kampanyaları ve ROI odaklı strateji."
+      },
+      "icon": "home",
+      "img": "va4tn.png",
+      "description": {
+        "tr": "Gaziantep Google Ads ve sosyal medya reklam yönetimi - Facebook, Instagram, Google reklamları ile hedef kitlenize ulaşın. ROI odaklı dijital reklam kampanyaları."
+      },
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Seo Hizmeti"
+      },
+      "status": "play",
+      "category": "",
+      "id": "h9f506txbw",
+      "url": "",
+      "path": "seo-hizmeti",
+      "index": 2,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "spot": {
+        "tr": "Google'da üst sıralarda yer alın. Profesyonel SEO hizmetleri ile organik trafiğinizi ve satışlarınızı artırın. Gaziantep SEO uzmanı."
+      },
+      "img": "xxeqs.png",
+      "description": {
+        "tr": "Gaziantep SEO hizmetleri - Google'da 1. sayfaya çıkın. Anahtar kelime analizi, teknik SEO, içerik optimizasyonu ve link building ile organik trafik artışı."
+      },
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Sosyal Media"
+      },
+      "status": "play",
+      "category": "",
+      "id": "w7pm6byfyq",
+      "url": "",
+      "path": "sosyal-media",
+      "index": 3,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "spot": {
+        "tr": "Profesyonel sosyal medya yönetimi ile markanızı büyütün. Facebook, Instagram, LinkedIn, Twitter içerik üretimi ve topluluk yönetimi."
+      },
+      "img": "cxfvs.png",
+      "description": {
+        "tr": "Gaziantep sosyal medya yönetimi - Instagram, Facebook, LinkedIn ve Twitter profesyonel içerik üretimi ve yönetimi. Marka bilinirliği ve etkileşim artışı."
+      },
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Fotoğraf Çekimi"
+      },
+      "status": "play",
+      "category": "",
+      "id": "p6okllk1m0",
+      "url": "",
+      "path": "fotograf-cekimi",
+      "index": 4,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "spot": {
+        "tr": "Profesyonel ürün ve kurumsal fotoğraf çekimi hizmetleri. E-ticaret, katalog, sosyal medya ve reklam için yüksek kaliteli görseller."
+      },
+      "img": "byl8k.png",
+      "description": {
+        "tr": "Gaziantep profesyonel fotoğraf çekimi - Ürün fotoğrafçılığı, kurumsal fotoğraf, food photography, mimari fotoğraf. E-ticaret ve katalog için profesyonel görseller."
+      },
+      "desc": {}
+    }
+  ]
+}

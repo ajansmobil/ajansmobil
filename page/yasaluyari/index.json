@@ -1,0 +1,31 @@
+{
+  "name": {
+    "tr": "Yasal Uyarı"
+  },
+  "status": "play",
+  "id": "yasaluyari",
+  "path": "yasal-uyari-mh6",
+  "category": "kurumsal",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "index": 7,
+  "icon": "home",
+  "spot": {
+    "tr": "Web sitesi kullanımı, sorumluluk reddi, bağlantılar ve yasal bildirimler hakkında önemli uyarılar."
+  },
+  "desc": {},
+  "description": {
+    "tr": "Ajans Mobil yasal uyarı - Web sitesi kullanım şartları, sorumluluk reddi beyanı, dış bağlantılar ve feragatname."
+  },
+  "keyword": {
+    "tr": "yasal uyarı, sorumluluk reddi, feragatname, disclaimer, web sitesi şartları, yasal bildirim, kullanım koşulları"
+  },
+  "text": {
+    "tr": "<h2 style=\"font-size: 28px; color: #0f70b7; margin-bottom: 20px;\">Yasal Uyarı ve Sorumluluk Reddi</h2>\n    <p style=\"font-size: 16px; line-height: 1.8; margin-bottom: 15px;\">\n        Bu sayfa, www.ajansmobil.com web sitesinin kullanımına ilişkin yasal uyarıları, sorumluluk reddi beyanını, kullanım şartlarını ve önemli bildirimleri içermektedir. Web sitemizi ziyaret ederek ve kullanarak bu şartları kabul etmiş sayılırsınız. Bu şartlara katılmıyorsanız web sitemizi kullanmayınız.\n    </p>\n    <h3 style=\"font-size: 22px; color: #0f70b7; margin: 20px 0 15px;\">Genel Bilgilendirme</h3>\n    <p style=\"font-size: 16px; line-height: 1.8; margin-bottom: 15px;\">\n        www.ajansmobil.com web sitesi Ajans Mobil Gaziantep tarafından işletilmektedir. Web sitesinde yer alan bilgiler genel bilgilendirme amaçlıdır ve herhangi bir danışmanlık, garanti veya taahhüt niteliği taşımamaktadır. Web sitesindeki içerikler önceden haber vermeksizin değiştirilebilir, güncellenebilir veya kaldırılabilir. Ajans Mobil, web sitesinin kesintisiz, hatasız veya güvenli çalışacağını garanti etmemektedir.\n    </p>\n    <h3 style=\"font-size: 22px; color: #0f70b7; margin: 20px 0 15px;\">Sorumluluk Reddi (Disclaimer)</h3>\n    <p style=\"font-size: 16px; line-height: 1.8; margin-bottom: 15px;\">\n        Ajans Mobil, web sitesinde yer alan bilgilerin doğruluğu, güncelliği, tamlığı veya kullanılabilirliği konusunda hiçbir garanti vermemektedir. Web sitesinin kullanımından kaynaklanan doğrudan, dolaylı, tesadüfi, özel veya sonuç olarak ortaya çıkan zararlardan (veri kaybı, iş kaybı, kar kaybı, itibar kaybı dahil) sorumlu değildir. Hizmet teklifleri, fiyatlandırmalar ve kampanya bilgileri bilgilendirme amaçlıdır. Nihai fiyat ve koşullar yazılı teklif ve sözleşme ile belirlenir. Portföy ve referans çalışmalarında gösterilen sonuçlar geçmiş performansı gösterir ve gelecek sonuçları garanti etmez. Her proje ve kampanya benzersizdir; sonuçlar sektör, bütçe, hedef kitle ve pazar koşullarına göre değişiklik gösterebilir.\n    </p>\n    <h3 style=\"font-size: 22px; color: #0f70b7; margin: 20px 0 15px;\">Dış Bağlantılar ve Üçüncü Taraf İçerikleri</h3>\n    <p style=\"font-size: 16px; line-height: 1.8; margin-bottom: 15px;\">\n        Web sitemizde üçüncü taraf web sitelerine bağlantılar bulunabilir. Bu bağlantılar sadece kullanıcı kolaylığı amacıyla sağlanmıştır. Ajans Mobil, bağlantı verilen web sitelerinin içeriğinden, gizlilik politikalarından ve güvenliğinden sorumlu değildir. Dış bağlantıları kendi riskinizle kullanırsınız. Web sitemizde kullanılan bazı görseller, ikonlar ve kaynaklar üçüncü taraf lisanslarına tabidir (Unsplash, Pexels, Google Fonts, Font Awesome vb.). Bu içerikler ilgili lisans koşullarına uygun şekilde kullanılmaktadır.\n    </p>\n    <h3 style=\"font-size: 22px; color: #0f70b7; margin: 20px 0 15px;\">Telif Hakları ve Fikri Mülkiyet</h3>\n    <p style=\"font-size: 16px; line-height: 1.8; margin-bottom: 15px;\">\n        Web sitesindeki tüm içerikler (metin, logo, tasarım, görsel, kod) Ajans Mobil'in telif hakları ve fikri mülkiyetiyle korunmaktadır. İzinsiz kopyalama, çoğaltma, dağıtma, yayınlama, ticari kullanım veya türev eser oluşturma yasaktır. 5846 sayılı Fikir ve Sanat Eserleri Kanunu, 6769 sayılı Sınai Mülkiyet Kanunu ve ilgili mevzuat hükümlerine aykırı kullanımlar hukuki ve cezai yaptırımlara tabidir. İhlal durumunda yasal işlem başlatılacaktır.\n    </p>\n    <h3 style=\"font-size: 22px; color: #0f70b7; margin: 20px 0 15px;\">Gizlilik ve Kişisel Verilerin Korunması</h3>\n    <p style=\"font-size: 16px; line-height: 1.8; margin-bottom: 15px;\">\n        Kişisel verilerinizin işlenmesi ve korunması hakkında detaylı bilgi için Gizlilik Politikamızı ve KVKK Aydınlatma Metni sayfalarını inceleyiniz. 6698 sayılı KVKK hükümlerine tam uyum göstermekteyiz. Kişisel verilerinizin güvenliği önceliğimizdir. SSL sertifikası, güvenlik duvarları ve düzenli yedekleme sistemleri kullanılmaktadır.\n    </p>\n    <h3 style=\"font-size: 22px; color: #0f70b7; margin: 20px 0 15px;\">Yürürlük ve Değişiklikler</h3>\n    <p style=\"font-size: 16px; line-height: 1.8; margin-bottom: 15px;\">\n        Bu yasal uyarı metni, web sitesinde yayınlandığı andan itibaren yürürlüktedir. Ajans Mobil, bu metni önceden haber vermeksizin değiştirme hakkını saklı tutar. Önemli değişikliklerde kullanıcılar e-posta veya web sitesi bildirimi ile bilgilendirilecektir. Güncel versiyonu düzenli olarak kontrol etmeniz tavsiye edilir. Web sitemizi kullanmaya devam ederek güncel şartları kabul etmiş sayılırsınız.\n    </p>\n    <h3 style=\"font-size: 22px; color: #0f70b7; margin: 20px 0 15px;\">Uygulanacak Hukuk ve Yetki</h3>\n    <p style=\"font-size: 16px; line-height: 1.8; margin-bottom: 15px;\">\n        Bu web sitesinin kullanımından kaynaklanan tüm uyuşmazlıklarda Türkiye Cumhuriyeti yasaları uygulanır. Uyuşmazlıkların çözümünde Gaziantep Mahkemeleri ve İcra Daireleri yetkilidir. Kullanıcılar, web sitemizi kullanarak bu yetkiyi kabul etmiş sayılır.\n    </p>\n    <h3 style=\"font-size: 22px; color: #0f70b7; margin: 20px 0 15px;\">İletişim</h3>\n    <p style=\"font-size: 16px; line-height: 1.8; margin-bottom: 15px;\">\n        Yasal uyarı ve web sitesi kullanımı hakkında sorularınız için:<br/>\n        E-posta: info@ajansmobil.com<br/>\n        Telefon: 0531 679 10 14<br/>\n        Adres: Gaziantep, Türkiye\n    </p>"
+  },
+  "update": "2025-10-01T06:12:21.191Z",
+  "date": "2025-10-01T05:29:22.576Z"
+}

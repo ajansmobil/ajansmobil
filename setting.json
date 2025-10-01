@@ -1,0 +1,28 @@
+{
+  "order": false,
+  "description": {
+    "tr": "Mobil uygulama geliştirme ve dijital çözümler sunan profesyonel yazılım şirketi. Android ve iOS uygulama geliştirme, web yazılım ve teknoloji danışmanlığı hizmetleri."
+  },
+  "keyword": {
+    "tr": "mobil uygulama geliştirme, android uygulama, ios uygulama, web yazılım, teknoloji danışmanlığı, mobil yazılım, ajans mobil, uygulama geliştirme"
+  },
+  "user": false,
+  "status": "Kurumsal",
+  "category": "Kurumsal",
+  "name": "Ajans Mobil Gaziantep",
+  "domain": "ajansmobil.com",
+  "langs": {
+    "tr": true,
+    "en": false,
+    "ar": false,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  }
+}

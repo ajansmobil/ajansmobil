@@ -1,0 +1,69 @@
+{
+  "data": [
+    {
+      "name": "Sayfalar",
+      "path": "page",
+      "desc": [],
+      "index": 0,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "modulestatus": {
+        "page": true,
+        "body": true,
+        "detail": true,
+        "img": false
+      }
+    },
+    {
+      "name": "Hizmetlerimiz",
+      "path": "services",
+      "desc": [],
+      "index": 1,
+      "desing": {
+        "header": [],
+        "body": [
+          "dajchd"
+        ],
+        "footer": []
+      },
+      "modulestatus": {
+        "img": true,
+        "detail": true
+      }
+    },
+    {
+      "name": "Kurumsal",
+      "path": "kurumsal",
+      "desc": [],
+      "data": [],
+      "index": 2,
+      "desing": {
+        "header": [],
+        "body": [
+          "dajchd"
+        ],
+        "footer": []
+      }
+    },
+    {
+      "name": "Açık Hava Reklamları",
+      "path": "acikhava",
+      "desc": [],
+      "data": [],
+      "index": 3,
+      "desing": {
+        "header": [],
+        "body": [
+          "dajchd"
+        ],
+        "footer": []
+      },
+      "modulestatus": {
+        "img": true
+      }
+    }
+  ]
+}

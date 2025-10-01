@@ -1,0 +1,199 @@
+{
+  "name": "Kurumsal",
+  "path": "kurumsal",
+  "desc": [],
+  "data": [
+    {
+      "name": {
+        "tr": "Hakkımızda"
+      },
+      "status": "play",
+      "id": "hakkimizda",
+      "path": "hakkimizda",
+      "category": "kurumsal",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "index": 0,
+      "icon": "home",
+      "description": {
+        "tr": "Ajans Mobil Gaziantep - 15 yıllık deneyim ile dijital pazarlama, web tasarım, açık hava reklamcılığı ve sosyal medya yönetimi hizmetleri. Gaziantep'in lider dijital ajansı."
+      },
+      "spot": {
+        "tr": "15 yıllık deneyim ile Gaziantep'te dijital pazarlama, web tasarım ve açık hava reklamcılığı lider ajansı."
+      },
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Misyon"
+      },
+      "status": "play",
+      "id": "misyon",
+      "path": "misyon",
+      "category": "kurumsal",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "index": 1,
+      "icon": "home",
+      "spot": {
+        "tr": "Ajans Mobil'in misyonu; müşterilerimize dijital dönüşüm yolculuklarında liderlik etmek ve ölçülebilir değer yaratmaktır."
+      },
+      "description": {
+        "tr": "Ajans Mobil Gaziantep misyonu - Müşteri odaklı dijital pazarlama, web tasarım ve açık hava reklamcılığı hizmetleri ile işletmelere değer katmak."
+      },
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Vizyon"
+      },
+      "status": "play",
+      "id": "vizyon",
+      "path": "vizyon",
+      "category": "kurumsal",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "index": 2,
+      "icon": "home",
+      "spot": {
+        "tr": "Türkiye'nin en güvenilir ve yenilikçi dijital ajansları arasında yer almak, Gaziantep'te sektör lideri olmak vizyonumuzdur."
+      },
+      "description": {
+        "tr": "Ajans Mobil Gaziantep vizyonu - Türkiye'nin önde gelen dijital ajansları arasında yer almak, yenilikçi teknolojilerle sektöre öncülük etmek."
+      },
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Kalite Politikamız"
+      },
+      "status": "play",
+      "id": "kalitepolitikamiz",
+      "path": "kalite-politikamiz",
+      "category": "kurumsal",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "index": 3,
+      "icon": "home",
+      "spot": {
+        "tr": "Kalite standartlarımız; müşteri memnuniyeti, sürekli iyileştirme ve mükemmellik arayışı ilkelerine dayanır."
+      },
+      "description": {
+        "tr": "Ajans Mobil kalite politikası - Müşteri odaklı hizmet anlayışı, sürekli iyileştirme ve uluslararası standartlarda dijital pazarlama hizmeti."
+      },
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Gizlilik Politikası"
+      },
+      "status": "play",
+      "id": "gizlilikpolitikasi",
+      "path": "gizlilik-politikasi",
+      "category": "kurumsal",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "index": 4,
+      "icon": "home",
+      "spot": {
+        "tr": "Kişisel verilerinizin gizliliği ve güvenliği bizim için önceliklidir. KVKK uyumlu veri koruma politikamız."
+      },
+      "description": {
+        "tr": "Ajans Mobil gizlilik politikası - Kişisel verilerin korunması, KVKK uyumluluğu, çerez politikası ve veri güvenliği taahhütlerimiz."
+      },
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Kişisel Veriler"
+      },
+      "status": "play",
+      "id": "kisiselveriler",
+      "path": "kisisel-veriler-be2",
+      "category": "kurumsal",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "index": 5,
+      "icon": "home",
+      "spot": {
+        "tr": "KVKK kapsamında kişisel verilerin işlenmesi, saklanması ve korunması hakkında detaylı bilgilendirme metni."
+      },
+      "description": {
+        "tr": "Ajans Mobil KVKK aydınlatma metni - Kişisel verilerin işlenmesi, veri sorumlusu bilgileri, işleme amaçları ve saklama süreleri."
+      },
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Kullanıcı Hakları"
+      },
+      "status": "play",
+      "id": "kullanicahaklari",
+      "path": "kullanici-haklari",
+      "category": "kurumsal",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "index": 6,
+      "icon": "home",
+      "spot": {
+        "tr": "Web sitemizi kullanan ve hizmetlerimizden yararlanan kullanıcılarımızın hak ve sorumlulukları."
+      },
+      "description": {
+        "tr": "Ajans Mobil kullanıcı hakları - Web sitesi kullanım şartları, telif hakları, kullanıcı sorumlulukları ve yasal haklar."
+      },
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Yasal Uyarı"
+      },
+      "status": "play",
+      "id": "yasaluyari",
+      "path": "yasal-uyari-mh6",
+      "category": "kurumsal",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "index": 7,
+      "icon": "home",
+      "spot": {
+        "tr": "Web sitesi kullanımı, sorumluluk reddi, bağlantılar ve yasal bildirimler hakkında önemli uyarılar."
+      },
+      "description": {
+        "tr": "Ajans Mobil yasal uyarı - Web sitesi kullanım şartları, sorumluluk reddi beyanı, dış bağlantılar ve feragatname."
+      },
+      "desc": {}
+    }
+  ],
+  "index": 2,
+  "desing": {
+    "header": [],
+    "body": [
+      "dajchd"
+    ],
+    "footer": []
+  }
+}

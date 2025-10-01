@@ -1,3 +1,3 @@
 User-agent: *
-  Disallow:
-  Sitemap: https://ajansmobil.com/map.xml
+Disallow:
+Sitemap: https://ajansmobil.com/map.xml

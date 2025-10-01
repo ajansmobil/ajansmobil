@@ -1,0 +1,118 @@
+{
+  "name": "Sayfalar",
+  "path": "page",
+  "desc": [],
+  "index": 0,
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "modulestatus": {
+    "page": true,
+    "body": true,
+    "detail": true,
+    "img": false
+  },
+  "data": [
+    {
+      "name": {
+        "tr": "Kurumsal"
+      },
+      "status": "play",
+      "category": "",
+      "id": "ibxhue2gm4",
+      "path": "kurumsal",
+      "index": 0,
+      "desing": {
+        "header": [],
+        "body": [
+          "dajchd"
+        ],
+        "footer": []
+      },
+      "description": {
+        "tr": "2018'den beri dijital dünyaya yenilikçi çözümler sunan Ajans Mobil, müşteri odaklı yaklaşımı ve teknolojik yeniliklere adaptasyonu ile sektörde öncü konumda."
+      },
+      "spot": {
+        "tr": ""
+      },
+      "pathnext": "hakkimizda",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Referansları"
+      },
+      "status": "play",
+      "category": "",
+      "id": "r5pfkgahxx",
+      "path": "referanslari",
+      "index": 1,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "description": {
+        "tr": "Ajans Mobil referans projeleri - Gaziantep'te web tasarım, dijital pazarlama ve açık hava reklamcılığı alanında başarıyla tamamladığımız projeler ve memnun müşterilerimiz."
+      },
+      "spot": {
+        "tr": "15 yıldır Gaziantep'te yüzlerce başarılı proje. E-ticaret, kurumsal web, dijital reklam ve açık hava reklamcılığında referans işler."
+      },
+      "desc": {},
+      "icon": "home"
+    },
+    {
+      "name": {
+        "tr": "Hizmetlerimiz"
+      },
+      "status": "play",
+      "category": "",
+      "id": "bb44xk9jzz",
+      "path": "hizmetlerimiz",
+      "description": {
+        "tr": "Web tasarım, mobil uygulama geliştirme, sosyal medya yönetimi ve dijital pazarlama alanlarında profesyonel hizmetler sunuyoruz."
+      },
+      "spot": {
+        "tr": ""
+      },
+      "index": 2,
+      "desing": {
+        "header": [],
+        "body": [
+          "i0uquh",
+          "i0uquh2"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İletişim"
+      },
+      "status": "play",
+      "category": "",
+      "id": "b3tnz1e6ic",
+      "path": "iletisim",
+      "index": 3,
+      "desing": {
+        "header": [],
+        "body": [
+          "a5mvw9"
+        ],
+        "footer": []
+      },
+      "description": {
+        "tr": "Ajans Mobil Gaziantep iletişim bilgileri - Dijital pazarlama, web tasarım ve reklam hizmetleri için bize ulaşın. Profesyonel çözümler için yanınızdayız."
+      },
+      "spot": {
+        "tr": "Dijital projeleriniz için profesyonel çözümler. Bize ulaşın, ücretsiz danışmanlık ve teklif alın. 0531 679 10 14"
+      },
+      "desc": {},
+      "icon": "home"
+    }
+  ]
+}

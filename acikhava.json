@@ -1,0 +1,174 @@
+{
+  "name": "Açık Hava Reklamları",
+  "path": "acikhava",
+  "desc": [],
+  "data": [
+    {
+      "name": {
+        "tr": "Asansör Reklamları"
+      },
+      "status": "play",
+      "category": "",
+      "id": "bfjvcgg13p",
+      "url": "",
+      "path": "asansor-reklamlari",
+      "index": 0,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "spot": {
+        "tr": "Gaziantep asansör reklamları ile markanızı binlerce kişiye ulaştırın. Modern apartman ve iş merkezlerinde etkili görünürlük sağlayan reklam çözümleri."
+      },
+      "icon": "home",
+      "img": "c9t15.png",
+      "description": {
+        "tr": "Gaziantep asansör reklamları - Apartman ve iş merkezi asansörlerinde etkili marka görünürlüğü. Hedef kitlenize doğrudan ulaşan asansör içi reklam kampanyaları."
+      },
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Dolmuş Reklamları"
+      },
+      "status": "play",
+      "category": "",
+      "id": "x0gyi8bauw",
+      "url": "",
+      "path": "dolmus-reklamlari",
+      "index": 1,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "spot": {
+        "tr": "Gaziantep dolmuş reklamları ile şehrin her noktasında görünür olun. Hareketli marka görünürlüğü ve yüksek erişim oranı."
+      },
+      "img": "gujlp.png",
+      "description": {
+        "tr": "Gaziantep dolmuş reklamları - Toplu taşıma araçlarında hareketli reklam çözümleri. Şehir içi dolmuş ve minibüslerde etkili marka tanıtımı."
+      },
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Otobüs Reklam"
+      },
+      "status": "play",
+      "category": "",
+      "id": "zh3e7j771i",
+      "url": "",
+      "path": "otobus-reklam",
+      "index": 2,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "spot": {
+        "tr": "Gaziantep belediye otobüs reklamları ile günde onbinlerce kişiye ulaşın. Metro ve özel halk otobüslerinde etkili reklam alanları."
+      },
+      "icon": "home",
+      "img": "homtf.png",
+      "description": {
+        "tr": "Gaziantep otobüs reklamları - Belediye otobüsleri, metro ve özel halk otobüslerinde tam giydirme reklam hizmeti. Geniş kitleye ulaşım garantisi."
+      },
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Açık Hava Reklamcılığı"
+      },
+      "status": "play",
+      "category": "",
+      "id": "uwz4frx4y6",
+      "url": "",
+      "path": "acik-hava-reklamciligi",
+      "index": 3,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "spot": {
+        "tr": "Billboard, totem, dijital ekran ve dış mekan reklam çözümleri. Gaziantep'in stratejik noktalarında etkili açık hava reklamcılığı."
+      },
+      "img": "zkaru.png",
+      "description": {
+        "tr": "Gaziantep açık hava reklamcılığı - Billboard, totem, dijital ekran, cephe giydirme ve dış mekan reklam hizmetleri. Outdoor advertising çözümleri."
+      },
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Taksi Reklamları"
+      },
+      "status": "play",
+      "category": "",
+      "id": "wtluk7jm9c",
+      "url": "",
+      "path": "taksi-reklamlari",
+      "index": 4,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "spot": {
+        "tr": "Gaziantep taksi reklamları ile A+ segmente ulaşın. Taksi üstü ışıklı tabelalar ve araç giydirme ile premium görünürlük."
+      },
+      "icon": "home",
+      "img": "a49s3.png",
+      "description": {
+        "tr": "Gaziantep taksi reklamları - Taksi üstü ışıklı tabelalar, araç giydirme ve taksi içi reklamlar. Yüksek gelir grubuna ulaşan etkili reklam mecrası."
+      },
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Tramvay"
+      },
+      "status": "play",
+      "category": "",
+      "id": "guq270l7s1",
+      "url": "",
+      "path": "tramvay",
+      "index": 5,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "spot": {
+        "tr": "Gaziantep tramvay reklamları ile modern toplu taşıma araçlarında etkili marka görünürlüğü. İstasyon ve tramvay içi reklam alanları."
+      },
+      "img": "yipp4.png",
+      "description": {
+        "tr": "Gaziantep tramvay reklamları - Tramvay giydirme, istasyon reklamları ve araç içi reklam mecrası. Modern toplu taşımada premium görünürlük."
+      },
+      "desc": {}
+    }
+  ],
+  "index": 3,
+  "desing": {
+    "header": [],
+    "body": [
+      "dajchd"
+    ],
+    "footer": []
+  },
+  "modulestatus": {
+    "img": true
+  }
+}

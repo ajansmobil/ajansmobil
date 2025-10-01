@@ -1,0 +1,31 @@
+{
+  "name": {
+    "tr": "Kullanıcı Hakları"
+  },
+  "status": "play",
+  "id": "kullanicahaklari",
+  "path": "kullanici-haklari",
+  "category": "kurumsal",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "index": 6,
+  "icon": "home",
+  "spot": {
+    "tr": "Web sitemizi kullanan ve hizmetlerimizden yararlanan kullanıcılarımızın hak ve sorumlulukları."
+  },
+  "desc": {},
+  "description": {
+    "tr": "Ajans Mobil kullanıcı hakları - Web sitesi kullanım şartları, telif hakları, kullanıcı sorumlulukları ve yasal haklar."
+  },
+  "keyword": {
+    "tr": "kullanıcı hakları, web sitesi kullanım şartları, telif hakları, fikri mülkiyet, kullanıcı sorumlulukları, dijital haklar"
+  },
+  "text": {
+    "tr": "<h2 style=\"font-size: 28px; color: #0f70b7; margin-bottom: 20px;\">Kullanıcı Hakları ve Sorumlulukları</h2>\n    <p style=\"font-size: 16px; line-height: 1.8; margin-bottom: 15px;\">\n        Ajans Mobil web sitesini kullanan, hizmetlerimizden yararlanan veya bizimle iletişime geçen tüm kullanıcılarımızın belirli hak ve sorumlulukları bulunmaktadır. Bu sayfa, kullanıcı haklarınızı, web sitesi kullanım şartlarını, telif hakları bilgilerini ve sorumluluklarınızı açıklamaktadır. Web sitemizi kullanarak bu şartları kabul etmiş sayılırsınız.\n    </p>\n    <h3 style=\"font-size: 22px; color: #0f70b7; margin: 20px 0 15px;\">Kullanıcı Hakları</h3>\n    <p style=\"font-size: 16px; line-height: 1.8; margin-bottom: 15px;\">\n        Web sitemizi kullanan kullanıcılar olarak şu haklara sahipsiniz: <strong>Bilgi Edinme Hakkı:</strong> Sunduğumuz hizmetler, fiyatlandırma, şirket bilgileri ve iletişim kanalları hakkında doğru ve güncel bilgi alma hakkı. <strong>Hizmet Kalitesi:</strong> Profesyonel, zamanında ve sözleşme şartlarına uygun hizmet alma hakkı. <strong>Kişisel Verilerin Korunması:</strong> KVKK kapsamında kişisel verilerinizin korunması, işlenme amaçlarının öğrenilmesi ve haklarınızın kullanılması. <strong>Şikayet ve İtiraz:</strong> Hizmetlerimizle ilgili şikayet, öneri ve itirazlarınızı iletme ve cevap alma hakkı. <strong>İptal ve İade:</strong> Sözleşme şartları dahilinde hizmet iptali ve iade talep etme hakkı. <strong>Güvenli İletişim:</strong> Kişisel ve finansal bilgilerinizi güvenli kanallar üzerinden paylaşma hakkı. <strong>Eşit Muamele:</strong> Ayrımcılık yapılmaksızın, adil ve eşit hizmet alma hakkı.\n    </p>\n    <h3 style=\"font-size: 22px; color: #0f70b7; margin: 20px 0 15px;\">Kullanıcı Sorumlulukları</h3>\n    <p style=\"font-size: 16px; line-height: 1.8; margin-bottom: 15px;\">\n        Web sitemizi kullanan kullanıcıların sorumlulukları şunlardır: <strong>Doğru Bilgi Sağlama:</strong> İletişim formları, teklif talepleri ve sözleşme süreçlerinde doğru, eksiksiz ve güncel bilgi verme sorumluluğu. <strong>Yasal Uyum:</strong> Web sitesini yasalara, ahlak kurallarına ve üçüncü kişilerin haklarına uygun şekilde kullanma sorumluluğu. <strong>Fikri Mülkiyet Saygısı:</strong> Web sitesindeki içeriklerin telif haklarına saygı gösterme ve izinsiz kullanmama sorumluluğu. <strong>Güvenlik:</strong> Hesap bilgilerinizi (varsa) güvenli tutma ve yetkisiz kullanımlara karşı önlem alma sorumluluğu. <strong>Zarar Vermeme:</strong> Web sitesinin işleyişine zarar verecek, sistemi hackleyecek veya kötü amaçlı yazılım yayacak faaliyetlerde bulunmama sorumluluğu. <strong>Ticari Amaçlı Kullanım:</strong> Ticari amaçlı veri toplama, spam gönderme veya rekabet yasalarını ihlal edecek faaliyetlerde bulunmama sorumluluğu.\n    </p>\n    <h3 style=\"font-size: 22px; color: #0f70b7; margin: 20px 0 15px;\">Telif Hakları ve Fikri Mülkiyet</h3>\n    <p style=\"font-size: 16px; line-height: 1.8; margin-bottom: 15px;\">\n        www.ajansmobil.com web sitesinde yer alan tüm içerikler (metin, görsel, logo, tasarım, kod, video, grafik) Ajans Mobil'in fikri mülkiyetidir ve telif hakları yasalarıyla korunmaktadır. Web sitesindeki içeriklerin kopyalanması, çoğaltılması, dağıtılması, yayınlanması veya ticari amaçla kullanılması yazılı izin olmaksızın yasaktır. Müşterilerimiz için hazırladığımız web siteleri, tasarımlar ve dijital içerikler; aksi sözleşmede belirtilmedikçe müşteriye ait fikri mülkiyet haklarına sahiptir. Ancak portföy, referans ve tanıtım amaçlı kullanım hakkı Ajans Mobil'e aittir. Üçüncü taraf görseller, fontlar ve kod kütüphaneleri ilgili lisans koşullarına uygun şekilde kullanılmaktadır.\n    </p>\n    <h3 style=\"font-size: 22px; color: #0f70b7; margin: 20px 0 15px;\">Hizmet Kullanım Şartları</h3>\n    <p style=\"font-size: 16px; line-height: 1.8; margin-bottom: 15px;\">\n        Hizmetlerimizden yararlanırken geçerli olan şartlar: <strong>Sözleşme:</strong> Hizmet alımı öncesi detaylı teklif ve sözleşme hazırlanır. Sözleşme şartları her iki tarafı bağlayıcıdır. <strong>Ödeme:</strong> Hizmet bedelleri sözleşmede belirtilen ödeme planına göre tahsil edilir. Gecikmeler durumunda yasal faiz uygulanabilir. <strong>Teslim Süreleri:</strong> Proje teslim süreleri sözleşmede belirtilir. Müşteri kaynaklı gecikmeler (içerik sağlanmaması, geri bildirim verilmemesi) teslim süresini uzatabilir. <strong>Revizyon:</strong> Projeler belirtilen revizyon hakkı dahilinde düzeltilir. Ekstra revizyonlar ek ücret karşılığı yapılabilir. <strong>Telif ve Kullanım:</strong> Teslim edilen işlerin kullanım hakları sözleşmede belirtilir. Tam ödeme yapılmadan teslim edilen işlerin kullanım hakları geçmez. <strong>Gizlilik:</strong> Proje sürecinde paylaşılan ticari sırlar ve hassas bilgiler gizli tutulur.\n    </p>\n    <h3 style=\"font-size: 22px; color: #0f70b7; margin: 20px 0 15px;\">İtiraz ve Şikayet Hakları</h3>\n    <p style=\"font-size: 16px; line-height: 1.8; margin-bottom: 15px;\">\n        Hizmetlerimizle ilgili şikayet, öneri veya itirazlarınız için info@ajansmobil.com adresine e-posta gönderebilir veya 0531 679 10 14 numaralı telefondan iletişime geçebilirsiniz. Şikayetleriniz en geç 15 iş günü içinde değerlendirilecek ve sonuç tarafınıza bildirilecektir. Çözülemeyen uyuşmazlıklar için Gaziantep Tüketici Hakem Heyeti ve Gaziantep Mahkemeleri yetkilidir. Ayrıca Tüketici Mahkemesi, Tüketici Hakem Heyeti ve Tüketici Sorunları Hakem Heyeti'ne başvuru hakkınız saklıdır.\n    </p>"
+  },
+  "update": "2025-10-01T06:12:21.188Z",
+  "date": "2025-10-01T05:29:22.576Z"
+}
