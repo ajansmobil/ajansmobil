@@ -1,0 +1,41 @@
+{
+  "name": {
+    "tr": "Üniversite Reklamları",
+    "en": "University Advertising",
+    "ar": "إعلانات الجامعة"
+  },
+  "status": "play",
+  "category": "",
+  "id": "gvz-universite-reklamlari",
+  "externalUrl": "",
+  "path": "universite-reklamlari",
+  "keyword": {
+    "tr": "Gaziantep üniversite reklam, Ajans Mobil kampüs reklamcılık, öğrenci hedef kitle reklam, genç dinamik kitle, üniversite pano reklam",
+    "en": "Gaziantep university advertising, Ajans Mobil campus advertising, student target audience advertising, young dynamic audience, university billboard advertising",
+    "ar": "إعلانات الجامعة غازي عنتاب، إعلانات الحرم الجامعي أجانس موبيل، إعلانات الجمهور المستهدف الطلابي، جمهور شاب ديناميكي، إعلانات لوحة إعلانات الجامعة"
+  },
+  "description": {
+    "tr": "Ajans Mobil üniversite reklam hizmetleri. Genç ve dinamik hedef kitleye ulaşmak için ideal reklam mecrası. Üniversite kampüslerinde etkili marka görünürlüğü ve öğrenci kitlesine doğrudan erişim. Pano, afiş ve dijital ekran seçenekleri.",
+    "en": "Ajans Mobil university advertising services. Ideal advertising medium for reaching young and dynamic target audience. Effective brand visibility at university campuses and direct access to student audience. Billboard, poster and digital screen options.",
+    "ar": "خدمات إعلانات الجامعة من أجانس موبيل. وسيط إعلاني مثالي للوصول إلى جمهور مستهدف شاب وديناميكي. رؤية علامة تجارية فعالة في الحرم الجامعي ووصول مباشر إلى جمهور الطلاب. خيارات لوحة إعلانات وملصق وشاشة رقمية."
+  },
+  "text": {
+    "tr": "<h2 style=\"font-size: 24px;\">Üniversite Reklam Alanları</h2>\n    <p style=\"font-size: 16px;\">\n        Üniversite kampüslerinde pano, afiş ve dijital ekranlar. Hedef kitle; öğrenciler ve akademik personel. Genç ve dinamik kitleye ulaşmak için idealdir.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Marka gençleşmesi ve yeni müşteri kazanımı sağlar. Hedefli iletişim ve yenilikçi imaj avantajları sunar.\n    </p>",
+    "en": "<h2 style=\"font-size: 24px;\">University Advertising Areas</h2>\n    <p style=\"font-size: 16px;\">\n        Billboards, posters and digital screens at university campuses. Target audience; students and academic staff. Ideal for reaching young and dynamic audiences.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Provides brand rejuvenation and new customer acquisition. Offers advantages of targeted communication and innovative image.\n    </p>",
+    "ar": "<h2 style=\"font-size: 24px;\">مناطق إعلانات الجامعة</h2>\n    <p style=\"font-size: 16px;\">\n        لوحات إعلانات وملصقات وشاشات رقمية في الحرم الجامعي. الجمهور المستهدف؛ الطلاب والموظفين الأكاديميين. مثالي للوصول إلى جماهير شابة وديناميكية.\n    </p>\n    <p style=\"font-size: 16px;\">\n        يوفر تجديد العلامة التجارية واكتساب عملاء جدد. يقدم مزايا التواصل المستهدف والصورة المبتكرة.\n    </p>"
+  },
+  "spot": {
+    "tr": "Genç ve Dinamik Hedef Kitle - Üniversite kampüslerinde etkili reklam"
+  },
+  "index": 0,
+  "icon": "home",
+  "desc": {},
+  "update": "2026-01-12T03:50:31.849Z",
+  "date": "2025-01-07T00:00:00.000Z",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "pathnext": ""
+}

@@ -5,7 +5,9 @@
   "data": [
     {
       "name": {
-        "tr": "Asansör Reklamları"
+        "tr": "Asansör Reklamları",
+        "en": "Elevator Advertising",
+        "ar": "إعلانات المصاعد"
       },
       "status": "play",
       "category": "",
@@ -19,19 +21,20 @@
         "footer": []
       },
       "pathnext": "",
-      "spot": {
-        "tr": "Gaziantep asansör reklamları ile markanızı binlerce kişiye ulaştırın. Modern apartman ve iş merkezlerinde etkili görünürlük sağlayan reklam çözümleri."
-      },
       "icon": "home",
       "img": "c9t15.png",
       "description": {
-        "tr": "Gaziantep asansör reklamları - Apartman ve iş merkezi asansörlerinde etkili marka görünürlüğü. Hedef kitlenize doğrudan ulaşan asansör içi reklam kampanyaları."
+        "tr": "Gaziantep asansör reklamları - Apartman ve iş merkezi asansörlerinde etkili marka görünürlüğü. Hedef kitlenize doğrudan ulaşan asansör içi reklam kampanyaları.",
+        "en": "Gaziantep elevator advertising - Effective brand visibility in apartment and business center elevators. Elevator interior advertising campaigns that reach your target audience directly.",
+        "ar": "إعلانات المصاعد غازي عنتاب - رؤية فعالة للعلامة التجارية في مصاعد الشقق ومراكز الأعمال. حملات إعلانية داخل المصاعد تصل مباشرة إلى جمهورك المستهدف."
       },
       "desc": {}
     },
     {
       "name": {
-        "tr": "Dolmuş Reklamları"
+        "tr": "Dolmuş Reklamları",
+        "en": "Shared Taxi Advertisements",
+        "ar": "إعلانات الميني باص"
       },
       "status": "play",
       "category": "",
@@ -46,18 +49,19 @@
         "footer": []
       },
       "pathnext": "",
-      "spot": {
-        "tr": "Gaziantep dolmuş reklamları ile şehrin her noktasında görünür olun. Hareketli marka görünürlüğü ve yüksek erişim oranı."
-      },
       "img": "gujlp.png",
       "description": {
-        "tr": "Gaziantep dolmuş reklamları - Toplu taşıma araçlarında hareketli reklam çözümleri. Şehir içi dolmuş ve minibüslerde etkili marka tanıtımı."
+        "tr": "Gaziantep dolmuş reklamları - Toplu taşıma araçlarında hareketli reklam çözümleri. Şehir içi dolmuş ve minibüslerde etkili marka tanıtımı.",
+        "en": "Gaziantep shared taxi advertisements - Mobile advertising solutions in public transport vehicles. Effective brand promotion in city shared taxis and minibuses.",
+        "ar": "إعلانات الميني باص غازي عنتاب - حلول إعلانية متنقلة في مركبات النقل العام. ترويج فعال للعلامة التجارية في الميني باص داخل المدينة."
       },
       "desc": {}
     },
     {
       "name": {
-        "tr": "Otobüs Reklam"
+        "tr": "Otobüs Reklam",
+        "en": "Bus Advertising",
+        "ar": "إعلانات الحافلات"
       },
       "status": "play",
       "category": "",
@@ -71,19 +75,20 @@
         "footer": []
       },
       "pathnext": "",
-      "spot": {
-        "tr": "Gaziantep belediye otobüs reklamları ile günde onbinlerce kişiye ulaşın. Metro ve özel halk otobüslerinde etkili reklam alanları."
-      },
       "icon": "home",
       "img": "homtf.png",
       "description": {
-        "tr": "Gaziantep otobüs reklamları - Belediye otobüsleri, metro ve özel halk otobüslerinde tam giydirme reklam hizmeti. Geniş kitleye ulaşım garantisi."
+        "tr": "Gaziantep otobüs reklamları - Belediye otobüsleri, metro ve özel halk otobüslerinde tam giydirme reklam hizmeti. Geniş kitleye ulaşım garantisi.",
+        "en": "",
+        "ar": ""
       },
       "desc": {}
     },
     {
       "name": {
-        "tr": "Açık Hava Reklamcılığı"
+        "tr": "Açık Hava Reklamcılığı",
+        "en": "Outdoor Advertising",
+        "ar": "الإعلانات الخارجية"
       },
       "status": "play",
       "category": "",
@@ -98,18 +103,19 @@
         "footer": []
       },
       "pathnext": "",
-      "spot": {
-        "tr": "Billboard, totem, dijital ekran ve dış mekan reklam çözümleri. Gaziantep'in stratejik noktalarında etkili açık hava reklamcılığı."
-      },
       "img": "zkaru.png",
       "description": {
-        "tr": "Gaziantep açık hava reklamcılığı - Billboard, totem, dijital ekran, cephe giydirme ve dış mekan reklam hizmetleri. Outdoor advertising çözümleri."
+        "tr": "Gaziantep açık hava reklamcılığı - Billboard, totem, dijital ekran, cephe giydirme ve dış mekan reklam hizmetleri. Outdoor advertising çözümleri.",
+        "en": "Gaziantep outdoor advertising - Billboard, totem, digital screen, facade wrapping and outdoor advertising services. Outdoor advertising solutions.",
+        "ar": "الإعلانات الخارجية غازي عنتاب - لوحات الإعلانات والتوتيم والشاشة الرقمية وتغليف الواجهة وخدمات الإعلانات الخارجية. حلول الإعلانات الخارجية."
       },
       "desc": {}
     },
     {
       "name": {
-        "tr": "Taksi Reklamları"
+        "tr": "Taksi Reklamları",
+        "en": "Taxi Advertisements",
+        "ar": "إعلانات التاكسي"
       },
       "status": "play",
       "category": "",
@@ -123,19 +129,20 @@
         "footer": []
       },
       "pathnext": "",
-      "spot": {
-        "tr": "Gaziantep taksi reklamları ile A+ segmente ulaşın. Taksi üstü ışıklı tabelalar ve araç giydirme ile premium görünürlük."
-      },
       "icon": "home",
       "img": "a49s3.png",
       "description": {
-        "tr": "Gaziantep taksi reklamları - Taksi üstü ışıklı tabelalar, araç giydirme ve taksi içi reklamlar. Yüksek gelir grubuna ulaşan etkili reklam mecrası."
+        "tr": "Gaziantep taksi reklamları - Taksi üstü ışıklı tabelalar, araç giydirme ve taksi içi reklamlar. Yüksek gelir grubuna ulaşan etkili reklam mecrası.",
+        "en": "Gaziantep taxi advertisements - Illuminated taxi top signs, vehicle wrapping and in-taxi advertisements. Effective advertising medium reaching high-income groups.",
+        "ar": "إعلانات التاكسي غازي عنتاب - لافتات أعلى التاكسي المضيئة وتغليف المركبات وإعلانات داخل التاكسي. وسيط إعلاني فعال يصل إلى مجموعات الدخل المرتفع."
       },
       "desc": {}
     },
     {
       "name": {
-        "tr": "Tramvay"
+        "tr": "Tramvay",
+        "en": "Tramway",
+        "ar": "الترام"
       },
       "status": "play",
       "category": "",
@@ -150,13 +157,476 @@
         "footer": []
       },
       "pathnext": "",
-      "spot": {
-        "tr": "Gaziantep tramvay reklamları ile modern toplu taşıma araçlarında etkili marka görünürlüğü. İstasyon ve tramvay içi reklam alanları."
-      },
       "img": "yipp4.png",
       "description": {
-        "tr": "Gaziantep tramvay reklamları - Tramvay giydirme, istasyon reklamları ve araç içi reklam mecrası. Modern toplu taşımada premium görünürlük."
+        "tr": "Gaziantep tramvay reklamları - Tramvay giydirme, istasyon reklamları ve araç içi reklam mecrası. Modern toplu taşımada premium görünürlük.",
+        "en": "Gaziantep tramway advertising - Tramway wrapping, station advertising and interior vehicle advertising medium. Premium visibility in modern public transport.",
+        "ar": "إعلانات الترام غازي عنتاب - تغليف الترام وإعلانات المحطات ووسيط الإعلانات داخل المركبات. رؤية مميزة في النقل العام الحديث."
       },
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Iconova Cadde Reklamları",
+        "en": "Iconova Street Advertising",
+        "ar": "إعلانات شارع أيكونوفا"
+      },
+      "status": "play",
+      "category": "",
+      "id": "gvz-iconova-cadde",
+      "path": "iconova-cadde-reklamlari",
+      "description": {
+        "tr": "Ajans Mobil Iconova Cadde reklam hizmetleri. Gaziantep'in prestijli alışveriş merkezinde haftalık 150-300 bin kişiye ulaşan açık hava reklam çözümleri. Primemall yakını stratejik konum.",
+        "en": "",
+        "ar": ""
+      },
+      "index": 6,
+      "icon": "home",
+      "img": "yifg5.webp",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Havalimanı Reklamları",
+        "en": "Airport Advertising",
+        "ar": "إعلانات المطار"
+      },
+      "status": "play",
+      "category": "",
+      "id": "gvz-havalimani",
+      "path": "havalimani-reklamlari",
+      "description": {
+        "tr": "Ajans Mobil Gaziantep Havalimanı reklam hizmetleri. Şehrin en prestijli ulaşım merkezinde haftalık 50-100 bin kişiye ulaşan reklam çözümleri. İş insanları, turistler ve VIP misafirler için ideal konum.",
+        "en": "Ajans Mobil Gaziantep Airport advertising services. Advertising solutions reaching 50-100 thousand people weekly at the city's most prestigious transportation center. Ideal location for business people, tourists and VIP guests.",
+        "ar": "خدمات إعلانات مطار غازي عنتاب من أجانس موبيل. حلول إعلانية تصل إلى 50-100 ألف شخص أسبوعياً في مركز النقل الأكثر تميزاً في المدينة. موقع مثالي لرجال الأعمال والسياح والضيوف المهمين."
+      },
+      "index": 7,
+      "icon": "home",
+      "img": "mna2h.webp",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Organize Sanayi Bölgesi Reklamları",
+        "en": "Organized Industrial Zone Advertising",
+        "ar": "إعلانات المنطقة الصناعية المنظمة"
+      },
+      "status": "play",
+      "category": "",
+      "id": "gvz-organize-sanayi",
+      "path": "organize-sanayi-reklamlari",
+      "description": {
+        "tr": "Ajans Mobil Gaziantep Organize Sanayi Bölgesi reklam hizmetleri. Haftalık 150-300 bin iş insanına ulaşan B2B pazarlama çözümleri. Fabrika sahipleri, yöneticiler ve satın alma karar vericileri için ideal reklam mecrası.",
+        "en": "Ajans Mobil Gaziantep Organized Industrial Zone advertising services. B2B marketing solutions reaching 150-300 thousand business people weekly. Ideal advertising medium for factory owners, managers and purchasing decision makers.",
+        "ar": "خدمات إعلانات المنطقة الصناعية المنظمة في غازي عنتاب من أجانس موبيل. حلول تسويق B2B تصل إلى 150-300 ألف رجل أعمال أسبوعياً. وسيط إعلاني مثالي لأصحاب المصانع والمديرين وصناع قرار الشراء."
+      },
+      "index": 8,
+      "icon": "home",
+      "img": "w332x.webp",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Cadde Duvarları Reklamları",
+        "en": "Street Wall Advertising",
+        "ar": "إعلانات جدران الشوارع"
+      },
+      "status": "play",
+      "category": "",
+      "id": "gvz-cadde-duvarlari",
+      "path": "cadde-duvarlari-reklamlari",
+      "description": {
+        "tr": "Ajans Mobil cadde duvarları reklam hizmetleri. Gaziantep'in en işlek caddelerinde haftalık 200-500 bin kişiye ulaşan dev reklam alanları. Ana arterler, kavşaklar ve yaya trafiğinin yoğun olduğu stratejik lokasyonlar.",
+        "en": "Ajans Mobil street wall advertising services. Giant advertising spaces reaching 200-500 thousand people weekly on Gaziantep's busiest streets. Strategic locations on main arteries, intersections and areas with heavy pedestrian traffic.",
+        "ar": "خدمات إعلانات جدران الشوارع من أجانس موبيل. مساحات إعلانية ضخمة تصل إلى 200-500 ألف شخص أسبوعياً في أكثر شوارع غازي عنتاب ازدحاماً. مواقع استراتيجية على الشرايين الرئيسية والتقاطعات والمناطق ذات حركة المشاة الكثيفة."
+      },
+      "index": 9,
+      "icon": "home",
+      "img": "qe92m.webp",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Bina Asansörleri Reklamları",
+        "en": "Building Elevator Advertising",
+        "ar": "إعلانات مصاعد المباني"
+      },
+      "status": "play",
+      "category": "",
+      "id": "gvz-bina-asansorleri",
+      "path": "bina-asansorleri-reklamlari",
+      "description": {
+        "tr": "Ajans Mobil bina asansörleri reklam hizmetleri. Haftalık 100-400 bin kişiye doğrudan ulaşan yakın mesafe reklam çözümleri. Konut kompleksleri, iş merkezleri ve ofis binalarında etkili marka görünürlüğü.",
+        "en": "Ajans Mobil building elevator advertising services. Close-range advertising solutions reaching 100-400 thousand people directly weekly. Effective brand visibility in residential complexes, business centers and office buildings.",
+        "ar": "خدمات إعلانات مصاعد المباني من أجانس موبيل. حلول إعلانية للمدى القريب تصل مباشرة إلى 100-400 ألف شخص أسبوعياً. رؤية فعالة للعلامة التجارية في المجمعات السكنية ومراكز الأعمال ومباني المكاتب."
+      },
+      "index": 10,
+      "icon": "home",
+      "img": "fqufy.webp",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Belediye Otobüsü Reklamları",
+        "en": "Municipal Bus Advertising",
+        "ar": "إعلانات حافلات البلدية"
+      },
+      "status": "play",
+      "category": "",
+      "id": "gvz-belediye-otobusu",
+      "path": "belediye-otobusu-reklamlari",
+      "description": {
+        "tr": "Ajans Mobil belediye otobüsü reklam hizmetleri. Geveze Ajans işbirliği ile resmi hatlarda güvenilir reklam çözümleri. Haftalık 300-600 bin kişiye ulaşan kurumsal reklam mecrası. Araç giydirme, iç alan ve duraklarda premium alanlar.",
+        "en": "Ajans Mobil municipal bus advertising services. Reliable advertising solutions on official routes in cooperation with Geveze Agency. Corporate advertising medium reaching 300-600 thousand people weekly. Premium areas for vehicle wrapping, interior spaces and bus stops.",
+        "ar": "خدمات إعلانات حافلات البلدية من أجانس موبيل. حلول إعلانية موثوقة على الخطوط الرسمية بالتعاون مع وكالة جيفيز. وسيط إعلاني مؤسسي يصل إلى 300-600 ألف شخص أسبوعياً. مساحات مميزة لتغليف المركبات والمساحات الداخلية ومحطات الحافلات."
+      },
+      "index": 11,
+      "icon": "home",
+      "img": "jchrz.webp",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Halk Otobüsü Reklamları",
+        "en": "Public Bus Advertising",
+        "ar": "إعلانات حافلات النقل العام"
+      },
+      "status": "play",
+      "category": "",
+      "id": "gvz-halk-otobusu",
+      "path": "halk-otobusu-reklamlari",
+      "description": {
+        "tr": "Ajans Mobil özel halk otobüsü reklam hizmetleri. Geveze Ajans işbirliği ile özel hatlarda premium reklam çözümleri. Haftalık 300-600 bin kişiye ulaşan modern ve konforlu araçlarda reklam imkanı.",
+        "en": "Ajans Mobil private public bus advertising services. Premium advertising solutions on special routes in cooperation with Geveze Agency. Advertising opportunity in modern and comfortable vehicles reaching 300-600 thousand people weekly.",
+        "ar": "خدمات إعلانات حافلات النقل العام الخاصة من أجانس موبيل. حلول إعلانية مميزة على خطوط خاصة بالتعاون مع وكالة جيفيز. فرصة إعلانية في مركبات حديثة ومريحة تصل إلى 300-600 ألف شخص أسبوعياً."
+      },
+      "index": 12,
+      "icon": "home",
+      "img": "zuvah.webp",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Dolmuş Reklamları (Geveze)",
+        "en": "Shared Taxi Advertising (Geveze)",
+        "ar": "إعلانات الميني باص (جيفيز)"
+      },
+      "status": "play",
+      "category": "",
+      "id": "gvz-dolmus",
+      "path": "dolmus-reklamlari-geveze",
+      "description": {
+        "tr": "Ajans Mobil ve Geveze Ajans işbirliği ile dolmuş reklam hizmetleri. Mahalle aralarına ulaşan esnek rota reklam çözümleri. Haftalık 300-600 bin kişiye ulaşan ekonomik ve etkili reklam mecrası.",
+        "en": "Shared taxi advertising services in cooperation with Ajans Mobil and Geveze Agency. Flexible route advertising solutions reaching neighborhood areas. Economic and effective advertising medium reaching 300-600 thousand people weekly.",
+        "ar": "خدمات إعلانات الميني باص بالتعاون مع أجانس موبيل ووكالة جيفيز. حلول إعلانية لطرق مرنة تصل إلى مناطق الأحياء. وسيط إعلاني اقتصادي وفعال يصل إلى 300-600 ألف شخص أسبوعياً."
+      },
+      "index": 13,
+      "icon": "home",
+      "img": "lymkl.webp",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Tramvay Reklamları (Geveze)",
+        "en": "Tramway Advertising (Geveze)",
+        "ar": "إعلانات الترام (جيفيز)"
+      },
+      "status": "play",
+      "category": "",
+      "id": "gvz-tramvay",
+      "path": "tramvay-reklamlari-geveze",
+      "description": {
+        "tr": "Ajans Mobil tramvay reklam hizmetleri. Geveze Ajans işbirliği ile modern raylı sistem reklam çözümleri. Haftalık 300-600 bin kişiye ulaşan istasyon ve araç içi reklamları. Genç ve çalışan kesim için ideal mecralar.",
+        "en": "Ajans Mobil tramway advertising services. Modern rail system advertising solutions in cooperation with Geveze Agency. Station and vehicle interior advertisements reaching 300-600 thousand people weekly. Ideal mediums for young and working segments.",
+        "ar": "خدمات إعلانات الترام من أجانس موبيل. حلول إعلانات نظام السكك الحديدية الحديث بالتعاون مع وكالة جيفيز. إعلانات المحطات وداخل المركبات التي تصل إلى 300-600 ألف شخص أسبوعياً. وسائط مثالية للشرائح الشابة والعاملة."
+      },
+      "index": 14,
+      "icon": "home",
+      "img": "yki9f.webp",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Taksi Reklamları (Geveze)",
+        "en": "Taxi Advertising (Geveze)",
+        "ar": "إعلانات التاكسي (جيفيز)"
+      },
+      "status": "play",
+      "category": "",
+      "id": "gvz-taksiler",
+      "path": "taksi-reklamlari-geveze",
+      "description": {
+        "tr": "Ajans Mobil taksi reklam hizmetleri. Haftalık 300-600 bin kişiye ulaşan premium reklam çözümleri. Taksi üstü ışıklı tabelalar, araç giydirme ve iç alan reklamları ile A+ segmente etkili ulaşım.",
+        "en": "Ajans Mobil taxi advertising services. Premium advertising solutions reaching 300-600 thousand people weekly. Effective reach to A+ segment with illuminated taxi top signs, vehicle wrapping and interior space advertisements.",
+        "ar": "خدمات إعلانات التاكسي من أجانس موبيل. حلول إعلانية مميزة تصل إلى 300-600 ألف شخص أسبوعياً. وصول فعال إلى قطاع A+ مع لافتات أعلى التاكسي المضيئة وتغليف المركبات وإعلانات المساحات الداخلية."
+      },
+      "index": 15,
+      "icon": "home",
+      "img": "cdqsn.webp",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Primemall AVM Reklamları",
+        "en": "",
+        "ar": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "gvz-primemall",
+      "path": "primemall-avm-reklamlari",
+      "description": {
+        "tr": "Ajans Mobil Primemall AVM reklam hizmetleri. Gaziantep'in en büyük ve en prestijli alışveriş merkezinde haftalık 200-500 bin ziyaretçiye ulaşan premium reklam çözümleri. Iconova Cadde komşuluğu ile stratejik konum avantajı.",
+        "en": "",
+        "ar": ""
+      },
+      "index": 16,
+      "icon": "home",
+      "img": "oevz4.webp",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Forum AVM Reklamları",
+        "en": "Forum Shopping Mall Advertising",
+        "ar": "إعلانات فورم مول"
+      },
+      "status": "play",
+      "category": "",
+      "id": "gvz-forum-avm",
+      "path": "forum-avm-reklamlari",
+      "description": {
+        "tr": "Ajans Mobil Forum AVM reklam hizmetleri. Uluslararası markaların buluştuğu prestijli alışveriş merkezinde haftalık 200-500 bin ziyaretçiye ulaşan reklam çözümleri. Otopark reklamları ve sinema alanları ile öne çıkan özel lokasyonlar.",
+        "en": "Ajans Mobil Forum Shopping Mall advertising services. Advertising solutions reaching 200-500 thousand visitors weekly at the prestigious shopping center where international brands meet. Special locations featuring parking advertisements and cinema areas.",
+        "ar": "خدمات إعلانات فورم مول من أجانس موبيل. حلول إعلانية تصل إلى 200-500 ألف زائر أسبوعياً في مركز التسوق المتميز حيث تلتقي العلامات التجارية الدولية. مواقع خاصة تتميز بإعلانات المواقف ومناطق السينما."
+      },
+      "index": 17,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "icon": "home",
+      "img": "okfc7.webp",
+      "pathnext": "",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Sanko Park AVM Reklamları",
+        "en": "",
+        "ar": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "gvz-sanko-park",
+      "path": "sanko-park-avm-reklamlari",
+      "description": {
+        "tr": "Ajans Mobil Sanko Park AVM reklam hizmetleri. Gaziantep'in en eski ve köklü alışveriş merkezinde haftalık 200-500 bin ziyaretçiye ulaşan güvenilir reklam çözümleri. Aile odaklı hedef kitle ve yemek katı reklam alanları ile öne çıkar.",
+        "en": "",
+        "ar": ""
+      },
+      "index": 18,
+      "icon": "home",
+      "img": "bkl4v.webp",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "M1 AVM Reklamları",
+        "en": "M1 Shopping Mall Advertising",
+        "ar": "إعلانات M1 مول"
+      },
+      "status": "play",
+      "category": "",
+      "id": "gvz-m1-avm",
+      "path": "m1-avm-reklamlari",
+      "description": {
+        "tr": "Ajans Mobil M1 AVM reklam hizmetleri. Modern mimarisi ile Gaziantep'in dikkat çeken alışveriş merkezinde haftalık 200-500 bin kişiye ulaşan reklam çözümleri. İç ve dış alanlarda premium reklam seçenekleri.",
+        "en": "Ajans Mobil M1 Shopping Mall advertising services. Advertising solutions reaching 200-500 thousand people weekly at Gaziantep's attention-grabbing shopping center with modern architecture. Premium advertising options in interior and exterior spaces.",
+        "ar": "خدمات إعلانات M1 مول من أجانس موبيل. حلول إعلانية تصل إلى 200-500 ألف شخص أسبوعياً في مركز التسوق الجذاب في غازي عنتاب بعمارة حديثة. خيارات إعلانية مميزة في المساحات الداخلية والخارجية."
+      },
+      "index": 19,
+      "icon": "home",
+      "img": "i27mc.webp",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Sinema Reklamları",
+        "en": "Cinema Advertising",
+        "ar": "إعلانات السينما"
+      },
+      "status": "play",
+      "category": "",
+      "id": "gvz-sinema-reklamlari",
+      "path": "sinema-reklamlari",
+      "description": {
+        "tr": "Ajans Mobil sinema reklam hizmetleri. Film öncesi ve aralarda gösterilen reklamlar ile yüksek dikkat çekme. Genç ve dinamik kitleye ulaşmak için ideal reklam mecrası. Prestijli ve etkili marka görünürlüğü.",
+        "en": "Ajans Mobil cinema advertising services. High attention attraction with advertisements shown before films and during intervals. Ideal advertising medium for reaching young and dynamic audiences. Prestigious and effective brand visibility.",
+        "ar": "خدمات إعلانات السينما من أجانس موبيل. جذب انتباه عالي مع إعلانات تُعرض قبل الأفلام وأثناء الفواصل. وسيط إعلاني مثالي للوصول إلى جماهير شابة وديناميكية. رؤية علامة تجارية متميزة وفعالة."
+      },
+      "index": 20,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Pano Reklamları",
+        "en": "Billboard Advertising",
+        "ar": "إعلانات لوحات الإعلانات"
+      },
+      "status": "play",
+      "category": "",
+      "id": "gvz-pano-reklamlari",
+      "path": "pano-reklamlari",
+      "description": {
+        "tr": "Ajans Mobil pano reklam hizmetleri. Gaziantep'in stratejik noktalarında geniş erişim ve sürekli görünürlük sağlayan reklam çözümleri. Yüksek trafikli bölgelerde etkili marka tanıtımı ve bilinirliği.",
+        "en": "Ajans Mobil billboard advertising services. Advertising solutions providing wide reach and continuous visibility at Gaziantep's strategic points. Effective brand promotion and awareness in high traffic areas.",
+        "ar": "خدمات إعلانات لوحات الإعلانات من أجانس موبيل. حلول إعلانية توفر وصولاً واسعاً ورؤية مستمرة في النقاط الاستراتيجية في غازي عنتاب. ترويج فعال للعلامة التجارية والوعي في المناطق ذات حركة المرور العالية."
+      },
+      "index": 21,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Özel Uygulama Billboard",
+        "en": "Custom Application Billboard",
+        "ar": "لوحة إعلانات التطبيق المخصص"
+      },
+      "status": "play",
+      "category": "",
+      "id": "gvz-ozel-billboard",
+      "path": "ozel-uygulama-billboard",
+      "description": {
+        "tr": "Ajans Mobil özel uygulama billboard hizmetleri. Yaratıcı ve dikkat çekici özel tasarım billboard çözümleri. Yüksek etkileşim ve viral potansiyel ile markanızı öne çıkarın. 3D, hareketli ve ışıklı özel tasarımlar.",
+        "en": "Ajans Mobil custom application billboard services. Creative and attention-grabbing custom design billboard solutions. Stand out with your brand with high interaction and viral potential. 3D, mobile and illuminated custom designs.",
+        "ar": "خدمات لوحة إعلانات التطبيق المخصص من أجانس موبيل. حلول لوحة إعلانات بتصميم مخصص إبداعي وجذاب للانتباه. تميز بعلامتك التجارية مع تفاعل عالي وإمكانية فيروسية. تصاميم مخصصة ثلاثية الأبعاد ومتحركة ومضيئة."
+      },
+      "index": 22,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Üniversite Reklamları",
+        "en": "University Advertising",
+        "ar": "إعلانات الجامعة"
+      },
+      "status": "play",
+      "category": "",
+      "id": "gvz-universite-reklamlari",
+      "path": "universite-reklamlari",
+      "description": {
+        "tr": "Ajans Mobil üniversite reklam hizmetleri. Genç ve dinamik hedef kitleye ulaşmak için ideal reklam mecrası. Üniversite kampüslerinde etkili marka görünürlüğü ve öğrenci kitlesine doğrudan erişim. Pano, afiş ve dijital ekran seçenekleri.",
+        "en": "Ajans Mobil university advertising services. Ideal advertising medium for reaching young and dynamic target audience. Effective brand visibility at university campuses and direct access to student audience. Billboard, poster and digital screen options.",
+        "ar": "خدمات إعلانات الجامعة من أجانس موبيل. وسيط إعلاني مثالي للوصول إلى جمهور مستهدف شاب وديناميكي. رؤية علامة تجارية فعالة في الحرم الجامعي ووصول مباشر إلى جمهور الطلاب. خيارات لوحة إعلانات وملصق وشاشة رقمية."
+      },
+      "index": 23,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
       "desc": {}
     }
   ],

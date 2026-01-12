@@ -1,0 +1,42 @@
+{
+  "name": {
+    "tr": "Taksi Reklamları (Geveze)",
+    "en": "Taxi Advertising (Geveze)",
+    "ar": "إعلانات التاكسي (جيفيز)"
+  },
+  "status": "play",
+  "category": "",
+  "id": "gvz-taksiler",
+  "externalUrl": "",
+  "path": "taksi-reklamlari-geveze",
+  "keyword": {
+    "tr": "Gaziantep taksi reklam, Ajans Mobil taksi reklamcılık, taksi üstü reklam, A+ segment hedef kitle, premium reklam çözümleri",
+    "en": "Gaziantep taxi advertising, Ajans Mobil taxi advertising, taxi top advertising, A+ segment target audience, premium advertising solutions",
+    "ar": "إعلانات التاكسي غازي عنتاب، إعلانات التاكسي أجانس موبيل، إعلانات أعلى التاكسي، جمهور مستهدف قطاع A+، حلول إعلانية مميزة"
+  },
+  "description": {
+    "tr": "Ajans Mobil taksi reklam hizmetleri. Haftalık 300-600 bin kişiye ulaşan premium reklam çözümleri. Taksi üstü ışıklı tabelalar, araç giydirme ve iç alan reklamları ile A+ segmente etkili ulaşım.",
+    "en": "Ajans Mobil taxi advertising services. Premium advertising solutions reaching 300-600 thousand people weekly. Effective reach to A+ segment with illuminated taxi top signs, vehicle wrapping and interior space advertisements.",
+    "ar": "خدمات إعلانات التاكسي من أجانس موبيل. حلول إعلانية مميزة تصل إلى 300-600 ألف شخص أسبوعياً. وصول فعال إلى قطاع A+ مع لافتات أعلى التاكسي المضيئة وتغليف المركبات وإعلانات المساحات الداخلية."
+  },
+  "text": {
+    "tr": "<h2 style=\"font-size: 24px;\">Taksi Reklamları - A+ Segmente Ulaşım</h2>\n    <p style=\"font-size: 16px;\">\n        Taksi araçları, Gaziantep'in her noktasına ulaşan ve günlük olarak binlerce kişiyi taşıyan önemli reklam mecralarıdır. Ajans Mobil olarak, taksi üstü ışıklı tabelalar, araç giydirme ve iç alan reklamları ile A+ segmente ulaşmanızı sağlıyoruz. Reklamınız olduğu yerde kalmaz, en kalabalık noktalardan en sakin noktalara kadar şehri turlar.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Haftalık 300-600 bin kişilik hedef kitleye ulaşan taksi reklamları, özellikle yüksek gelir grubuna ulaşmak için ideal bir mecradır. Taksi kullanan müşteriler, genellikle satın alma gücü yüksek ve marka bilinçli bir profil sergiler.\n    </p>",
+    "en": "<h2 style=\"font-size: 24px;\">Taxi Advertising - Reaching A+ Segment</h2>\n    <p style=\"font-size: 16px;\">\n        Taxi vehicles are important advertising mediums that reach every point of Gaziantep and carry thousands of people daily. As Ajans Mobil, we enable you to reach the A+ segment with illuminated taxi top signs, vehicle wrapping and interior space advertisements. Your advertisement does not stay where it is, it tours the city from the most crowded points to the quietest points.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Taxi advertisements reaching 300-600 thousand people weekly are an ideal medium especially for reaching high income groups. Customers using taxis generally exhibit a profile with high purchasing power and brand conscious.\n    </p>",
+    "ar": "<h2 style=\"font-size: 24px;\">إعلانات التاكسي - الوصول إلى قطاع A+</h2>\n    <p style=\"font-size: 16px;\">\n        مركبات التاكسي هي وسائط إعلانية مهمة تصل إلى كل نقطة في غازي عنتاب وتحمل آلاف الأشخاص يومياً. كأجانس موبيل، نتيح لك الوصول إلى قطاع A+ مع لافتات أعلى التاكسي المضيئة وتغليف المركبات وإعلانات المساحات الداخلية. إعلانك لا يبقى حيث هو، بل يجول المدينة من أكثر النقاط ازدحاماً إلى أكثر النقاط هدوءاً.\n    </p>\n    <p style=\"font-size: 16px;\">\n        إعلانات التاكسي التي تصل إلى 300-600 ألف شخص أسبوعياً هي وسيط مثالي خاصة للوصول إلى مجموعات الدخل العالي. العملاء الذين يستخدمون التاكسي يعرضون عموماً ملفاً بقوة شرائية عالية وواعي بالعلامة التجارية.\n    </p>"
+  },
+  "spot": {
+    "tr": "Haftalık Hedef Kitle: 300-600 Bin Kişi - Şehrin her noktasına ulaşan önemli reklam mecrası"
+  },
+  "index": 0,
+  "icon": "home",
+  "desc": {},
+  "img": "cdqsn.webp",
+  "update": "2026-01-12T03:50:31.075Z",
+  "date": "2025-01-07T00:00:00.000Z",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "pathnext": ""
+}

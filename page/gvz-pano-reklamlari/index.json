@@ -1,0 +1,41 @@
+{
+  "name": {
+    "tr": "Pano Reklamları",
+    "en": "Billboard Advertising",
+    "ar": "إعلانات لوحات الإعلانات"
+  },
+  "status": "play",
+  "category": "",
+  "id": "gvz-pano-reklamlari",
+  "externalUrl": "",
+  "path": "pano-reklamlari",
+  "keyword": {
+    "tr": "Gaziantep pano reklam, Ajans Mobil billboard reklamcılık, stratejik nokta reklam, sürekli görünürlük, yüksek trafik reklam",
+    "en": "Gaziantep billboard advertising, Ajans Mobil billboard advertising, strategic point advertising, continuous visibility, high traffic advertising",
+    "ar": "إعلانات لوحات الإعلانات غازي عنتاب، إعلانات لوحات الإعلانات أجانس موبيل، إعلانات النقطة الاستراتيجية، رؤية مستمرة، إعلانات حركة مرور عالية"
+  },
+  "description": {
+    "tr": "Ajans Mobil pano reklam hizmetleri. Gaziantep'in stratejik noktalarında geniş erişim ve sürekli görünürlük sağlayan reklam çözümleri. Yüksek trafikli bölgelerde etkili marka tanıtımı ve bilinirliği.",
+    "en": "Ajans Mobil billboard advertising services. Advertising solutions providing wide reach and continuous visibility at Gaziantep's strategic points. Effective brand promotion and awareness in high traffic areas.",
+    "ar": "خدمات إعلانات لوحات الإعلانات من أجانس موبيل. حلول إعلانية توفر وصولاً واسعاً ورؤية مستمرة في النقاط الاستراتيجية في غازي عنتاب. ترويج فعال للعلامة التجارية والوعي في المناطق ذات حركة المرور العالية."
+  },
+  "text": {
+    "tr": "<h2 style=\"font-size: 24px;\">Pano Reklam Alanları</h2>\n    <p style=\"font-size: 16px;\">\n        Şehir içi ve ana arterlerde büyük panolar. Hedef kitle; araç ve yaya trafiği. Panolar, geniş kitlelere ulaşmak için idealdir. Marka mesajı kısa ve net olmalıdır.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Şehirde sürekli görünürlük ve marka bilinirliği sağlar. Geniş erişim, sürekli görünürlük ve hızlı mesaj iletimi avantajları sunar.\n    </p>",
+    "en": "<h2 style=\"font-size: 24px;\">Billboard Advertising Areas</h2>\n    <p style=\"font-size: 16px;\">\n        Large billboards in city centers and main arteries. Target audience; vehicle and pedestrian traffic. Billboards are ideal for reaching wide audiences. Brand message should be short and clear.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Provides continuous visibility and brand awareness in the city. Offers advantages of wide reach, continuous visibility and fast message delivery.\n    </p>",
+    "ar": "<h2 style=\"font-size: 24px;\">مناطق إعلانات لوحات الإعلانات</h2>\n    <p style=\"font-size: 16px;\">\n        لوحات إعلانات كبيرة في مراكز المدن والشرايين الرئيسية. الجمهور المستهدف؛ حركة المرور والمركبات والمشاة. لوحات الإعلانات مثالية للوصول إلى جماهير واسعة. رسالة العلامة التجارية يجب أن تكون قصيرة وواضحة.\n    </p>\n    <p style=\"font-size: 16px;\">\n        يوفر رؤية مستمرة والوعي بالعلامة التجارية في المدينة. يقدم مزايا الوصول الواسع والرؤية المستمرة وتسليم الرسالة السريع.\n    </p>"
+  },
+  "spot": {
+    "tr": "Geniş Erişim ve Sürekli Görünürlük - Stratejik noktalarda pano reklamları"
+  },
+  "index": 0,
+  "icon": "home",
+  "desc": {},
+  "update": "2026-01-12T03:50:31.797Z",
+  "date": "2025-01-07T00:00:00.000Z",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "pathnext": ""
+}

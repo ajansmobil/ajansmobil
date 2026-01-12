@@ -1,6 +1,8 @@
 {
   "name": {
-    "tr": "Hizmetlerimiz"
+    "tr": "Dijital Hizmetlerimiz",
+    "en": "Our Digital Services",
+    "ar": "خدماتنا الرقمية"
   },
   "status": "play",
   "category": "",
@@ -8,28 +10,33 @@
   "externalUrl": "",
   "path": "hizmetlerimiz",
   "keyword": {
-    "tr": "web tasarım, mobil uygulama, sosyal medya yönetimi, dijital pazarlama, SEO hizmetleri, içerik üretimi, grafik tasarım, marka kimliği, dijital strateji, e-ticaret çözümleri"
+    "tr": "web tasarım, mobil uygulama, sosyal medya yönetimi, dijital pazarlama, SEO hizmetleri, içerik üretimi, grafik tasarım, marka kimliği, dijital strateji",
+    "en": "web design, mobile application, social media management, digital marketing, SEO services, content production, graphic design, brand identity, digital strategy",
+    "ar": "تصميم الويب، تطبيق الجوال، إدارة وسائل التواصل الاجتماعي، التسويق الرقمي، خدمات SEO، إنتاج المحتوى، التصميم الجرافيكي، هوية العلامة التجارية، الاستراتيجية الرقمية"
   },
   "description": {
-    "tr": "Web tasarım, mobil uygulama geliştirme, sosyal medya yönetimi ve dijital pazarlama alanlarında profesyonel hizmetler sunuyoruz."
+    "tr": "Web tasarım, mobil uygulama geliştirme, sosyal medya yönetimi ve dijital pazarlama alanlarında profesyonel hizmetler sunuyoruz.",
+    "en": "We offer professional services in web design, mobile application development, social media management and digital marketing.",
+    "ar": "نقدم خدمات مهنية في تصميم الويب وتطوير تطبيقات الجوال وإدارة وسائل التواصل الاجتماعي والتسويق الرقمي."
   },
   "text": {
-    "tr": ""
+    "tr": "",
+    "en": "",
+    "ar": ""
   },
   "spot": {
     "tr": ""
   },
   "desc": {},
-  "index": 2,
+  "index": 1,
   "desing": {
     "header": [],
     "body": [
-      "i0uquh",
-      "i0uquh2"
+      "w0b18z"
     ],
     "footer": []
   },
-  "update": "2025-10-01T06:17:06.395Z",
+  "update": "2026-01-12T03:50:29.713Z",
   "date": "2025-10-01T05:29:22.554Z",
   "pathnext": ""
 }

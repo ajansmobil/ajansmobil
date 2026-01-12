@@ -12,7 +12,9 @@
         "background-color": "#fff"
       },
       "id": "f3hsb0",
-      "category": "menu"
+      "category": "menu",
+      "version": "1.0.0",
+      "icon": "menu"
     },
     {
       "index": 1,
@@ -27,7 +29,9 @@
       },
       "id": "ei3jbw",
       "category": "footer",
-      "data": []
+      "data": [],
+      "version": "1.0.0",
+      "icon": "web_asset"
     },
     {
       "index": 2,
@@ -37,7 +41,9 @@
       "desing": {
         "color": "#165858",
         "name": {
-          "tr": "Bize Ulaşın"
+          "tr": "Bize Ulaşın",
+          "en": "",
+          "ar": ""
         },
         "margin": "30px 0px 30px 0px"
       },
@@ -54,7 +60,9 @@
         }
       ],
       "id": "a5mvw9",
-      "category": "contact"
+      "category": "contact",
+      "version": "1.0.0",
+      "icon": "contact_mail"
     },
     {
       "index": 3,
@@ -62,7 +70,8 @@
       "path": "slider",
       "local": "header",
       "desing": {
-        "delay": 3000
+        "delay": 3000,
+        "margin": "0px 0 0 0"
       },
       "data": [
         {
@@ -97,7 +106,9 @@
         }
       ],
       "id": "ayn5ph",
-      "category": "slider"
+      "category": "slider",
+      "version": "1.0.0",
+      "icon": "view_carousel"
     },
     {
       "index": 4,
@@ -107,7 +118,9 @@
       "desing": {
         "page": "services",
         "name": {
-          "tr": "Hizmetlerimiz"
+          "tr": "Hizmetlerimiz",
+          "en": "",
+          "ar": ""
         },
         "aspect-ratio": "3/2",
         "size": 4,
@@ -128,7 +141,9 @@
       "desing": {
         "page": "acikhava",
         "name": {
-          "tr": "Açık Hava ve Gezen Reklam"
+          "tr": "Açık Hava ve Gezen Reklam",
+          "en": "",
+          "ar": ""
         },
         "aspect-ratio": "3/2",
         "size": 4,
@@ -149,7 +164,9 @@
       "category": "slider",
       "desing": {
         "name": {
-          "tr": "Partnerlerimiz"
+          "tr": "Partnerlerimiz",
+          "en": "Our Partners",
+          "ar": "شركاؤنا"
         },
         "size": 6,
         "button": "false",
@@ -178,7 +195,9 @@
           "img": "6.png"
         }
       ],
-      "id": "jyfy3k"
+      "id": "jyfy3k",
+      "version": "1.0.0",
+      "icon": "view_carousel"
     },
     {
       "index": 7,
@@ -187,14 +206,98 @@
       "local": "body",
       "category": "page",
       "desing": {
-        "height": "200",
+        "height": "100",
         "opacity": "0.5",
-        "font-size": "50",
-        "backgroundcolor": "#000",
-        "category": "page",
-        "menu-active": "#000"
+        "font-size": "36",
+        "backgroundcolor": "#1e3046",
+        "menu-active": "#1e3046"
       },
-      "id": "dajchd"
+      "id": "dajchd",
+      "version": "1.0.0",
+      "icon": "web"
+    },
+    {
+      "index": 8,
+      "name": "Sayfa Listesi Column",
+      "path": "page-column-4",
+      "local": "body",
+      "category": "page list",
+      "id": "w0b18z",
+      "desing": {
+        "page": "services",
+        "bgcolor": "#1e3046",
+        "color": "#fff",
+        "height": "200px",
+        "font-size": "18px",
+        "opacity": "0.5",
+        "chilebgcolor": "#000",
+        "chilecolor": "#fff",
+        "chilesize": "16px"
+      }
+    },
+    {
+      "index": 9,
+      "name": "Sayfa Listesi Column",
+      "path": "page-column-4",
+      "local": "body",
+      "category": "page list",
+      "id": "x9g8bp",
+      "desing": {
+        "page": "acikhava",
+        "bgcolor": "#1e3046",
+        "color": "#fff",
+        "height": "200px",
+        "font-size": "18px",
+        "opacity": "0.5",
+        "chilebgcolor": "#000",
+        "chilecolor": "#fff",
+        "chilesize": "16px"
+      }
+    },
+    {
+      "index": 10,
+      "name": "WhatsApp 6",
+      "path": "whatsapp-6",
+      "local": "footer",
+      "category": "contact",
+      "id": "pjkf5g",
+      "desing": {
+        "number": "905316791014",
+        "img": "logo.png",
+        "name": {
+          "tr": "Müşteri Desteği",
+          "en": "Customer Support",
+          "ar": "دعم العملاء"
+        },
+        "status": {
+          "tr": "Şu anda çevrimiçi",
+          "en": "Currently online",
+          "ar": "متصل الآن"
+        },
+        "message": {
+          "tr": "Merhaba! Size nasıl yardımcı olabilirim?",
+          "en": "Hello! How can I help you?",
+          "ar": "مرحباً! كيف يمكنني مساعدتك؟"
+        },
+        "time": {
+          "tr": "Şimdi",
+          "en": "Now",
+          "ar": "الآن"
+        },
+        "button_text": {
+          "tr": "Sohbete Başla",
+          "en": "Start Chat",
+          "ar": "ابدأ المحادثة"
+        },
+        "avatar": "agent.png",
+        "position": "fixed",
+        "color": "#25D366",
+        "z_index": 10000,
+        "advanced_features": true,
+        "custom_functions": true,
+        "advanced_integration": true
+      },
+      "data": []
     }
   ]
 }

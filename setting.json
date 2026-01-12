@@ -13,8 +13,8 @@
   "domain": "ajansmobil.com",
   "langs": {
     "tr": true,
-    "en": false,
-    "ar": false,
+    "en": true,
+    "ar": true,
     "de": false,
     "ru": false,
     "es": false,
@@ -24,5 +24,7 @@
     "zh": false,
     "ko": false,
     "pt": false
-  }
+  },
+  "multi": false,
+  "firebaseCollection": ""
 }

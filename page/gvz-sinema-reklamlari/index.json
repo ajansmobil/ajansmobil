@@ -1,0 +1,41 @@
+{
+  "name": {
+    "tr": "Sinema Reklamları",
+    "en": "Cinema Advertising",
+    "ar": "إعلانات السينما"
+  },
+  "status": "play",
+  "category": "",
+  "id": "gvz-sinema-reklamlari",
+  "externalUrl": "",
+  "path": "sinema-reklamlari",
+  "keyword": {
+    "tr": "Gaziantep sinema reklam, Ajans Mobil sinema salonu reklamcılık, film öncesi reklam, genç hedef kitle reklam, yüksek dikkat reklam",
+    "en": "Gaziantep cinema advertising, Ajans Mobil cinema hall advertising, pre-film advertising, young target audience advertising, high attention advertising",
+    "ar": "إعلانات السينما غازي عنتاب، إعلانات قاعة السينما أجانس موبيل، إعلانات ما قبل الفيلم، إعلانات الجمهور المستهدف الشاب، إعلانات انتباه عالي"
+  },
+  "description": {
+    "tr": "Ajans Mobil sinema reklam hizmetleri. Film öncesi ve aralarda gösterilen reklamlar ile yüksek dikkat çekme. Genç ve dinamik kitleye ulaşmak için ideal reklam mecrası. Prestijli ve etkili marka görünürlüğü.",
+    "en": "Ajans Mobil cinema advertising services. High attention attraction with advertisements shown before films and during intervals. Ideal advertising medium for reaching young and dynamic audiences. Prestigious and effective brand visibility.",
+    "ar": "خدمات إعلانات السينما من أجانس موبيل. جذب انتباه عالي مع إعلانات تُعرض قبل الأفلام وأثناء الفواصل. وسيط إعلاني مثالي للوصول إلى جماهير شابة وديناميكية. رؤية علامة تجارية متميزة وفعالة."
+  },
+  "text": {
+    "tr": "<h2 style=\"font-size: 24px;\">Sinema Reklam Alanları</h2>\n    <p style=\"font-size: 16px;\">\n        Sinema salonlarında gösterim öncesi veya aralarda reklam yayınlanır. Hedef kitle; gençler, aileler ve şehirdeki sosyal yaşamı takip edenlerdir.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Sinema reklamları, izleyicinin dikkatinin en yüksek olduğu anda gösterilir. Marka bilinirliği ve prestij için etkilidir. Hedef kitleye doğrudan ulaşım, yüksek etkileşim ve akılda kalıcılık sağlar.\n    </p>",
+    "en": "<h2 style=\"font-size: 24px;\">Cinema Advertising Areas</h2>\n    <p style=\"font-size: 16px;\">\n        Advertisements are broadcast before screenings or during intervals in cinema halls. Target audience; young people, families and those following social life in the city.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Cinema advertisements are shown when the viewer's attention is at its highest. Effective for brand awareness and prestige. Provides direct reach to target audience, high interaction and memorability.\n    </p>",
+    "ar": "<h2 style=\"font-size: 24px;\">مناطق إعلانات السينما</h2>\n    <p style=\"font-size: 16px;\">\n        الإعلانات تُبث قبل العروض أو أثناء الفواصل في قاعات السينما. الجمهور المستهدف؛ الشباب والعائلات وأولئك الذين يتابعون الحياة الاجتماعية في المدينة.\n    </p>\n    <p style=\"font-size: 16px;\">\n        إعلانات السينما تُعرض عندما يكون انتباه المشاهد في أعلى مستوياته. فعالة للوعي بالعلامة التجارية والهيبة. توفر وصولاً مباشراً إلى الجمهور المستهدف وتفاعلاً عالياً وقدرة على التذكر.\n    </p>"
+  },
+  "spot": {
+    "tr": "Yüksek Görünürlük ve Prestij - Sinema salonlarında etkili marka görünürlüğü"
+  },
+  "index": 0,
+  "icon": "home",
+  "desc": {},
+  "update": "2026-01-12T03:50:31.791Z",
+  "date": "2025-01-07T00:00:00.000Z",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "pathnext": ""
+}
