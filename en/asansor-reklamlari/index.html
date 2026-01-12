@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=glf9g" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=glf9g" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=r165z" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=r165z" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=glf9g" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=r165z" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,89 +52,140 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=glf9g">
+<link rel="stylesheet" href="style.css?v=r165z">
 </head>
 
 <body>
-  <div id="header"><div class="psj2z">
-  <div class="psj2ztitle">
-    <div class="psj2ztitlebody">
-     
-      <div class="psj2ztitlebodylang">
-        <ul>
-          <li><a href="/tr/asansor-reklamlari/">tr</a></li><li><a href="/en/asansor-reklamlari/">en</a></li><li><a href="/ar/asansor-reklamlari/">ar</a></li>
+  <div id="header"><header class="ksze8" role="banner">
+  <div class="ksze8title" role="region" aria-label="Language Selector">
+    <div class="ksze8titlebody">
+      <nav class="ksze8titlebodylang" aria-label="Language Selector">
+        <ul role="list">
+          <li role="none"><a href="/tr/asansor-reklamlari/" hreflang="tr" title="true" aria-label="Language Selector: tr" lang="tr">tr</a></li><li role="none"><a href="/en/asansor-reklamlari/" hreflang="en" aria-current="true" title="true" aria-label="Language Selector: en" lang="en">en</a></li><li role="none"><a href="/ar/asansor-reklamlari/" hreflang="ar" title="true" aria-label="Language Selector: ar" lang="ar">ar</a></li>
         </ul>
-      </div>
+      </nav>
     </div>
   </div>
-  <div class="psj2zChildren">
-    <div class="psj2zbody">
-      <a href="/en/"><img src="/img/logo.svg?v=glf9g" class="psj2zbodylogo" alt="Ajans Mobil Gaziantep Logo" loading="lazy" /></a>
+  <div class="ksze8Children">
+    <div class="ksze8body">
+      <a href="/en/" aria-label="Home - Ajans Mobil Gaziantep" title="Home - Ajans Mobil Gaziantep">
+        <img src="/img/logo.svg?v=r165z" class="ksze8bodylogo" alt="Ajans Mobil Gaziantep Logo" width="auto" height="auto" loading="lazy" />
+      </a>
     </div>
-    <div class="psj2zmenumobil">
-      <div class="material-symbols-outlined" aria-hidden="true">menu</div>
-    </div>
-    <div class="psj2zmenulist">
-      <ul>
-        <a href="/en/" class="psj2zmenuitem">Home </a><a href="/en/hakkimizda/" class="psj2zmenuitem">Corporate</a><a href="/en/hizmetlerimiz/" class="psj2zmenuitem">Our Digital Services</a><a href="/en/acik-hava-hizmetlerimiz/" class="psj2zmenuitem">Our Outdoor Services</a><a href="/en/iletisim/" class="psj2zmenuitem">Contact</a>
+    <button class="ksze8menumobil" type="button" aria-label="Toggle Menu" aria-expanded="false" aria-controls="ksze8menulist">
+      <span class="material-symbols-outlined" aria-hidden="true">menu</span>
+    </button>
+    <nav class="ksze8menulist" id="ksze8menulist" role="navigation" aria-label="Navigation">
+      <ul role="menubar">
+        <a href="/en/" class="ksze8menuitem" role="menuitem" title="Home - " aria-label="Home">Home</a><a href="/en/hakkimizda/" class="ksze8menuitem" role="menuitem" title="Corporate" aria-label="Corporate">Corporate</a><a href="/en/hizmetlerimiz/" class="ksze8menuitem" role="menuitem" title="Our Digital Services" aria-label="Our Digital Services">Our Digital Services</a><a href="/en/acik-hava-hizmetlerimiz/" class="ksze8menuitem" role="menuitem" title="Our Outdoor Services" aria-label="Our Outdoor Services">Our Outdoor Services</a><a href="/en/iletisim/" class="ksze8menuitem" role="menuitem" title="Contact" aria-label="Contact">Contact</a>
       </ul>
-    </div>
+    </nav>
   </div>
-</div>
+</header>
 
 <script>
-  document
-    .querySelector(".psj2zmenumobil")
-    .addEventListener("click", function () {
-      const menu = document.querySelector(".psj2zmenulist");
-      if (menu.style.display === "flex") {
-        menu.style.display = "none";
-      } else {
-        menu.style.display = "flex";
-      }
-    });
+  setTimeout(function() {
+    var menuButton = document.querySelector(".ksze8menumobil");
+    var menu = document.querySelector(".ksze8menulist");
+    
+    if (menuButton && menu) {
+      // Tıklama eventi
+      menuButton.addEventListener("click", function () {
+        var isExpanded = menuButton.getAttribute("aria-expanded") === "true";
+        if (isExpanded) {
+          menu.style.display = "none";
+          menuButton.setAttribute("aria-expanded", "false");
+        } else {
+          menu.style.display = "flex";
+          menuButton.setAttribute("aria-expanded", "true");
+        }
+      });
+      
+      // Klavye navigasyonu (Enter ve Space)
+      menuButton.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          menuButton.click();
+        }
+      });
+      
+      // ESC tuşu ile menüyü kapat
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape" && menuButton.getAttribute("aria-expanded") === "true") {
+          menu.style.display = "none";
+          menuButton.setAttribute("aria-expanded", "false");
+          menuButton.focus();
+        }
+      });
+      
+      // Menü dışına tıklanınca kapat
+      document.addEventListener("click", function (e) {
+        if (menuButton.getAttribute("aria-expanded") === "true" && 
+            !menu.contains(e.target) && 
+            !menuButton.contains(e.target)) {
+          menu.style.display = "none";
+          menuButton.setAttribute("aria-expanded", "false");
+        }
+      });
+    }
+  }, 100);
 </script>
 </div>
-  <div id="content"><div class="uzc1e-title f36">
+  <div id="content"><div class="g3zu5-title f36">
   <h1>Elevator Advertising</h1>
 </div>
-<div class="uzc1e">
-  <div class="uzc1e-menu-btn">
+<div class="g3zu5">
+  <div class="g3zu5-menu-btn">
     <span>Menu</span>
-    <span class="material-symbols-outlined uzc1e-icon">menu</span>
+    <span class="material-symbols-outlined g3zu5-icon">menu</span>
   </div>
-  <div class="uzc1e-menu"><a class="uzc1e-menu-link active" href="/en/asansor-reklamlari/">Elevator Advertising</a><a class="uzc1e-menu-link" href="/en/dolmus-reklamlari/">Shared Taxi Advertisements</a><a class="uzc1e-menu-link" href="/en/otobus-reklam/">Bus Advertising</a><a class="uzc1e-menu-link" href="/en/acik-hava-reklamciligi/">Outdoor Advertising</a><a class="uzc1e-menu-link" href="/en/taksi-reklamlari/">Taxi Advertisements</a><a class="uzc1e-menu-link" href="/en/tramvay/">Tramway</a><a class="uzc1e-menu-link" href="/en/iconova-cadde-reklamlari/">Iconova Street Advertising</a><a class="uzc1e-menu-link" href="/en/havalimani-reklamlari/">Airport Advertising</a><a class="uzc1e-menu-link" href="/en/organize-sanayi-reklamlari/">Organized Industrial Zone Advertising</a><a class="uzc1e-menu-link" href="/en/cadde-duvarlari-reklamlari/">Street Wall Advertising</a><a class="uzc1e-menu-link" href="/en/bina-asansorleri-reklamlari/">Building Elevator Advertising</a><a class="uzc1e-menu-link" href="/en/belediye-otobusu-reklamlari/">Municipal Bus Advertising</a><a class="uzc1e-menu-link" href="/en/halk-otobusu-reklamlari/">Public Bus Advertising</a><a class="uzc1e-menu-link" href="/en/dolmus-reklamlari-geveze/">Shared Taxi Advertising (Geveze)</a><a class="uzc1e-menu-link" href="/en/tramvay-reklamlari-geveze/">Tramway Advertising (Geveze)</a><a class="uzc1e-menu-link" href="/en/taksi-reklamlari-geveze/">Taxi Advertising (Geveze)</a><a class="uzc1e-menu-link" href="/en/primemall-avm-reklamlari/">Primemall AVM Reklamları</a><a class="uzc1e-menu-link" href="/en/forum-avm-reklamlari/">Forum Shopping Mall Advertising</a><a class="uzc1e-menu-link" href="/en/sanko-park-avm-reklamlari/">Sanko Park AVM Reklamları</a><a class="uzc1e-menu-link" href="/en/m1-avm-reklamlari/">M1 Shopping Mall Advertising</a><a class="uzc1e-menu-link" href="/en/sinema-reklamlari/">Cinema Advertising</a><a class="uzc1e-menu-link" href="/en/pano-reklamlari/">Billboard Advertising</a><a class="uzc1e-menu-link" href="/en/ozel-uygulama-billboard/">Custom Application Billboard</a><a class="uzc1e-menu-link" href="/en/universite-reklamlari/">University Advertising</a></div>
-  <div class="uzc1e-desc">
+  <div class="g3zu5-menu"><a class="g3zu5-menu-link active" href="/en/asansor-reklamlari/">Elevator Advertising</a><a class="g3zu5-menu-link" href="/en/dolmus-reklamlari/">Shared Taxi Advertisements</a><a class="g3zu5-menu-link" href="/en/otobus-reklam/">Bus Advertising</a><a class="g3zu5-menu-link" href="/en/acik-hava-reklamciligi/">Outdoor Advertising</a><a class="g3zu5-menu-link" href="/en/taksi-reklamlari/">Taxi Advertisements</a><a class="g3zu5-menu-link" href="/en/tramvay/">Tramway</a><a class="g3zu5-menu-link" href="/en/iconova-cadde-reklamlari/">Iconova Street Advertising</a><a class="g3zu5-menu-link" href="/en/havalimani-reklamlari/">Airport Advertising</a><a class="g3zu5-menu-link" href="/en/organize-sanayi-reklamlari/">Organized Industrial Zone Advertising</a><a class="g3zu5-menu-link" href="/en/cadde-duvarlari-reklamlari/">Street Wall Advertising</a><a class="g3zu5-menu-link" href="/en/bina-asansorleri-reklamlari/">Building Elevator Advertising</a><a class="g3zu5-menu-link" href="/en/belediye-otobusu-reklamlari/">Municipal Bus Advertising</a><a class="g3zu5-menu-link" href="/en/halk-otobusu-reklamlari/">Public Bus Advertising</a><a class="g3zu5-menu-link" href="/en/dolmus-reklamlari-geveze/">Shared Taxi Advertising (Geveze)</a><a class="g3zu5-menu-link" href="/en/tramvay-reklamlari-geveze/">Tramway Advertising (Geveze)</a><a class="g3zu5-menu-link" href="/en/taksi-reklamlari-geveze/">Taxi Advertising (Geveze)</a><a class="g3zu5-menu-link" href="/en/primemall-avm-reklamlari/">Primemall Shopping Mall Advertising</a><a class="g3zu5-menu-link" href="/en/forum-avm-reklamlari/">Forum Shopping Mall Advertising</a><a class="g3zu5-menu-link" href="/en/sanko-park-avm-reklamlari/">Sanko Park AVM Reklamları</a><a class="g3zu5-menu-link" href="/en/m1-avm-reklamlari/">M1 Shopping Mall Advertising</a><a class="g3zu5-menu-link" href="/en/sinema-reklamlari/">Cinema Advertising</a><a class="g3zu5-menu-link" href="/en/pano-reklamlari/">Billboard Advertising</a><a class="g3zu5-menu-link" href="/en/ozel-uygulama-billboard/">Custom Application Billboard</a><a class="g3zu5-menu-link" href="/en/universite-reklamlari/">University Advertising</a></div>
+  <div class="g3zu5-desc">
     
-    <div class="uzc1e-desc-body">
-            <img src="/page/bfjvcgg13p/c9t15.png?v=glf9g" width="100%" alt="Elevator Advertising" loading="lazy" />
+    <div class="g3zu5-desc-body">
+            <img src="/page/bfjvcgg13p/c9t15.png?v=r165z" width="100%" alt="Elevator Advertising" loading="lazy" />
     </div>
-    <div class="uzc1e-body"></div>
+    <div class="g3zu5-body"><p><h2 style="font-size: 28px; color: #0f70b7; margin-bottom: 20px;">Gaziantep Elevator Advertising - Reach Your Target Audience Directly</h2></p>
+<p>    <p style="font-size: 16px; line-height: 1.8; margin-bottom: 15px;"></p>
+<p>        Elevator advertising is one of the most effective ways to reach your target audience in daily life. As Ajans Mobil, we have been organizing elevator interior advertising campaigns in Gaziantep for 15 years, increasing the visibility of hundreds of brands. We provide access to thousands of people daily with advertising panels we place in elevators in modern apartment complexes, business centers, shopping malls and hospitals.</p>
+<p>    </p></p>
+<p>    <p style="font-size: 16px; line-height: 1.8; margin-bottom: 15px;"></p>
+<p>        The biggest advantage of elevator advertising is that you can attract your target audience's full attention. People tend to look around while waiting in elevators or during travel. You can increase your brand awareness and gain new customers with eye-catching, creative and impressive elevator advertisements at these critical moments. Elevator advertising yields very effective results especially in real estate, education, health, beauty centers, restaurants and local service sectors.</p>
+<p>    </p></p>
+<p>    <p style="font-size: 16px; line-height: 1.8; margin-bottom: 15px;"></p>
+<p>        We have a wide elevator advertising network in Gaziantep's most prestigious neighborhoods, residential projects appealing to high-income groups and central business districts. We have advertising media at strategically selected locations in regions such as Şahinbey, Şehitkamil, Karataş and Ünaldı. We organize advertising campaigns in buildings where your target audience is densely located by performing demographic analysis.</p>
+<p>    </p></p>
+<p>    <p style="font-size: 16px; line-height: 1.8; margin-bottom: 15px;"></p>
+<p>        Our elevator advertising services include design, printing, installation and periodic checks. Our professional graphic design team prepares eye-catching and message-focused designs suitable for your brand's visual identity. We ensure your advertisements remain vibrant and effective for a long time by using durable and quality materials. We offer solutions suitable for your budget with monthly, 3-month, 6-month and annual campaign packages.</p>
+<p>    </p></p>
+<p>    <p style="font-size: 16px; line-height: 1.8; margin-bottom: 15px;"></p>
+<p>        Your brand becomes visible 24/7 thanks to elevator advertising. You reach people of all age groups going to work in the morning, returning home in the evening, and shopping on weekends. Elevator advertising, which is much more economical than television, radio or newspaper advertisements, is a cost-effective marketing tool for local businesses. Additionally, you can integrate with your digital campaigns by adding QR codes and get measurable results. We are in a leading position in elevator advertising in Gaziantep with our 15 years of experience. Contact us immediately to introduce your brand to thousands of potential customers.</p>
+<p>    </p></p></div>
   </div>
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".uzc1e-menu-btn");
+  const menuToggleBtn = document.querySelector(".g3zu5-menu-btn");
   if (menuToggleBtn) {
     menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".uzc1e-menu");
+      const menu = document.querySelector(".g3zu5-menu");
       if (!menu) return;
       const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".uzc1e-icon");
+      const icon = this.querySelector(".g3zu5-icon");
       if (icon) {
         icon.textContent = isOpen ? "close" : "menu";
       }
     });
   }
 
-  document.querySelectorAll(".uzc1e-top").forEach(function (button) {
+  document.querySelectorAll(".g3zu5-top").forEach(function (button) {
     button.addEventListener("click", function () {
-      const group = this.closest(".uzc1e-menu-group");
+      const group = this.closest(".g3zu5-menu-group");
       if (!group) return;
-      const sub = group.querySelector(".uzc1e-sub");
+      const sub = group.querySelector(".g3zu5-sub");
       const isOpen = group.classList.toggle("open");
       this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".uzc1e-icon");
+      const icon = this.querySelector(".g3zu5-icon");
       if (icon) {
         icon.textContent = isOpen ? "expand_less" : "expand_more";
       }
@@ -146,9 +197,9 @@
 </script>
 
 </div>
-  <div id="footer"><div class="wa-advanced" id="glqwnWaAdvanced">
-  <div class="glqwn-wa-advanced-button" onclick="toggleModulexAdvanced()">
-    <div class="glqwn-wa-advanced-icon">
+  <div id="footer"><div class="wa-advanced" id="hbi0kWaAdvanced">
+  <div class="hbi0k-wa-advanced-button" onclick="toggleModulexAdvanced()">
+    <div class="hbi0k-wa-advanced-icon">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
         <path
           d="M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z"
@@ -156,39 +207,39 @@
         ></path>
       </svg>
     </div>
-    <div class="glqwn-wa-advanced-pulse"></div>
+    <div class="hbi0k-wa-advanced-pulse"></div>
   </div>
 
-  <div class="glqwn-wa-advanced-panel" id="glqwnWaPanel">
-    <div class="glqwn-wa-advanced-header">
-      <div class="glqwn-wa-advanced-avatar">
-        <img src="/img/pjkf5g/logo.png?v=glf9g" alt="Support Agent"  loading="lazy"/>
-        <div class="glqwn-wa-advanced-status online"></div>
+  <div class="hbi0k-wa-advanced-panel" id="hbi0kWaPanel">
+    <div class="hbi0k-wa-advanced-header">
+      <div class="hbi0k-wa-advanced-avatar">
+        <img src="/img/pjkf5g/logo.png?v=r165z" alt="Support Agent"  loading="lazy"/>
+        <div class="hbi0k-wa-advanced-status online"></div>
       </div>
-      <div class="glqwn-wa-advanced-info">
+      <div class="hbi0k-wa-advanced-info">
         <h4>Customer Support</h4>
         <p>Currently online</p>
       </div>
       <button
-        class="glqwn-wa-advanced-close"
+        class="hbi0k-wa-advanced-close"
         onclick="closeModulexAdvanced()"
       >
         ×
       </button>
     </div>
 
-    <div class="glqwn-wa-advanced-body">
-      <div class="glqwn-wa-advanced-message">
+    <div class="hbi0k-wa-advanced-body">
+      <div class="hbi0k-wa-advanced-message">
         <p>Hello! How can I help you?</p>
-        <span class="glqwn-wa-advanced-time">Now</span>
+        <span class="hbi0k-wa-advanced-time">Now</span>
       </div>
     </div>
 
-    <div class="glqwn-wa-advanced-footer">
+    <div class="hbi0k-wa-advanced-footer">
       <a
         href="https://wa.me/905316791014"
         target="_blank"
-        class="glqwn-wa-advanced-chat-btn"
+        class="hbi0k-wa-advanced-chat-btn"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -212,12 +263,12 @@
 
 <script>
   function toggleModulexAdvanced() {
-    const panel = document.getElementById("glqwnWaPanel");
+    const panel = document.getElementById("hbi0kWaPanel");
     panel.style.display = panel.style.display === "block" ? "none" : "block";
   }
 
   function closeModulexAdvanced() {
-    document.getElementById("glqwnWaPanel").style.display = "none";
+    document.getElementById("hbi0kWaPanel").style.display = "none";
   }
 </script>
 <footer class="footer">
@@ -275,8 +326,8 @@
 <meta name="google-site-verification" content="9UY_kGQb1IGXMFMd4tQHzXABrXhZG-SiJ_lXYjWE69M" />
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=glf9g"></script>
-<script defer src="/src/cookie.js?v=glf9g"></script>
+<script defer type="text/javascript" src="/src/js.js?v=r165z"></script>
+<script defer src="/src/cookie.js?v=r165z"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

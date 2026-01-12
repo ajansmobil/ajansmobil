@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=qzcvw" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=qzcvw" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=jp6mz" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=jp6mz" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=qzcvw" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=jp6mz" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,61 +52,97 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=qzcvw">
+<link rel="stylesheet" href="style.css?v=jp6mz">
 </head>
 
 <body>
-  <div id="header"><div class="u1fom">
-  <div class="u1fomtitle">
-    <div class="u1fomtitlebody">
-     
-      <div class="u1fomtitlebodylang">
-        <ul>
-          <li><a href="/tr/vizyon/">tr</a></li><li><a href="/en/vizyon/">en</a></li><li><a href="/ar/vizyon/">ar</a></li>
+  <div id="header"><header class="k573t" role="banner">
+  <div class="k573ttitle" role="region" aria-label="محدد اللغة">
+    <div class="k573ttitlebody">
+      <nav class="k573ttitlebodylang" aria-label="محدد اللغة">
+        <ul role="list">
+          <li role="none"><a href="/tr/vizyon/" hreflang="tr" title="true" aria-label="محدد اللغة: tr" lang="tr">tr</a></li><li role="none"><a href="/en/vizyon/" hreflang="en" title="true" aria-label="محدد اللغة: en" lang="en">en</a></li><li role="none"><a href="/ar/vizyon/" hreflang="ar" aria-current="true" title="true" aria-label="محدد اللغة: ar" lang="ar">ar</a></li>
         </ul>
-      </div>
+      </nav>
     </div>
   </div>
-  <div class="u1fomChildren">
-    <div class="u1fombody">
-      <a href="/ar/"><img src="/img/logo.svg?v=qzcvw" class="u1fombodylogo" alt="Ajans Mobil Gaziantep Logo" loading="lazy" /></a>
+  <div class="k573tChildren">
+    <div class="k573tbody">
+      <a href="/ar/" aria-label="الصفحة الرئيسية - Ajans Mobil Gaziantep" title="الصفحة الرئيسية - Ajans Mobil Gaziantep">
+        <img src="/img/logo.svg?v=jp6mz" class="k573tbodylogo" alt="Ajans Mobil Gaziantep Logo" width="auto" height="auto" loading="lazy" />
+      </a>
     </div>
-    <div class="u1fommenumobil">
-      <div class="material-symbols-outlined" aria-hidden="true">menu</div>
-    </div>
-    <div class="u1fommenulist">
-      <ul>
-        <a href="/ar/" class="u1fommenuitem">الصفحة الرئيسية </a><a href="/ar/hakkimizda/" class="u1fommenuitem">الشركات</a><a href="/ar/hizmetlerimiz/" class="u1fommenuitem">خدماتنا الرقمية</a><a href="/ar/acik-hava-hizmetlerimiz/" class="u1fommenuitem">خدماتنا الخارجية</a><a href="/ar/iletisim/" class="u1fommenuitem">اتصل بنا</a>
+    <button class="k573tmenumobil" type="button" aria-label="تبديل القائمة" aria-expanded="false" aria-controls="k573tmenulist">
+      <span class="material-symbols-outlined" aria-hidden="true">menu</span>
+    </button>
+    <nav class="k573tmenulist" id="k573tmenulist" role="navigation" aria-label="التنقل">
+      <ul role="menubar">
+        <a href="/ar/" class="k573tmenuitem" role="menuitem" title="الصفحة الرئيسية - " aria-label="الصفحة الرئيسية">الصفحة الرئيسية</a><a href="/ar/hakkimizda/" class="k573tmenuitem" role="menuitem" title="الشركات" aria-label="الشركات">الشركات</a><a href="/ar/hizmetlerimiz/" class="k573tmenuitem" role="menuitem" title="خدماتنا الرقمية" aria-label="خدماتنا الرقمية">خدماتنا الرقمية</a><a href="/ar/acik-hava-hizmetlerimiz/" class="k573tmenuitem" role="menuitem" title="خدماتنا الخارجية" aria-label="خدماتنا الخارجية">خدماتنا الخارجية</a><a href="/ar/iletisim/" class="k573tmenuitem" role="menuitem" title="اتصل بنا" aria-label="اتصل بنا">اتصل بنا</a>
       </ul>
-    </div>
+    </nav>
   </div>
-</div>
+</header>
 
 <script>
-  document
-    .querySelector(".u1fommenumobil")
-    .addEventListener("click", function () {
-      const menu = document.querySelector(".u1fommenulist");
-      if (menu.style.display === "flex") {
-        menu.style.display = "none";
-      } else {
-        menu.style.display = "flex";
-      }
-    });
+  setTimeout(function() {
+    var menuButton = document.querySelector(".k573tmenumobil");
+    var menu = document.querySelector(".k573tmenulist");
+    
+    if (menuButton && menu) {
+      // Tıklama eventi
+      menuButton.addEventListener("click", function () {
+        var isExpanded = menuButton.getAttribute("aria-expanded") === "true";
+        if (isExpanded) {
+          menu.style.display = "none";
+          menuButton.setAttribute("aria-expanded", "false");
+        } else {
+          menu.style.display = "flex";
+          menuButton.setAttribute("aria-expanded", "true");
+        }
+      });
+      
+      // Klavye navigasyonu (Enter ve Space)
+      menuButton.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          menuButton.click();
+        }
+      });
+      
+      // ESC tuşu ile menüyü kapat
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape" && menuButton.getAttribute("aria-expanded") === "true") {
+          menu.style.display = "none";
+          menuButton.setAttribute("aria-expanded", "false");
+          menuButton.focus();
+        }
+      });
+      
+      // Menü dışına tıklanınca kapat
+      document.addEventListener("click", function (e) {
+        if (menuButton.getAttribute("aria-expanded") === "true" && 
+            !menu.contains(e.target) && 
+            !menuButton.contains(e.target)) {
+          menu.style.display = "none";
+          menuButton.setAttribute("aria-expanded", "false");
+        }
+      });
+    }
+  }, 100);
 </script>
 </div>
-  <div id="content"><div class="wz3ho-title f36">
+  <div id="content"><div class="aabac-title f36">
   <h1>الرؤية</h1>
 </div>
-<div class="wz3ho">
-  <div class="wz3ho-menu-btn">
+<div class="aabac">
+  <div class="aabac-menu-btn">
     <span>قائمة الصفحات</span>
-    <span class="material-symbols-outlined wz3ho-icon">menu</span>
+    <span class="material-symbols-outlined aabac-icon">menu</span>
   </div>
-  <div class="wz3ho-menu"><a class="wz3ho-menu-link" href="/ar/hakkimizda/">من نحن</a><a class="wz3ho-menu-link" href="/ar/misyon/">المهمة</a><a class="wz3ho-menu-link active" href="/ar/vizyon/">الرؤية</a><a class="wz3ho-menu-link" href="/ar/kalite-politikamiz/">سياسة الجودة</a><a class="wz3ho-menu-link" href="/ar/gizlilik-politikasi/">سياسة الخصوصية</a><a class="wz3ho-menu-link" href="/ar/kisisel-veriler-be2/">البيانات الشخصية</a><a class="wz3ho-menu-link" href="/ar/kullanici-haklari/">حقوق المستخدم</a><a class="wz3ho-menu-link" href="/ar/yasal-uyari-mh6/">إشعار قانوني</a></div>
-  <div class="wz3ho-desc">
+  <div class="aabac-menu"><a class="aabac-menu-link" href="/ar/hakkimizda/">من نحن</a><a class="aabac-menu-link" href="/ar/misyon/">المهمة</a><a class="aabac-menu-link active" href="/ar/vizyon/">الرؤية</a><a class="aabac-menu-link" href="/ar/kalite-politikamiz/">سياسة الجودة</a><a class="aabac-menu-link" href="/ar/gizlilik-politikasi/">سياسة الخصوصية</a><a class="aabac-menu-link" href="/ar/kisisel-veriler-be2/">البيانات الشخصية</a><a class="aabac-menu-link" href="/ar/kullanici-haklari/">حقوق المستخدم</a><a class="aabac-menu-link" href="/ar/yasal-uyari-mh6/">إشعار قانوني</a></div>
+  <div class="aabac-desc">
     
-    <div class="wz3ho-body"><p><h2 style="font-size: 28px; color: #0f70b7; margin-bottom: 20px;">رؤيتنا - القيادة في التسويق الرقمي</h2></p>
+    <div class="aabac-body"><p><h2 style="font-size: 28px; color: #0f70b7; margin-bottom: 20px;">رؤيتنا - القيادة في التسويق الرقمي</h2></p>
 <p>    <p style="font-size: 16px; line-height: 1.8; margin-bottom: 15px;"></p>
 <p>        رؤية أجانس موبيل هي أن نكون من بين أكثر الوكالات الرقمية موثوقية وابتكاراً وتركيزاً على النتائج في تركيا؛ الحفاظ على موقعها الرائد الذي لا جدال فيه في التسويق الرقمي والإعلانات الخارجية في غازي عنتاب ومنطقة جنوب شرق الأناضول. مع هذه الرؤية التي بنيناها على ماضينا الراسخ البالغ 15 عاماً، نهدف إلى أن نكون وكالة رقمية معترف بها وطنياً ومشاركة في المشاريع الدولية وتشكيل الصناعة في الـ 10 سنوات القادمة. نمو عملائنا هو نمونا؛ مع هذا الفهم، نوسع جودة خدمتنا ومحفظة حلولنا كل عام.</p>
 <p>    </p></p>
@@ -126,27 +162,27 @@
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".wz3ho-menu-btn");
+  const menuToggleBtn = document.querySelector(".aabac-menu-btn");
   if (menuToggleBtn) {
     menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".wz3ho-menu");
+      const menu = document.querySelector(".aabac-menu");
       if (!menu) return;
       const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".wz3ho-icon");
+      const icon = this.querySelector(".aabac-icon");
       if (icon) {
         icon.textContent = isOpen ? "close" : "menu";
       }
     });
   }
 
-  document.querySelectorAll(".wz3ho-top").forEach(function (button) {
+  document.querySelectorAll(".aabac-top").forEach(function (button) {
     button.addEventListener("click", function () {
-      const group = this.closest(".wz3ho-menu-group");
+      const group = this.closest(".aabac-menu-group");
       if (!group) return;
-      const sub = group.querySelector(".wz3ho-sub");
+      const sub = group.querySelector(".aabac-sub");
       const isOpen = group.classList.toggle("open");
       this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".wz3ho-icon");
+      const icon = this.querySelector(".aabac-icon");
       if (icon) {
         icon.textContent = isOpen ? "expand_less" : "expand_more";
       }
@@ -158,9 +194,9 @@
 </script>
 
 </div>
-  <div id="footer"><div class="wa-advanced" id="pbobmWaAdvanced">
-  <div class="pbobm-wa-advanced-button" onclick="toggleModulexAdvanced()">
-    <div class="pbobm-wa-advanced-icon">
+  <div id="footer"><div class="wa-advanced" id="d8ifcWaAdvanced">
+  <div class="d8ifc-wa-advanced-button" onclick="toggleModulexAdvanced()">
+    <div class="d8ifc-wa-advanced-icon">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
         <path
           d="M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z"
@@ -168,39 +204,39 @@
         ></path>
       </svg>
     </div>
-    <div class="pbobm-wa-advanced-pulse"></div>
+    <div class="d8ifc-wa-advanced-pulse"></div>
   </div>
 
-  <div class="pbobm-wa-advanced-panel" id="pbobmWaPanel">
-    <div class="pbobm-wa-advanced-header">
-      <div class="pbobm-wa-advanced-avatar">
-        <img src="/img/pjkf5g/logo.png?v=qzcvw" alt="Support Agent"  loading="lazy"/>
-        <div class="pbobm-wa-advanced-status online"></div>
+  <div class="d8ifc-wa-advanced-panel" id="d8ifcWaPanel">
+    <div class="d8ifc-wa-advanced-header">
+      <div class="d8ifc-wa-advanced-avatar">
+        <img src="/img/pjkf5g/logo.png?v=jp6mz" alt="Support Agent"  loading="lazy"/>
+        <div class="d8ifc-wa-advanced-status online"></div>
       </div>
-      <div class="pbobm-wa-advanced-info">
+      <div class="d8ifc-wa-advanced-info">
         <h4>دعم العملاء</h4>
         <p>متصل الآن</p>
       </div>
       <button
-        class="pbobm-wa-advanced-close"
+        class="d8ifc-wa-advanced-close"
         onclick="closeModulexAdvanced()"
       >
         ×
       </button>
     </div>
 
-    <div class="pbobm-wa-advanced-body">
-      <div class="pbobm-wa-advanced-message">
+    <div class="d8ifc-wa-advanced-body">
+      <div class="d8ifc-wa-advanced-message">
         <p>مرحباً! كيف يمكنني مساعدتك؟</p>
-        <span class="pbobm-wa-advanced-time">الآن</span>
+        <span class="d8ifc-wa-advanced-time">الآن</span>
       </div>
     </div>
 
-    <div class="pbobm-wa-advanced-footer">
+    <div class="d8ifc-wa-advanced-footer">
       <a
         href="https://wa.me/905316791014"
         target="_blank"
-        class="pbobm-wa-advanced-chat-btn"
+        class="d8ifc-wa-advanced-chat-btn"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -224,12 +260,12 @@
 
 <script>
   function toggleModulexAdvanced() {
-    const panel = document.getElementById("pbobmWaPanel");
+    const panel = document.getElementById("d8ifcWaPanel");
     panel.style.display = panel.style.display === "block" ? "none" : "block";
   }
 
   function closeModulexAdvanced() {
-    document.getElementById("pbobmWaPanel").style.display = "none";
+    document.getElementById("d8ifcWaPanel").style.display = "none";
   }
 </script>
 <footer class="footer">
@@ -287,8 +323,8 @@
 <meta name="google-site-verification" content="9UY_kGQb1IGXMFMd4tQHzXABrXhZG-SiJ_lXYjWE69M" />
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=qzcvw"></script>
-<script defer src="/src/cookie.js?v=qzcvw"></script>
+<script defer type="text/javascript" src="/src/js.js?v=jp6mz"></script>
+<script defer src="/src/cookie.js?v=jp6mz"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=uact2" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=uact2" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=l7jsh" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=l7jsh" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=uact2" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=l7jsh" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,64 +52,100 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=uact2">
+<link rel="stylesheet" href="style.css?v=l7jsh">
 </head>
 
 <body>
-  <div id="header"><div class="vbc5x">
-  <div class="vbc5xtitle">
-    <div class="vbc5xtitlebody">
-     
-      <div class="vbc5xtitlebodylang">
-        <ul>
-          <li><a href="/tr/dolmus-reklamlari-geveze/">tr</a></li><li><a href="/en/dolmus-reklamlari-geveze/">en</a></li><li><a href="/ar/dolmus-reklamlari-geveze/">ar</a></li>
+  <div id="header"><header class="eb0r5" role="banner">
+  <div class="eb0r5title" role="region" aria-label="Language Selector">
+    <div class="eb0r5titlebody">
+      <nav class="eb0r5titlebodylang" aria-label="Language Selector">
+        <ul role="list">
+          <li role="none"><a href="/tr/dolmus-reklamlari-geveze/" hreflang="tr" title="true" aria-label="Language Selector: tr" lang="tr">tr</a></li><li role="none"><a href="/en/dolmus-reklamlari-geveze/" hreflang="en" aria-current="true" title="true" aria-label="Language Selector: en" lang="en">en</a></li><li role="none"><a href="/ar/dolmus-reklamlari-geveze/" hreflang="ar" title="true" aria-label="Language Selector: ar" lang="ar">ar</a></li>
         </ul>
-      </div>
+      </nav>
     </div>
   </div>
-  <div class="vbc5xChildren">
-    <div class="vbc5xbody">
-      <a href="/en/"><img src="/img/logo.svg?v=uact2" class="vbc5xbodylogo" alt="Ajans Mobil Gaziantep Logo" loading="lazy" /></a>
+  <div class="eb0r5Children">
+    <div class="eb0r5body">
+      <a href="/en/" aria-label="Home - Ajans Mobil Gaziantep" title="Home - Ajans Mobil Gaziantep">
+        <img src="/img/logo.svg?v=l7jsh" class="eb0r5bodylogo" alt="Ajans Mobil Gaziantep Logo" width="auto" height="auto" loading="lazy" />
+      </a>
     </div>
-    <div class="vbc5xmenumobil">
-      <div class="material-symbols-outlined" aria-hidden="true">menu</div>
-    </div>
-    <div class="vbc5xmenulist">
-      <ul>
-        <a href="/en/" class="vbc5xmenuitem">Home </a><a href="/en/hakkimizda/" class="vbc5xmenuitem">Corporate</a><a href="/en/hizmetlerimiz/" class="vbc5xmenuitem">Our Digital Services</a><a href="/en/acik-hava-hizmetlerimiz/" class="vbc5xmenuitem">Our Outdoor Services</a><a href="/en/iletisim/" class="vbc5xmenuitem">Contact</a>
+    <button class="eb0r5menumobil" type="button" aria-label="Toggle Menu" aria-expanded="false" aria-controls="eb0r5menulist">
+      <span class="material-symbols-outlined" aria-hidden="true">menu</span>
+    </button>
+    <nav class="eb0r5menulist" id="eb0r5menulist" role="navigation" aria-label="Navigation">
+      <ul role="menubar">
+        <a href="/en/" class="eb0r5menuitem" role="menuitem" title="Home - " aria-label="Home">Home</a><a href="/en/hakkimizda/" class="eb0r5menuitem" role="menuitem" title="Corporate" aria-label="Corporate">Corporate</a><a href="/en/hizmetlerimiz/" class="eb0r5menuitem" role="menuitem" title="Our Digital Services" aria-label="Our Digital Services">Our Digital Services</a><a href="/en/acik-hava-hizmetlerimiz/" class="eb0r5menuitem" role="menuitem" title="Our Outdoor Services" aria-label="Our Outdoor Services">Our Outdoor Services</a><a href="/en/iletisim/" class="eb0r5menuitem" role="menuitem" title="Contact" aria-label="Contact">Contact</a>
       </ul>
-    </div>
+    </nav>
   </div>
-</div>
+</header>
 
 <script>
-  document
-    .querySelector(".vbc5xmenumobil")
-    .addEventListener("click", function () {
-      const menu = document.querySelector(".vbc5xmenulist");
-      if (menu.style.display === "flex") {
-        menu.style.display = "none";
-      } else {
-        menu.style.display = "flex";
-      }
-    });
+  setTimeout(function() {
+    var menuButton = document.querySelector(".eb0r5menumobil");
+    var menu = document.querySelector(".eb0r5menulist");
+    
+    if (menuButton && menu) {
+      // Tıklama eventi
+      menuButton.addEventListener("click", function () {
+        var isExpanded = menuButton.getAttribute("aria-expanded") === "true";
+        if (isExpanded) {
+          menu.style.display = "none";
+          menuButton.setAttribute("aria-expanded", "false");
+        } else {
+          menu.style.display = "flex";
+          menuButton.setAttribute("aria-expanded", "true");
+        }
+      });
+      
+      // Klavye navigasyonu (Enter ve Space)
+      menuButton.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          menuButton.click();
+        }
+      });
+      
+      // ESC tuşu ile menüyü kapat
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape" && menuButton.getAttribute("aria-expanded") === "true") {
+          menu.style.display = "none";
+          menuButton.setAttribute("aria-expanded", "false");
+          menuButton.focus();
+        }
+      });
+      
+      // Menü dışına tıklanınca kapat
+      document.addEventListener("click", function (e) {
+        if (menuButton.getAttribute("aria-expanded") === "true" && 
+            !menu.contains(e.target) && 
+            !menuButton.contains(e.target)) {
+          menu.style.display = "none";
+          menuButton.setAttribute("aria-expanded", "false");
+        }
+      });
+    }
+  }, 100);
 </script>
 </div>
-  <div id="content"><div class="b0w4i-title f36">
+  <div id="content"><div class="nzf37-title f36">
   <h1>Shared Taxi Advertising (Geveze)</h1>
 </div>
-<div class="b0w4i">
-  <div class="b0w4i-menu-btn">
+<div class="nzf37">
+  <div class="nzf37-menu-btn">
     <span>Menu</span>
-    <span class="material-symbols-outlined b0w4i-icon">menu</span>
+    <span class="material-symbols-outlined nzf37-icon">menu</span>
   </div>
-  <div class="b0w4i-menu"><a class="b0w4i-menu-link" href="/en/asansor-reklamlari/">Elevator Advertising</a><a class="b0w4i-menu-link" href="/en/dolmus-reklamlari/">Shared Taxi Advertisements</a><a class="b0w4i-menu-link" href="/en/otobus-reklam/">Bus Advertising</a><a class="b0w4i-menu-link" href="/en/acik-hava-reklamciligi/">Outdoor Advertising</a><a class="b0w4i-menu-link" href="/en/taksi-reklamlari/">Taxi Advertisements</a><a class="b0w4i-menu-link" href="/en/tramvay/">Tramway</a><a class="b0w4i-menu-link" href="/en/iconova-cadde-reklamlari/">Iconova Street Advertising</a><a class="b0w4i-menu-link" href="/en/havalimani-reklamlari/">Airport Advertising</a><a class="b0w4i-menu-link" href="/en/organize-sanayi-reklamlari/">Organized Industrial Zone Advertising</a><a class="b0w4i-menu-link" href="/en/cadde-duvarlari-reklamlari/">Street Wall Advertising</a><a class="b0w4i-menu-link" href="/en/bina-asansorleri-reklamlari/">Building Elevator Advertising</a><a class="b0w4i-menu-link" href="/en/belediye-otobusu-reklamlari/">Municipal Bus Advertising</a><a class="b0w4i-menu-link" href="/en/halk-otobusu-reklamlari/">Public Bus Advertising</a><a class="b0w4i-menu-link active" href="/en/dolmus-reklamlari-geveze/">Shared Taxi Advertising (Geveze)</a><a class="b0w4i-menu-link" href="/en/tramvay-reklamlari-geveze/">Tramway Advertising (Geveze)</a><a class="b0w4i-menu-link" href="/en/taksi-reklamlari-geveze/">Taxi Advertising (Geveze)</a><a class="b0w4i-menu-link" href="/en/primemall-avm-reklamlari/">Primemall AVM Reklamları</a><a class="b0w4i-menu-link" href="/en/forum-avm-reklamlari/">Forum Shopping Mall Advertising</a><a class="b0w4i-menu-link" href="/en/sanko-park-avm-reklamlari/">Sanko Park AVM Reklamları</a><a class="b0w4i-menu-link" href="/en/m1-avm-reklamlari/">M1 Shopping Mall Advertising</a><a class="b0w4i-menu-link" href="/en/sinema-reklamlari/">Cinema Advertising</a><a class="b0w4i-menu-link" href="/en/pano-reklamlari/">Billboard Advertising</a><a class="b0w4i-menu-link" href="/en/ozel-uygulama-billboard/">Custom Application Billboard</a><a class="b0w4i-menu-link" href="/en/universite-reklamlari/">University Advertising</a></div>
-  <div class="b0w4i-desc">
+  <div class="nzf37-menu"><a class="nzf37-menu-link" href="/en/asansor-reklamlari/">Elevator Advertising</a><a class="nzf37-menu-link" href="/en/dolmus-reklamlari/">Shared Taxi Advertisements</a><a class="nzf37-menu-link" href="/en/otobus-reklam/">Bus Advertising</a><a class="nzf37-menu-link" href="/en/acik-hava-reklamciligi/">Outdoor Advertising</a><a class="nzf37-menu-link" href="/en/taksi-reklamlari/">Taxi Advertisements</a><a class="nzf37-menu-link" href="/en/tramvay/">Tramway</a><a class="nzf37-menu-link" href="/en/iconova-cadde-reklamlari/">Iconova Street Advertising</a><a class="nzf37-menu-link" href="/en/havalimani-reklamlari/">Airport Advertising</a><a class="nzf37-menu-link" href="/en/organize-sanayi-reklamlari/">Organized Industrial Zone Advertising</a><a class="nzf37-menu-link" href="/en/cadde-duvarlari-reklamlari/">Street Wall Advertising</a><a class="nzf37-menu-link" href="/en/bina-asansorleri-reklamlari/">Building Elevator Advertising</a><a class="nzf37-menu-link" href="/en/belediye-otobusu-reklamlari/">Municipal Bus Advertising</a><a class="nzf37-menu-link" href="/en/halk-otobusu-reklamlari/">Public Bus Advertising</a><a class="nzf37-menu-link active" href="/en/dolmus-reklamlari-geveze/">Shared Taxi Advertising (Geveze)</a><a class="nzf37-menu-link" href="/en/tramvay-reklamlari-geveze/">Tramway Advertising (Geveze)</a><a class="nzf37-menu-link" href="/en/taksi-reklamlari-geveze/">Taxi Advertising (Geveze)</a><a class="nzf37-menu-link" href="/en/primemall-avm-reklamlari/">Primemall Shopping Mall Advertising</a><a class="nzf37-menu-link" href="/en/forum-avm-reklamlari/">Forum Shopping Mall Advertising</a><a class="nzf37-menu-link" href="/en/sanko-park-avm-reklamlari/">Sanko Park AVM Reklamları</a><a class="nzf37-menu-link" href="/en/m1-avm-reklamlari/">M1 Shopping Mall Advertising</a><a class="nzf37-menu-link" href="/en/sinema-reklamlari/">Cinema Advertising</a><a class="nzf37-menu-link" href="/en/pano-reklamlari/">Billboard Advertising</a><a class="nzf37-menu-link" href="/en/ozel-uygulama-billboard/">Custom Application Billboard</a><a class="nzf37-menu-link" href="/en/universite-reklamlari/">University Advertising</a></div>
+  <div class="nzf37-desc">
     
-    <div class="b0w4i-desc-body">
-            <img src="/page/gvz-dolmus/lymkl.webp?v=uact2" width="100%" alt="Shared Taxi Advertising (Geveze)" loading="lazy" />
+    <div class="nzf37-desc-body">
+            <img src="/page/gvz-dolmus/lymkl.webp?v=l7jsh" width="100%" alt="Shared Taxi Advertising (Geveze)" loading="lazy" />
     </div>
-    <div class="b0w4i-body"><p><h2 style="font-size: 24px;">Shared Taxi Advertising (Geveze) - Flexible and Economic Advertising Solutions</h2></p>
+    <div class="nzf37-body"><p><h2 style="font-size: 24px;">Shared Taxi Advertising (Geveze) - Flexible and Economic Advertising Solutions</h2></p>
 <p>    <p style="font-size: 16px;"></p>
 <p>        Shared taxi advertisements offered in cooperation with Geveze Agency are a special advertising medium reaching Gaziantep's neighborhood areas and non-central regions. As Ajans Mobil, we carry your brand to every corner of the city by utilizing Geveze Agency's extensive shared taxi fleet. Shared taxi vehicles enter narrow streets and neighborhood interiors that municipal buses cannot reach, enabling you to reach your target audience more closely.</p>
 <p>    </p></p>
@@ -123,27 +159,27 @@
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".b0w4i-menu-btn");
+  const menuToggleBtn = document.querySelector(".nzf37-menu-btn");
   if (menuToggleBtn) {
     menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".b0w4i-menu");
+      const menu = document.querySelector(".nzf37-menu");
       if (!menu) return;
       const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".b0w4i-icon");
+      const icon = this.querySelector(".nzf37-icon");
       if (icon) {
         icon.textContent = isOpen ? "close" : "menu";
       }
     });
   }
 
-  document.querySelectorAll(".b0w4i-top").forEach(function (button) {
+  document.querySelectorAll(".nzf37-top").forEach(function (button) {
     button.addEventListener("click", function () {
-      const group = this.closest(".b0w4i-menu-group");
+      const group = this.closest(".nzf37-menu-group");
       if (!group) return;
-      const sub = group.querySelector(".b0w4i-sub");
+      const sub = group.querySelector(".nzf37-sub");
       const isOpen = group.classList.toggle("open");
       this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".b0w4i-icon");
+      const icon = this.querySelector(".nzf37-icon");
       if (icon) {
         icon.textContent = isOpen ? "expand_less" : "expand_more";
       }
@@ -155,9 +191,9 @@
 </script>
 
 </div>
-  <div id="footer"><div class="wa-advanced" id="uro1wWaAdvanced">
-  <div class="uro1w-wa-advanced-button" onclick="toggleModulexAdvanced()">
-    <div class="uro1w-wa-advanced-icon">
+  <div id="footer"><div class="wa-advanced" id="jz4eaWaAdvanced">
+  <div class="jz4ea-wa-advanced-button" onclick="toggleModulexAdvanced()">
+    <div class="jz4ea-wa-advanced-icon">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
         <path
           d="M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z"
@@ -165,39 +201,39 @@
         ></path>
       </svg>
     </div>
-    <div class="uro1w-wa-advanced-pulse"></div>
+    <div class="jz4ea-wa-advanced-pulse"></div>
   </div>
 
-  <div class="uro1w-wa-advanced-panel" id="uro1wWaPanel">
-    <div class="uro1w-wa-advanced-header">
-      <div class="uro1w-wa-advanced-avatar">
-        <img src="/img/pjkf5g/logo.png?v=uact2" alt="Support Agent"  loading="lazy"/>
-        <div class="uro1w-wa-advanced-status online"></div>
+  <div class="jz4ea-wa-advanced-panel" id="jz4eaWaPanel">
+    <div class="jz4ea-wa-advanced-header">
+      <div class="jz4ea-wa-advanced-avatar">
+        <img src="/img/pjkf5g/logo.png?v=l7jsh" alt="Support Agent"  loading="lazy"/>
+        <div class="jz4ea-wa-advanced-status online"></div>
       </div>
-      <div class="uro1w-wa-advanced-info">
+      <div class="jz4ea-wa-advanced-info">
         <h4>Customer Support</h4>
         <p>Currently online</p>
       </div>
       <button
-        class="uro1w-wa-advanced-close"
+        class="jz4ea-wa-advanced-close"
         onclick="closeModulexAdvanced()"
       >
         ×
       </button>
     </div>
 
-    <div class="uro1w-wa-advanced-body">
-      <div class="uro1w-wa-advanced-message">
+    <div class="jz4ea-wa-advanced-body">
+      <div class="jz4ea-wa-advanced-message">
         <p>Hello! How can I help you?</p>
-        <span class="uro1w-wa-advanced-time">Now</span>
+        <span class="jz4ea-wa-advanced-time">Now</span>
       </div>
     </div>
 
-    <div class="uro1w-wa-advanced-footer">
+    <div class="jz4ea-wa-advanced-footer">
       <a
         href="https://wa.me/905316791014"
         target="_blank"
-        class="uro1w-wa-advanced-chat-btn"
+        class="jz4ea-wa-advanced-chat-btn"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -221,12 +257,12 @@
 
 <script>
   function toggleModulexAdvanced() {
-    const panel = document.getElementById("uro1wWaPanel");
+    const panel = document.getElementById("jz4eaWaPanel");
     panel.style.display = panel.style.display === "block" ? "none" : "block";
   }
 
   function closeModulexAdvanced() {
-    document.getElementById("uro1wWaPanel").style.display = "none";
+    document.getElementById("jz4eaWaPanel").style.display = "none";
   }
 </script>
 <footer class="footer">
@@ -284,8 +320,8 @@
 <meta name="google-site-verification" content="9UY_kGQb1IGXMFMd4tQHzXABrXhZG-SiJ_lXYjWE69M" />
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=uact2"></script>
-<script defer src="/src/cookie.js?v=uact2"></script>
+<script defer type="text/javascript" src="/src/js.js?v=l7jsh"></script>
+<script defer src="/src/cookie.js?v=l7jsh"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

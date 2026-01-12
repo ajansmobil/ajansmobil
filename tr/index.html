@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=e6ino" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=e6ino" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=crjcw" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=crjcw" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=e6ino" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=crjcw" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,50 +52,86 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=e6ino">
+<link rel="stylesheet" href="style.css?v=crjcw">
 </head>
 
 <body>
-  <div id="header"><div class="eie7b">
-  <div class="eie7btitle">
-    <div class="eie7btitlebody">
-     
-      <div class="eie7btitlebodylang">
-        <ul>
-          <li><a href="/tr/">tr</a></li><li><a href="/en/">en</a></li><li><a href="/ar/">ar</a></li>
+  <div id="header"><header class="evir8" role="banner">
+  <div class="evir8title" role="region" aria-label="Dil Seçici">
+    <div class="evir8titlebody">
+      <nav class="evir8titlebodylang" aria-label="Dil Seçici">
+        <ul role="list">
+          <li role="none"><a href="/tr/" hreflang="tr" aria-current="true" title="true" aria-label="Dil Seçici: tr" lang="tr">tr</a></li><li role="none"><a href="/en/" hreflang="en" title="true" aria-label="Dil Seçici: en" lang="en">en</a></li><li role="none"><a href="/ar/" hreflang="ar" title="true" aria-label="Dil Seçici: ar" lang="ar">ar</a></li>
         </ul>
-      </div>
+      </nav>
     </div>
   </div>
-  <div class="eie7bChildren">
-    <div class="eie7bbody">
-      <a href="/tr/"><img src="/img/logo.svg?v=e6ino" class="eie7bbodylogo" alt="Ajans Mobil Gaziantep Logo" loading="lazy" /></a>
+  <div class="evir8Children">
+    <div class="evir8body">
+      <a href="/tr/" aria-label="Anasayfa - Ajans Mobil Gaziantep" title="Anasayfa - Ajans Mobil Gaziantep">
+        <img src="/img/logo.svg?v=crjcw" class="evir8bodylogo" alt="Ajans Mobil Gaziantep Logo" width="auto" height="auto" loading="lazy" />
+      </a>
     </div>
-    <div class="eie7bmenumobil">
-      <div class="material-symbols-outlined" aria-hidden="true">menu</div>
-    </div>
-    <div class="eie7bmenulist">
-      <ul>
-        <a href="/tr/" class="eie7bmenuitem">Anasayfa </a><a href="/tr/hakkimizda/" class="eie7bmenuitem">Kurumsal</a><a href="/tr/hizmetlerimiz/" class="eie7bmenuitem">Dijital Hizmetlerimiz</a><a href="/tr/acik-hava-hizmetlerimiz/" class="eie7bmenuitem">Açık Hava Hizmetlerimiz</a><a href="/tr/iletisim/" class="eie7bmenuitem">İletişim</a>
+    <button class="evir8menumobil" type="button" aria-label="Menüyü Aç/Kapat" aria-expanded="false" aria-controls="evir8menulist">
+      <span class="material-symbols-outlined" aria-hidden="true">menu</span>
+    </button>
+    <nav class="evir8menulist" id="evir8menulist" role="navigation" aria-label="Navigasyon">
+      <ul role="menubar">
+        <a href="/tr/" class="evir8menuitem" role="menuitem" title="Anasayfa - " aria-label="Anasayfa">Anasayfa</a><a href="/tr/hakkimizda/" class="evir8menuitem" role="menuitem" title="Kurumsal" aria-label="Kurumsal">Kurumsal</a><a href="/tr/hizmetlerimiz/" class="evir8menuitem" role="menuitem" title="Dijital Hizmetlerimiz" aria-label="Dijital Hizmetlerimiz">Dijital Hizmetlerimiz</a><a href="/tr/acik-hava-hizmetlerimiz/" class="evir8menuitem" role="menuitem" title="Açık Hava Hizmetlerimiz" aria-label="Açık Hava Hizmetlerimiz">Açık Hava Hizmetlerimiz</a><a href="/tr/iletisim/" class="evir8menuitem" role="menuitem" title="İletişim" aria-label="İletişim">İletişim</a>
       </ul>
-    </div>
+    </nav>
   </div>
-</div>
+</header>
 
 <script>
-  document
-    .querySelector(".eie7bmenumobil")
-    .addEventListener("click", function () {
-      const menu = document.querySelector(".eie7bmenulist");
-      if (menu.style.display === "flex") {
-        menu.style.display = "none";
-      } else {
-        menu.style.display = "flex";
-      }
-    });
+  setTimeout(function() {
+    var menuButton = document.querySelector(".evir8menumobil");
+    var menu = document.querySelector(".evir8menulist");
+    
+    if (menuButton && menu) {
+      // Tıklama eventi
+      menuButton.addEventListener("click", function () {
+        var isExpanded = menuButton.getAttribute("aria-expanded") === "true";
+        if (isExpanded) {
+          menu.style.display = "none";
+          menuButton.setAttribute("aria-expanded", "false");
+        } else {
+          menu.style.display = "flex";
+          menuButton.setAttribute("aria-expanded", "true");
+        }
+      });
+      
+      // Klavye navigasyonu (Enter ve Space)
+      menuButton.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          menuButton.click();
+        }
+      });
+      
+      // ESC tuşu ile menüyü kapat
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape" && menuButton.getAttribute("aria-expanded") === "true") {
+          menu.style.display = "none";
+          menuButton.setAttribute("aria-expanded", "false");
+          menuButton.focus();
+        }
+      });
+      
+      // Menü dışına tıklanınca kapat
+      document.addEventListener("click", function (e) {
+        if (menuButton.getAttribute("aria-expanded") === "true" && 
+            !menu.contains(e.target) && 
+            !menuButton.contains(e.target)) {
+          menu.style.display = "none";
+          menuButton.setAttribute("aria-expanded", "false");
+        }
+      });
+    }
+  }, 100);
 </script>
-<div class="swiper-container tetln">
-  <div class="swiper-wrapper" id="tetln"><div class="swiper-slide"><img src="/img/ayn5ph/seo çalışmaları.jpg?v=1768190040320" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ayn5ph/web tasarım.jpg?v=1768190040320" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ayn5ph/google reklam yönetimi.jpg?v=1768190040320" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ayn5ph/asansör reklamları.jpg?v=1768190040320" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ayn5ph/sosyal medya.jpg?v=1768190040320" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ayn5ph/belediye otobüs reklamları 2.jpg?v=1768190040320" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ayn5ph/belediye otobüs reklamları.jpg?v=1768190040320" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ayn5ph/foto çekimi.jpg?v=1768190040320" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ayn5ph/taksi reklamları.jpg?v=1768190040320" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ayn5ph/tranvay reklamalrı.jpg?v=1768190040320" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div></div>
+<div class="swiper-container brz7f">
+  <div class="swiper-wrapper" id="brz7f"><div class="swiper-slide"><img src="/img/ayn5ph/seo çalışmaları.jpg?v=1768190781390" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ayn5ph/web tasarım.jpg?v=1768190781390" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ayn5ph/google reklam yönetimi.jpg?v=1768190781390" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ayn5ph/asansör reklamları.jpg?v=1768190781390" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ayn5ph/sosyal medya.jpg?v=1768190781390" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ayn5ph/belediye otobüs reklamları 2.jpg?v=1768190781390" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ayn5ph/belediye otobüs reklamları.jpg?v=1768190781390" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ayn5ph/foto çekimi.jpg?v=1768190781390" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ayn5ph/taksi reklamları.jpg?v=1768190781390" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ayn5ph/tranvay reklamalrı.jpg?v=1768190781390" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div></div>
   <div class="swiper-button-next"></div>
   <div class="swiper-button-prev"></div>
   <div class="swiper-pagination"></div>
@@ -110,7 +146,7 @@
     attempts++;
     if (typeof Swiper === "function") {
       clearInterval(timer);
-      new Swiper(".tetln", {
+      new Swiper(".brz7f", {
         slidesPerView: 1,
         spaceBetween: 30,
         loop: true,
@@ -136,69 +172,69 @@
 </script>
 </div>
   <div id="content"><h1 style="display: none;">Ajans Mobil Gaziantep</h1>
-<div class="sliderxrm2si">
-  <div class="slider-rm2sit-itle">Hizmetlerimiz</div>
-  <div class="rm2si swiper-container">
+<div class="sliderxc2sst">
+  <div class="slider-c2sstt-itle">Hizmetlerimiz</div>
+  <div class="c2sst swiper-container">
     <div class="swiper-wrapper">
     <a href="/tr/web-tasarim/" class="swiper-slide">
-      <div class="swiper-rm2si">
-        <img class="img-rm2si" src="/page/ytf1pt3kuv/gh69q.png" alt="Web Tasarım"  loading="lazy"/>
-        <div class="title-spot-rm2si">
-          <div class="title-rm2si">Web Tasarım</div>
-          <div class="spot-rm2si">Ajans Mobil Gaziantep web tasarım hizmetleri - Mobil uyumlu, SEO uyumlu, hızlı ve modern web siteleri. Kurumsal web tasarım, e-ticaret sitesi ve özel yazılım çözümleri.</div>
+      <div class="swiper-c2sst">
+        <img class="img-c2sst" src="/page/ytf1pt3kuv/gh69q.png" alt="Web Tasarım"  loading="lazy"/>
+        <div class="title-spot-c2sst">
+          <div class="title-c2sst">Web Tasarım</div>
+          <div class="spot-c2sst">Ajans Mobil Gaziantep web tasarım hizmetleri - Mobil uyumlu, SEO uyumlu, hızlı ve modern web siteleri. Kurumsal web tasarım, e-ticaret sitesi ve özel yazılım çözümleri.</div>
         </div>
-        <div class="button-rm2si">Devamı...</div>
+        <div class="button-c2sst">Devamı...</div>
       </div>
     </a>
   
     <a href="/tr/reklam-yonetimi/" class="swiper-slide">
-      <div class="swiper-rm2si">
-        <img class="img-rm2si" src="/page/atv4542pic/va4tn.png" alt="Reklam Yönetimi"  loading="lazy"/>
-        <div class="title-spot-rm2si">
-          <div class="title-rm2si">Reklam Yönetimi</div>
-          <div class="spot-rm2si">Gaziantep Google Ads ve sosyal medya reklam yönetimi - Facebook, Instagram, Google reklamları ile hedef kitlenize ulaşın. ROI odaklı dijital reklam kampanyaları.</div>
+      <div class="swiper-c2sst">
+        <img class="img-c2sst" src="/page/atv4542pic/va4tn.png" alt="Reklam Yönetimi"  loading="lazy"/>
+        <div class="title-spot-c2sst">
+          <div class="title-c2sst">Reklam Yönetimi</div>
+          <div class="spot-c2sst">Gaziantep Google Ads ve sosyal medya reklam yönetimi - Facebook, Instagram, Google reklamları ile hedef kitlenize ulaşın. ROI odaklı dijital reklam kampanyaları.</div>
         </div>
-        <div class="button-rm2si">Devamı...</div>
+        <div class="button-c2sst">Devamı...</div>
       </div>
     </a>
   
     <a href="/tr/seo-hizmeti/" class="swiper-slide">
-      <div class="swiper-rm2si">
-        <img class="img-rm2si" src="/page/h9f506txbw/xxeqs.png" alt="Seo Hizmeti"  loading="lazy"/>
-        <div class="title-spot-rm2si">
-          <div class="title-rm2si">Seo Hizmeti</div>
-          <div class="spot-rm2si">Gaziantep SEO hizmetleri - Google'da 1. sayfaya çıkın. Anahtar kelime analizi, teknik SEO, içerik optimizasyonu ve link building ile organik trafik artışı.</div>
+      <div class="swiper-c2sst">
+        <img class="img-c2sst" src="/page/h9f506txbw/xxeqs.png" alt="Seo Hizmeti"  loading="lazy"/>
+        <div class="title-spot-c2sst">
+          <div class="title-c2sst">Seo Hizmeti</div>
+          <div class="spot-c2sst">Gaziantep SEO hizmetleri - Google'da 1. sayfaya çıkın. Anahtar kelime analizi, teknik SEO, içerik optimizasyonu ve link building ile organik trafik artışı.</div>
         </div>
-        <div class="button-rm2si">Devamı...</div>
+        <div class="button-c2sst">Devamı...</div>
       </div>
     </a>
   
     <a href="/tr/sosyal-media/" class="swiper-slide">
-      <div class="swiper-rm2si">
-        <img class="img-rm2si" src="/page/w7pm6byfyq/cxfvs.png" alt="Sosyal Media"  loading="lazy"/>
-        <div class="title-spot-rm2si">
-          <div class="title-rm2si">Sosyal Media</div>
-          <div class="spot-rm2si">Gaziantep sosyal medya yönetimi - Instagram, Facebook, LinkedIn ve Twitter profesyonel içerik üretimi ve yönetimi. Marka bilinirliği ve etkileşim artışı.</div>
+      <div class="swiper-c2sst">
+        <img class="img-c2sst" src="/page/w7pm6byfyq/cxfvs.png" alt="Sosyal Media"  loading="lazy"/>
+        <div class="title-spot-c2sst">
+          <div class="title-c2sst">Sosyal Media</div>
+          <div class="spot-c2sst">Gaziantep sosyal medya yönetimi - Instagram, Facebook, LinkedIn ve Twitter profesyonel içerik üretimi ve yönetimi. Marka bilinirliği ve etkileşim artışı.</div>
         </div>
-        <div class="button-rm2si">Devamı...</div>
+        <div class="button-c2sst">Devamı...</div>
       </div>
     </a>
   
     <a href="/tr/fotograf-cekimi/" class="swiper-slide">
-      <div class="swiper-rm2si">
-        <img class="img-rm2si" src="/page/p6okllk1m0/byl8k.png" alt="Fotoğraf Çekimi"  loading="lazy"/>
-        <div class="title-spot-rm2si">
-          <div class="title-rm2si">Fotoğraf Çekimi</div>
-          <div class="spot-rm2si">Gaziantep profesyonel fotoğraf çekimi - Ürün fotoğrafçılığı, kurumsal fotoğraf, food photography, mimari fotoğraf. E-ticaret ve katalog için profesyonel görseller.</div>
+      <div class="swiper-c2sst">
+        <img class="img-c2sst" src="/page/p6okllk1m0/byl8k.png" alt="Fotoğraf Çekimi"  loading="lazy"/>
+        <div class="title-spot-c2sst">
+          <div class="title-c2sst">Fotoğraf Çekimi</div>
+          <div class="spot-c2sst">Gaziantep profesyonel fotoğraf çekimi - Ürün fotoğrafçılığı, kurumsal fotoğraf, food photography, mimari fotoğraf. E-ticaret ve katalog için profesyonel görseller.</div>
         </div>
-        <div class="button-rm2si">Devamı...</div>
+        <div class="button-c2sst">Devamı...</div>
       </div>
     </a>
   </div>
-    <div class="swiper-pagination-rm2si"></div>
+    <div class="swiper-pagination-c2sst"></div>
   </div>
-  <div class="swiper-button-next swiper-button-next-rm2si"></div>
-  <div class="swiper-button-prev swiper-button-prev-rm2si"></div>
+  <div class="swiper-button-next swiper-button-next-c2sst"></div>
+  <div class="swiper-button-prev swiper-button-prev-c2sst"></div>
 </div>
 
 <script>
@@ -209,7 +245,7 @@
       attempts++;
       if (typeof Swiper === "function") {
         clearInterval(timer);
-        new Swiper(".rm2si", {
+        new Swiper(".c2sst", {
           slidesPerView: 2,
           simulateTouch: true,
           loop: true,
@@ -223,12 +259,12 @@
             disableOnInteraction: true,
           },
           pagination: {
-            el: ".swiper-pagination-rm2si",
+            el: ".swiper-pagination-c2sst",
             clickable: true,
           },
           navigation: {
-            nextEl: ".swiper-button-next-rm2si",
-            prevEl: ".swiper-button-prev-rm2si",
+            nextEl: ".swiper-button-next-c2sst",
+            prevEl: ".swiper-button-prev-c2sst",
           },
         });
       } else if (attempts >= maxAttempts) {
@@ -238,38 +274,38 @@
     }, 250);
   })();
 </script>
-<div class="sliderxniv1nbody">
-  <div class="sliderxniv1n">
-    <div class="sliderxniv1ntitle">Partnerlerimiz</div>
-    <div class="niv1n swiper-container">
+<div class="sliderxvsnwobody">
+  <div class="sliderxvsnwo">
+    <div class="sliderxvsnwotitle">Partnerlerimiz</div>
+    <div class="vsnwo swiper-container">
       <div class="swiper-wrapper"><div href="/img/jyfy3k/undefined"  class="swiper-slide">
       <div class="swiper-slide33">
-        <img onclick="imgfull('/img/jyfy3k/1.png')" src="/img/jyfy3k/1.png" class="modulchildniv1n2" alt="Resim"  loading="lazy"/>
+        <img onclick="imgfull('/img/jyfy3k/1.png')" src="/img/jyfy3k/1.png" class="modulchildvsnwo2" alt="Resim"  loading="lazy"/>
       </div>
     </div><div href="/img/jyfy3k/undefined"  class="swiper-slide">
       <div class="swiper-slide33">
-        <img onclick="imgfull('/img/jyfy3k/2.png')" src="/img/jyfy3k/2.png" class="modulchildniv1n2" alt="Resim"  loading="lazy"/>
+        <img onclick="imgfull('/img/jyfy3k/2.png')" src="/img/jyfy3k/2.png" class="modulchildvsnwo2" alt="Resim"  loading="lazy"/>
       </div>
     </div><div href="/img/jyfy3k/undefined"  class="swiper-slide">
       <div class="swiper-slide33">
-        <img onclick="imgfull('/img/jyfy3k/3.png')" src="/img/jyfy3k/3.png" class="modulchildniv1n2" alt="Resim"  loading="lazy"/>
+        <img onclick="imgfull('/img/jyfy3k/3.png')" src="/img/jyfy3k/3.png" class="modulchildvsnwo2" alt="Resim"  loading="lazy"/>
       </div>
     </div><div href="/img/jyfy3k/undefined"  class="swiper-slide">
       <div class="swiper-slide33">
-        <img onclick="imgfull('/img/jyfy3k/4.png')" src="/img/jyfy3k/4.png" class="modulchildniv1n2" alt="Resim"  loading="lazy"/>
+        <img onclick="imgfull('/img/jyfy3k/4.png')" src="/img/jyfy3k/4.png" class="modulchildvsnwo2" alt="Resim"  loading="lazy"/>
       </div>
     </div><div href="/img/jyfy3k/undefined"  class="swiper-slide">
       <div class="swiper-slide33">
-        <img onclick="imgfull('/img/jyfy3k/5.png')" src="/img/jyfy3k/5.png" class="modulchildniv1n2" alt="Resim"  loading="lazy"/>
+        <img onclick="imgfull('/img/jyfy3k/5.png')" src="/img/jyfy3k/5.png" class="modulchildvsnwo2" alt="Resim"  loading="lazy"/>
       </div>
     </div><div href="/img/jyfy3k/undefined"  class="swiper-slide">
       <div class="swiper-slide33">
-        <img onclick="imgfull('/img/jyfy3k/6.png')" src="/img/jyfy3k/6.png" class="modulchildniv1n2" alt="Resim"  loading="lazy"/>
+        <img onclick="imgfull('/img/jyfy3k/6.png')" src="/img/jyfy3k/6.png" class="modulchildvsnwo2" alt="Resim"  loading="lazy"/>
       </div>
     </div></div>
-      <div class="swiper-button-next swiper-button-next-niv1n"></div>
-      <div class="swiper-button-prev swiper-button-prev-niv1n"></div>
-      <div class="swiper-pagination-niv1n"></div>
+      <div class="swiper-button-next swiper-button-next-vsnwo"></div>
+      <div class="swiper-button-prev swiper-button-prev-vsnwo"></div>
+      <div class="swiper-pagination-vsnwo"></div>
     </div>
   </div>
 </div>
@@ -282,12 +318,12 @@
     simulateTouch: true,
     loop: true,
     pagination: {
-      el: ".swiper-pagination-niv1n",
+      el: ".swiper-pagination-vsnwo",
       clickable: true,
     },
     navigation: {
-      nextEl: ".swiper-button-next-niv1n",
-      prevEl: ".swiper-button-prev-niv1n",
+      nextEl: ".swiper-button-next-vsnwo",
+      prevEl: ".swiper-button-prev-vsnwo",
     },
     breakpoints: {
       480: {
@@ -306,286 +342,286 @@
   };
   if ("false" === "true") {
   } else {
-    document.querySelector(".swiper-button-next-niv1n").style.display =
+    document.querySelector(".swiper-button-next-vsnwo").style.display =
       "none";
-    document.querySelector(".swiper-button-prev-niv1n").style.display =
+    document.querySelector(".swiper-button-prev-vsnwo").style.display =
       "none";
   }
-  var swiper = new Swiper(".niv1n", jsonslider);
+  var swiper = new Swiper(".vsnwo", jsonslider);
   }, 100);
 </script>
-<div class="sliderxi6anx">
-  <div class="slider-i6anxt-itle">Açık Hava ve Gezen Reklam</div>
-  <div class="i6anx swiper-container">
+<div class="sliderxbrlds">
+  <div class="slider-brldst-itle">Açık Hava ve Gezen Reklam</div>
+  <div class="brlds swiper-container">
     <div class="swiper-wrapper">
     <a href="/tr/asansor-reklamlari/" class="swiper-slide">
-      <div class="swiper-i6anx">
-        <img class="img-i6anx" src="/page/bfjvcgg13p/c9t15.png" alt="Asansör Reklamları"  loading="lazy"/>
-        <div class="title-spot-i6anx">
-          <div class="title-i6anx">Asansör Reklamları</div>
-          <div class="spot-i6anx">Gaziantep asansör reklamları - Apartman ve iş merkezi asansörlerinde etkili marka görünürlüğü. Hedef kitlenize doğrudan ulaşan asansör içi reklam kampanyaları.</div>
+      <div class="swiper-brlds">
+        <img class="img-brlds" src="/page/bfjvcgg13p/c9t15.png" alt="Asansör Reklamları"  loading="lazy"/>
+        <div class="title-spot-brlds">
+          <div class="title-brlds">Asansör Reklamları</div>
+          <div class="spot-brlds">Gaziantep asansör reklamları - Apartman ve iş merkezi asansörlerinde etkili marka görünürlüğü. Hedef kitlenize doğrudan ulaşan asansör içi reklam kampanyaları.</div>
         </div>
-        <div class="button-i6anx">Devamı...</div>
+        <div class="button-brlds">Devamı...</div>
       </div>
     </a>
   
     <a href="/tr/dolmus-reklamlari/" class="swiper-slide">
-      <div class="swiper-i6anx">
-        <img class="img-i6anx" src="/page/x0gyi8bauw/gujlp.png" alt="Dolmuş Reklamları"  loading="lazy"/>
-        <div class="title-spot-i6anx">
-          <div class="title-i6anx">Dolmuş Reklamları</div>
-          <div class="spot-i6anx">Gaziantep dolmuş reklamları - Toplu taşıma araçlarında hareketli reklam çözümleri. Şehir içi dolmuş ve minibüslerde etkili marka tanıtımı.</div>
+      <div class="swiper-brlds">
+        <img class="img-brlds" src="/page/x0gyi8bauw/gujlp.png" alt="Dolmuş Reklamları"  loading="lazy"/>
+        <div class="title-spot-brlds">
+          <div class="title-brlds">Dolmuş Reklamları</div>
+          <div class="spot-brlds">Gaziantep dolmuş reklamları - Toplu taşıma araçlarında hareketli reklam çözümleri. Şehir içi dolmuş ve minibüslerde etkili marka tanıtımı.</div>
         </div>
-        <div class="button-i6anx">Devamı...</div>
+        <div class="button-brlds">Devamı...</div>
       </div>
     </a>
   
     <a href="/tr/otobus-reklam/" class="swiper-slide">
-      <div class="swiper-i6anx">
-        <img class="img-i6anx" src="/page/zh3e7j771i/homtf.png" alt="Otobüs Reklam"  loading="lazy"/>
-        <div class="title-spot-i6anx">
-          <div class="title-i6anx">Otobüs Reklam</div>
-          <div class="spot-i6anx">Gaziantep otobüs reklamları - Belediye otobüsleri, metro ve özel halk otobüslerinde tam giydirme reklam hizmeti. Geniş kitleye ulaşım garantisi.</div>
+      <div class="swiper-brlds">
+        <img class="img-brlds" src="/page/zh3e7j771i/homtf.png" alt="Otobüs Reklam"  loading="lazy"/>
+        <div class="title-spot-brlds">
+          <div class="title-brlds">Otobüs Reklam</div>
+          <div class="spot-brlds">Gaziantep otobüs reklamları - Belediye otobüsleri, metro ve özel halk otobüslerinde tam giydirme reklam hizmeti. Geniş kitleye ulaşım garantisi.</div>
         </div>
-        <div class="button-i6anx">Devamı...</div>
+        <div class="button-brlds">Devamı...</div>
       </div>
     </a>
   
     <a href="/tr/acik-hava-reklamciligi/" class="swiper-slide">
-      <div class="swiper-i6anx">
-        <img class="img-i6anx" src="/page/uwz4frx4y6/zkaru.png" alt="Açık Hava Reklamcılığı"  loading="lazy"/>
-        <div class="title-spot-i6anx">
-          <div class="title-i6anx">Açık Hava Reklamcılığı</div>
-          <div class="spot-i6anx">Gaziantep açık hava reklamcılığı - Billboard, totem, dijital ekran, cephe giydirme ve dış mekan reklam hizmetleri. Outdoor advertising çözümleri.</div>
+      <div class="swiper-brlds">
+        <img class="img-brlds" src="/page/uwz4frx4y6/zkaru.png" alt="Açık Hava Reklamcılığı"  loading="lazy"/>
+        <div class="title-spot-brlds">
+          <div class="title-brlds">Açık Hava Reklamcılığı</div>
+          <div class="spot-brlds">Gaziantep açık hava reklamcılığı - Billboard, totem, dijital ekran, cephe giydirme ve dış mekan reklam hizmetleri. Outdoor advertising çözümleri.</div>
         </div>
-        <div class="button-i6anx">Devamı...</div>
+        <div class="button-brlds">Devamı...</div>
       </div>
     </a>
   
     <a href="/tr/taksi-reklamlari/" class="swiper-slide">
-      <div class="swiper-i6anx">
-        <img class="img-i6anx" src="/page/wtluk7jm9c/a49s3.png" alt="Taksi Reklamları"  loading="lazy"/>
-        <div class="title-spot-i6anx">
-          <div class="title-i6anx">Taksi Reklamları</div>
-          <div class="spot-i6anx">Gaziantep taksi reklamları - Taksi üstü ışıklı tabelalar, araç giydirme ve taksi içi reklamlar. Yüksek gelir grubuna ulaşan etkili reklam mecrası.</div>
+      <div class="swiper-brlds">
+        <img class="img-brlds" src="/page/wtluk7jm9c/a49s3.png" alt="Taksi Reklamları"  loading="lazy"/>
+        <div class="title-spot-brlds">
+          <div class="title-brlds">Taksi Reklamları</div>
+          <div class="spot-brlds">Gaziantep taksi reklamları - Taksi üstü ışıklı tabelalar, araç giydirme ve taksi içi reklamlar. Yüksek gelir grubuna ulaşan etkili reklam mecrası.</div>
         </div>
-        <div class="button-i6anx">Devamı...</div>
+        <div class="button-brlds">Devamı...</div>
       </div>
     </a>
   
     <a href="/tr/tramvay/" class="swiper-slide">
-      <div class="swiper-i6anx">
-        <img class="img-i6anx" src="/page/guq270l7s1/yipp4.png" alt="Tramvay"  loading="lazy"/>
-        <div class="title-spot-i6anx">
-          <div class="title-i6anx">Tramvay</div>
-          <div class="spot-i6anx">Gaziantep tramvay reklamları - Tramvay giydirme, istasyon reklamları ve araç içi reklam mecrası. Modern toplu taşımada premium görünürlük.</div>
+      <div class="swiper-brlds">
+        <img class="img-brlds" src="/page/guq270l7s1/yipp4.png" alt="Tramvay"  loading="lazy"/>
+        <div class="title-spot-brlds">
+          <div class="title-brlds">Tramvay</div>
+          <div class="spot-brlds">Gaziantep tramvay reklamları - Tramvay giydirme, istasyon reklamları ve araç içi reklam mecrası. Modern toplu taşımada premium görünürlük.</div>
         </div>
-        <div class="button-i6anx">Devamı...</div>
+        <div class="button-brlds">Devamı...</div>
       </div>
     </a>
   
     <a href="/tr/iconova-cadde-reklamlari/" class="swiper-slide">
-      <div class="swiper-i6anx">
-        <img class="img-i6anx" src="/page/gvz-iconova-cadde/yifg5.webp" alt="Iconova Cadde Reklamları"  loading="lazy"/>
-        <div class="title-spot-i6anx">
-          <div class="title-i6anx">Iconova Cadde Reklamları</div>
-          <div class="spot-i6anx">Ajans Mobil Iconova Cadde reklam hizmetleri. Gaziantep'in prestijli alışveriş merkezinde haftalık 150-300 bin kişiye ulaşan açık hava reklam çözümleri. Primemall yakını stratejik konum.</div>
+      <div class="swiper-brlds">
+        <img class="img-brlds" src="/page/gvz-iconova-cadde/yifg5.webp" alt="Iconova Cadde Reklamları"  loading="lazy"/>
+        <div class="title-spot-brlds">
+          <div class="title-brlds">Iconova Cadde Reklamları</div>
+          <div class="spot-brlds">Ajans Mobil Iconova Cadde reklam hizmetleri. Gaziantep'in prestijli alışveriş merkezinde haftalık 150-300 bin kişiye ulaşan açık hava reklam çözümleri. Primemall yakını stratejik konum.</div>
         </div>
-        <div class="button-i6anx">Devamı...</div>
+        <div class="button-brlds">Devamı...</div>
       </div>
     </a>
   
     <a href="/tr/havalimani-reklamlari/" class="swiper-slide">
-      <div class="swiper-i6anx">
-        <img class="img-i6anx" src="/page/gvz-havalimani/mna2h.webp" alt="Havalimanı Reklamları"  loading="lazy"/>
-        <div class="title-spot-i6anx">
-          <div class="title-i6anx">Havalimanı Reklamları</div>
-          <div class="spot-i6anx">Ajans Mobil Gaziantep Havalimanı reklam hizmetleri. Şehrin en prestijli ulaşım merkezinde haftalık 50-100 bin kişiye ulaşan reklam çözümleri. İş insanları, turistler ve VIP misafirler için ideal konum.</div>
+      <div class="swiper-brlds">
+        <img class="img-brlds" src="/page/gvz-havalimani/mna2h.webp" alt="Havalimanı Reklamları"  loading="lazy"/>
+        <div class="title-spot-brlds">
+          <div class="title-brlds">Havalimanı Reklamları</div>
+          <div class="spot-brlds">Ajans Mobil Gaziantep Havalimanı reklam hizmetleri. Şehrin en prestijli ulaşım merkezinde haftalık 50-100 bin kişiye ulaşan reklam çözümleri. İş insanları ve turistler için ideal konum.</div>
         </div>
-        <div class="button-i6anx">Devamı...</div>
+        <div class="button-brlds">Devamı...</div>
       </div>
     </a>
   
     <a href="/tr/organize-sanayi-reklamlari/" class="swiper-slide">
-      <div class="swiper-i6anx">
-        <img class="img-i6anx" src="/page/gvz-organize-sanayi/w332x.webp" alt="Organize Sanayi Bölgesi Reklamları"  loading="lazy"/>
-        <div class="title-spot-i6anx">
-          <div class="title-i6anx">Organize Sanayi Bölgesi Reklamları</div>
-          <div class="spot-i6anx">Ajans Mobil Gaziantep Organize Sanayi Bölgesi reklam hizmetleri. Haftalık 150-300 bin iş insanına ulaşan B2B pazarlama çözümleri. Fabrika sahipleri, yöneticiler ve satın alma karar vericileri için ideal reklam mecrası.</div>
+      <div class="swiper-brlds">
+        <img class="img-brlds" src="/page/gvz-organize-sanayi/w332x.webp" alt="Organize Sanayi Bölgesi Reklamları"  loading="lazy"/>
+        <div class="title-spot-brlds">
+          <div class="title-brlds">Organize Sanayi Bölgesi Reklamları</div>
+          <div class="spot-brlds">Ajans Mobil Gaziantep Organize Sanayi Bölgesi reklam hizmetleri. Haftalık 150-300 bin iş insanına ulaşan B2B pazarlama çözümleri. Fabrika sahipleri ve yöneticiler için ideal reklam mecrası.</div>
         </div>
-        <div class="button-i6anx">Devamı...</div>
+        <div class="button-brlds">Devamı...</div>
       </div>
     </a>
   
     <a href="/tr/cadde-duvarlari-reklamlari/" class="swiper-slide">
-      <div class="swiper-i6anx">
-        <img class="img-i6anx" src="/page/gvz-cadde-duvarlari/qe92m.webp" alt="Cadde Duvarları Reklamları"  loading="lazy"/>
-        <div class="title-spot-i6anx">
-          <div class="title-i6anx">Cadde Duvarları Reklamları</div>
-          <div class="spot-i6anx">Ajans Mobil cadde duvarları reklam hizmetleri. Gaziantep'in en işlek caddelerinde haftalık 200-500 bin kişiye ulaşan dev reklam alanları. Ana arterler, kavşaklar ve yaya trafiğinin yoğun olduğu stratejik lokasyonlar.</div>
+      <div class="swiper-brlds">
+        <img class="img-brlds" src="/page/gvz-cadde-duvarlari/qe92m.webp" alt="Cadde Duvarları Reklamları"  loading="lazy"/>
+        <div class="title-spot-brlds">
+          <div class="title-brlds">Cadde Duvarları Reklamları</div>
+          <div class="spot-brlds">Ajans Mobil cadde duvarları reklam hizmetleri. Gaziantep'in en işlek caddelerinde haftalık 200-500 bin kişiye ulaşan dev reklam alanları. Ana arterler ve kavşaklarda stratejik lokasyonlar.</div>
         </div>
-        <div class="button-i6anx">Devamı...</div>
+        <div class="button-brlds">Devamı...</div>
       </div>
     </a>
   
     <a href="/tr/bina-asansorleri-reklamlari/" class="swiper-slide">
-      <div class="swiper-i6anx">
-        <img class="img-i6anx" src="/page/gvz-bina-asansorleri/fqufy.webp" alt="Bina Asansörleri Reklamları"  loading="lazy"/>
-        <div class="title-spot-i6anx">
-          <div class="title-i6anx">Bina Asansörleri Reklamları</div>
-          <div class="spot-i6anx">Ajans Mobil bina asansörleri reklam hizmetleri. Haftalık 100-400 bin kişiye doğrudan ulaşan yakın mesafe reklam çözümleri. Konut kompleksleri, iş merkezleri ve ofis binalarında etkili marka görünürlüğü.</div>
+      <div class="swiper-brlds">
+        <img class="img-brlds" src="/page/gvz-bina-asansorleri/fqufy.webp" alt="Bina Asansörleri Reklamları"  loading="lazy"/>
+        <div class="title-spot-brlds">
+          <div class="title-brlds">Bina Asansörleri Reklamları</div>
+          <div class="spot-brlds">Ajans Mobil bina asansörleri reklam hizmetleri. Haftalık 100-400 bin kişiye doğrudan ulaşan yakın mesafe reklam çözümleri. Konut kompleksleri ve iş merkezlerinde etkili marka görünürlüğü.</div>
         </div>
-        <div class="button-i6anx">Devamı...</div>
+        <div class="button-brlds">Devamı...</div>
       </div>
     </a>
   
     <a href="/tr/belediye-otobusu-reklamlari/" class="swiper-slide">
-      <div class="swiper-i6anx">
-        <img class="img-i6anx" src="/page/gvz-belediye-otobusu/jchrz.webp" alt="Belediye Otobüsü Reklamları"  loading="lazy"/>
-        <div class="title-spot-i6anx">
-          <div class="title-i6anx">Belediye Otobüsü Reklamları</div>
-          <div class="spot-i6anx">Ajans Mobil belediye otobüsü reklam hizmetleri. Geveze Ajans işbirliği ile resmi hatlarda güvenilir reklam çözümleri. Haftalık 300-600 bin kişiye ulaşan kurumsal reklam mecrası. Araç giydirme, iç alan ve duraklarda premium alanlar.</div>
+      <div class="swiper-brlds">
+        <img class="img-brlds" src="/page/gvz-belediye-otobusu/jchrz.webp" alt="Belediye Otobüsü Reklamları"  loading="lazy"/>
+        <div class="title-spot-brlds">
+          <div class="title-brlds">Belediye Otobüsü Reklamları</div>
+          <div class="spot-brlds">Ajans Mobil belediye otobüsü reklam hizmetleri. Geveze Ajans işbirliği ile resmi hatlarda güvenilir reklam çözümleri. Haftalık 300-600 bin kişiye ulaşan kurumsal reklam mecrası.</div>
         </div>
-        <div class="button-i6anx">Devamı...</div>
+        <div class="button-brlds">Devamı...</div>
       </div>
     </a>
   
     <a href="/tr/halk-otobusu-reklamlari/" class="swiper-slide">
-      <div class="swiper-i6anx">
-        <img class="img-i6anx" src="/page/gvz-halk-otobusu/zuvah.webp" alt="Halk Otobüsü Reklamları"  loading="lazy"/>
-        <div class="title-spot-i6anx">
-          <div class="title-i6anx">Halk Otobüsü Reklamları</div>
-          <div class="spot-i6anx">Ajans Mobil özel halk otobüsü reklam hizmetleri. Geveze Ajans işbirliği ile özel hatlarda premium reklam çözümleri. Haftalık 300-600 bin kişiye ulaşan modern ve konforlu araçlarda reklam imkanı.</div>
+      <div class="swiper-brlds">
+        <img class="img-brlds" src="/page/gvz-halk-otobusu/zuvah.webp" alt="Halk Otobüsü Reklamları"  loading="lazy"/>
+        <div class="title-spot-brlds">
+          <div class="title-brlds">Halk Otobüsü Reklamları</div>
+          <div class="spot-brlds">Ajans Mobil özel halk otobüsü reklam hizmetleri. Geveze Ajans işbirliği ile özel hatlarda premium reklam çözümleri. Haftalık 300-600 bin kişiye ulaşan modern ve konforlu araçlarda reklam imkanı.</div>
         </div>
-        <div class="button-i6anx">Devamı...</div>
+        <div class="button-brlds">Devamı...</div>
       </div>
     </a>
   
     <a href="/tr/dolmus-reklamlari-geveze/" class="swiper-slide">
-      <div class="swiper-i6anx">
-        <img class="img-i6anx" src="/page/gvz-dolmus/lymkl.webp" alt="Dolmuş Reklamları (Geveze)"  loading="lazy"/>
-        <div class="title-spot-i6anx">
-          <div class="title-i6anx">Dolmuş Reklamları (Geveze)</div>
-          <div class="spot-i6anx">Ajans Mobil ve Geveze Ajans işbirliği ile dolmuş reklam hizmetleri. Mahalle aralarına ulaşan esnek rota reklam çözümleri. Haftalık 300-600 bin kişiye ulaşan ekonomik ve etkili reklam mecrası.</div>
+      <div class="swiper-brlds">
+        <img class="img-brlds" src="/page/gvz-dolmus/lymkl.webp" alt="Dolmuş Reklamları (Geveze)"  loading="lazy"/>
+        <div class="title-spot-brlds">
+          <div class="title-brlds">Dolmuş Reklamları (Geveze)</div>
+          <div class="spot-brlds">Ajans Mobil ve Geveze Ajans işbirliği ile dolmuş reklam hizmetleri. Mahalle aralarına ulaşan esnek rota reklam çözümleri. Haftalık 300-600 bin kişiye ulaşan ekonomik ve etkili reklam mecrası.</div>
         </div>
-        <div class="button-i6anx">Devamı...</div>
+        <div class="button-brlds">Devamı...</div>
       </div>
     </a>
   
     <a href="/tr/tramvay-reklamlari-geveze/" class="swiper-slide">
-      <div class="swiper-i6anx">
-        <img class="img-i6anx" src="/page/gvz-tramvay/yki9f.webp" alt="Tramvay Reklamları (Geveze)"  loading="lazy"/>
-        <div class="title-spot-i6anx">
-          <div class="title-i6anx">Tramvay Reklamları (Geveze)</div>
-          <div class="spot-i6anx">Ajans Mobil tramvay reklam hizmetleri. Geveze Ajans işbirliği ile modern raylı sistem reklam çözümleri. Haftalık 300-600 bin kişiye ulaşan istasyon ve araç içi reklamları. Genç ve çalışan kesim için ideal mecralar.</div>
+      <div class="swiper-brlds">
+        <img class="img-brlds" src="/page/gvz-tramvay/yki9f.webp" alt="Tramvay Reklamları (Geveze)"  loading="lazy"/>
+        <div class="title-spot-brlds">
+          <div class="title-brlds">Tramvay Reklamları (Geveze)</div>
+          <div class="spot-brlds">Ajans Mobil tramvay reklam hizmetleri. Geveze Ajans işbirliği ile modern raylı sistem reklam çözümleri. Haftalık 300-600 bin kişiye ulaşan istasyon ve araç içi reklamları. Genç ve çalışan kesim için ideal mecralar.</div>
         </div>
-        <div class="button-i6anx">Devamı...</div>
+        <div class="button-brlds">Devamı...</div>
       </div>
     </a>
   
     <a href="/tr/taksi-reklamlari-geveze/" class="swiper-slide">
-      <div class="swiper-i6anx">
-        <img class="img-i6anx" src="/page/gvz-taksiler/cdqsn.webp" alt="Taksi Reklamları (Geveze)"  loading="lazy"/>
-        <div class="title-spot-i6anx">
-          <div class="title-i6anx">Taksi Reklamları (Geveze)</div>
-          <div class="spot-i6anx">Ajans Mobil taksi reklam hizmetleri. Haftalık 300-600 bin kişiye ulaşan premium reklam çözümleri. Taksi üstü ışıklı tabelalar, araç giydirme ve iç alan reklamları ile A+ segmente etkili ulaşım.</div>
+      <div class="swiper-brlds">
+        <img class="img-brlds" src="/page/gvz-taksiler/cdqsn.webp" alt="Taksi Reklamları (Geveze)"  loading="lazy"/>
+        <div class="title-spot-brlds">
+          <div class="title-brlds">Taksi Reklamları (Geveze)</div>
+          <div class="spot-brlds">Ajans Mobil taksi reklam hizmetleri. Haftalık 300-600 bin kişiye ulaşan premium reklam çözümleri. Taksi üstü ışıklı tabelalar, araç giydirme ve iç alan reklamları ile A+ segmente etkili ulaşım.</div>
         </div>
-        <div class="button-i6anx">Devamı...</div>
+        <div class="button-brlds">Devamı...</div>
       </div>
     </a>
   
     <a href="/tr/primemall-avm-reklamlari/" class="swiper-slide">
-      <div class="swiper-i6anx">
-        <img class="img-i6anx" src="/page/gvz-primemall/oevz4.webp" alt="Primemall AVM Reklamları"  loading="lazy"/>
-        <div class="title-spot-i6anx">
-          <div class="title-i6anx">Primemall AVM Reklamları</div>
-          <div class="spot-i6anx">Ajans Mobil Primemall AVM reklam hizmetleri. Gaziantep'in en büyük ve en prestijli alışveriş merkezinde haftalık 200-500 bin ziyaretçiye ulaşan premium reklam çözümleri. Iconova Cadde komşuluğu ile stratejik konum avantajı.</div>
+      <div class="swiper-brlds">
+        <img class="img-brlds" src="/page/gvz-primemall/oevz4.webp" alt="Primemall AVM Reklamları"  loading="lazy"/>
+        <div class="title-spot-brlds">
+          <div class="title-brlds">Primemall AVM Reklamları</div>
+          <div class="spot-brlds">Ajans Mobil Primemall AVM reklam hizmetleri. Gaziantep'in en büyük ve en prestijli alışveriş merkezinde haftalık 200-500 bin ziyaretçiye ulaşan premium reklam çözümleri. Iconova Cadde komşuluğu ile stratejik konum.</div>
         </div>
-        <div class="button-i6anx">Devamı...</div>
+        <div class="button-brlds">Devamı...</div>
       </div>
     </a>
   
     <a href="/tr/forum-avm-reklamlari/" class="swiper-slide">
-      <div class="swiper-i6anx">
-        <img class="img-i6anx" src="/page/gvz-forum-avm/okfc7.webp" alt="Forum AVM Reklamları"  loading="lazy"/>
-        <div class="title-spot-i6anx">
-          <div class="title-i6anx">Forum AVM Reklamları</div>
-          <div class="spot-i6anx">Ajans Mobil Forum AVM reklam hizmetleri. Uluslararası markaların buluştuğu prestijli alışveriş merkezinde haftalık 200-500 bin ziyaretçiye ulaşan reklam çözümleri. Otopark reklamları ve sinema alanları ile öne çıkan özel lokasyonlar.</div>
+      <div class="swiper-brlds">
+        <img class="img-brlds" src="/page/gvz-forum-avm/okfc7.webp" alt="Forum AVM Reklamları"  loading="lazy"/>
+        <div class="title-spot-brlds">
+          <div class="title-brlds">Forum AVM Reklamları</div>
+          <div class="spot-brlds">Ajans Mobil Forum AVM reklam hizmetleri. Uluslararası markaların buluştuğu prestijli alışveriş merkezinde haftalık 200-500 bin ziyaretçiye ulaşan reklam çözümleri. Otopark ve sinema alanlarında özel lokasyonlar.</div>
         </div>
-        <div class="button-i6anx">Devamı...</div>
+        <div class="button-brlds">Devamı...</div>
       </div>
     </a>
   
     <a href="/tr/sanko-park-avm-reklamlari/" class="swiper-slide">
-      <div class="swiper-i6anx">
-        <img class="img-i6anx" src="/page/gvz-sanko-park/bkl4v.webp" alt="Sanko Park AVM Reklamları"  loading="lazy"/>
-        <div class="title-spot-i6anx">
-          <div class="title-i6anx">Sanko Park AVM Reklamları</div>
-          <div class="spot-i6anx">Ajans Mobil Sanko Park AVM reklam hizmetleri. Gaziantep'in en eski ve köklü alışveriş merkezinde haftalık 200-500 bin ziyaretçiye ulaşan güvenilir reklam çözümleri. Aile odaklı hedef kitle ve yemek katı reklam alanları ile öne çıkar.</div>
+      <div class="swiper-brlds">
+        <img class="img-brlds" src="/page/gvz-sanko-park/bkl4v.webp" alt="Sanko Park AVM Reklamları"  loading="lazy"/>
+        <div class="title-spot-brlds">
+          <div class="title-brlds">Sanko Park AVM Reklamları</div>
+          <div class="spot-brlds">Ajans Mobil Sanko Park AVM reklam hizmetleri. Gaziantep'in en eski ve köklü alışveriş merkezinde haftalık 200-500 bin ziyaretçiye ulaşan güvenilir reklam çözümleri. Aile odaklı hedef kitle ve yemek katı reklam alanları ile öne çıkar.</div>
         </div>
-        <div class="button-i6anx">Devamı...</div>
+        <div class="button-brlds">Devamı...</div>
       </div>
     </a>
   
     <a href="/tr/m1-avm-reklamlari/" class="swiper-slide">
-      <div class="swiper-i6anx">
-        <img class="img-i6anx" src="/page/gvz-m1-avm/i27mc.webp" alt="M1 AVM Reklamları"  loading="lazy"/>
-        <div class="title-spot-i6anx">
-          <div class="title-i6anx">M1 AVM Reklamları</div>
-          <div class="spot-i6anx">Ajans Mobil M1 AVM reklam hizmetleri. Modern mimarisi ile Gaziantep'in dikkat çeken alışveriş merkezinde haftalık 200-500 bin kişiye ulaşan reklam çözümleri. İç ve dış alanlarda premium reklam seçenekleri.</div>
+      <div class="swiper-brlds">
+        <img class="img-brlds" src="/page/gvz-m1-avm/i27mc.webp" alt="M1 AVM Reklamları"  loading="lazy"/>
+        <div class="title-spot-brlds">
+          <div class="title-brlds">M1 AVM Reklamları</div>
+          <div class="spot-brlds">Ajans Mobil M1 AVM reklam hizmetleri. Modern mimarisi ile Gaziantep'in dikkat çeken alışveriş merkezinde haftalık 200-500 bin kişiye ulaşan reklam çözümleri. İç ve dış alanlarda premium seçenekler.</div>
         </div>
-        <div class="button-i6anx">Devamı...</div>
+        <div class="button-brlds">Devamı...</div>
       </div>
     </a>
   
     <a href="/tr/sinema-reklamlari/" class="swiper-slide">
-      <div class="swiper-i6anx">
-        <img class="img-i6anx" src="/page/gvz-sinema-reklamlari/undefined" alt="Sinema Reklamları"  loading="lazy"/>
-        <div class="title-spot-i6anx">
-          <div class="title-i6anx">Sinema Reklamları</div>
-          <div class="spot-i6anx">Ajans Mobil sinema reklam hizmetleri. Film öncesi ve aralarda gösterilen reklamlar ile yüksek dikkat çekme. Genç ve dinamik kitleye ulaşmak için ideal reklam mecrası. Prestijli ve etkili marka görünürlüğü.</div>
+      <div class="swiper-brlds">
+        <img class="img-brlds" src="/page/gvz-sinema-reklamlari/undefined" alt="Sinema Reklamları"  loading="lazy"/>
+        <div class="title-spot-brlds">
+          <div class="title-brlds">Sinema Reklamları</div>
+          <div class="spot-brlds">Ajans Mobil sinema reklam hizmetleri. Film öncesi ve aralarda gösterilen reklamlar ile yüksek dikkat çekme. Genç ve dinamik kitleye ulaşmak için ideal reklam mecrası.</div>
         </div>
-        <div class="button-i6anx">Devamı...</div>
+        <div class="button-brlds">Devamı...</div>
       </div>
     </a>
   
     <a href="/tr/pano-reklamlari/" class="swiper-slide">
-      <div class="swiper-i6anx">
-        <img class="img-i6anx" src="/page/gvz-pano-reklamlari/undefined" alt="Pano Reklamları"  loading="lazy"/>
-        <div class="title-spot-i6anx">
-          <div class="title-i6anx">Pano Reklamları</div>
-          <div class="spot-i6anx">Ajans Mobil pano reklam hizmetleri. Gaziantep'in stratejik noktalarında geniş erişim ve sürekli görünürlük sağlayan reklam çözümleri. Yüksek trafikli bölgelerde etkili marka tanıtımı ve bilinirliği.</div>
+      <div class="swiper-brlds">
+        <img class="img-brlds" src="/page/gvz-pano-reklamlari/undefined" alt="Pano Reklamları"  loading="lazy"/>
+        <div class="title-spot-brlds">
+          <div class="title-brlds">Pano Reklamları</div>
+          <div class="spot-brlds">Ajans Mobil pano reklam hizmetleri. Gaziantep'in stratejik noktalarında geniş erişim ve sürekli görünürlük sağlayan reklam çözümleri. Yüksek trafikli bölgelerde etkili marka tanıtımı ve bilinirliği.</div>
         </div>
-        <div class="button-i6anx">Devamı...</div>
+        <div class="button-brlds">Devamı...</div>
       </div>
     </a>
   
     <a href="/tr/ozel-uygulama-billboard/" class="swiper-slide">
-      <div class="swiper-i6anx">
-        <img class="img-i6anx" src="/page/gvz-ozel-billboard/undefined" alt="Özel Uygulama Billboard"  loading="lazy"/>
-        <div class="title-spot-i6anx">
-          <div class="title-i6anx">Özel Uygulama Billboard</div>
-          <div class="spot-i6anx">Ajans Mobil özel uygulama billboard hizmetleri. Yaratıcı ve dikkat çekici özel tasarım billboard çözümleri. Yüksek etkileşim ve viral potansiyel ile markanızı öne çıkarın. 3D, hareketli ve ışıklı özel tasarımlar.</div>
+      <div class="swiper-brlds">
+        <img class="img-brlds" src="/page/gvz-ozel-billboard/undefined" alt="Özel Uygulama Billboard"  loading="lazy"/>
+        <div class="title-spot-brlds">
+          <div class="title-brlds">Özel Uygulama Billboard</div>
+          <div class="spot-brlds">Ajans Mobil özel uygulama billboard hizmetleri. Yaratıcı ve dikkat çekici özel tasarım billboard çözümleri. Yüksek etkileşim ve viral potansiyel ile markanızı öne çıkarın.</div>
         </div>
-        <div class="button-i6anx">Devamı...</div>
+        <div class="button-brlds">Devamı...</div>
       </div>
     </a>
   
     <a href="/tr/universite-reklamlari/" class="swiper-slide">
-      <div class="swiper-i6anx">
-        <img class="img-i6anx" src="/page/gvz-universite-reklamlari/undefined" alt="Üniversite Reklamları"  loading="lazy"/>
-        <div class="title-spot-i6anx">
-          <div class="title-i6anx">Üniversite Reklamları</div>
-          <div class="spot-i6anx">Ajans Mobil üniversite reklam hizmetleri. Genç ve dinamik hedef kitleye ulaşmak için ideal reklam mecrası. Üniversite kampüslerinde etkili marka görünürlüğü ve öğrenci kitlesine doğrudan erişim. Pano, afiş ve dijital ekran seçenekleri.</div>
+      <div class="swiper-brlds">
+        <img class="img-brlds" src="/page/gvz-universite-reklamlari/undefined" alt="Üniversite Reklamları"  loading="lazy"/>
+        <div class="title-spot-brlds">
+          <div class="title-brlds">Üniversite Reklamları</div>
+          <div class="spot-brlds">Ajans Mobil üniversite reklam hizmetleri. Genç ve dinamik hedef kitleye ulaşmak için ideal reklam mecrası. Üniversite kampüslerinde etkili marka görünürlüğü ve öğrenci kitlesine doğrudan erişim.</div>
         </div>
-        <div class="button-i6anx">Devamı...</div>
+        <div class="button-brlds">Devamı...</div>
       </div>
     </a>
   </div>
-    <div class="swiper-pagination-i6anx"></div>
+    <div class="swiper-pagination-brlds"></div>
   </div>
-  <div class="swiper-button-next swiper-button-next-i6anx"></div>
-  <div class="swiper-button-prev swiper-button-prev-i6anx"></div>
+  <div class="swiper-button-next swiper-button-next-brlds"></div>
+  <div class="swiper-button-prev swiper-button-prev-brlds"></div>
 </div>
 
 <script>
@@ -596,7 +632,7 @@
       attempts++;
       if (typeof Swiper === "function") {
         clearInterval(timer);
-        new Swiper(".i6anx", {
+        new Swiper(".brlds", {
           slidesPerView: 2,
           simulateTouch: true,
           loop: true,
@@ -610,12 +646,12 @@
             disableOnInteraction: true,
           },
           pagination: {
-            el: ".swiper-pagination-i6anx",
+            el: ".swiper-pagination-brlds",
             clickable: true,
           },
           navigation: {
-            nextEl: ".swiper-button-next-i6anx",
-            prevEl: ".swiper-button-prev-i6anx",
+            nextEl: ".swiper-button-next-brlds",
+            prevEl: ".swiper-button-prev-brlds",
           },
         });
       } else if (attempts >= maxAttempts) {
@@ -626,9 +662,9 @@
   })();
 </script>
 </div>
-  <div id="footer"><div class="wa-advanced" id="a0t9uWaAdvanced">
-  <div class="a0t9u-wa-advanced-button" onclick="toggleModulexAdvanced()">
-    <div class="a0t9u-wa-advanced-icon">
+  <div id="footer"><div class="wa-advanced" id="f75icWaAdvanced">
+  <div class="f75ic-wa-advanced-button" onclick="toggleModulexAdvanced()">
+    <div class="f75ic-wa-advanced-icon">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
         <path
           d="M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z"
@@ -636,39 +672,39 @@
         ></path>
       </svg>
     </div>
-    <div class="a0t9u-wa-advanced-pulse"></div>
+    <div class="f75ic-wa-advanced-pulse"></div>
   </div>
 
-  <div class="a0t9u-wa-advanced-panel" id="a0t9uWaPanel">
-    <div class="a0t9u-wa-advanced-header">
-      <div class="a0t9u-wa-advanced-avatar">
-        <img src="/img/pjkf5g/logo.png?v=e6ino" alt="Support Agent"  loading="lazy"/>
-        <div class="a0t9u-wa-advanced-status online"></div>
+  <div class="f75ic-wa-advanced-panel" id="f75icWaPanel">
+    <div class="f75ic-wa-advanced-header">
+      <div class="f75ic-wa-advanced-avatar">
+        <img src="/img/pjkf5g/logo.png?v=crjcw" alt="Support Agent"  loading="lazy"/>
+        <div class="f75ic-wa-advanced-status online"></div>
       </div>
-      <div class="a0t9u-wa-advanced-info">
+      <div class="f75ic-wa-advanced-info">
         <h4>Müşteri Desteği</h4>
         <p>Şu anda çevrimiçi</p>
       </div>
       <button
-        class="a0t9u-wa-advanced-close"
+        class="f75ic-wa-advanced-close"
         onclick="closeModulexAdvanced()"
       >
         ×
       </button>
     </div>
 
-    <div class="a0t9u-wa-advanced-body">
-      <div class="a0t9u-wa-advanced-message">
+    <div class="f75ic-wa-advanced-body">
+      <div class="f75ic-wa-advanced-message">
         <p>Merhaba! Size nasıl yardımcı olabilirim?</p>
-        <span class="a0t9u-wa-advanced-time">Şimdi</span>
+        <span class="f75ic-wa-advanced-time">Şimdi</span>
       </div>
     </div>
 
-    <div class="a0t9u-wa-advanced-footer">
+    <div class="f75ic-wa-advanced-footer">
       <a
         href="https://wa.me/905316791014"
         target="_blank"
-        class="a0t9u-wa-advanced-chat-btn"
+        class="f75ic-wa-advanced-chat-btn"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -692,12 +728,12 @@
 
 <script>
   function toggleModulexAdvanced() {
-    const panel = document.getElementById("a0t9uWaPanel");
+    const panel = document.getElementById("f75icWaPanel");
     panel.style.display = panel.style.display === "block" ? "none" : "block";
   }
 
   function closeModulexAdvanced() {
-    document.getElementById("a0t9uWaPanel").style.display = "none";
+    document.getElementById("f75icWaPanel").style.display = "none";
   }
 </script>
 <footer class="footer">
@@ -755,8 +791,8 @@
 <meta name="google-site-verification" content="9UY_kGQb1IGXMFMd4tQHzXABrXhZG-SiJ_lXYjWE69M" />
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=e6ino"></script>
-<script defer src="/src/cookie.js?v=e6ino"></script>
+<script defer type="text/javascript" src="/src/js.js?v=crjcw"></script>
+<script defer src="/src/cookie.js?v=crjcw"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

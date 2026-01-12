@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=e4hlb" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=e4hlb" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=oqtp1" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=oqtp1" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=e4hlb" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=oqtp1" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,89 +52,140 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=e4hlb">
+<link rel="stylesheet" href="style.css?v=oqtp1">
 </head>
 
 <body>
-  <div id="header"><div class="gn8v3">
-  <div class="gn8v3title">
-    <div class="gn8v3titlebody">
-     
-      <div class="gn8v3titlebodylang">
-        <ul>
-          <li><a href="/tr/tramvay/">tr</a></li><li><a href="/en/tramvay/">en</a></li><li><a href="/ar/tramvay/">ar</a></li>
+  <div id="header"><header class="hkgf6" role="banner">
+  <div class="hkgf6title" role="region" aria-label="محدد اللغة">
+    <div class="hkgf6titlebody">
+      <nav class="hkgf6titlebodylang" aria-label="محدد اللغة">
+        <ul role="list">
+          <li role="none"><a href="/tr/tramvay/" hreflang="tr" title="true" aria-label="محدد اللغة: tr" lang="tr">tr</a></li><li role="none"><a href="/en/tramvay/" hreflang="en" title="true" aria-label="محدد اللغة: en" lang="en">en</a></li><li role="none"><a href="/ar/tramvay/" hreflang="ar" aria-current="true" title="true" aria-label="محدد اللغة: ar" lang="ar">ar</a></li>
         </ul>
-      </div>
+      </nav>
     </div>
   </div>
-  <div class="gn8v3Children">
-    <div class="gn8v3body">
-      <a href="/ar/"><img src="/img/logo.svg?v=e4hlb" class="gn8v3bodylogo" alt="Ajans Mobil Gaziantep Logo" loading="lazy" /></a>
+  <div class="hkgf6Children">
+    <div class="hkgf6body">
+      <a href="/ar/" aria-label="الصفحة الرئيسية - Ajans Mobil Gaziantep" title="الصفحة الرئيسية - Ajans Mobil Gaziantep">
+        <img src="/img/logo.svg?v=oqtp1" class="hkgf6bodylogo" alt="Ajans Mobil Gaziantep Logo" width="auto" height="auto" loading="lazy" />
+      </a>
     </div>
-    <div class="gn8v3menumobil">
-      <div class="material-symbols-outlined" aria-hidden="true">menu</div>
-    </div>
-    <div class="gn8v3menulist">
-      <ul>
-        <a href="/ar/" class="gn8v3menuitem">الصفحة الرئيسية </a><a href="/ar/hakkimizda/" class="gn8v3menuitem">الشركات</a><a href="/ar/hizmetlerimiz/" class="gn8v3menuitem">خدماتنا الرقمية</a><a href="/ar/acik-hava-hizmetlerimiz/" class="gn8v3menuitem">خدماتنا الخارجية</a><a href="/ar/iletisim/" class="gn8v3menuitem">اتصل بنا</a>
+    <button class="hkgf6menumobil" type="button" aria-label="تبديل القائمة" aria-expanded="false" aria-controls="hkgf6menulist">
+      <span class="material-symbols-outlined" aria-hidden="true">menu</span>
+    </button>
+    <nav class="hkgf6menulist" id="hkgf6menulist" role="navigation" aria-label="التنقل">
+      <ul role="menubar">
+        <a href="/ar/" class="hkgf6menuitem" role="menuitem" title="الصفحة الرئيسية - " aria-label="الصفحة الرئيسية">الصفحة الرئيسية</a><a href="/ar/hakkimizda/" class="hkgf6menuitem" role="menuitem" title="الشركات" aria-label="الشركات">الشركات</a><a href="/ar/hizmetlerimiz/" class="hkgf6menuitem" role="menuitem" title="خدماتنا الرقمية" aria-label="خدماتنا الرقمية">خدماتنا الرقمية</a><a href="/ar/acik-hava-hizmetlerimiz/" class="hkgf6menuitem" role="menuitem" title="خدماتنا الخارجية" aria-label="خدماتنا الخارجية">خدماتنا الخارجية</a><a href="/ar/iletisim/" class="hkgf6menuitem" role="menuitem" title="اتصل بنا" aria-label="اتصل بنا">اتصل بنا</a>
       </ul>
-    </div>
+    </nav>
   </div>
-</div>
+</header>
 
 <script>
-  document
-    .querySelector(".gn8v3menumobil")
-    .addEventListener("click", function () {
-      const menu = document.querySelector(".gn8v3menulist");
-      if (menu.style.display === "flex") {
-        menu.style.display = "none";
-      } else {
-        menu.style.display = "flex";
-      }
-    });
+  setTimeout(function() {
+    var menuButton = document.querySelector(".hkgf6menumobil");
+    var menu = document.querySelector(".hkgf6menulist");
+    
+    if (menuButton && menu) {
+      // Tıklama eventi
+      menuButton.addEventListener("click", function () {
+        var isExpanded = menuButton.getAttribute("aria-expanded") === "true";
+        if (isExpanded) {
+          menu.style.display = "none";
+          menuButton.setAttribute("aria-expanded", "false");
+        } else {
+          menu.style.display = "flex";
+          menuButton.setAttribute("aria-expanded", "true");
+        }
+      });
+      
+      // Klavye navigasyonu (Enter ve Space)
+      menuButton.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          menuButton.click();
+        }
+      });
+      
+      // ESC tuşu ile menüyü kapat
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape" && menuButton.getAttribute("aria-expanded") === "true") {
+          menu.style.display = "none";
+          menuButton.setAttribute("aria-expanded", "false");
+          menuButton.focus();
+        }
+      });
+      
+      // Menü dışına tıklanınca kapat
+      document.addEventListener("click", function (e) {
+        if (menuButton.getAttribute("aria-expanded") === "true" && 
+            !menu.contains(e.target) && 
+            !menuButton.contains(e.target)) {
+          menu.style.display = "none";
+          menuButton.setAttribute("aria-expanded", "false");
+        }
+      });
+    }
+  }, 100);
 </script>
 </div>
-  <div id="content"><div class="ud2h4-title f36">
+  <div id="content"><div class="qcp7k-title f36">
   <h1>الترام</h1>
 </div>
-<div class="ud2h4">
-  <div class="ud2h4-menu-btn">
+<div class="qcp7k">
+  <div class="qcp7k-menu-btn">
     <span>قائمة الصفحات</span>
-    <span class="material-symbols-outlined ud2h4-icon">menu</span>
+    <span class="material-symbols-outlined qcp7k-icon">menu</span>
   </div>
-  <div class="ud2h4-menu"><a class="ud2h4-menu-link" href="/ar/asansor-reklamlari/">إعلانات المصاعد</a><a class="ud2h4-menu-link" href="/ar/dolmus-reklamlari/">إعلانات الميني باص</a><a class="ud2h4-menu-link" href="/ar/otobus-reklam/">إعلانات الحافلات</a><a class="ud2h4-menu-link" href="/ar/acik-hava-reklamciligi/">الإعلانات الخارجية</a><a class="ud2h4-menu-link" href="/ar/taksi-reklamlari/">إعلانات التاكسي</a><a class="ud2h4-menu-link active" href="/ar/tramvay/">الترام</a><a class="ud2h4-menu-link" href="/ar/iconova-cadde-reklamlari/">إعلانات شارع أيكونوفا</a><a class="ud2h4-menu-link" href="/ar/havalimani-reklamlari/">إعلانات المطار</a><a class="ud2h4-menu-link" href="/ar/organize-sanayi-reklamlari/">إعلانات المنطقة الصناعية المنظمة</a><a class="ud2h4-menu-link" href="/ar/cadde-duvarlari-reklamlari/">إعلانات جدران الشوارع</a><a class="ud2h4-menu-link" href="/ar/bina-asansorleri-reklamlari/">إعلانات مصاعد المباني</a><a class="ud2h4-menu-link" href="/ar/belediye-otobusu-reklamlari/">إعلانات حافلات البلدية</a><a class="ud2h4-menu-link" href="/ar/halk-otobusu-reklamlari/">إعلانات حافلات النقل العام</a><a class="ud2h4-menu-link" href="/ar/dolmus-reklamlari-geveze/">إعلانات الميني باص (جيفيز)</a><a class="ud2h4-menu-link" href="/ar/tramvay-reklamlari-geveze/">إعلانات الترام (جيفيز)</a><a class="ud2h4-menu-link" href="/ar/taksi-reklamlari-geveze/">إعلانات التاكسي (جيفيز)</a><a class="ud2h4-menu-link" href="/ar/primemall-avm-reklamlari/">Primemall AVM Reklamları</a><a class="ud2h4-menu-link" href="/ar/forum-avm-reklamlari/">إعلانات فورم مول</a><a class="ud2h4-menu-link" href="/ar/sanko-park-avm-reklamlari/">Sanko Park AVM Reklamları</a><a class="ud2h4-menu-link" href="/ar/m1-avm-reklamlari/">إعلانات M1 مول</a><a class="ud2h4-menu-link" href="/ar/sinema-reklamlari/">إعلانات السينما</a><a class="ud2h4-menu-link" href="/ar/pano-reklamlari/">إعلانات لوحات الإعلانات</a><a class="ud2h4-menu-link" href="/ar/ozel-uygulama-billboard/">لوحة إعلانات التطبيق المخصص</a><a class="ud2h4-menu-link" href="/ar/universite-reklamlari/">إعلانات الجامعة</a></div>
-  <div class="ud2h4-desc">
+  <div class="qcp7k-menu"><a class="qcp7k-menu-link" href="/ar/asansor-reklamlari/">إعلانات المصاعد</a><a class="qcp7k-menu-link" href="/ar/dolmus-reklamlari/">إعلانات الميني باص</a><a class="qcp7k-menu-link" href="/ar/otobus-reklam/">إعلانات الحافلات</a><a class="qcp7k-menu-link" href="/ar/acik-hava-reklamciligi/">الإعلانات الخارجية</a><a class="qcp7k-menu-link" href="/ar/taksi-reklamlari/">إعلانات التاكسي</a><a class="qcp7k-menu-link active" href="/ar/tramvay/">الترام</a><a class="qcp7k-menu-link" href="/ar/iconova-cadde-reklamlari/">إعلانات شارع أيكونوفا</a><a class="qcp7k-menu-link" href="/ar/havalimani-reklamlari/">إعلانات المطار</a><a class="qcp7k-menu-link" href="/ar/organize-sanayi-reklamlari/">إعلانات المنطقة الصناعية المنظمة</a><a class="qcp7k-menu-link" href="/ar/cadde-duvarlari-reklamlari/">إعلانات جدران الشوارع</a><a class="qcp7k-menu-link" href="/ar/bina-asansorleri-reklamlari/">إعلانات مصاعد المباني</a><a class="qcp7k-menu-link" href="/ar/belediye-otobusu-reklamlari/">إعلانات حافلات البلدية</a><a class="qcp7k-menu-link" href="/ar/halk-otobusu-reklamlari/">إعلانات حافلات النقل العام</a><a class="qcp7k-menu-link" href="/ar/dolmus-reklamlari-geveze/">إعلانات الميني باص (جيفيز)</a><a class="qcp7k-menu-link" href="/ar/tramvay-reklamlari-geveze/">إعلانات الترام (جيفيز)</a><a class="qcp7k-menu-link" href="/ar/taksi-reklamlari-geveze/">إعلانات التاكسي (جيفيز)</a><a class="qcp7k-menu-link" href="/ar/primemall-avm-reklamlari/">إعلانات برايم مول</a><a class="qcp7k-menu-link" href="/ar/forum-avm-reklamlari/">إعلانات فورم مول</a><a class="qcp7k-menu-link" href="/ar/sanko-park-avm-reklamlari/">Sanko Park AVM Reklamları</a><a class="qcp7k-menu-link" href="/ar/m1-avm-reklamlari/">إعلانات M1 مول</a><a class="qcp7k-menu-link" href="/ar/sinema-reklamlari/">إعلانات السينما</a><a class="qcp7k-menu-link" href="/ar/pano-reklamlari/">إعلانات لوحات الإعلانات</a><a class="qcp7k-menu-link" href="/ar/ozel-uygulama-billboard/">لوحة إعلانات التطبيق المخصص</a><a class="qcp7k-menu-link" href="/ar/universite-reklamlari/">إعلانات الجامعة</a></div>
+  <div class="qcp7k-desc">
     
-    <div class="ud2h4-desc-body">
-            <img src="/page/guq270l7s1/yipp4.png?v=e4hlb" width="100%" alt="الترام" loading="lazy" />
+    <div class="qcp7k-desc-body">
+            <img src="/page/guq270l7s1/yipp4.png?v=oqtp1" width="100%" alt="الترام" loading="lazy" />
     </div>
-    <div class="ud2h4-body"></div>
+    <div class="qcp7k-body"><p><h2 style="font-size: 28px; color: #0f70b7; margin-bottom: 20px;">إعلانات الترام غازي عنتاب - الرؤية في النقل العام الحديث</h2></p>
+<p>    <p style="font-size: 16px; line-height: 1.8; margin-bottom: 15px;"></p>
+<p>        إعلانات الترام هي وسيط إعلاني متميز يقدم علامتك التجارية لآلاف الركاب وسكان المدينة في أنظمة النقل الحضري الحديثة. كأجانس موبيل، نقدم خدمات تغليف مركبات الترام وإعلانات محطات الترام وإعلانات داخل الترام في غازي عنتاب لمدة 15 عاماً. لدينا مساحات إعلانية استراتيجية على خطوط الترام التي تديرها بلدية غازي عنتاب الكبرى، في المحطات الحديثة وداخل المركبات. نعظم رؤية علامتك التجارية مع الترام المستخدم من قبل عشرات الآلاف من الأشخاص يومياً، ويمر عبر أكثر الطرق مركزية في المدينة.</p>
+<p>    </p></p>
+<p>    <p style="font-size: 16px; line-height: 1.8; margin-bottom: 15px;"></p>
+<p>        نظام الترام في غازي عنتاب يخدم على خط استراتيجي يصل من وسط المدينة إلى المنطقة الصناعية المنظمة والحرم الجامعي والمناطق السكنية. الترام، الذي يُستخدم بكثافة من قبل الطلاب والعمال وسكان المدينة خاصة خلال ساعات الصباح والمساء، يقدم فرصة الوصول إلى ديموغرافيا واسعة من جميع الأعمار ومجموعات الدخل. مستخدمو الترام هم عموماً ركاب منتظمون؛ هذا يتيح لعلامتك التجارية الوصول إلى نفس الأشخاص بشكل متكرر ويزيد من قابلية تذكر العلامة التجارية.</p>
+<p>    </p></p>
+<p>    <p style="font-size: 16px; line-height: 1.8; margin-bottom: 15px;"></p>
+<p>        ننشئ لوحة إعلانات متحركة ضخمة من خلال تغطية الأسطح الخارجية لمركبات الترام بالهوية البصرية لعلامتك التجارية مع خدمة تغليف الترام (تغليف كامل/نصف). مركبات الترام بطول 30-40 متر تُرى من قبل آلاف الأشخاص أثناء مرورها عبر أكثر شوارع المدينة ازدحاماً. تبرز من منافسيك وتنشئ صورة علامة تجارية لا تُنسى مع التصاميم البانورامية والمفاهيم الإبداعية والتأثيرات ثلاثية الأبعاد. ننتج إعلانات طويلة الأمد باستخدام مواد رقائق الترام عالية الجودة والحماية من الأشعة فوق البنفسجية ومقاومة الطقس.</p>
+<p>    </p></p>
+<p>    <p style="font-size: 16px; line-height: 1.8; margin-bottom: 15px;"></p>
+<p>        نجذب الانتباه الكامل لعلامتك التجارية خلال لحظات انتظار الركاب مع إعلانات محطة الترام. ننظم حملات إعلانية متعددة الجوانب مع الشاشات LED الرقمية والملصقات المضيئة والرسوم الجدارية والبانرات المعلقة من السقف الموجودة في منصات المحطات. متوسط وقت الانتظار في المحطات هو 5-10 دقائق؛ خلال هذا الوقت، يفحص الركاب البيئة ويظهرون انتباهاً عالياً للإعلانات. بالإضافة إلى ذلك، البيئة النظيفة والحديثة والجمالية للمحطات تضمن أن علامتك التجارية تُذكر بصورة متميزة.</p>
+<p>    </p></p>
+<p>    <p style="font-size: 16px; line-height: 1.8; margin-bottom: 15px;"></p>
+<p>        نقدم رسائل مباشرة للركاب مع إعلانات داخل الترام. هناك نقاط إعلانية عديدة داخل الترام مع ملصقات الجدران والبطاقات المعلقة من السقف وإعلانات أعلى المقاعد والشاشات الرقمية. الركاب يبقون في الترام لمتوسط 20-30 دقيقة ويظهرون اهتماماً مكثفاً بالإعلانات الداخلية خلال هذا الوقت. المؤسسات التعليمية والعلامات التجارية التكنولوجية وسلاسل التجزئة وخدمات الصحة والمؤسسات المالية تحصل على عوائد عالية من إعلانات الترام. إعلانات الترام خاصة تتيح لك الوصول إلى جمهور شاب ومتعلم وحضري وواعي بيئياً. حزم حملاتنا تشمل خيارات شهر واحد و3 أشهر و6 أشهر وسنوية. نقدم خدمات التصميم والطباعة والتركيب وتصاريح البلدية والصيانة الدورية كحزمة كاملة. نوفر أكثر الحلول ميزة في إعلانات الترام بفضل خبرتنا التي تبلغ 15 عاماً وعلاقاتنا القوية مع بلدية غازي عنتاب الكبرى. اتصل بنا فوراً لجعل علامتك التجارية مرئية في النقل العام الحديث.</p>
+<p>    </p></p></div>
   </div>
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".ud2h4-menu-btn");
+  const menuToggleBtn = document.querySelector(".qcp7k-menu-btn");
   if (menuToggleBtn) {
     menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".ud2h4-menu");
+      const menu = document.querySelector(".qcp7k-menu");
       if (!menu) return;
       const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".ud2h4-icon");
+      const icon = this.querySelector(".qcp7k-icon");
       if (icon) {
         icon.textContent = isOpen ? "close" : "menu";
       }
     });
   }
 
-  document.querySelectorAll(".ud2h4-top").forEach(function (button) {
+  document.querySelectorAll(".qcp7k-top").forEach(function (button) {
     button.addEventListener("click", function () {
-      const group = this.closest(".ud2h4-menu-group");
+      const group = this.closest(".qcp7k-menu-group");
       if (!group) return;
-      const sub = group.querySelector(".ud2h4-sub");
+      const sub = group.querySelector(".qcp7k-sub");
       const isOpen = group.classList.toggle("open");
       this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".ud2h4-icon");
+      const icon = this.querySelector(".qcp7k-icon");
       if (icon) {
         icon.textContent = isOpen ? "expand_less" : "expand_more";
       }
@@ -146,9 +197,9 @@
 </script>
 
 </div>
-  <div id="footer"><div class="wa-advanced" id="kklaiWaAdvanced">
-  <div class="kklai-wa-advanced-button" onclick="toggleModulexAdvanced()">
-    <div class="kklai-wa-advanced-icon">
+  <div id="footer"><div class="wa-advanced" id="prabtWaAdvanced">
+  <div class="prabt-wa-advanced-button" onclick="toggleModulexAdvanced()">
+    <div class="prabt-wa-advanced-icon">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
         <path
           d="M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z"
@@ -156,39 +207,39 @@
         ></path>
       </svg>
     </div>
-    <div class="kklai-wa-advanced-pulse"></div>
+    <div class="prabt-wa-advanced-pulse"></div>
   </div>
 
-  <div class="kklai-wa-advanced-panel" id="kklaiWaPanel">
-    <div class="kklai-wa-advanced-header">
-      <div class="kklai-wa-advanced-avatar">
-        <img src="/img/pjkf5g/logo.png?v=e4hlb" alt="Support Agent"  loading="lazy"/>
-        <div class="kklai-wa-advanced-status online"></div>
+  <div class="prabt-wa-advanced-panel" id="prabtWaPanel">
+    <div class="prabt-wa-advanced-header">
+      <div class="prabt-wa-advanced-avatar">
+        <img src="/img/pjkf5g/logo.png?v=oqtp1" alt="Support Agent"  loading="lazy"/>
+        <div class="prabt-wa-advanced-status online"></div>
       </div>
-      <div class="kklai-wa-advanced-info">
+      <div class="prabt-wa-advanced-info">
         <h4>دعم العملاء</h4>
         <p>متصل الآن</p>
       </div>
       <button
-        class="kklai-wa-advanced-close"
+        class="prabt-wa-advanced-close"
         onclick="closeModulexAdvanced()"
       >
         ×
       </button>
     </div>
 
-    <div class="kklai-wa-advanced-body">
-      <div class="kklai-wa-advanced-message">
+    <div class="prabt-wa-advanced-body">
+      <div class="prabt-wa-advanced-message">
         <p>مرحباً! كيف يمكنني مساعدتك؟</p>
-        <span class="kklai-wa-advanced-time">الآن</span>
+        <span class="prabt-wa-advanced-time">الآن</span>
       </div>
     </div>
 
-    <div class="kklai-wa-advanced-footer">
+    <div class="prabt-wa-advanced-footer">
       <a
         href="https://wa.me/905316791014"
         target="_blank"
-        class="kklai-wa-advanced-chat-btn"
+        class="prabt-wa-advanced-chat-btn"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -212,12 +263,12 @@
 
 <script>
   function toggleModulexAdvanced() {
-    const panel = document.getElementById("kklaiWaPanel");
+    const panel = document.getElementById("prabtWaPanel");
     panel.style.display = panel.style.display === "block" ? "none" : "block";
   }
 
   function closeModulexAdvanced() {
-    document.getElementById("kklaiWaPanel").style.display = "none";
+    document.getElementById("prabtWaPanel").style.display = "none";
   }
 </script>
 <footer class="footer">
@@ -275,8 +326,8 @@
 <meta name="google-site-verification" content="9UY_kGQb1IGXMFMd4tQHzXABrXhZG-SiJ_lXYjWE69M" />
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=e4hlb"></script>
-<script defer src="/src/cookie.js?v=e4hlb"></script>
+<script defer type="text/javascript" src="/src/js.js?v=oqtp1"></script>
+<script defer src="/src/cookie.js?v=oqtp1"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

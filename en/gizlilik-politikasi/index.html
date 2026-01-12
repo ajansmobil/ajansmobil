@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=hgppt" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=hgppt" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=ln8f3" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=ln8f3" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=hgppt" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=ln8f3" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,86 +52,145 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=hgppt">
+<link rel="stylesheet" href="style.css?v=ln8f3">
 </head>
 
 <body>
-  <div id="header"><div class="wlrrp">
-  <div class="wlrrptitle">
-    <div class="wlrrptitlebody">
-     
-      <div class="wlrrptitlebodylang">
-        <ul>
-          <li><a href="/tr/gizlilik-politikasi/">tr</a></li><li><a href="/en/gizlilik-politikasi/">en</a></li><li><a href="/ar/gizlilik-politikasi/">ar</a></li>
+  <div id="header"><header class="ozjtg" role="banner">
+  <div class="ozjtgtitle" role="region" aria-label="Language Selector">
+    <div class="ozjtgtitlebody">
+      <nav class="ozjtgtitlebodylang" aria-label="Language Selector">
+        <ul role="list">
+          <li role="none"><a href="/tr/gizlilik-politikasi/" hreflang="tr" title="true" aria-label="Language Selector: tr" lang="tr">tr</a></li><li role="none"><a href="/en/gizlilik-politikasi/" hreflang="en" aria-current="true" title="true" aria-label="Language Selector: en" lang="en">en</a></li><li role="none"><a href="/ar/gizlilik-politikasi/" hreflang="ar" title="true" aria-label="Language Selector: ar" lang="ar">ar</a></li>
         </ul>
-      </div>
+      </nav>
     </div>
   </div>
-  <div class="wlrrpChildren">
-    <div class="wlrrpbody">
-      <a href="/en/"><img src="/img/logo.svg?v=hgppt" class="wlrrpbodylogo" alt="Ajans Mobil Gaziantep Logo" loading="lazy" /></a>
+  <div class="ozjtgChildren">
+    <div class="ozjtgbody">
+      <a href="/en/" aria-label="Home - Ajans Mobil Gaziantep" title="Home - Ajans Mobil Gaziantep">
+        <img src="/img/logo.svg?v=ln8f3" class="ozjtgbodylogo" alt="Ajans Mobil Gaziantep Logo" width="auto" height="auto" loading="lazy" />
+      </a>
     </div>
-    <div class="wlrrpmenumobil">
-      <div class="material-symbols-outlined" aria-hidden="true">menu</div>
-    </div>
-    <div class="wlrrpmenulist">
-      <ul>
-        <a href="/en/" class="wlrrpmenuitem">Home </a><a href="/en/hakkimizda/" class="wlrrpmenuitem">Corporate</a><a href="/en/hizmetlerimiz/" class="wlrrpmenuitem">Our Digital Services</a><a href="/en/acik-hava-hizmetlerimiz/" class="wlrrpmenuitem">Our Outdoor Services</a><a href="/en/iletisim/" class="wlrrpmenuitem">Contact</a>
+    <button class="ozjtgmenumobil" type="button" aria-label="Toggle Menu" aria-expanded="false" aria-controls="ozjtgmenulist">
+      <span class="material-symbols-outlined" aria-hidden="true">menu</span>
+    </button>
+    <nav class="ozjtgmenulist" id="ozjtgmenulist" role="navigation" aria-label="Navigation">
+      <ul role="menubar">
+        <a href="/en/" class="ozjtgmenuitem" role="menuitem" title="Home - " aria-label="Home">Home</a><a href="/en/hakkimizda/" class="ozjtgmenuitem" role="menuitem" title="Corporate" aria-label="Corporate">Corporate</a><a href="/en/hizmetlerimiz/" class="ozjtgmenuitem" role="menuitem" title="Our Digital Services" aria-label="Our Digital Services">Our Digital Services</a><a href="/en/acik-hava-hizmetlerimiz/" class="ozjtgmenuitem" role="menuitem" title="Our Outdoor Services" aria-label="Our Outdoor Services">Our Outdoor Services</a><a href="/en/iletisim/" class="ozjtgmenuitem" role="menuitem" title="Contact" aria-label="Contact">Contact</a>
       </ul>
-    </div>
+    </nav>
   </div>
-</div>
+</header>
 
 <script>
-  document
-    .querySelector(".wlrrpmenumobil")
-    .addEventListener("click", function () {
-      const menu = document.querySelector(".wlrrpmenulist");
-      if (menu.style.display === "flex") {
-        menu.style.display = "none";
-      } else {
-        menu.style.display = "flex";
-      }
-    });
+  setTimeout(function() {
+    var menuButton = document.querySelector(".ozjtgmenumobil");
+    var menu = document.querySelector(".ozjtgmenulist");
+    
+    if (menuButton && menu) {
+      // Tıklama eventi
+      menuButton.addEventListener("click", function () {
+        var isExpanded = menuButton.getAttribute("aria-expanded") === "true";
+        if (isExpanded) {
+          menu.style.display = "none";
+          menuButton.setAttribute("aria-expanded", "false");
+        } else {
+          menu.style.display = "flex";
+          menuButton.setAttribute("aria-expanded", "true");
+        }
+      });
+      
+      // Klavye navigasyonu (Enter ve Space)
+      menuButton.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          menuButton.click();
+        }
+      });
+      
+      // ESC tuşu ile menüyü kapat
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape" && menuButton.getAttribute("aria-expanded") === "true") {
+          menu.style.display = "none";
+          menuButton.setAttribute("aria-expanded", "false");
+          menuButton.focus();
+        }
+      });
+      
+      // Menü dışına tıklanınca kapat
+      document.addEventListener("click", function (e) {
+        if (menuButton.getAttribute("aria-expanded") === "true" && 
+            !menu.contains(e.target) && 
+            !menuButton.contains(e.target)) {
+          menu.style.display = "none";
+          menuButton.setAttribute("aria-expanded", "false");
+        }
+      });
+    }
+  }, 100);
 </script>
 </div>
-  <div id="content"><div class="uqent-title f36">
+  <div id="content"><div class="ue1vu-title f36">
   <h1>Privacy Policy</h1>
 </div>
-<div class="uqent">
-  <div class="uqent-menu-btn">
+<div class="ue1vu">
+  <div class="ue1vu-menu-btn">
     <span>Menu</span>
-    <span class="material-symbols-outlined uqent-icon">menu</span>
+    <span class="material-symbols-outlined ue1vu-icon">menu</span>
   </div>
-  <div class="uqent-menu"><a class="uqent-menu-link" href="/en/hakkimizda/">About Us</a><a class="uqent-menu-link" href="/en/misyon/">Mission</a><a class="uqent-menu-link" href="/en/vizyon/">Vision</a><a class="uqent-menu-link" href="/en/kalite-politikamiz/">Quality Policy</a><a class="uqent-menu-link active" href="/en/gizlilik-politikasi/">Privacy Policy</a><a class="uqent-menu-link" href="/en/kisisel-veriler-be2/">Personal Data</a><a class="uqent-menu-link" href="/en/kullanici-haklari/">User Rights</a><a class="uqent-menu-link" href="/en/yasal-uyari-mh6/">Legal Notice</a></div>
-  <div class="uqent-desc">
+  <div class="ue1vu-menu"><a class="ue1vu-menu-link" href="/en/hakkimizda/">About Us</a><a class="ue1vu-menu-link" href="/en/misyon/">Mission</a><a class="ue1vu-menu-link" href="/en/vizyon/">Vision</a><a class="ue1vu-menu-link" href="/en/kalite-politikamiz/">Quality Policy</a><a class="ue1vu-menu-link active" href="/en/gizlilik-politikasi/">Privacy Policy</a><a class="ue1vu-menu-link" href="/en/kisisel-veriler-be2/">Personal Data</a><a class="ue1vu-menu-link" href="/en/kullanici-haklari/">User Rights</a><a class="ue1vu-menu-link" href="/en/yasal-uyari-mh6/">Legal Notice</a></div>
+  <div class="ue1vu-desc">
     
-    <div class="uqent-body"></div>
+    <div class="ue1vu-body"><p><h2 style="font-size: 28px; color: #0f70b7; margin-bottom: 20px;">Privacy Policy</h2></p>
+<p>    <p style="font-size: 16px; line-height: 1.8; margin-bottom: 15px;"></p>
+<p>        As Ajans Mobil, the privacy and security of your personal data is our most important priority. This privacy policy explains how your personal data collected when you visit our website, use our services or contact us is processed, protected and used. We act as data controller in full compliance with Law No. 6698 on the Protection of Personal Data (KVKK) and relevant legislation provisions.</p>
+<p>    </p></p>
+<p>    <h3 style="font-size: 22px; color: #0f70b7; margin: 20px 0 15px;">Personal Data Collected</h3></p>
+<p>    <p style="font-size: 16px; line-height: 1.8; margin-bottom: 15px;"></p>
+<p>        When you visit our website and request services, the following personal data may be collected: Identity information (name, surname), contact information (email address, phone number, address), customer transaction information (service requests, quote information, contract information), financial information (invoice information, payment information), technical data (IP address, browser type, operating system, cookie data), marketing and communication preferences. This data is processed within the scope of service provision, customer relationship management, fulfillment of legal obligations and our legitimate interests.</p>
+<p>    </p></p>
+<p>    <h3 style="font-size: 22px; color: #0f70b7; margin: 20px 0 15px;">Purposes of Processing Personal Data</h3></p>
+<p>    <p style="font-size: 16px; line-height: 1.8; margin-bottom: 15px;"></p>
+<p>        Your collected personal data is processed for the following purposes: Provision of web design, digital marketing, SEO, social media management and outdoor advertising services; customer relationship management and communication; quote preparation and contract processes; invoicing and payment transactions; improvement of service quality and measurement of customer satisfaction; fulfillment of legal obligations; execution of marketing and advertising activities (with your consent); website analytics and user experience improvement; security and fraud prevention. Your personal data is not used for purposes other than these and is not shared with third parties.</p>
+<p>    </p></p>
+<p>    <h3 style="font-size: 22px; color: #0f70b7; margin: 20px 0 15px;">Protection of Personal Data</h3></p>
+<p>    <p style="font-size: 16px; line-height: 1.8; margin-bottom: 15px;"></p>
+<p>        We take technical and administrative measures to ensure the security of your personal data. Secure connection is provided with SSL certificate, data is stored encrypted, firewalls are used against unauthorized access, regular backups are made and access authorization systems are implemented. Your data is stored on secure servers and within Turkey's borders. In case of data breach, notification will be made to the Personal Data Protection Authority within the legal period and relevant persons will be informed.</p>
+<p>    </p></p>
+<p>    <h3 style="font-size: 22px; color: #0f70b7; margin: 20px 0 15px;">Cookie Policy</h3></p>
+<p>    <p style="font-size: 16px; line-height: 1.8; margin-bottom: 15px;"></p>
+<p>        Cookies are used on our website to improve user experience and perform site analytics. Mandatory cookies are necessary for site functionality and cannot be disabled. Analytical cookies (Google Analytics) collect site usage statistics. Marketing cookies (with your consent) are used to offer personalized advertisements. You can manage or delete cookies from your browser settings.</p>
+<p>    </p></p>
+<p>    <h3 style="font-size: 22px; color: #0f70b7; margin: 20px 0 15px;">Your Rights</h3></p>
+<p>    <p style="font-size: 16px; line-height: 1.8; margin-bottom: 15px;"></p>
+<p>        Within the scope of KVKK, you have the following rights regarding your personal data: Learning whether your personal data is processed, requesting information if processed, learning the processing purpose and whether it is used in accordance with the purpose, knowing third parties to whom it is transferred domestically or abroad, requesting correction if processed incompletely or incorrectly, requesting deletion or destruction within the framework of conditions foreseen in KVKK, requesting notification of correction, deletion and destruction operations to shared third parties, objecting to a result arising against you due to being analyzed exclusively with automatic systems, requesting compensation for damage if you suffer damage due to unlawful processing. You can make a written application to info@ajansmobil.com to exercise these rights.</p>
+<p>    </p></p></div>
   </div>
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".uqent-menu-btn");
+  const menuToggleBtn = document.querySelector(".ue1vu-menu-btn");
   if (menuToggleBtn) {
     menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".uqent-menu");
+      const menu = document.querySelector(".ue1vu-menu");
       if (!menu) return;
       const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".uqent-icon");
+      const icon = this.querySelector(".ue1vu-icon");
       if (icon) {
         icon.textContent = isOpen ? "close" : "menu";
       }
     });
   }
 
-  document.querySelectorAll(".uqent-top").forEach(function (button) {
+  document.querySelectorAll(".ue1vu-top").forEach(function (button) {
     button.addEventListener("click", function () {
-      const group = this.closest(".uqent-menu-group");
+      const group = this.closest(".ue1vu-menu-group");
       if (!group) return;
-      const sub = group.querySelector(".uqent-sub");
+      const sub = group.querySelector(".ue1vu-sub");
       const isOpen = group.classList.toggle("open");
       this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".uqent-icon");
+      const icon = this.querySelector(".ue1vu-icon");
       if (icon) {
         icon.textContent = isOpen ? "expand_less" : "expand_more";
       }
@@ -143,9 +202,9 @@
 </script>
 
 </div>
-  <div id="footer"><div class="wa-advanced" id="swst2WaAdvanced">
-  <div class="swst2-wa-advanced-button" onclick="toggleModulexAdvanced()">
-    <div class="swst2-wa-advanced-icon">
+  <div id="footer"><div class="wa-advanced" id="i29oqWaAdvanced">
+  <div class="i29oq-wa-advanced-button" onclick="toggleModulexAdvanced()">
+    <div class="i29oq-wa-advanced-icon">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
         <path
           d="M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z"
@@ -153,39 +212,39 @@
         ></path>
       </svg>
     </div>
-    <div class="swst2-wa-advanced-pulse"></div>
+    <div class="i29oq-wa-advanced-pulse"></div>
   </div>
 
-  <div class="swst2-wa-advanced-panel" id="swst2WaPanel">
-    <div class="swst2-wa-advanced-header">
-      <div class="swst2-wa-advanced-avatar">
-        <img src="/img/pjkf5g/logo.png?v=hgppt" alt="Support Agent"  loading="lazy"/>
-        <div class="swst2-wa-advanced-status online"></div>
+  <div class="i29oq-wa-advanced-panel" id="i29oqWaPanel">
+    <div class="i29oq-wa-advanced-header">
+      <div class="i29oq-wa-advanced-avatar">
+        <img src="/img/pjkf5g/logo.png?v=ln8f3" alt="Support Agent"  loading="lazy"/>
+        <div class="i29oq-wa-advanced-status online"></div>
       </div>
-      <div class="swst2-wa-advanced-info">
+      <div class="i29oq-wa-advanced-info">
         <h4>Customer Support</h4>
         <p>Currently online</p>
       </div>
       <button
-        class="swst2-wa-advanced-close"
+        class="i29oq-wa-advanced-close"
         onclick="closeModulexAdvanced()"
       >
         ×
       </button>
     </div>
 
-    <div class="swst2-wa-advanced-body">
-      <div class="swst2-wa-advanced-message">
+    <div class="i29oq-wa-advanced-body">
+      <div class="i29oq-wa-advanced-message">
         <p>Hello! How can I help you?</p>
-        <span class="swst2-wa-advanced-time">Now</span>
+        <span class="i29oq-wa-advanced-time">Now</span>
       </div>
     </div>
 
-    <div class="swst2-wa-advanced-footer">
+    <div class="i29oq-wa-advanced-footer">
       <a
         href="https://wa.me/905316791014"
         target="_blank"
-        class="swst2-wa-advanced-chat-btn"
+        class="i29oq-wa-advanced-chat-btn"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -209,12 +268,12 @@
 
 <script>
   function toggleModulexAdvanced() {
-    const panel = document.getElementById("swst2WaPanel");
+    const panel = document.getElementById("i29oqWaPanel");
     panel.style.display = panel.style.display === "block" ? "none" : "block";
   }
 
   function closeModulexAdvanced() {
-    document.getElementById("swst2WaPanel").style.display = "none";
+    document.getElementById("i29oqWaPanel").style.display = "none";
   }
 </script>
 <footer class="footer">
@@ -272,8 +331,8 @@
 <meta name="google-site-verification" content="9UY_kGQb1IGXMFMd4tQHzXABrXhZG-SiJ_lXYjWE69M" />
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=hgppt"></script>
-<script defer src="/src/cookie.js?v=hgppt"></script>
+<script defer type="text/javascript" src="/src/js.js?v=ln8f3"></script>
+<script defer src="/src/cookie.js?v=ln8f3"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

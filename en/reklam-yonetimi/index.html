@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=zbau1" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=zbau1" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=nzy8g" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=nzy8g" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=zbau1" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=nzy8g" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,64 +52,100 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=zbau1">
+<link rel="stylesheet" href="style.css?v=nzy8g">
 </head>
 
 <body>
-  <div id="header"><div class="efx6d">
-  <div class="efx6dtitle">
-    <div class="efx6dtitlebody">
-     
-      <div class="efx6dtitlebodylang">
-        <ul>
-          <li><a href="/tr/reklam-yonetimi/">tr</a></li><li><a href="/en/reklam-yonetimi/">en</a></li><li><a href="/ar/reklam-yonetimi/">ar</a></li>
+  <div id="header"><header class="t7dxm" role="banner">
+  <div class="t7dxmtitle" role="region" aria-label="Language Selector">
+    <div class="t7dxmtitlebody">
+      <nav class="t7dxmtitlebodylang" aria-label="Language Selector">
+        <ul role="list">
+          <li role="none"><a href="/tr/reklam-yonetimi/" hreflang="tr" title="true" aria-label="Language Selector: tr" lang="tr">tr</a></li><li role="none"><a href="/en/reklam-yonetimi/" hreflang="en" aria-current="true" title="true" aria-label="Language Selector: en" lang="en">en</a></li><li role="none"><a href="/ar/reklam-yonetimi/" hreflang="ar" title="true" aria-label="Language Selector: ar" lang="ar">ar</a></li>
         </ul>
-      </div>
+      </nav>
     </div>
   </div>
-  <div class="efx6dChildren">
-    <div class="efx6dbody">
-      <a href="/en/"><img src="/img/logo.svg?v=zbau1" class="efx6dbodylogo" alt="Ajans Mobil Gaziantep Logo" loading="lazy" /></a>
+  <div class="t7dxmChildren">
+    <div class="t7dxmbody">
+      <a href="/en/" aria-label="Home - Ajans Mobil Gaziantep" title="Home - Ajans Mobil Gaziantep">
+        <img src="/img/logo.svg?v=nzy8g" class="t7dxmbodylogo" alt="Ajans Mobil Gaziantep Logo" width="auto" height="auto" loading="lazy" />
+      </a>
     </div>
-    <div class="efx6dmenumobil">
-      <div class="material-symbols-outlined" aria-hidden="true">menu</div>
-    </div>
-    <div class="efx6dmenulist">
-      <ul>
-        <a href="/en/" class="efx6dmenuitem">Home </a><a href="/en/hakkimizda/" class="efx6dmenuitem">Corporate</a><a href="/en/hizmetlerimiz/" class="efx6dmenuitem">Our Digital Services</a><a href="/en/acik-hava-hizmetlerimiz/" class="efx6dmenuitem">Our Outdoor Services</a><a href="/en/iletisim/" class="efx6dmenuitem">Contact</a>
+    <button class="t7dxmmenumobil" type="button" aria-label="Toggle Menu" aria-expanded="false" aria-controls="t7dxmmenulist">
+      <span class="material-symbols-outlined" aria-hidden="true">menu</span>
+    </button>
+    <nav class="t7dxmmenulist" id="t7dxmmenulist" role="navigation" aria-label="Navigation">
+      <ul role="menubar">
+        <a href="/en/" class="t7dxmmenuitem" role="menuitem" title="Home - " aria-label="Home">Home</a><a href="/en/hakkimizda/" class="t7dxmmenuitem" role="menuitem" title="Corporate" aria-label="Corporate">Corporate</a><a href="/en/hizmetlerimiz/" class="t7dxmmenuitem" role="menuitem" title="Our Digital Services" aria-label="Our Digital Services">Our Digital Services</a><a href="/en/acik-hava-hizmetlerimiz/" class="t7dxmmenuitem" role="menuitem" title="Our Outdoor Services" aria-label="Our Outdoor Services">Our Outdoor Services</a><a href="/en/iletisim/" class="t7dxmmenuitem" role="menuitem" title="Contact" aria-label="Contact">Contact</a>
       </ul>
-    </div>
+    </nav>
   </div>
-</div>
+</header>
 
 <script>
-  document
-    .querySelector(".efx6dmenumobil")
-    .addEventListener("click", function () {
-      const menu = document.querySelector(".efx6dmenulist");
-      if (menu.style.display === "flex") {
-        menu.style.display = "none";
-      } else {
-        menu.style.display = "flex";
-      }
-    });
+  setTimeout(function() {
+    var menuButton = document.querySelector(".t7dxmmenumobil");
+    var menu = document.querySelector(".t7dxmmenulist");
+    
+    if (menuButton && menu) {
+      // Tıklama eventi
+      menuButton.addEventListener("click", function () {
+        var isExpanded = menuButton.getAttribute("aria-expanded") === "true";
+        if (isExpanded) {
+          menu.style.display = "none";
+          menuButton.setAttribute("aria-expanded", "false");
+        } else {
+          menu.style.display = "flex";
+          menuButton.setAttribute("aria-expanded", "true");
+        }
+      });
+      
+      // Klavye navigasyonu (Enter ve Space)
+      menuButton.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          menuButton.click();
+        }
+      });
+      
+      // ESC tuşu ile menüyü kapat
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape" && menuButton.getAttribute("aria-expanded") === "true") {
+          menu.style.display = "none";
+          menuButton.setAttribute("aria-expanded", "false");
+          menuButton.focus();
+        }
+      });
+      
+      // Menü dışına tıklanınca kapat
+      document.addEventListener("click", function (e) {
+        if (menuButton.getAttribute("aria-expanded") === "true" && 
+            !menu.contains(e.target) && 
+            !menuButton.contains(e.target)) {
+          menu.style.display = "none";
+          menuButton.setAttribute("aria-expanded", "false");
+        }
+      });
+    }
+  }, 100);
 </script>
 </div>
-  <div id="content"><div class="m4bwr-title f36">
+  <div id="content"><div class="zn121-title f36">
   <h1>Advertising Management</h1>
 </div>
-<div class="m4bwr">
-  <div class="m4bwr-menu-btn">
+<div class="zn121">
+  <div class="zn121-menu-btn">
     <span>Menu</span>
-    <span class="material-symbols-outlined m4bwr-icon">menu</span>
+    <span class="material-symbols-outlined zn121-icon">menu</span>
   </div>
-  <div class="m4bwr-menu"><a class="m4bwr-menu-link" href="/en/web-tasarim/">Web Design</a><a class="m4bwr-menu-link active" href="/en/reklam-yonetimi/">Reklam Yönetimi</a><a class="m4bwr-menu-link" href="/en/seo-hizmeti/">SEO Service</a><a class="m4bwr-menu-link" href="/en/sosyal-media/">Social Media</a><a class="m4bwr-menu-link" href="/en/fotograf-cekimi/">Photography</a></div>
-  <div class="m4bwr-desc">
+  <div class="zn121-menu"><a class="zn121-menu-link" href="/en/web-tasarim/">Web Design</a><a class="zn121-menu-link active" href="/en/reklam-yonetimi/">Advertising Management</a><a class="zn121-menu-link" href="/en/seo-hizmeti/">SEO Service</a><a class="zn121-menu-link" href="/en/sosyal-media/">Social Media</a><a class="zn121-menu-link" href="/en/fotograf-cekimi/">Photography</a></div>
+  <div class="zn121-desc">
     
-    <div class="m4bwr-desc-body">
-            <img src="/page/atv4542pic/va4tn.png?v=zbau1" width="100%" alt="Advertising Management" loading="lazy" />
+    <div class="zn121-desc-body">
+            <img src="/page/atv4542pic/va4tn.png?v=nzy8g" width="100%" alt="Advertising Management" loading="lazy" />
     </div>
-    <div class="m4bwr-body"><p><h2 style="font-size: 28px; color: #0f70b7; margin-bottom: 20px;">Professional Advertising Management - Google Ads & Social Media Ads</h2></p>
+    <div class="zn121-body"><p><h2 style="font-size: 28px; color: #0f70b7; margin-bottom: 20px;">Professional Advertising Management - Google Ads & Social Media Ads</h2></p>
 <p>    <p style="font-size: 16px; line-height: 1.8; margin-bottom: 15px;"></p>
 <p>        As Ajans Mobil, we have been providing professional digital advertising management services in Gaziantep for 15 years. We increase your business's sales and brand awareness with our expert team in Google Ads (Google AdWords), Facebook Ads, Instagram Ads, LinkedIn Ads and YouTube advertisements. Our digital marketing experts with Google Partner certification ensure your advertising budget is used most efficiently by designing ROI (Return on Investment) focused campaigns.</p>
 <p>    </p></p>
@@ -129,27 +165,27 @@
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".m4bwr-menu-btn");
+  const menuToggleBtn = document.querySelector(".zn121-menu-btn");
   if (menuToggleBtn) {
     menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".m4bwr-menu");
+      const menu = document.querySelector(".zn121-menu");
       if (!menu) return;
       const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".m4bwr-icon");
+      const icon = this.querySelector(".zn121-icon");
       if (icon) {
         icon.textContent = isOpen ? "close" : "menu";
       }
     });
   }
 
-  document.querySelectorAll(".m4bwr-top").forEach(function (button) {
+  document.querySelectorAll(".zn121-top").forEach(function (button) {
     button.addEventListener("click", function () {
-      const group = this.closest(".m4bwr-menu-group");
+      const group = this.closest(".zn121-menu-group");
       if (!group) return;
-      const sub = group.querySelector(".m4bwr-sub");
+      const sub = group.querySelector(".zn121-sub");
       const isOpen = group.classList.toggle("open");
       this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".m4bwr-icon");
+      const icon = this.querySelector(".zn121-icon");
       if (icon) {
         icon.textContent = isOpen ? "expand_less" : "expand_more";
       }
@@ -161,9 +197,9 @@
 </script>
 
 </div>
-  <div id="footer"><div class="wa-advanced" id="imju5WaAdvanced">
-  <div class="imju5-wa-advanced-button" onclick="toggleModulexAdvanced()">
-    <div class="imju5-wa-advanced-icon">
+  <div id="footer"><div class="wa-advanced" id="qgx62WaAdvanced">
+  <div class="qgx62-wa-advanced-button" onclick="toggleModulexAdvanced()">
+    <div class="qgx62-wa-advanced-icon">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
         <path
           d="M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z"
@@ -171,39 +207,39 @@
         ></path>
       </svg>
     </div>
-    <div class="imju5-wa-advanced-pulse"></div>
+    <div class="qgx62-wa-advanced-pulse"></div>
   </div>
 
-  <div class="imju5-wa-advanced-panel" id="imju5WaPanel">
-    <div class="imju5-wa-advanced-header">
-      <div class="imju5-wa-advanced-avatar">
-        <img src="/img/pjkf5g/logo.png?v=zbau1" alt="Support Agent"  loading="lazy"/>
-        <div class="imju5-wa-advanced-status online"></div>
+  <div class="qgx62-wa-advanced-panel" id="qgx62WaPanel">
+    <div class="qgx62-wa-advanced-header">
+      <div class="qgx62-wa-advanced-avatar">
+        <img src="/img/pjkf5g/logo.png?v=nzy8g" alt="Support Agent"  loading="lazy"/>
+        <div class="qgx62-wa-advanced-status online"></div>
       </div>
-      <div class="imju5-wa-advanced-info">
+      <div class="qgx62-wa-advanced-info">
         <h4>Customer Support</h4>
         <p>Currently online</p>
       </div>
       <button
-        class="imju5-wa-advanced-close"
+        class="qgx62-wa-advanced-close"
         onclick="closeModulexAdvanced()"
       >
         ×
       </button>
     </div>
 
-    <div class="imju5-wa-advanced-body">
-      <div class="imju5-wa-advanced-message">
+    <div class="qgx62-wa-advanced-body">
+      <div class="qgx62-wa-advanced-message">
         <p>Hello! How can I help you?</p>
-        <span class="imju5-wa-advanced-time">Now</span>
+        <span class="qgx62-wa-advanced-time">Now</span>
       </div>
     </div>
 
-    <div class="imju5-wa-advanced-footer">
+    <div class="qgx62-wa-advanced-footer">
       <a
         href="https://wa.me/905316791014"
         target="_blank"
-        class="imju5-wa-advanced-chat-btn"
+        class="qgx62-wa-advanced-chat-btn"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -227,12 +263,12 @@
 
 <script>
   function toggleModulexAdvanced() {
-    const panel = document.getElementById("imju5WaPanel");
+    const panel = document.getElementById("qgx62WaPanel");
     panel.style.display = panel.style.display === "block" ? "none" : "block";
   }
 
   function closeModulexAdvanced() {
-    document.getElementById("imju5WaPanel").style.display = "none";
+    document.getElementById("qgx62WaPanel").style.display = "none";
   }
 </script>
 <footer class="footer">
@@ -290,8 +326,8 @@
 <meta name="google-site-verification" content="9UY_kGQb1IGXMFMd4tQHzXABrXhZG-SiJ_lXYjWE69M" />
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=zbau1"></script>
-<script defer src="/src/cookie.js?v=zbau1"></script>
+<script defer type="text/javascript" src="/src/js.js?v=nzy8g"></script>
+<script defer src="/src/cookie.js?v=nzy8g"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

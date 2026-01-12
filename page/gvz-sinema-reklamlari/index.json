@@ -15,9 +15,9 @@
     "ar": "إعلانات السينما غازي عنتاب، إعلانات قاعة السينما أجانس موبيل، إعلانات ما قبل الفيلم، إعلانات الجمهور المستهدف الشاب، إعلانات انتباه عالي"
   },
   "description": {
-    "tr": "Ajans Mobil sinema reklam hizmetleri. Film öncesi ve aralarda gösterilen reklamlar ile yüksek dikkat çekme. Genç ve dinamik kitleye ulaşmak için ideal reklam mecrası. Prestijli ve etkili marka görünürlüğü.",
-    "en": "Ajans Mobil cinema advertising services. High attention attraction with advertisements shown before films and during intervals. Ideal advertising medium for reaching young and dynamic audiences. Prestigious and effective brand visibility.",
-    "ar": "خدمات إعلانات السينما من أجانس موبيل. جذب انتباه عالي مع إعلانات تُعرض قبل الأفلام وأثناء الفواصل. وسيط إعلاني مثالي للوصول إلى جماهير شابة وديناميكية. رؤية علامة تجارية متميزة وفعالة."
+    "tr": "Ajans Mobil sinema reklam hizmetleri. Film öncesi ve aralarda gösterilen reklamlar ile yüksek dikkat çekme. Genç ve dinamik kitleye ulaşmak için ideal reklam mecrası.",
+    "en": "Ajans Mobil cinema advertising services. High attention attraction with advertisements shown before films and during intervals. Ideal advertising medium for reaching young and dynamic audiences.",
+    "ar": "خدمات إعلانات السينما من أجانس موبيل. جذب انتباه عالي مع إعلانات تُعرض قبل الأفلام وأثناء الفواصل. وسيط إعلاني مثالي للوصول إلى جماهير شابة وديناميكية."
   },
   "text": {
     "tr": "<h2 style=\"font-size: 24px;\">Sinema Reklam Alanları</h2>\n    <p style=\"font-size: 16px;\">\n        Sinema salonlarında gösterim öncesi veya aralarda reklam yayınlanır. Hedef kitle; gençler, aileler ve şehirdeki sosyal yaşamı takip edenlerdir.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Sinema reklamları, izleyicinin dikkatinin en yüksek olduğu anda gösterilir. Marka bilinirliği ve prestij için etkilidir. Hedef kitleye doğrudan ulaşım, yüksek etkileşim ve akılda kalıcılık sağlar.\n    </p>",
@@ -30,7 +30,7 @@
   "index": 0,
   "icon": "home",
   "desc": {},
-  "update": "2026-01-12T03:50:31.791Z",
+  "update": "2026-01-12T03:58:36.271Z",
   "date": "2025-01-07T00:00:00.000Z",
   "desing": {
     "header": [],

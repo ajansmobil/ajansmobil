@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=kl39p" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=kl39p" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=fad7c" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=fad7c" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=kl39p" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=fad7c" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,64 +52,100 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=kl39p">
+<link rel="stylesheet" href="style.css?v=fad7c">
 </head>
 
 <body>
-  <div id="header"><div class="xfqrw">
-  <div class="xfqrwtitle">
-    <div class="xfqrwtitlebody">
-     
-      <div class="xfqrwtitlebodylang">
-        <ul>
-          <li><a href="/tr/sosyal-media/">tr</a></li><li><a href="/en/sosyal-media/">en</a></li><li><a href="/ar/sosyal-media/">ar</a></li>
+  <div id="header"><header class="u1dev" role="banner">
+  <div class="u1devtitle" role="region" aria-label="Language Selector">
+    <div class="u1devtitlebody">
+      <nav class="u1devtitlebodylang" aria-label="Language Selector">
+        <ul role="list">
+          <li role="none"><a href="/tr/sosyal-media/" hreflang="tr" title="true" aria-label="Language Selector: tr" lang="tr">tr</a></li><li role="none"><a href="/en/sosyal-media/" hreflang="en" aria-current="true" title="true" aria-label="Language Selector: en" lang="en">en</a></li><li role="none"><a href="/ar/sosyal-media/" hreflang="ar" title="true" aria-label="Language Selector: ar" lang="ar">ar</a></li>
         </ul>
-      </div>
+      </nav>
     </div>
   </div>
-  <div class="xfqrwChildren">
-    <div class="xfqrwbody">
-      <a href="/en/"><img src="/img/logo.svg?v=kl39p" class="xfqrwbodylogo" alt="Ajans Mobil Gaziantep Logo" loading="lazy" /></a>
+  <div class="u1devChildren">
+    <div class="u1devbody">
+      <a href="/en/" aria-label="Home - Ajans Mobil Gaziantep" title="Home - Ajans Mobil Gaziantep">
+        <img src="/img/logo.svg?v=fad7c" class="u1devbodylogo" alt="Ajans Mobil Gaziantep Logo" width="auto" height="auto" loading="lazy" />
+      </a>
     </div>
-    <div class="xfqrwmenumobil">
-      <div class="material-symbols-outlined" aria-hidden="true">menu</div>
-    </div>
-    <div class="xfqrwmenulist">
-      <ul>
-        <a href="/en/" class="xfqrwmenuitem">Home </a><a href="/en/hakkimizda/" class="xfqrwmenuitem">Corporate</a><a href="/en/hizmetlerimiz/" class="xfqrwmenuitem">Our Digital Services</a><a href="/en/acik-hava-hizmetlerimiz/" class="xfqrwmenuitem">Our Outdoor Services</a><a href="/en/iletisim/" class="xfqrwmenuitem">Contact</a>
+    <button class="u1devmenumobil" type="button" aria-label="Toggle Menu" aria-expanded="false" aria-controls="u1devmenulist">
+      <span class="material-symbols-outlined" aria-hidden="true">menu</span>
+    </button>
+    <nav class="u1devmenulist" id="u1devmenulist" role="navigation" aria-label="Navigation">
+      <ul role="menubar">
+        <a href="/en/" class="u1devmenuitem" role="menuitem" title="Home - " aria-label="Home">Home</a><a href="/en/hakkimizda/" class="u1devmenuitem" role="menuitem" title="Corporate" aria-label="Corporate">Corporate</a><a href="/en/hizmetlerimiz/" class="u1devmenuitem" role="menuitem" title="Our Digital Services" aria-label="Our Digital Services">Our Digital Services</a><a href="/en/acik-hava-hizmetlerimiz/" class="u1devmenuitem" role="menuitem" title="Our Outdoor Services" aria-label="Our Outdoor Services">Our Outdoor Services</a><a href="/en/iletisim/" class="u1devmenuitem" role="menuitem" title="Contact" aria-label="Contact">Contact</a>
       </ul>
-    </div>
+    </nav>
   </div>
-</div>
+</header>
 
 <script>
-  document
-    .querySelector(".xfqrwmenumobil")
-    .addEventListener("click", function () {
-      const menu = document.querySelector(".xfqrwmenulist");
-      if (menu.style.display === "flex") {
-        menu.style.display = "none";
-      } else {
-        menu.style.display = "flex";
-      }
-    });
+  setTimeout(function() {
+    var menuButton = document.querySelector(".u1devmenumobil");
+    var menu = document.querySelector(".u1devmenulist");
+    
+    if (menuButton && menu) {
+      // Tıklama eventi
+      menuButton.addEventListener("click", function () {
+        var isExpanded = menuButton.getAttribute("aria-expanded") === "true";
+        if (isExpanded) {
+          menu.style.display = "none";
+          menuButton.setAttribute("aria-expanded", "false");
+        } else {
+          menu.style.display = "flex";
+          menuButton.setAttribute("aria-expanded", "true");
+        }
+      });
+      
+      // Klavye navigasyonu (Enter ve Space)
+      menuButton.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          menuButton.click();
+        }
+      });
+      
+      // ESC tuşu ile menüyü kapat
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape" && menuButton.getAttribute("aria-expanded") === "true") {
+          menu.style.display = "none";
+          menuButton.setAttribute("aria-expanded", "false");
+          menuButton.focus();
+        }
+      });
+      
+      // Menü dışına tıklanınca kapat
+      document.addEventListener("click", function (e) {
+        if (menuButton.getAttribute("aria-expanded") === "true" && 
+            !menu.contains(e.target) && 
+            !menuButton.contains(e.target)) {
+          menu.style.display = "none";
+          menuButton.setAttribute("aria-expanded", "false");
+        }
+      });
+    }
+  }, 100);
 </script>
 </div>
-  <div id="content"><div class="nt3lt-title f36">
+  <div id="content"><div class="sglsx-title f36">
   <h1>Social Media</h1>
 </div>
-<div class="nt3lt">
-  <div class="nt3lt-menu-btn">
+<div class="sglsx">
+  <div class="sglsx-menu-btn">
     <span>Menu</span>
-    <span class="material-symbols-outlined nt3lt-icon">menu</span>
+    <span class="material-symbols-outlined sglsx-icon">menu</span>
   </div>
-  <div class="nt3lt-menu"><a class="nt3lt-menu-link" href="/en/web-tasarim/">Web Design</a><a class="nt3lt-menu-link" href="/en/reklam-yonetimi/">Reklam Yönetimi</a><a class="nt3lt-menu-link" href="/en/seo-hizmeti/">SEO Service</a><a class="nt3lt-menu-link active" href="/en/sosyal-media/">Social Media</a><a class="nt3lt-menu-link" href="/en/fotograf-cekimi/">Photography</a></div>
-  <div class="nt3lt-desc">
+  <div class="sglsx-menu"><a class="sglsx-menu-link" href="/en/web-tasarim/">Web Design</a><a class="sglsx-menu-link" href="/en/reklam-yonetimi/">Advertising Management</a><a class="sglsx-menu-link" href="/en/seo-hizmeti/">SEO Service</a><a class="sglsx-menu-link active" href="/en/sosyal-media/">Social Media</a><a class="sglsx-menu-link" href="/en/fotograf-cekimi/">Photography</a></div>
+  <div class="sglsx-desc">
     
-    <div class="nt3lt-desc-body">
-            <img src="/page/w7pm6byfyq/cxfvs.png?v=kl39p" width="100%" alt="Social Media" loading="lazy" />
+    <div class="sglsx-desc-body">
+            <img src="/page/w7pm6byfyq/cxfvs.png?v=fad7c" width="100%" alt="Social Media" loading="lazy" />
     </div>
-    <div class="nt3lt-body"><p><h2 style="font-size: 28px; color: #0f70b7; margin-bottom: 20px;">Social Media Management - Grow Your Brand Digitally</h2></p>
+    <div class="sglsx-body"><p><h2 style="font-size: 28px; color: #0f70b7; margin-bottom: 20px;">Social Media Management - Grow Your Brand Digitally</h2></p>
 <p>    <p style="font-size: 16px; line-height: 1.8; margin-bottom: 15px;"></p>
 <p>        Social media is the channel where brands communicate most directly and effectively with their customers today. As Ajans Mobil, we have been providing professional social media management services in Gaziantep for 15 years. We strengthen your brand's digital presence on Instagram, Facebook, LinkedIn, Twitter, TikTok and YouTube platforms, increasing your follower count and engagement rates. Our experienced team is at your service to create social media strategies, prepare content calendars, design creative visuals and manage communities.</p>
 <p>    </p></p>
@@ -129,27 +165,27 @@
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".nt3lt-menu-btn");
+  const menuToggleBtn = document.querySelector(".sglsx-menu-btn");
   if (menuToggleBtn) {
     menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".nt3lt-menu");
+      const menu = document.querySelector(".sglsx-menu");
       if (!menu) return;
       const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".nt3lt-icon");
+      const icon = this.querySelector(".sglsx-icon");
       if (icon) {
         icon.textContent = isOpen ? "close" : "menu";
       }
     });
   }
 
-  document.querySelectorAll(".nt3lt-top").forEach(function (button) {
+  document.querySelectorAll(".sglsx-top").forEach(function (button) {
     button.addEventListener("click", function () {
-      const group = this.closest(".nt3lt-menu-group");
+      const group = this.closest(".sglsx-menu-group");
       if (!group) return;
-      const sub = group.querySelector(".nt3lt-sub");
+      const sub = group.querySelector(".sglsx-sub");
       const isOpen = group.classList.toggle("open");
       this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".nt3lt-icon");
+      const icon = this.querySelector(".sglsx-icon");
       if (icon) {
         icon.textContent = isOpen ? "expand_less" : "expand_more";
       }
@@ -161,9 +197,9 @@
 </script>
 
 </div>
-  <div id="footer"><div class="wa-advanced" id="ve4jzWaAdvanced">
-  <div class="ve4jz-wa-advanced-button" onclick="toggleModulexAdvanced()">
-    <div class="ve4jz-wa-advanced-icon">
+  <div id="footer"><div class="wa-advanced" id="cj9cpWaAdvanced">
+  <div class="cj9cp-wa-advanced-button" onclick="toggleModulexAdvanced()">
+    <div class="cj9cp-wa-advanced-icon">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
         <path
           d="M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z"
@@ -171,39 +207,39 @@
         ></path>
       </svg>
     </div>
-    <div class="ve4jz-wa-advanced-pulse"></div>
+    <div class="cj9cp-wa-advanced-pulse"></div>
   </div>
 
-  <div class="ve4jz-wa-advanced-panel" id="ve4jzWaPanel">
-    <div class="ve4jz-wa-advanced-header">
-      <div class="ve4jz-wa-advanced-avatar">
-        <img src="/img/pjkf5g/logo.png?v=kl39p" alt="Support Agent"  loading="lazy"/>
-        <div class="ve4jz-wa-advanced-status online"></div>
+  <div class="cj9cp-wa-advanced-panel" id="cj9cpWaPanel">
+    <div class="cj9cp-wa-advanced-header">
+      <div class="cj9cp-wa-advanced-avatar">
+        <img src="/img/pjkf5g/logo.png?v=fad7c" alt="Support Agent"  loading="lazy"/>
+        <div class="cj9cp-wa-advanced-status online"></div>
       </div>
-      <div class="ve4jz-wa-advanced-info">
+      <div class="cj9cp-wa-advanced-info">
         <h4>Customer Support</h4>
         <p>Currently online</p>
       </div>
       <button
-        class="ve4jz-wa-advanced-close"
+        class="cj9cp-wa-advanced-close"
         onclick="closeModulexAdvanced()"
       >
         ×
       </button>
     </div>
 
-    <div class="ve4jz-wa-advanced-body">
-      <div class="ve4jz-wa-advanced-message">
+    <div class="cj9cp-wa-advanced-body">
+      <div class="cj9cp-wa-advanced-message">
         <p>Hello! How can I help you?</p>
-        <span class="ve4jz-wa-advanced-time">Now</span>
+        <span class="cj9cp-wa-advanced-time">Now</span>
       </div>
     </div>
 
-    <div class="ve4jz-wa-advanced-footer">
+    <div class="cj9cp-wa-advanced-footer">
       <a
         href="https://wa.me/905316791014"
         target="_blank"
-        class="ve4jz-wa-advanced-chat-btn"
+        class="cj9cp-wa-advanced-chat-btn"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -227,12 +263,12 @@
 
 <script>
   function toggleModulexAdvanced() {
-    const panel = document.getElementById("ve4jzWaPanel");
+    const panel = document.getElementById("cj9cpWaPanel");
     panel.style.display = panel.style.display === "block" ? "none" : "block";
   }
 
   function closeModulexAdvanced() {
-    document.getElementById("ve4jzWaPanel").style.display = "none";
+    document.getElementById("cj9cpWaPanel").style.display = "none";
   }
 </script>
 <footer class="footer">
@@ -290,8 +326,8 @@
 <meta name="google-site-verification" content="9UY_kGQb1IGXMFMd4tQHzXABrXhZG-SiJ_lXYjWE69M" />
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=kl39p"></script>
-<script defer src="/src/cookie.js?v=kl39p"></script>
+<script defer type="text/javascript" src="/src/js.js?v=fad7c"></script>
+<script defer src="/src/cookie.js?v=fad7c"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

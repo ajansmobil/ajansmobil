@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=lte8x" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=lte8x" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=bdze1" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=bdze1" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=lte8x" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=bdze1" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,50 +52,86 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=lte8x">
+<link rel="stylesheet" href="style.css?v=bdze1">
 </head>
 
 <body>
-  <div id="header"><div class="vj7zm">
-  <div class="vj7zmtitle">
-    <div class="vj7zmtitlebody">
-     
-      <div class="vj7zmtitlebodylang">
-        <ul>
-          <li><a href="/tr/">tr</a></li><li><a href="/en/">en</a></li><li><a href="/ar/">ar</a></li>
+  <div id="header"><header class="lkvkj" role="banner">
+  <div class="lkvkjtitle" role="region" aria-label="محدد اللغة">
+    <div class="lkvkjtitlebody">
+      <nav class="lkvkjtitlebodylang" aria-label="محدد اللغة">
+        <ul role="list">
+          <li role="none"><a href="/tr/" hreflang="tr" title="true" aria-label="محدد اللغة: tr" lang="tr">tr</a></li><li role="none"><a href="/en/" hreflang="en" title="true" aria-label="محدد اللغة: en" lang="en">en</a></li><li role="none"><a href="/ar/" hreflang="ar" aria-current="true" title="true" aria-label="محدد اللغة: ar" lang="ar">ar</a></li>
         </ul>
-      </div>
+      </nav>
     </div>
   </div>
-  <div class="vj7zmChildren">
-    <div class="vj7zmbody">
-      <a href="/ar/"><img src="/img/logo.svg?v=lte8x" class="vj7zmbodylogo" alt="Ajans Mobil Gaziantep Logo" loading="lazy" /></a>
+  <div class="lkvkjChildren">
+    <div class="lkvkjbody">
+      <a href="/ar/" aria-label="الصفحة الرئيسية - Ajans Mobil Gaziantep" title="الصفحة الرئيسية - Ajans Mobil Gaziantep">
+        <img src="/img/logo.svg?v=bdze1" class="lkvkjbodylogo" alt="Ajans Mobil Gaziantep Logo" width="auto" height="auto" loading="lazy" />
+      </a>
     </div>
-    <div class="vj7zmmenumobil">
-      <div class="material-symbols-outlined" aria-hidden="true">menu</div>
-    </div>
-    <div class="vj7zmmenulist">
-      <ul>
-        <a href="/ar/" class="vj7zmmenuitem">الصفحة الرئيسية </a><a href="/ar/hakkimizda/" class="vj7zmmenuitem">الشركات</a><a href="/ar/hizmetlerimiz/" class="vj7zmmenuitem">خدماتنا الرقمية</a><a href="/ar/acik-hava-hizmetlerimiz/" class="vj7zmmenuitem">خدماتنا الخارجية</a><a href="/ar/iletisim/" class="vj7zmmenuitem">اتصل بنا</a>
+    <button class="lkvkjmenumobil" type="button" aria-label="تبديل القائمة" aria-expanded="false" aria-controls="lkvkjmenulist">
+      <span class="material-symbols-outlined" aria-hidden="true">menu</span>
+    </button>
+    <nav class="lkvkjmenulist" id="lkvkjmenulist" role="navigation" aria-label="التنقل">
+      <ul role="menubar">
+        <a href="/ar/" class="lkvkjmenuitem" role="menuitem" title="الصفحة الرئيسية - " aria-label="الصفحة الرئيسية">الصفحة الرئيسية</a><a href="/ar/hakkimizda/" class="lkvkjmenuitem" role="menuitem" title="الشركات" aria-label="الشركات">الشركات</a><a href="/ar/hizmetlerimiz/" class="lkvkjmenuitem" role="menuitem" title="خدماتنا الرقمية" aria-label="خدماتنا الرقمية">خدماتنا الرقمية</a><a href="/ar/acik-hava-hizmetlerimiz/" class="lkvkjmenuitem" role="menuitem" title="خدماتنا الخارجية" aria-label="خدماتنا الخارجية">خدماتنا الخارجية</a><a href="/ar/iletisim/" class="lkvkjmenuitem" role="menuitem" title="اتصل بنا" aria-label="اتصل بنا">اتصل بنا</a>
       </ul>
-    </div>
+    </nav>
   </div>
-</div>
+</header>
 
 <script>
-  document
-    .querySelector(".vj7zmmenumobil")
-    .addEventListener("click", function () {
-      const menu = document.querySelector(".vj7zmmenulist");
-      if (menu.style.display === "flex") {
-        menu.style.display = "none";
-      } else {
-        menu.style.display = "flex";
-      }
-    });
+  setTimeout(function() {
+    var menuButton = document.querySelector(".lkvkjmenumobil");
+    var menu = document.querySelector(".lkvkjmenulist");
+    
+    if (menuButton && menu) {
+      // Tıklama eventi
+      menuButton.addEventListener("click", function () {
+        var isExpanded = menuButton.getAttribute("aria-expanded") === "true";
+        if (isExpanded) {
+          menu.style.display = "none";
+          menuButton.setAttribute("aria-expanded", "false");
+        } else {
+          menu.style.display = "flex";
+          menuButton.setAttribute("aria-expanded", "true");
+        }
+      });
+      
+      // Klavye navigasyonu (Enter ve Space)
+      menuButton.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          menuButton.click();
+        }
+      });
+      
+      // ESC tuşu ile menüyü kapat
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape" && menuButton.getAttribute("aria-expanded") === "true") {
+          menu.style.display = "none";
+          menuButton.setAttribute("aria-expanded", "false");
+          menuButton.focus();
+        }
+      });
+      
+      // Menü dışına tıklanınca kapat
+      document.addEventListener("click", function (e) {
+        if (menuButton.getAttribute("aria-expanded") === "true" && 
+            !menu.contains(e.target) && 
+            !menuButton.contains(e.target)) {
+          menu.style.display = "none";
+          menuButton.setAttribute("aria-expanded", "false");
+        }
+      });
+    }
+  }, 100);
 </script>
-<div class="swiper-container hs3k8">
-  <div class="swiper-wrapper" id="hs3k8"><div class="swiper-slide"><img src="/img/ayn5ph/seo çalışmaları.jpg?v=1768190040568" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ayn5ph/web tasarım.jpg?v=1768190040568" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ayn5ph/google reklam yönetimi.jpg?v=1768190040568" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ayn5ph/asansör reklamları.jpg?v=1768190040568" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ayn5ph/sosyal medya.jpg?v=1768190040568" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ayn5ph/belediye otobüs reklamları 2.jpg?v=1768190040568" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ayn5ph/belediye otobüs reklamları.jpg?v=1768190040568" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ayn5ph/foto çekimi.jpg?v=1768190040568" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ayn5ph/taksi reklamları.jpg?v=1768190040568" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ayn5ph/tranvay reklamalrı.jpg?v=1768190040568" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div></div>
+<div class="swiper-container d7o8r">
+  <div class="swiper-wrapper" id="d7o8r"><div class="swiper-slide"><img src="/img/ayn5ph/seo çalışmaları.jpg?v=1768190781680" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ayn5ph/web tasarım.jpg?v=1768190781680" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ayn5ph/google reklam yönetimi.jpg?v=1768190781680" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ayn5ph/asansör reklamları.jpg?v=1768190781680" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ayn5ph/sosyal medya.jpg?v=1768190781680" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ayn5ph/belediye otobüs reklamları 2.jpg?v=1768190781680" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ayn5ph/belediye otobüs reklamları.jpg?v=1768190781680" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ayn5ph/foto çekimi.jpg?v=1768190781680" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ayn5ph/taksi reklamları.jpg?v=1768190781680" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ayn5ph/tranvay reklamalrı.jpg?v=1768190781680" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div></div>
   <div class="swiper-button-next"></div>
   <div class="swiper-button-prev"></div>
   <div class="swiper-pagination"></div>
@@ -110,7 +146,7 @@
     attempts++;
     if (typeof Swiper === "function") {
       clearInterval(timer);
-      new Swiper(".hs3k8", {
+      new Swiper(".d7o8r", {
         slidesPerView: 1,
         spaceBetween: 30,
         loop: true,
@@ -136,69 +172,69 @@
 </script>
 </div>
   <div id="content"><h1 style="display: none;">Ajans Mobil Gaziantep</h1>
-<div class="sliderxjfrmi">
-  <div class="slider-jfrmit-itle"></div>
-  <div class="jfrmi swiper-container">
+<div class="sliderxegosm">
+  <div class="slider-egosmt-itle">خدماتنا</div>
+  <div class="egosm swiper-container">
     <div class="swiper-wrapper">
     <a href="/ar/web-tasarim/" class="swiper-slide">
-      <div class="swiper-jfrmi">
-        <img class="img-jfrmi" src="/page/ytf1pt3kuv/gh69q.png" alt="تصميم الويب"  loading="lazy"/>
-        <div class="title-spot-jfrmi">
-          <div class="title-jfrmi">تصميم الويب</div>
-          <div class="spot-jfrmi">خدمات تصميم الويب أجانس موبيل غازي عنتاب - مواقع ويب متوافقة مع الجوال ومتوافقة مع SEO وسريعة وحديثة. تصميم الويب المؤسسي وموقع التجارة الإلكترونية وحلول البرمجيات المخصصة.</div>
+      <div class="swiper-egosm">
+        <img class="img-egosm" src="/page/ytf1pt3kuv/gh69q.png" alt="تصميم الويب"  loading="lazy"/>
+        <div class="title-spot-egosm">
+          <div class="title-egosm">تصميم الويب</div>
+          <div class="spot-egosm">خدمات تصميم الويب أجانس موبيل غازي عنتاب - مواقع ويب متوافقة مع الجوال ومتوافقة مع SEO وسريعة وحديثة. تصميم الويب المؤسسي وموقع التجارة الإلكترونية وحلول البرمجيات المخصصة.</div>
         </div>
-        <div class="button-jfrmi">اقرأ المزيد...</div>
+        <div class="button-egosm">اقرأ المزيد...</div>
       </div>
     </a>
   
     <a href="/ar/reklam-yonetimi/" class="swiper-slide">
-      <div class="swiper-jfrmi">
-        <img class="img-jfrmi" src="/page/atv4542pic/va4tn.png" alt=""  loading="lazy"/>
-        <div class="title-spot-jfrmi">
-          <div class="title-jfrmi"></div>
-          <div class="spot-jfrmi"></div>
+      <div class="swiper-egosm">
+        <img class="img-egosm" src="/page/atv4542pic/va4tn.png" alt="إدارة الإعلانات"  loading="lazy"/>
+        <div class="title-spot-egosm">
+          <div class="title-egosm">إدارة الإعلانات</div>
+          <div class="spot-egosm">إدارة إعلانات Google Ads ووسائل التواصل الاجتماعي غازي عنتاب - الوصول إلى جمهورك المستهدف مع إعلانات فيسبوك وإنستغرام وجوجل. حملات إعلانية رقمية تركز على ROI.</div>
         </div>
-        <div class="button-jfrmi">اقرأ المزيد...</div>
+        <div class="button-egosm">اقرأ المزيد...</div>
       </div>
     </a>
   
     <a href="/ar/seo-hizmeti/" class="swiper-slide">
-      <div class="swiper-jfrmi">
-        <img class="img-jfrmi" src="/page/h9f506txbw/xxeqs.png" alt="خدمة SEO"  loading="lazy"/>
-        <div class="title-spot-jfrmi">
-          <div class="title-jfrmi">خدمة SEO</div>
-          <div class="spot-jfrmi">خدمات SEO غازي عنتاب - احصل على الصفحة الأولى في Google. زيادة حركة المرور العضوية مع تحليل الكلمات المفتاحية وSEO التقني وتحسين المحتوى وبناء الروابط.</div>
+      <div class="swiper-egosm">
+        <img class="img-egosm" src="/page/h9f506txbw/xxeqs.png" alt="خدمة SEO"  loading="lazy"/>
+        <div class="title-spot-egosm">
+          <div class="title-egosm">خدمة SEO</div>
+          <div class="spot-egosm">خدمات SEO غازي عنتاب - احصل على الصفحة الأولى في Google. زيادة حركة المرور العضوية مع تحليل الكلمات المفتاحية وSEO التقني وتحسين المحتوى وبناء الروابط.</div>
         </div>
-        <div class="button-jfrmi">اقرأ المزيد...</div>
+        <div class="button-egosm">اقرأ المزيد...</div>
       </div>
     </a>
   
     <a href="/ar/sosyal-media/" class="swiper-slide">
-      <div class="swiper-jfrmi">
-        <img class="img-jfrmi" src="/page/w7pm6byfyq/cxfvs.png" alt="وسائل التواصل الاجتماعي"  loading="lazy"/>
-        <div class="title-spot-jfrmi">
-          <div class="title-jfrmi">وسائل التواصل الاجتماعي</div>
-          <div class="spot-jfrmi">إدارة وسائل التواصل الاجتماعي غازي عنتاب - إنتاج المحتوى الاحترافي وإدارته لإنستغرام وفيسبوك ولينكد إن وتويتر. زيادة الوعي بالعلامة التجارية والتفاعل.</div>
+      <div class="swiper-egosm">
+        <img class="img-egosm" src="/page/w7pm6byfyq/cxfvs.png" alt="وسائل التواصل الاجتماعي"  loading="lazy"/>
+        <div class="title-spot-egosm">
+          <div class="title-egosm">وسائل التواصل الاجتماعي</div>
+          <div class="spot-egosm">إدارة وسائل التواصل الاجتماعي غازي عنتاب - إنتاج المحتوى الاحترافي وإدارته لإنستغرام وفيسبوك ولينكد إن وتويتر. زيادة الوعي بالعلامة التجارية والتفاعل.</div>
         </div>
-        <div class="button-jfrmi">اقرأ المزيد...</div>
+        <div class="button-egosm">اقرأ المزيد...</div>
       </div>
     </a>
   
     <a href="/ar/fotograf-cekimi/" class="swiper-slide">
-      <div class="swiper-jfrmi">
-        <img class="img-jfrmi" src="/page/p6okllk1m0/byl8k.png" alt="التصوير الفوتوغرافي"  loading="lazy"/>
-        <div class="title-spot-jfrmi">
-          <div class="title-jfrmi">التصوير الفوتوغرافي</div>
-          <div class="spot-jfrmi">التصوير الفوتوغرافي الاحترافي غازي عنتاب - تصوير المنتجات والتصوير المؤسسي وتصوير الطعام والتصوير المعماري. صور احترافية للتجارة الإلكترونية والكتالوجات.</div>
+      <div class="swiper-egosm">
+        <img class="img-egosm" src="/page/p6okllk1m0/byl8k.png" alt="التصوير الفوتوغرافي"  loading="lazy"/>
+        <div class="title-spot-egosm">
+          <div class="title-egosm">التصوير الفوتوغرافي</div>
+          <div class="spot-egosm">التصوير الفوتوغرافي الاحترافي غازي عنتاب - تصوير المنتجات والتصوير المؤسسي وتصوير الطعام والتصوير المعماري. صور احترافية للتجارة الإلكترونية والكتالوجات.</div>
         </div>
-        <div class="button-jfrmi">اقرأ المزيد...</div>
+        <div class="button-egosm">اقرأ المزيد...</div>
       </div>
     </a>
   </div>
-    <div class="swiper-pagination-jfrmi"></div>
+    <div class="swiper-pagination-egosm"></div>
   </div>
-  <div class="swiper-button-next swiper-button-next-jfrmi"></div>
-  <div class="swiper-button-prev swiper-button-prev-jfrmi"></div>
+  <div class="swiper-button-next swiper-button-next-egosm"></div>
+  <div class="swiper-button-prev swiper-button-prev-egosm"></div>
 </div>
 
 <script>
@@ -209,7 +245,7 @@
       attempts++;
       if (typeof Swiper === "function") {
         clearInterval(timer);
-        new Swiper(".jfrmi", {
+        new Swiper(".egosm", {
           slidesPerView: 2,
           simulateTouch: true,
           loop: true,
@@ -223,12 +259,12 @@
             disableOnInteraction: true,
           },
           pagination: {
-            el: ".swiper-pagination-jfrmi",
+            el: ".swiper-pagination-egosm",
             clickable: true,
           },
           navigation: {
-            nextEl: ".swiper-button-next-jfrmi",
-            prevEl: ".swiper-button-prev-jfrmi",
+            nextEl: ".swiper-button-next-egosm",
+            prevEl: ".swiper-button-prev-egosm",
           },
         });
       } else if (attempts >= maxAttempts) {
@@ -238,38 +274,38 @@
     }, 250);
   })();
 </script>
-<div class="sliderxzhh0ebody">
-  <div class="sliderxzhh0e">
-    <div class="sliderxzhh0etitle">شركاؤنا</div>
-    <div class="zhh0e swiper-container">
+<div class="sliderxknhmfbody">
+  <div class="sliderxknhmf">
+    <div class="sliderxknhmftitle">شركاؤنا</div>
+    <div class="knhmf swiper-container">
       <div class="swiper-wrapper"><div href="/img/jyfy3k/undefined"  class="swiper-slide">
       <div class="swiper-slide33">
-        <img onclick="imgfull('/img/jyfy3k/1.png')" src="/img/jyfy3k/1.png" class="modulchildzhh0e2" alt="Resim"  loading="lazy"/>
+        <img onclick="imgfull('/img/jyfy3k/1.png')" src="/img/jyfy3k/1.png" class="modulchildknhmf2" alt="Resim"  loading="lazy"/>
       </div>
     </div><div href="/img/jyfy3k/undefined"  class="swiper-slide">
       <div class="swiper-slide33">
-        <img onclick="imgfull('/img/jyfy3k/2.png')" src="/img/jyfy3k/2.png" class="modulchildzhh0e2" alt="Resim"  loading="lazy"/>
+        <img onclick="imgfull('/img/jyfy3k/2.png')" src="/img/jyfy3k/2.png" class="modulchildknhmf2" alt="Resim"  loading="lazy"/>
       </div>
     </div><div href="/img/jyfy3k/undefined"  class="swiper-slide">
       <div class="swiper-slide33">
-        <img onclick="imgfull('/img/jyfy3k/3.png')" src="/img/jyfy3k/3.png" class="modulchildzhh0e2" alt="Resim"  loading="lazy"/>
+        <img onclick="imgfull('/img/jyfy3k/3.png')" src="/img/jyfy3k/3.png" class="modulchildknhmf2" alt="Resim"  loading="lazy"/>
       </div>
     </div><div href="/img/jyfy3k/undefined"  class="swiper-slide">
       <div class="swiper-slide33">
-        <img onclick="imgfull('/img/jyfy3k/4.png')" src="/img/jyfy3k/4.png" class="modulchildzhh0e2" alt="Resim"  loading="lazy"/>
+        <img onclick="imgfull('/img/jyfy3k/4.png')" src="/img/jyfy3k/4.png" class="modulchildknhmf2" alt="Resim"  loading="lazy"/>
       </div>
     </div><div href="/img/jyfy3k/undefined"  class="swiper-slide">
       <div class="swiper-slide33">
-        <img onclick="imgfull('/img/jyfy3k/5.png')" src="/img/jyfy3k/5.png" class="modulchildzhh0e2" alt="Resim"  loading="lazy"/>
+        <img onclick="imgfull('/img/jyfy3k/5.png')" src="/img/jyfy3k/5.png" class="modulchildknhmf2" alt="Resim"  loading="lazy"/>
       </div>
     </div><div href="/img/jyfy3k/undefined"  class="swiper-slide">
       <div class="swiper-slide33">
-        <img onclick="imgfull('/img/jyfy3k/6.png')" src="/img/jyfy3k/6.png" class="modulchildzhh0e2" alt="Resim"  loading="lazy"/>
+        <img onclick="imgfull('/img/jyfy3k/6.png')" src="/img/jyfy3k/6.png" class="modulchildknhmf2" alt="Resim"  loading="lazy"/>
       </div>
     </div></div>
-      <div class="swiper-button-next swiper-button-next-zhh0e"></div>
-      <div class="swiper-button-prev swiper-button-prev-zhh0e"></div>
-      <div class="swiper-pagination-zhh0e"></div>
+      <div class="swiper-button-next swiper-button-next-knhmf"></div>
+      <div class="swiper-button-prev swiper-button-prev-knhmf"></div>
+      <div class="swiper-pagination-knhmf"></div>
     </div>
   </div>
 </div>
@@ -282,12 +318,12 @@
     simulateTouch: true,
     loop: true,
     pagination: {
-      el: ".swiper-pagination-zhh0e",
+      el: ".swiper-pagination-knhmf",
       clickable: true,
     },
     navigation: {
-      nextEl: ".swiper-button-next-zhh0e",
-      prevEl: ".swiper-button-prev-zhh0e",
+      nextEl: ".swiper-button-next-knhmf",
+      prevEl: ".swiper-button-prev-knhmf",
     },
     breakpoints: {
       480: {
@@ -306,286 +342,286 @@
   };
   if ("false" === "true") {
   } else {
-    document.querySelector(".swiper-button-next-zhh0e").style.display =
+    document.querySelector(".swiper-button-next-knhmf").style.display =
       "none";
-    document.querySelector(".swiper-button-prev-zhh0e").style.display =
+    document.querySelector(".swiper-button-prev-knhmf").style.display =
       "none";
   }
-  var swiper = new Swiper(".zhh0e", jsonslider);
+  var swiper = new Swiper(".knhmf", jsonslider);
   }, 100);
 </script>
-<div class="sliderxqkbsh">
-  <div class="slider-qkbsht-itle"></div>
-  <div class="qkbsh swiper-container">
+<div class="sliderxc8cz3">
+  <div class="slider-c8cz3t-itle">الإعلانات الخارجية والمتنقلة</div>
+  <div class="c8cz3 swiper-container">
     <div class="swiper-wrapper">
     <a href="/ar/asansor-reklamlari/" class="swiper-slide">
-      <div class="swiper-qkbsh">
-        <img class="img-qkbsh" src="/page/bfjvcgg13p/c9t15.png" alt="إعلانات المصاعد"  loading="lazy"/>
-        <div class="title-spot-qkbsh">
-          <div class="title-qkbsh">إعلانات المصاعد</div>
-          <div class="spot-qkbsh">إعلانات المصاعد غازي عنتاب - رؤية فعالة للعلامة التجارية في مصاعد الشقق ومراكز الأعمال. حملات إعلانية داخل المصاعد تصل مباشرة إلى جمهورك المستهدف.</div>
+      <div class="swiper-c8cz3">
+        <img class="img-c8cz3" src="/page/bfjvcgg13p/c9t15.png" alt="إعلانات المصاعد"  loading="lazy"/>
+        <div class="title-spot-c8cz3">
+          <div class="title-c8cz3">إعلانات المصاعد</div>
+          <div class="spot-c8cz3">إعلانات المصاعد غازي عنتاب - رؤية فعالة للعلامة التجارية في مصاعد الشقق ومراكز الأعمال. حملات إعلانية داخل المصاعد تصل مباشرة إلى جمهورك المستهدف.</div>
         </div>
-        <div class="button-qkbsh">اقرأ المزيد...</div>
+        <div class="button-c8cz3">اقرأ المزيد...</div>
       </div>
     </a>
   
     <a href="/ar/dolmus-reklamlari/" class="swiper-slide">
-      <div class="swiper-qkbsh">
-        <img class="img-qkbsh" src="/page/x0gyi8bauw/gujlp.png" alt="إعلانات الميني باص"  loading="lazy"/>
-        <div class="title-spot-qkbsh">
-          <div class="title-qkbsh">إعلانات الميني باص</div>
-          <div class="spot-qkbsh">إعلانات الميني باص غازي عنتاب - حلول إعلانية متنقلة في مركبات النقل العام. ترويج فعال للعلامة التجارية في الميني باص داخل المدينة.</div>
+      <div class="swiper-c8cz3">
+        <img class="img-c8cz3" src="/page/x0gyi8bauw/gujlp.png" alt="إعلانات الميني باص"  loading="lazy"/>
+        <div class="title-spot-c8cz3">
+          <div class="title-c8cz3">إعلانات الميني باص</div>
+          <div class="spot-c8cz3">إعلانات الميني باص غازي عنتاب - حلول إعلانية متنقلة في مركبات النقل العام. ترويج فعال للعلامة التجارية في الميني باص داخل المدينة.</div>
         </div>
-        <div class="button-qkbsh">اقرأ المزيد...</div>
+        <div class="button-c8cz3">اقرأ المزيد...</div>
       </div>
     </a>
   
     <a href="/ar/otobus-reklam/" class="swiper-slide">
-      <div class="swiper-qkbsh">
-        <img class="img-qkbsh" src="/page/zh3e7j771i/homtf.png" alt="إعلانات الحافلات"  loading="lazy"/>
-        <div class="title-spot-qkbsh">
-          <div class="title-qkbsh">إعلانات الحافلات</div>
-          <div class="spot-qkbsh"></div>
+      <div class="swiper-c8cz3">
+        <img class="img-c8cz3" src="/page/zh3e7j771i/homtf.png" alt="إعلانات الحافلات"  loading="lazy"/>
+        <div class="title-spot-c8cz3">
+          <div class="title-c8cz3">إعلانات الحافلات</div>
+          <div class="spot-c8cz3">إعلانات الحافلات غازي عنتاب - خدمة إعلانات التغليف الكامل على حافلات البلدية والترام وحافلات النقل العام الخاصة. ضمان الوصول لجماهير واسعة.</div>
         </div>
-        <div class="button-qkbsh">اقرأ المزيد...</div>
+        <div class="button-c8cz3">اقرأ المزيد...</div>
       </div>
     </a>
   
     <a href="/ar/acik-hava-reklamciligi/" class="swiper-slide">
-      <div class="swiper-qkbsh">
-        <img class="img-qkbsh" src="/page/uwz4frx4y6/zkaru.png" alt="الإعلانات الخارجية"  loading="lazy"/>
-        <div class="title-spot-qkbsh">
-          <div class="title-qkbsh">الإعلانات الخارجية</div>
-          <div class="spot-qkbsh">الإعلانات الخارجية غازي عنتاب - لوحات الإعلانات والتوتيم والشاشة الرقمية وتغليف الواجهة وخدمات الإعلانات الخارجية. حلول الإعلانات الخارجية.</div>
+      <div class="swiper-c8cz3">
+        <img class="img-c8cz3" src="/page/uwz4frx4y6/zkaru.png" alt="الإعلانات الخارجية"  loading="lazy"/>
+        <div class="title-spot-c8cz3">
+          <div class="title-c8cz3">الإعلانات الخارجية</div>
+          <div class="spot-c8cz3">الإعلانات الخارجية غازي عنتاب - لوحات الإعلانات والتوتيم والشاشة الرقمية وتغليف الواجهة وخدمات الإعلانات الخارجية. حلول الإعلانات الخارجية.</div>
         </div>
-        <div class="button-qkbsh">اقرأ المزيد...</div>
+        <div class="button-c8cz3">اقرأ المزيد...</div>
       </div>
     </a>
   
     <a href="/ar/taksi-reklamlari/" class="swiper-slide">
-      <div class="swiper-qkbsh">
-        <img class="img-qkbsh" src="/page/wtluk7jm9c/a49s3.png" alt="إعلانات التاكسي"  loading="lazy"/>
-        <div class="title-spot-qkbsh">
-          <div class="title-qkbsh">إعلانات التاكسي</div>
-          <div class="spot-qkbsh">إعلانات التاكسي غازي عنتاب - لافتات أعلى التاكسي المضيئة وتغليف المركبات وإعلانات داخل التاكسي. وسيط إعلاني فعال يصل إلى مجموعات الدخل المرتفع.</div>
+      <div class="swiper-c8cz3">
+        <img class="img-c8cz3" src="/page/wtluk7jm9c/a49s3.png" alt="إعلانات التاكسي"  loading="lazy"/>
+        <div class="title-spot-c8cz3">
+          <div class="title-c8cz3">إعلانات التاكسي</div>
+          <div class="spot-c8cz3">إعلانات التاكسي غازي عنتاب - لافتات أعلى التاكسي المضيئة وتغليف المركبات وإعلانات داخل التاكسي. وسيط إعلاني فعال يصل إلى مجموعات الدخل المرتفع.</div>
         </div>
-        <div class="button-qkbsh">اقرأ المزيد...</div>
+        <div class="button-c8cz3">اقرأ المزيد...</div>
       </div>
     </a>
   
     <a href="/ar/tramvay/" class="swiper-slide">
-      <div class="swiper-qkbsh">
-        <img class="img-qkbsh" src="/page/guq270l7s1/yipp4.png" alt="الترام"  loading="lazy"/>
-        <div class="title-spot-qkbsh">
-          <div class="title-qkbsh">الترام</div>
-          <div class="spot-qkbsh">إعلانات الترام غازي عنتاب - تغليف الترام وإعلانات المحطات ووسيط الإعلانات داخل المركبات. رؤية مميزة في النقل العام الحديث.</div>
+      <div class="swiper-c8cz3">
+        <img class="img-c8cz3" src="/page/guq270l7s1/yipp4.png" alt="الترام"  loading="lazy"/>
+        <div class="title-spot-c8cz3">
+          <div class="title-c8cz3">الترام</div>
+          <div class="spot-c8cz3">إعلانات الترام غازي عنتاب - تغليف الترام وإعلانات المحطات ووسيط الإعلانات داخل المركبات. رؤية مميزة في النقل العام الحديث.</div>
         </div>
-        <div class="button-qkbsh">اقرأ المزيد...</div>
+        <div class="button-c8cz3">اقرأ المزيد...</div>
       </div>
     </a>
   
     <a href="/ar/iconova-cadde-reklamlari/" class="swiper-slide">
-      <div class="swiper-qkbsh">
-        <img class="img-qkbsh" src="/page/gvz-iconova-cadde/yifg5.webp" alt="إعلانات شارع أيكونوفا"  loading="lazy"/>
-        <div class="title-spot-qkbsh">
-          <div class="title-qkbsh">إعلانات شارع أيكونوفا</div>
-          <div class="spot-qkbsh"></div>
+      <div class="swiper-c8cz3">
+        <img class="img-c8cz3" src="/page/gvz-iconova-cadde/yifg5.webp" alt="إعلانات شارع أيكونوفا"  loading="lazy"/>
+        <div class="title-spot-c8cz3">
+          <div class="title-c8cz3">إعلانات شارع أيكونوفا</div>
+          <div class="spot-c8cz3"></div>
         </div>
-        <div class="button-qkbsh">اقرأ المزيد...</div>
+        <div class="button-c8cz3">اقرأ المزيد...</div>
       </div>
     </a>
   
     <a href="/ar/havalimani-reklamlari/" class="swiper-slide">
-      <div class="swiper-qkbsh">
-        <img class="img-qkbsh" src="/page/gvz-havalimani/mna2h.webp" alt="إعلانات المطار"  loading="lazy"/>
-        <div class="title-spot-qkbsh">
-          <div class="title-qkbsh">إعلانات المطار</div>
-          <div class="spot-qkbsh">خدمات إعلانات مطار غازي عنتاب من أجانس موبيل. حلول إعلانية تصل إلى 50-100 ألف شخص أسبوعياً في مركز النقل الأكثر تميزاً في المدينة. موقع مثالي لرجال الأعمال والسياح والضيوف المهمين.</div>
+      <div class="swiper-c8cz3">
+        <img class="img-c8cz3" src="/page/gvz-havalimani/mna2h.webp" alt="إعلانات المطار"  loading="lazy"/>
+        <div class="title-spot-c8cz3">
+          <div class="title-c8cz3">إعلانات المطار</div>
+          <div class="spot-c8cz3">خدمات إعلانات مطار غازي عنتاب من أجانس موبيل. حلول إعلانية تصل إلى 50-100 ألف شخص أسبوعياً في مركز النقل الأكثر تميزاً في المدينة. موقع مثالي لرجال الأعمال والسياح.</div>
         </div>
-        <div class="button-qkbsh">اقرأ المزيد...</div>
+        <div class="button-c8cz3">اقرأ المزيد...</div>
       </div>
     </a>
   
     <a href="/ar/organize-sanayi-reklamlari/" class="swiper-slide">
-      <div class="swiper-qkbsh">
-        <img class="img-qkbsh" src="/page/gvz-organize-sanayi/w332x.webp" alt="إعلانات المنطقة الصناعية المنظمة"  loading="lazy"/>
-        <div class="title-spot-qkbsh">
-          <div class="title-qkbsh">إعلانات المنطقة الصناعية المنظمة</div>
-          <div class="spot-qkbsh">خدمات إعلانات المنطقة الصناعية المنظمة في غازي عنتاب من أجانس موبيل. حلول تسويق B2B تصل إلى 150-300 ألف رجل أعمال أسبوعياً. وسيط إعلاني مثالي لأصحاب المصانع والمديرين وصناع قرار الشراء.</div>
+      <div class="swiper-c8cz3">
+        <img class="img-c8cz3" src="/page/gvz-organize-sanayi/w332x.webp" alt="إعلانات المنطقة الصناعية المنظمة"  loading="lazy"/>
+        <div class="title-spot-c8cz3">
+          <div class="title-c8cz3">إعلانات المنطقة الصناعية المنظمة</div>
+          <div class="spot-c8cz3">خدمات إعلانات المنطقة الصناعية المنظمة في غازي عنتاب من أجانس موبيل. حلول تسويق B2B تصل إلى 150-300 ألف رجل أعمال أسبوعياً. وسيط إعلاني مثالي لأصحاب المصانع والمديرين.</div>
         </div>
-        <div class="button-qkbsh">اقرأ المزيد...</div>
+        <div class="button-c8cz3">اقرأ المزيد...</div>
       </div>
     </a>
   
     <a href="/ar/cadde-duvarlari-reklamlari/" class="swiper-slide">
-      <div class="swiper-qkbsh">
-        <img class="img-qkbsh" src="/page/gvz-cadde-duvarlari/qe92m.webp" alt="إعلانات جدران الشوارع"  loading="lazy"/>
-        <div class="title-spot-qkbsh">
-          <div class="title-qkbsh">إعلانات جدران الشوارع</div>
-          <div class="spot-qkbsh">خدمات إعلانات جدران الشوارع من أجانس موبيل. مساحات إعلانية ضخمة تصل إلى 200-500 ألف شخص أسبوعياً في أكثر شوارع غازي عنتاب ازدحاماً. مواقع استراتيجية على الشرايين الرئيسية والتقاطعات والمناطق ذات حركة المشاة الكثيفة.</div>
+      <div class="swiper-c8cz3">
+        <img class="img-c8cz3" src="/page/gvz-cadde-duvarlari/qe92m.webp" alt="إعلانات جدران الشوارع"  loading="lazy"/>
+        <div class="title-spot-c8cz3">
+          <div class="title-c8cz3">إعلانات جدران الشوارع</div>
+          <div class="spot-c8cz3">خدمات إعلانات جدران الشوارع من أجانس موبيل. مساحات إعلانية ضخمة تصل إلى 200-500 ألف شخص أسبوعياً في أكثر شوارع غازي عنتاب ازدحاماً. مواقع استراتيجية على الشرايين الرئيسية والتقاطعات.</div>
         </div>
-        <div class="button-qkbsh">اقرأ المزيد...</div>
+        <div class="button-c8cz3">اقرأ المزيد...</div>
       </div>
     </a>
   
     <a href="/ar/bina-asansorleri-reklamlari/" class="swiper-slide">
-      <div class="swiper-qkbsh">
-        <img class="img-qkbsh" src="/page/gvz-bina-asansorleri/fqufy.webp" alt="إعلانات مصاعد المباني"  loading="lazy"/>
-        <div class="title-spot-qkbsh">
-          <div class="title-qkbsh">إعلانات مصاعد المباني</div>
-          <div class="spot-qkbsh">خدمات إعلانات مصاعد المباني من أجانس موبيل. حلول إعلانية للمدى القريب تصل مباشرة إلى 100-400 ألف شخص أسبوعياً. رؤية فعالة للعلامة التجارية في المجمعات السكنية ومراكز الأعمال ومباني المكاتب.</div>
+      <div class="swiper-c8cz3">
+        <img class="img-c8cz3" src="/page/gvz-bina-asansorleri/fqufy.webp" alt="إعلانات مصاعد المباني"  loading="lazy"/>
+        <div class="title-spot-c8cz3">
+          <div class="title-c8cz3">إعلانات مصاعد المباني</div>
+          <div class="spot-c8cz3">خدمات إعلانات مصاعد المباني من أجانس موبيل. حلول إعلانية للمدى القريب تصل مباشرة إلى 100-400 ألف شخص أسبوعياً. رؤية فعالة للعلامة التجارية في المجمعات السكنية ومراكز الأعمال.</div>
         </div>
-        <div class="button-qkbsh">اقرأ المزيد...</div>
+        <div class="button-c8cz3">اقرأ المزيد...</div>
       </div>
     </a>
   
     <a href="/ar/belediye-otobusu-reklamlari/" class="swiper-slide">
-      <div class="swiper-qkbsh">
-        <img class="img-qkbsh" src="/page/gvz-belediye-otobusu/jchrz.webp" alt="إعلانات حافلات البلدية"  loading="lazy"/>
-        <div class="title-spot-qkbsh">
-          <div class="title-qkbsh">إعلانات حافلات البلدية</div>
-          <div class="spot-qkbsh">خدمات إعلانات حافلات البلدية من أجانس موبيل. حلول إعلانية موثوقة على الخطوط الرسمية بالتعاون مع وكالة جيفيز. وسيط إعلاني مؤسسي يصل إلى 300-600 ألف شخص أسبوعياً. مساحات مميزة لتغليف المركبات والمساحات الداخلية ومحطات الحافلات.</div>
+      <div class="swiper-c8cz3">
+        <img class="img-c8cz3" src="/page/gvz-belediye-otobusu/jchrz.webp" alt="إعلانات حافلات البلدية"  loading="lazy"/>
+        <div class="title-spot-c8cz3">
+          <div class="title-c8cz3">إعلانات حافلات البلدية</div>
+          <div class="spot-c8cz3">خدمات إعلانات حافلات البلدية من أجانس موبيل. حلول إعلانية موثوقة على الخطوط الرسمية بالتعاون مع وكالة جيفيز. وسيط إعلاني مؤسسي يصل إلى 300-600 ألف شخص أسبوعياً.</div>
         </div>
-        <div class="button-qkbsh">اقرأ المزيد...</div>
+        <div class="button-c8cz3">اقرأ المزيد...</div>
       </div>
     </a>
   
     <a href="/ar/halk-otobusu-reklamlari/" class="swiper-slide">
-      <div class="swiper-qkbsh">
-        <img class="img-qkbsh" src="/page/gvz-halk-otobusu/zuvah.webp" alt="إعلانات حافلات النقل العام"  loading="lazy"/>
-        <div class="title-spot-qkbsh">
-          <div class="title-qkbsh">إعلانات حافلات النقل العام</div>
-          <div class="spot-qkbsh">خدمات إعلانات حافلات النقل العام الخاصة من أجانس موبيل. حلول إعلانية مميزة على خطوط خاصة بالتعاون مع وكالة جيفيز. فرصة إعلانية في مركبات حديثة ومريحة تصل إلى 300-600 ألف شخص أسبوعياً.</div>
+      <div class="swiper-c8cz3">
+        <img class="img-c8cz3" src="/page/gvz-halk-otobusu/zuvah.webp" alt="إعلانات حافلات النقل العام"  loading="lazy"/>
+        <div class="title-spot-c8cz3">
+          <div class="title-c8cz3">إعلانات حافلات النقل العام</div>
+          <div class="spot-c8cz3">خدمات إعلانات حافلات النقل العام الخاصة من أجانس موبيل. حلول إعلانية مميزة على خطوط خاصة بالتعاون مع وكالة جيفيز. فرصة إعلانية في مركبات حديثة ومريحة تصل إلى 300-600 ألف شخص أسبوعياً.</div>
         </div>
-        <div class="button-qkbsh">اقرأ المزيد...</div>
+        <div class="button-c8cz3">اقرأ المزيد...</div>
       </div>
     </a>
   
     <a href="/ar/dolmus-reklamlari-geveze/" class="swiper-slide">
-      <div class="swiper-qkbsh">
-        <img class="img-qkbsh" src="/page/gvz-dolmus/lymkl.webp" alt="إعلانات الميني باص (جيفيز)"  loading="lazy"/>
-        <div class="title-spot-qkbsh">
-          <div class="title-qkbsh">إعلانات الميني باص (جيفيز)</div>
-          <div class="spot-qkbsh">خدمات إعلانات الميني باص بالتعاون مع أجانس موبيل ووكالة جيفيز. حلول إعلانية لطرق مرنة تصل إلى مناطق الأحياء. وسيط إعلاني اقتصادي وفعال يصل إلى 300-600 ألف شخص أسبوعياً.</div>
+      <div class="swiper-c8cz3">
+        <img class="img-c8cz3" src="/page/gvz-dolmus/lymkl.webp" alt="إعلانات الميني باص (جيفيز)"  loading="lazy"/>
+        <div class="title-spot-c8cz3">
+          <div class="title-c8cz3">إعلانات الميني باص (جيفيز)</div>
+          <div class="spot-c8cz3">خدمات إعلانات الميني باص بالتعاون مع أجانس موبيل ووكالة جيفيز. حلول إعلانية لطرق مرنة تصل إلى مناطق الأحياء. وسيط إعلاني اقتصادي وفعال يصل إلى 300-600 ألف شخص أسبوعياً.</div>
         </div>
-        <div class="button-qkbsh">اقرأ المزيد...</div>
+        <div class="button-c8cz3">اقرأ المزيد...</div>
       </div>
     </a>
   
     <a href="/ar/tramvay-reklamlari-geveze/" class="swiper-slide">
-      <div class="swiper-qkbsh">
-        <img class="img-qkbsh" src="/page/gvz-tramvay/yki9f.webp" alt="إعلانات الترام (جيفيز)"  loading="lazy"/>
-        <div class="title-spot-qkbsh">
-          <div class="title-qkbsh">إعلانات الترام (جيفيز)</div>
-          <div class="spot-qkbsh">خدمات إعلانات الترام من أجانس موبيل. حلول إعلانات نظام السكك الحديدية الحديث بالتعاون مع وكالة جيفيز. إعلانات المحطات وداخل المركبات التي تصل إلى 300-600 ألف شخص أسبوعياً. وسائط مثالية للشرائح الشابة والعاملة.</div>
+      <div class="swiper-c8cz3">
+        <img class="img-c8cz3" src="/page/gvz-tramvay/yki9f.webp" alt="إعلانات الترام (جيفيز)"  loading="lazy"/>
+        <div class="title-spot-c8cz3">
+          <div class="title-c8cz3">إعلانات الترام (جيفيز)</div>
+          <div class="spot-c8cz3">خدمات إعلانات الترام من أجانس موبيل. حلول إعلانات نظام السكك الحديدية الحديث بالتعاون مع وكالة جيفيز. إعلانات المحطات وداخل المركبات التي تصل إلى 300-600 ألف شخص أسبوعياً. وسائط مثالية للشرائح الشابة والعاملة.</div>
         </div>
-        <div class="button-qkbsh">اقرأ المزيد...</div>
+        <div class="button-c8cz3">اقرأ المزيد...</div>
       </div>
     </a>
   
     <a href="/ar/taksi-reklamlari-geveze/" class="swiper-slide">
-      <div class="swiper-qkbsh">
-        <img class="img-qkbsh" src="/page/gvz-taksiler/cdqsn.webp" alt="إعلانات التاكسي (جيفيز)"  loading="lazy"/>
-        <div class="title-spot-qkbsh">
-          <div class="title-qkbsh">إعلانات التاكسي (جيفيز)</div>
-          <div class="spot-qkbsh">خدمات إعلانات التاكسي من أجانس موبيل. حلول إعلانية مميزة تصل إلى 300-600 ألف شخص أسبوعياً. وصول فعال إلى قطاع A+ مع لافتات أعلى التاكسي المضيئة وتغليف المركبات وإعلانات المساحات الداخلية.</div>
+      <div class="swiper-c8cz3">
+        <img class="img-c8cz3" src="/page/gvz-taksiler/cdqsn.webp" alt="إعلانات التاكسي (جيفيز)"  loading="lazy"/>
+        <div class="title-spot-c8cz3">
+          <div class="title-c8cz3">إعلانات التاكسي (جيفيز)</div>
+          <div class="spot-c8cz3">خدمات إعلانات التاكسي من أجانس موبيل. حلول إعلانية مميزة تصل إلى 300-600 ألف شخص أسبوعياً. وصول فعال إلى قطاع A+ مع لافتات أعلى التاكسي المضيئة وتغليف المركبات وإعلانات المساحات الداخلية.</div>
         </div>
-        <div class="button-qkbsh">اقرأ المزيد...</div>
+        <div class="button-c8cz3">اقرأ المزيد...</div>
       </div>
     </a>
   
     <a href="/ar/primemall-avm-reklamlari/" class="swiper-slide">
-      <div class="swiper-qkbsh">
-        <img class="img-qkbsh" src="/page/gvz-primemall/oevz4.webp" alt=""  loading="lazy"/>
-        <div class="title-spot-qkbsh">
-          <div class="title-qkbsh"></div>
-          <div class="spot-qkbsh"></div>
+      <div class="swiper-c8cz3">
+        <img class="img-c8cz3" src="/page/gvz-primemall/oevz4.webp" alt="إعلانات برايم مول"  loading="lazy"/>
+        <div class="title-spot-c8cz3">
+          <div class="title-c8cz3">إعلانات برايم مول</div>
+          <div class="spot-c8cz3">خدمات إعلانات برايم مول من أجانس موبيل. حلول إعلانية مميزة تصل إلى 200-500 ألف زائر أسبوعياً في أكبر وأكثر مراكز التسوق تميزاً في غازي عنتاب. موقع استراتيجي مع قرب شارع أيكونوفا.</div>
         </div>
-        <div class="button-qkbsh">اقرأ المزيد...</div>
+        <div class="button-c8cz3">اقرأ المزيد...</div>
       </div>
     </a>
   
     <a href="/ar/forum-avm-reklamlari/" class="swiper-slide">
-      <div class="swiper-qkbsh">
-        <img class="img-qkbsh" src="/page/gvz-forum-avm/okfc7.webp" alt="إعلانات فورم مول"  loading="lazy"/>
-        <div class="title-spot-qkbsh">
-          <div class="title-qkbsh">إعلانات فورم مول</div>
-          <div class="spot-qkbsh">خدمات إعلانات فورم مول من أجانس موبيل. حلول إعلانية تصل إلى 200-500 ألف زائر أسبوعياً في مركز التسوق المتميز حيث تلتقي العلامات التجارية الدولية. مواقع خاصة تتميز بإعلانات المواقف ومناطق السينما.</div>
+      <div class="swiper-c8cz3">
+        <img class="img-c8cz3" src="/page/gvz-forum-avm/okfc7.webp" alt="إعلانات فورم مول"  loading="lazy"/>
+        <div class="title-spot-c8cz3">
+          <div class="title-c8cz3">إعلانات فورم مول</div>
+          <div class="spot-c8cz3">خدمات إعلانات فورم مول من أجانس موبيل. حلول إعلانية تصل إلى 200-500 ألف زائر أسبوعياً في مركز التسوق المتميز حيث تلتقي العلامات التجارية الدولية. مواقع خاصة في المواقف ومناطق السينما.</div>
         </div>
-        <div class="button-qkbsh">اقرأ المزيد...</div>
+        <div class="button-c8cz3">اقرأ المزيد...</div>
       </div>
     </a>
   
     <a href="/ar/sanko-park-avm-reklamlari/" class="swiper-slide">
-      <div class="swiper-qkbsh">
-        <img class="img-qkbsh" src="/page/gvz-sanko-park/bkl4v.webp" alt=""  loading="lazy"/>
-        <div class="title-spot-qkbsh">
-          <div class="title-qkbsh"></div>
-          <div class="spot-qkbsh"></div>
+      <div class="swiper-c8cz3">
+        <img class="img-c8cz3" src="/page/gvz-sanko-park/bkl4v.webp" alt=""  loading="lazy"/>
+        <div class="title-spot-c8cz3">
+          <div class="title-c8cz3"></div>
+          <div class="spot-c8cz3"></div>
         </div>
-        <div class="button-qkbsh">اقرأ المزيد...</div>
+        <div class="button-c8cz3">اقرأ المزيد...</div>
       </div>
     </a>
   
     <a href="/ar/m1-avm-reklamlari/" class="swiper-slide">
-      <div class="swiper-qkbsh">
-        <img class="img-qkbsh" src="/page/gvz-m1-avm/i27mc.webp" alt="إعلانات M1 مول"  loading="lazy"/>
-        <div class="title-spot-qkbsh">
-          <div class="title-qkbsh">إعلانات M1 مول</div>
-          <div class="spot-qkbsh">خدمات إعلانات M1 مول من أجانس موبيل. حلول إعلانية تصل إلى 200-500 ألف شخص أسبوعياً في مركز التسوق الجذاب في غازي عنتاب بعمارة حديثة. خيارات إعلانية مميزة في المساحات الداخلية والخارجية.</div>
+      <div class="swiper-c8cz3">
+        <img class="img-c8cz3" src="/page/gvz-m1-avm/i27mc.webp" alt="إعلانات M1 مول"  loading="lazy"/>
+        <div class="title-spot-c8cz3">
+          <div class="title-c8cz3">إعلانات M1 مول</div>
+          <div class="spot-c8cz3">خدمات إعلانات M1 مول من أجانس موبيل. حلول إعلانية تصل إلى 200-500 ألف شخص أسبوعياً في مركز التسوق الجذاب في غازي عنتاب بعمارة حديثة. خيارات مميزة في المساحات الداخلية والخارجية.</div>
         </div>
-        <div class="button-qkbsh">اقرأ المزيد...</div>
+        <div class="button-c8cz3">اقرأ المزيد...</div>
       </div>
     </a>
   
     <a href="/ar/sinema-reklamlari/" class="swiper-slide">
-      <div class="swiper-qkbsh">
-        <img class="img-qkbsh" src="/page/gvz-sinema-reklamlari/undefined" alt="إعلانات السينما"  loading="lazy"/>
-        <div class="title-spot-qkbsh">
-          <div class="title-qkbsh">إعلانات السينما</div>
-          <div class="spot-qkbsh">خدمات إعلانات السينما من أجانس موبيل. جذب انتباه عالي مع إعلانات تُعرض قبل الأفلام وأثناء الفواصل. وسيط إعلاني مثالي للوصول إلى جماهير شابة وديناميكية. رؤية علامة تجارية متميزة وفعالة.</div>
+      <div class="swiper-c8cz3">
+        <img class="img-c8cz3" src="/page/gvz-sinema-reklamlari/undefined" alt="إعلانات السينما"  loading="lazy"/>
+        <div class="title-spot-c8cz3">
+          <div class="title-c8cz3">إعلانات السينما</div>
+          <div class="spot-c8cz3">خدمات إعلانات السينما من أجانس موبيل. جذب انتباه عالي مع إعلانات تُعرض قبل الأفلام وأثناء الفواصل. وسيط إعلاني مثالي للوصول إلى جماهير شابة وديناميكية.</div>
         </div>
-        <div class="button-qkbsh">اقرأ المزيد...</div>
+        <div class="button-c8cz3">اقرأ المزيد...</div>
       </div>
     </a>
   
     <a href="/ar/pano-reklamlari/" class="swiper-slide">
-      <div class="swiper-qkbsh">
-        <img class="img-qkbsh" src="/page/gvz-pano-reklamlari/undefined" alt="إعلانات لوحات الإعلانات"  loading="lazy"/>
-        <div class="title-spot-qkbsh">
-          <div class="title-qkbsh">إعلانات لوحات الإعلانات</div>
-          <div class="spot-qkbsh">خدمات إعلانات لوحات الإعلانات من أجانس موبيل. حلول إعلانية توفر وصولاً واسعاً ورؤية مستمرة في النقاط الاستراتيجية في غازي عنتاب. ترويج فعال للعلامة التجارية والوعي في المناطق ذات حركة المرور العالية.</div>
+      <div class="swiper-c8cz3">
+        <img class="img-c8cz3" src="/page/gvz-pano-reklamlari/undefined" alt="إعلانات لوحات الإعلانات"  loading="lazy"/>
+        <div class="title-spot-c8cz3">
+          <div class="title-c8cz3">إعلانات لوحات الإعلانات</div>
+          <div class="spot-c8cz3">خدمات إعلانات لوحات الإعلانات من أجانس موبيل. حلول إعلانية توفر وصولاً واسعاً ورؤية مستمرة في النقاط الاستراتيجية في غازي عنتاب. ترويج فعال للعلامة التجارية والوعي في المناطق ذات حركة المرور العالية.</div>
         </div>
-        <div class="button-qkbsh">اقرأ المزيد...</div>
+        <div class="button-c8cz3">اقرأ المزيد...</div>
       </div>
     </a>
   
     <a href="/ar/ozel-uygulama-billboard/" class="swiper-slide">
-      <div class="swiper-qkbsh">
-        <img class="img-qkbsh" src="/page/gvz-ozel-billboard/undefined" alt="لوحة إعلانات التطبيق المخصص"  loading="lazy"/>
-        <div class="title-spot-qkbsh">
-          <div class="title-qkbsh">لوحة إعلانات التطبيق المخصص</div>
-          <div class="spot-qkbsh">خدمات لوحة إعلانات التطبيق المخصص من أجانس موبيل. حلول لوحة إعلانات بتصميم مخصص إبداعي وجذاب للانتباه. تميز بعلامتك التجارية مع تفاعل عالي وإمكانية فيروسية. تصاميم مخصصة ثلاثية الأبعاد ومتحركة ومضيئة.</div>
+      <div class="swiper-c8cz3">
+        <img class="img-c8cz3" src="/page/gvz-ozel-billboard/undefined" alt="لوحة إعلانات التطبيق المخصص"  loading="lazy"/>
+        <div class="title-spot-c8cz3">
+          <div class="title-c8cz3">لوحة إعلانات التطبيق المخصص</div>
+          <div class="spot-c8cz3">خدمات لوحة إعلانات التطبيق المخصص من أجانس موبيل. حلول لوحة إعلانات بتصميم مخصص إبداعي وجذاب للانتباه. تميز بعلامتك التجارية مع تفاعل عالي وإمكانية فيروسية.</div>
         </div>
-        <div class="button-qkbsh">اقرأ المزيد...</div>
+        <div class="button-c8cz3">اقرأ المزيد...</div>
       </div>
     </a>
   
     <a href="/ar/universite-reklamlari/" class="swiper-slide">
-      <div class="swiper-qkbsh">
-        <img class="img-qkbsh" src="/page/gvz-universite-reklamlari/undefined" alt="إعلانات الجامعة"  loading="lazy"/>
-        <div class="title-spot-qkbsh">
-          <div class="title-qkbsh">إعلانات الجامعة</div>
-          <div class="spot-qkbsh">خدمات إعلانات الجامعة من أجانس موبيل. وسيط إعلاني مثالي للوصول إلى جمهور مستهدف شاب وديناميكي. رؤية علامة تجارية فعالة في الحرم الجامعي ووصول مباشر إلى جمهور الطلاب. خيارات لوحة إعلانات وملصق وشاشة رقمية.</div>
+      <div class="swiper-c8cz3">
+        <img class="img-c8cz3" src="/page/gvz-universite-reklamlari/undefined" alt="إعلانات الجامعة"  loading="lazy"/>
+        <div class="title-spot-c8cz3">
+          <div class="title-c8cz3">إعلانات الجامعة</div>
+          <div class="spot-c8cz3">خدمات إعلانات الجامعة من أجانس موبيل. وسيط إعلاني مثالي للوصول إلى جمهور مستهدف شاب وديناميكي. رؤية علامة تجارية فعالة في الحرم الجامعي ووصول مباشر إلى جمهور الطلاب.</div>
         </div>
-        <div class="button-qkbsh">اقرأ المزيد...</div>
+        <div class="button-c8cz3">اقرأ المزيد...</div>
       </div>
     </a>
   </div>
-    <div class="swiper-pagination-qkbsh"></div>
+    <div class="swiper-pagination-c8cz3"></div>
   </div>
-  <div class="swiper-button-next swiper-button-next-qkbsh"></div>
-  <div class="swiper-button-prev swiper-button-prev-qkbsh"></div>
+  <div class="swiper-button-next swiper-button-next-c8cz3"></div>
+  <div class="swiper-button-prev swiper-button-prev-c8cz3"></div>
 </div>
 
 <script>
@@ -596,7 +632,7 @@
       attempts++;
       if (typeof Swiper === "function") {
         clearInterval(timer);
-        new Swiper(".qkbsh", {
+        new Swiper(".c8cz3", {
           slidesPerView: 2,
           simulateTouch: true,
           loop: true,
@@ -610,12 +646,12 @@
             disableOnInteraction: true,
           },
           pagination: {
-            el: ".swiper-pagination-qkbsh",
+            el: ".swiper-pagination-c8cz3",
             clickable: true,
           },
           navigation: {
-            nextEl: ".swiper-button-next-qkbsh",
-            prevEl: ".swiper-button-prev-qkbsh",
+            nextEl: ".swiper-button-next-c8cz3",
+            prevEl: ".swiper-button-prev-c8cz3",
           },
         });
       } else if (attempts >= maxAttempts) {
@@ -626,9 +662,9 @@
   })();
 </script>
 </div>
-  <div id="footer"><div class="wa-advanced" id="r7eohWaAdvanced">
-  <div class="r7eoh-wa-advanced-button" onclick="toggleModulexAdvanced()">
-    <div class="r7eoh-wa-advanced-icon">
+  <div id="footer"><div class="wa-advanced" id="dctihWaAdvanced">
+  <div class="dctih-wa-advanced-button" onclick="toggleModulexAdvanced()">
+    <div class="dctih-wa-advanced-icon">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
         <path
           d="M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z"
@@ -636,39 +672,39 @@
         ></path>
       </svg>
     </div>
-    <div class="r7eoh-wa-advanced-pulse"></div>
+    <div class="dctih-wa-advanced-pulse"></div>
   </div>
 
-  <div class="r7eoh-wa-advanced-panel" id="r7eohWaPanel">
-    <div class="r7eoh-wa-advanced-header">
-      <div class="r7eoh-wa-advanced-avatar">
-        <img src="/img/pjkf5g/logo.png?v=lte8x" alt="Support Agent"  loading="lazy"/>
-        <div class="r7eoh-wa-advanced-status online"></div>
+  <div class="dctih-wa-advanced-panel" id="dctihWaPanel">
+    <div class="dctih-wa-advanced-header">
+      <div class="dctih-wa-advanced-avatar">
+        <img src="/img/pjkf5g/logo.png?v=bdze1" alt="Support Agent"  loading="lazy"/>
+        <div class="dctih-wa-advanced-status online"></div>
       </div>
-      <div class="r7eoh-wa-advanced-info">
+      <div class="dctih-wa-advanced-info">
         <h4>دعم العملاء</h4>
         <p>متصل الآن</p>
       </div>
       <button
-        class="r7eoh-wa-advanced-close"
+        class="dctih-wa-advanced-close"
         onclick="closeModulexAdvanced()"
       >
         ×
       </button>
     </div>
 
-    <div class="r7eoh-wa-advanced-body">
-      <div class="r7eoh-wa-advanced-message">
+    <div class="dctih-wa-advanced-body">
+      <div class="dctih-wa-advanced-message">
         <p>مرحباً! كيف يمكنني مساعدتك؟</p>
-        <span class="r7eoh-wa-advanced-time">الآن</span>
+        <span class="dctih-wa-advanced-time">الآن</span>
       </div>
     </div>
 
-    <div class="r7eoh-wa-advanced-footer">
+    <div class="dctih-wa-advanced-footer">
       <a
         href="https://wa.me/905316791014"
         target="_blank"
-        class="r7eoh-wa-advanced-chat-btn"
+        class="dctih-wa-advanced-chat-btn"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -692,12 +728,12 @@
 
 <script>
   function toggleModulexAdvanced() {
-    const panel = document.getElementById("r7eohWaPanel");
+    const panel = document.getElementById("dctihWaPanel");
     panel.style.display = panel.style.display === "block" ? "none" : "block";
   }
 
   function closeModulexAdvanced() {
-    document.getElementById("r7eohWaPanel").style.display = "none";
+    document.getElementById("dctihWaPanel").style.display = "none";
   }
 </script>
 <footer class="footer">
@@ -755,8 +791,8 @@
 <meta name="google-site-verification" content="9UY_kGQb1IGXMFMd4tQHzXABrXhZG-SiJ_lXYjWE69M" />
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=lte8x"></script>
-<script defer src="/src/cookie.js?v=lte8x"></script>
+<script defer type="text/javascript" src="/src/js.js?v=bdze1"></script>
+<script defer src="/src/cookie.js?v=bdze1"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

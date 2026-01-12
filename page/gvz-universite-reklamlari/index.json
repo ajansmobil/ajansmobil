@@ -15,9 +15,9 @@
     "ar": "إعلانات الجامعة غازي عنتاب، إعلانات الحرم الجامعي أجانس موبيل، إعلانات الجمهور المستهدف الطلابي، جمهور شاب ديناميكي، إعلانات لوحة إعلانات الجامعة"
   },
   "description": {
-    "tr": "Ajans Mobil üniversite reklam hizmetleri. Genç ve dinamik hedef kitleye ulaşmak için ideal reklam mecrası. Üniversite kampüslerinde etkili marka görünürlüğü ve öğrenci kitlesine doğrudan erişim. Pano, afiş ve dijital ekran seçenekleri.",
-    "en": "Ajans Mobil university advertising services. Ideal advertising medium for reaching young and dynamic target audience. Effective brand visibility at university campuses and direct access to student audience. Billboard, poster and digital screen options.",
-    "ar": "خدمات إعلانات الجامعة من أجانس موبيل. وسيط إعلاني مثالي للوصول إلى جمهور مستهدف شاب وديناميكي. رؤية علامة تجارية فعالة في الحرم الجامعي ووصول مباشر إلى جمهور الطلاب. خيارات لوحة إعلانات وملصق وشاشة رقمية."
+    "tr": "Ajans Mobil üniversite reklam hizmetleri. Genç ve dinamik hedef kitleye ulaşmak için ideal reklam mecrası. Üniversite kampüslerinde etkili marka görünürlüğü ve öğrenci kitlesine doğrudan erişim.",
+    "en": "Ajans Mobil university advertising services. Ideal advertising medium for reaching young and dynamic target audience. Effective brand visibility at university campuses and direct access to student audience.",
+    "ar": "خدمات إعلانات الجامعة من أجانس موبيل. وسيط إعلاني مثالي للوصول إلى جمهور مستهدف شاب وديناميكي. رؤية علامة تجارية فعالة في الحرم الجامعي ووصول مباشر إلى جمهور الطلاب."
   },
   "text": {
     "tr": "<h2 style=\"font-size: 24px;\">Üniversite Reklam Alanları</h2>\n    <p style=\"font-size: 16px;\">\n        Üniversite kampüslerinde pano, afiş ve dijital ekranlar. Hedef kitle; öğrenciler ve akademik personel. Genç ve dinamik kitleye ulaşmak için idealdir.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Marka gençleşmesi ve yeni müşteri kazanımı sağlar. Hedefli iletişim ve yenilikçi imaj avantajları sunar.\n    </p>",
@@ -30,7 +30,7 @@
   "index": 0,
   "icon": "home",
   "desc": {},
-  "update": "2026-01-12T03:50:31.849Z",
+  "update": "2026-01-12T03:58:36.293Z",
   "date": "2025-01-07T00:00:00.000Z",
   "desing": {
     "header": [],

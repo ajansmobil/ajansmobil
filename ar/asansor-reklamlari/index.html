@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=pukfh" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=pukfh" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=olgk0" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=olgk0" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=pukfh" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=olgk0" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,89 +52,140 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=pukfh">
+<link rel="stylesheet" href="style.css?v=olgk0">
 </head>
 
 <body>
-  <div id="header"><div class="yhv8p">
-  <div class="yhv8ptitle">
-    <div class="yhv8ptitlebody">
-     
-      <div class="yhv8ptitlebodylang">
-        <ul>
-          <li><a href="/tr/asansor-reklamlari/">tr</a></li><li><a href="/en/asansor-reklamlari/">en</a></li><li><a href="/ar/asansor-reklamlari/">ar</a></li>
+  <div id="header"><header class="fqb6h" role="banner">
+  <div class="fqb6htitle" role="region" aria-label="محدد اللغة">
+    <div class="fqb6htitlebody">
+      <nav class="fqb6htitlebodylang" aria-label="محدد اللغة">
+        <ul role="list">
+          <li role="none"><a href="/tr/asansor-reklamlari/" hreflang="tr" title="true" aria-label="محدد اللغة: tr" lang="tr">tr</a></li><li role="none"><a href="/en/asansor-reklamlari/" hreflang="en" title="true" aria-label="محدد اللغة: en" lang="en">en</a></li><li role="none"><a href="/ar/asansor-reklamlari/" hreflang="ar" aria-current="true" title="true" aria-label="محدد اللغة: ar" lang="ar">ar</a></li>
         </ul>
-      </div>
+      </nav>
     </div>
   </div>
-  <div class="yhv8pChildren">
-    <div class="yhv8pbody">
-      <a href="/ar/"><img src="/img/logo.svg?v=pukfh" class="yhv8pbodylogo" alt="Ajans Mobil Gaziantep Logo" loading="lazy" /></a>
+  <div class="fqb6hChildren">
+    <div class="fqb6hbody">
+      <a href="/ar/" aria-label="الصفحة الرئيسية - Ajans Mobil Gaziantep" title="الصفحة الرئيسية - Ajans Mobil Gaziantep">
+        <img src="/img/logo.svg?v=olgk0" class="fqb6hbodylogo" alt="Ajans Mobil Gaziantep Logo" width="auto" height="auto" loading="lazy" />
+      </a>
     </div>
-    <div class="yhv8pmenumobil">
-      <div class="material-symbols-outlined" aria-hidden="true">menu</div>
-    </div>
-    <div class="yhv8pmenulist">
-      <ul>
-        <a href="/ar/" class="yhv8pmenuitem">الصفحة الرئيسية </a><a href="/ar/hakkimizda/" class="yhv8pmenuitem">الشركات</a><a href="/ar/hizmetlerimiz/" class="yhv8pmenuitem">خدماتنا الرقمية</a><a href="/ar/acik-hava-hizmetlerimiz/" class="yhv8pmenuitem">خدماتنا الخارجية</a><a href="/ar/iletisim/" class="yhv8pmenuitem">اتصل بنا</a>
+    <button class="fqb6hmenumobil" type="button" aria-label="تبديل القائمة" aria-expanded="false" aria-controls="fqb6hmenulist">
+      <span class="material-symbols-outlined" aria-hidden="true">menu</span>
+    </button>
+    <nav class="fqb6hmenulist" id="fqb6hmenulist" role="navigation" aria-label="التنقل">
+      <ul role="menubar">
+        <a href="/ar/" class="fqb6hmenuitem" role="menuitem" title="الصفحة الرئيسية - " aria-label="الصفحة الرئيسية">الصفحة الرئيسية</a><a href="/ar/hakkimizda/" class="fqb6hmenuitem" role="menuitem" title="الشركات" aria-label="الشركات">الشركات</a><a href="/ar/hizmetlerimiz/" class="fqb6hmenuitem" role="menuitem" title="خدماتنا الرقمية" aria-label="خدماتنا الرقمية">خدماتنا الرقمية</a><a href="/ar/acik-hava-hizmetlerimiz/" class="fqb6hmenuitem" role="menuitem" title="خدماتنا الخارجية" aria-label="خدماتنا الخارجية">خدماتنا الخارجية</a><a href="/ar/iletisim/" class="fqb6hmenuitem" role="menuitem" title="اتصل بنا" aria-label="اتصل بنا">اتصل بنا</a>
       </ul>
-    </div>
+    </nav>
   </div>
-</div>
+</header>
 
 <script>
-  document
-    .querySelector(".yhv8pmenumobil")
-    .addEventListener("click", function () {
-      const menu = document.querySelector(".yhv8pmenulist");
-      if (menu.style.display === "flex") {
-        menu.style.display = "none";
-      } else {
-        menu.style.display = "flex";
-      }
-    });
+  setTimeout(function() {
+    var menuButton = document.querySelector(".fqb6hmenumobil");
+    var menu = document.querySelector(".fqb6hmenulist");
+    
+    if (menuButton && menu) {
+      // Tıklama eventi
+      menuButton.addEventListener("click", function () {
+        var isExpanded = menuButton.getAttribute("aria-expanded") === "true";
+        if (isExpanded) {
+          menu.style.display = "none";
+          menuButton.setAttribute("aria-expanded", "false");
+        } else {
+          menu.style.display = "flex";
+          menuButton.setAttribute("aria-expanded", "true");
+        }
+      });
+      
+      // Klavye navigasyonu (Enter ve Space)
+      menuButton.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          menuButton.click();
+        }
+      });
+      
+      // ESC tuşu ile menüyü kapat
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape" && menuButton.getAttribute("aria-expanded") === "true") {
+          menu.style.display = "none";
+          menuButton.setAttribute("aria-expanded", "false");
+          menuButton.focus();
+        }
+      });
+      
+      // Menü dışına tıklanınca kapat
+      document.addEventListener("click", function (e) {
+        if (menuButton.getAttribute("aria-expanded") === "true" && 
+            !menu.contains(e.target) && 
+            !menuButton.contains(e.target)) {
+          menu.style.display = "none";
+          menuButton.setAttribute("aria-expanded", "false");
+        }
+      });
+    }
+  }, 100);
 </script>
 </div>
-  <div id="content"><div class="o75j8-title f36">
+  <div id="content"><div class="yqbch-title f36">
   <h1>إعلانات المصاعد</h1>
 </div>
-<div class="o75j8">
-  <div class="o75j8-menu-btn">
+<div class="yqbch">
+  <div class="yqbch-menu-btn">
     <span>قائمة الصفحات</span>
-    <span class="material-symbols-outlined o75j8-icon">menu</span>
+    <span class="material-symbols-outlined yqbch-icon">menu</span>
   </div>
-  <div class="o75j8-menu"><a class="o75j8-menu-link active" href="/ar/asansor-reklamlari/">إعلانات المصاعد</a><a class="o75j8-menu-link" href="/ar/dolmus-reklamlari/">إعلانات الميني باص</a><a class="o75j8-menu-link" href="/ar/otobus-reklam/">إعلانات الحافلات</a><a class="o75j8-menu-link" href="/ar/acik-hava-reklamciligi/">الإعلانات الخارجية</a><a class="o75j8-menu-link" href="/ar/taksi-reklamlari/">إعلانات التاكسي</a><a class="o75j8-menu-link" href="/ar/tramvay/">الترام</a><a class="o75j8-menu-link" href="/ar/iconova-cadde-reklamlari/">إعلانات شارع أيكونوفا</a><a class="o75j8-menu-link" href="/ar/havalimani-reklamlari/">إعلانات المطار</a><a class="o75j8-menu-link" href="/ar/organize-sanayi-reklamlari/">إعلانات المنطقة الصناعية المنظمة</a><a class="o75j8-menu-link" href="/ar/cadde-duvarlari-reklamlari/">إعلانات جدران الشوارع</a><a class="o75j8-menu-link" href="/ar/bina-asansorleri-reklamlari/">إعلانات مصاعد المباني</a><a class="o75j8-menu-link" href="/ar/belediye-otobusu-reklamlari/">إعلانات حافلات البلدية</a><a class="o75j8-menu-link" href="/ar/halk-otobusu-reklamlari/">إعلانات حافلات النقل العام</a><a class="o75j8-menu-link" href="/ar/dolmus-reklamlari-geveze/">إعلانات الميني باص (جيفيز)</a><a class="o75j8-menu-link" href="/ar/tramvay-reklamlari-geveze/">إعلانات الترام (جيفيز)</a><a class="o75j8-menu-link" href="/ar/taksi-reklamlari-geveze/">إعلانات التاكسي (جيفيز)</a><a class="o75j8-menu-link" href="/ar/primemall-avm-reklamlari/">Primemall AVM Reklamları</a><a class="o75j8-menu-link" href="/ar/forum-avm-reklamlari/">إعلانات فورم مول</a><a class="o75j8-menu-link" href="/ar/sanko-park-avm-reklamlari/">Sanko Park AVM Reklamları</a><a class="o75j8-menu-link" href="/ar/m1-avm-reklamlari/">إعلانات M1 مول</a><a class="o75j8-menu-link" href="/ar/sinema-reklamlari/">إعلانات السينما</a><a class="o75j8-menu-link" href="/ar/pano-reklamlari/">إعلانات لوحات الإعلانات</a><a class="o75j8-menu-link" href="/ar/ozel-uygulama-billboard/">لوحة إعلانات التطبيق المخصص</a><a class="o75j8-menu-link" href="/ar/universite-reklamlari/">إعلانات الجامعة</a></div>
-  <div class="o75j8-desc">
+  <div class="yqbch-menu"><a class="yqbch-menu-link active" href="/ar/asansor-reklamlari/">إعلانات المصاعد</a><a class="yqbch-menu-link" href="/ar/dolmus-reklamlari/">إعلانات الميني باص</a><a class="yqbch-menu-link" href="/ar/otobus-reklam/">إعلانات الحافلات</a><a class="yqbch-menu-link" href="/ar/acik-hava-reklamciligi/">الإعلانات الخارجية</a><a class="yqbch-menu-link" href="/ar/taksi-reklamlari/">إعلانات التاكسي</a><a class="yqbch-menu-link" href="/ar/tramvay/">الترام</a><a class="yqbch-menu-link" href="/ar/iconova-cadde-reklamlari/">إعلانات شارع أيكونوفا</a><a class="yqbch-menu-link" href="/ar/havalimani-reklamlari/">إعلانات المطار</a><a class="yqbch-menu-link" href="/ar/organize-sanayi-reklamlari/">إعلانات المنطقة الصناعية المنظمة</a><a class="yqbch-menu-link" href="/ar/cadde-duvarlari-reklamlari/">إعلانات جدران الشوارع</a><a class="yqbch-menu-link" href="/ar/bina-asansorleri-reklamlari/">إعلانات مصاعد المباني</a><a class="yqbch-menu-link" href="/ar/belediye-otobusu-reklamlari/">إعلانات حافلات البلدية</a><a class="yqbch-menu-link" href="/ar/halk-otobusu-reklamlari/">إعلانات حافلات النقل العام</a><a class="yqbch-menu-link" href="/ar/dolmus-reklamlari-geveze/">إعلانات الميني باص (جيفيز)</a><a class="yqbch-menu-link" href="/ar/tramvay-reklamlari-geveze/">إعلانات الترام (جيفيز)</a><a class="yqbch-menu-link" href="/ar/taksi-reklamlari-geveze/">إعلانات التاكسي (جيفيز)</a><a class="yqbch-menu-link" href="/ar/primemall-avm-reklamlari/">إعلانات برايم مول</a><a class="yqbch-menu-link" href="/ar/forum-avm-reklamlari/">إعلانات فورم مول</a><a class="yqbch-menu-link" href="/ar/sanko-park-avm-reklamlari/">Sanko Park AVM Reklamları</a><a class="yqbch-menu-link" href="/ar/m1-avm-reklamlari/">إعلانات M1 مول</a><a class="yqbch-menu-link" href="/ar/sinema-reklamlari/">إعلانات السينما</a><a class="yqbch-menu-link" href="/ar/pano-reklamlari/">إعلانات لوحات الإعلانات</a><a class="yqbch-menu-link" href="/ar/ozel-uygulama-billboard/">لوحة إعلانات التطبيق المخصص</a><a class="yqbch-menu-link" href="/ar/universite-reklamlari/">إعلانات الجامعة</a></div>
+  <div class="yqbch-desc">
     
-    <div class="o75j8-desc-body">
-            <img src="/page/bfjvcgg13p/c9t15.png?v=pukfh" width="100%" alt="إعلانات المصاعد" loading="lazy" />
+    <div class="yqbch-desc-body">
+            <img src="/page/bfjvcgg13p/c9t15.png?v=olgk0" width="100%" alt="إعلانات المصاعد" loading="lazy" />
     </div>
-    <div class="o75j8-body"></div>
+    <div class="yqbch-body"><p><h2 style="font-size: 28px; color: #0f70b7; margin-bottom: 20px;">إعلانات المصاعد غازي عنتاب - الوصول إلى جمهورك المستهدف مباشرة</h2></p>
+<p>    <p style="font-size: 16px; line-height: 1.8; margin-bottom: 15px;"></p>
+<p>        إعلانات المصاعد هي واحدة من أكثر الطرق فعالية للوصول إلى جمهورك المستهدف في الحياة اليومية. كأجانس موبيل، ننظم حملات إعلانات داخل المصاعد في غازي عنتاب لمدة 15 عاماً، مما يزيد من رؤية مئات العلامات التجارية. نوفر الوصول إلى آلاف الأشخاص يومياً مع لوحات الإعلان التي نضعها في المصاعد في المجمعات السكنية الحديثة ومراكز الأعمال ومراكز التسوق والمستشفيات.</p>
+<p>    </p></p>
+<p>    <p style="font-size: 16px; line-height: 1.8; margin-bottom: 15px;"></p>
+<p>        أكبر ميزة لإعلانات المصاعد هي أنك يمكنك جذب انتباه جمهورك المستهدف بالكامل. يميل الناس إلى النظر حولهم أثناء انتظارهم في المصاعد أو أثناء السفر. يمكنك زيادة الوعي بعلامتك التجارية وكسب عملاء جدد مع إعلانات المصاعد الجذابة والإبداعية والمثيرة للإعجاب في هذه اللحظات الحرجة. إعلانات المصاعد تحقق نتائج فعالة جداً خاصة في العقارات والتعليم والصحة ومراكز الجمال والمطاعم وقطاعات الخدمات المحلية.</p>
+<p>    </p></p>
+<p>    <p style="font-size: 16px; line-height: 1.8; margin-bottom: 15px;"></p>
+<p>        لدينا شبكة إعلانات مصاعد واسعة في أكثر أحياء غازي عنتاب تميزاً والمشاريع السكنية التي تناشد مجموعات الدخل المرتفع ومراكز الأعمال المركزية. لدينا وسائط إعلانية في مواقع مختارة استراتيجياً في مناطق مثل شاهين بيه وشهيت كامل وقره تاش وأونالدي. ننظم حملات إعلانية في المباني حيث جمهورك المستهدف موجود بكثافة من خلال أداء تحليل ديموغرافي.</p>
+<p>    </p></p>
+<p>    <p style="font-size: 16px; line-height: 1.8; margin-bottom: 15px;"></p>
+<p>        خدمات إعلانات المصاعد الخاصة بنا تشمل التصميم والطباعة والتركيب والفحوصات الدورية. فريق التصميم الجرافيكي المحترف الخاص بنا يعد تصاميم جذابة ومركزة على الرسالة مناسبة للهوية البصرية لعلامتك التجارية. نضمن بقاء إعلاناتك حيوية وفعالة لفترة طويلة باستخدام مواد متينة وجودة. نقدم حلولاً مناسبة لميزانيتك مع حزم حملات شهرية و3 أشهر و6 أشهر وسنوية.</p>
+<p>    </p></p>
+<p>    <p style="font-size: 16px; line-height: 1.8; margin-bottom: 15px;"></p>
+<p>        علامتك التجارية تصبح مرئية على مدار الساعة بفضل إعلانات المصاعد. تصل إلى أشخاص من جميع الفئات العمرية يذهبون إلى العمل في الصباح ويعودون إلى المنزل في المساء ويتسوقون في عطلات نهاية الأسبوع. إعلانات المصاعد، التي هي أكثر اقتصاداً بكثير من إعلانات التلفزيون أو الراديو أو الصحف، هي أداة تسويق فعالة من حيث التكلفة للشركات المحلية. بالإضافة إلى ذلك، يمكنك التكامل مع حملاتك الرقمية بإضافة رموز QR والحصول على نتائج قابلة للقياس. نحن في موقع رائد في إعلانات المصاعد في غازي عنتاب بخبرتنا التي تبلغ 15 عاماً. اتصل بنا فوراً لتقديم علامتك التجارية لآلاف العملاء المحتملين.</p>
+<p>    </p></p></div>
   </div>
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".o75j8-menu-btn");
+  const menuToggleBtn = document.querySelector(".yqbch-menu-btn");
   if (menuToggleBtn) {
     menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".o75j8-menu");
+      const menu = document.querySelector(".yqbch-menu");
       if (!menu) return;
       const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".o75j8-icon");
+      const icon = this.querySelector(".yqbch-icon");
       if (icon) {
         icon.textContent = isOpen ? "close" : "menu";
       }
     });
   }
 
-  document.querySelectorAll(".o75j8-top").forEach(function (button) {
+  document.querySelectorAll(".yqbch-top").forEach(function (button) {
     button.addEventListener("click", function () {
-      const group = this.closest(".o75j8-menu-group");
+      const group = this.closest(".yqbch-menu-group");
       if (!group) return;
-      const sub = group.querySelector(".o75j8-sub");
+      const sub = group.querySelector(".yqbch-sub");
       const isOpen = group.classList.toggle("open");
       this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".o75j8-icon");
+      const icon = this.querySelector(".yqbch-icon");
       if (icon) {
         icon.textContent = isOpen ? "expand_less" : "expand_more";
       }
@@ -146,9 +197,9 @@
 </script>
 
 </div>
-  <div id="footer"><div class="wa-advanced" id="nbcaoWaAdvanced">
-  <div class="nbcao-wa-advanced-button" onclick="toggleModulexAdvanced()">
-    <div class="nbcao-wa-advanced-icon">
+  <div id="footer"><div class="wa-advanced" id="x0mhzWaAdvanced">
+  <div class="x0mhz-wa-advanced-button" onclick="toggleModulexAdvanced()">
+    <div class="x0mhz-wa-advanced-icon">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
         <path
           d="M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z"
@@ -156,39 +207,39 @@
         ></path>
       </svg>
     </div>
-    <div class="nbcao-wa-advanced-pulse"></div>
+    <div class="x0mhz-wa-advanced-pulse"></div>
   </div>
 
-  <div class="nbcao-wa-advanced-panel" id="nbcaoWaPanel">
-    <div class="nbcao-wa-advanced-header">
-      <div class="nbcao-wa-advanced-avatar">
-        <img src="/img/pjkf5g/logo.png?v=pukfh" alt="Support Agent"  loading="lazy"/>
-        <div class="nbcao-wa-advanced-status online"></div>
+  <div class="x0mhz-wa-advanced-panel" id="x0mhzWaPanel">
+    <div class="x0mhz-wa-advanced-header">
+      <div class="x0mhz-wa-advanced-avatar">
+        <img src="/img/pjkf5g/logo.png?v=olgk0" alt="Support Agent"  loading="lazy"/>
+        <div class="x0mhz-wa-advanced-status online"></div>
       </div>
-      <div class="nbcao-wa-advanced-info">
+      <div class="x0mhz-wa-advanced-info">
         <h4>دعم العملاء</h4>
         <p>متصل الآن</p>
       </div>
       <button
-        class="nbcao-wa-advanced-close"
+        class="x0mhz-wa-advanced-close"
         onclick="closeModulexAdvanced()"
       >
         ×
       </button>
     </div>
 
-    <div class="nbcao-wa-advanced-body">
-      <div class="nbcao-wa-advanced-message">
+    <div class="x0mhz-wa-advanced-body">
+      <div class="x0mhz-wa-advanced-message">
         <p>مرحباً! كيف يمكنني مساعدتك؟</p>
-        <span class="nbcao-wa-advanced-time">الآن</span>
+        <span class="x0mhz-wa-advanced-time">الآن</span>
       </div>
     </div>
 
-    <div class="nbcao-wa-advanced-footer">
+    <div class="x0mhz-wa-advanced-footer">
       <a
         href="https://wa.me/905316791014"
         target="_blank"
-        class="nbcao-wa-advanced-chat-btn"
+        class="x0mhz-wa-advanced-chat-btn"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -212,12 +263,12 @@
 
 <script>
   function toggleModulexAdvanced() {
-    const panel = document.getElementById("nbcaoWaPanel");
+    const panel = document.getElementById("x0mhzWaPanel");
     panel.style.display = panel.style.display === "block" ? "none" : "block";
   }
 
   function closeModulexAdvanced() {
-    document.getElementById("nbcaoWaPanel").style.display = "none";
+    document.getElementById("x0mhzWaPanel").style.display = "none";
   }
 </script>
 <footer class="footer">
@@ -275,8 +326,8 @@
 <meta name="google-site-verification" content="9UY_kGQb1IGXMFMd4tQHzXABrXhZG-SiJ_lXYjWE69M" />
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=pukfh"></script>
-<script defer src="/src/cookie.js?v=pukfh"></script>
+<script defer type="text/javascript" src="/src/js.js?v=olgk0"></script>
+<script defer src="/src/cookie.js?v=olgk0"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

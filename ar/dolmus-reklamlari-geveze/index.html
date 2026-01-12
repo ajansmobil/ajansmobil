@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=y41rd" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=y41rd" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=yc21b" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=yc21b" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=y41rd" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=yc21b" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,64 +52,100 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=y41rd">
+<link rel="stylesheet" href="style.css?v=yc21b">
 </head>
 
 <body>
-  <div id="header"><div class="jg41b">
-  <div class="jg41btitle">
-    <div class="jg41btitlebody">
-     
-      <div class="jg41btitlebodylang">
-        <ul>
-          <li><a href="/tr/dolmus-reklamlari-geveze/">tr</a></li><li><a href="/en/dolmus-reklamlari-geveze/">en</a></li><li><a href="/ar/dolmus-reklamlari-geveze/">ar</a></li>
+  <div id="header"><header class="qrnj1" role="banner">
+  <div class="qrnj1title" role="region" aria-label="محدد اللغة">
+    <div class="qrnj1titlebody">
+      <nav class="qrnj1titlebodylang" aria-label="محدد اللغة">
+        <ul role="list">
+          <li role="none"><a href="/tr/dolmus-reklamlari-geveze/" hreflang="tr" title="true" aria-label="محدد اللغة: tr" lang="tr">tr</a></li><li role="none"><a href="/en/dolmus-reklamlari-geveze/" hreflang="en" title="true" aria-label="محدد اللغة: en" lang="en">en</a></li><li role="none"><a href="/ar/dolmus-reklamlari-geveze/" hreflang="ar" aria-current="true" title="true" aria-label="محدد اللغة: ar" lang="ar">ar</a></li>
         </ul>
-      </div>
+      </nav>
     </div>
   </div>
-  <div class="jg41bChildren">
-    <div class="jg41bbody">
-      <a href="/ar/"><img src="/img/logo.svg?v=y41rd" class="jg41bbodylogo" alt="Ajans Mobil Gaziantep Logo" loading="lazy" /></a>
+  <div class="qrnj1Children">
+    <div class="qrnj1body">
+      <a href="/ar/" aria-label="الصفحة الرئيسية - Ajans Mobil Gaziantep" title="الصفحة الرئيسية - Ajans Mobil Gaziantep">
+        <img src="/img/logo.svg?v=yc21b" class="qrnj1bodylogo" alt="Ajans Mobil Gaziantep Logo" width="auto" height="auto" loading="lazy" />
+      </a>
     </div>
-    <div class="jg41bmenumobil">
-      <div class="material-symbols-outlined" aria-hidden="true">menu</div>
-    </div>
-    <div class="jg41bmenulist">
-      <ul>
-        <a href="/ar/" class="jg41bmenuitem">الصفحة الرئيسية </a><a href="/ar/hakkimizda/" class="jg41bmenuitem">الشركات</a><a href="/ar/hizmetlerimiz/" class="jg41bmenuitem">خدماتنا الرقمية</a><a href="/ar/acik-hava-hizmetlerimiz/" class="jg41bmenuitem">خدماتنا الخارجية</a><a href="/ar/iletisim/" class="jg41bmenuitem">اتصل بنا</a>
+    <button class="qrnj1menumobil" type="button" aria-label="تبديل القائمة" aria-expanded="false" aria-controls="qrnj1menulist">
+      <span class="material-symbols-outlined" aria-hidden="true">menu</span>
+    </button>
+    <nav class="qrnj1menulist" id="qrnj1menulist" role="navigation" aria-label="التنقل">
+      <ul role="menubar">
+        <a href="/ar/" class="qrnj1menuitem" role="menuitem" title="الصفحة الرئيسية - " aria-label="الصفحة الرئيسية">الصفحة الرئيسية</a><a href="/ar/hakkimizda/" class="qrnj1menuitem" role="menuitem" title="الشركات" aria-label="الشركات">الشركات</a><a href="/ar/hizmetlerimiz/" class="qrnj1menuitem" role="menuitem" title="خدماتنا الرقمية" aria-label="خدماتنا الرقمية">خدماتنا الرقمية</a><a href="/ar/acik-hava-hizmetlerimiz/" class="qrnj1menuitem" role="menuitem" title="خدماتنا الخارجية" aria-label="خدماتنا الخارجية">خدماتنا الخارجية</a><a href="/ar/iletisim/" class="qrnj1menuitem" role="menuitem" title="اتصل بنا" aria-label="اتصل بنا">اتصل بنا</a>
       </ul>
-    </div>
+    </nav>
   </div>
-</div>
+</header>
 
 <script>
-  document
-    .querySelector(".jg41bmenumobil")
-    .addEventListener("click", function () {
-      const menu = document.querySelector(".jg41bmenulist");
-      if (menu.style.display === "flex") {
-        menu.style.display = "none";
-      } else {
-        menu.style.display = "flex";
-      }
-    });
+  setTimeout(function() {
+    var menuButton = document.querySelector(".qrnj1menumobil");
+    var menu = document.querySelector(".qrnj1menulist");
+    
+    if (menuButton && menu) {
+      // Tıklama eventi
+      menuButton.addEventListener("click", function () {
+        var isExpanded = menuButton.getAttribute("aria-expanded") === "true";
+        if (isExpanded) {
+          menu.style.display = "none";
+          menuButton.setAttribute("aria-expanded", "false");
+        } else {
+          menu.style.display = "flex";
+          menuButton.setAttribute("aria-expanded", "true");
+        }
+      });
+      
+      // Klavye navigasyonu (Enter ve Space)
+      menuButton.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          menuButton.click();
+        }
+      });
+      
+      // ESC tuşu ile menüyü kapat
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape" && menuButton.getAttribute("aria-expanded") === "true") {
+          menu.style.display = "none";
+          menuButton.setAttribute("aria-expanded", "false");
+          menuButton.focus();
+        }
+      });
+      
+      // Menü dışına tıklanınca kapat
+      document.addEventListener("click", function (e) {
+        if (menuButton.getAttribute("aria-expanded") === "true" && 
+            !menu.contains(e.target) && 
+            !menuButton.contains(e.target)) {
+          menu.style.display = "none";
+          menuButton.setAttribute("aria-expanded", "false");
+        }
+      });
+    }
+  }, 100);
 </script>
 </div>
-  <div id="content"><div class="dyxbx-title f36">
+  <div id="content"><div class="d3we4-title f36">
   <h1>إعلانات الميني باص (جيفيز)</h1>
 </div>
-<div class="dyxbx">
-  <div class="dyxbx-menu-btn">
+<div class="d3we4">
+  <div class="d3we4-menu-btn">
     <span>قائمة الصفحات</span>
-    <span class="material-symbols-outlined dyxbx-icon">menu</span>
+    <span class="material-symbols-outlined d3we4-icon">menu</span>
   </div>
-  <div class="dyxbx-menu"><a class="dyxbx-menu-link" href="/ar/asansor-reklamlari/">إعلانات المصاعد</a><a class="dyxbx-menu-link" href="/ar/dolmus-reklamlari/">إعلانات الميني باص</a><a class="dyxbx-menu-link" href="/ar/otobus-reklam/">إعلانات الحافلات</a><a class="dyxbx-menu-link" href="/ar/acik-hava-reklamciligi/">الإعلانات الخارجية</a><a class="dyxbx-menu-link" href="/ar/taksi-reklamlari/">إعلانات التاكسي</a><a class="dyxbx-menu-link" href="/ar/tramvay/">الترام</a><a class="dyxbx-menu-link" href="/ar/iconova-cadde-reklamlari/">إعلانات شارع أيكونوفا</a><a class="dyxbx-menu-link" href="/ar/havalimani-reklamlari/">إعلانات المطار</a><a class="dyxbx-menu-link" href="/ar/organize-sanayi-reklamlari/">إعلانات المنطقة الصناعية المنظمة</a><a class="dyxbx-menu-link" href="/ar/cadde-duvarlari-reklamlari/">إعلانات جدران الشوارع</a><a class="dyxbx-menu-link" href="/ar/bina-asansorleri-reklamlari/">إعلانات مصاعد المباني</a><a class="dyxbx-menu-link" href="/ar/belediye-otobusu-reklamlari/">إعلانات حافلات البلدية</a><a class="dyxbx-menu-link" href="/ar/halk-otobusu-reklamlari/">إعلانات حافلات النقل العام</a><a class="dyxbx-menu-link active" href="/ar/dolmus-reklamlari-geveze/">إعلانات الميني باص (جيفيز)</a><a class="dyxbx-menu-link" href="/ar/tramvay-reklamlari-geveze/">إعلانات الترام (جيفيز)</a><a class="dyxbx-menu-link" href="/ar/taksi-reklamlari-geveze/">إعلانات التاكسي (جيفيز)</a><a class="dyxbx-menu-link" href="/ar/primemall-avm-reklamlari/">Primemall AVM Reklamları</a><a class="dyxbx-menu-link" href="/ar/forum-avm-reklamlari/">إعلانات فورم مول</a><a class="dyxbx-menu-link" href="/ar/sanko-park-avm-reklamlari/">Sanko Park AVM Reklamları</a><a class="dyxbx-menu-link" href="/ar/m1-avm-reklamlari/">إعلانات M1 مول</a><a class="dyxbx-menu-link" href="/ar/sinema-reklamlari/">إعلانات السينما</a><a class="dyxbx-menu-link" href="/ar/pano-reklamlari/">إعلانات لوحات الإعلانات</a><a class="dyxbx-menu-link" href="/ar/ozel-uygulama-billboard/">لوحة إعلانات التطبيق المخصص</a><a class="dyxbx-menu-link" href="/ar/universite-reklamlari/">إعلانات الجامعة</a></div>
-  <div class="dyxbx-desc">
+  <div class="d3we4-menu"><a class="d3we4-menu-link" href="/ar/asansor-reklamlari/">إعلانات المصاعد</a><a class="d3we4-menu-link" href="/ar/dolmus-reklamlari/">إعلانات الميني باص</a><a class="d3we4-menu-link" href="/ar/otobus-reklam/">إعلانات الحافلات</a><a class="d3we4-menu-link" href="/ar/acik-hava-reklamciligi/">الإعلانات الخارجية</a><a class="d3we4-menu-link" href="/ar/taksi-reklamlari/">إعلانات التاكسي</a><a class="d3we4-menu-link" href="/ar/tramvay/">الترام</a><a class="d3we4-menu-link" href="/ar/iconova-cadde-reklamlari/">إعلانات شارع أيكونوفا</a><a class="d3we4-menu-link" href="/ar/havalimani-reklamlari/">إعلانات المطار</a><a class="d3we4-menu-link" href="/ar/organize-sanayi-reklamlari/">إعلانات المنطقة الصناعية المنظمة</a><a class="d3we4-menu-link" href="/ar/cadde-duvarlari-reklamlari/">إعلانات جدران الشوارع</a><a class="d3we4-menu-link" href="/ar/bina-asansorleri-reklamlari/">إعلانات مصاعد المباني</a><a class="d3we4-menu-link" href="/ar/belediye-otobusu-reklamlari/">إعلانات حافلات البلدية</a><a class="d3we4-menu-link" href="/ar/halk-otobusu-reklamlari/">إعلانات حافلات النقل العام</a><a class="d3we4-menu-link active" href="/ar/dolmus-reklamlari-geveze/">إعلانات الميني باص (جيفيز)</a><a class="d3we4-menu-link" href="/ar/tramvay-reklamlari-geveze/">إعلانات الترام (جيفيز)</a><a class="d3we4-menu-link" href="/ar/taksi-reklamlari-geveze/">إعلانات التاكسي (جيفيز)</a><a class="d3we4-menu-link" href="/ar/primemall-avm-reklamlari/">إعلانات برايم مول</a><a class="d3we4-menu-link" href="/ar/forum-avm-reklamlari/">إعلانات فورم مول</a><a class="d3we4-menu-link" href="/ar/sanko-park-avm-reklamlari/">Sanko Park AVM Reklamları</a><a class="d3we4-menu-link" href="/ar/m1-avm-reklamlari/">إعلانات M1 مول</a><a class="d3we4-menu-link" href="/ar/sinema-reklamlari/">إعلانات السينما</a><a class="d3we4-menu-link" href="/ar/pano-reklamlari/">إعلانات لوحات الإعلانات</a><a class="d3we4-menu-link" href="/ar/ozel-uygulama-billboard/">لوحة إعلانات التطبيق المخصص</a><a class="d3we4-menu-link" href="/ar/universite-reklamlari/">إعلانات الجامعة</a></div>
+  <div class="d3we4-desc">
     
-    <div class="dyxbx-desc-body">
-            <img src="/page/gvz-dolmus/lymkl.webp?v=y41rd" width="100%" alt="إعلانات الميني باص (جيفيز)" loading="lazy" />
+    <div class="d3we4-desc-body">
+            <img src="/page/gvz-dolmus/lymkl.webp?v=yc21b" width="100%" alt="إعلانات الميني باص (جيفيز)" loading="lazy" />
     </div>
-    <div class="dyxbx-body"><p><h2 style="font-size: 24px;">إعلانات الميني باص (جيفيز) - حلول إعلانية مرنة واقتصادية</h2></p>
+    <div class="d3we4-body"><p><h2 style="font-size: 24px;">إعلانات الميني باص (جيفيز) - حلول إعلانية مرنة واقتصادية</h2></p>
 <p>    <p style="font-size: 16px;"></p>
 <p>        إعلانات الميني باص المقدمة بالتعاون مع وكالة جيفيز هي وسيط إعلاني خاص يصل إلى مناطق الأحياء والمناطق غير المركزية في غازي عنتاب. كأجانس موبيل، نحمل علامتك التجارية إلى كل ركن من أركان المدينة من خلال الاستفادة من أسطول الميني باص الواسع لوكالة جيفيز. مركبات الميني باص تدخل الشوارع الضيقة وداخل الأحياء التي لا تستطيع حافلات البلدية الوصول إليها، مما يتيح لك الوصول إلى جمهورك المستهدف بشكل أقرب.</p>
 <p>    </p></p>
@@ -123,27 +159,27 @@
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".dyxbx-menu-btn");
+  const menuToggleBtn = document.querySelector(".d3we4-menu-btn");
   if (menuToggleBtn) {
     menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".dyxbx-menu");
+      const menu = document.querySelector(".d3we4-menu");
       if (!menu) return;
       const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".dyxbx-icon");
+      const icon = this.querySelector(".d3we4-icon");
       if (icon) {
         icon.textContent = isOpen ? "close" : "menu";
       }
     });
   }
 
-  document.querySelectorAll(".dyxbx-top").forEach(function (button) {
+  document.querySelectorAll(".d3we4-top").forEach(function (button) {
     button.addEventListener("click", function () {
-      const group = this.closest(".dyxbx-menu-group");
+      const group = this.closest(".d3we4-menu-group");
       if (!group) return;
-      const sub = group.querySelector(".dyxbx-sub");
+      const sub = group.querySelector(".d3we4-sub");
       const isOpen = group.classList.toggle("open");
       this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".dyxbx-icon");
+      const icon = this.querySelector(".d3we4-icon");
       if (icon) {
         icon.textContent = isOpen ? "expand_less" : "expand_more";
       }
@@ -155,9 +191,9 @@
 </script>
 
 </div>
-  <div id="footer"><div class="wa-advanced" id="wv4fdWaAdvanced">
-  <div class="wv4fd-wa-advanced-button" onclick="toggleModulexAdvanced()">
-    <div class="wv4fd-wa-advanced-icon">
+  <div id="footer"><div class="wa-advanced" id="etsenWaAdvanced">
+  <div class="etsen-wa-advanced-button" onclick="toggleModulexAdvanced()">
+    <div class="etsen-wa-advanced-icon">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
         <path
           d="M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z"
@@ -165,39 +201,39 @@
         ></path>
       </svg>
     </div>
-    <div class="wv4fd-wa-advanced-pulse"></div>
+    <div class="etsen-wa-advanced-pulse"></div>
   </div>
 
-  <div class="wv4fd-wa-advanced-panel" id="wv4fdWaPanel">
-    <div class="wv4fd-wa-advanced-header">
-      <div class="wv4fd-wa-advanced-avatar">
-        <img src="/img/pjkf5g/logo.png?v=y41rd" alt="Support Agent"  loading="lazy"/>
-        <div class="wv4fd-wa-advanced-status online"></div>
+  <div class="etsen-wa-advanced-panel" id="etsenWaPanel">
+    <div class="etsen-wa-advanced-header">
+      <div class="etsen-wa-advanced-avatar">
+        <img src="/img/pjkf5g/logo.png?v=yc21b" alt="Support Agent"  loading="lazy"/>
+        <div class="etsen-wa-advanced-status online"></div>
       </div>
-      <div class="wv4fd-wa-advanced-info">
+      <div class="etsen-wa-advanced-info">
         <h4>دعم العملاء</h4>
         <p>متصل الآن</p>
       </div>
       <button
-        class="wv4fd-wa-advanced-close"
+        class="etsen-wa-advanced-close"
         onclick="closeModulexAdvanced()"
       >
         ×
       </button>
     </div>
 
-    <div class="wv4fd-wa-advanced-body">
-      <div class="wv4fd-wa-advanced-message">
+    <div class="etsen-wa-advanced-body">
+      <div class="etsen-wa-advanced-message">
         <p>مرحباً! كيف يمكنني مساعدتك؟</p>
-        <span class="wv4fd-wa-advanced-time">الآن</span>
+        <span class="etsen-wa-advanced-time">الآن</span>
       </div>
     </div>
 
-    <div class="wv4fd-wa-advanced-footer">
+    <div class="etsen-wa-advanced-footer">
       <a
         href="https://wa.me/905316791014"
         target="_blank"
-        class="wv4fd-wa-advanced-chat-btn"
+        class="etsen-wa-advanced-chat-btn"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -221,12 +257,12 @@
 
 <script>
   function toggleModulexAdvanced() {
-    const panel = document.getElementById("wv4fdWaPanel");
+    const panel = document.getElementById("etsenWaPanel");
     panel.style.display = panel.style.display === "block" ? "none" : "block";
   }
 
   function closeModulexAdvanced() {
-    document.getElementById("wv4fdWaPanel").style.display = "none";
+    document.getElementById("etsenWaPanel").style.display = "none";
   }
 </script>
 <footer class="footer">
@@ -284,8 +320,8 @@
 <meta name="google-site-verification" content="9UY_kGQb1IGXMFMd4tQHzXABrXhZG-SiJ_lXYjWE69M" />
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=y41rd"></script>
-<script defer src="/src/cookie.js?v=y41rd"></script>
+<script defer type="text/javascript" src="/src/js.js?v=yc21b"></script>
+<script defer src="/src/cookie.js?v=yc21b"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

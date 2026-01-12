@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=izgtv" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=izgtv" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=aan28" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=aan28" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=izgtv" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=aan28" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,61 +52,97 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=izgtv">
+<link rel="stylesheet" href="style.css?v=aan28">
 </head>
 
 <body>
-  <div id="header"><div class="hultm">
-  <div class="hultmtitle">
-    <div class="hultmtitlebody">
-     
-      <div class="hultmtitlebodylang">
-        <ul>
-          <li><a href="/tr/kullanici-haklari/">tr</a></li><li><a href="/en/kullanici-haklari/">en</a></li><li><a href="/ar/kullanici-haklari/">ar</a></li>
+  <div id="header"><header class="xn4if" role="banner">
+  <div class="xn4iftitle" role="region" aria-label="محدد اللغة">
+    <div class="xn4iftitlebody">
+      <nav class="xn4iftitlebodylang" aria-label="محدد اللغة">
+        <ul role="list">
+          <li role="none"><a href="/tr/kullanici-haklari/" hreflang="tr" title="true" aria-label="محدد اللغة: tr" lang="tr">tr</a></li><li role="none"><a href="/en/kullanici-haklari/" hreflang="en" title="true" aria-label="محدد اللغة: en" lang="en">en</a></li><li role="none"><a href="/ar/kullanici-haklari/" hreflang="ar" aria-current="true" title="true" aria-label="محدد اللغة: ar" lang="ar">ar</a></li>
         </ul>
-      </div>
+      </nav>
     </div>
   </div>
-  <div class="hultmChildren">
-    <div class="hultmbody">
-      <a href="/ar/"><img src="/img/logo.svg?v=izgtv" class="hultmbodylogo" alt="Ajans Mobil Gaziantep Logo" loading="lazy" /></a>
+  <div class="xn4ifChildren">
+    <div class="xn4ifbody">
+      <a href="/ar/" aria-label="الصفحة الرئيسية - Ajans Mobil Gaziantep" title="الصفحة الرئيسية - Ajans Mobil Gaziantep">
+        <img src="/img/logo.svg?v=aan28" class="xn4ifbodylogo" alt="Ajans Mobil Gaziantep Logo" width="auto" height="auto" loading="lazy" />
+      </a>
     </div>
-    <div class="hultmmenumobil">
-      <div class="material-symbols-outlined" aria-hidden="true">menu</div>
-    </div>
-    <div class="hultmmenulist">
-      <ul>
-        <a href="/ar/" class="hultmmenuitem">الصفحة الرئيسية </a><a href="/ar/hakkimizda/" class="hultmmenuitem">الشركات</a><a href="/ar/hizmetlerimiz/" class="hultmmenuitem">خدماتنا الرقمية</a><a href="/ar/acik-hava-hizmetlerimiz/" class="hultmmenuitem">خدماتنا الخارجية</a><a href="/ar/iletisim/" class="hultmmenuitem">اتصل بنا</a>
+    <button class="xn4ifmenumobil" type="button" aria-label="تبديل القائمة" aria-expanded="false" aria-controls="xn4ifmenulist">
+      <span class="material-symbols-outlined" aria-hidden="true">menu</span>
+    </button>
+    <nav class="xn4ifmenulist" id="xn4ifmenulist" role="navigation" aria-label="التنقل">
+      <ul role="menubar">
+        <a href="/ar/" class="xn4ifmenuitem" role="menuitem" title="الصفحة الرئيسية - " aria-label="الصفحة الرئيسية">الصفحة الرئيسية</a><a href="/ar/hakkimizda/" class="xn4ifmenuitem" role="menuitem" title="الشركات" aria-label="الشركات">الشركات</a><a href="/ar/hizmetlerimiz/" class="xn4ifmenuitem" role="menuitem" title="خدماتنا الرقمية" aria-label="خدماتنا الرقمية">خدماتنا الرقمية</a><a href="/ar/acik-hava-hizmetlerimiz/" class="xn4ifmenuitem" role="menuitem" title="خدماتنا الخارجية" aria-label="خدماتنا الخارجية">خدماتنا الخارجية</a><a href="/ar/iletisim/" class="xn4ifmenuitem" role="menuitem" title="اتصل بنا" aria-label="اتصل بنا">اتصل بنا</a>
       </ul>
-    </div>
+    </nav>
   </div>
-</div>
+</header>
 
 <script>
-  document
-    .querySelector(".hultmmenumobil")
-    .addEventListener("click", function () {
-      const menu = document.querySelector(".hultmmenulist");
-      if (menu.style.display === "flex") {
-        menu.style.display = "none";
-      } else {
-        menu.style.display = "flex";
-      }
-    });
+  setTimeout(function() {
+    var menuButton = document.querySelector(".xn4ifmenumobil");
+    var menu = document.querySelector(".xn4ifmenulist");
+    
+    if (menuButton && menu) {
+      // Tıklama eventi
+      menuButton.addEventListener("click", function () {
+        var isExpanded = menuButton.getAttribute("aria-expanded") === "true";
+        if (isExpanded) {
+          menu.style.display = "none";
+          menuButton.setAttribute("aria-expanded", "false");
+        } else {
+          menu.style.display = "flex";
+          menuButton.setAttribute("aria-expanded", "true");
+        }
+      });
+      
+      // Klavye navigasyonu (Enter ve Space)
+      menuButton.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          menuButton.click();
+        }
+      });
+      
+      // ESC tuşu ile menüyü kapat
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape" && menuButton.getAttribute("aria-expanded") === "true") {
+          menu.style.display = "none";
+          menuButton.setAttribute("aria-expanded", "false");
+          menuButton.focus();
+        }
+      });
+      
+      // Menü dışına tıklanınca kapat
+      document.addEventListener("click", function (e) {
+        if (menuButton.getAttribute("aria-expanded") === "true" && 
+            !menu.contains(e.target) && 
+            !menuButton.contains(e.target)) {
+          menu.style.display = "none";
+          menuButton.setAttribute("aria-expanded", "false");
+        }
+      });
+    }
+  }, 100);
 </script>
 </div>
-  <div id="content"><div class="mhtwm-title f36">
+  <div id="content"><div class="i5qkq-title f36">
   <h1>حقوق المستخدم</h1>
 </div>
-<div class="mhtwm">
-  <div class="mhtwm-menu-btn">
+<div class="i5qkq">
+  <div class="i5qkq-menu-btn">
     <span>قائمة الصفحات</span>
-    <span class="material-symbols-outlined mhtwm-icon">menu</span>
+    <span class="material-symbols-outlined i5qkq-icon">menu</span>
   </div>
-  <div class="mhtwm-menu"><a class="mhtwm-menu-link" href="/ar/hakkimizda/">من نحن</a><a class="mhtwm-menu-link" href="/ar/misyon/">المهمة</a><a class="mhtwm-menu-link" href="/ar/vizyon/">الرؤية</a><a class="mhtwm-menu-link" href="/ar/kalite-politikamiz/">سياسة الجودة</a><a class="mhtwm-menu-link" href="/ar/gizlilik-politikasi/">سياسة الخصوصية</a><a class="mhtwm-menu-link" href="/ar/kisisel-veriler-be2/">البيانات الشخصية</a><a class="mhtwm-menu-link active" href="/ar/kullanici-haklari/">حقوق المستخدم</a><a class="mhtwm-menu-link" href="/ar/yasal-uyari-mh6/">إشعار قانوني</a></div>
-  <div class="mhtwm-desc">
+  <div class="i5qkq-menu"><a class="i5qkq-menu-link" href="/ar/hakkimizda/">من نحن</a><a class="i5qkq-menu-link" href="/ar/misyon/">المهمة</a><a class="i5qkq-menu-link" href="/ar/vizyon/">الرؤية</a><a class="i5qkq-menu-link" href="/ar/kalite-politikamiz/">سياسة الجودة</a><a class="i5qkq-menu-link" href="/ar/gizlilik-politikasi/">سياسة الخصوصية</a><a class="i5qkq-menu-link" href="/ar/kisisel-veriler-be2/">البيانات الشخصية</a><a class="i5qkq-menu-link active" href="/ar/kullanici-haklari/">حقوق المستخدم</a><a class="i5qkq-menu-link" href="/ar/yasal-uyari-mh6/">إشعار قانوني</a></div>
+  <div class="i5qkq-desc">
     
-    <div class="mhtwm-body"><p><h2 style="font-size: 28px; color: #0f70b7; margin-bottom: 20px;">حقوق ومسؤوليات المستخدم</h2></p>
+    <div class="i5qkq-body"><p><h2 style="font-size: 28px; color: #0f70b7; margin-bottom: 20px;">حقوق ومسؤوليات المستخدم</h2></p>
 <p>    <p style="font-size: 16px; line-height: 1.8; margin-bottom: 15px;"></p>
 <p>        جميع المستخدمين الذين يستخدمون موقع أجانس موبيل أو يستفيدون من خدماتنا أو يتصلون بنا لديهم حقوق ومسؤوليات معينة. توضح هذه الصفحة حقوق المستخدم الخاصة بك وشروط استخدام الموقع ومعلومات حقوق النشر ومسؤولياتك. باستخدام موقعنا، يُعتبر أنك قبلت هذه الشروط.</p>
 <p>    </p></p>
@@ -134,27 +170,27 @@
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".mhtwm-menu-btn");
+  const menuToggleBtn = document.querySelector(".i5qkq-menu-btn");
   if (menuToggleBtn) {
     menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".mhtwm-menu");
+      const menu = document.querySelector(".i5qkq-menu");
       if (!menu) return;
       const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".mhtwm-icon");
+      const icon = this.querySelector(".i5qkq-icon");
       if (icon) {
         icon.textContent = isOpen ? "close" : "menu";
       }
     });
   }
 
-  document.querySelectorAll(".mhtwm-top").forEach(function (button) {
+  document.querySelectorAll(".i5qkq-top").forEach(function (button) {
     button.addEventListener("click", function () {
-      const group = this.closest(".mhtwm-menu-group");
+      const group = this.closest(".i5qkq-menu-group");
       if (!group) return;
-      const sub = group.querySelector(".mhtwm-sub");
+      const sub = group.querySelector(".i5qkq-sub");
       const isOpen = group.classList.toggle("open");
       this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".mhtwm-icon");
+      const icon = this.querySelector(".i5qkq-icon");
       if (icon) {
         icon.textContent = isOpen ? "expand_less" : "expand_more";
       }
@@ -166,9 +202,9 @@
 </script>
 
 </div>
-  <div id="footer"><div class="wa-advanced" id="uliglWaAdvanced">
-  <div class="uligl-wa-advanced-button" onclick="toggleModulexAdvanced()">
-    <div class="uligl-wa-advanced-icon">
+  <div id="footer"><div class="wa-advanced" id="nx2ikWaAdvanced">
+  <div class="nx2ik-wa-advanced-button" onclick="toggleModulexAdvanced()">
+    <div class="nx2ik-wa-advanced-icon">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
         <path
           d="M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z"
@@ -176,39 +212,39 @@
         ></path>
       </svg>
     </div>
-    <div class="uligl-wa-advanced-pulse"></div>
+    <div class="nx2ik-wa-advanced-pulse"></div>
   </div>
 
-  <div class="uligl-wa-advanced-panel" id="uliglWaPanel">
-    <div class="uligl-wa-advanced-header">
-      <div class="uligl-wa-advanced-avatar">
-        <img src="/img/pjkf5g/logo.png?v=izgtv" alt="Support Agent"  loading="lazy"/>
-        <div class="uligl-wa-advanced-status online"></div>
+  <div class="nx2ik-wa-advanced-panel" id="nx2ikWaPanel">
+    <div class="nx2ik-wa-advanced-header">
+      <div class="nx2ik-wa-advanced-avatar">
+        <img src="/img/pjkf5g/logo.png?v=aan28" alt="Support Agent"  loading="lazy"/>
+        <div class="nx2ik-wa-advanced-status online"></div>
       </div>
-      <div class="uligl-wa-advanced-info">
+      <div class="nx2ik-wa-advanced-info">
         <h4>دعم العملاء</h4>
         <p>متصل الآن</p>
       </div>
       <button
-        class="uligl-wa-advanced-close"
+        class="nx2ik-wa-advanced-close"
         onclick="closeModulexAdvanced()"
       >
         ×
       </button>
     </div>
 
-    <div class="uligl-wa-advanced-body">
-      <div class="uligl-wa-advanced-message">
+    <div class="nx2ik-wa-advanced-body">
+      <div class="nx2ik-wa-advanced-message">
         <p>مرحباً! كيف يمكنني مساعدتك؟</p>
-        <span class="uligl-wa-advanced-time">الآن</span>
+        <span class="nx2ik-wa-advanced-time">الآن</span>
       </div>
     </div>
 
-    <div class="uligl-wa-advanced-footer">
+    <div class="nx2ik-wa-advanced-footer">
       <a
         href="https://wa.me/905316791014"
         target="_blank"
-        class="uligl-wa-advanced-chat-btn"
+        class="nx2ik-wa-advanced-chat-btn"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -232,12 +268,12 @@
 
 <script>
   function toggleModulexAdvanced() {
-    const panel = document.getElementById("uliglWaPanel");
+    const panel = document.getElementById("nx2ikWaPanel");
     panel.style.display = panel.style.display === "block" ? "none" : "block";
   }
 
   function closeModulexAdvanced() {
-    document.getElementById("uliglWaPanel").style.display = "none";
+    document.getElementById("nx2ikWaPanel").style.display = "none";
   }
 </script>
 <footer class="footer">
@@ -295,8 +331,8 @@
 <meta name="google-site-verification" content="9UY_kGQb1IGXMFMd4tQHzXABrXhZG-SiJ_lXYjWE69M" />
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=izgtv"></script>
-<script defer src="/src/cookie.js?v=izgtv"></script>
+<script defer type="text/javascript" src="/src/js.js?v=aan28"></script>
+<script defer src="/src/cookie.js?v=aan28"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

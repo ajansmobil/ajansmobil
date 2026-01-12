@@ -42,8 +42,8 @@
         "color": "#165858",
         "name": {
           "tr": "Bize Ulaşın",
-          "en": "",
-          "ar": ""
+          "en": "Contact Us",
+          "ar": "اتصل بنا"
         },
         "margin": "30px 0px 30px 0px"
       },
@@ -119,15 +119,15 @@
         "page": "services",
         "name": {
           "tr": "Hizmetlerimiz",
-          "en": "",
-          "ar": ""
+          "en": "Our Services",
+          "ar": "خدماتنا"
         },
         "aspect-ratio": "3/2",
         "size": 4,
         "category": "",
         "margin": "0px 0px 0px 0px",
         "max": 8,
-        "color": "#006B65",
+        "color": "#1e3046",
         "delay": 4000
       },
       "id": "i0uquh",
@@ -142,8 +142,8 @@
         "page": "acikhava",
         "name": {
           "tr": "Açık Hava ve Gezen Reklam",
-          "en": "",
-          "ar": ""
+          "en": "Outdoor and Mobile Advertising",
+          "ar": "الإعلانات الخارجية والمتنقلة"
         },
         "aspect-ratio": "3/2",
         "size": 4,
@@ -151,7 +151,7 @@
         "margin": "0px 0px 0px 0px",
         "max": 8,
         "delay": 4000,
-        "color": "#006B65"
+        "color": "#1e3046"
       },
       "id": "i0uquh2",
       "category": "page slider"

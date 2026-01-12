@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=bent6" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=bent6" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=ffan5" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=ffan5" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=bent6" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=ffan5" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,61 +52,97 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=bent6">
+<link rel="stylesheet" href="style.css?v=ffan5">
 </head>
 
 <body>
-  <div id="header"><div class="dfsm0">
-  <div class="dfsm0title">
-    <div class="dfsm0titlebody">
-     
-      <div class="dfsm0titlebodylang">
-        <ul>
-          <li><a href="/tr/vizyon/">tr</a></li><li><a href="/en/vizyon/">en</a></li><li><a href="/ar/vizyon/">ar</a></li>
+  <div id="header"><header class="ic02k" role="banner">
+  <div class="ic02ktitle" role="region" aria-label="Language Selector">
+    <div class="ic02ktitlebody">
+      <nav class="ic02ktitlebodylang" aria-label="Language Selector">
+        <ul role="list">
+          <li role="none"><a href="/tr/vizyon/" hreflang="tr" title="true" aria-label="Language Selector: tr" lang="tr">tr</a></li><li role="none"><a href="/en/vizyon/" hreflang="en" aria-current="true" title="true" aria-label="Language Selector: en" lang="en">en</a></li><li role="none"><a href="/ar/vizyon/" hreflang="ar" title="true" aria-label="Language Selector: ar" lang="ar">ar</a></li>
         </ul>
-      </div>
+      </nav>
     </div>
   </div>
-  <div class="dfsm0Children">
-    <div class="dfsm0body">
-      <a href="/en/"><img src="/img/logo.svg?v=bent6" class="dfsm0bodylogo" alt="Ajans Mobil Gaziantep Logo" loading="lazy" /></a>
+  <div class="ic02kChildren">
+    <div class="ic02kbody">
+      <a href="/en/" aria-label="Home - Ajans Mobil Gaziantep" title="Home - Ajans Mobil Gaziantep">
+        <img src="/img/logo.svg?v=ffan5" class="ic02kbodylogo" alt="Ajans Mobil Gaziantep Logo" width="auto" height="auto" loading="lazy" />
+      </a>
     </div>
-    <div class="dfsm0menumobil">
-      <div class="material-symbols-outlined" aria-hidden="true">menu</div>
-    </div>
-    <div class="dfsm0menulist">
-      <ul>
-        <a href="/en/" class="dfsm0menuitem">Home </a><a href="/en/hakkimizda/" class="dfsm0menuitem">Corporate</a><a href="/en/hizmetlerimiz/" class="dfsm0menuitem">Our Digital Services</a><a href="/en/acik-hava-hizmetlerimiz/" class="dfsm0menuitem">Our Outdoor Services</a><a href="/en/iletisim/" class="dfsm0menuitem">Contact</a>
+    <button class="ic02kmenumobil" type="button" aria-label="Toggle Menu" aria-expanded="false" aria-controls="ic02kmenulist">
+      <span class="material-symbols-outlined" aria-hidden="true">menu</span>
+    </button>
+    <nav class="ic02kmenulist" id="ic02kmenulist" role="navigation" aria-label="Navigation">
+      <ul role="menubar">
+        <a href="/en/" class="ic02kmenuitem" role="menuitem" title="Home - " aria-label="Home">Home</a><a href="/en/hakkimizda/" class="ic02kmenuitem" role="menuitem" title="Corporate" aria-label="Corporate">Corporate</a><a href="/en/hizmetlerimiz/" class="ic02kmenuitem" role="menuitem" title="Our Digital Services" aria-label="Our Digital Services">Our Digital Services</a><a href="/en/acik-hava-hizmetlerimiz/" class="ic02kmenuitem" role="menuitem" title="Our Outdoor Services" aria-label="Our Outdoor Services">Our Outdoor Services</a><a href="/en/iletisim/" class="ic02kmenuitem" role="menuitem" title="Contact" aria-label="Contact">Contact</a>
       </ul>
-    </div>
+    </nav>
   </div>
-</div>
+</header>
 
 <script>
-  document
-    .querySelector(".dfsm0menumobil")
-    .addEventListener("click", function () {
-      const menu = document.querySelector(".dfsm0menulist");
-      if (menu.style.display === "flex") {
-        menu.style.display = "none";
-      } else {
-        menu.style.display = "flex";
-      }
-    });
+  setTimeout(function() {
+    var menuButton = document.querySelector(".ic02kmenumobil");
+    var menu = document.querySelector(".ic02kmenulist");
+    
+    if (menuButton && menu) {
+      // Tıklama eventi
+      menuButton.addEventListener("click", function () {
+        var isExpanded = menuButton.getAttribute("aria-expanded") === "true";
+        if (isExpanded) {
+          menu.style.display = "none";
+          menuButton.setAttribute("aria-expanded", "false");
+        } else {
+          menu.style.display = "flex";
+          menuButton.setAttribute("aria-expanded", "true");
+        }
+      });
+      
+      // Klavye navigasyonu (Enter ve Space)
+      menuButton.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          menuButton.click();
+        }
+      });
+      
+      // ESC tuşu ile menüyü kapat
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape" && menuButton.getAttribute("aria-expanded") === "true") {
+          menu.style.display = "none";
+          menuButton.setAttribute("aria-expanded", "false");
+          menuButton.focus();
+        }
+      });
+      
+      // Menü dışına tıklanınca kapat
+      document.addEventListener("click", function (e) {
+        if (menuButton.getAttribute("aria-expanded") === "true" && 
+            !menu.contains(e.target) && 
+            !menuButton.contains(e.target)) {
+          menu.style.display = "none";
+          menuButton.setAttribute("aria-expanded", "false");
+        }
+      });
+    }
+  }, 100);
 </script>
 </div>
-  <div id="content"><div class="eujro-title f36">
+  <div id="content"><div class="e59lu-title f36">
   <h1>Vision</h1>
 </div>
-<div class="eujro">
-  <div class="eujro-menu-btn">
+<div class="e59lu">
+  <div class="e59lu-menu-btn">
     <span>Menu</span>
-    <span class="material-symbols-outlined eujro-icon">menu</span>
+    <span class="material-symbols-outlined e59lu-icon">menu</span>
   </div>
-  <div class="eujro-menu"><a class="eujro-menu-link" href="/en/hakkimizda/">About Us</a><a class="eujro-menu-link" href="/en/misyon/">Mission</a><a class="eujro-menu-link active" href="/en/vizyon/">Vision</a><a class="eujro-menu-link" href="/en/kalite-politikamiz/">Quality Policy</a><a class="eujro-menu-link" href="/en/gizlilik-politikasi/">Privacy Policy</a><a class="eujro-menu-link" href="/en/kisisel-veriler-be2/">Personal Data</a><a class="eujro-menu-link" href="/en/kullanici-haklari/">User Rights</a><a class="eujro-menu-link" href="/en/yasal-uyari-mh6/">Legal Notice</a></div>
-  <div class="eujro-desc">
+  <div class="e59lu-menu"><a class="e59lu-menu-link" href="/en/hakkimizda/">About Us</a><a class="e59lu-menu-link" href="/en/misyon/">Mission</a><a class="e59lu-menu-link active" href="/en/vizyon/">Vision</a><a class="e59lu-menu-link" href="/en/kalite-politikamiz/">Quality Policy</a><a class="e59lu-menu-link" href="/en/gizlilik-politikasi/">Privacy Policy</a><a class="e59lu-menu-link" href="/en/kisisel-veriler-be2/">Personal Data</a><a class="e59lu-menu-link" href="/en/kullanici-haklari/">User Rights</a><a class="e59lu-menu-link" href="/en/yasal-uyari-mh6/">Legal Notice</a></div>
+  <div class="e59lu-desc">
     
-    <div class="eujro-body"><p><h2 style="font-size: 28px; color: #0f70b7; margin-bottom: 20px;">Our Vision - Leadership in Digital Marketing</h2></p>
+    <div class="e59lu-body"><p><h2 style="font-size: 28px; color: #0f70b7; margin-bottom: 20px;">Our Vision - Leadership in Digital Marketing</h2></p>
 <p>    <p style="font-size: 16px; line-height: 1.8; margin-bottom: 15px;"></p>
 <p>        Ajans Mobil's vision is to be among Turkey's most reliable, innovative and result-oriented digital agencies; to maintain its indisputable leading position in digital marketing and outdoor advertising in Gaziantep and Southeastern Anatolia Region. With this vision we have built on our 15-year established past, we aim to be a digital agency recognized nationally, involved in international projects and shaping the industry in the next 10 years. Our customers' growth is our growth; with this understanding, we expand our service quality and solution portfolio every year.</p>
 <p>    </p></p>
@@ -126,27 +162,27 @@
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".eujro-menu-btn");
+  const menuToggleBtn = document.querySelector(".e59lu-menu-btn");
   if (menuToggleBtn) {
     menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".eujro-menu");
+      const menu = document.querySelector(".e59lu-menu");
       if (!menu) return;
       const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".eujro-icon");
+      const icon = this.querySelector(".e59lu-icon");
       if (icon) {
         icon.textContent = isOpen ? "close" : "menu";
       }
     });
   }
 
-  document.querySelectorAll(".eujro-top").forEach(function (button) {
+  document.querySelectorAll(".e59lu-top").forEach(function (button) {
     button.addEventListener("click", function () {
-      const group = this.closest(".eujro-menu-group");
+      const group = this.closest(".e59lu-menu-group");
       if (!group) return;
-      const sub = group.querySelector(".eujro-sub");
+      const sub = group.querySelector(".e59lu-sub");
       const isOpen = group.classList.toggle("open");
       this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".eujro-icon");
+      const icon = this.querySelector(".e59lu-icon");
       if (icon) {
         icon.textContent = isOpen ? "expand_less" : "expand_more";
       }
@@ -158,9 +194,9 @@
 </script>
 
 </div>
-  <div id="footer"><div class="wa-advanced" id="t99g2WaAdvanced">
-  <div class="t99g2-wa-advanced-button" onclick="toggleModulexAdvanced()">
-    <div class="t99g2-wa-advanced-icon">
+  <div id="footer"><div class="wa-advanced" id="gdslfWaAdvanced">
+  <div class="gdslf-wa-advanced-button" onclick="toggleModulexAdvanced()">
+    <div class="gdslf-wa-advanced-icon">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
         <path
           d="M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z"
@@ -168,39 +204,39 @@
         ></path>
       </svg>
     </div>
-    <div class="t99g2-wa-advanced-pulse"></div>
+    <div class="gdslf-wa-advanced-pulse"></div>
   </div>
 
-  <div class="t99g2-wa-advanced-panel" id="t99g2WaPanel">
-    <div class="t99g2-wa-advanced-header">
-      <div class="t99g2-wa-advanced-avatar">
-        <img src="/img/pjkf5g/logo.png?v=bent6" alt="Support Agent"  loading="lazy"/>
-        <div class="t99g2-wa-advanced-status online"></div>
+  <div class="gdslf-wa-advanced-panel" id="gdslfWaPanel">
+    <div class="gdslf-wa-advanced-header">
+      <div class="gdslf-wa-advanced-avatar">
+        <img src="/img/pjkf5g/logo.png?v=ffan5" alt="Support Agent"  loading="lazy"/>
+        <div class="gdslf-wa-advanced-status online"></div>
       </div>
-      <div class="t99g2-wa-advanced-info">
+      <div class="gdslf-wa-advanced-info">
         <h4>Customer Support</h4>
         <p>Currently online</p>
       </div>
       <button
-        class="t99g2-wa-advanced-close"
+        class="gdslf-wa-advanced-close"
         onclick="closeModulexAdvanced()"
       >
         ×
       </button>
     </div>
 
-    <div class="t99g2-wa-advanced-body">
-      <div class="t99g2-wa-advanced-message">
+    <div class="gdslf-wa-advanced-body">
+      <div class="gdslf-wa-advanced-message">
         <p>Hello! How can I help you?</p>
-        <span class="t99g2-wa-advanced-time">Now</span>
+        <span class="gdslf-wa-advanced-time">Now</span>
       </div>
     </div>
 
-    <div class="t99g2-wa-advanced-footer">
+    <div class="gdslf-wa-advanced-footer">
       <a
         href="https://wa.me/905316791014"
         target="_blank"
-        class="t99g2-wa-advanced-chat-btn"
+        class="gdslf-wa-advanced-chat-btn"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -224,12 +260,12 @@
 
 <script>
   function toggleModulexAdvanced() {
-    const panel = document.getElementById("t99g2WaPanel");
+    const panel = document.getElementById("gdslfWaPanel");
     panel.style.display = panel.style.display === "block" ? "none" : "block";
   }
 
   function closeModulexAdvanced() {
-    document.getElementById("t99g2WaPanel").style.display = "none";
+    document.getElementById("gdslfWaPanel").style.display = "none";
   }
 </script>
 <footer class="footer">
@@ -287,8 +323,8 @@
 <meta name="google-site-verification" content="9UY_kGQb1IGXMFMd4tQHzXABrXhZG-SiJ_lXYjWE69M" />
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=bent6"></script>
-<script defer src="/src/cookie.js?v=bent6"></script>
+<script defer type="text/javascript" src="/src/js.js?v=ffan5"></script>
+<script defer src="/src/cookie.js?v=ffan5"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği
