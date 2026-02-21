@@ -24,9 +24,6 @@
     "en": "<h2 style=\"font-size: 28px; color: #0f70b7; margin-bottom: 20px;\">Our Digital Services - Comprehensive Digital Solutions</h2>\n    <p style=\"font-size: 16px; line-height: 1.8; margin-bottom: 15px;\">\n        As Ajans Mobil, we have been providing professional services in all areas of the digital world in Gaziantep for 15 years. We lead your business's digital transformation with our expert team in web design, mobile application development, social media management, SEO, digital marketing and graphic design. In every project, we analyze customer needs, perform sectoral competition research and determine the most suitable digital strategy.\n    </p>\n    <h3 style=\"font-size: 22px; color: #0f70b7; margin: 20px 0 15px;\">Web Design Services</h3>\n    <p style=\"font-size: 16px; line-height: 1.8; margin-bottom: 15px;\">\n        We design modern, mobile-compatible and SEO-compatible websites. We are experienced in corporate websites, e-commerce platforms, blog sites and custom software projects. We develop projects with WordPress, PHP, HTML5, CSS3 and JavaScript technologies.\n    </p>\n    <h3 style=\"font-size: 22px; color: #0f70b7; margin: 20px 0 15px;\">Mobile Application Development</h3>\n    <p style=\"font-size: 16px; line-height: 1.8; margin-bottom: 15px;\">\n        We develop native and hybrid mobile applications for iOS and Android platforms. We offer mobile experience with user-friendly interfaces, fast performance and secure infrastructure.\n    </p>\n    <h3 style=\"font-size: 22px; color: #0f70b7; margin: 20px 0 15px;\">Social Media Management</h3>\n    <p style=\"font-size: 16px; line-height: 1.8; margin-bottom: 15px;\">\n        We manage content production, community management and advertising campaigns on Instagram, Facebook, LinkedIn, Twitter and TikTok platforms. We provide brand awareness and engagement increase.\n    </p>\n    <h3 style=\"font-size: 22px; color: #0f70b7; margin: 20px 0 15px;\">SEO and Digital Marketing</h3>\n    <p style=\"font-size: 16px; line-height: 1.8; margin-bottom: 15px;\">\n        We perform SEO work that ensures you rank high on Google. We offer campaign management services on Google Ads, Facebook Ads and other digital advertising platforms.\n    </p>",
     "ar": "<h2 style=\"font-size: 28px; color: #0f70b7; margin-bottom: 20px;\">خدماتنا الرقمية - حلول رقمية شاملة</h2>\n    <p style=\"font-size: 16px; line-height: 1.8; margin-bottom: 15px;\">\n        كأجانس موبيل، نقدم خدمات احترافية في جميع مجالات العالم الرقمي في غازي عنتاب لمدة 15 عاماً. نقود التحول الرقمي لعملك مع فريقنا الخبير في تصميم الويب وتطوير التطبيقات الجوالة وإدارة وسائل التواصل الاجتماعي وSEO والتسويق الرقمي والتصميم الجرافيكي. في كل مشروع، نحلل احتياجات العملاء ونؤدي بحث منافسة قطاعي ونحدد الاستراتيجية الرقمية الأنسب.\n    </p>\n    <h3 style=\"font-size: 22px; color: #0f70b7; margin: 20px 0 15px;\">خدمات تصميم الويب</h3>\n    <p style=\"font-size: 16px; line-height: 1.8; margin-bottom: 15px;\">\n        نصمم مواقع ويب حديثة ومتوافقة مع الجوال ومتوافقة مع SEO. لدينا خبرة في المواقع المؤسسية ومنصات التجارة الإلكترونية ومواقع المدونات ومشاريع البرمجيات المخصصة. نطور المشاريع بتقنيات WordPress وPHP وHTML5 وCSS3 وJavaScript.\n    </p>\n    <h3 style=\"font-size: 22px; color: #0f70b7; margin: 20px 0 15px;\">تطوير التطبيقات الجوالة</h3>\n    <p style=\"font-size: 16px; line-height: 1.8; margin-bottom: 15px;\">\n        نطور تطبيقات جوالة أصلية وهجينة لمنصات iOS وAndroid. نقدم تجربة جوالة بواجهات سهلة الاستخدام وأداء سريع وبنية تحتية آمنة.\n    </p>\n    <h3 style=\"font-size: 22px; color: #0f70b7; margin: 20px 0 15px;\">إدارة وسائل التواصل الاجتماعي</h3>\n    <p style=\"font-size: 16px; line-height: 1.8; margin-bottom: 15px;\">\n        ندير إنتاج المحتوى وإدارة المجتمع وحملات الإعلان على منصات Instagram وFacebook وLinkedIn وTwitter وTikTok. نوفر زيادة الوعي بالعلامة التجارية والتفاعل.\n    </p>\n    <h3 style=\"font-size: 22px; color: #0f70b7; margin: 20px 0 15px;\">SEO والتسويق الرقمي</h3>\n    <p style=\"font-size: 16px; line-height: 1.8; margin-bottom: 15px;\">\n        نؤدي أعمال SEO التي تضمن لك الترتيب العالي على Google. نقدم خدمات إدارة الحملات على Google Ads وFacebook Ads ومنصات الإعلان الرقمي الأخرى.\n    </p>"
   },
-  "spot": {
-    "tr": ""
-  },
   "desc": {},
   "index": 1,
   "desing": {
@@ -36,7 +33,12 @@
     ],
     "footer": []
   },
-  "update": "2026-01-12T03:58:35.947Z",
+  "update": "2026-02-21T08:51:54.889Z",
   "date": "2025-10-01T05:29:22.554Z",
-  "pathnext": ""
+  "pathnext": "",
+  "title": {
+    "tr": "Dijital Hizmetlerimiz Gaziantep | Ajans Mobil Gaziantep",
+    "en": "Our Digital Services Gaziantep | Ajans Mobil Gaziantep",
+    "ar": "خدماتنا الرقمية غازي عنتاب | أجانس موبيل غازي عنتاب"
+  }
 }

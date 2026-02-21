@@ -24,18 +24,20 @@
     "en": "<h2 style=\"font-size: 24px;\">University Advertising Areas</h2>\n    <p style=\"font-size: 16px;\">\n        Billboards, posters and digital screens at university campuses. Target audience; students and academic staff. Ideal for reaching young and dynamic audiences.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Provides brand rejuvenation and new customer acquisition. Offers advantages of targeted communication and innovative image.\n    </p>",
     "ar": "<h2 style=\"font-size: 24px;\">مناطق إعلانات الجامعة</h2>\n    <p style=\"font-size: 16px;\">\n        لوحات إعلانات وملصقات وشاشات رقمية في الحرم الجامعي. الجمهور المستهدف؛ الطلاب والموظفين الأكاديميين. مثالي للوصول إلى جماهير شابة وديناميكية.\n    </p>\n    <p style=\"font-size: 16px;\">\n        يوفر تجديد العلامة التجارية واكتساب عملاء جدد. يقدم مزايا التواصل المستهدف والصورة المبتكرة.\n    </p>"
   },
-  "spot": {
-    "tr": "Genç ve Dinamik Hedef Kitle - Üniversite kampüslerinde etkili reklam"
-  },
   "index": 0,
   "icon": "home",
   "desc": {},
-  "update": "2026-01-12T03:58:36.293Z",
+  "update": "2026-02-21T08:51:55.289Z",
   "date": "2025-01-07T00:00:00.000Z",
   "desing": {
     "header": [],
     "body": [],
     "footer": []
   },
-  "pathnext": ""
+  "pathnext": "",
+  "title": {
+    "tr": "Üniversite Reklamları Gaziantep | Ajans Mobil Gaziantep",
+    "en": "University Advertising Gaziantep | Ajans Mobil Gaziantep",
+    "ar": "إعلانات الجامعة غازي عنتاب | أجانس موبيل غازي عنتاب"
+  }
 }

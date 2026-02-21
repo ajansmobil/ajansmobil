@@ -24,19 +24,21 @@
     "en": "<h2 style=\"font-size: 24px;\">Taxi Advertising - Reaching A+ Segment</h2>\n    <p style=\"font-size: 16px;\">\n        Taxi vehicles are important advertising mediums that reach every point of Gaziantep and carry thousands of people daily. As Ajans Mobil, we enable you to reach the A+ segment with illuminated taxi top signs, vehicle wrapping and interior space advertisements. Your advertisement does not stay where it is, it tours the city from the most crowded points to the quietest points.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Taxi advertisements reaching 300-600 thousand people weekly are an ideal medium especially for reaching high income groups. Customers using taxis generally exhibit a profile with high purchasing power and brand conscious.\n    </p>",
     "ar": "<h2 style=\"font-size: 24px;\">إعلانات التاكسي - الوصول إلى قطاع A+</h2>\n    <p style=\"font-size: 16px;\">\n        مركبات التاكسي هي وسائط إعلانية مهمة تصل إلى كل نقطة في غازي عنتاب وتحمل آلاف الأشخاص يومياً. كأجانس موبيل، نتيح لك الوصول إلى قطاع A+ مع لافتات أعلى التاكسي المضيئة وتغليف المركبات وإعلانات المساحات الداخلية. إعلانك لا يبقى حيث هو، بل يجول المدينة من أكثر النقاط ازدحاماً إلى أكثر النقاط هدوءاً.\n    </p>\n    <p style=\"font-size: 16px;\">\n        إعلانات التاكسي التي تصل إلى 300-600 ألف شخص أسبوعياً هي وسيط مثالي خاصة للوصول إلى مجموعات الدخل العالي. العملاء الذين يستخدمون التاكسي يعرضون عموماً ملفاً بقوة شرائية عالية وواعي بالعلامة التجارية.\n    </p>"
   },
-  "spot": {
-    "tr": "Haftalık Hedef Kitle: 300-600 Bin Kişi - Şehrin her noktasına ulaşan önemli reklam mecrası"
-  },
   "index": 0,
   "icon": "home",
   "desc": {},
   "img": "cdqsn.webp",
-  "update": "2026-01-12T03:58:36.226Z",
+  "update": "2026-02-21T08:51:55.225Z",
   "date": "2025-01-07T00:00:00.000Z",
   "desing": {
     "header": [],
     "body": [],
     "footer": []
   },
-  "pathnext": ""
+  "pathnext": "",
+  "title": {
+    "tr": "Taksi Reklamları (Geveze) Gaziantep | Ajans Mobil Gaziantep",
+    "en": "Taxi Advertising (Geveze) Gaziantep | Ajans Mobil Gaziantep",
+    "ar": "إعلانات التاكسي (جيفيز) غازي عنتاب | أجانس موبيل غازي عنتاب"
+  }
 }

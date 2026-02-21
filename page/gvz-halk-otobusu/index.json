@@ -24,19 +24,21 @@
     "en": "<h2 style=\"font-size: 24px;\">Public Bus Advertising - Premium Visibility on Special Routes</h2>\n    <p style=\"font-size: 16px;\">\n        Private public buses are an important public transport vehicle operating alongside municipal buses and serving on special routes. As Ajans Mobil, we offer premium advertising solutions on private public buses in cooperation with Geveze Agency. These buses generally consist of more comfortable and modern vehicles and appeal to upper segment passenger profiles.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Private public bus advertisements reaching 300-600 thousand people weekly are highly effective in terms of brand prestige and visibility. Advertising especially on special routes operating between business centers, shopping malls and university campuses enables you to reach working people and student groups directly. This advertising medium is ideal for brands wanting to project a modern and urban image.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Our private public bus advertising services offered in cooperation with Ajans Mobil and Geveze Agency include full vehicle wrapping, half vehicle wrapping, interior advertisements and billboard options at bus stops. Buses operating on special routes generally cover longer distances and carry more passengers. This way, your advertisement is seen in a wider geography and by more people.\n    </p>",
     "ar": "<h2 style=\"font-size: 24px;\">إعلانات حافلات النقل العام - رؤية مميزة على الخطوط الخاصة</h2>\n    <p style=\"font-size: 16px;\">\n        حافلات النقل العام الخاصة هي مركبة نقل عام مهمة تعمل إلى جانب حافلات البلدية وتخدم على خطوط خاصة. كأجانس موبيل، نقدم حلول إعلانية مميزة على حافلات النقل العام الخاصة بالتعاون مع وكالة جيفيز. هذه الحافلات تتكون عموماً من مركبات أكثر راحة وحداثة وتناشد ملفات الركاب من القطاع الأعلى.\n    </p>\n    <p style=\"font-size: 16px;\">\n        إعلانات حافلات النقل العام الخاصة التي تصل إلى 300-600 ألف شخص أسبوعياً فعالة للغاية من حيث هيبة العلامة التجارية والرؤية. الإعلان خاصة على الخطوط الخاصة التي تعمل بين مراكز الأعمال ومراكز التسوق وحرم الجامعات يتيح لك الوصول إلى العاملين ومجموعات الطلاب مباشرة. هذا الوسيط الإعلاني مثالي للعلامات التجارية التي تريد إبراز صورة حديثة وحضرية.\n    </p>\n    <p style=\"font-size: 16px;\">\n        خدمات إعلانات حافلات النقل العام الخاصة التي نقدمها بالتعاون مع أجانس موبيل ووكالة جيفيز تشمل تغليف المركبات الكامل، تغليف المركبات النصفي، إعلانات المساحات الداخلية وخيارات لوحات الإعلانات في محطات الحافلات. الحافلات التي تعمل على الخطوط الخاصة تغطي عموماً مسافات أطول وتحمل المزيد من الركاب. بهذه الطريقة، إعلانك يُرى في جغرافيا أوسع ومن قبل المزيد من الأشخاص.\n    </p>"
   },
-  "spot": {
-    "tr": "Haftalık Hedef Kitle: 300-600 Bin Kişi - Şehrin her noktasına ulaşan önemli reklam mecrası"
-  },
   "index": 0,
   "icon": "home",
   "desc": {},
   "img": "zuvah.webp",
-  "update": "2026-01-12T03:58:36.203Z",
+  "update": "2026-02-21T08:51:55.197Z",
   "date": "2025-01-07T00:00:00.000Z",
   "desing": {
     "header": [],
     "body": [],
     "footer": []
   },
-  "pathnext": ""
+  "pathnext": "",
+  "title": {
+    "tr": "Halk Otobüsü Reklamları Gaziantep | Ajans Mobil Gaziantep",
+    "en": "Public Bus Advertising Gaziantep | Ajans Mobil Gaziantep",
+    "ar": "إعلانات حافلات النقل العام | أجانس موبيل غازي عنتاب"
+  }
 }

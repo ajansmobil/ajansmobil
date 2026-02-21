@@ -131,7 +131,7 @@
         "delay": 4000
       },
       "id": "i0uquh",
-      "category": "page slider"
+      "category": "page-slider"
     },
     {
       "index": 5,
@@ -154,7 +154,7 @@
         "color": "#1e3046"
       },
       "id": "i0uquh2",
-      "category": "page slider"
+      "category": "page-slider"
     },
     {
       "index": 6,
@@ -210,7 +210,8 @@
         "opacity": "0.5",
         "font-size": "36",
         "backgroundcolor": "#1e3046",
-        "menu-active": "#1e3046"
+        "menu-active": "#1e3046",
+        "textcolor": "#fff"
       },
       "id": "dajchd",
       "version": "1.0.0",
@@ -221,7 +222,7 @@
       "name": "Sayfa Listesi Column",
       "path": "page-column-4",
       "local": "body",
-      "category": "page list",
+      "category": "page-list",
       "id": "w0b18z",
       "desing": {
         "page": "services",
@@ -240,7 +241,7 @@
       "name": "Sayfa Listesi Column",
       "path": "page-column-4",
       "local": "body",
-      "category": "page list",
+      "category": "page-list",
       "id": "x9g8bp",
       "desing": {
         "page": "acikhava",

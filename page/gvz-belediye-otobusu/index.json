@@ -24,19 +24,21 @@
     "en": "<h2 style=\"font-size: 24px;\">Municipal Bus Advertising - Reliable Visibility on Official Routes</h2>\n    <p style=\"font-size: 16px;\">\n        Gaziantep Metropolitan Municipality buses form the backbone of the city's official public transportation system and serve tens of thousands of passengers daily. As Ajans Mobil, we offer comprehensive advertising solutions on municipal buses in cooperation with Geveze Agency. These buses operating on official routes cover all main arteries of the city and create the most reliable advertising medium.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Municipal bus advertisements reaching 300-600 thousand people weekly are highly effective in terms of brand reliability and corporate image. Your advertisements seen in heavy traffic especially during morning business hours and evening return hours are regularly viewed by working people and students. Advertising on municipal buses strengthens the perception that your brand is an official and reliable institution.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Our municipal bus advertising services offered in cooperation with Ajans Mobil and Geveze Agency include full vehicle wrapping, half vehicle wrapping, interior advertisements, billboards and digital screen options at bus stops. Buses operating on official routes guarantee your advertising visibility with regular departure times and fixed routes. This advertising medium is strategically important for corporate brands, public institutions and reliability-focused businesses.\n    </p>",
     "ar": "<h2 style=\"font-size: 24px;\">إعلانات حافلات البلدية - رؤية موثوقة على الخطوط الرسمية</h2>\n    <p style=\"font-size: 16px;\">\n        تشكل حافلات بلدية غازي عنتاب الكبرى العمود الفقري لنظام النقل العام الرسمي في المدينة وتخدم عشرات الآلاف من الركاب يومياً. كأجانس موبيل، نقدم حلول إعلانية شاملة على حافلات البلدية بالتعاون مع وكالة جيفيز. هذه الحافلات التي تعمل على الخطوط الرسمية تغطي جميع الشرايين الرئيسية للمدينة وتشكل وسيط الإعلان الأكثر موثوقية.\n    </p>\n    <p style=\"font-size: 16px;\">\n        إعلانات حافلات البلدية التي تصل إلى 300-600 ألف شخص أسبوعياً فعالة للغاية من حيث موثوقية العلامة التجارية والصورة المؤسسية. إعلاناتك التي تُرى في حركة المرور الكثيفة خاصة خلال ساعات العمل الصباحية وساعات العودة المسائية يتم مشاهدتها بانتظام من قبل العاملين والطلاب. الإعلان على حافلات البلدية يعزز تصور أن علامتك التجارية مؤسسة رسمية وموثوقة.\n    </p>\n    <p style=\"font-size: 16px;\">\n        خدمات إعلانات حافلات البلدية التي نقدمها بالتعاون مع أجانس موبيل ووكالة جيفيز تشمل تغليف المركبات الكامل، تغليف المركبات النصفي، إعلانات المساحات الداخلية، لوحات الإعلانات وشاشات رقمية في محطات الحافلات. الحافلات التي تعمل على الخطوط الرسمية تضمن رؤية إعلاناتك بأوقات انطلاق منتظمة وطرق ثابتة. هذا الوسيط الإعلاني مهم استراتيجياً للعلامات التجارية المؤسسية والمؤسسات العامة والشركات التي تركز على الموثوقية.\n    </p>"
   },
-  "spot": {
-    "tr": "Haftalık Hedef Kitle: 300-600 Bin Kişi - Şehrin her noktasına ulaşan önemli reklam mecrası"
-  },
   "index": 0,
   "icon": "home",
   "desc": {},
   "img": "jchrz.webp",
-  "update": "2026-01-12T03:58:36.195Z",
+  "update": "2026-02-21T08:51:55.189Z",
   "date": "2025-01-07T00:00:00.000Z",
   "desing": {
     "header": [],
     "body": [],
     "footer": []
   },
-  "pathnext": ""
+  "pathnext": "",
+  "title": {
+    "tr": "Belediye Otobüsü Reklamları | Ajans Mobil Gaziantep",
+    "en": "Municipal Bus Advertising Gaziantep | Ajans Mobil Gaziantep",
+    "ar": "إعلانات حافلات البلدية غازي عنتاب | أجانس موبيل غازي عنتاب"
+  }
 }

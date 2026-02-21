@@ -22,7 +22,7 @@
       },
       "pathnext": "",
       "icon": "home",
-      "img": "c9t15.png",
+      "img": "c9t15.webp",
       "description": {
         "tr": "Gaziantep asansör reklamları - Apartman ve iş merkezi asansörlerinde etkili marka görünürlüğü. Hedef kitlenize doğrudan ulaşan asansör içi reklam kampanyaları.",
         "en": "Gaziantep elevator advertising - Effective brand visibility in apartment and business center elevators. Elevator interior advertising campaigns that reach your target audience directly.",
@@ -49,7 +49,7 @@
         "footer": []
       },
       "pathnext": "",
-      "img": "gujlp.png",
+      "img": "gujlp.webp",
       "description": {
         "tr": "Gaziantep dolmuş reklamları - Toplu taşıma araçlarında hareketli reklam çözümleri. Şehir içi dolmuş ve minibüslerde etkili marka tanıtımı.",
         "en": "Gaziantep shared taxi advertisements - Mobile advertising solutions in public transport vehicles. Effective brand promotion in city shared taxis and minibuses.",
@@ -76,7 +76,7 @@
       },
       "pathnext": "",
       "icon": "home",
-      "img": "homtf.png",
+      "img": "homtf.webp",
       "description": {
         "tr": "Gaziantep otobüs reklamları - Belediye otobüsleri, metro ve özel halk otobüslerinde tam giydirme reklam hizmeti. Geniş kitleye ulaşım garantisi.",
         "en": "Gaziantep bus advertisements - Full wrapping advertising service on municipal buses, metro and private public buses. Guaranteed reach to wide audiences.",
@@ -103,7 +103,7 @@
         "footer": []
       },
       "pathnext": "",
-      "img": "zkaru.png",
+      "img": "zkaru.webp",
       "description": {
         "tr": "Gaziantep açık hava reklamcılığı - Billboard, totem, dijital ekran, cephe giydirme ve dış mekan reklam hizmetleri. Outdoor advertising çözümleri.",
         "en": "Gaziantep outdoor advertising - Billboard, totem, digital screen, facade wrapping and outdoor advertising services. Outdoor advertising solutions.",
@@ -130,7 +130,7 @@
       },
       "pathnext": "",
       "icon": "home",
-      "img": "a49s3.png",
+      "img": "a49s3.webp",
       "description": {
         "tr": "Gaziantep taksi reklamları - Taksi üstü ışıklı tabelalar, araç giydirme ve taksi içi reklamlar. Yüksek gelir grubuna ulaşan etkili reklam mecrası.",
         "en": "Gaziantep taxi advertisements - Illuminated taxi top signs, vehicle wrapping and in-taxi advertisements. Effective advertising medium reaching high-income groups.",
@@ -157,7 +157,7 @@
         "footer": []
       },
       "pathnext": "",
-      "img": "yipp4.png",
+      "img": "yipp4.webp",
       "description": {
         "tr": "Gaziantep tramvay reklamları - Tramvay giydirme, istasyon reklamları ve araç içi reklam mecrası. Modern toplu taşımada premium görünürlük.",
         "en": "Gaziantep tramway advertising - Tramway wrapping, station advertising and interior vehicle advertising medium. Premium visibility in modern public transport.",
@@ -177,8 +177,8 @@
       "path": "iconova-cadde-reklamlari",
       "description": {
         "tr": "Ajans Mobil Iconova Cadde reklam hizmetleri. Gaziantep'in prestijli alışveriş merkezinde haftalık 150-300 bin kişiye ulaşan açık hava reklam çözümleri. Primemall yakını stratejik konum.",
-        "en": "",
-        "ar": ""
+        "en": "Ajans Mobil Iconova Street advertising services. Outdoor advertising solutions reaching 150-300 thousand people weekly at Gaziantep's prestigious shopping center. Strategic location near Primemall.",
+        "ar": "خدمات إعلانات شارع أيكونوفا من أجانس موبيل. حلول إعلانية خارجية تصل إلى 150-300 ألف شخص أسبوعياً في مركز التسوق المرموق في غازي عنتاب. موقع استراتيجي بالقرب من بريميمول."
       },
       "index": 6,
       "icon": "home",
@@ -384,9 +384,9 @@
       "id": "gvz-tramvay",
       "path": "tramvay-reklamlari-geveze",
       "description": {
-        "tr": "Ajans Mobil tramvay reklam hizmetleri. Geveze Ajans işbirliği ile modern raylı sistem reklam çözümleri. Haftalık 300-600 bin kişiye ulaşan istasyon ve araç içi reklamları. Genç ve çalışan kesim için ideal mecralar.",
-        "en": "Ajans Mobil tramway advertising services. Modern rail system advertising solutions in cooperation with Geveze Agency. Station and vehicle interior advertisements reaching 300-600 thousand people weekly. Ideal mediums for young and working segments.",
-        "ar": "خدمات إعلانات الترام من أجانس موبيل. حلول إعلانات نظام السكك الحديدية الحديث بالتعاون مع وكالة جيفيز. إعلانات المحطات وداخل المركبات التي تصل إلى 300-600 ألف شخص أسبوعياً. وسائط مثالية للشرائح الشابة والعاملة."
+        "tr": "Ajans Mobil tramvay reklam hizmetleri. Geveze Ajans işbirliği ile modern raylı sistem reklam çözümleri. Haftalık 300-600 bin kişiye ulaşan istasyon ve araç içi reklamları.",
+        "en": "Ajans Mobil tramway advertising services. Modern rail system advertising solutions in cooperation with Geveze Agency. Station and vehicle interior advertisements reaching 300-600 thousand people weekly.",
+        "ar": "خدمات إعلانات الترام من أجانس موبيل. حلول إعلانات نظام السكك الحديدية الحديث بالتعاون مع وكالة جيفيز. إعلانات المحطات وداخل المركبات التي تصل إلى 300-600 ألف شخص أسبوعياً."
       },
       "index": 14,
       "icon": "home",
@@ -436,9 +436,9 @@
       "id": "gvz-primemall",
       "path": "primemall-avm-reklamlari",
       "description": {
-        "tr": "Ajans Mobil Primemall AVM reklam hizmetleri. Gaziantep'in en büyük ve en prestijli alışveriş merkezinde haftalık 200-500 bin ziyaretçiye ulaşan premium reklam çözümleri. Iconova Cadde komşuluğu ile stratejik konum.",
-        "en": "Ajans Mobil Primemall Shopping Mall advertising services. Premium advertising solutions reaching 200-500 thousand visitors weekly at Gaziantep's largest and most prestigious shopping center. Strategic location with Iconova Street proximity.",
-        "ar": "خدمات إعلانات برايم مول من أجانس موبيل. حلول إعلانية مميزة تصل إلى 200-500 ألف زائر أسبوعياً في أكبر وأكثر مراكز التسوق تميزاً في غازي عنتاب. موقع استراتيجي مع قرب شارع أيكونوفا."
+        "tr": "Ajans Mobil Primemall AVM reklam hizmetleri. Gaziantep'in en büyük ve en prestijli alışveriş merkezinde haftalık 200-500 bin ziyaretçiye ulaşan premium reklam çözümleri.",
+        "en": "Ajans Mobil Primemall Shopping Mall advertising services. Premium advertising solutions reaching 200-500 thousand visitors weekly at Gaziantep's largest and most prestigious shopping center.",
+        "ar": "خدمات إعلانات برايم مول من أجانس موبيل. حلول إعلانية مميزة تصل إلى 200-500 ألف زائر أسبوعياً في أكبر وأكثر مراكز التسوق تميزاً في غازي عنتاب."
       },
       "index": 16,
       "icon": "home",
@@ -462,9 +462,9 @@
       "id": "gvz-forum-avm",
       "path": "forum-avm-reklamlari",
       "description": {
-        "tr": "Ajans Mobil Forum AVM reklam hizmetleri. Uluslararası markaların buluştuğu prestijli alışveriş merkezinde haftalık 200-500 bin ziyaretçiye ulaşan reklam çözümleri. Otopark ve sinema alanlarında özel lokasyonlar.",
-        "en": "Ajans Mobil Forum Shopping Mall advertising services. Advertising solutions reaching 200-500 thousand visitors weekly at the prestigious shopping center where international brands meet. Special locations in parking and cinema areas.",
-        "ar": "خدمات إعلانات فورم مول من أجانس موبيل. حلول إعلانية تصل إلى 200-500 ألف زائر أسبوعياً في مركز التسوق المتميز حيث تلتقي العلامات التجارية الدولية. مواقع خاصة في المواقف ومناطق السينما."
+        "tr": "Ajans Mobil Forum AVM reklam hizmetleri. Uluslararası markaların buluştuğu prestijli alışveriş merkezinde haftalık 200-500 bin ziyaretçiye ulaşan reklam çözümleri.",
+        "en": "Ajans Mobil Forum Shopping Mall advertising services. Advertising solutions reaching 200-500 thousand visitors weekly at the prestigious shopping center where international brands meet.",
+        "ar": "خدمات إعلانات فورم مول من أجانس موبيل. حلول إعلانية تصل إلى 200-500 ألف زائر أسبوعياً في مركز التسوق المتميز حيث تلتقي العلامات التجارية الدولية."
       },
       "index": 17,
       "desing": {
@@ -480,17 +480,17 @@
     {
       "name": {
         "tr": "Sanko Park AVM Reklamları",
-        "en": "",
-        "ar": ""
+        "en": "Sanko Park Shopping Mall Advertising",
+        "ar": "إعلانات سانكو بارك مول"
       },
       "status": "play",
       "category": "",
       "id": "gvz-sanko-park",
       "path": "sanko-park-avm-reklamlari",
       "description": {
-        "tr": "Ajans Mobil Sanko Park AVM reklam hizmetleri. Gaziantep'in en eski ve köklü alışveriş merkezinde haftalık 200-500 bin ziyaretçiye ulaşan güvenilir reklam çözümleri. Aile odaklı hedef kitle ve yemek katı reklam alanları ile öne çıkar.",
-        "en": "",
-        "ar": ""
+        "tr": "Ajans Mobil Sanko Park AVM reklam hizmetleri. Gaziantep'in en eski ve köklü alışveriş merkezinde haftalık 200-500 bin ziyaretçiye ulaşan güvenilir reklam çözümleri. Aile odaklı hedef kitle.",
+        "en": "Ajans Mobil Sanko Park Shopping Mall advertising services. Reliable advertising solutions reaching 200-500 thousand visitors weekly at Gaziantep's oldest and most established shopping center. Family-focused target audience.",
+        "ar": "خدمات إعلانات سانكو بارك مول من أجانس موبيل. حلول إعلانية موثوقة تصل إلى 200-500 ألف زائر أسبوعياً في أقدم وأكثر مراكز التسوق رسوخاً في غازي عنتاب. جمهور مستهدف يركز على العائلة."
       },
       "index": 18,
       "icon": "home",

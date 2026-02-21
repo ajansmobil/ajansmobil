@@ -24,18 +24,20 @@
     "en": "<h2 style=\"font-size: 24px;\">Billboard Advertising Areas</h2>\n    <p style=\"font-size: 16px;\">\n        Large billboards in city centers and main arteries. Target audience; vehicle and pedestrian traffic. Billboards are ideal for reaching wide audiences. Brand message should be short and clear.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Provides continuous visibility and brand awareness in the city. Offers advantages of wide reach, continuous visibility and fast message delivery.\n    </p>",
     "ar": "<h2 style=\"font-size: 24px;\">مناطق إعلانات لوحات الإعلانات</h2>\n    <p style=\"font-size: 16px;\">\n        لوحات إعلانات كبيرة في مراكز المدن والشرايين الرئيسية. الجمهور المستهدف؛ حركة المرور والمركبات والمشاة. لوحات الإعلانات مثالية للوصول إلى جماهير واسعة. رسالة العلامة التجارية يجب أن تكون قصيرة وواضحة.\n    </p>\n    <p style=\"font-size: 16px;\">\n        يوفر رؤية مستمرة والوعي بالعلامة التجارية في المدينة. يقدم مزايا الوصول الواسع والرؤية المستمرة وتسليم الرسالة السريع.\n    </p>"
   },
-  "spot": {
-    "tr": "Geniş Erişim ve Sürekli Görünürlük - Stratejik noktalarda pano reklamları"
-  },
   "index": 0,
   "icon": "home",
   "desc": {},
-  "update": "2026-01-12T03:58:36.279Z",
+  "update": "2026-02-21T08:51:55.276Z",
   "date": "2025-01-07T00:00:00.000Z",
   "desing": {
     "header": [],
     "body": [],
     "footer": []
   },
-  "pathnext": ""
+  "pathnext": "",
+  "title": {
+    "tr": "Pano Reklamları Gaziantep | Ajans Mobil Gaziantep",
+    "en": "Billboard Advertising Gaziantep | Ajans Mobil Gaziantep",
+    "ar": "إعلانات لوحات الإعلانات غازي عنتاب | أجانس موبيل غازي عنتاب"
+  }
 }

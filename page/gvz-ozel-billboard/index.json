@@ -24,18 +24,20 @@
     "en": "<h2 style=\"font-size: 24px;\">Custom Application Billboard Areas</h2>\n    <p style=\"font-size: 16px;\">\n        Non-standard, creative billboard applications. Target audience; brands wanting to attract attention. Difference is created with 3D, mobile or illuminated custom designs.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Provides attention-grabbing, viral effect and brand image strengthening. Offers advantages of high interaction and shareability on social media.\n    </p>",
     "ar": "<h2 style=\"font-size: 24px;\">مناطق لوحة الإعلانات للتطبيق المخصص</h2>\n    <p style=\"font-size: 16px;\">\n        تطبيقات لوحة إعلانات إبداعية غير قياسية. الجمهور المستهدف؛ العلامات التجارية التي تريد جذب الانتباه. الفرق يُخلق بتصاميم مخصصة ثلاثية الأبعاد أو متحركة أو مضيئة.\n    </p>\n    <p style=\"font-size: 16px;\">\n        يوفر جذب الانتباه والتأثير الفيروسي وتعزيز صورة العلامة التجارية. يقدم مزايا التفاعل العالي وإمكانية المشاركة على وسائل التواصل الاجتماعي.\n    </p>"
   },
-  "spot": {
-    "tr": "Yüksek Etkileşim ve Viral Potansiyel - Özel tasarım billboard çözümleri"
-  },
   "index": 0,
   "icon": "home",
   "desc": {},
-  "update": "2026-01-12T03:58:36.286Z",
+  "update": "2026-02-21T08:51:55.283Z",
   "date": "2025-01-07T00:00:00.000Z",
   "desing": {
     "header": [],
     "body": [],
     "footer": []
   },
-  "pathnext": ""
+  "pathnext": "",
+  "title": {
+    "tr": "Özel Uygulama Billboard Gaziantep | Ajans Mobil Gaziantep",
+    "en": "Custom Application Billboard | Ajans Mobil Gaziantep",
+    "ar": "لوحة إعلانات التطبيق المخصص | أجانس موبيل غازي عنتاب"
+  }
 }

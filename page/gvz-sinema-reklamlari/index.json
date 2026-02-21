@@ -24,18 +24,20 @@
     "en": "<h2 style=\"font-size: 24px;\">Cinema Advertising Areas</h2>\n    <p style=\"font-size: 16px;\">\n        Advertisements are broadcast before screenings or during intervals in cinema halls. Target audience; young people, families and those following social life in the city.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Cinema advertisements are shown when the viewer's attention is at its highest. Effective for brand awareness and prestige. Provides direct reach to target audience, high interaction and memorability.\n    </p>",
     "ar": "<h2 style=\"font-size: 24px;\">مناطق إعلانات السينما</h2>\n    <p style=\"font-size: 16px;\">\n        الإعلانات تُبث قبل العروض أو أثناء الفواصل في قاعات السينما. الجمهور المستهدف؛ الشباب والعائلات وأولئك الذين يتابعون الحياة الاجتماعية في المدينة.\n    </p>\n    <p style=\"font-size: 16px;\">\n        إعلانات السينما تُعرض عندما يكون انتباه المشاهد في أعلى مستوياته. فعالة للوعي بالعلامة التجارية والهيبة. توفر وصولاً مباشراً إلى الجمهور المستهدف وتفاعلاً عالياً وقدرة على التذكر.\n    </p>"
   },
-  "spot": {
-    "tr": "Yüksek Görünürlük ve Prestij - Sinema salonlarında etkili marka görünürlüğü"
-  },
   "index": 0,
   "icon": "home",
   "desc": {},
-  "update": "2026-01-12T03:58:36.271Z",
+  "update": "2026-02-21T08:51:55.269Z",
   "date": "2025-01-07T00:00:00.000Z",
   "desing": {
     "header": [],
     "body": [],
     "footer": []
   },
-  "pathnext": ""
+  "pathnext": "",
+  "title": {
+    "tr": "Sinema Reklamları Gaziantep | Ajans Mobil Gaziantep",
+    "en": "Cinema Advertising Gaziantep | Ajans Mobil Gaziantep",
+    "ar": "إعلانات السينما غازي عنتاب | أجانس موبيل غازي عنتاب"
+  }
 }
