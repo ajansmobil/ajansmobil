@@ -1,10 +1,14 @@
 {
   "order": false,
   "description": {
-    "tr": "Mobil uygulama geliştirme ve dijital çözümler sunan profesyonel yazılım şirketi. Android ve iOS uygulama geliştirme, web yazılım ve teknoloji danışmanlığı hizmetleri."
+    "tr": "Mobil uygulama geliştirme ve dijital çözümler sunan profesyonel yazılım şirketi. Android ve iOS uygulama geliştirme, web yazılım ve teknoloji danışmanlığı hizmetleri.",
+    "en": "Professional software company offering mobile app development and digital solutions. Android and iOS app development, web software and technology consulting services.",
+    "ar": "شركة برامج متميزة تقدم تطبيقات الجوال والحلول الرقمية. تطوير تطبيقات Android و iOS, البرمجة الويب و الاستشارات التقنية."
   },
   "keyword": {
-    "tr": "mobil uygulama geliştirme, android uygulama, ios uygulama, web yazılım, teknoloji danışmanlığı, mobil yazılım, ajans mobil, uygulama geliştirme"
+    "tr": "mobil uygulama geliştirme, android uygulama, ios uygulama, web yazılım, teknoloji danışmanlığı, mobil yazılım, ajans mobil, uygulama geliştirme",
+    "en": "mobile app development, android app, ios app, web software, technology consulting, mobile software, app development",
+    "ar": "تطوير تطبيقات الجوال, تطبيق android, تطبيق ios, البرمجة الويب, الاستشارات التقنية, البرمجيات المحمولة, تطوير التطبيقات"
   },
   "user": false,
   "status": "Kurumsal",
@@ -25,6 +29,5 @@
     "ko": false,
     "pt": false
   },
-  "multi": false,
-  "firebaseCollection": ""
+  "multi": false
 }

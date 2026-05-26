@@ -13,7 +13,7 @@
       "modulestatus": {
         "page": true,
         "body": true,
-        "detail": true,
+        "detail": false,
         "img": false
       }
     },

@@ -1,5 +1,5 @@
 
-  .c0bssmenumobil {
+  .wr82omenumobil {
     display: none;
     cursor: pointer;
     border: none;
@@ -8,12 +8,12 @@
     margin: 0;
   }
   
-  .c0bssmenumobil:focus {
+  .wr82omenumobil:focus {
     outline: 2px solid #fff;
     outline-offset: 2px;
   }
 
-  .c0bssChildren {
+  .wr82oChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
@@ -21,7 +21,7 @@
     justify-content: space-between;
   }
 
-  .c0bss {
+  .wr82o {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -30,7 +30,7 @@
     background-color: #fff;
   }
 
-  .c0bsstitle {
+  .wr82otitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -38,7 +38,7 @@
     justify-content: center;
   }
 
-  .c0bsstitlebody {
+  .wr82otitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -46,24 +46,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .c0bsstitlebodytitle {
+  .wr82otitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .c0bsstitlebodylang {
+  .wr82otitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .c0bsstitlebodylang ul {
+  .wr82otitlebodylang ul {
     display: flex;
     gap: 15px;
   }
 
-  .c0bsstitlebodylang ul li {
+  .wr82otitlebodylang ul li {
     list-style: none;
     margin: 0;
     width: 30px;
@@ -72,7 +72,7 @@
     align-items: center;
     justify-content: center;
   }
-  .c0bsstitlebodylang ul a {
+  .wr82otitlebodylang ul a {
     color: #fff;
     text-decoration: none;
     font-size: 14px !important;
@@ -92,40 +92,40 @@
     cursor: pointer;
   }
   
-  .c0bsstitlebodylang ul a:focus {
+  .wr82otitlebodylang ul a:focus {
     outline: 2px solid #fff;
     outline-offset: 2px;
   }
   
-  .c0bsstitlebodylang ul a:hover {
+  .wr82otitlebodylang ul a:hover {
     background-color: #fff;
     color: #333;
   }
-  .c0bsstitlebodylang ul a:active {
+  .wr82otitlebodylang ul a:active {
     background-color: #333;
     color: #fff;
   }
-  .c0bsstitlebodylang ul a:focus {
+  .wr82otitlebodylang ul a:focus {
     background-color: #333;
     color: #fff;
   }
-  .c0bsstitlebodylang ul a:visited {
+  .wr82otitlebodylang ul a:visited {
     background-color: #333;
     color: #fff;
   }
-  .c0bsstitlebodylang ul a:link {
+  .wr82otitlebodylang ul a:link {
     background-color: #333;
     color: #fff;
   }
 
-  .c0bssbody {
+  .wr82obody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .c0bssmenulist {
+  .wr82omenulist {
     display: block;
     background-color: #0f70b7;
     padding: 10px;
@@ -133,7 +133,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .c0bssmenubody {
+  .wr82omenubody {
     width: 100%;
     background-color: #0f70b7;
     display: flex;
@@ -141,7 +141,7 @@
     justify-content: center;
   }
 
-  .c0bssmenulist ul {
+  .wr82omenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -151,7 +151,7 @@
     overflow-x: auto;
   }
 
-  .c0bssmenulist ul a {
+  .wr82omenulist ul a {
     padding: 8px;
     font-size: 16px;
     color: #fff;
@@ -163,20 +163,20 @@
     cursor: pointer;
   }
   
-  .c0bssmenulist ul a:focus {
+  .wr82omenulist ul a:focus {
     outline: 2px solid #fff;
     outline-offset: 2px;
     border-radius: 5px;
   }
 
-  .c0bssmenulist ul a:hover {
+  .wr82omenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .c0bssmenuitem {
+  .wr82omenuitem {
     padding: 8px;
     font-size: 16px;
     color: #fff;
@@ -187,37 +187,37 @@
     white-space: nowrap;
   }
 
-  .c0bssmenuactive {
+  .wr82omenuactive {
     background-color: #e0e0e0 !important;
     border-radius: 5px;
     color: #000 !important;
     font-weight: bold;
   }
 
-  .c0bssbodylogo {
+  .wr82obodylogo {
     height: 100px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .c0bssmenumobil {
+    .wr82omenumobil {
       display: none !important;
     }
 
-    .c0bssmenuoverlay {
+    .wr82omenuoverlay {
       display: none !important;
     }
 
-    .c0bssmenuclose {
+    .wr82omenuclose {
       display: none !important;
     }
 
-    /* Desktop'ta menü içindeki dil seçicisini gizle */
-    .c0bssmenulang {
+    
+    .wr82omenulang {
       display: none !important;
     }
 
-    .c0bssmenulist {
+    .wr82omenulist {
       position: static !important;
       display: flex !important;
       width: auto !important;
@@ -230,12 +230,12 @@
       flex-direction: row !important;
     }
 
-    .c0bssmenulist ul {
+    .wr82omenulist ul {
       flex-direction: row !important;
       flex: none !important;
     }
 
-    .c0bssmenulist ul a {
+    .wr82omenulist ul a {
       padding: 8px !important;
       text-align: center !important;
       border-bottom: none !important;
@@ -243,12 +243,12 @@
   }
 
   @media screen and (max-width: 1024px) {
-    /* Mobilde üstteki dil seçicisini gizle */
-    .c0bsstitle {
+    
+    .wr82otitle {
       display: none;
     }
 
-    .c0bssmenumobil {
+    .wr82omenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -256,14 +256,14 @@
       width: 100%;
     }
 
-    .c0bssmenumobil span {
+    .wr82omenumobil span {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    /* Overlay/Backdrop */
-    .c0bssmenuoverlay {
+    
+    .wr82omenuoverlay {
       display: none;
       position: fixed;
       top: 0;
@@ -276,13 +276,13 @@
       transition: opacity 0.3s ease;
     }
 
-    .c0bssmenuoverlay.active {
+    .wr82omenuoverlay.active {
       display: block;
       opacity: 1;
     }
 
-    /* Slide-in Menü */
-    .c0bssmenulist {
+    
+    .wr82omenulist {
       position: fixed;
       top: 0;
       right: -100%;
@@ -300,12 +300,12 @@
       overflow-y: auto;
     }
 
-    .c0bssmenulist.active {
+    .wr82omenulist.active {
       right: 0;
     }
 
-    /* Kapatma Butonu */
-    .c0bssmenuclose {
+    
+    .wr82omenuclose {
       display: flex;
       align-items: center;
       justify-content: flex-end;
@@ -317,17 +317,17 @@
       font-size: 28px;
     }
 
-    .c0bssmenuclose span {
+    .wr82omenuclose span {
       font-size: 28px;
       color: #fff;
     }
 
-    .c0bssmenuclose:focus {
+    .wr82omenuclose:focus {
       outline: 2px solid #fff;
       outline-offset: -2px;
     }
 
-    .c0bssmenulist ul {
+    .wr82omenulist ul {
       flex-direction: column;
       padding: 10px 0;
       margin: 0;
@@ -335,21 +335,21 @@
       flex: 1;
     }
 
-    .c0bssmenulist ul a {
+    .wr82omenulist ul a {
       padding: 15px 20px;
       text-align: left;
       border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     }
 
-    /* Menü içindeki dil seçici - en alta */
-    .c0bssmenulang {
+    
+    .wr82omenulang {
       margin-top: auto;
       padding: 20px;
       border-top: 1px solid rgba(255, 255, 255, 0.2);
       background-color: rgba(0, 0, 0, 0.1);
     }
 
-    .c0bssmenulang ul {
+    .wr82omenulang ul {
       display: flex;
       flex-direction: row;
       gap: 10px;
@@ -359,12 +359,12 @@
       flex-wrap: wrap;
     }
 
-    .c0bssmenulang ul li {
+    .wr82omenulang ul li {
       list-style: none;
       margin: 0;
     }
 
-    .c0bssmenulang ul a {
+    .wr82omenulang ul a {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -384,28 +384,28 @@
       cursor: pointer;
     }
 
-    .c0bssmenulang ul a:hover {
+    .wr82omenulang ul a:hover {
       background-color: rgba(255, 255, 255, 0.2);
       border-color: rgba(255, 255, 255, 0.5);
     }
 
-    .c0bssmenulang ul a:focus {
+    .wr82omenulang ul a:focus {
       outline: 2px solid #fff;
       outline-offset: 2px;
     }
 
-    .c0bssmenulang ul a[aria-current="true"] {
+    .wr82omenulang ul a[aria-current="true"] {
       background-color: rgba(255, 255, 255, 0.3);
       border-color: #fff;
       font-weight: bold;
     }
 
-    .c0bssbody {
+    .wr82obody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .c0bssChildren {
+    .wr82oChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -413,11 +413,11 @@
       justify-content: center;
     }
 
-    .c0bssmenu {
+    .wr82omenu {
       overflow-x: auto;
     }
 
-    .c0bssbodylogo {
+    .wr82obodylogo {
       max-height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -425,7 +425,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .c0bssmenulist ul a {
+    .wr82omenulist ul a {
       font-size: 14px;
     }
   }
@@ -435,7 +435,7 @@
     justify-content: start;
   }
 
-  .qsyav {
+  .il20b {
     width: var(--max);
     margin-top: 20px;
     gap: 10px;
@@ -444,11 +444,11 @@
     box-sizing: border-box;
   }
 
-  .qsyav * {
+  .il20b * {
     box-sizing: border-box;
   }
 
-  .qsyav-menu-btn {
+  .il20b-menu-btn {
     display: none;
     background-color: #1e3046;
     padding: 10px 20px;
@@ -460,11 +460,11 @@
     align-items: center;
   }
 
-  .qsyav-menu-btn .qsyav-icon {
+  .il20b-menu-btn .il20b-icon {
     font-size: 20px;
   }
 
-  .qsyav-menu {
+  .il20b-menu {
     width: 250px;
     background-color: var(--bgcolor);
     border-radius: 5px;
@@ -475,15 +475,15 @@
     float: left;
   }
 
-  .qsyav-desc {
+  .il20b-desc {
     display: flex;
     flex-direction: column;
     gap: 10px;
     float: right;
   }
 
-  .qsyav-menu-link,
-  .qsyav-top {
+  .il20b-menu-link,
+  .il20b-top {
     background-color: #fff;
     padding: 10px;
     border-radius: 5px;
@@ -498,52 +498,52 @@
     text-align: left;
   }
 
-  .qsyav-menu-link.active,
-  .qsyav-menu-link:hover,
-  .qsyav-top.active,
-  .qsyav-top:hover {
+  .il20b-menu-link.active,
+  .il20b-menu-link:hover,
+  .il20b-top.active,
+  .il20b-top:hover {
     background-color: #1e3046;
     color: #fff;
   }
 
-  .qsyav-menu-group {
+  .il20b-menu-group {
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
 
-  .qsyav-top {
+  .il20b-top {
     width: 100%;
     border: none;
     font-weight: 600;
     text-align: left;
   }
   
-  .qsyav-top > div {
+  .il20b-top > div {
     text-align: left;
   }
 
-  .qsyav-top .qsyav-icon {
+  .il20b-top .il20b-icon {
     font-size: 14px;
     transition: transform 0.2s ease;
   }
 
-  .qsyav-menu-group.open .qsyav-top .qsyav-icon {
+  .il20b-menu-group.open .il20b-top .il20b-icon {
     transform: rotate(180deg);
   }
 
-  .qsyav-sub {
+  .il20b-sub {
     display: none;
     flex-direction: column;
     gap: 5px;
     padding-left: 8px;
   }
 
-  .qsyav-sub.show {
+  .il20b-sub.show {
     display: flex;
   }
 
-  .qsyav-sub-link {
+  .il20b-sub-link {
     background-color: #fff;
     padding: 8px 10px;
     border-radius: 5px;
@@ -553,13 +553,13 @@
     text-align: left;
   }
 
-  .qsyav-sub-link.active,
-  .qsyav-sub-link:hover {
+  .il20b-sub-link.active,
+  .il20b-sub-link:hover {
     background-color: rgba(39, 156, 144, 0.12);
     color: inherit;
   }
 
-  .qsyav-desc-menu {
+  .il20b-desc-menu {
     width: 200px;
     background-color: #1e3046;
     display: flex;
@@ -567,19 +567,19 @@
     border-radius: 5px;
   }
 
-  .qsyav-desc-menu > div {
+  .il20b-desc-menu > div {
     padding: 5px;
     border-radius: 5px;
     background-color: #fff;
     margin: 5px;
   }
 
-  .qsyav-desc-body {
+  .il20b-desc-body {
     display: flex;
     justify-content: space-between;
   }
 
-  .qsyav-title {
+  .il20b-title {
     width: 100%;
     height: 100px;
     background-color: #1e3046;
@@ -592,14 +592,15 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .qsyav-title::before {
+  .il20b-title::before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("/page/kisiselveriler/bg/{{bgimg}}");
+    
+    background-image: none; 
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -607,7 +608,7 @@
     z-index: 1;
   }
 
-  .qsyav-title h1 {
+  .il20b-title h1 {
     position: relative;
     z-index: 2;
     font-size: 36px;
@@ -615,39 +616,39 @@
     color: #fff !important;
   }
 
-  .qsyav-body {
+  .il20b-body {
     display: flex;
     flex-direction: column;
     gap: 10px;
     text-align: left;
   }
 
-  .qsyav-img {
+  .il20b-img {
     display: flex;
     align-items: center;
     justify-content: center;
     width: calc(var(--max) - 460px);
   }
 
-  .qsyav-img img {
+  .il20b-img img {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1025px) {
-    .qsyav-menu-overlay {
+    .il20b-menu-overlay {
       display: none !important;
     }
 
-    .qsyav-menu-close {
+    .il20b-menu-close {
       display: none !important;
     }
 
-    .qsyav-desc {
+    .il20b-desc {
       width: calc(var(--max) - 290px);
     }
 
-    .qsyav-menu {
+    .il20b-menu {
       position: static !important;
       left: auto !important;
       width: 250px !important;
@@ -659,17 +660,17 @@
       padding: 10px;
     }
 
-    .qsyav-menu-link {
+    .il20b-menu-link {
       padding: 10px 10px 10px 10px;
     }
 
-    .qsyav-top {
+    .il20b-top {
       padding: 10px 10px 10px 10px;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .qsyav-menu-btn {
+    .il20b-menu-btn {
       display: flex;
       width: 100%;
       margin: 0;
@@ -678,13 +679,13 @@
       z-index: 1;
     }
 
-    .qsyav-menu-btn:focus {
+    .il20b-menu-btn:focus {
       outline: 2px solid #fff;
       outline-offset: 2px;
     }
 
-    /* Overlay/Backdrop */
-    .qsyav-menu-overlay {
+    
+    .il20b-menu-overlay {
       display: none;
       position: fixed;
       top: 0;
@@ -698,13 +699,13 @@
       pointer-events: none;
     }
 
-    .qsyav-menu-overlay.active {
+    .il20b-menu-overlay.active {
       display: block;
       opacity: 1;
       pointer-events: auto;
     }
 
-    .qsyav {
+    .il20b {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -713,18 +714,18 @@
       margin-top: 0px;
     }
 
-    .qsyav-img {
+    .il20b-img {
       width: 100%;
     }
 
-    .qsyav-body {
+    .il20b-body {
       width: 100%;
       order: 3;
       padding: 10px;
     }
 
-    /* Slide-in Menü - Soldan */
-    .qsyav-menu {
+    
+    .il20b-menu {
       position: fixed;
       top: 0;
       left: -100%;
@@ -746,13 +747,13 @@
       visibility: hidden;
     }
 
-    .qsyav-menu.active {
+    .il20b-menu.active {
       left: 0;
       visibility: visible;
     }
 
-    /* Kapatma Butonu */
-    .qsyav-menu-close {
+    
+    .il20b-menu-close {
       display: flex;
       align-items: center;
       justify-content: flex-end;
@@ -767,22 +768,22 @@
       flex-shrink: 0;
     }
 
-    /* Menü içeriği için padding */
-    .qsyav-menu > .qsyav-menu-group,
-    .qsyav-menu > .qsyav-menu-link {
+    
+    .il20b-menu > .il20b-menu-group,
+    .il20b-menu > .il20b-menu-link {
       padding: 10px;
     }
 
-    .qsyav-menu-close span {
+    .il20b-menu-close span {
       font-size: 28px;
     }
 
-    .qsyav-menu-close:focus {
+    .il20b-menu-close:focus {
       outline: 2px solid currentColor;
       outline-offset: -2px;
     }
 
-    .qsyav-desc {
+    .il20b-desc {
       width: 100% !important;
       order: 2;
     }
@@ -799,7 +800,7 @@
     box-sizing: border-box;
   }
 
-  .gy11i-wa-advanced-button {
+  .siv63-wa-advanced-button {
     position: relative;
     width: 64px;
     height: 64px;
@@ -813,18 +814,18 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
 
-  .gy11i-wa-advanced-button:hover {
+  .siv63-wa-advanced-button:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
   }
 
-  .gy11i-wa-advanced-icon svg {
+  .siv63-wa-advanced-icon svg {
     width: 32px;
     height: 32px;
     fill: #fff;
   }
 
-  .gy11i-wa-advanced-pulse {
+  .siv63-wa-advanced-pulse {
     position: absolute;
     top: -2px;
     left: -2px;
@@ -847,7 +848,7 @@
     }
   }
 
-  .gy11i-wa-advanced-panel {
+  .siv63-wa-advanced-panel {
     position: absolute;
     bottom: 80px;
     right: 0;
@@ -861,7 +862,7 @@
     box-sizing: border-box;
   }
 
-  .gy11i-wa-advanced-header {
+  .siv63-wa-advanced-header {
     background: #25D366;
     color: #fff;
     padding: 16px;
@@ -871,20 +872,20 @@
     position: relative;
   }
 
-  .gy11i-wa-advanced-avatar {
+  .siv63-wa-advanced-avatar {
     position: relative;
     width: 48px;
     height: 48px;
   }
 
-  .gy11i-wa-advanced-avatar img {
+  .siv63-wa-advanced-avatar img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
   }
 
-  .gy11i-wa-advanced-status {
+  .siv63-wa-advanced-status {
     position: absolute;
     bottom: 2px;
     right: 2px;
@@ -894,23 +895,23 @@
     border: 2px solid #fff;
   }
 
-  .gy11i-wa-advanced-status.online {
+  .siv63-wa-advanced-status.online {
     background: #4caf50;
   }
 
-  .gy11i-wa-advanced-info h4 {
+  .siv63-wa-advanced-info h4 {
     margin: 0;
     font-size: 16px;
     font-weight: 600;
   }
 
-  .gy11i-wa-advanced-info p {
+  .siv63-wa-advanced-info p {
     margin: 4px 0 0 0;
     font-size: 12px;
     opacity: 0.9;
   }
 
-  .gy11i-wa-advanced-close {
+  .siv63-wa-advanced-close {
     position: absolute;
     top: 12px;
     right: 12px;
@@ -922,16 +923,16 @@
     opacity: 0.8;
   }
 
-  .gy11i-wa-advanced-close:hover {
+  .siv63-wa-advanced-close:hover {
     opacity: 1;
   }
 
-  .gy11i-wa-advanced-body {
+  .siv63-wa-advanced-body {
     padding: 16px;
     background: #f8f9fa;
   }
 
-  .gy11i-wa-advanced-message {
+  .siv63-wa-advanced-message {
     background: #fff;
     padding: 12px 16px;
     border-radius: 8px;
@@ -942,29 +943,29 @@
     justify-content: flex-end;
   }
 
-  .gy11i-wa-advanced-message p {
+  .siv63-wa-advanced-message p {
     font-size: 14px;
     color: #333;
     text-align: right;
     margin: 0;
   }
 
-  .gy11i-wa-advanced-time {
+  .siv63-wa-advanced-time {
     font-size: 10px;
     color: #999;
     margin: 4px 0 0 0;
   }
 
-  .gy11i-wa-advanced-footer {
+  .siv63-wa-advanced-footer {
     padding: 16px;
   }
 
-  .gy11i-wa-advanced-footer a {
+  .siv63-wa-advanced-footer a {
     text-decoration: none;
     color: #fff !important;
   }
 
-  .gy11i-wa-advanced-chat-btn {
+  .siv63-wa-advanced-chat-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -980,7 +981,7 @@
     transition: transform 0.3s ease;
   }
 
-  .gy11i-wa-advanced-chat-btn:hover {
+  .siv63-wa-advanced-chat-btn:hover {
     transform: translateY(-2px);
   }
 
@@ -992,7 +993,7 @@
       max-width: calc(100vw - 40px);
     }
     
-    .gy11i-wa-advanced-panel {
+    .siv63-wa-advanced-panel {
       width: calc(100vw - 40px);
       max-width: 320px;
       right: 0;

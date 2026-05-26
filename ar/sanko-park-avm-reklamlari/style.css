@@ -1,5 +1,5 @@
 
-  .h8xp7menumobil {
+  .d0fcymenumobil {
     display: none;
     cursor: pointer;
     border: none;
@@ -8,12 +8,12 @@
     margin: 0;
   }
   
-  .h8xp7menumobil:focus {
+  .d0fcymenumobil:focus {
     outline: 2px solid #fff;
     outline-offset: 2px;
   }
 
-  .h8xp7Children {
+  .d0fcyChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
@@ -21,7 +21,7 @@
     justify-content: space-between;
   }
 
-  .h8xp7 {
+  .d0fcy {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -30,7 +30,7 @@
     background-color: #fff;
   }
 
-  .h8xp7title {
+  .d0fcytitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -38,7 +38,7 @@
     justify-content: center;
   }
 
-  .h8xp7titlebody {
+  .d0fcytitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -46,24 +46,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .h8xp7titlebodytitle {
+  .d0fcytitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .h8xp7titlebodylang {
+  .d0fcytitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .h8xp7titlebodylang ul {
+  .d0fcytitlebodylang ul {
     display: flex;
     gap: 15px;
   }
 
-  .h8xp7titlebodylang ul li {
+  .d0fcytitlebodylang ul li {
     list-style: none;
     margin: 0;
     width: 30px;
@@ -72,7 +72,7 @@
     align-items: center;
     justify-content: center;
   }
-  .h8xp7titlebodylang ul a {
+  .d0fcytitlebodylang ul a {
     color: #fff;
     text-decoration: none;
     font-size: 14px !important;
@@ -92,40 +92,40 @@
     cursor: pointer;
   }
   
-  .h8xp7titlebodylang ul a:focus {
+  .d0fcytitlebodylang ul a:focus {
     outline: 2px solid #fff;
     outline-offset: 2px;
   }
   
-  .h8xp7titlebodylang ul a:hover {
+  .d0fcytitlebodylang ul a:hover {
     background-color: #fff;
     color: #333;
   }
-  .h8xp7titlebodylang ul a:active {
+  .d0fcytitlebodylang ul a:active {
     background-color: #333;
     color: #fff;
   }
-  .h8xp7titlebodylang ul a:focus {
+  .d0fcytitlebodylang ul a:focus {
     background-color: #333;
     color: #fff;
   }
-  .h8xp7titlebodylang ul a:visited {
+  .d0fcytitlebodylang ul a:visited {
     background-color: #333;
     color: #fff;
   }
-  .h8xp7titlebodylang ul a:link {
+  .d0fcytitlebodylang ul a:link {
     background-color: #333;
     color: #fff;
   }
 
-  .h8xp7body {
+  .d0fcybody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .h8xp7menulist {
+  .d0fcymenulist {
     display: block;
     background-color: #0f70b7;
     padding: 10px;
@@ -133,7 +133,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .h8xp7menubody {
+  .d0fcymenubody {
     width: 100%;
     background-color: #0f70b7;
     display: flex;
@@ -141,7 +141,7 @@
     justify-content: center;
   }
 
-  .h8xp7menulist ul {
+  .d0fcymenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -151,7 +151,7 @@
     overflow-x: auto;
   }
 
-  .h8xp7menulist ul a {
+  .d0fcymenulist ul a {
     padding: 8px;
     font-size: 16px;
     color: #fff;
@@ -163,20 +163,20 @@
     cursor: pointer;
   }
   
-  .h8xp7menulist ul a:focus {
+  .d0fcymenulist ul a:focus {
     outline: 2px solid #fff;
     outline-offset: 2px;
     border-radius: 5px;
   }
 
-  .h8xp7menulist ul a:hover {
+  .d0fcymenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .h8xp7menuitem {
+  .d0fcymenuitem {
     padding: 8px;
     font-size: 16px;
     color: #fff;
@@ -187,37 +187,37 @@
     white-space: nowrap;
   }
 
-  .h8xp7menuactive {
+  .d0fcymenuactive {
     background-color: #e0e0e0 !important;
     border-radius: 5px;
     color: #000 !important;
     font-weight: bold;
   }
 
-  .h8xp7bodylogo {
+  .d0fcybodylogo {
     height: 100px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .h8xp7menumobil {
+    .d0fcymenumobil {
       display: none !important;
     }
 
-    .h8xp7menuoverlay {
+    .d0fcymenuoverlay {
       display: none !important;
     }
 
-    .h8xp7menuclose {
+    .d0fcymenuclose {
       display: none !important;
     }
 
-    /* Desktop'ta menü içindeki dil seçicisini gizle */
-    .h8xp7menulang {
+    
+    .d0fcymenulang {
       display: none !important;
     }
 
-    .h8xp7menulist {
+    .d0fcymenulist {
       position: static !important;
       display: flex !important;
       width: auto !important;
@@ -230,12 +230,12 @@
       flex-direction: row !important;
     }
 
-    .h8xp7menulist ul {
+    .d0fcymenulist ul {
       flex-direction: row !important;
       flex: none !important;
     }
 
-    .h8xp7menulist ul a {
+    .d0fcymenulist ul a {
       padding: 8px !important;
       text-align: center !important;
       border-bottom: none !important;
@@ -243,12 +243,12 @@
   }
 
   @media screen and (max-width: 1024px) {
-    /* Mobilde üstteki dil seçicisini gizle */
-    .h8xp7title {
+    
+    .d0fcytitle {
       display: none;
     }
 
-    .h8xp7menumobil {
+    .d0fcymenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -256,14 +256,14 @@
       width: 100%;
     }
 
-    .h8xp7menumobil span {
+    .d0fcymenumobil span {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    /* Overlay/Backdrop */
-    .h8xp7menuoverlay {
+    
+    .d0fcymenuoverlay {
       display: none;
       position: fixed;
       top: 0;
@@ -276,13 +276,13 @@
       transition: opacity 0.3s ease;
     }
 
-    .h8xp7menuoverlay.active {
+    .d0fcymenuoverlay.active {
       display: block;
       opacity: 1;
     }
 
-    /* Slide-in Menü */
-    .h8xp7menulist {
+    
+    .d0fcymenulist {
       position: fixed;
       top: 0;
       right: -100%;
@@ -300,12 +300,12 @@
       overflow-y: auto;
     }
 
-    .h8xp7menulist.active {
+    .d0fcymenulist.active {
       right: 0;
     }
 
-    /* Kapatma Butonu */
-    .h8xp7menuclose {
+    
+    .d0fcymenuclose {
       display: flex;
       align-items: center;
       justify-content: flex-end;
@@ -317,17 +317,17 @@
       font-size: 28px;
     }
 
-    .h8xp7menuclose span {
+    .d0fcymenuclose span {
       font-size: 28px;
       color: #fff;
     }
 
-    .h8xp7menuclose:focus {
+    .d0fcymenuclose:focus {
       outline: 2px solid #fff;
       outline-offset: -2px;
     }
 
-    .h8xp7menulist ul {
+    .d0fcymenulist ul {
       flex-direction: column;
       padding: 10px 0;
       margin: 0;
@@ -335,21 +335,21 @@
       flex: 1;
     }
 
-    .h8xp7menulist ul a {
+    .d0fcymenulist ul a {
       padding: 15px 20px;
       text-align: left;
       border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     }
 
-    /* Menü içindeki dil seçici - en alta */
-    .h8xp7menulang {
+    
+    .d0fcymenulang {
       margin-top: auto;
       padding: 20px;
       border-top: 1px solid rgba(255, 255, 255, 0.2);
       background-color: rgba(0, 0, 0, 0.1);
     }
 
-    .h8xp7menulang ul {
+    .d0fcymenulang ul {
       display: flex;
       flex-direction: row;
       gap: 10px;
@@ -359,12 +359,12 @@
       flex-wrap: wrap;
     }
 
-    .h8xp7menulang ul li {
+    .d0fcymenulang ul li {
       list-style: none;
       margin: 0;
     }
 
-    .h8xp7menulang ul a {
+    .d0fcymenulang ul a {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -384,28 +384,28 @@
       cursor: pointer;
     }
 
-    .h8xp7menulang ul a:hover {
+    .d0fcymenulang ul a:hover {
       background-color: rgba(255, 255, 255, 0.2);
       border-color: rgba(255, 255, 255, 0.5);
     }
 
-    .h8xp7menulang ul a:focus {
+    .d0fcymenulang ul a:focus {
       outline: 2px solid #fff;
       outline-offset: 2px;
     }
 
-    .h8xp7menulang ul a[aria-current="true"] {
+    .d0fcymenulang ul a[aria-current="true"] {
       background-color: rgba(255, 255, 255, 0.3);
       border-color: #fff;
       font-weight: bold;
     }
 
-    .h8xp7body {
+    .d0fcybody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .h8xp7Children {
+    .d0fcyChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -413,11 +413,11 @@
       justify-content: center;
     }
 
-    .h8xp7menu {
+    .d0fcymenu {
       overflow-x: auto;
     }
 
-    .h8xp7bodylogo {
+    .d0fcybodylogo {
       max-height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -425,7 +425,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .h8xp7menulist ul a {
+    .d0fcymenulist ul a {
       font-size: 14px;
     }
   }
@@ -435,7 +435,7 @@
     justify-content: start;
   }
 
-  .ms3e3 {
+  .s1put {
     width: var(--max);
     margin-top: 20px;
     gap: 10px;
@@ -444,11 +444,11 @@
     box-sizing: border-box;
   }
 
-  .ms3e3 * {
+  .s1put * {
     box-sizing: border-box;
   }
 
-  .ms3e3-menu-btn {
+  .s1put-menu-btn {
     display: none;
     background-color: #1e3046;
     padding: 10px 20px;
@@ -460,11 +460,11 @@
     align-items: center;
   }
 
-  .ms3e3-menu-btn .ms3e3-icon {
+  .s1put-menu-btn .s1put-icon {
     font-size: 20px;
   }
 
-  .ms3e3-menu {
+  .s1put-menu {
     width: 250px;
     background-color: var(--bgcolor);
     border-radius: 5px;
@@ -475,15 +475,15 @@
     float: left;
   }
 
-  .ms3e3-desc {
+  .s1put-desc {
     display: flex;
     flex-direction: column;
     gap: 10px;
     float: right;
   }
 
-  .ms3e3-menu-link,
-  .ms3e3-top {
+  .s1put-menu-link,
+  .s1put-top {
     background-color: #fff;
     padding: 10px;
     border-radius: 5px;
@@ -498,52 +498,52 @@
     text-align: left;
   }
 
-  .ms3e3-menu-link.active,
-  .ms3e3-menu-link:hover,
-  .ms3e3-top.active,
-  .ms3e3-top:hover {
+  .s1put-menu-link.active,
+  .s1put-menu-link:hover,
+  .s1put-top.active,
+  .s1put-top:hover {
     background-color: #1e3046;
     color: #fff;
   }
 
-  .ms3e3-menu-group {
+  .s1put-menu-group {
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
 
-  .ms3e3-top {
+  .s1put-top {
     width: 100%;
     border: none;
     font-weight: 600;
     text-align: left;
   }
   
-  .ms3e3-top > div {
+  .s1put-top > div {
     text-align: left;
   }
 
-  .ms3e3-top .ms3e3-icon {
+  .s1put-top .s1put-icon {
     font-size: 14px;
     transition: transform 0.2s ease;
   }
 
-  .ms3e3-menu-group.open .ms3e3-top .ms3e3-icon {
+  .s1put-menu-group.open .s1put-top .s1put-icon {
     transform: rotate(180deg);
   }
 
-  .ms3e3-sub {
+  .s1put-sub {
     display: none;
     flex-direction: column;
     gap: 5px;
     padding-left: 8px;
   }
 
-  .ms3e3-sub.show {
+  .s1put-sub.show {
     display: flex;
   }
 
-  .ms3e3-sub-link {
+  .s1put-sub-link {
     background-color: #fff;
     padding: 8px 10px;
     border-radius: 5px;
@@ -553,13 +553,13 @@
     text-align: left;
   }
 
-  .ms3e3-sub-link.active,
-  .ms3e3-sub-link:hover {
+  .s1put-sub-link.active,
+  .s1put-sub-link:hover {
     background-color: rgba(39, 156, 144, 0.12);
     color: inherit;
   }
 
-  .ms3e3-desc-menu {
+  .s1put-desc-menu {
     width: 200px;
     background-color: #1e3046;
     display: flex;
@@ -567,19 +567,19 @@
     border-radius: 5px;
   }
 
-  .ms3e3-desc-menu > div {
+  .s1put-desc-menu > div {
     padding: 5px;
     border-radius: 5px;
     background-color: #fff;
     margin: 5px;
   }
 
-  .ms3e3-desc-body {
+  .s1put-desc-body {
     display: flex;
     justify-content: space-between;
   }
 
-  .ms3e3-title {
+  .s1put-title {
     width: 100%;
     height: 100px;
     background-color: #1e3046;
@@ -592,14 +592,15 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .ms3e3-title::before {
+  .s1put-title::before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("/page/gvz-sanko-park/bg/{{bgimg}}");
+    
+    background-image: none; 
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -607,7 +608,7 @@
     z-index: 1;
   }
 
-  .ms3e3-title h1 {
+  .s1put-title h1 {
     position: relative;
     z-index: 2;
     font-size: 36px;
@@ -615,39 +616,39 @@
     color: #fff !important;
   }
 
-  .ms3e3-body {
+  .s1put-body {
     display: flex;
     flex-direction: column;
     gap: 10px;
     text-align: left;
   }
 
-  .ms3e3-img {
+  .s1put-img {
     display: flex;
     align-items: center;
     justify-content: center;
     width: calc(var(--max) - 460px);
   }
 
-  .ms3e3-img img {
+  .s1put-img img {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1025px) {
-    .ms3e3-menu-overlay {
+    .s1put-menu-overlay {
       display: none !important;
     }
 
-    .ms3e3-menu-close {
+    .s1put-menu-close {
       display: none !important;
     }
 
-    .ms3e3-desc {
+    .s1put-desc {
       width: calc(var(--max) - 290px);
     }
 
-    .ms3e3-menu {
+    .s1put-menu {
       position: static !important;
       left: auto !important;
       width: 250px !important;
@@ -659,17 +660,17 @@
       padding: 10px;
     }
 
-    .ms3e3-menu-link {
+    .s1put-menu-link {
       padding: 10px 10px 10px 10px;
     }
 
-    .ms3e3-top {
+    .s1put-top {
       padding: 10px 10px 10px 10px;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .ms3e3-menu-btn {
+    .s1put-menu-btn {
       display: flex;
       width: 100%;
       margin: 0;
@@ -678,13 +679,13 @@
       z-index: 1;
     }
 
-    .ms3e3-menu-btn:focus {
+    .s1put-menu-btn:focus {
       outline: 2px solid #fff;
       outline-offset: 2px;
     }
 
-    /* Overlay/Backdrop */
-    .ms3e3-menu-overlay {
+    
+    .s1put-menu-overlay {
       display: none;
       position: fixed;
       top: 0;
@@ -698,13 +699,13 @@
       pointer-events: none;
     }
 
-    .ms3e3-menu-overlay.active {
+    .s1put-menu-overlay.active {
       display: block;
       opacity: 1;
       pointer-events: auto;
     }
 
-    .ms3e3 {
+    .s1put {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -713,18 +714,18 @@
       margin-top: 0px;
     }
 
-    .ms3e3-img {
+    .s1put-img {
       width: 100%;
     }
 
-    .ms3e3-body {
+    .s1put-body {
       width: 100%;
       order: 3;
       padding: 10px;
     }
 
-    /* Slide-in Menü - Soldan */
-    .ms3e3-menu {
+    
+    .s1put-menu {
       position: fixed;
       top: 0;
       left: -100%;
@@ -746,13 +747,13 @@
       visibility: hidden;
     }
 
-    .ms3e3-menu.active {
+    .s1put-menu.active {
       left: 0;
       visibility: visible;
     }
 
-    /* Kapatma Butonu */
-    .ms3e3-menu-close {
+    
+    .s1put-menu-close {
       display: flex;
       align-items: center;
       justify-content: flex-end;
@@ -767,22 +768,22 @@
       flex-shrink: 0;
     }
 
-    /* Menü içeriği için padding */
-    .ms3e3-menu > .ms3e3-menu-group,
-    .ms3e3-menu > .ms3e3-menu-link {
+    
+    .s1put-menu > .s1put-menu-group,
+    .s1put-menu > .s1put-menu-link {
       padding: 10px;
     }
 
-    .ms3e3-menu-close span {
+    .s1put-menu-close span {
       font-size: 28px;
     }
 
-    .ms3e3-menu-close:focus {
+    .s1put-menu-close:focus {
       outline: 2px solid currentColor;
       outline-offset: -2px;
     }
 
-    .ms3e3-desc {
+    .s1put-desc {
       width: 100% !important;
       order: 2;
     }
@@ -799,7 +800,7 @@
     box-sizing: border-box;
   }
 
-  .bidl0-wa-advanced-button {
+  .nzmxj-wa-advanced-button {
     position: relative;
     width: 64px;
     height: 64px;
@@ -813,18 +814,18 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
 
-  .bidl0-wa-advanced-button:hover {
+  .nzmxj-wa-advanced-button:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
   }
 
-  .bidl0-wa-advanced-icon svg {
+  .nzmxj-wa-advanced-icon svg {
     width: 32px;
     height: 32px;
     fill: #fff;
   }
 
-  .bidl0-wa-advanced-pulse {
+  .nzmxj-wa-advanced-pulse {
     position: absolute;
     top: -2px;
     left: -2px;
@@ -847,7 +848,7 @@
     }
   }
 
-  .bidl0-wa-advanced-panel {
+  .nzmxj-wa-advanced-panel {
     position: absolute;
     bottom: 80px;
     right: 0;
@@ -861,7 +862,7 @@
     box-sizing: border-box;
   }
 
-  .bidl0-wa-advanced-header {
+  .nzmxj-wa-advanced-header {
     background: #25D366;
     color: #fff;
     padding: 16px;
@@ -871,20 +872,20 @@
     position: relative;
   }
 
-  .bidl0-wa-advanced-avatar {
+  .nzmxj-wa-advanced-avatar {
     position: relative;
     width: 48px;
     height: 48px;
   }
 
-  .bidl0-wa-advanced-avatar img {
+  .nzmxj-wa-advanced-avatar img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
   }
 
-  .bidl0-wa-advanced-status {
+  .nzmxj-wa-advanced-status {
     position: absolute;
     bottom: 2px;
     right: 2px;
@@ -894,23 +895,23 @@
     border: 2px solid #fff;
   }
 
-  .bidl0-wa-advanced-status.online {
+  .nzmxj-wa-advanced-status.online {
     background: #4caf50;
   }
 
-  .bidl0-wa-advanced-info h4 {
+  .nzmxj-wa-advanced-info h4 {
     margin: 0;
     font-size: 16px;
     font-weight: 600;
   }
 
-  .bidl0-wa-advanced-info p {
+  .nzmxj-wa-advanced-info p {
     margin: 4px 0 0 0;
     font-size: 12px;
     opacity: 0.9;
   }
 
-  .bidl0-wa-advanced-close {
+  .nzmxj-wa-advanced-close {
     position: absolute;
     top: 12px;
     right: 12px;
@@ -922,16 +923,16 @@
     opacity: 0.8;
   }
 
-  .bidl0-wa-advanced-close:hover {
+  .nzmxj-wa-advanced-close:hover {
     opacity: 1;
   }
 
-  .bidl0-wa-advanced-body {
+  .nzmxj-wa-advanced-body {
     padding: 16px;
     background: #f8f9fa;
   }
 
-  .bidl0-wa-advanced-message {
+  .nzmxj-wa-advanced-message {
     background: #fff;
     padding: 12px 16px;
     border-radius: 8px;
@@ -942,29 +943,29 @@
     justify-content: flex-end;
   }
 
-  .bidl0-wa-advanced-message p {
+  .nzmxj-wa-advanced-message p {
     font-size: 14px;
     color: #333;
     text-align: right;
     margin: 0;
   }
 
-  .bidl0-wa-advanced-time {
+  .nzmxj-wa-advanced-time {
     font-size: 10px;
     color: #999;
     margin: 4px 0 0 0;
   }
 
-  .bidl0-wa-advanced-footer {
+  .nzmxj-wa-advanced-footer {
     padding: 16px;
   }
 
-  .bidl0-wa-advanced-footer a {
+  .nzmxj-wa-advanced-footer a {
     text-decoration: none;
     color: #fff !important;
   }
 
-  .bidl0-wa-advanced-chat-btn {
+  .nzmxj-wa-advanced-chat-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -980,7 +981,7 @@
     transition: transform 0.3s ease;
   }
 
-  .bidl0-wa-advanced-chat-btn:hover {
+  .nzmxj-wa-advanced-chat-btn:hover {
     transform: translateY(-2px);
   }
 
@@ -992,7 +993,7 @@
       max-width: calc(100vw - 40px);
     }
     
-    .bidl0-wa-advanced-panel {
+    .nzmxj-wa-advanced-panel {
       width: calc(100vw - 40px);
       max-width: 320px;
       right: 0;

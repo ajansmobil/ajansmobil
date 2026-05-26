@@ -11,7 +11,7 @@
   "modulestatus": {
     "page": true,
     "body": true,
-    "detail": true,
+    "detail": false,
     "img": false
   },
   "data": [
@@ -39,7 +39,8 @@
         "ar": "أجانس موبيل، التي تقدم حلولاً مبتكرة للعالم الرقمي منذ عام 2018، في موقع رائد في الصناعة مع نهجها المرتكز على العملاء والتكيف مع الابتكارات التكنولوجية."
       },
       "pathnext": "hakkimizda",
-      "desc": {}
+      "desc": {},
+      "icon": "home"
     },
     {
       "name": {
@@ -65,7 +66,8 @@
         "footer": []
       },
       "pathnext": "",
-      "desc": {}
+      "desc": {},
+      "icon": "home"
     },
     {
       "name": {
@@ -91,7 +93,8 @@
         "ar": "مشاريع مرجع أجانس موبيل - المشاريع التي أكملناها بنجاح في تصميم الويب والتسويق الرقمي والإعلانات الخارجية في غازي عنتاب وعملاؤنا الراضون."
       },
       "pathnext": "",
-      "desc": {}
+      "desc": {},
+      "icon": "home"
     },
     {
       "name": {
@@ -116,7 +119,8 @@
         "en": "Ajans Mobil Gaziantep contact information - Contact us for digital marketing, web design and advertising services. We are here for professional solutions.",
         "ar": "معلومات الاتصال أجانس موبيل غازي عنتاب - اتصل بنا للحصول على خدمات التسويق الرقمي وتصميم الويب والإعلان. نحن هنا للحلول المهنية."
       },
-      "desc": {}
+      "desc": {},
+      "icon": "home"
     }
   ]
 }
