@@ -1,20 +1,30 @@
 {
   "order": false,
   "description": {
-    "tr": "Mobil uygulama geliştirme ve dijital çözümler sunan profesyonel yazılım şirketi. Android ve iOS uygulama geliştirme, web yazılım ve teknoloji danışmanlığı hizmetleri.",
-    "en": "Professional software company offering mobile app development and digital solutions. Android and iOS app development, web software and technology consulting services.",
-    "ar": "شركة برامج متميزة تقدم تطبيقات الجوال والحلول الرقمية. تطوير تطبيقات Android و iOS, البرمجة الويب و الاستشارات التقنية."
+    "tr": "Gaziantep açık hava reklamcılığı, asansör reklamı, sosyal medya yönetimi ve web tasarım hizmetleri. Otobüs, taksi, tramvay ve dijital çözümlerle markanızı görünür kılın.",
+    "en": "Outdoor advertising, elevator ads, social media management and web design in Gaziantep. Bus, taxi, tram and digital solutions to boost your brand visibility.",
+    "ar": "إعلانات خارجية ومصاعد وإدارة وسائل التواصل وتصميم مواقع في غازي عنتاب. حلول الحافلات والتاكسي والترام والرقمية لزيادة ظهور علامتك."
   },
   "keyword": {
-    "tr": "mobil uygulama geliştirme, android uygulama, ios uygulama, web yazılım, teknoloji danışmanlığı, mobil yazılım, ajans mobil, uygulama geliştirme",
-    "en": "mobile app development, android app, ios app, web software, technology consulting, mobile software, app development",
-    "ar": "تطوير تطبيقات الجوال, تطبيق android, تطبيق ios, البرمجة الويب, الاستشارات التقنية, البرمجيات المحمولة, تطوير التطبيقات"
+    "tr": "açık hava reklam, asansör reklamı, otobüs reklamı, taksi reklamı, sosyal medya, web tasarım, ajans mobil gaziantep",
+    "en": "outdoor advertising, elevator ads, bus ads, taxi ads, social media, web design, ajans mobil gaziantep",
+    "ar": "إعلانات خارجية, إعلانات المصاعد, إعلانات الحافلات, إعلانات التاكسي, وسائل التواصل, تصميم مواقع, أجانس موبيل"
   },
   "user": false,
   "status": "Kurumsal",
   "category": "Kurumsal",
   "name": "Ajans Mobil Gaziantep",
   "domain": "ajansmobil.com",
+  "logo": "logo.svg",
+  "phone": "0531 679 10 14",
+  "mobile": "0531 679 10 14",
+  "email": "info@ajansmobil.com",
+  "address": {
+    "tr": "Gaziantep, Türkiye",
+    "en": "Gaziantep, Turkey",
+    "ar": "غازي عنتاب، تركيا"
+  },
+  "person": "Yunus Sevgane",
   "langs": {
     "tr": true,
     "en": true,

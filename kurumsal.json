@@ -1,7 +1,4 @@
 {
-  "name": "Kurumsal",
-  "path": "kurumsal",
-  "desc": [],
   "data": [
     {
       "name": {
@@ -18,14 +15,13 @@
         "body": [],
         "footer": []
       },
-      "index": 0,
+      "index": 1,
       "icon": "home",
       "description": {
         "tr": "Ajans Mobil Gaziantep - 15 yıllık deneyim ile dijital pazarlama, web tasarım, açık hava reklamcılığı ve sosyal medya yönetimi hizmetleri. Gaziantep'in lider dijital ajansı.",
         "en": "Ajans Mobil Gaziantep - Digital marketing, web design, outdoor advertising and social media management services with 15 years of experience. Gaziantep's leading digital agency.",
         "ar": "أجانس موبيل غازي عنتاب - خدمات التسويق الرقمي وتصميم الويب والإعلانات الخارجية وإدارة وسائل التواصل الاجتماعي مع 15 عاماً من الخبرة. الوكالة الرقمية الرائدة في غازي عنتاب."
-      },
-      "desc": {}
+      }
     },
     {
       "name": {
@@ -42,14 +38,13 @@
         "body": [],
         "footer": []
       },
-      "index": 1,
+      "index": 2,
       "icon": "home",
       "description": {
         "tr": "Ajans Mobil Gaziantep misyonu - Müşteri odaklı dijital pazarlama, web tasarım ve açık hava reklamcılığı hizmetleri ile işletmelere değer katmak.",
         "en": "Ajans Mobil Gaziantep mission - Adding value to businesses with customer-focused digital marketing, web design and outdoor advertising services.",
         "ar": "مهمة أجانس موبيل غازي عنتاب - إضافة قيمة للشركات مع خدمات التسويق الرقمي وتصميم الويب والإعلانات الخارجية المرتكزة على العملاء."
-      },
-      "desc": {}
+      }
     },
     {
       "name": {
@@ -66,14 +61,13 @@
         "body": [],
         "footer": []
       },
-      "index": 2,
+      "index": 3,
       "icon": "home",
       "description": {
         "tr": "Ajans Mobil Gaziantep vizyonu - Türkiye'nin önde gelen dijital ajansları arasında yer almak, yenilikçi teknolojilerle sektöre öncülük etmek.",
         "en": "Ajans Mobil Gaziantep vision - To be among Turkey's leading digital agencies, to lead the industry with innovative technologies.",
         "ar": "رؤية أجانس موبيل غازي عنتاب - أن نكون من بين الوكالات الرقمية الرائدة في تركيا، أن نقود الصناعة بتقنيات مبتكرة."
-      },
-      "desc": {}
+      }
     },
     {
       "name": {
@@ -90,14 +84,13 @@
         "body": [],
         "footer": []
       },
-      "index": 3,
+      "index": 4,
       "icon": "home",
       "description": {
         "tr": "Ajans Mobil kalite politikası - Müşteri odaklı hizmet anlayışı, sürekli iyileştirme ve uluslararası standartlarda dijital pazarlama hizmeti.",
         "en": "Ajans Mobil quality policy - Customer-focused service approach, continuous improvement and digital marketing service at international standards.",
         "ar": "سياسة جودة أجانس موبيل - نهج خدمة يركز على العملاء والتحسين المستمر وخدمة التسويق الرقمي بمعايير دولية."
-      },
-      "desc": {}
+      }
     },
     {
       "name": {
@@ -114,14 +107,13 @@
         "body": [],
         "footer": []
       },
-      "index": 4,
+      "index": 5,
       "icon": "home",
       "description": {
         "tr": "Ajans Mobil gizlilik politikası - Kişisel verilerin korunması, KVKK uyumluluğu, çerez politikası ve veri güvenliği taahhütlerimiz.",
         "en": "Ajans Mobil privacy policy - Personal data protection, KVKK compliance, cookie policy and our data security commitments.",
         "ar": "سياسة الخصوصية أجانس موبيل - حماية البيانات الشخصية، امتثال KVKK، سياسة ملفات تعريف الارتباط والتزامات أمان البيانات لدينا."
-      },
-      "desc": {}
+      }
     },
     {
       "name": {
@@ -138,14 +130,13 @@
         "body": [],
         "footer": []
       },
-      "index": 5,
+      "index": 6,
       "icon": "home",
       "description": {
         "tr": "Ajans Mobil KVKK aydınlatma metni - Kişisel verilerin işlenmesi, veri sorumlusu bilgileri, işleme amaçları ve saklama süreleri.",
         "en": "Ajans Mobil KVKK disclosure text - Processing of personal data, data controller information, processing purposes and retention periods.",
         "ar": "نص إفصاح KVKK من أجانس موبيل - معالجة البيانات الشخصية ومعلومات مسؤول البيانات وأغراض المعالجة وفترات الاحتفاظ."
-      },
-      "desc": {}
+      }
     },
     {
       "name": {
@@ -162,14 +153,13 @@
         "body": [],
         "footer": []
       },
-      "index": 6,
+      "index": 7,
       "icon": "home",
       "description": {
         "tr": "Ajans Mobil kullanıcı hakları - Web sitesi kullanım şartları, telif hakları, kullanıcı sorumlulukları ve yasal haklar.",
         "en": "Ajans Mobil user rights - Website terms of use, copyright, user responsibilities and legal rights.",
         "ar": "حقوق مستخدم أجانس موبيل - شروط استخدام الموقع وحقوق النشر ومسؤوليات المستخدم والحقوق القانونية."
-      },
-      "desc": {}
+      }
     },
     {
       "name": {
@@ -186,17 +176,16 @@
         "body": [],
         "footer": []
       },
-      "index": 7,
+      "index": 8,
       "icon": "home",
       "description": {
         "tr": "Ajans Mobil yasal uyarı - Web sitesi kullanım şartları, sorumluluk reddi beyanı, dış bağlantılar ve feragatname.",
         "en": "Ajans Mobil legal notice - Website terms of use, disclaimer, external links and waiver.",
         "ar": "إشعار قانوني أجانس موبيل - شروط استخدام الموقع وإخلاء المسؤولية والروابط الخارجية والتنازل."
-      },
-      "desc": {}
+      }
     }
   ],
-  "index": 2,
+  "desc": [],
   "desing": {
     "header": [],
     "body": [

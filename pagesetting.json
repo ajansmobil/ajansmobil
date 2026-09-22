@@ -1,7 +1,11 @@
 {
   "data": [
     {
-      "name": "Sayfalar",
+      "name": {
+        "tr": "Sayfalar",
+        "en": "Sayfalar",
+        "ar": "Sayfalar"
+      },
       "path": "page",
       "desc": [],
       "index": 0,
@@ -13,12 +17,16 @@
       "modulestatus": {
         "page": true,
         "body": true,
-        "detail": false,
+        "detail": true,
         "img": false
       }
     },
     {
-      "name": "Hizmetlerimiz",
+      "name": {
+        "tr": "Hizmetlerimiz",
+        "en": "Hizmetlerimiz",
+        "ar": "Hizmetlerimiz"
+      },
       "path": "services",
       "desc": [],
       "index": 1,
@@ -35,7 +43,11 @@
       }
     },
     {
-      "name": "Kurumsal",
+      "name": {
+        "tr": "Kurumsal",
+        "en": "Kurumsal",
+        "ar": "Kurumsal"
+      },
       "path": "kurumsal",
       "desc": [],
       "data": [],
@@ -49,7 +61,11 @@
       }
     },
     {
-      "name": "Açık Hava Reklamları",
+      "name": {
+        "tr": "Açık Hava Reklamları",
+        "en": "Açık Hava Reklamları",
+        "ar": "Açık Hava Reklamları"
+      },
       "path": "acikhava",
       "desc": [],
       "data": [],

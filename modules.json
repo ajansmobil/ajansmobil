@@ -7,9 +7,10 @@
       "local": "header",
       "desing": {
         "logo": "logo.svg",
-        "color": "#0f70b7",
+        "color": "#0B1120",
         "height": "100px",
-        "background-color": "#fff"
+        "background-color": "#F2F4F7",
+        "sticky": "true"
       },
       "id": "f3hsb0",
       "category": "menu",
@@ -22,7 +23,7 @@
       "path": "footer-1",
       "local": "footer",
       "desing": {
-        "bgcolor": "#0f70b7",
+        "bgcolor": "#0B1120",
         "color": "#fff",
         "img": "",
         "imgwidth": "250px"
@@ -39,7 +40,7 @@
       "path": "contact-3",
       "local": "body",
       "desing": {
-        "color": "#165858",
+        "color": "#0B1120",
         "name": {
           "tr": "Bize Ulaşın",
           "en": "Contact Us",
@@ -56,7 +57,12 @@
         {
           "icon": "email",
           "text": "info@ajansmobil.com",
-          "url": "email:info@ajansmobil.com"
+          "url": "mailto:info@ajansmobil.com"
+        },
+        {
+          "icon": "map",
+          "text": "Gaziantep, Türkiye",
+          "url": ""
         }
       ],
       "id": "a5mvw9",
@@ -75,34 +81,13 @@
       },
       "data": [
         {
-          "img": "seo çalışmaları.jpg"
-        },
-        {
-          "img": "web tasarım.jpg"
-        },
-        {
-          "img": "google reklam yönetimi.jpg"
-        },
-        {
-          "img": "asansör reklamları.jpg"
-        },
-        {
-          "img": "sosyal medya.jpg"
-        },
-        {
-          "img": "belediye otobüs reklamları 2.jpg"
+          "img": "taksi reklamları.jpg"
         },
         {
           "img": "belediye otobüs reklamları.jpg"
         },
         {
-          "img": "foto çekimi.jpg"
-        },
-        {
-          "img": "taksi reklamları.jpg"
-        },
-        {
-          "img": "tranvay reklamalrı.jpg"
+          "img": "asansör reklamları.jpg"
         }
       ],
       "id": "ayn5ph",
@@ -127,7 +112,7 @@
         "category": "",
         "margin": "0px 0px 0px 0px",
         "max": 8,
-        "color": "#1e3046",
+        "color": "#0B1120",
         "delay": 4000
       },
       "id": "i0uquh",
@@ -151,7 +136,7 @@
         "margin": "0px 0px 0px 0px",
         "max": 8,
         "delay": 4000,
-        "color": "#1e3046"
+        "color": "#0B1120"
       },
       "id": "i0uquh2",
       "category": "page-slider"
@@ -170,7 +155,7 @@
         },
         "size": 6,
         "button": "false",
-        "bgcolor": "#0f70b7",
+        "bgcolor": "#1D71B8",
         "titlecolor": "#fff",
         "padding": "10px 0px 10px 0px",
         "margin": "0px 0px 0px 0px"
@@ -209,8 +194,8 @@
         "height": "100",
         "opacity": "0.5",
         "font-size": "36",
-        "backgroundcolor": "#1e3046",
-        "menu-active": "#1e3046",
+        "backgroundcolor": "#0B1120",
+        "menu-active": "#1D71B8",
         "textcolor": "#fff"
       },
       "id": "dajchd",
@@ -226,7 +211,7 @@
       "id": "w0b18z",
       "desing": {
         "page": "services",
-        "bgcolor": "#1e3046",
+        "bgcolor": "#0B1120",
         "color": "#fff",
         "height": "200px",
         "font-size": "18px",
@@ -245,7 +230,7 @@
       "id": "x9g8bp",
       "desing": {
         "page": "acikhava",
-        "bgcolor": "#1e3046",
+        "bgcolor": "#0B1120",
         "color": "#fff",
         "height": "200px",
         "font-size": "18px",
@@ -264,7 +249,7 @@
       "id": "pjkf5g",
       "desing": {
         "number": "905316791014",
-        "img": "logo.png",
+        "img": "logo.svg",
         "name": {
           "tr": "Müşteri Desteği",
           "en": "Customer Support",

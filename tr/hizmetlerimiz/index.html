@@ -28,28 +28,25 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=fzvd9" />
-  <link rel="stylesheet" href="/src/mx-ui.css?v=fzvd9" />
-  <link rel="preload" href="/src/cookie.css?v=fzvd9" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/material-symbols-outlined.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <noscript>
-    <link rel="stylesheet" href="/src/cookie.css?v=fzvd9" />
-    <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="/src/material-symbols-outlined.css" />
-  </noscript>
-  <link rel="shortcut icon" href="/img/icon.png?v=fzvd9" type="image/png" />
+  <link rel="stylesheet" href="/src/rubik.css?v=v2glb" />
+  <link rel="stylesheet" href="/src/css.css?v=v2glb" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=v2glb" />
+  <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=v2glb" />
+  
+  <link rel="stylesheet" href="/src/cookie.css?v=v2glb" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=v2glb" />
+  <link rel="shortcut icon" href="/img/icon.png?v=v2glb" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "Ajans Mobil Gaziantep",
-  "description": "Mobil uygulama geliştirme ve dijital çözümler sunan profesyonel yazılım şirketi. Android ve iOS uygulama geliştirme, web yazılım ve teknoloji danışmanlığı hizmetleri.",
+  "description": "Gaziantep açık hava reklamcılığı, asansör reklamı, sosyal medya yönetimi ve web tasarım hizmetleri. Otobüs, taksi, tramvay ve dijital çözümlerle markanızı görünür kılın.",
   "url": "https://ajansmobil.com",
-  "logo": "https://ajansmobil.com/img/icon.png",
-  "image": "https://ajansmobil.com/img/icon.png"
+  "logo": "https://ajansmobil.com/img/logo.svg",
+  "image": "https://ajansmobil.com/img/logo.svg"
 }
 </script>
 <script type="application/ld+json">
@@ -58,16 +55,33 @@
   "@type": "Organization",
   "name": "Ajans Mobil Gaziantep",
   "url": "https://ajansmobil.com",
-  "logo": "https://ajansmobil.com/img/icon.png"
+  "logo": "https://ajansmobil.com/img/logo.svg"
 }
 </script>
   
 <link rel="manifest" href="/manifest.json">
 <meta name="theme-color" content="#2196f3">
-<link rel="stylesheet" href="style.css?v=fzvd9">
+<link rel="stylesheet" href="style.css?v=v2glb">
 </head>
 
 <body>
+  <script>
+    (function () {
+      window.user = window.user || { id: null, email: null, name: null, isLoggedIn: false, loginMethod: null };
+      var emptySnapshot = { empty: true, forEach: function () {} };
+      var emptyDoc = { exists: false, data: function () { return null; } };
+      if (typeof window.dataAddWeb !== "function") window.dataAddWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataDeleteWeb !== "function") window.dataDeleteWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataUpdateWeb !== "function") window.dataUpdateWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataGetWeb !== "function") window.dataGetWeb = function () { return Promise.resolve(emptyDoc); };
+      if (typeof window.dataListWeb !== "function") window.dataListWeb = function () { return Promise.resolve(emptySnapshot); };
+      if (typeof window.authStateListenerWeb !== "function") {
+        window.authStateListenerWeb = function (cb) {
+          if (typeof cb === "function") setTimeout(function () { cb(null); }, 0);
+        };
+      }
+    })();
+  </script>
   <div id="header"><header class="h0000" role="banner">
   <div class="h0000title" role="region" aria-label="Dil Seçici">
     <div class="h0000titlebody">
@@ -81,7 +95,7 @@
   <div class="h0000Children">
     <div class="h0000body">
       <a href="/tr/" aria-label="Anasayfa - Ajans Mobil Gaziantep" title="Anasayfa - Ajans Mobil Gaziantep">
-        <img src="/img/logo.svg?v=vlr5x" class="h0000bodylogo" alt="Ajans Mobil Gaziantep Logo" loading="lazy" />
+        <img src="/img/logo.svg?v=ryfw6" class="h0000bodylogo" alt="Ajans Mobil Gaziantep Logo" loading="lazy" />
       </a>
     </div>
     <button class="h0000menumobil" type="button" aria-label="Menüyü Aç/Kapat" aria-expanded="false" aria-controls="h0000menulist">
@@ -281,14 +295,14 @@
 <script>
   setTimeout(function() {
     if (typeof IntersectionObserver !== 'undefined') {
-      const observer = new IntersectionObserver(
-        (entries) => {
-          entries.forEach((entry, index) => {
+      var observer = new IntersectionObserver(
+        function(entries) {
+          entries.forEach(function(entry, index) {
             if (entry.isIntersecting) {
               if (window.innerWidth <= 1024) {
                 entry.target.classList.add("visible");
               } else {
-                setTimeout(() => {
+                setTimeout(function() {
                   entry.target.classList.add("visible");
                 }, index * 300); // Her element 300ms gecikmeli gelecek
               }
@@ -302,12 +316,12 @@
           rootMargin: "0px 0px -10px 0px",
         },
       );
-      const items = Array.from(document.querySelectorAll(".b0000bodyitems"));
+      var items = Array.from(document.querySelectorAll(".b0000bodyitems"));
       items
-        .sort((a, b) => {
+        .sort(function(a, b) {
           return a.offsetTop - b.offsetTop;
         })
-        .forEach((item) => {
+        .forEach(function(item) {
           observer.observe(item);
         });
     }
@@ -330,7 +344,7 @@
   <div class="f0000-wa-advanced-panel" id="f0000WaPanel">
     <div class="f0000-wa-advanced-header">
       <div class="f0000-wa-advanced-avatar">
-        <img src="/img/pjkf5g/logo.png?v=h5wgi" alt="Destek temsilcisi"  loading="lazy"/>
+        <img src="/img/pjkf5g/logo.svg?v=c4xho" alt="Destek temsilcisi"  loading="lazy"/>
         <div class="f0000-wa-advanced-status online"></div>
       </div>
       <div class="f0000-wa-advanced-info">
@@ -380,7 +394,7 @@
 
 <script>
   function toggleModulexAdvanced() {
-    const panel = document.getElementById("f0000WaPanel");
+    var panel = document.getElementById("f0000WaPanel");
     panel.style.display = panel.style.display === "block" ? "none" : "block";
   }
 
@@ -436,9 +450,9 @@
   <meta name="google-site-verification" content="9UY_kGQb1IGXMFMd4tQHzXABrXhZG-SiJ_lXYjWE69M" />
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=fzvd9"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=fzvd9"></script>
-  <script defer src="/src/cookie.js?v=fzvd9"></script>
+  <script defer src="/src/mx-ui.js?v=v2glb"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=v2glb"></script>
+  <script defer src="/src/cookie.js?v=v2glb"></script>
 
   <script>
     setTimeout(function() {

@@ -5,12 +5,12 @@
   ],
   "body": [
     "i0uquh",
-    "jyfy3k",
-    "i0uquh2"
+    "jyfy3k"
   ],
   "footer": [
     "pjkf5g",
-    "ei3jbw"
+    "ei3jbw",
+    "a5mvw9"
   ],
   "headerdefault": [
     "f3hsb0"
@@ -42,11 +42,15 @@
       },
       {
         "name": "--button--",
-        "value": "#2563EB"
+        "value": "#1D71B8"
       },
       {
         "name": "--buttonText--",
         "value": "#FFFFFF"
+      },
+      {
+        "name": "--accent--",
+        "value": "#0EA5E9"
       }
     ],
     "dark": [
@@ -68,11 +72,15 @@
       },
       {
         "name": "--button--",
-        "value": "#2563EB"
+        "value": "#1D71B8"
       },
       {
         "name": "--buttonText--",
         "value": "#FFFFFF"
+      },
+      {
+        "name": "--accent--",
+        "value": "#0EA5E9"
       }
     ]
   }
