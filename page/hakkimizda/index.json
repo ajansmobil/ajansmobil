@@ -22,20 +22,21 @@
   "index": 0,
   "icon": "home",
   "description": {
-    "tr": "Ajans Mobil Gaziantep - 15 yıllık deneyim ile dijital pazarlama, web tasarım, açık hava reklamcılığı ve sosyal medya yönetimi hizmetleri. Gaziantep'in lider dijital ajansı.",
-    "en": "Ajans Mobil Gaziantep - Digital marketing, web design, outdoor advertising and social media management services with 15 years of experience. Gaziantep's leading digital agency.",
-    "ar": "أجانس موبيل غازي عنتاب - خدمات التسويق الرقمي وتصميم الويب والإعلانات الخارجية وإدارة وسائل التواصل الاجتماعي مع 15 عاماً من الخبرة. الوكالة الرقمية الرائدة في غازي عنتاب."
+    "tr": "Ajans Mobil Gaziantep - dijital pazarlama, web tasarım, açık hava reklamcılığı ve sosyal medya yönetimi hizmetleri. Gaziantep'in lider dijital ajansı.",
+    "en": "Ajans Mobil Gaziantep - Digital marketing, web design, outdoor advertising and social media management services with . Gaziantep's leading digital agency.",
+    "ar": "أجانس موبيل غازي عنتاب - خدمات التسويق الرقمي وتصميم الويب والإعلانات الخارجية وإدارة وسائل التواصل الاجتم عاماً من الخبرة. الوكالة الرقمية الرائدة في غازي عنتاب."
   },
   "keyword": {
     "tr": "ajans mobil gaziantep, dijital ajans, web tasarım gaziantep, açık hava reklamcılığı, sosyal medya yönetimi, seo hizmeti, google reklam, 15 yıllık deneyim",
     "en": "ajans mobil gaziantep, digital agency, web design gaziantep, outdoor advertising, social media management, seo service, google ads, 15 years experience",
     "ar": "أجانس موبيل غازي عنتاب، وكالة رقمية، تصميم ويب غازي عنتاب، إعلانات خارجية، إدارة وسائل التواصل، خدمة seo، إعلانات google، 15 عاماً خبرة"
   },
-  "update": "2026-02-21T08:51:54.988Z",
+  "update": "2026-10-14T12:56:43.208Z",
   "date": "2025-10-01T05:29:22.576Z",
   "title": {
     "tr": "Hakkımızda | Ajans Mobil Gaziantep",
     "en": "About Us | Ajans Mobil Gaziantep",
     "ar": "من نحن | أجانس موبيل غازي عنتاب"
-  }
+  },
+  "pathnext": ""
 }

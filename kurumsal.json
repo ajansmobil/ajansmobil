@@ -6,21 +6,22 @@
         "en": "About Us",
         "ar": "من نحن"
       },
-      "status": "play",
       "id": "hakkimizda",
+      "index": 0,
       "path": "hakkimizda",
       "category": "",
+      "status": "play",
+      "icon": "home",
       "desing": {
         "header": [],
         "body": [],
         "footer": []
       },
-      "index": 1,
-      "icon": "home",
+      "pathnext": "",
       "description": {
-        "tr": "Ajans Mobil Gaziantep - 15 yıllık deneyim ile dijital pazarlama, web tasarım, açık hava reklamcılığı ve sosyal medya yönetimi hizmetleri. Gaziantep'in lider dijital ajansı.",
-        "en": "Ajans Mobil Gaziantep - Digital marketing, web design, outdoor advertising and social media management services with 15 years of experience. Gaziantep's leading digital agency.",
-        "ar": "أجانس موبيل غازي عنتاب - خدمات التسويق الرقمي وتصميم الويب والإعلانات الخارجية وإدارة وسائل التواصل الاجتماعي مع 15 عاماً من الخبرة. الوكالة الرقمية الرائدة في غازي عنتاب."
+        "tr": "Ajans Mobil Gaziantep - dijital pazarlama, web tasarım, açık hava reklamcılığı ve sosyal medya yönetimi hizmetleri. Gaziantep'in lider dijital ajansı.",
+        "en": "Ajans Mobil Gaziantep - Digital marketing, web design, outdoor advertising and social media management services with . Gaziantep's leading digital agency.",
+        "ar": "أجانس موبيل غازي عنتاب - خدمات التسويق الرقمي وتصميم الويب والإعلانات الخارجية وإدارة وسائل التواصل الاجتم عاماً من الخبرة. الوكالة الرقمية الرائدة في غازي عنتاب."
       }
     },
     {
@@ -29,17 +30,17 @@
         "en": "Mission",
         "ar": "المهمة"
       },
-      "status": "play",
       "id": "misyon",
+      "index": 1,
       "path": "misyon",
       "category": "",
+      "status": "play",
+      "icon": "home",
       "desing": {
         "header": [],
         "body": [],
         "footer": []
       },
-      "index": 2,
-      "icon": "home",
       "description": {
         "tr": "Ajans Mobil Gaziantep misyonu - Müşteri odaklı dijital pazarlama, web tasarım ve açık hava reklamcılığı hizmetleri ile işletmelere değer katmak.",
         "en": "Ajans Mobil Gaziantep mission - Adding value to businesses with customer-focused digital marketing, web design and outdoor advertising services.",
@@ -52,17 +53,17 @@
         "en": "Vision",
         "ar": "الرؤية"
       },
-      "status": "play",
       "id": "vizyon",
+      "index": 2,
       "path": "vizyon",
       "category": "",
+      "status": "play",
+      "icon": "home",
       "desing": {
         "header": [],
         "body": [],
         "footer": []
       },
-      "index": 3,
-      "icon": "home",
       "description": {
         "tr": "Ajans Mobil Gaziantep vizyonu - Türkiye'nin önde gelen dijital ajansları arasında yer almak, yenilikçi teknolojilerle sektöre öncülük etmek.",
         "en": "Ajans Mobil Gaziantep vision - To be among Turkey's leading digital agencies, to lead the industry with innovative technologies.",
@@ -75,17 +76,17 @@
         "en": "Quality Policy",
         "ar": "سياسة الجودة"
       },
-      "status": "play",
       "id": "kalitepolitikamiz",
+      "index": 3,
       "path": "kalite-politikamiz",
       "category": "",
+      "status": "play",
+      "icon": "home",
       "desing": {
         "header": [],
         "body": [],
         "footer": []
       },
-      "index": 4,
-      "icon": "home",
       "description": {
         "tr": "Ajans Mobil kalite politikası - Müşteri odaklı hizmet anlayışı, sürekli iyileştirme ve uluslararası standartlarda dijital pazarlama hizmeti.",
         "en": "Ajans Mobil quality policy - Customer-focused service approach, continuous improvement and digital marketing service at international standards.",
@@ -98,17 +99,17 @@
         "en": "Privacy Policy",
         "ar": "سياسة الخصوصية"
       },
-      "status": "play",
       "id": "gizlilikpolitikasi",
+      "index": 4,
       "path": "gizlilik-politikasi",
       "category": "",
+      "status": "play",
+      "icon": "home",
       "desing": {
         "header": [],
         "body": [],
         "footer": []
       },
-      "index": 5,
-      "icon": "home",
       "description": {
         "tr": "Ajans Mobil gizlilik politikası - Kişisel verilerin korunması, KVKK uyumluluğu, çerez politikası ve veri güvenliği taahhütlerimiz.",
         "en": "Ajans Mobil privacy policy - Personal data protection, KVKK compliance, cookie policy and our data security commitments.",
@@ -121,17 +122,17 @@
         "en": "Personal Data",
         "ar": "البيانات الشخصية"
       },
-      "status": "play",
       "id": "kisiselveriler",
+      "index": 5,
       "path": "kisisel-veriler-be2",
       "category": "",
+      "status": "play",
+      "icon": "home",
       "desing": {
         "header": [],
         "body": [],
         "footer": []
       },
-      "index": 6,
-      "icon": "home",
       "description": {
         "tr": "Ajans Mobil KVKK aydınlatma metni - Kişisel verilerin işlenmesi, veri sorumlusu bilgileri, işleme amaçları ve saklama süreleri.",
         "en": "Ajans Mobil KVKK disclosure text - Processing of personal data, data controller information, processing purposes and retention periods.",
@@ -144,17 +145,17 @@
         "en": "User Rights",
         "ar": "حقوق المستخدم"
       },
-      "status": "play",
       "id": "kullanicahaklari",
+      "index": 6,
       "path": "kullanici-haklari",
       "category": "",
+      "status": "play",
+      "icon": "home",
       "desing": {
         "header": [],
         "body": [],
         "footer": []
       },
-      "index": 7,
-      "icon": "home",
       "description": {
         "tr": "Ajans Mobil kullanıcı hakları - Web sitesi kullanım şartları, telif hakları, kullanıcı sorumlulukları ve yasal haklar.",
         "en": "Ajans Mobil user rights - Website terms of use, copyright, user responsibilities and legal rights.",
@@ -167,17 +168,17 @@
         "en": "Legal Notice",
         "ar": "إشعار قانوني"
       },
-      "status": "play",
       "id": "yasaluyari",
+      "index": 7,
       "path": "yasal-uyari-mh6",
       "category": "",
+      "status": "play",
+      "icon": "home",
       "desing": {
         "header": [],
         "body": [],
         "footer": []
       },
-      "index": 8,
-      "icon": "home",
       "description": {
         "tr": "Ajans Mobil yasal uyarı - Web sitesi kullanım şartları, sorumluluk reddi beyanı, dış bağlantılar ve feragatname.",
         "en": "Ajans Mobil legal notice - Website terms of use, disclaimer, external links and waiver.",
@@ -192,5 +193,8 @@
       "dajchd"
     ],
     "footer": []
-  }
+  },
+  "modulestatus": {},
+  "name": "",
+  "path": "kurumsal"
 }
