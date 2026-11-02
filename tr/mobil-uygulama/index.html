@@ -38,17 +38,17 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-ext-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-ext-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-ext-700-normal.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/rubik.css?v=hfznq" />
-  <link rel="stylesheet" href="/src/css.css?v=hfznq" />
-  <link rel="stylesheet" href="/src/mx-ds.css?v=hfznq" />
+  <link rel="stylesheet" href="/src/rubik.css?v=koivj" />
+  <link rel="stylesheet" href="/src/css.css?v=koivj" />
+  <link rel="stylesheet" href="/src/mx-ds.css?v=koivj" />
   
-  <link rel="stylesheet" href="/src/mx-ui.css?v=hfznq" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=koivj" />
   <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=hfznq" />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=koivj" />
   
-  <link rel="stylesheet" href="/src/cookie.css?v=hfznq" />
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=hfznq" />
-  <link rel="shortcut icon" href="/img/icon.png?v=hfznq" type="image/png" />
+  <link rel="stylesheet" href="/src/cookie.css?v=koivj" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=koivj" />
+  <link rel="shortcut icon" href="/img/icon.png?v=koivj" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
@@ -133,7 +133,7 @@
 }
 </script>
   
-<link rel="stylesheet" href="style.css?v=hfznq">
+<link rel="stylesheet" href="style.css?v=koivj">
 </head>
 
 <body>
@@ -168,7 +168,7 @@
   <div class="h0000Children">
     <div class="h0000body">
       <a href="/tr/" aria-label="Anasayfa - Ajans Mobil Gaziantep" title="Anasayfa - Ajans Mobil Gaziantep">
-        <img src="/img/logo.svg?v=xbqgz" class="h0000bodylogo" alt="Ajans Mobil Gaziantep Logo" loading="lazy" />
+        <img src="/img/logo.svg?v=rawdr" class="h0000bodylogo" alt="Ajans Mobil Gaziantep Logo" loading="lazy" />
       </a>
     </div>
     <button class="h0000menumobil" type="button" aria-label="Menüyü Aç/Kapat" aria-expanded="false" aria-controls="h0000menulist">
@@ -197,6 +197,7 @@
     var menu = document.querySelector(".h0000menulist");
     var overlay = document.querySelector(".h0000menuoverlay");
     var closeButton = document.querySelector(".h0000menuclose");
+
     function openMenu() {
       if (menu && overlay) {
         menu.classList.add("active");
@@ -205,6 +206,7 @@
         if (menuButton) {
           menuButton.setAttribute("aria-expanded", "true");
         }
+
         document.body.style.overflow = "hidden";
       }
     }
@@ -217,7 +219,9 @@
         if (menuButton) {
           menuButton.setAttribute("aria-expanded", "false");
         }
+
         document.body.style.overflow = "";
+
         if (menuButton) {
           menuButton.focus();
         }
@@ -225,6 +229,7 @@
     }
     
     if (menuButton && menu && overlay) {
+
       menuButton.addEventListener("click", function () {
         var isExpanded = menuButton.getAttribute("aria-expanded") === "true";
         if (isExpanded) {
@@ -233,14 +238,17 @@
           openMenu();
         }
       });
+
       if (closeButton) {
         closeButton.addEventListener("click", function () {
           closeMenu();
         });
       }
+
       overlay.addEventListener("click", function () {
         closeMenu();
       });
+
       menuButton.addEventListener("keydown", function (e) {
         if (e.key === "Enter" || e.key === " ") {
           e.preventDefault();
@@ -252,6 +260,7 @@
           }
         }
       });
+
       document.addEventListener("keydown", function (e) {
         if (e.key === "Escape" && menuButton.getAttribute("aria-expanded") === "true") {
           closeMenu();
@@ -283,7 +292,7 @@
   </nav>
   <div class="b0000-main">
     
-    <div class="b0000-desc-body"><img src="/page/zh2u4fbto0/mobil1.webp?v=f1z5n" width="100%" alt="Mobil Uygulama" loading="lazy" /></div>
+    <div class="b0000-desc-body"><img src="/page/zh2u4fbto0/mobil1.webp?v=v9oli" width="100%" alt="Mobil Uygulama" loading="lazy" /></div>
     <div class="b0000-body"><h2>Mobil Uygulama Geliştirme — iOS ve Android</h2>
 <p>İşletmenizin ihtiyacına göre iOS ve Android için mobil uygulamalar geliştiriyoruz. Tek kod tabanıyla iki platforma çıkabilen Flutter ile çalışarak geliştirme ve bakım sürecini sade tutuyoruz.</p>
 <p>Çalışma; ihtiyacın netleştirilmesi, ekran akışlarının ve tasarımın hazırlanması, geliştirme, test ve mağaza yayını adımlarından oluşur. Uygulamanın web sitesi veya yönetim paneliyle birlikte çalışması gerekiyorsa bunu baştan planlarız.</p>
@@ -445,7 +454,7 @@
   <div class="f0000-wa-advanced-panel" id="f0000WaPanel">
     <div class="f0000-wa-advanced-header">
       <div class="f0000-wa-advanced-avatar">
-        <img src="/img/pjkf5g/logo.svg?v=cisw1" alt="Destek temsilcisi"  loading="lazy"/>
+        <img src="/img/pjkf5g/logo.svg?v=adr67" alt="Destek temsilcisi"  loading="lazy"/>
         <div class="f0000-wa-advanced-status online"></div>
       </div>
       <div class="f0000-wa-advanced-info">
@@ -552,10 +561,10 @@
   <meta name="google-site-verification" content="9UY_kGQb1IGXMFMd4tQHzXABrXhZG-SiJ_lXYjWE69M" />
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=hfznq"></script>
-  <script defer src="/src/mx-store.js?v=hfznq"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=hfznq"></script>
-  <script defer src="/src/cookie.js?v=hfznq"></script>
+  <script defer src="/src/mx-ui.js?v=koivj"></script>
+  <script defer src="/src/mx-store.js?v=koivj"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=koivj"></script>
+  <script defer src="/src/cookie.js?v=koivj"></script>
 
 </body>
 

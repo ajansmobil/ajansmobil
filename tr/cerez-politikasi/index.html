@@ -35,17 +35,17 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-ext-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-ext-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-ext-700-normal.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/rubik.css?v=in6n1" />
-  <link rel="stylesheet" href="/src/css.css?v=in6n1" />
-  <link rel="stylesheet" href="/src/mx-ds.css?v=in6n1" />
+  <link rel="stylesheet" href="/src/rubik.css?v=xqe6p" />
+  <link rel="stylesheet" href="/src/css.css?v=xqe6p" />
+  <link rel="stylesheet" href="/src/mx-ds.css?v=xqe6p" />
   
-  <link rel="stylesheet" href="/src/mx-ui.css?v=in6n1" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=xqe6p" />
   <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=in6n1" />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=xqe6p" />
   
-  <link rel="stylesheet" href="/src/cookie.css?v=in6n1" />
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=in6n1" />
-  <link rel="shortcut icon" href="/img/icon.png?v=in6n1" type="image/png" />
+  <link rel="stylesheet" href="/src/cookie.css?v=xqe6p" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=xqe6p" />
+  <link rel="shortcut icon" href="/img/icon.png?v=xqe6p" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
@@ -126,7 +126,7 @@
 }
 </script>
   
-<link rel="stylesheet" href="style.css?v=in6n1">
+<link rel="stylesheet" href="style.css?v=xqe6p">
 </head>
 
 <body>
@@ -161,7 +161,7 @@
   <div class="h0000Children">
     <div class="h0000body">
       <a href="/tr/" aria-label="Anasayfa - Ajans Mobil Gaziantep" title="Anasayfa - Ajans Mobil Gaziantep">
-        <img src="/img/logo.svg?v=v3tzl" class="h0000bodylogo" alt="Ajans Mobil Gaziantep Logo" loading="lazy" />
+        <img src="/img/logo.svg?v=e9vzr" class="h0000bodylogo" alt="Ajans Mobil Gaziantep Logo" loading="lazy" />
       </a>
     </div>
     <button class="h0000menumobil" type="button" aria-label="Menüyü Aç/Kapat" aria-expanded="false" aria-controls="h0000menulist">
@@ -190,6 +190,7 @@
     var menu = document.querySelector(".h0000menulist");
     var overlay = document.querySelector(".h0000menuoverlay");
     var closeButton = document.querySelector(".h0000menuclose");
+
     function openMenu() {
       if (menu && overlay) {
         menu.classList.add("active");
@@ -198,6 +199,7 @@
         if (menuButton) {
           menuButton.setAttribute("aria-expanded", "true");
         }
+
         document.body.style.overflow = "hidden";
       }
     }
@@ -210,7 +212,9 @@
         if (menuButton) {
           menuButton.setAttribute("aria-expanded", "false");
         }
+
         document.body.style.overflow = "";
+
         if (menuButton) {
           menuButton.focus();
         }
@@ -218,6 +222,7 @@
     }
     
     if (menuButton && menu && overlay) {
+
       menuButton.addEventListener("click", function () {
         var isExpanded = menuButton.getAttribute("aria-expanded") === "true";
         if (isExpanded) {
@@ -226,14 +231,17 @@
           openMenu();
         }
       });
+
       if (closeButton) {
         closeButton.addEventListener("click", function () {
           closeMenu();
         });
       }
+
       overlay.addEventListener("click", function () {
         closeMenu();
       });
+
       menuButton.addEventListener("keydown", function (e) {
         if (e.key === "Enter" || e.key === " ") {
           e.preventDefault();
@@ -245,6 +253,7 @@
           }
         }
       });
+
       document.addEventListener("keydown", function (e) {
         if (e.key === "Escape" && menuButton.getAttribute("aria-expanded") === "true") {
           closeMenu();
@@ -469,7 +478,7 @@
   <div class="f0000-wa-advanced-panel" id="f0000WaPanel">
     <div class="f0000-wa-advanced-header">
       <div class="f0000-wa-advanced-avatar">
-        <img src="/img/pjkf5g/logo.svg?v=kf6l6" alt="Destek temsilcisi"  loading="lazy"/>
+        <img src="/img/pjkf5g/logo.svg?v=rg7dd" alt="Destek temsilcisi"  loading="lazy"/>
         <div class="f0000-wa-advanced-status online"></div>
       </div>
       <div class="f0000-wa-advanced-info">
@@ -576,10 +585,10 @@
   <meta name="google-site-verification" content="9UY_kGQb1IGXMFMd4tQHzXABrXhZG-SiJ_lXYjWE69M" />
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=in6n1"></script>
-  <script defer src="/src/mx-store.js?v=in6n1"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=in6n1"></script>
-  <script defer src="/src/cookie.js?v=in6n1"></script>
+  <script defer src="/src/mx-ui.js?v=xqe6p"></script>
+  <script defer src="/src/mx-store.js?v=xqe6p"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=xqe6p"></script>
+  <script defer src="/src/cookie.js?v=xqe6p"></script>
 
 </body>
 

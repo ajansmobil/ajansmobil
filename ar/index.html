@@ -35,17 +35,17 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-ext-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-ext-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-ext-700-normal.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/rubik.css?v=h703j" />
-  <link rel="stylesheet" href="/src/css.css?v=h703j" />
-  <link rel="stylesheet" href="/src/mx-ds.css?v=h703j" />
+  <link rel="stylesheet" href="/src/rubik.css?v=k8rny" />
+  <link rel="stylesheet" href="/src/css.css?v=k8rny" />
+  <link rel="stylesheet" href="/src/mx-ds.css?v=k8rny" />
   
-  <link rel="stylesheet" href="/src/mx-ui.css?v=h703j" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=k8rny" />
   <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=h703j" />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=k8rny" />
   
-  <link rel="stylesheet" href="/src/cookie.css?v=h703j" />
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=h703j" />
-  <link rel="shortcut icon" href="/img/icon.png?v=h703j" type="image/png" />
+  <link rel="stylesheet" href="/src/cookie.css?v=k8rny" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=k8rny" />
+  <link rel="shortcut icon" href="/img/icon.png?v=k8rny" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
@@ -104,7 +104,7 @@
 }
 </script>
   
-<link rel="stylesheet" href="style.css?v=h703j">
+<link rel="stylesheet" href="style.css?v=k8rny">
 </head>
 
 <body>
@@ -139,7 +139,7 @@
   <div class="h0000Children">
     <div class="h0000body">
       <a href="/ar/" aria-label="الصفحة الرئيسية - Ajans Mobil Gaziantep" title="الصفحة الرئيسية - Ajans Mobil Gaziantep">
-        <img src="/img/logo.svg?v=qpcc4" class="h0000bodylogo" alt="Ajans Mobil Gaziantep Logo" loading="lazy" />
+        <img src="/img/logo.svg?v=d0yoh" class="h0000bodylogo" alt="Ajans Mobil Gaziantep Logo" loading="lazy" />
       </a>
     </div>
     <button class="h0000menumobil" type="button" aria-label="تبديل القائمة" aria-expanded="false" aria-controls="h0000menulist">
@@ -168,6 +168,7 @@
     var menu = document.querySelector(".h0000menulist");
     var overlay = document.querySelector(".h0000menuoverlay");
     var closeButton = document.querySelector(".h0000menuclose");
+
     function openMenu() {
       if (menu && overlay) {
         menu.classList.add("active");
@@ -176,6 +177,7 @@
         if (menuButton) {
           menuButton.setAttribute("aria-expanded", "true");
         }
+
         document.body.style.overflow = "hidden";
       }
     }
@@ -188,7 +190,9 @@
         if (menuButton) {
           menuButton.setAttribute("aria-expanded", "false");
         }
+
         document.body.style.overflow = "";
+
         if (menuButton) {
           menuButton.focus();
         }
@@ -196,6 +200,7 @@
     }
     
     if (menuButton && menu && overlay) {
+
       menuButton.addEventListener("click", function () {
         var isExpanded = menuButton.getAttribute("aria-expanded") === "true";
         if (isExpanded) {
@@ -204,14 +209,17 @@
           openMenu();
         }
       });
+
       if (closeButton) {
         closeButton.addEventListener("click", function () {
           closeMenu();
         });
       }
+
       overlay.addEventListener("click", function () {
         closeMenu();
       });
+
       menuButton.addEventListener("keydown", function (e) {
         if (e.key === "Enter" || e.key === " ") {
           e.preventDefault();
@@ -223,6 +231,7 @@
           }
         }
       });
+
       document.addEventListener("keydown", function (e) {
         if (e.key === "Escape" && menuButton.getAttribute("aria-expanded") === "true") {
           closeMenu();
@@ -232,7 +241,7 @@
   }, 100);
 </script>
 <div class="swiper-container h0001">
-  <div class="swiper-wrapper" id="h0001"><div class="swiper-slide"><img src="/img/ayn5ph/web tasarım.jpg?v=1793601821131" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ayn5ph/seo çalışmaları.jpg?v=1793601821131" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ayn5ph/sosyal medya.jpg?v=1793601821131" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ayn5ph/google reklam yönetimi.jpg?v=1793601821131" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div></div>
+  <div class="swiper-wrapper" id="h0001"><div class="swiper-slide"><img src="/img/ayn5ph/web tasarım.jpg?v=1793601844374" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ayn5ph/seo çalışmaları.jpg?v=1793601844374" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ayn5ph/sosyal medya.jpg?v=1793601844374" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ayn5ph/google reklam yönetimi.jpg?v=1793601844374" alt="Ajans Mobil Gaziantep"  loading="lazy"/></div></div>
   <div class="swiper-button-next"></div>
   <div class="swiper-button-prev"></div>
   <div class="swiper-pagination"></div>
@@ -489,7 +498,7 @@
   <div class="f0000-wa-advanced-panel" id="f0000WaPanel">
     <div class="f0000-wa-advanced-header">
       <div class="f0000-wa-advanced-avatar">
-        <img src="/img/pjkf5g/logo.svg?v=ov0d4" alt="ممثل الدعم"  loading="lazy"/>
+        <img src="/img/pjkf5g/logo.svg?v=xue3e" alt="ممثل الدعم"  loading="lazy"/>
         <div class="f0000-wa-advanced-status online"></div>
       </div>
       <div class="f0000-wa-advanced-info">
@@ -627,10 +636,10 @@
   <meta name="google-site-verification" content="9UY_kGQb1IGXMFMd4tQHzXABrXhZG-SiJ_lXYjWE69M" />
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=h703j"></script>
-  <script defer src="/src/mx-store.js?v=h703j"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=h703j"></script>
-  <script defer src="/src/cookie.js?v=h703j"></script>
+  <script defer src="/src/mx-ui.js?v=k8rny"></script>
+  <script defer src="/src/mx-store.js?v=k8rny"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=k8rny"></script>
+  <script defer src="/src/cookie.js?v=k8rny"></script>
 
 </body>
 
