@@ -35,20 +35,20 @@
   <link rel="preload" href="/src/fonts/inter/inter-latin-ext-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/inter/inter-latin-ext-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/inter/inter-latin-ext-700-normal.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/fonts/inter.css?v=paxiq" />
-  <link rel="stylesheet" href="/src/fonts/poppins.css?v=paxiq" />
-  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=paxiq" />
-  <link rel="stylesheet" href="/src/rubik.css?v=paxiq" />
-  <link rel="stylesheet" href="/src/css.css?v=paxiq" />
-  <link rel="stylesheet" href="/src/mx-ds.css?v=paxiq" />
+  <link rel="stylesheet" href="/src/fonts/inter.css?v=czbcg" />
+  <link rel="stylesheet" href="/src/fonts/poppins.css?v=czbcg" />
+  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=czbcg" />
+  <link rel="stylesheet" href="/src/rubik.css?v=czbcg" />
+  <link rel="stylesheet" href="/src/css.css?v=czbcg" />
+  <link rel="stylesheet" href="/src/mx-ds.css?v=czbcg" />
   
-  <link rel="stylesheet" href="/src/mx-ui.css?v=paxiq" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=czbcg" />
   <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=paxiq" />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=czbcg" />
   
-  <link rel="stylesheet" href="/src/cookie.css?v=paxiq" />
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=paxiq" />
-  <link rel="shortcut icon" href="/img/icon.png?v=paxiq" type="image/png" />
+  <link rel="stylesheet" href="/src/cookie.css?v=czbcg" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=czbcg" />
+  <link rel="shortcut icon" href="/img/icon.png?v=czbcg" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
@@ -131,7 +131,7 @@
 }
 </script>
   
-<link rel="stylesheet" href="style.css?v=paxiq">
+<link rel="stylesheet" href="style.css?v=czbcg">
 </head>
 
 <body>
@@ -166,7 +166,7 @@
   <div class="h0000Children">
     <div class="h0000body">
       <a href="/en/" aria-label="Home - Ajans Mobil Gaziantep" title="Home - Ajans Mobil Gaziantep">
-        <img src="/img/logo.svg?v=jnl5b" class="h0000bodylogo" alt="Ajans Mobil Gaziantep Logo" loading="lazy" />
+        <img src="/img/logo.svg?v=jqy2t" class="h0000bodylogo" alt="Ajans Mobil Gaziantep Logo" loading="lazy" />
       </a>
     </div>
     <button class="h0000menumobil" type="button" aria-label="Toggle Menu" aria-expanded="false" aria-controls="h0000menulist">
@@ -178,7 +178,7 @@
         <span class="material-symbols-outlined" aria-hidden="true">close</span>
       </button>
       <ul role="menubar">
-        <a href="/en/" class="h0000menuitem" role="menuitem" title="Home - " aria-label="Home">Home</a><a href="/en/hizmetlerimiz/" class="h0000menuitem" role="menuitem" title="Our Digital Services" aria-label="Our Digital Services">Our Digital Services</a><a href="/en/iletisim/" class="h0000menuitem" role="menuitem" title="Contact" aria-label="Contact">Contact</a>
+        <a href="/en/" class="h0000menuitem" role="menuitem" title="Home - " aria-label="Home">Home</a><a href="/en/hakkimizda/" class="h0000menuitem" role="menuitem" title="Corporate" aria-label="Corporate">Corporate</a><a href="/en/hizmetlerimiz/" class="h0000menuitem" role="menuitem" title="Our Digital Services" aria-label="Our Digital Services">Our Digital Services</a><a href="/en/iletisim/" class="h0000menuitem" role="menuitem" title="Contact" aria-label="Contact">Contact</a>
       </ul>
       <div class="h0000menulang" aria-label="Language Selector">
         <ul role="list">
@@ -195,7 +195,6 @@
     var menu = document.querySelector(".h0000menulist");
     var overlay = document.querySelector(".h0000menuoverlay");
     var closeButton = document.querySelector(".h0000menuclose");
-
     function openMenu() {
       if (menu && overlay) {
         menu.classList.add("active");
@@ -204,7 +203,6 @@
         if (menuButton) {
           menuButton.setAttribute("aria-expanded", "true");
         }
-
         document.body.style.overflow = "hidden";
       }
     }
@@ -217,9 +215,7 @@
         if (menuButton) {
           menuButton.setAttribute("aria-expanded", "false");
         }
-
         document.body.style.overflow = "";
-
         if (menuButton) {
           menuButton.focus();
         }
@@ -227,7 +223,6 @@
     }
     
     if (menuButton && menu && overlay) {
-
       menuButton.addEventListener("click", function () {
         var isExpanded = menuButton.getAttribute("aria-expanded") === "true";
         if (isExpanded) {
@@ -236,17 +231,14 @@
           openMenu();
         }
       });
-
       if (closeButton) {
         closeButton.addEventListener("click", function () {
           closeMenu();
         });
       }
-
       overlay.addEventListener("click", function () {
         closeMenu();
       });
-
       menuButton.addEventListener("keydown", function (e) {
         if (e.key === "Enter" || e.key === " ") {
           e.preventDefault();
@@ -258,7 +250,6 @@
           }
         }
       });
-
       document.addEventListener("keydown", function (e) {
         if (e.key === "Escape" && menuButton.getAttribute("aria-expanded") === "true") {
           closeMenu();
@@ -453,7 +444,7 @@
   <div class="f0000-wa-advanced-panel" id="f0000WaPanel">
     <div class="f0000-wa-advanced-header">
       <div class="f0000-wa-advanced-avatar">
-        <img src="/img/pjkf5g/logo.svg?v=gh4wc" alt="Support agent"  loading="lazy"/>
+        <img src="/img/pjkf5g/logo.svg?v=qgt4z" alt="Support agent"  loading="lazy"/>
         <div class="f0000-wa-advanced-status online"></div>
       </div>
       <div class="f0000-wa-advanced-info">
@@ -522,7 +513,7 @@
     <nav class="f0001-f9__col f0001-f9__pages" aria-label="Navigation">
       <h3 class="f0001-f9__title">Pages</h3>
       <ul class="f0001-f9__list">
-        <li><a class="f0001-f9__link" href="/en/">Home</a></li><li><a class="f0001-f9__link" href="/en/hizmetlerimiz/">Our Digital Services</a></li><li><a class="f0001-f9__link" href="/en/iletisim/">Contact</a></li>
+        <li><a class="f0001-f9__link" href="/en/">Home</a></li><li><a class="f0001-f9__link" href="/en/hakkimizda/">Corporate</a></li><li><a class="f0001-f9__link" href="/en/hizmetlerimiz/">Our Digital Services</a></li><li><a class="f0001-f9__link" href="/en/iletisim/">Contact</a></li>
       </ul>
     </nav>
     <div class="f0001-f9__col f0001-f9__contact"><h3 class="f0001-f9__title">Contact</h3><ul class="f0001-f9__list"><li><span class="material-symbols-outlined" aria-hidden="true">location_on</span><span>Gaziantep, Türkiye</span></li><li><span class="material-symbols-outlined" aria-hidden="true">call</span><a class="f0001-f9__link" href="tel:05316791014" dir="ltr">0531 679 10 14</a></li><li><span class="material-symbols-outlined" aria-hidden="true">mail</span><a class="f0001-f9__link" href="mailto:info@ajansmobil.com">info@ajansmobil.com</a></li></ul></div>
@@ -540,10 +531,10 @@
   <meta name="google-site-verification" content="9UY_kGQb1IGXMFMd4tQHzXABrXhZG-SiJ_lXYjWE69M" />
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=paxiq"></script>
-  <script defer src="/src/mx-store.js?v=paxiq"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=paxiq"></script>
-  <script defer src="/src/cookie.js?v=paxiq"></script>
+  <script defer src="/src/mx-ui.js?v=czbcg"></script>
+  <script defer src="/src/mx-store.js?v=czbcg"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=czbcg"></script>
+  <script defer src="/src/cookie.js?v=czbcg"></script>
 
 </body>
 

@@ -21,10 +21,10 @@
         "en": "Corporate",
         "ar": "الشركات"
       },
-      "status": "stop",
+      "status": "play",
       "category": "",
       "id": "ibxhue2gm4",
-      "path": "kurumsal-ozet",
+      "path": "kurumsal",
       "index": 0,
       "desing": {
         "header": [],

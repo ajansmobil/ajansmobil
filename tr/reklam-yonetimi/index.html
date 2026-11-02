@@ -38,20 +38,20 @@
   <link rel="preload" href="/src/fonts/inter/inter-latin-ext-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/inter/inter-latin-ext-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/inter/inter-latin-ext-700-normal.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/fonts/inter.css?v=chgap" />
-  <link rel="stylesheet" href="/src/fonts/poppins.css?v=chgap" />
-  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=chgap" />
-  <link rel="stylesheet" href="/src/rubik.css?v=chgap" />
-  <link rel="stylesheet" href="/src/css.css?v=chgap" />
-  <link rel="stylesheet" href="/src/mx-ds.css?v=chgap" />
+  <link rel="stylesheet" href="/src/fonts/inter.css?v=dquzg" />
+  <link rel="stylesheet" href="/src/fonts/poppins.css?v=dquzg" />
+  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=dquzg" />
+  <link rel="stylesheet" href="/src/rubik.css?v=dquzg" />
+  <link rel="stylesheet" href="/src/css.css?v=dquzg" />
+  <link rel="stylesheet" href="/src/mx-ds.css?v=dquzg" />
   
-  <link rel="stylesheet" href="/src/mx-ui.css?v=chgap" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=dquzg" />
   <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=chgap" />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=dquzg" />
   
-  <link rel="stylesheet" href="/src/cookie.css?v=chgap" />
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=chgap" />
-  <link rel="shortcut icon" href="/img/icon.png?v=chgap" type="image/png" />
+  <link rel="stylesheet" href="/src/cookie.css?v=dquzg" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=dquzg" />
+  <link rel="shortcut icon" href="/img/icon.png?v=dquzg" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
@@ -138,7 +138,7 @@
 }
 </script>
   
-<link rel="stylesheet" href="style.css?v=chgap">
+<link rel="stylesheet" href="style.css?v=dquzg">
 </head>
 
 <body>
@@ -173,7 +173,7 @@
   <div class="h0000Children">
     <div class="h0000body">
       <a href="/tr/" aria-label="Anasayfa - Ajans Mobil Gaziantep" title="Anasayfa - Ajans Mobil Gaziantep">
-        <img src="/img/logo.svg?v=ck1i6" class="h0000bodylogo" alt="Ajans Mobil Gaziantep Logo" loading="lazy" />
+        <img src="/img/logo.svg?v=rvz0d" class="h0000bodylogo" alt="Ajans Mobil Gaziantep Logo" loading="lazy" />
       </a>
     </div>
     <button class="h0000menumobil" type="button" aria-label="Menüyü Aç/Kapat" aria-expanded="false" aria-controls="h0000menulist">
@@ -185,7 +185,7 @@
         <span class="material-symbols-outlined" aria-hidden="true">close</span>
       </button>
       <ul role="menubar">
-        <a href="/tr/" class="h0000menuitem" role="menuitem" title="Anasayfa - " aria-label="Anasayfa">Anasayfa</a><a href="/tr/hizmetlerimiz/" class="h0000menuitem" role="menuitem" title="Dijital Hizmetlerimiz" aria-label="Dijital Hizmetlerimiz">Dijital Hizmetlerimiz</a><a href="/tr/iletisim/" class="h0000menuitem" role="menuitem" title="İletişim" aria-label="İletişim">İletişim</a>
+        <a href="/tr/" class="h0000menuitem" role="menuitem" title="Anasayfa - " aria-label="Anasayfa">Anasayfa</a><a href="/tr/hakkimizda/" class="h0000menuitem" role="menuitem" title="Kurumsal" aria-label="Kurumsal">Kurumsal</a><a href="/tr/hizmetlerimiz/" class="h0000menuitem" role="menuitem" title="Dijital Hizmetlerimiz" aria-label="Dijital Hizmetlerimiz">Dijital Hizmetlerimiz</a><a href="/tr/iletisim/" class="h0000menuitem" role="menuitem" title="İletişim" aria-label="İletişim">İletişim</a>
       </ul>
       <div class="h0000menulang" aria-label="Dil Seçici">
         <ul role="list">
@@ -202,7 +202,6 @@
     var menu = document.querySelector(".h0000menulist");
     var overlay = document.querySelector(".h0000menuoverlay");
     var closeButton = document.querySelector(".h0000menuclose");
-
     function openMenu() {
       if (menu && overlay) {
         menu.classList.add("active");
@@ -211,7 +210,6 @@
         if (menuButton) {
           menuButton.setAttribute("aria-expanded", "true");
         }
-
         document.body.style.overflow = "hidden";
       }
     }
@@ -224,9 +222,7 @@
         if (menuButton) {
           menuButton.setAttribute("aria-expanded", "false");
         }
-
         document.body.style.overflow = "";
-
         if (menuButton) {
           menuButton.focus();
         }
@@ -234,7 +230,6 @@
     }
     
     if (menuButton && menu && overlay) {
-
       menuButton.addEventListener("click", function () {
         var isExpanded = menuButton.getAttribute("aria-expanded") === "true";
         if (isExpanded) {
@@ -243,17 +238,14 @@
           openMenu();
         }
       });
-
       if (closeButton) {
         closeButton.addEventListener("click", function () {
           closeMenu();
         });
       }
-
       overlay.addEventListener("click", function () {
         closeMenu();
       });
-
       menuButton.addEventListener("keydown", function (e) {
         if (e.key === "Enter" || e.key === " ") {
           e.preventDefault();
@@ -265,7 +257,6 @@
           }
         }
       });
-
       document.addEventListener("keydown", function (e) {
         if (e.key === "Escape" && menuButton.getAttribute("aria-expanded") === "true") {
           closeMenu();
@@ -297,7 +288,7 @@
   </nav>
   <div class="b0000-main">
     
-    <div class="b0000-desc-body"><img src="/page/atv4542pic/va4tn.webp?v=ufp0z" width="100%" alt="Reklam Yönetimi" loading="lazy" /></div>
+    <div class="b0000-desc-body"><img src="/page/atv4542pic/va4tn.webp?v=m4qyc" width="100%" alt="Reklam Yönetimi" loading="lazy" /></div>
     <div class="b0000-body"><h2>Dijital Reklam Yönetimi — Google ve Sosyal Medya</h2>
 <p>Google reklamları ve sosyal medya reklamlarını hedefe göre kurar, yönetir ve raporlarız. Amaç, reklam bütçesinin doğru kitleye ve doğru mesajla ulaşmasıdır.</p>
 <p>Çalışmaya hedef ve bütçe konuşmasıyla başlarız; kampanya yapısını, reklam metinlerini ve görselleri hazırlar, sonuçları düzenli olarak sizinle paylaşırız.</p>
@@ -459,7 +450,7 @@
   <div class="f0000-wa-advanced-panel" id="f0000WaPanel">
     <div class="f0000-wa-advanced-header">
       <div class="f0000-wa-advanced-avatar">
-        <img src="/img/pjkf5g/logo.svg?v=wqa5g" alt="Destek temsilcisi"  loading="lazy"/>
+        <img src="/img/pjkf5g/logo.svg?v=ag42a" alt="Destek temsilcisi"  loading="lazy"/>
         <div class="f0000-wa-advanced-status online"></div>
       </div>
       <div class="f0000-wa-advanced-info">
@@ -528,7 +519,7 @@
     <nav class="f0001-f9__col f0001-f9__pages" aria-label="Navigasyon">
       <h3 class="f0001-f9__title">Sayfalar</h3>
       <ul class="f0001-f9__list">
-        <li><a class="f0001-f9__link" href="/tr/">Anasayfa</a></li><li><a class="f0001-f9__link" href="/tr/hizmetlerimiz/">Dijital Hizmetlerimiz</a></li><li><a class="f0001-f9__link" href="/tr/iletisim/">İletişim</a></li>
+        <li><a class="f0001-f9__link" href="/tr/">Anasayfa</a></li><li><a class="f0001-f9__link" href="/tr/hakkimizda/">Kurumsal</a></li><li><a class="f0001-f9__link" href="/tr/hizmetlerimiz/">Dijital Hizmetlerimiz</a></li><li><a class="f0001-f9__link" href="/tr/iletisim/">İletişim</a></li>
       </ul>
     </nav>
     <div class="f0001-f9__col f0001-f9__contact"><h3 class="f0001-f9__title">İletişim</h3><ul class="f0001-f9__list"><li><span class="material-symbols-outlined" aria-hidden="true">location_on</span><span>Gaziantep, Türkiye</span></li><li><span class="material-symbols-outlined" aria-hidden="true">call</span><a class="f0001-f9__link" href="tel:05316791014" dir="ltr">0531 679 10 14</a></li><li><span class="material-symbols-outlined" aria-hidden="true">mail</span><a class="f0001-f9__link" href="mailto:info@ajansmobil.com">info@ajansmobil.com</a></li></ul></div>
@@ -541,15 +532,15 @@
   </div>
 </footer>
 
-<nav class="wm-yasal" aria-label="Kurumsal ve Yasal" style="box-sizing:border-box;width:100%;max-width:100%;padding:12px 16px;background:var(--mx-site-bg, #F7FBFE);color:var(--mx-site-text, #f3f4f6);display:flex;flex-wrap:wrap;gap:4px 16px;align-items:center;justify-content:center;text-align:center;overflow-wrap:anywhere"><strong style="color:var(--mx-site-text, #f3f4f6)">Kurumsal ve Yasal</strong><a href="/tr/hakkimizda/" style="color:var(--mx-site-text, #f3f4f6);padding:6px 0;text-decoration:underline;min-width:0">Hakkımızda</a></nav></div>
+</div>
 
   <meta name="google-site-verification" content="9UY_kGQb1IGXMFMd4tQHzXABrXhZG-SiJ_lXYjWE69M" />
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=chgap"></script>
-  <script defer src="/src/mx-store.js?v=chgap"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=chgap"></script>
-  <script defer src="/src/cookie.js?v=chgap"></script>
+  <script defer src="/src/mx-ui.js?v=dquzg"></script>
+  <script defer src="/src/mx-store.js?v=dquzg"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=dquzg"></script>
+  <script defer src="/src/cookie.js?v=dquzg"></script>
 
 </body>
 

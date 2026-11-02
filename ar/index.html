@@ -35,20 +35,20 @@
   <link rel="preload" href="/src/fonts/inter/inter-latin-ext-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/inter/inter-latin-ext-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/inter/inter-latin-ext-700-normal.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/fonts/inter.css?v=unztd" />
-  <link rel="stylesheet" href="/src/fonts/poppins.css?v=unztd" />
-  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=unztd" />
-  <link rel="stylesheet" href="/src/rubik.css?v=unztd" />
-  <link rel="stylesheet" href="/src/css.css?v=unztd" />
-  <link rel="stylesheet" href="/src/mx-ds.css?v=unztd" />
+  <link rel="stylesheet" href="/src/fonts/inter.css?v=b264w" />
+  <link rel="stylesheet" href="/src/fonts/poppins.css?v=b264w" />
+  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=b264w" />
+  <link rel="stylesheet" href="/src/rubik.css?v=b264w" />
+  <link rel="stylesheet" href="/src/css.css?v=b264w" />
+  <link rel="stylesheet" href="/src/mx-ds.css?v=b264w" />
   
-  <link rel="stylesheet" href="/src/mx-ui.css?v=unztd" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=b264w" />
   <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=unztd" />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=b264w" />
   
-  <link rel="stylesheet" href="/src/cookie.css?v=unztd" />
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=unztd" />
-  <link rel="shortcut icon" href="/img/icon.png?v=unztd" type="image/png" />
+  <link rel="stylesheet" href="/src/cookie.css?v=b264w" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=b264w" />
+  <link rel="shortcut icon" href="/img/icon.png?v=b264w" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
@@ -109,7 +109,7 @@
 }
 </script>
   
-<link rel="stylesheet" href="style.css?v=unztd">
+<link rel="stylesheet" href="style.css?v=b264w">
 </head>
 
 <body>
@@ -144,7 +144,7 @@
   <div class="h0000Children">
     <div class="h0000body">
       <a href="/ar/" aria-label="الصفحة الرئيسية - Ajans Mobil Gaziantep" title="الصفحة الرئيسية - Ajans Mobil Gaziantep">
-        <img src="/img/logo.svg?v=yxxq4" class="h0000bodylogo" alt="Ajans Mobil Gaziantep Logo" loading="lazy" />
+        <img src="/img/logo.svg?v=rilre" class="h0000bodylogo" alt="Ajans Mobil Gaziantep Logo" loading="lazy" />
       </a>
     </div>
     <button class="h0000menumobil" type="button" aria-label="تبديل القائمة" aria-expanded="false" aria-controls="h0000menulist">
@@ -156,7 +156,7 @@
         <span class="material-symbols-outlined" aria-hidden="true">close</span>
       </button>
       <ul role="menubar">
-        <a href="/ar/" class="h0000menuitem" role="menuitem" title="الصفحة الرئيسية - " aria-label="الصفحة الرئيسية">الصفحة الرئيسية</a><a href="/ar/hizmetlerimiz/" class="h0000menuitem" role="menuitem" title="خدماتنا الرقمية" aria-label="خدماتنا الرقمية">خدماتنا الرقمية</a><a href="/ar/iletisim/" class="h0000menuitem" role="menuitem" title="اتصل بنا" aria-label="اتصل بنا">اتصل بنا</a>
+        <a href="/ar/" class="h0000menuitem" role="menuitem" title="الصفحة الرئيسية - " aria-label="الصفحة الرئيسية">الصفحة الرئيسية</a><a href="/ar/hakkimizda/" class="h0000menuitem" role="menuitem" title="الشركات" aria-label="الشركات">الشركات</a><a href="/ar/hizmetlerimiz/" class="h0000menuitem" role="menuitem" title="خدماتنا الرقمية" aria-label="خدماتنا الرقمية">خدماتنا الرقمية</a><a href="/ar/iletisim/" class="h0000menuitem" role="menuitem" title="اتصل بنا" aria-label="اتصل بنا">اتصل بنا</a>
       </ul>
       <div class="h0000menulang" aria-label="محدد اللغة">
         <ul role="list">
@@ -173,7 +173,6 @@
     var menu = document.querySelector(".h0000menulist");
     var overlay = document.querySelector(".h0000menuoverlay");
     var closeButton = document.querySelector(".h0000menuclose");
-
     function openMenu() {
       if (menu && overlay) {
         menu.classList.add("active");
@@ -182,7 +181,6 @@
         if (menuButton) {
           menuButton.setAttribute("aria-expanded", "true");
         }
-
         document.body.style.overflow = "hidden";
       }
     }
@@ -195,9 +193,7 @@
         if (menuButton) {
           menuButton.setAttribute("aria-expanded", "false");
         }
-
         document.body.style.overflow = "";
-
         if (menuButton) {
           menuButton.focus();
         }
@@ -205,7 +201,6 @@
     }
     
     if (menuButton && menu && overlay) {
-
       menuButton.addEventListener("click", function () {
         var isExpanded = menuButton.getAttribute("aria-expanded") === "true";
         if (isExpanded) {
@@ -214,17 +209,14 @@
           openMenu();
         }
       });
-
       if (closeButton) {
         closeButton.addEventListener("click", function () {
           closeMenu();
         });
       }
-
       overlay.addEventListener("click", function () {
         closeMenu();
       });
-
       menuButton.addEventListener("keydown", function (e) {
         if (e.key === "Enter" || e.key === " ") {
           e.preventDefault();
@@ -236,7 +228,6 @@
           }
         }
       });
-
       document.addEventListener("keydown", function (e) {
         if (e.key === "Escape" && menuButton.getAttribute("aria-expanded") === "true") {
           closeMenu();
@@ -467,7 +458,7 @@
   <div class="f0000-wa-advanced-panel" id="f0000WaPanel">
     <div class="f0000-wa-advanced-header">
       <div class="f0000-wa-advanced-avatar">
-        <img src="/img/pjkf5g/logo.svg?v=ksd0c" alt="ممثل الدعم"  loading="lazy"/>
+        <img src="/img/pjkf5g/logo.svg?v=swk5u" alt="ممثل الدعم"  loading="lazy"/>
         <div class="f0000-wa-advanced-status online"></div>
       </div>
       <div class="f0000-wa-advanced-info">
@@ -536,7 +527,7 @@
     <nav class="f0001-f9__col f0001-f9__pages" aria-label="التنقل">
       <h3 class="f0001-f9__title">الصفحات</h3>
       <ul class="f0001-f9__list">
-        <li><a class="f0001-f9__link" href="/ar/">الصفحة الرئيسية</a></li><li><a class="f0001-f9__link" href="/ar/hizmetlerimiz/">خدماتنا الرقمية</a></li><li><a class="f0001-f9__link" href="/ar/iletisim/">اتصل بنا</a></li>
+        <li><a class="f0001-f9__link" href="/ar/">الصفحة الرئيسية</a></li><li><a class="f0001-f9__link" href="/ar/hakkimizda/">الشركات</a></li><li><a class="f0001-f9__link" href="/ar/hizmetlerimiz/">خدماتنا الرقمية</a></li><li><a class="f0001-f9__link" href="/ar/iletisim/">اتصل بنا</a></li>
       </ul>
     </nav>
     <div class="f0001-f9__col f0001-f9__contact"><h3 class="f0001-f9__title">اتصل بنا</h3><ul class="f0001-f9__list"><li><span class="material-symbols-outlined" aria-hidden="true">location_on</span><span>Gaziantep, Türkiye</span></li><li><span class="material-symbols-outlined" aria-hidden="true">call</span><a class="f0001-f9__link" href="tel:05316791014" dir="ltr">0531 679 10 14</a></li><li><span class="material-symbols-outlined" aria-hidden="true">mail</span><a class="f0001-f9__link" href="mailto:info@ajansmobil.com">info@ajansmobil.com</a></li></ul></div>
@@ -549,15 +540,15 @@
   </div>
 </footer>
 
-<nav class="wm-yasal" aria-label="الشركة والشؤون القانونية" style="box-sizing:border-box;width:100%;max-width:100%;padding:12px 16px;background:var(--mx-site-bg, #F7FBFE);color:var(--mx-site-text, #f3f4f6);display:flex;flex-wrap:wrap;gap:4px 16px;align-items:center;justify-content:center;text-align:center;overflow-wrap:anywhere"><strong style="color:var(--mx-site-text, #f3f4f6)">الشركة والشؤون القانونية</strong><a href="/ar/hakkimizda/" style="color:var(--mx-site-text, #f3f4f6);padding:6px 0;text-decoration:underline;min-width:0">من نحن</a></nav></div>
+</div>
 
   <meta name="google-site-verification" content="9UY_kGQb1IGXMFMd4tQHzXABrXhZG-SiJ_lXYjWE69M" />
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=unztd"></script>
-  <script defer src="/src/mx-store.js?v=unztd"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=unztd"></script>
-  <script defer src="/src/cookie.js?v=unztd"></script>
+  <script defer src="/src/mx-ui.js?v=b264w"></script>
+  <script defer src="/src/mx-store.js?v=b264w"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=b264w"></script>
+  <script defer src="/src/cookie.js?v=b264w"></script>
 
 </body>
 
