@@ -4,11 +4,11 @@
     "en": "Corporate",
     "ar": "الشركات"
   },
-  "status": "play",
+  "status": "stop",
   "category": "",
   "id": "ibxhue2gm4",
   "externalUrl": "",
-  "path": "kurumsal",
+  "path": "kurumsal-ozet",
   "index": 0,
   "desing": {
     "header": [],
@@ -36,7 +36,7 @@
   "desc": {},
   "bgimg": "k009v.jpg",
   "slider": [],
-  "update": "2026-11-02T06:37:41.986Z",
+  "update": "2026-11-02T09:14:13.987Z",
   "date": "2025-10-01T05:29:22.547Z",
   "pathnext": "hakkimizda",
   "title": {

@@ -21,10 +21,10 @@
         "en": "Corporate",
         "ar": "الشركات"
       },
-      "status": "play",
+      "status": "stop",
       "category": "",
       "id": "ibxhue2gm4",
-      "path": "kurumsal",
+      "path": "kurumsal-ozet",
       "index": 0,
       "desing": {
         "header": [],
@@ -61,8 +61,8 @@
       "desing": {
         "header": [],
         "body": [
-          "hieibz",
-          "vnze3j"
+          "vnze3j",
+          "f86mdx"
         ],
         "footer": []
       },
@@ -83,6 +83,7 @@
       "desing": {
         "header": [],
         "body": [
+          "vnze3j",
           "a5mvw9"
         ],
         "footer": []

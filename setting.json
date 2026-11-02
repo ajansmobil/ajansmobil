@@ -46,5 +46,26 @@
     "eposta": "info@ajansmobil.com",
     "adres": "Gaziantep, Türkiye",
     "site": "https://ajansmobil.com"
-  }
+  },
+  "font": {
+    "heading": "poppins",
+    "body": "inter",
+    "ar": {
+      "heading": "ibm-plex-sans-arabic",
+      "body": "ibm-plex-sans-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "theme_color": "#1D71B8",
+  "title": {
+    "tr": "Ajans Mobil Gaziantep | Web Tasarım, Mobil Uygulama ve Özel Uygulama Geliştirme",
+    "en": "Ajans Mobil Gaziantep | Web Design, Mobile Apps and Custom Application Development",
+    "ar": "أجانس موبيل غازي عنتاب | تصميم المواقع وتطبيقات الجوال وتطوير التطبيقات المخصصة"
+  },
+  "city": {
+    "tr": "Gaziantep",
+    "en": "Gaziantep",
+    "ar": "غازي عنتاب"
+  },
+  "country": "TR"
 }

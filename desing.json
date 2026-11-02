@@ -1,16 +1,17 @@
 {
   "header": [
-    "f3hsb0",
-    "ayn5ph"
+    "f3hsb0"
   ],
   "body": [
-    "i0uquh",
-    "jyfy3k"
+    "dykuk8",
+    "699ncc",
+    "ja94k1",
+    "ev1sz3",
+    "2dbd36"
   ],
   "footer": [
     "pjkf5g",
-    "ei3jbw",
-    "a5mvw9"
+    "twauvw"
   ],
   "headerdefault": [
     "f3hsb0"
@@ -18,10 +19,10 @@
   "bodydefault": [],
   "footerdefault": [
     "pjkf5g",
-    "ei3jbw"
+    "twauvw"
   ],
   "headtop": "",
-  "headbottom": "<meta name=\"google-site-verification\" content=\"9UY_kGQb1IGXMFMd4tQHzXABrXhZG-SiJ_lXYjWE69M\" />",
+  "headbottom": "<meta name=\"google-site-verification\" content=\"9UY_kGQb1IGXMFMd4tQHzXABrXhZG-SiJ_lXYjWE69M\" /><style id=\"am-logo-fix\">.f0001-f9__logo img{height:56px;width:auto;max-width:100%}</style>",
   "colors": {
     "lite": [
       {
@@ -30,15 +31,15 @@
       },
       {
         "name": "--color2--",
-        "value": "#F2F4F7"
+        "value": "#EBF1F7"
       },
       {
         "name": "--bg--",
-        "value": "#FFFFFF"
+        "value": "#F7FBFE"
       },
       {
         "name": "--text--",
-        "value": "#0B1120"
+        "value": "#192027"
       },
       {
         "name": "--button--",
@@ -50,37 +51,37 @@
       },
       {
         "name": "--accent--",
-        "value": "#0EA5E9"
+        "value": "#155A93"
       }
     ],
     "dark": [
       {
         "name": "--color1--",
-        "value": "#0F172A"
+        "value": "#151A1F"
       },
       {
         "name": "--color2--",
-        "value": "#1E293B"
+        "value": "#1F252B"
       },
       {
         "name": "--bg--",
-        "value": "#0B1120"
+        "value": "#0B0F13"
       },
       {
         "name": "--text--",
-        "value": "#E2E8F0"
+        "value": "#E7ECF0"
       },
       {
         "name": "--button--",
-        "value": "#1D71B8"
+        "value": "#69AAE9"
       },
       {
         "name": "--buttonText--",
-        "value": "#FFFFFF"
+        "value": "#081019"
       },
       {
         "name": "--accent--",
-        "value": "#0EA5E9"
+        "value": "#8CC0F0"
       }
     ]
   }

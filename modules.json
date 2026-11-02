@@ -9,10 +9,10 @@
         "logo": "logo.svg",
         "color": "#0B1120",
         "height": "100px",
-        "background-color": "#F2F4F7",
+        "background-color": "#FFFFFF",
         "sticky": "true",
-        "menubg": "",
-        "menutext": "#fff",
+        "menubg": "#155A93",
+        "menutext": "#FFFFFF",
         "menuhoverbg": "rgba(255,255,255,.18)"
       },
       "id": "f3hsb0",
@@ -31,7 +31,10 @@
         "img": "",
         "imgwidth": "250px",
         "stil": "",
-        "showlang": true
+        "showlang": true,
+        "showsocial": true,
+        "social": [],
+        "langcolor": ""
       },
       "id": "ei3jbw",
       "category": "footer",
@@ -45,7 +48,7 @@
       "path": "contact-3",
       "local": "body",
       "desing": {
-        "color": "#0B1120",
+        "color": "var(--mx-site-text, #0B1120)",
         "name": {
           "tr": "Bize Ulaşın",
           "en": "Contact Us",
@@ -53,7 +56,7 @@
         },
         "margin": "30px 0px 30px 0px",
         "stil": "",
-        "linkcolor": "#1B3A6B"
+        "linkcolor": "var(--mx-site-primary, #1D71B8)"
       },
       "data": [
         {
@@ -195,16 +198,16 @@
         "opacity": "0.5",
         "font-size": "36",
         "backgroundcolor": "#0B1120",
-        "menu-active": "#1D71B8",
+        "menu-active": "var(--mx-site-primary, #1D71B8)",
         "textcolor": "#fff",
         "stil": "",
-        "activetext": "#fff",
-        "bgcolor": "#ffffff",
+        "activetext": "var(--mx-site-primary-contrast, #ffffff)",
+        "bgcolor": "var(--mx-site-surface, #ffffff)",
         "border_radius": "8px",
-        "card_shadow": "0 10px 28px rgba(0, 0, 0, 0.08)",
-        "color": "#111111",
-        "colortitle": "#111111",
-        "coloractive": "#000000",
+        "card_shadow": "0 10px 28px rgba(0, 0, 0, 0.12)",
+        "color": "var(--mx-site-text, #111111)",
+        "colortitle": "var(--mx-site-text, #111111)",
+        "coloractive": "var(--mx-site-text, #000000)",
         "ui": {
           "tr": {
             "home": "Anasayfa",
@@ -350,6 +353,791 @@
       "local": "body",
       "data": [],
       "index": 10
+    },
+    {
+      "name": {
+        "tr": "Hero 5 — Tam ekran parallax / video",
+        "en": "Hero 5 — Full-screen parallax / video",
+        "ar": "هيرو 5 — شاشة كاملة بارالاكس / فيديو"
+      },
+      "description": {
+        "tr": "Tam ekran hero: arka plan görseli (desing.img) ya da sessiz döngü video (desing.video + zorunlu poster; reduced-motion'da yalnız poster). Üstte koyu→şeffaf gradient scrim (overlay/overlayText çifti), hafif parallax (JS, reduced-motion'da kapalı), aşağı kaydır oku. desing.stil: ortali | sol | alt-serit (metin alt şeritte yarı saydam kart). Yükseklik desing.yukseklik (vh, min 480px). Üç dil + RTL.",
+        "en": "Full-screen hero: background image (desing.img) or muted looping video (desing.video + required poster; poster only under reduced-motion). Dark→transparent gradient scrim on top (overlay/overlayText pair), light parallax (JS, off under reduced-motion), scroll-down arrow. desing.stil: ortali | sol | alt-serit (text in a translucent bottom strip card). Height desing.yukseklik (vh, min 480px). Three languages + RTL.",
+        "ar": "هيرو بملء الشاشة: صورة خلفية (desing.img) أو فيديو صامت متكرر (desing.video مع poster إلزامي؛ عند تقليل الحركة يظهر الـ poster فقط). تدرّج داكن→شفاف فوق الصورة (زوج overlay/overlayText)، بارالاكس خفيف (JS، يتوقف عند تقليل الحركة)، سهم التمرير للأسفل. desing.stil: ortali | sol | alt-serit (النص في شريط سفلي شبه شفاف). الارتفاع desing.yukseklik (vh، الحد الأدنى 480px). ثلاث لغات + RTL."
+      },
+      "version": "1.0.0",
+      "icon": "fullscreen",
+      "category": "hero",
+      "tags": [
+        "hero",
+        "fullscreen",
+        "parallax",
+        "video",
+        "tam-ekran",
+        "ar"
+      ],
+      "desing": {
+        "stil": "sol",
+        "hiza": "sol",
+        "yukseklik": 82,
+        "max": "1200px",
+        "img": "hero-ajansmobil.webp",
+        "video": "",
+        "poster": "",
+        "alt": {
+          "tr": "Web sitesi, mobil uygulama ve kod ekranı çizimi",
+          "en": "Illustration of a website, a mobile app and a code editor",
+          "ar": "رسم توضيحي لموقع وتطبيق جوال ومحرر شيفرة"
+        },
+        "overlay": "color-mix(in srgb, #155A93 18%, #08131E)",
+        "overlayText": "#ffffff",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "radius": "16px",
+        "eyebrow": {
+          "tr": "Gaziantep · web · mobil · özel uygulama",
+          "en": "Gaziantep · web · mobile · custom apps",
+          "ar": "غازي عنتاب · ويب · جوال · تطبيقات مخصصة"
+        },
+        "title": {
+          "tr": "Fikrinizi çalışan web sitesine, mobil uygulamaya ve özel yazılıma dönüştürüyoruz",
+          "en": "We turn your idea into a working website, mobile app and custom software",
+          "ar": "نحوّل فكرتك إلى موقع وتطبيق جوال وبرمجيات مخصصة تعمل بكفاءة"
+        },
+        "metin": {
+          "tr": "Ajans Mobil; kurumsal web sitelerini, iOS ve Android uygulamalarını ve işinize özel yönetim panellerini tasarlar, geliştirir ve yayında yanınızda durur.",
+          "en": "Ajans Mobil designs, builds and supports corporate websites, iOS and Android apps and custom management panels made for your business.",
+          "ar": "تصمّم أجانس موبيل مواقع الشركات وتطبيقات iOS وAndroid ولوحات الإدارة المخصصة لعملك وتطوّرها وتبقى بجانبك بعد الإطلاق."
+        },
+        "cta1": {
+          "tr": "Projenizi anlatın",
+          "en": "Tell us about your project",
+          "ar": "حدّثنا عن مشروعك"
+        },
+        "cta1_url": "iletisim",
+        "cta2": {
+          "tr": "Hizmetleri inceleyin",
+          "en": "Explore services",
+          "ar": "استعرض الخدمات"
+        },
+        "cta2_url": "hizmetlerimiz",
+        "scroll_label": {
+          "tr": "Aşağı kaydır",
+          "en": "Scroll down",
+          "ar": "مرّر للأسفل"
+        }
+      },
+      "data": [],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "id": "dykuk8",
+      "path": "hero-5",
+      "local": "body",
+      "index": 10
+    },
+    {
+      "name": "Zigzag Özellik",
+      "description": "Görsel-metin sırası satır satır değişen (sol/sağ) özellik anlatımı: numara rozeti, h3, paragraf, mini CTA; görsel kenarında dekoratif çerçeve/gölge. Kaydırmada satırlar sırayla belirir (IntersectionObserver; reduced-motion ya da JS yoksa hep görünür). desing.stil: cerceve | yuzen | sade. RTL'de sıra kendiliğinden aynalanır. Veri: data[] = [{baslik{tr,en,ar}, metin{}, img, alt{}, url, ctaLabel{}?}]. Renkler yalnız token; koyu mod otomatik.",
+      "version": "1.0.0",
+      "icon": "view_agenda",
+      "category": "ozellik",
+      "tags": [
+        "özellik",
+        "zigzag",
+        "features",
+        "görsel-metin",
+        "ar"
+      ],
+      "desing": {
+        "stil": "cerceve",
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 16%, transparent)",
+        "radius": "20px",
+        "numara": true,
+        "eyebrow": {
+          "tr": "Neden Ajans Mobil?",
+          "en": "Why Ajans Mobil?",
+          "ar": "لماذا أجانس موبيل؟"
+        },
+        "title": {
+          "tr": "İşinizi anlayan, söz verdiğini yazılı veren ekip",
+          "en": "A team that understands your business and puts promises in writing",
+          "ar": "فريق يفهم عملك ويكتب وعوده"
+        },
+        "description": {
+          "tr": "Çalışma biçimimiz üç basit ilkeye dayanır.",
+          "en": "Our way of working rests on three simple principles.",
+          "ar": "يرتكز أسلوب عملنا على ثلاثة مبادئ بسيطة."
+        },
+        "ctaLabel": {
+          "tr": "İletişime geçin",
+          "en": "Get in touch",
+          "ar": "تواصل معنا"
+        }
+      },
+      "data": [
+        {
+          "baslik": {
+            "tr": "Önce ihtiyaç, sonra teknoloji",
+            "en": "Needs first, technology second",
+            "ar": "الحاجة أولًا ثم التقنية"
+          },
+          "metin": {
+            "tr": "Önce işinizi dinler, ardından web, mobil ya da özel uygulama çözümünden hangisinin gerçekten gerektiğini birlikte belirleriz.",
+            "en": "We listen first, then decide together whether web, mobile or a custom application is what you actually need.",
+            "ar": "نستمع أولًا ثم نحدد معًا ما إذا كان الويب أو الجوال أو التطبيق المخصص هو ما تحتاجه فعلًا."
+          },
+          "img": "ozellik-ihtiyac.webp",
+          "alt": {
+            "tr": "İhtiyaç analizi kontrol listesi çizimi",
+            "en": "Illustration of a needs-analysis checklist",
+            "ar": "رسم توضيحي لقائمة تحليل الاحتياجات"
+          },
+          "url": "iletisim"
+        },
+        {
+          "baslik": {
+            "tr": "Tek ekip, tek muhatap",
+            "en": "One team, one contact",
+            "ar": "فريق واحد وجهة اتصال واحدة"
+          },
+          "metin": {
+            "tr": "Tasarım, yazılım ve yayın aynı ekipte; proje boyunca aynı kişilerle konuşursunuz.",
+            "en": "Design, development and launch live in one team; you talk to the same people throughout.",
+            "ar": "التصميم والبرمجة والإطلاق في فريق واحد، وتتحدث مع الأشخاص أنفسهم طوال المشروع."
+          },
+          "img": "ozellik-ekip.webp",
+          "alt": {
+            "tr": "Tek ekip ve tek muhatap çizimi",
+            "en": "Illustration of one team and one contact",
+            "ar": "رسم توضيحي لفريق واحد وجهة اتصال واحدة"
+          },
+          "url": "iletisim"
+        },
+        {
+          "baslik": {
+            "tr": "Yazılı kapsam, açık teklif",
+            "en": "Written scope, clear quote",
+            "ar": "نطاق مكتوب وعرض واضح"
+          },
+          "metin": {
+            "tr": "Kapsam ve teslimler yazılı teklifte yer alır; değişiklik gerekirse işe başlamadan önce onayınızı alırız.",
+            "en": "Scope and deliverables are in a written quote; if anything changes we ask for your approval before work starts.",
+            "ar": "النطاق والمخرجات في عرض مكتوب، وإذا لزم تغيير نطلب موافقتك قبل بدء العمل."
+          },
+          "img": "ozellik-teklif.webp",
+          "alt": {
+            "tr": "Yazılı teklif belgesi çizimi",
+            "en": "Illustration of a written quote document",
+            "ar": "رسم توضيحي لعرض سعر مكتوب"
+          },
+          "url": "iletisim"
+        }
+      ],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "id": "ja94k1",
+      "path": "ozellik-zigzag",
+      "local": "body",
+      "index": 11
+    },
+    {
+      "name": {
+        "tr": "Hizmetler 3 — Dikey sekmeli detay",
+        "en": "Services 3 — Vertical tabs with detail"
+      },
+      "description": {
+        "tr": "Solda dikey sekme listesi (ikon + hizmet adı), sağda seçili hizmetin detay paneli: büyük ikon, başlık, açıklama, madde listesi ve düğme. WAI-ARIA tabs (↑/↓, Home/End). JS yoksa tüm paneller alt alta görünür. Dar ekranda sekmeler yatay kaydırılır.",
+        "en": "Vertical tab list (icon + service name) on the left, detail panel of the selected service on the right: large icon, title, text, bullet list and button. WAI-ARIA tabs (↑/↓, Home/End). Without JS all panels are stacked. Tabs scroll horizontally on narrow screens."
+      },
+      "path": "services-grid-3",
+      "category": "services-grid",
+      "subCategory": "dikey-sekmeli",
+      "version": "1.0.0",
+      "update": "2026-11-01",
+      "icon": "vertical_split",
+      "tags": [
+        "services",
+        "hizmet",
+        "sekme",
+        "tabs",
+        "detay"
+      ],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data (render zamanı)"
+      },
+      "desing": {
+        "max": "1200px",
+        "eyebrow": {
+          "tr": "Hizmetlerimiz",
+          "en": "Our services",
+          "ar": "خدماتنا"
+        },
+        "title": {
+          "tr": "Üç ana alanda, uçtan uca çözüm",
+          "en": "End-to-end solutions in three core areas",
+          "ar": "حلول متكاملة في ثلاثة مجالات رئيسية"
+        },
+        "description": {
+          "tr": "Planlamadan yayına ve sonraki bakıma kadar tek ekiple çalışırsınız.",
+          "en": "One team from planning to launch and the support that follows.",
+          "ar": "فريق واحد من التخطيط حتى الإطلاق والدعم بعده."
+        },
+        "sekmeLabel": {
+          "tr": "Hizmetler",
+          "en": "Services",
+          "ar": "الخدمات"
+        }
+      },
+      "data": [
+        {
+          "ikon": "web",
+          "baslik": {
+            "tr": "Web tasarım",
+            "en": "Web design",
+            "ar": "تصميم المواقع"
+          },
+          "metin": {
+            "tr": "Kurumsal tanıtım sitesinden e-ticarete; her cihazda hızlı, erişilebilir ve arama motorlarına hazır web siteleri.",
+            "en": "From corporate sites to e-commerce: fast, accessible, search-ready websites on every device.",
+            "ar": "من مواقع الشركات إلى التجارة الإلكترونية: مواقع سريعة وسهلة الوصول وجاهزة لمحركات البحث على كل جهاز."
+          },
+          "ozellikler": {
+            "tr": "Mobil uyumlu tasarım|Çok dilli yapı (TR · EN · AR)|SEO ve hız altyapısı",
+            "en": "Responsive design|Multilingual structure (TR · EN · AR)|SEO and speed foundations",
+            "ar": "تصميم متجاوب|بنية متعددة اللغات (TR · EN · AR)|أساس لتحسين محركات البحث والسرعة"
+          },
+          "btnText": {
+            "tr": "Web tasarım",
+            "en": "Web design",
+            "ar": "تصميم المواقع"
+          },
+          "url": "web-tasarim"
+        },
+        {
+          "ikon": "smartphone",
+          "baslik": {
+            "tr": "Mobil uygulama",
+            "en": "Mobile apps",
+            "ar": "تطبيقات الجوال"
+          },
+          "metin": {
+            "tr": "Flutter ile tek kod tabanından iOS ve Android uygulamaları; mağaza yayını ve sonrası bakım dahil.",
+            "en": "iOS and Android apps from a single Flutter codebase, including store release and ongoing maintenance.",
+            "ar": "تطبيقات iOS وAndroid من قاعدة شيفرة واحدة بتقنية Flutter، مع النشر في المتاجر والصيانة."
+          },
+          "ozellikler": {
+            "tr": "iOS + Android tek projede|Mağaza yayın desteği|API ve panel entegrasyonu",
+            "en": "iOS + Android in one project|Store release support|API and panel integration",
+            "ar": "iOS + Android في مشروع واحد|دعم النشر في المتاجر|تكامل الواجهات البرمجية ولوحات الإدارة"
+          },
+          "btnText": {
+            "tr": "Mobil uygulama",
+            "en": "Mobile apps",
+            "ar": "تطبيقات الجوال"
+          },
+          "url": "mobil-uygulama"
+        },
+        {
+          "ikon": "code",
+          "baslik": {
+            "tr": "Özel uygulama geliştirme",
+            "en": "Custom application development",
+            "ar": "تطوير تطبيقات مخصصة"
+          },
+          "metin": {
+            "tr": "Hazır paketlerin karşılamadığı süreçler için size özel web tabanlı uygulamalar, yönetim panelleri ve entegrasyonlar.",
+            "en": "Custom web applications, admin panels and integrations for processes off-the-shelf packages cannot cover.",
+            "ar": "تطبيقات ويب ولوحات إدارة وتكاملات مخصصة للعمليات التي لا تغطيها الحلول الجاهزة."
+          },
+          "ozellikler": {
+            "tr": "İhtiyaca göre analiz|Yönetim paneli ve raporlama|Üçüncü taraf entegrasyonları",
+            "en": "Needs-based analysis|Admin panel and reporting|Third-party integrations",
+            "ar": "تحليل حسب الاحتياج|لوحة إدارة وتقارير|تكامل مع خدمات خارجية"
+          },
+          "btnText": {
+            "tr": "Özel uygulama",
+            "en": "Custom apps",
+            "ar": "التطبيقات المخصصة"
+          },
+          "url": "ozel-uygulama-gelistirme"
+        },
+        {
+          "ikon": "trending_up",
+          "baslik": {
+            "tr": "SEO ve dijital reklam",
+            "en": "SEO and digital advertising",
+            "ar": "تحسين محركات البحث والإعلانات الرقمية"
+          },
+          "metin": {
+            "tr": "Yeni siteniz yayına çıktıktan sonra arama motoru görünürlüğü, Google Ads ve sosyal medya yönetimiyle büyümeyi destekliyoruz.",
+            "en": "After launch we support growth with search visibility, Google Ads and social media management.",
+            "ar": "بعد الإطلاق ندعم النمو عبر الظهور في محركات البحث وإعلانات Google وإدارة وسائل التواصل."
+          },
+          "ozellikler": {
+            "tr": "Teknik SEO ve içerik|Google Ads yönetimi|Sosyal medya yönetimi",
+            "en": "Technical SEO and content|Google Ads management|Social media management",
+            "ar": "تحسين تقني ومحتوى|إدارة إعلانات Google|إدارة وسائل التواصل"
+          },
+          "btnText": {
+            "tr": "SEO hizmeti",
+            "en": "SEO service",
+            "ar": "خدمة SEO"
+          },
+          "url": "seo-hizmeti"
+        }
+      ],
+      "id": "699ncc",
+      "local": "body",
+      "index": 12
+    },
+    {
+      "name": "Süreç Adımları",
+      "description": "3–6 adımlık süreç anlatımı: çizgi/ok ile bağlı daire numaralar, altında başlık + metin. Aktif adım vurgusu kaydırmayla ilerler (IntersectionObserver; JS yoksa tüm adımlar düz görünür). desing.stil: yatay (çizgiyle bağlı sıra; mobilde dikey zaman çizgisi) | dikey (iki yanlı zaman çizgisi) | kartli (kart + ok ayraç). Veri: data[] = [{no?, baslik{tr,en,ar}, metin{}, ikon?}]. Renkler yalnız token; koyu mod otomatik; RTL'de ok/çizgi yönü aynalanır.",
+      "version": "1.0.0",
+      "icon": "timeline",
+      "category": "surec",
+      "tags": [
+        "süreç",
+        "adım",
+        "zaman çizgisi",
+        "process",
+        "steps",
+        "ar"
+      ],
+      "desing": {
+        "stil": "yatay",
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 16%, transparent)",
+        "radius": "16px",
+        "eyebrow": {
+          "tr": "Nasıl çalışıyoruz?",
+          "en": "How we work",
+          "ar": "كيف نعمل؟"
+        },
+        "title": {
+          "tr": "Dört adımda fikirden yayına",
+          "en": "From idea to launch in four steps",
+          "ar": "من الفكرة إلى الإطلاق في أربع خطوات"
+        },
+        "description": {
+          "tr": "İlk görüşmeden teslime kadar her aşamada ne olacağını önceden bilirsiniz.",
+          "en": "From the first call to handover, you know in advance what happens at every stage.",
+          "ar": "من أول اتصال حتى التسليم، تعرف مسبقًا ما سيحدث في كل مرحلة."
+        },
+        "stepLabel": {
+          "tr": "Adım {n}",
+          "en": "Step {n}",
+          "ar": "الخطوة {n}"
+        },
+        "listLabel": {
+          "tr": "Süreç adımları",
+          "en": "Process steps",
+          "ar": "خطوات العملية"
+        }
+      },
+      "data": [
+        {
+          "ikon": "forum",
+          "baslik": {
+            "tr": "Tanışma",
+            "en": "Discovery",
+            "ar": "التعارف"
+          },
+          "metin": {
+            "tr": "Kısa bir görüşmeyle hedefinizi, bütçenizi ve takviminizi netleştiririz.",
+            "en": "In a short call we clarify your goal, budget and timeline.",
+            "ar": "في مكالمة قصيرة نوضّح هدفك وميزانيتك وجدولك الزمني."
+          }
+        },
+        {
+          "ikon": "draw",
+          "baslik": {
+            "tr": "Planlama",
+            "en": "Planning",
+            "ar": "التخطيط"
+          },
+          "metin": {
+            "tr": "Kapsamı yazılı teklife döker, onayınızla iş planını kilitleriz.",
+            "en": "We turn the scope into a written proposal and lock the plan with your approval.",
+            "ar": "نحوّل النطاق إلى عرض مكتوب ونثبّت الخطة بموافقتك."
+          }
+        },
+        {
+          "ikon": "construction",
+          "baslik": {
+            "tr": "Geliştirme",
+            "en": "Development",
+            "ar": "التطوير"
+          },
+          "metin": {
+            "tr": "Tasarımı ve yazılımı aşama aşama geliştirir, çalışan sürümleri sizinle paylaşırız.",
+            "en": "We design and build in stages and share working versions with you along the way.",
+            "ar": "نصمّم ونبرمج على مراحل ونشارك معك النسخ العاملة تباعًا."
+          }
+        },
+        {
+          "ikon": "rocket_launch",
+          "baslik": {
+            "tr": "Yayın ve destek",
+            "en": "Launch & support",
+            "ar": "الإطلاق والدعم"
+          },
+          "metin": {
+            "tr": "Kontrol listesiyle yayına alır, sonrasında bakım ve destekle yanınızda oluruz.",
+            "en": "We go live against a checklist and stay with you through maintenance and support.",
+            "ar": "نُطلق وفق قائمة تحقق ونبقى معك بالصيانة والدعم."
+          }
+        }
+      ],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "id": "ev1sz3",
+      "path": "surec-adimlar",
+      "local": "body",
+      "index": 13
+    },
+    {
+      "name": "CTA Şerit 1",
+      "desing": {
+        "stil": "",
+        "max": "1200px",
+        "gradient": "linear-gradient(135deg, #0B2A47 0%, #155A93 100%)",
+        "btnbg": "#FFFFFF",
+        "btncolor": "#0B2A47",
+        "title": {
+          "tr": "Projenizi birlikte planlayalım",
+          "en": "Let's plan your project together",
+          "ar": "لنخطط لمشروعك معًا"
+        },
+        "description": {
+          "tr": "Web sitesi, mobil uygulama ya da özel yazılım ihtiyacınızı yazın; size dönüş yapalım. WhatsApp'tan da ulaşabilirsiniz.",
+          "en": "Tell us about your website, mobile app or custom software need and we'll get back to you. You can also reach us on WhatsApp.",
+          "ar": "اكتب لنا عن احتياجك من موقع أو تطبيق جوال أو برمجيات مخصصة وسنعاود الاتصال بك. يمكنك أيضًا مراسلتنا عبر واتساب."
+        },
+        "btn1Text": {
+          "tr": "İletişime geç",
+          "en": "Contact us",
+          "ar": "تواصل معنا"
+        },
+        "btn1Url": "iletisim",
+        "btn2Text": {
+          "tr": "Hizmetlerimiz",
+          "en": "Our services",
+          "ar": "خدماتنا"
+        },
+        "btn2Url": "hizmetlerimiz"
+      },
+      "category": "cta",
+      "description": "Harekete geçirici çağrı (CTA) şerit modülü. Gradient arka plan üzerinde başlık, açıklama ve iki buton gösterir. Buton URL'leri dil öneki olmadan pathnext (iletisim, urunler) — site routing ekler. Çok dilli metin ve animasyonlu giriş içerir. Görsel varyant desing.stil (31 Eki 2026): \"\" klasik (gradient anahtarı tam genişlik bant, bugünkü görünüm) · \"gradient\" (token gradient primary→koyu, yuvarlak köşeli iç bant, ortalı yığın, ışık daireleri, hap düğmeler) · \"kart-yuzen\" (sayfa zemininde yüzen yüzey kartı, dekoratif primary daireler, sol vurgu çizgisi). Varyant renkleri yalnız var(--mx-site-*) token çiftleri.",
+      "version": "1.2.0",
+      "icon": "campaign",
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "id": "2dbd36",
+      "path": "cta-1",
+      "local": "body",
+      "data": [],
+      "index": 14
+    },
+    {
+      "name": "Footer 9 — Kurumsal",
+      "desing": {
+        "showlang": true,
+        "maxpages": 8,
+        "bgcolor": "var(--mx-site-surface-2, #1f2937)",
+        "color": "var(--mx-site-text, #f3f4f6)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #f3f4f6) 72%, transparent)",
+        "accent": "color-mix(in srgb, var(--mx-site-primary, #1D71B8) 80%, var(--mx-site-text, #192027))",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #f3f4f6) 18%, transparent)",
+        "logo_maxh": "56px",
+        "logo_plate": true,
+        "about": {
+          "tr": "Gaziantep merkezli web, mobil ve özel uygulama geliştirme ajansı.",
+          "en": "Gaziantep-based web, mobile and custom application development agency.",
+          "ar": "وكالة في غازي عنتاب لتطوير المواقع وتطبيقات الجوال والتطبيقات المخصصة."
+        },
+        "title_pages": {
+          "tr": "Sayfalar",
+          "en": "Pages",
+          "ar": "الصفحات"
+        },
+        "title_contact": {
+          "tr": "İletişim",
+          "en": "Contact",
+          "ar": "اتصل بنا"
+        },
+        "title_social": {
+          "tr": "Bizi Takip Edin",
+          "en": "Follow Us",
+          "ar": "تابعنا"
+        },
+        "address": "Gaziantep, Türkiye",
+        "phone": "0531 679 10 14",
+        "email": "info@ajansmobil.com",
+        "social": [],
+        "legal": [
+          {
+            "text": {
+              "tr": "Misyon",
+              "en": "Mission",
+              "ar": "المهمة"
+            },
+            "href": "misyon"
+          },
+          {
+            "text": {
+              "tr": "Vizyon",
+              "en": "Vision",
+              "ar": "الرؤية"
+            },
+            "href": "vizyon"
+          },
+          {
+            "text": {
+              "tr": "Kalite Politikamız",
+              "en": "Quality Policy",
+              "ar": "سياسة الجودة"
+            },
+            "href": "kalite-politikamiz"
+          },
+          {
+            "text": {
+              "tr": "Gizlilik Politikası",
+              "en": "Privacy Policy",
+              "ar": "سياسة الخصوصية"
+            },
+            "href": "gizlilik-politikasi"
+          },
+          {
+            "text": {
+              "tr": "Kişisel Veriler",
+              "en": "Personal Data",
+              "ar": "البيانات الشخصية"
+            },
+            "href": "kisisel-veriler-be2"
+          },
+          {
+            "text": {
+              "tr": "Kullanıcı Hakları",
+              "en": "User Rights",
+              "ar": "حقوق المستخدم"
+            },
+            "href": "kullanici-haklari"
+          },
+          {
+            "text": {
+              "tr": "Yasal Uyarı",
+              "en": "Legal Notice",
+              "ar": "إشعار قانوني"
+            },
+            "href": "yasal-uyari-mh6"
+          },
+          {
+            "text": {
+              "tr": "Çerez Politikası",
+              "en": "Cookie Policy",
+              "ar": "سياسة ملفات تعريف الارتباط"
+            },
+            "href": "cerez-politikasi"
+          }
+        ],
+        "rightsText": {
+          "tr": "Tüm hakları saklıdır.",
+          "en": "All rights reserved.",
+          "ar": "جميع الحقوق محفوظة."
+        }
+      },
+      "category": "footer",
+      "data": [],
+      "description": "Kurumsal alt bilgi (footer): 4 sütun — marka (logo + kısa metin), sayfalar, iletişim (address/phone/email; boşsa setting.phone/email, hiçbiri yoksa sütun gizli), sosyal (social: [{ad,url}]; boşsa gizli). Alt şerit: telif (yıl otomatik), yasal bağlantılar (legal: [{text,href}], dil önekli), dil seçici. Renkler yalnız desing anahtarı + var(--mx-site-*, fallback): token'sız sitede fallback, colorScheme:auto sitede koyu mod uyumlu. logo_maxh / logo_plate footer-3 ile aynı.",
+      "version": "1.0.0",
+      "icon": "footer",
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "id": "twauvw",
+      "path": "footer-9",
+      "local": "footer",
+      "index": 15
+    },
+    {
+      "name": {
+        "tr": "Hizmetler 2 — Numaralı satırlar",
+        "en": "Services 2 — Numbered rows"
+      },
+      "description": {
+        "tr": "Editoryal hizmet listesi: tam genişlik satırlar, solda büyük sıra numarası (01, 02 …), ortada hizmet adı ve açıklama, sağda ok. Satır tümüyle tıklanabilir; hover'da yüzey rengi. Kart ve ikon yok — tipografi odaklı.",
+        "en": "Editorial service list: full-width rows with a large index number (01, 02 …) on the left, service name and text in the middle, arrow on the right. Whole row clickable; surface color on hover. Typography-led, no cards or icons."
+      },
+      "path": "services-grid-2",
+      "category": "services-grid",
+      "subCategory": "numarali-satirlar",
+      "version": "1.0.0",
+      "update": "2026-11-01",
+      "icon": "format_list_numbered",
+      "tags": [
+        "services",
+        "hizmet",
+        "liste",
+        "numarali",
+        "editoryal"
+      ],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data (render zamanı)"
+      },
+      "desing": {
+        "max": "1200px",
+        "eyebrow": {
+          "tr": "Hizmetlerimiz",
+          "en": "Our services",
+          "ar": "خدماتنا"
+        },
+        "title": {
+          "tr": "Web, mobil ve özel uygulama odaklı dijital hizmetler",
+          "en": "Digital services focused on web, mobile and custom apps",
+          "ar": "خدمات رقمية تركز على الويب والجوال والتطبيقات المخصصة"
+        },
+        "description": {
+          "tr": "İhtiyacınıza uygun hizmeti seçin; ayrıntı için sayfasına geçin.",
+          "en": "Pick the service that fits your need and open its page for details.",
+          "ar": "اختر الخدمة المناسبة لاحتياجك وافتح صفحتها للتفاصيل."
+        },
+        "listeLabel": {
+          "tr": "Hizmetler",
+          "en": "Services",
+          "ar": "الخدمات"
+        }
+      },
+      "data": [
+        {
+          "baslik": {
+            "tr": "Web tasarım",
+            "en": "Web design",
+            "ar": "تصميم المواقع"
+          },
+          "metin": {
+            "tr": "Kurumsal site, tanıtım sitesi ve e-ticaret; mobil uyumlu, hızlı ve arama motorlarına hazır.",
+            "en": "Corporate, brochure and e-commerce sites; responsive, fast and search-ready.",
+            "ar": "مواقع شركات وتعريفية وتجارة إلكترونية؛ متجاوبة وسريعة وجاهزة لمحركات البحث."
+          },
+          "url": "web-tasarim"
+        },
+        {
+          "baslik": {
+            "tr": "Mobil uygulama",
+            "en": "Mobile apps",
+            "ar": "تطبيقات الجوال"
+          },
+          "metin": {
+            "tr": "Flutter ile iOS ve Android uygulamaları; mağaza yayını ve bakım dahil.",
+            "en": "iOS and Android apps with Flutter, including store release and maintenance.",
+            "ar": "تطبيقات iOS وAndroid بتقنية Flutter مع النشر في المتاجر والصيانة."
+          },
+          "url": "mobil-uygulama"
+        },
+        {
+          "baslik": {
+            "tr": "Özel uygulama geliştirme",
+            "en": "Custom application development",
+            "ar": "تطوير تطبيقات مخصصة"
+          },
+          "metin": {
+            "tr": "İşinize özel web tabanlı uygulamalar, yönetim panelleri ve entegrasyonlar.",
+            "en": "Custom web applications, admin panels and integrations for your business.",
+            "ar": "تطبيقات ويب ولوحات إدارة وتكاملات مخصصة لعملك."
+          },
+          "url": "ozel-uygulama-gelistirme"
+        },
+        {
+          "baslik": {
+            "tr": "SEO hizmeti",
+            "en": "SEO service",
+            "ar": "خدمة تحسين محركات البحث"
+          },
+          "metin": {
+            "tr": "Teknik SEO, içerik ve görünürlük çalışmaları.",
+            "en": "Technical SEO, content and visibility work.",
+            "ar": "تحسين تقني ومحتوى وزيادة الظهور."
+          },
+          "url": "seo-hizmeti"
+        },
+        {
+          "baslik": {
+            "tr": "Reklam yönetimi",
+            "en": "Advertising management",
+            "ar": "إدارة الإعلانات"
+          },
+          "metin": {
+            "tr": "Google Ads ve sosyal medya reklam kampanyalarının kurulumu ve yönetimi.",
+            "en": "Setup and management of Google Ads and social media ad campaigns.",
+            "ar": "إعداد وإدارة حملات إعلانات Google ووسائل التواصل."
+          },
+          "url": "reklam-yonetimi"
+        },
+        {
+          "baslik": {
+            "tr": "Sosyal medya yönetimi",
+            "en": "Social media management",
+            "ar": "إدارة وسائل التواصل"
+          },
+          "metin": {
+            "tr": "Hesap yönetimi, içerik planı ve topluluk yönetimi.",
+            "en": "Account management, content planning and community management.",
+            "ar": "إدارة الحسابات وخطة المحتوى وإدارة المجتمع."
+          },
+          "url": "sosyal-media"
+        },
+        {
+          "baslik": {
+            "tr": "Fotoğraf çekimi",
+            "en": "Photography",
+            "ar": "التصوير"
+          },
+          "metin": {
+            "tr": "Ürün ve kurumsal tanıtım fotoğrafları.",
+            "en": "Product and corporate promotional photography.",
+            "ar": "صور المنتجات والتعريف بالشركة."
+          },
+          "url": "fotograf-cekimi"
+        }
+      ],
+      "id": "f86mdx",
+      "local": "body",
+      "index": 16
     }
   ]
 }
