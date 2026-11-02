@@ -35,20 +35,20 @@
   <link rel="preload" href="/src/fonts/inter/inter-latin-ext-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/inter/inter-latin-ext-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/inter/inter-latin-ext-700-normal.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/fonts/inter.css?v=ac6b7" />
-  <link rel="stylesheet" href="/src/fonts/poppins.css?v=ac6b7" />
-  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=ac6b7" />
-  <link rel="stylesheet" href="/src/rubik.css?v=ac6b7" />
-  <link rel="stylesheet" href="/src/css.css?v=ac6b7" />
-  <link rel="stylesheet" href="/src/mx-ds.css?v=ac6b7" />
+  <link rel="stylesheet" href="/src/fonts/inter.css?v=nhv9u" />
+  <link rel="stylesheet" href="/src/fonts/poppins.css?v=nhv9u" />
+  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=nhv9u" />
+  <link rel="stylesheet" href="/src/rubik.css?v=nhv9u" />
+  <link rel="stylesheet" href="/src/css.css?v=nhv9u" />
+  <link rel="stylesheet" href="/src/mx-ds.css?v=nhv9u" />
   
-  <link rel="stylesheet" href="/src/mx-ui.css?v=ac6b7" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=nhv9u" />
   <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=ac6b7" />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=nhv9u" />
   
-  <link rel="stylesheet" href="/src/cookie.css?v=ac6b7" />
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=ac6b7" />
-  <link rel="shortcut icon" href="/img/icon.png?v=ac6b7" type="image/png" />
+  <link rel="stylesheet" href="/src/cookie.css?v=nhv9u" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=nhv9u" />
+  <link rel="shortcut icon" href="/img/icon.png?v=nhv9u" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
@@ -131,7 +131,7 @@
 }
 </script>
   
-<link rel="stylesheet" href="style.css?v=ac6b7">
+<link rel="stylesheet" href="style.css?v=nhv9u">
 </head>
 
 <body>
@@ -166,7 +166,7 @@
   <div class="h0000Children">
     <div class="h0000body">
       <a href="/tr/" aria-label="Anasayfa - Ajans Mobil Gaziantep" title="Anasayfa - Ajans Mobil Gaziantep">
-        <img src="/img/logo.svg?v=sbi8o" class="h0000bodylogo" alt="Ajans Mobil Gaziantep Logo" loading="lazy" />
+        <img src="/img/logo.svg?v=yze5z" class="h0000bodylogo" alt="Ajans Mobil Gaziantep Logo" loading="lazy" />
       </a>
     </div>
     <button class="h0000menumobil" type="button" aria-label="Menüyü Aç/Kapat" aria-expanded="false" aria-controls="h0000menulist">
@@ -195,6 +195,7 @@
     var menu = document.querySelector(".h0000menulist");
     var overlay = document.querySelector(".h0000menuoverlay");
     var closeButton = document.querySelector(".h0000menuclose");
+
     function openMenu() {
       if (menu && overlay) {
         menu.classList.add("active");
@@ -203,6 +204,7 @@
         if (menuButton) {
           menuButton.setAttribute("aria-expanded", "true");
         }
+
         document.body.style.overflow = "hidden";
       }
     }
@@ -215,7 +217,9 @@
         if (menuButton) {
           menuButton.setAttribute("aria-expanded", "false");
         }
+
         document.body.style.overflow = "";
+
         if (menuButton) {
           menuButton.focus();
         }
@@ -223,6 +227,7 @@
     }
     
     if (menuButton && menu && overlay) {
+
       menuButton.addEventListener("click", function () {
         var isExpanded = menuButton.getAttribute("aria-expanded") === "true";
         if (isExpanded) {
@@ -231,14 +236,17 @@
           openMenu();
         }
       });
+
       if (closeButton) {
         closeButton.addEventListener("click", function () {
           closeMenu();
         });
       }
+
       overlay.addEventListener("click", function () {
         closeMenu();
       });
+
       menuButton.addEventListener("keydown", function (e) {
         if (e.key === "Enter" || e.key === " ") {
           e.preventDefault();
@@ -250,6 +258,7 @@
           }
         }
       });
+
       document.addEventListener("keydown", function (e) {
         if (e.key === "Escape" && menuButton.getAttribute("aria-expanded") === "true") {
           closeMenu();
@@ -449,7 +458,7 @@
   <div class="f0000-wa-advanced-panel" id="f0000WaPanel">
     <div class="f0000-wa-advanced-header">
       <div class="f0000-wa-advanced-avatar">
-        <img src="/img/pjkf5g/logo.svg?v=o9vcc" alt="Destek temsilcisi"  loading="lazy"/>
+        <img src="/img/pjkf5g/logo.svg?v=jzhr3" alt="Destek temsilcisi"  loading="lazy"/>
         <div class="f0000-wa-advanced-status online"></div>
       </div>
       <div class="f0000-wa-advanced-info">
@@ -536,10 +545,10 @@
   <meta name="google-site-verification" content="9UY_kGQb1IGXMFMd4tQHzXABrXhZG-SiJ_lXYjWE69M" />
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=ac6b7"></script>
-  <script defer src="/src/mx-store.js?v=ac6b7"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=ac6b7"></script>
-  <script defer src="/src/cookie.js?v=ac6b7"></script>
+  <script defer src="/src/mx-ui.js?v=nhv9u"></script>
+  <script defer src="/src/mx-store.js?v=nhv9u"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=nhv9u"></script>
+  <script defer src="/src/cookie.js?v=nhv9u"></script>
 
 </body>
 

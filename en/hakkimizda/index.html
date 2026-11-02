@@ -35,20 +35,20 @@
   <link rel="preload" href="/src/fonts/inter/inter-latin-ext-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/inter/inter-latin-ext-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/inter/inter-latin-ext-700-normal.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/fonts/inter.css?v=tcbla" />
-  <link rel="stylesheet" href="/src/fonts/poppins.css?v=tcbla" />
-  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=tcbla" />
-  <link rel="stylesheet" href="/src/rubik.css?v=tcbla" />
-  <link rel="stylesheet" href="/src/css.css?v=tcbla" />
-  <link rel="stylesheet" href="/src/mx-ds.css?v=tcbla" />
+  <link rel="stylesheet" href="/src/fonts/inter.css?v=paxiq" />
+  <link rel="stylesheet" href="/src/fonts/poppins.css?v=paxiq" />
+  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=paxiq" />
+  <link rel="stylesheet" href="/src/rubik.css?v=paxiq" />
+  <link rel="stylesheet" href="/src/css.css?v=paxiq" />
+  <link rel="stylesheet" href="/src/mx-ds.css?v=paxiq" />
   
-  <link rel="stylesheet" href="/src/mx-ui.css?v=tcbla" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=paxiq" />
   <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=tcbla" />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=paxiq" />
   
-  <link rel="stylesheet" href="/src/cookie.css?v=tcbla" />
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=tcbla" />
-  <link rel="shortcut icon" href="/img/icon.png?v=tcbla" type="image/png" />
+  <link rel="stylesheet" href="/src/cookie.css?v=paxiq" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=paxiq" />
+  <link rel="shortcut icon" href="/img/icon.png?v=paxiq" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
@@ -131,7 +131,7 @@
 }
 </script>
   
-<link rel="stylesheet" href="style.css?v=tcbla">
+<link rel="stylesheet" href="style.css?v=paxiq">
 </head>
 
 <body>
@@ -166,7 +166,7 @@
   <div class="h0000Children">
     <div class="h0000body">
       <a href="/en/" aria-label="Home - Ajans Mobil Gaziantep" title="Home - Ajans Mobil Gaziantep">
-        <img src="/img/logo.svg?v=wf6kc" class="h0000bodylogo" alt="Ajans Mobil Gaziantep Logo" loading="lazy" />
+        <img src="/img/logo.svg?v=jnl5b" class="h0000bodylogo" alt="Ajans Mobil Gaziantep Logo" loading="lazy" />
       </a>
     </div>
     <button class="h0000menumobil" type="button" aria-label="Toggle Menu" aria-expanded="false" aria-controls="h0000menulist">
@@ -195,6 +195,7 @@
     var menu = document.querySelector(".h0000menulist");
     var overlay = document.querySelector(".h0000menuoverlay");
     var closeButton = document.querySelector(".h0000menuclose");
+
     function openMenu() {
       if (menu && overlay) {
         menu.classList.add("active");
@@ -203,6 +204,7 @@
         if (menuButton) {
           menuButton.setAttribute("aria-expanded", "true");
         }
+
         document.body.style.overflow = "hidden";
       }
     }
@@ -215,7 +217,9 @@
         if (menuButton) {
           menuButton.setAttribute("aria-expanded", "false");
         }
+
         document.body.style.overflow = "";
+
         if (menuButton) {
           menuButton.focus();
         }
@@ -223,6 +227,7 @@
     }
     
     if (menuButton && menu && overlay) {
+
       menuButton.addEventListener("click", function () {
         var isExpanded = menuButton.getAttribute("aria-expanded") === "true";
         if (isExpanded) {
@@ -231,14 +236,17 @@
           openMenu();
         }
       });
+
       if (closeButton) {
         closeButton.addEventListener("click", function () {
           closeMenu();
         });
       }
+
       overlay.addEventListener("click", function () {
         closeMenu();
       });
+
       menuButton.addEventListener("keydown", function (e) {
         if (e.key === "Enter" || e.key === " ") {
           e.preventDefault();
@@ -250,6 +258,7 @@
           }
         }
       });
+
       document.addEventListener("keydown", function (e) {
         if (e.key === "Escape" && menuButton.getAttribute("aria-expanded") === "true") {
           closeMenu();
@@ -444,7 +453,7 @@
   <div class="f0000-wa-advanced-panel" id="f0000WaPanel">
     <div class="f0000-wa-advanced-header">
       <div class="f0000-wa-advanced-avatar">
-        <img src="/img/pjkf5g/logo.svg?v=oei3k" alt="Support agent"  loading="lazy"/>
+        <img src="/img/pjkf5g/logo.svg?v=gh4wc" alt="Support agent"  loading="lazy"/>
         <div class="f0000-wa-advanced-status online"></div>
       </div>
       <div class="f0000-wa-advanced-info">
@@ -531,10 +540,10 @@
   <meta name="google-site-verification" content="9UY_kGQb1IGXMFMd4tQHzXABrXhZG-SiJ_lXYjWE69M" />
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=tcbla"></script>
-  <script defer src="/src/mx-store.js?v=tcbla"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=tcbla"></script>
-  <script defer src="/src/cookie.js?v=tcbla"></script>
+  <script defer src="/src/mx-ui.js?v=paxiq"></script>
+  <script defer src="/src/mx-store.js?v=paxiq"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=paxiq"></script>
+  <script defer src="/src/cookie.js?v=paxiq"></script>
 
 </body>
 
