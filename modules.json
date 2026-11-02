@@ -10,7 +10,10 @@
         "color": "#0B1120",
         "height": "100px",
         "background-color": "#F2F4F7",
-        "sticky": "true"
+        "sticky": "true",
+        "menubg": "",
+        "menutext": "#fff",
+        "menuhoverbg": "rgba(255,255,255,.18)"
       },
       "id": "f3hsb0",
       "category": "menu",
@@ -26,7 +29,9 @@
         "bgcolor": "#0B1120",
         "color": "#fff",
         "img": "",
-        "imgwidth": "250px"
+        "imgwidth": "250px",
+        "stil": "",
+        "showlang": true
       },
       "id": "ei3jbw",
       "category": "footer",
@@ -46,7 +51,9 @@
           "en": "Contact Us",
           "ar": "اتصل بنا"
         },
-        "margin": "30px 0px 30px 0px"
+        "margin": "30px 0px 30px 0px",
+        "stil": "",
+        "linkcolor": "#1B3A6B"
       },
       "data": [
         {
@@ -55,14 +62,27 @@
           "url": "tel:05316791014"
         },
         {
+          "icon": "chat",
+          "text": {
+            "tr": "WhatsApp ile yazın: 0531 679 10 14",
+            "en": "Message us on WhatsApp: 0531 679 10 14",
+            "ar": "راسلنا عبر واتساب: 0531 679 10 14"
+          },
+          "url": "https://wa.me/905316791014"
+        },
+        {
           "icon": "email",
           "text": "info@ajansmobil.com",
           "url": "mailto:info@ajansmobil.com"
         },
         {
           "icon": "map",
-          "text": "Gaziantep, Türkiye",
-          "url": ""
+          "text": {
+            "tr": "Gaziantep, Türkiye",
+            "en": "Gaziantep, Turkey",
+            "ar": "غازي عنتاب، تركيا"
+          },
+          "url": "https://maps.google.com/?q=Gaziantep"
         }
       ],
       "id": "a5mvw9",
@@ -81,13 +101,16 @@
       },
       "data": [
         {
-          "img": "taksi reklamları.jpg"
+          "img": "web tasarım.jpg"
         },
         {
-          "img": "belediye otobüs reklamları.jpg"
+          "img": "seo çalışmaları.jpg"
         },
         {
-          "img": "asansör reklamları.jpg"
+          "img": "sosyal medya.jpg"
+        },
+        {
+          "img": "google reklam yönetimi.jpg"
         }
       ],
       "id": "ayn5ph",
@@ -116,29 +139,6 @@
         "delay": 4000
       },
       "id": "i0uquh",
-      "category": "page-slider"
-    },
-    {
-      "index": 5,
-      "name": "Açık Hava ve Gezen Reklam",
-      "path": "page-slider-5",
-      "local": "body",
-      "desing": {
-        "page": "acikhava",
-        "name": {
-          "tr": "Açık Hava ve Gezen Reklam",
-          "en": "Outdoor and Mobile Advertising",
-          "ar": "الإعلانات الخارجية والمتنقلة"
-        },
-        "aspect-ratio": "3/2",
-        "size": 4,
-        "category": "",
-        "margin": "0px 0px 0px 0px",
-        "max": 8,
-        "delay": 4000,
-        "color": "#0B1120"
-      },
-      "id": "i0uquh2",
       "category": "page-slider"
     },
     {
@@ -196,49 +196,61 @@
         "font-size": "36",
         "backgroundcolor": "#0B1120",
         "menu-active": "#1D71B8",
-        "textcolor": "#fff"
+        "textcolor": "#fff",
+        "stil": "",
+        "activetext": "#fff",
+        "bgcolor": "#ffffff",
+        "border_radius": "8px",
+        "card_shadow": "0 10px 28px rgba(0, 0, 0, 0.08)",
+        "color": "#111111",
+        "colortitle": "#111111",
+        "coloractive": "#000000",
+        "ui": {
+          "tr": {
+            "home": "Anasayfa",
+            "products": "Ürünler",
+            "dimensions": "Ölçüler",
+            "dimNote": "Standart üretim referansıdır; proje bazında özelleştirilebilir.",
+            "quote": "Teklif Al",
+            "whatsapp": "WhatsApp",
+            "prev": "Önceki",
+            "next": "Sonraki"
+          },
+          "en": {
+            "home": "Home",
+            "products": "Products",
+            "dimensions": "Dimensions",
+            "dimNote": "Standard production reference; customizable per project.",
+            "quote": "Get Quote",
+            "whatsapp": "WhatsApp",
+            "prev": "Previous",
+            "next": "Next"
+          },
+          "ar": {
+            "home": "الرئيسية",
+            "products": "المنتجات",
+            "dimensions": "الأبعاد",
+            "dimNote": "مرجع إنتاج قياسي؛ قابل للتخصيص حسب المشروع.",
+            "quote": "عرض سعر",
+            "whatsapp": "واتساب",
+            "prev": "السابق",
+            "next": "التالي"
+          }
+        },
+        "noTitle": {
+          "tr": "Başlık Yok",
+          "en": "No title",
+          "ar": "بدون عنوان"
+        },
+        "productNavAria": {
+          "tr": "Ürün navigasyonu",
+          "en": "Product navigation",
+          "ar": "تنقل المنتج"
+        }
       },
       "id": "dajchd",
       "version": "1.0.0",
       "icon": "web"
-    },
-    {
-      "index": 8,
-      "name": "Sayfa Listesi Column",
-      "path": "page-column-4",
-      "local": "body",
-      "category": "page-list",
-      "id": "w0b18z",
-      "desing": {
-        "page": "services",
-        "bgcolor": "#0B1120",
-        "color": "#fff",
-        "height": "200px",
-        "font-size": "18px",
-        "opacity": "0.5",
-        "chilebgcolor": "#000",
-        "chilecolor": "#fff",
-        "chilesize": "16px"
-      }
-    },
-    {
-      "index": 9,
-      "name": "Sayfa Listesi Column",
-      "path": "page-column-4",
-      "local": "body",
-      "category": "page-list",
-      "id": "x9g8bp",
-      "desing": {
-        "page": "acikhava",
-        "bgcolor": "#0B1120",
-        "color": "#fff",
-        "height": "200px",
-        "font-size": "18px",
-        "opacity": "0.5",
-        "chilebgcolor": "#000",
-        "chilecolor": "#fff",
-        "chilesize": "16px"
-      }
     },
     {
       "index": 10,
@@ -281,9 +293,63 @@
         "z_index": 10000,
         "advanced_features": true,
         "custom_functions": true,
-        "advanced_integration": true
+        "advanced_integration": true,
+        "avatarAlt": {
+          "tr": "Destek temsilcisi",
+          "en": "Support agent",
+          "ar": "ممثل الدعم"
+        }
       },
       "data": []
+    },
+    {
+      "name": "Page Desing 2",
+      "desing": {
+        "height": "100",
+        "opacity": "0.5",
+        "font-size": "50",
+        "backgroundcolor": "#000",
+        "textcolor": "#fff",
+        "category": "page"
+      },
+      "category": "page",
+      "description": "Page Desing 2 modülü. 2 farklı web projesinde kullanılmaktadır. İçerik sunumu ve görsel düzenleme için tasarlanmıştır.",
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "id": "vnze3j",
+      "path": "page-text",
+      "local": "body",
+      "data": [],
+      "index": 9
+    },
+    {
+      "name": "Sayfa Listesi Column",
+      "desing": {
+        "page": "services",
+        "bgcolor": "#0B1120",
+        "color": "#fff",
+        "height": "200px",
+        "font-size": "18px",
+        "opacity": "0.5",
+        "chilebgcolor": "#000",
+        "chilecolor": "#fff",
+        "chilesize": "16px"
+      },
+      "category": "page-list",
+      "description": "İçerikleri sütun düzeninde gösteren responsive modül. Kategori ve hizmet sunumlarında etkili görünüm sağlar.",
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "id": "hieibz",
+      "path": "page-column-3",
+      "local": "body",
+      "data": [],
+      "index": 10
     }
   ]
 }

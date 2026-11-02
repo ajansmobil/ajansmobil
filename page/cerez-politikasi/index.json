@@ -1,0 +1,43 @@
+{
+  "id": "cerez-politikasi",
+  "name": {
+    "tr": "Çerez Politikası",
+    "en": "Cookie Policy",
+    "ar": "سياسة ملفات تعريف الارتباط"
+  },
+  "description": {
+    "tr": "Bu politika, Ajans Mobil tarafından işletilen https://ajansmobil.com internet sitesinde kullanılan çerezleri, bunların hangi amaçlarla kullanıldığını ve…",
+    "en": "This policy explains the cookies used on the ajansmobil.com website, their purposes and how you can manage your preferences.",
+    "ar": "توضح هذه السياسة ملفات تعريف الارتباط المستخدمة على موقع ajansmobil.com وأغراضها وكيفية إدارة تفضيلاتك."
+  },
+  "keyword": {
+    "tr": "çerez politikası, ajans mobil, kvkk",
+    "en": "cookie policy, ajans mobil, privacy",
+    "ar": "سياسة ملفات تعريف الارتباط، أجانس موبيل، الخصوصية"
+  },
+  "path": "cerez-politikasi",
+  "icon": "cookie",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "vnze3j"
+    ],
+    "footer": []
+  },
+  "index": 8,
+  "url": "",
+  "text": {
+    "tr": "<article class=\"wm-metin\">\n<h2>Çerez Politikası</h2>\n<p class=\"lead\">Bu politika, Ajans Mobil tarafından işletilen https://ajansmobil.com internet sitesinde kullanılan çerezleri, bunların hangi amaçlarla kullanıldığını ve tercihlerinizi nasıl yönetebileceğinizi açıklar. Çerezler aracılığıyla elde edilen kişisel veriler 6698 sayılı Kişisel Verilerin Korunması Kanunu’na uygun olarak işlenir.</p>\n<h3>Çerez nedir?</h3>\n<p>Çerezler, bir internet sitesini ziyaret ettiğinizde tarayıcınız aracılığıyla cihazınıza kaydedilen küçük metin dosyalarıdır. Oturumunuzun sürdürülmesi, tercihlerinizin hatırlanması ve sitenin nasıl kullanıldığının anlaşılması gibi amaçlara hizmet eder. Çerezler, tarayıcı kapatıldığında silinen oturum çerezleri veya belirli bir süre cihazda kalan kalıcı çerezler olabilir.</p>\n<h3>Kullandığımız çerez türleri</h3>\n<p>Sitemizde aşağıdaki kategorilerde çerezler kullanılabilir:</p>\n<ul>\n<li><strong>Zorunlu çerezler:</strong> Sitenin temel işlevlerinin, güvenliğin ve oturumun sağlanması için gereklidir; devre dışı bırakılmaları sitenin çalışmasını engelleyebilir.</li>\n<li><strong>İşlevsel çerezler:</strong> Dil, bölge veya görünüm gibi tercihlerinizi hatırlayarak daha kişisel bir deneyim sunar.</li>\n<li><strong>Analitik çerezler:</strong> Ziyaretçilerin siteyi nasıl kullandığını toplu olarak ölçerek sitenin iyileştirilmesine yardımcı olur.</li>\n<li><strong>Pazarlama çerezleri:</strong> İlgi alanlarınıza uygun içerik ve reklamların gösterilmesi amacıyla kullanılır.</li>\n</ul>\n<h3>Onay ve tercihlerin yönetimi</h3>\n<p>Zorunlu çerezler dışındaki çerezler yalnızca açık rızanız alınarak kullanılır. Sitemizi ilk ziyaretinizde gösterilen çerez bildirimi üzerinden tercihlerinizi belirleyebilir, verdiğiniz onayı dilediğiniz zaman geri alabilirsiniz.</p>\n<p>Ayrıca tarayıcınızın ayarlar bölümündeki gizlilik veya site verileri seçenekleri aracılığıyla çerezleri görüntüleyebilir, silebilir ya da engelleyebilirsiniz. Çerezleri tamamen engellemeniz hâlinde sitenin bazı bölümleri beklendiği gibi çalışmayabilir.</p>\n<h3>Haklarınız</h3>\n<p>Çerezler aracılığıyla işlenen kişisel verilerinize ilişkin olarak Kanun’un 11. maddesindeki haklarınızı kullanmak için info@ajansmobil.com adresine başvurabilirsiniz.</p>\n<aside class=\"vurgu-kutusu\"><strong>Son güncelleme:</strong> 2026-11-02. Kullandığımız çerezlerde değişiklik olduğunda bu politika güncellenir.</aside>\n</article>",
+    "en": "<article class=\"wm-metin\">\n<h2>Cookie Policy</h2>\n<p class=\"lead\">This policy explains the cookies used on the website https://ajansmobil.com operated by Ajans Mobil, the purposes they are used for and how you can manage your preferences. Personal data obtained through cookies is processed in accordance with the Turkish Personal Data Protection Law No. 6698.</p>\n<h3>What is a cookie?</h3>\n<p>Cookies are small text files saved on your device by your browser when you visit a website. They serve purposes such as keeping your session going, remembering your preferences and understanding how the site is used. Cookies may be session cookies, deleted when the browser is closed, or persistent cookies that stay on the device for a set period.</p>\n<h3>Types of cookies we use</h3>\n<p>The following categories of cookies may be used on our site:</p>\n<ul>\n<li><strong>Strictly necessary cookies:</strong> Required for the site's basic functions, security and session; disabling them may prevent the site from working.</li>\n<li><strong>Functional cookies:</strong> Remember preferences such as language, region or appearance to provide a more personal experience.</li>\n<li><strong>Analytics cookies:</strong> Measure in aggregate how visitors use the site, helping to improve it.</li>\n<li><strong>Marketing cookies:</strong> Used to show content and advertisements suited to your interests.</li>\n</ul>\n<h3>Consent and managing preferences</h3>\n<p>Cookies other than strictly necessary ones are used only with your explicit consent. You can set your preferences through the cookie notice shown on your first visit and withdraw your consent at any time.</p>\n<p>You can also view, delete or block cookies through the privacy or site-data options in your browser settings. If you block cookies completely, some parts of the site may not work as expected.</p>\n<h3>Your rights</h3>\n<p>To exercise your rights under Article 11 of the Law regarding personal data processed through cookies, you can contact us at info@ajansmobil.com.</p>\n<aside class=\"vurgu-kutusu\"><strong>Last updated:</strong> 2026-11-02. This policy is updated when the cookies we use change.</aside>\n</article>",
+    "ar": "<article class=\"wm-metin\">\n<h2>سياسة ملفات تعريف الارتباط (الكوكيز)</h2>\n<p class=\"lead\">توضح هذه السياسة ملفات تعريف الارتباط المستخدمة على الموقع https://ajansmobil.com الذي تديره أجانس موبيل، والأغراض التي تُستخدم من أجلها، وكيفية إدارة تفضيلاتك. تُعالج البيانات الشخصية التي يتم الحصول عليها عبر ملفات تعريف الارتباط وفق قانون حماية البيانات الشخصية التركي رقم 6698.</p>\n<h3>ما هي ملفات تعريف الارتباط؟</h3>\n<p>هي ملفات نصية صغيرة يحفظها المتصفح على جهازك عند زيارة موقع إلكتروني. وتخدم أغراضًا مثل استمرار جلستك وتذكّر تفضيلاتك وفهم كيفية استخدام الموقع. وقد تكون ملفات جلسة تُحذف عند إغلاق المتصفح، أو ملفات دائمة تبقى على الجهاز مدة محددة.</p>\n<h3>أنواع ملفات تعريف الارتباط التي نستخدمها</h3>\n<p>قد تُستخدم الفئات التالية من ملفات تعريف الارتباط على موقعنا:</p>\n<ul>\n<li><strong>ملفات ضرورية:</strong> لازمة للوظائف الأساسية للموقع والأمان والجلسة؛ وقد يؤدي تعطيلها إلى توقف الموقع عن العمل.</li>\n<li><strong>ملفات وظيفية:</strong> تتذكر تفضيلات مثل اللغة أو المنطقة أو المظهر لتقديم تجربة أكثر خصوصية.</li>\n<li><strong>ملفات تحليلية:</strong> تقيس بشكل إجمالي كيفية استخدام الزوار للموقع للمساعدة في تحسينه.</li>\n<li><strong>ملفات تسويقية:</strong> تُستخدم لعرض محتوى وإعلانات تناسب اهتماماتك.</li>\n</ul>\n<h3>الموافقة وإدارة التفضيلات</h3>\n<p>لا تُستخدم ملفات تعريف الارتباط غير الضرورية إلا بموافقتك الصريحة. يمكنك تحديد تفضيلاتك من خلال إشعار ملفات تعريف الارتباط الذي يظهر عند أول زيارة، وسحب موافقتك في أي وقت.</p>\n<p>ويمكنك أيضًا عرض ملفات تعريف الارتباط أو حذفها أو حظرها من خيارات الخصوصية أو بيانات المواقع في إعدادات المتصفح. وإذا حظرتها بالكامل فقد لا تعمل بعض أجزاء الموقع كما هو متوقع.</p>\n<h3>حقوقك</h3>\n<p>لممارسة حقوقك بموجب المادة 11 من القانون بشأن البيانات الشخصية المعالجة عبر ملفات تعريف الارتباط، يمكنك التواصل معنا على info@ajansmobil.com.</p>\n<aside class=\"vurgu-kutusu\"><strong>آخر تحديث:</strong> 2026-11-02. تُحدَّث هذه السياسة عند تغيّر ملفات تعريف الارتباط التي نستخدمها.</aside>\n</article>"
+  },
+  "title": {
+    "tr": "Çerez Politikası | Ajans Mobil Gaziantep",
+    "en": "Cookie Policy | Ajans Mobil Gaziantep",
+    "ar": "سياسة ملفات تعريف الارتباط | أجانس موبيل غازي عنتاب"
+  },
+  "date": "2026-11-02T06:33:16.418Z",
+  "update": "2026-11-02T06:33:37.298Z"
+}

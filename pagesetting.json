@@ -58,27 +58,11 @@
           "dajchd"
         ],
         "footer": []
-      }
-    },
-    {
-      "name": {
-        "tr": "Açık Hava Reklamları",
-        "en": "Açık Hava Reklamları",
-        "ar": "Açık Hava Reklamları"
-      },
-      "path": "acikhava",
-      "desc": [],
-      "data": [],
-      "index": 3,
-      "desing": {
-        "header": [],
-        "body": [
-          "dajchd"
-        ],
-        "footer": []
       },
       "modulestatus": {
-        "img": true
+        "page": true,
+        "body": true,
+        "detail": true
       }
     }
   ]

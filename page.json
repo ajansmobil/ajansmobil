@@ -11,7 +11,7 @@
   "modulestatus": {
     "page": true,
     "body": true,
-    "detail": false,
+    "detail": true,
     "img": false
   },
   "data": [
@@ -29,14 +29,15 @@
       "desing": {
         "header": [],
         "body": [
-          "dajchd"
+          "dajchd",
+          "vnze3j"
         ],
         "footer": []
       },
       "description": {
-        "tr": "2018'den beri dijital dünyaya yenilikçi çözümler sunan Ajans Mobil, müşteri odaklı yaklaşımı ve teknolojik yeniliklere adaptasyonu ile sektörde öncü konumda.",
-        "en": "Ajans Mobil, which has been offering innovative solutions to the digital world since 2018, is in a leading position in the industry with its customer-focused approach and adaptation to technological innovations.",
-        "ar": "أجانس موبيل، التي تقدم حلولاً مبتكرة للعالم الرقمي منذ عام 2018، في موقع رائد في الصناعة مع نهجها المرتكز على العملاء والتكيف مع الابتكارات التكنولوجية."
+        "tr": "Ajans Mobil, Gaziantep merkezli dijital ajans: web tasarım, mobil uygulama ve özel uygulama geliştirme, SEO ve dijital pazarlama. Misyon, vizyon ve kurumsal bilgiler.",
+        "en": "Ajans Mobil is a Gaziantep digital agency: web design, mobile app and custom application development, SEO and digital marketing. Mission, vision and corporate information.",
+        "ar": "أجانس موبيل وكالة رقمية في غازي عنتاب: تصميم مواقع وتطبيقات جوال وتطبيقات مخصصة وSEO وتسويق رقمي. المهمة والرؤية والمعلومات المؤسسية."
       },
       "pathnext": "hakkimizda",
       "icon": "home"
@@ -60,35 +61,10 @@
       "desing": {
         "header": [],
         "body": [
-          "w0b18z"
+          "hieibz",
+          "vnze3j"
         ],
         "footer": []
-      },
-      "pathnext": "",
-      "icon": "home"
-    },
-    {
-      "name": {
-        "tr": "Açık Hava Hizmetlerimiz",
-        "en": "Our Outdoor Services",
-        "ar": "خدماتنا الخارجية"
-      },
-      "status": "play",
-      "category": "",
-      "id": "r5pfkgahxx",
-      "path": "acik-hava-hizmetlerimiz",
-      "index": 2,
-      "desing": {
-        "header": [],
-        "body": [
-          "x9g8bp"
-        ],
-        "footer": []
-      },
-      "description": {
-        "tr": "Ajans Mobil referans projeleri - Gaziantep'te web tasarım, dijital pazarlama ve açık hava reklamcılığı alanında başarıyla tamamladığımız projeler ve memnun müşterilerimiz.",
-        "en": "Ajans Mobil reference projects - Projects we have successfully completed in web design, digital marketing and outdoor advertising in Gaziantep and our satisfied customers.",
-        "ar": "مشاريع مرجع أجانس موبيل - المشاريع التي أكملناها بنجاح في تصميم الويب والتسويق الرقمي والإعلانات الخارجية في غازي عنتاب وعملاؤنا الراضون."
       },
       "pathnext": "",
       "icon": "home"
@@ -103,7 +79,7 @@
       "category": "",
       "id": "b3tnz1e6ic",
       "path": "iletisim",
-      "index": 3,
+      "index": 2,
       "desing": {
         "header": [],
         "body": [
@@ -112,9 +88,9 @@
         "footer": []
       },
       "description": {
-        "tr": "Ajans Mobil Gaziantep iletişim bilgileri - Dijital pazarlama, web tasarım ve reklam hizmetleri için bize ulaşın. Profesyonel çözümler için yanınızdayız.",
-        "en": "Ajans Mobil Gaziantep contact information - Contact us for digital marketing, web design and advertising services. We are here for professional solutions.",
-        "ar": "معلومات الاتصال أجانس موبيل غازي عنتاب - اتصل بنا للحصول على خدمات التسويق الرقمي وتصميم الويب والإعلان. نحن هنا للحلول المهنية."
+        "tr": "Ajans Mobil Gaziantep iletişim: telefon, WhatsApp ve e-posta ile web tasarım, mobil uygulama ve özel uygulama projeleriniz için bize ulaşın.",
+        "en": "Contact Ajans Mobil Gaziantep by phone, WhatsApp or e-mail for your web design, mobile app and custom application projects.",
+        "ar": "تواصل مع أجانس موبيل غازي عنتاب عبر الهاتف أو واتساب أو البريد لمشاريع تصميم المواقع وتطبيقات الجوال والتطبيقات المخصصة."
       },
       "icon": "home"
     }

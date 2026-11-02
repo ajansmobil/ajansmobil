@@ -1,20 +1,53 @@
 {
-  "name": "Hizmetlerimiz",
-  "path": "services",
-  "desc": [],
-  "index": 1,
-  "desing": {
-    "header": [],
-    "body": [
-      "dajchd"
-    ],
-    "footer": []
-  },
-  "modulestatus": {
-    "img": true,
-    "detail": true
-  },
   "data": [
+    {
+      "id": "egsgh4ls65",
+      "name": {
+        "tr": "Özel Uygulama Geliştirme",
+        "en": "Custom Application Development",
+        "ar": "تطوير التطبيقات المخصصة"
+      },
+      "description": {
+        "tr": "Gaziantep özel yazılım ve uygulama geliştirme: işletmenize özel web tabanlı uygulamalar, yönetim panelleri ve API entegrasyonları.",
+        "en": "Custom software and application development in Gaziantep: tailor-made web applications, admin panels and API integrations.",
+        "ar": "تطوير البرمجيات والتطبيقات المخصصة في غازي عنتاب: تطبيقات ويب ولوحات إدارة وتكامل API مصممة لنشاطك."
+      },
+      "path": "ozel-uygulama-gelistirme",
+      "icon": "home",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "index": 0,
+      "img": "ozel1.webp"
+    },
+    {
+      "id": "zh2u4fbto0",
+      "name": {
+        "tr": "Mobil Uygulama",
+        "en": "Mobile Application",
+        "ar": "تطبيقات الجوال"
+      },
+      "description": {
+        "tr": "Gaziantep mobil uygulama geliştirme: Flutter ile iOS ve Android uygulamaları, web/panel entegrasyonu ve yayın sonrası bakım.",
+        "en": "Mobile app development in Gaziantep: iOS and Android apps with Flutter, web/panel integration and post-release maintenance.",
+        "ar": "تطوير تطبيقات الجوال في غازي عنتاب: تطبيقات iOS وأندرويد بتقنية Flutter وتكامل مع الموقع واللوحة وصيانة بعد الإصدار."
+      },
+      "path": "mobil-uygulama",
+      "icon": "home",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "index": 1,
+      "img": "mobil1.webp"
+    },
     {
       "name": {
         "tr": "Web Tasarım",
@@ -26,7 +59,7 @@
       "id": "ytf1pt3kuv",
       "url": "",
       "path": "web-tasarim",
-      "index": 0,
+      "index": 2,
       "desing": {
         "header": [],
         "body": [],
@@ -36,9 +69,9 @@
       "icon": "home",
       "img": "gh69q.webp",
       "description": {
-        "tr": "Ajans Mobil Gaziantep web tasarım hizmetleri - Mobil uyumlu, SEO uyumlu, hızlı ve modern web siteleri. Kurumsal web tasarım, e-ticaret sitesi ve özel yazılım çözümleri.",
-        "en": "Ajans Mobil Gaziantep web design services - Mobile compatible, SEO compatible, fast and modern websites. Corporate web design, e-commerce site and custom software solutions.",
-        "ar": "خدمات تصميم الويب أجانس موبيل غازي عنتاب - مواقع ويب متوافقة مع الجوال ومتوافقة مع SEO وسريعة وحديثة. تصميم الويب المؤسسي وموقع التجارة الإلكترونية وحلول البرمجيات المخصصة."
+        "tr": "Gaziantep web tasarım: kurumsal site, e-ticaret, mobil uyumlu ve SEO uyumlu web siteleri. Türkçe, İngilizce, Arapça çok dilli yapı.",
+        "en": "Web design in Gaziantep: corporate sites, e-commerce, mobile-friendly and SEO-ready websites with Turkish, English and Arabic support.",
+        "ar": "تصميم مواقع في غازي عنتاب: مواقع مؤسسية وتجارة إلكترونية متوافقة مع الجوال ومحركات البحث وبدعم التركية والإنجليزية والعربية."
       }
     },
     {
@@ -52,7 +85,7 @@
       "id": "atv4542pic",
       "url": "",
       "path": "reklam-yonetimi",
-      "index": 1,
+      "index": 3,
       "desing": {
         "header": [],
         "body": [],
@@ -62,9 +95,9 @@
       "icon": "home",
       "img": "va4tn.webp",
       "description": {
-        "tr": "Gaziantep Google Ads ve sosyal medya reklam yönetimi - Facebook, Instagram, Google reklamları ile hedef kitlenize ulaşın. ROI odaklı dijital reklam kampanyaları.",
-        "en": "Gaziantep Google Ads and social media advertising management - Reach your target audience with Facebook, Instagram, Google ads. ROI-focused digital advertising campaigns.",
-        "ar": "إدارة إعلانات Google Ads ووسائل التواصل الاجتماعي غازي عنتاب - الوصول إلى جمهورك المستهدف مع إعلانات فيسبوك وإنستغرام وجوجل. حملات إعلانية رقمية تركز على ROI."
+        "tr": "Gaziantep Google Ads ve sosyal medya reklam yönetimi: hedef kitleye göre kampanya kurulumu, yönetim ve düzenli raporlama.",
+        "en": "Google Ads and social media advertising management in Gaziantep: audience-based campaign setup, management and regular reporting.",
+        "ar": "إدارة إعلانات جوجل ووسائل التواصل في غازي عنتاب: إعداد الحملات وفق الجمهور وإدارتها وتقارير منتظمة."
       }
     },
     {
@@ -78,7 +111,7 @@
       "id": "h9f506txbw",
       "url": "",
       "path": "seo-hizmeti",
-      "index": 2,
+      "index": 4,
       "icon": "home",
       "desing": {
         "header": [],
@@ -88,9 +121,9 @@
       "pathnext": "",
       "img": "xxeqs.webp",
       "description": {
-        "tr": "Gaziantep SEO hizmetleri - Google'da 1. sayfaya çıkın. Anahtar kelime analizi, teknik SEO, içerik optimizasyonu ve link building ile organik trafik artışı.",
-        "en": "Gaziantep SEO services - Get to page 1 on Google. Organic traffic increase with keyword analysis, technical SEO, content optimization and link building.",
-        "ar": "خدمات SEO غازي عنتاب - احصل على الصفحة الأولى في Google. زيادة حركة المرور العضوية مع تحليل الكلمات المفتاحية وSEO التقني وتحسين المحتوى وبناء الروابط."
+        "tr": "Gaziantep SEO hizmeti: teknik SEO denetimi, anahtar kelime ve içerik planı, yerel SEO ve düzenli raporlama.",
+        "en": "SEO service in Gaziantep: technical SEO audit, keyword and content plan, local SEO and regular reporting.",
+        "ar": "خدمة SEO في غازي عنتاب: تدقيق تقني وخطة كلمات مفتاحية ومحتوى وSEO محلي وتقارير منتظمة."
       }
     },
     {
@@ -104,7 +137,7 @@
       "id": "w7pm6byfyq",
       "url": "",
       "path": "sosyal-media",
-      "index": 3,
+      "index": 5,
       "icon": "home",
       "desing": {
         "header": [],
@@ -114,9 +147,9 @@
       "pathnext": "",
       "img": "cxfvs.webp",
       "description": {
-        "tr": "Gaziantep sosyal medya yönetimi - Instagram, Facebook, LinkedIn ve Twitter profesyonel içerik üretimi ve yönetimi. Marka bilinirliği ve etkileşim artışı.",
-        "en": "Gaziantep social media management - Professional content production and management for Instagram, Facebook, LinkedIn and Twitter. Brand awareness and engagement increase.",
-        "ar": "إدارة وسائل التواصل الاجتماعي غازي عنتاب - إنتاج المحتوى الاحترافي وإدارته لإنستغرام وفيسبوك ولينكد إن وتويتر. زيادة الوعي بالعلامة التجارية والتفاعل."
+        "tr": "Gaziantep sosyal medya yönetimi: içerik takvimi, gönderi ve hikâye tasarımı, hesap yönetimi ve aylık raporlama.",
+        "en": "Social media management in Gaziantep: content calendar, post and story design, account management and monthly reporting.",
+        "ar": "إدارة وسائل التواصل في غازي عنتاب: تقويم محتوى وتصميم منشورات وقصص وإدارة حسابات وتقارير شهرية."
       }
     },
     {
@@ -130,7 +163,7 @@
       "id": "p6okllk1m0",
       "url": "",
       "path": "fotograf-cekimi",
-      "index": 4,
+      "index": 6,
       "icon": "home",
       "desing": {
         "header": [],
@@ -140,10 +173,22 @@
       "pathnext": "",
       "img": "byl8k.webp",
       "description": {
-        "tr": "Gaziantep profesyonel fotoğraf çekimi - Ürün fotoğrafçılığı, kurumsal fotoğraf, food photography, mimari fotoğraf. E-ticaret ve katalog için profesyonel görseller.",
-        "en": "Gaziantep professional photography - Product photography, corporate photography, food photography, architectural photography. Professional visuals for e-commerce and catalogs.",
-        "ar": "التصوير الفوتوغرافي الاحترافي غازي عنتاب - تصوير المنتجات والتصوير المؤسسي وتصوير الطعام والتصوير المعماري. صور احترافية للتجارة الإلكترونية والكتالوجات."
+        "tr": "Gaziantep ürün ve tanıtım fotoğraf çekimi: web, sosyal medya ve basılı materyal için düzenlenmiş görseller.",
+        "en": "Product and promotional photography in Gaziantep: images edited for web, social media and print.",
+        "ar": "تصوير المنتجات والتصوير الترويجي في غازي عنتاب: صور معدّة للويب ووسائل التواصل والمطبوعات."
       }
     }
-  ]
+  ],
+  "desc": [],
+  "desing": {
+    "header": [],
+    "body": [
+      "dajchd"
+    ],
+    "footer": []
+  },
+  "modulestatus": {
+    "img": true,
+    "detail": true
+  }
 }

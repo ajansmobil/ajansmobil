@@ -1,0 +1,31 @@
+# Ajans Mobil Gaziantep
+
+> Ajans Mobil Gaziantep: web tasarım, mobil uygulama ve özel uygulama geliştirme, SEO, sosyal medya ve dijital reklam yönetimi. WhatsApp ile hemen yazın.
+
+Web: https://ajansmobil.com/tr/ · Adres: Gaziantep, Türkiye · Telefon: 0531 679 10 14 · E-posta: info@ajansmobil.com · Diller: tr, en, ar (varsayilan: tr)
+
+## Sayfalar
+- [Ajans Mobil Gaziantep](https://ajansmobil.com/tr/): Ajans Mobil Gaziantep: web tasarım, mobil uygulama ve özel uygulama geliştirme, SEO, sosyal medya ve dijital reklam yönetimi.
+- [Kurumsal](https://ajansmobil.com/tr/hakkimizda/): Ajans Mobil, Gaziantep merkezli dijital ajans: web tasarım, mobil uygulama ve özel uygulama geliştirme, SEO ve dijital pazarlama.
+- [Dijital Hizmetlerimiz](https://ajansmobil.com/tr/hizmetlerimiz/): Web tasarım, mobil uygulama geliştirme, sosyal medya yönetimi ve dijital pazarlama alanlarında profesyonel hizmetler sunuyoruz.
+- [İletişim](https://ajansmobil.com/tr/iletisim/): Ajans Mobil Gaziantep iletişim: telefon, WhatsApp ve e-posta ile web tasarım, mobil uygulama ve özel uygulama projeleriniz için bize ulaşın.
+- [Özel Uygulama Geliştirme](https://ajansmobil.com/tr/ozel-uygulama-gelistirme/): Gaziantep özel yazılım ve uygulama geliştirme: işletmenize özel web tabanlı uygulamalar, yönetim panelleri ve API entegrasyonları.
+- [Mobil Uygulama](https://ajansmobil.com/tr/mobil-uygulama/): Gaziantep mobil uygulama geliştirme: Flutter ile iOS ve Android uygulamaları, web/panel entegrasyonu ve yayın sonrası bakım.
+- [Web Tasarım](https://ajansmobil.com/tr/web-tasarim/): Gaziantep web tasarım: kurumsal site, e-ticaret, mobil uyumlu ve SEO uyumlu web siteleri.
+- [Reklam Yönetimi](https://ajansmobil.com/tr/reklam-yonetimi/): Gaziantep Google Ads ve sosyal medya reklam yönetimi: hedef kitleye göre kampanya kurulumu, yönetim ve düzenli raporlama.
+- [Seo Hizmeti](https://ajansmobil.com/tr/seo-hizmeti/): Gaziantep SEO hizmeti: teknik SEO denetimi, anahtar kelime ve içerik planı, yerel SEO ve düzenli raporlama.
+- [Sosyal Media](https://ajansmobil.com/tr/sosyal-media/): Gaziantep sosyal medya yönetimi: içerik takvimi, gönderi ve hikâye tasarımı, hesap yönetimi ve aylık raporlama.
+- [Fotoğraf Çekimi](https://ajansmobil.com/tr/fotograf-cekimi/): Gaziantep ürün ve tanıtım fotoğraf çekimi: web, sosyal medya ve basılı materyal için düzenlenmiş görseller.
+- [Hakkımızda](https://ajansmobil.com/tr/hakkimizda/): Ajans Mobil, Gaziantep'te web tasarım, mobil uygulama ve özel uygulama geliştirme, SEO ve dijital pazarlama hizmetleri veren dijital ajanstır.
+- [Misyon](https://ajansmobil.com/tr/misyon/): Ajans Mobil'in misyonu: işletmelere web, mobil ve özel uygulamalarla güçlü, sürdürülebilir bir dijital varlık kazandırmak.
+- [Vizyon](https://ajansmobil.com/tr/vizyon/): Ajans Mobil'in vizyonu: web, mobil ve özel uygulama geliştirmede güvenilir, kullanışlı ve kalıcı dijital ürünler üretmek.
+- [Kalite Politikamız](https://ajansmobil.com/tr/kalite-politikamiz/): Ajans Mobil kalite politikası: ihtiyacı doğru anlama, açık iletişim, teslim öncesi kontrol, veri güvenliği ve sürekli iyileştirme.
+- [Gizlilik Politikası](https://ajansmobil.com/tr/gizlilik-politikasi/): Ajans Mobil gizlilik politikası - Kişisel verilerin korunması, KVKK uyumluluğu, çerez politikası ve veri güvenliği taahhütlerimiz.
+- [Kişisel Veriler](https://ajansmobil.com/tr/kisisel-veriler-be2/): Ajans Mobil KVKK aydınlatma metni - Kişisel verilerin işlenmesi, veri sorumlusu bilgileri, işleme amaçları ve saklama süreleri.
+- [Kullanıcı Hakları](https://ajansmobil.com/tr/kullanici-haklari/): Ajans Mobil kullanıcı hakları - Web sitesi kullanım şartları, telif hakları, kullanıcı sorumlulukları ve yasal haklar.
+- [Yasal Uyarı](https://ajansmobil.com/tr/yasal-uyari-mh6/): Ajans Mobil yasal uyarı - Web sitesi kullanım şartları, sorumluluk reddi beyanı, dış bağlantılar ve feragatname.
+- [Çerez Politikası](https://ajansmobil.com/tr/cerez-politikasi/): Bu politika, Ajans Mobil tarafından işletilen https://ajansmobil.com internet sitesinde kullanılan çerezleri, bunların hangi amaçlarla kullanıldığını ve…
+
+## Diger
+- [sitemap.xml](https://ajansmobil.com/sitemap.xml): tum URL listesi
+- [llms-full.txt](https://ajansmobil.com/llms-full.txt): sayfa govdeleri duz metin

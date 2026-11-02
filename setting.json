@@ -1,14 +1,14 @@
 {
   "order": false,
   "description": {
-    "tr": "Gaziantep açık hava reklamcılığı, asansör reklamı, sosyal medya yönetimi ve web tasarım hizmetleri. Otobüs, taksi, tramvay ve dijital çözümlerle markanızı görünür kılın.",
-    "en": "Outdoor advertising, elevator ads, social media management and web design in Gaziantep. Bus, taxi, tram and digital solutions to boost your brand visibility.",
-    "ar": "إعلانات خارجية ومصاعد وإدارة وسائل التواصل وتصميم مواقع في غازي عنتاب. حلول الحافلات والتاكسي والترام والرقمية لزيادة ظهور علامتك."
+    "tr": "Ajans Mobil Gaziantep: web tasarım, mobil uygulama ve özel uygulama geliştirme, SEO, sosyal medya ve dijital reklam yönetimi. WhatsApp ile hemen yazın.",
+    "en": "Ajans Mobil Gaziantep: web design, mobile app and custom application development, SEO, social media and digital advertising management. Message us on WhatsApp.",
+    "ar": "أجانس موبيل غازي عنتاب: تصميم مواقع وتطبيقات جوال وتطبيقات مخصصة وSEO وإدارة وسائل التواصل والإعلانات الرقمية. راسلنا عبر واتساب."
   },
   "keyword": {
-    "tr": "açık hava reklam, asansör reklamı, otobüs reklamı, taksi reklamı, sosyal medya, web tasarım, ajans mobil gaziantep",
-    "en": "outdoor advertising, elevator ads, bus ads, taxi ads, social media, web design, ajans mobil gaziantep",
-    "ar": "إعلانات خارجية, إعلانات المصاعد, إعلانات الحافلات, إعلانات التاكسي, وسائل التواصل, تصميم مواقع, أجانس موبيل"
+    "tr": "web tasarım gaziantep, mobil uygulama geliştirme, özel yazılım, özel uygulama geliştirme, seo hizmeti, sosyal medya yönetimi, dijital ajans, ajans mobil",
+    "en": "web design gaziantep, mobile app development, custom software, custom application development, seo service, social media management, digital agency, ajans mobil",
+    "ar": "تصميم مواقع غازي عنتاب، تطوير تطبيقات جوال، برمجيات مخصصة، تطوير تطبيقات مخصصة، خدمة seo، إدارة وسائل التواصل، وكالة رقمية، أجانس موبيل"
   },
   "user": false,
   "status": "Kurumsal",
@@ -39,5 +39,12 @@
     "ko": false,
     "pt": false
   },
-  "multi": false
+  "multi": false,
+  "firma": {
+    "unvan": "Ajans Mobil",
+    "telefon": "0531 679 10 14",
+    "eposta": "info@ajansmobil.com",
+    "adres": "Gaziantep, Türkiye",
+    "site": "https://ajansmobil.com"
+  }
 }

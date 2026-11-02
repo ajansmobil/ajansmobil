@@ -1,0 +1,42 @@
+{
+  "id": "zh2u4fbto0",
+  "name": {
+    "tr": "Mobil Uygulama",
+    "en": "Mobile Application",
+    "ar": "تطبيقات الجوال"
+  },
+  "description": {
+    "tr": "Gaziantep mobil uygulama geliştirme: Flutter ile iOS ve Android uygulamaları, web/panel entegrasyonu ve yayın sonrası bakım.",
+    "en": "Mobile app development in Gaziantep: iOS and Android apps with Flutter, web/panel integration and post-release maintenance.",
+    "ar": "تطوير تطبيقات الجوال في غازي عنتاب: تطبيقات iOS وأندرويد بتقنية Flutter وتكامل مع الموقع واللوحة وصيانة بعد الإصدار."
+  },
+  "keyword": {
+    "tr": "mobil uygulama geliştirme gaziantep, flutter uygulama, ios android uygulama, mobil uygulama yaptırma, ajans mobil",
+    "en": "mobile app development gaziantep, flutter app, ios android app, custom mobile app, ajans mobil",
+    "ar": "تطوير تطبيقات جوال غازي عنتاب، تطبيق flutter، تطبيق ios وأندرويد، تطبيق جوال مخصص، أجانس موبيل"
+  },
+  "path": "mobil-uygulama",
+  "icon": "home",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "index": 1,
+  "url": "",
+  "text": {
+    "tr": "<h2>Mobil Uygulama Geliştirme — iOS ve Android</h2>\n<p>İşletmenizin ihtiyacına göre iOS ve Android için mobil uygulamalar geliştiriyoruz. Tek kod tabanıyla iki platforma çıkabilen Flutter ile çalışarak geliştirme ve bakım sürecini sade tutuyoruz.</p>\n<p>Çalışma; ihtiyacın netleştirilmesi, ekran akışlarının ve tasarımın hazırlanması, geliştirme, test ve mağaza yayını adımlarından oluşur. Uygulamanın web sitesi veya yönetim paneliyle birlikte çalışması gerekiyorsa bunu baştan planlarız.</p>\n<p>Yayın sonrasında hata düzeltme, güncelleme ve yeni özellik geliştirme için destek sağlarız.</p>\n<h3>Neler yapıyoruz?</h3>\n<ul>\n<li>iOS ve Android uygulama geliştirme (Flutter)</li>\n<li>Arayüz ve kullanıcı akışı tasarımı</li>\n<li>Web sitesi veya panel ile entegrasyon</li>\n<li>Bildirim, giriş ve ödeme gibi gerekli özellikler</li>\n<li>Mağaza yayın desteği ve sonrasında bakım</li>\n</ul>\n<p>Projenizi anlatmak için <a href=\"/tr/iletisim/\">iletişim sayfamızdan</a>, telefon veya WhatsApp ile <strong>0531 679 10 14</strong> numarasından, ya da <strong>info@ajansmobil.com</strong> adresinden bize ulaşabilirsiniz.</p>\n",
+    "en": "<h2>Mobile App Development — iOS and Android</h2>\n<p>We develop mobile apps for iOS and Android according to your business's needs. Working with Flutter, which can ship to both platforms from one codebase, keeps development and maintenance simple.</p>\n<p>The work consists of clarifying the need, preparing screen flows and design, development, testing and store release. If the app has to work with a website or an admin panel, we plan that from the start.</p>\n<p>After release we provide support for bug fixes, updates and new features.</p>\n<h3>What we do</h3>\n<ul>\n<li>iOS and Android app development (Flutter)</li>\n<li>Interface and user-flow design</li>\n<li>Integration with a website or panel</li>\n<li>Required features such as notifications, sign-in and payments</li>\n<li>Store release support and ongoing maintenance</li>\n</ul>\n<p>To tell us about your project, reach us through the <a href=\"/en/iletisim/\">contact page</a>, by phone or WhatsApp at <strong>0531 679 10 14</strong>, or at <strong>info@ajansmobil.com</strong>.</p>\n",
+    "ar": "<h2>تطوير تطبيقات الجوال — iOS وأندرويد</h2>\n<p>نطوّر تطبيقات جوال لنظامي iOS وأندرويد وفق احتياج نشاطك. نعمل بتقنية Flutter التي تتيح الإصدار على المنصتين من قاعدة شيفرة واحدة، مما يبسّط التطوير والصيانة.</p>\n<p>يتكون العمل من توضيح الحاجة وإعداد مسارات الشاشات والتصميم ثم التطوير والاختبار والنشر في المتاجر. وإن كان على التطبيق أن يعمل مع موقع أو لوحة إدارة فنخطط لذلك منذ البداية.</p>\n<p>وبعد الإصدار نقدم الدعم لإصلاح الأخطاء والتحديثات والميزات الجديدة.</p>\n<h3>ماذا نفعل؟</h3>\n<ul>\n<li>تطوير تطبيقات iOS وأندرويد (Flutter)</li>\n<li>تصميم الواجهة ومسار المستخدم</li>\n<li>التكامل مع موقع أو لوحة تحكم</li>\n<li>ميزات مطلوبة مثل الإشعارات وتسجيل الدخول والدفع</li>\n<li>دعم النشر في المتاجر والصيانة اللاحقة</li>\n</ul>\n<p>لعرض مشروعك علينا، تواصل معنا عبر <a href=\"/ar/iletisim/\">صفحة الاتصال</a> أو بالهاتف أو واتساب على الرقم <strong>0531 679 10 14</strong> أو عبر البريد <strong>info@ajansmobil.com</strong>.</p>\n"
+  },
+  "title": {
+    "tr": "Mobil Uygulama Geliştirme Gaziantep | Ajans Mobil",
+    "en": "Mobile App Development Gaziantep | Ajans Mobil",
+    "ar": "تطوير تطبيقات الجوال غازي عنتاب | أجانس موبيل"
+  },
+  "date": "2026-11-02T06:32:42.697Z",
+  "update": "2026-11-02T06:36:22.665Z",
+  "img": "mobil1.webp"
+}

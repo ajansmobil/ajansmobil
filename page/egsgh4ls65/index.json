@@ -1,0 +1,42 @@
+{
+  "id": "egsgh4ls65",
+  "name": {
+    "tr": "Özel Uygulama Geliştirme",
+    "en": "Custom Application Development",
+    "ar": "تطوير التطبيقات المخصصة"
+  },
+  "description": {
+    "tr": "Gaziantep özel yazılım ve uygulama geliştirme: işletmenize özel web tabanlı uygulamalar, yönetim panelleri ve API entegrasyonları.",
+    "en": "Custom software and application development in Gaziantep: tailor-made web applications, admin panels and API integrations.",
+    "ar": "تطوير البرمجيات والتطبيقات المخصصة في غازي عنتاب: تطبيقات ويب ولوحات إدارة وتكامل API مصممة لنشاطك."
+  },
+  "keyword": {
+    "tr": "özel yazılım gaziantep, özel uygulama geliştirme, yönetim paneli, web tabanlı uygulama, api entegrasyonu, ajans mobil",
+    "en": "custom software gaziantep, custom application development, admin panel, web-based application, api integration, ajans mobil",
+    "ar": "برمجيات مخصصة غازي عنتاب، تطوير تطبيقات مخصصة، لوحة إدارة، تطبيق ويب، تكامل api، أجانس موبيل"
+  },
+  "path": "ozel-uygulama-gelistirme",
+  "icon": "home",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {
+    "tr": "<h2>Özel Yazılım ve Uygulama Geliştirme</h2>\n<p>Hazır yazılımların karşılamadığı ihtiyaçlar için işletmenize özel web tabanlı uygulamalar, yönetim panelleri ve iş akışı araçları geliştiriyoruz. Excel ve elle yürütülen süreçleri tek bir uygulamada toplamak tipik bir örnektir.</p>\n<p>İhtiyacı önce birlikte netleştirir, ekran ve veri yapısını planlar, kısa aşamalarla geliştirir ve her aşamada sizden geri bildirim alırız. Uygulamayı web sitesi, mobil uygulama veya mevcut sistemlerinizle bağlayabiliriz.</p>\n<p>Kullanıcı yetkileri, veri güvenliği ve yedekleme planı geliştirme sürecinin başından itibaren tasarıma dahil edilir.</p>\n<h3>Örnek çözümler</h3>\n<ul>\n<li>Yönetim paneli ve kayıt takip uygulamaları</li>\n<li>Sipariş, teklif ve müşteri takip araçları</li>\n<li>Web sitesi ve mobil uygulama ile bağlantılı arka uç (API)</li>\n<li>Raporlama ve veri aktarım otomasyonları</li>\n</ul>\n<p>Projenizi anlatmak için <a href=\"/tr/iletisim/\">iletişim sayfamızdan</a>, telefon veya WhatsApp ile <strong>0531 679 10 14</strong> numarasından, ya da <strong>info@ajansmobil.com</strong> adresinden bize ulaşabilirsiniz.</p>\n",
+    "en": "<h2>Custom Software and Application Development</h2>\n<p>For needs that off-the-shelf software does not meet, we build web-based applications, admin panels and workflow tools tailored to your business. Bringing spreadsheet-based and manual processes into one application is a typical example.</p>\n<p>We first clarify the need together, plan screens and data structure, develop in short stages and take your feedback at each stage. The application can be connected to your website, mobile app or existing systems.</p>\n<p>User permissions, data security and a backup plan are part of the design from the very beginning.</p>\n<h3>Example solutions</h3>\n<ul>\n<li>Admin panels and record-tracking applications</li>\n<li>Order, quotation and customer tracking tools</li>\n<li>Back end (API) connected to a website and mobile app</li>\n<li>Reporting and data-transfer automation</li>\n</ul>\n<p>To tell us about your project, reach us through the <a href=\"/en/iletisim/\">contact page</a>, by phone or WhatsApp at <strong>0531 679 10 14</strong>, or at <strong>info@ajansmobil.com</strong>.</p>\n",
+    "ar": "<h2>البرمجيات والتطبيقات المخصصة</h2>\n<p>للاحتياجات التي لا تلبيها البرامج الجاهزة، نطوّر تطبيقات ويب ولوحات إدارة وأدوات سير عمل مصممة لنشاطك. ومن الأمثلة الشائعة جمع العمليات اليدوية وجداول إكسل في تطبيق واحد.</p>\n<p>نوضح الحاجة معًا أولًا، ثم نخطط الشاشات وبنية البيانات ونطوّر على مراحل قصيرة ونأخذ ملاحظاتك في كل مرحلة. ويمكن ربط التطبيق بموقعك أو تطبيق الجوال أو أنظمتك الحالية.</p>\n<p>تدخل صلاحيات المستخدمين وأمان البيانات وخطة النسخ الاحتياطي في التصميم منذ بداية التطوير.</p>\n<h3>أمثلة على الحلول</h3>\n<ul>\n<li>لوحات إدارة وتطبيقات متابعة السجلات</li>\n<li>أدوات الطلبات والعروض ومتابعة العملاء</li>\n<li>واجهة خلفية (API) مرتبطة بالموقع وتطبيق الجوال</li>\n<li>أتمتة التقارير ونقل البيانات</li>\n</ul>\n<p>لعرض مشروعك علينا، تواصل معنا عبر <a href=\"/ar/iletisim/\">صفحة الاتصال</a> أو بالهاتف أو واتساب على الرقم <strong>0531 679 10 14</strong> أو عبر البريد <strong>info@ajansmobil.com</strong>.</p>\n"
+  },
+  "title": {
+    "tr": "Özel Yazılım ve Uygulama Geliştirme Gaziantep | Ajans Mobil",
+    "en": "Custom Software and Application Development Gaziantep | Ajans Mobil",
+    "ar": "تطوير البرمجيات والتطبيقات المخصصة غازي عنتاب | أجانس موبيل"
+  },
+  "date": "2026-11-02T06:32:42.703Z",
+  "update": "2026-11-02T06:36:22.668Z",
+  "img": "ozel1.webp"
+}

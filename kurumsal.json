@@ -19,9 +19,9 @@
       },
       "pathnext": "",
       "description": {
-        "tr": "Ajans Mobil Gaziantep - dijital pazarlama, web tasarım, açık hava reklamcılığı ve sosyal medya yönetimi hizmetleri. Gaziantep'in lider dijital ajansı.",
-        "en": "Ajans Mobil Gaziantep - Digital marketing, web design, outdoor advertising and social media management services with . Gaziantep's leading digital agency.",
-        "ar": "أجانس موبيل غازي عنتاب - خدمات التسويق الرقمي وتصميم الويب والإعلانات الخارجية وإدارة وسائل التواصل الاجتم عاماً من الخبرة. الوكالة الرقمية الرائدة في غازي عنتاب."
+        "tr": "Ajans Mobil, Gaziantep'te web tasarım, mobil uygulama ve özel uygulama geliştirme, SEO ve dijital pazarlama hizmetleri veren dijital ajanstır.",
+        "en": "Ajans Mobil is a Gaziantep digital agency offering web design, mobile app and custom application development, SEO and digital marketing.",
+        "ar": "أجانس موبيل وكالة رقمية في غازي عنتاب تقدم تصميم المواقع وتطوير تطبيقات الجوال والتطبيقات المخصصة وSEO والتسويق الرقمي."
       }
     },
     {
@@ -42,9 +42,9 @@
         "footer": []
       },
       "description": {
-        "tr": "Ajans Mobil Gaziantep misyonu - Müşteri odaklı dijital pazarlama, web tasarım ve açık hava reklamcılığı hizmetleri ile işletmelere değer katmak.",
-        "en": "Ajans Mobil Gaziantep mission - Adding value to businesses with customer-focused digital marketing, web design and outdoor advertising services.",
-        "ar": "مهمة أجانس موبيل غازي عنتاب - إضافة قيمة للشركات مع خدمات التسويق الرقمي وتصميم الويب والإعلانات الخارجية المرتكزة على العملاء."
+        "tr": "Ajans Mobil'in misyonu: işletmelere web, mobil ve özel uygulamalarla güçlü, sürdürülebilir bir dijital varlık kazandırmak.",
+        "en": "Ajans Mobil's mission: giving businesses a strong, lasting digital presence with web, mobile and custom applications.",
+        "ar": "مهمة أجانس موبيل: منح الشركات حضورًا رقميًا قويًا ومستدامًا عبر المواقع وتطبيقات الجوال والتطبيقات المخصصة."
       }
     },
     {
@@ -65,9 +65,9 @@
         "footer": []
       },
       "description": {
-        "tr": "Ajans Mobil Gaziantep vizyonu - Türkiye'nin önde gelen dijital ajansları arasında yer almak, yenilikçi teknolojilerle sektöre öncülük etmek.",
-        "en": "Ajans Mobil Gaziantep vision - To be among Turkey's leading digital agencies, to lead the industry with innovative technologies.",
-        "ar": "رؤية أجانس موبيل غازي عنتاب - أن نكون من بين الوكالات الرقمية الرائدة في تركيا، أن نقود الصناعة بتقنيات مبتكرة."
+        "tr": "Ajans Mobil'in vizyonu: web, mobil ve özel uygulama geliştirmede güvenilir, kullanışlı ve kalıcı dijital ürünler üretmek.",
+        "en": "Ajans Mobil's vision: dependable, useful and lasting digital products in web, mobile and custom application development.",
+        "ar": "رؤية أجانس موبيل: منتجات رقمية موثوقة ومفيدة ودائمة في تطوير المواقع وتطبيقات الجوال والتطبيقات المخصصة."
       }
     },
     {
@@ -88,9 +88,9 @@
         "footer": []
       },
       "description": {
-        "tr": "Ajans Mobil kalite politikası - Müşteri odaklı hizmet anlayışı, sürekli iyileştirme ve uluslararası standartlarda dijital pazarlama hizmeti.",
-        "en": "Ajans Mobil quality policy - Customer-focused service approach, continuous improvement and digital marketing service at international standards.",
-        "ar": "سياسة جودة أجانس موبيل - نهج خدمة يركز على العملاء والتحسين المستمر وخدمة التسويق الرقمي بمعايير دولية."
+        "tr": "Ajans Mobil kalite politikası: ihtiyacı doğru anlama, açık iletişim, teslim öncesi kontrol, veri güvenliği ve sürekli iyileştirme.",
+        "en": "Ajans Mobil quality policy: understanding needs, clear communication, pre-delivery checks, data security and continuous improvement.",
+        "ar": "سياسة جودة أجانس موبيل: فهم الحاجة وتواصل واضح وفحص قبل التسليم وأمان البيانات وتحسين مستمر."
       }
     },
     {
@@ -184,6 +184,31 @@
         "en": "Ajans Mobil legal notice - Website terms of use, disclaimer, external links and waiver.",
         "ar": "إشعار قانوني أجانس موبيل - شروط استخدام الموقع وإخلاء المسؤولية والروابط الخارجية والتنازل."
       }
+    },
+    {
+      "id": "cerez-politikasi",
+      "name": {
+        "tr": "Çerez Politikası",
+        "en": "Cookie Policy",
+        "ar": "سياسة ملفات تعريف الارتباط"
+      },
+      "description": {
+        "tr": "Bu politika, Ajans Mobil tarafından işletilen https://ajansmobil.com internet sitesinde kullanılan çerezleri, bunların hangi amaçlarla kullanıldığını ve…",
+        "en": "This policy explains the cookies used on the ajansmobil.com website, their purposes and how you can manage your preferences.",
+        "ar": "توضح هذه السياسة ملفات تعريف الارتباط المستخدمة على موقع ajansmobil.com وأغراضها وكيفية إدارة تفضيلاتك."
+      },
+      "path": "cerez-politikasi",
+      "icon": "cookie",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "vnze3j"
+        ],
+        "footer": []
+      },
+      "index": 8
     }
   ],
   "desc": [],
@@ -194,7 +219,9 @@
     ],
     "footer": []
   },
-  "modulestatus": {},
+  "modulestatus": {
+    "detail": true
+  },
   "name": "",
   "path": "kurumsal"
 }
