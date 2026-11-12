@@ -1,20 +1,30 @@
 {
-  "name": "Sayfalar",
-  "path": "page",
-  "desc": [],
-  "index": 0,
-  "desing": {
-    "header": [],
-    "body": [],
-    "footer": []
-  },
-  "modulestatus": {
-    "page": true,
-    "body": true,
-    "detail": true,
-    "img": false
-  },
   "data": [
+    {
+      "id": "2ovtzlpkin",
+      "name": {
+        "tr": "Blog",
+        "en": "Blog",
+        "ar": "المدونة"
+      },
+      "description": {
+        "tr": "Ajans Mobil blog: web tasarım, mobil uygulama ve özel yazılım kararlarını kolaylaştıran Gaziantep işletmeleri için kısa, anlaşılır rehber yazıları.",
+        "en": "Ajans Mobil blog: short, clear guides for Gaziantep businesses that make web design, mobile app and custom software decisions easier.",
+        "ar": "مدونة أجانس موبيل: مقالات إرشادية قصيرة وواضحة لشركات غازي عنتاب تسهّل قرارات تصميم المواقع وتطبيقات الجوال والبرمجيات المخصصة."
+      },
+      "path": "blog",
+      "icon": "article",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "vnze3j"
+        ],
+        "footer": []
+      },
+      "index": 0
+    },
     {
       "name": {
         "tr": "Kurumsal",
@@ -25,7 +35,7 @@
       "category": "",
       "id": "ibxhue2gm4",
       "path": "kurumsal",
-      "index": 0,
+      "index": 1,
       "desing": {
         "header": [],
         "body": [
@@ -35,8 +45,8 @@
         "footer": []
       },
       "description": {
-        "tr": "Ajans Mobil, Gaziantep merkezli dijital ajans: web tasarım, mobil uygulama ve özel uygulama geliştirme, SEO ve dijital pazarlama. Misyon, vizyon ve kurumsal bilgiler.",
-        "en": "Ajans Mobil is a Gaziantep digital agency: web design, mobile app and custom application development, SEO and digital marketing. Mission, vision and corporate information.",
+        "tr": "Ajans Mobil, Gaziantep merkezli dijital ajans: web tasarım, mobil uygulama, özel uygulama geliştirme, SEO ve dijital pazarlama. Kurumsal bilgiler.",
+        "en": "Ajans Mobil is a Gaziantep digital agency: web design, mobile apps, custom application development, SEO and digital marketing. Corporate information.",
         "ar": "أجانس موبيل وكالة رقمية في غازي عنتاب: تصميم مواقع وتطبيقات جوال وتطبيقات مخصصة وSEO وتسويق رقمي. المهمة والرؤية والمعلومات المؤسسية."
       },
       "pathnext": "hakkimizda",
@@ -55,9 +65,9 @@
       "description": {
         "tr": "Web tasarım, mobil uygulama geliştirme, sosyal medya yönetimi ve dijital pazarlama alanlarında profesyonel hizmetler sunuyoruz.",
         "en": "We offer professional services in web design, mobile application development, social media management and digital marketing.",
-        "ar": "نقدم خدمات مهنية في تصميم الويب وتطوير تطبيقات الجوال وإدارة وسائل التواصل الاجتماعي والتسويق الرقمي."
+        "ar": "نقدم خدمات مهنية في تصميم الويب وتطوير تطبيقات الجوال والبرمجيات المخصصة وإدارة وسائل التواصل الاجتماعي والتسويق الرقمي في غازي عنتاب."
       },
-      "index": 1,
+      "index": 2,
       "desing": {
         "header": [],
         "body": [
@@ -79,21 +89,34 @@
       "category": "",
       "id": "b3tnz1e6ic",
       "path": "iletisim",
-      "index": 2,
+      "index": 3,
       "desing": {
         "header": [],
         "body": [
           "vnze3j",
-          "a5mvw9"
+          "a5mvw9",
+          "sa1p69"
         ],
         "footer": []
       },
       "description": {
-        "tr": "Ajans Mobil Gaziantep iletişim: telefon, WhatsApp ve e-posta ile web tasarım, mobil uygulama ve özel uygulama projeleriniz için bize ulaşın.",
-        "en": "Contact Ajans Mobil Gaziantep by phone, WhatsApp or e-mail for your web design, mobile app and custom application projects.",
-        "ar": "تواصل مع أجانس موبيل غازي عنتاب عبر الهاتف أو واتساب أو البريد لمشاريع تصميم المواقع وتطبيقات الجوال والتطبيقات المخصصة."
+        "tr": "Ajans Mobil Gaziantep iletişim: web tasarım, mobil uygulama ve özel yazılım projeleriniz için telefon, WhatsApp veya e-posta ile hemen bize ulaşın.",
+        "en": "Ajans Mobil Gaziantep contact: reach us by phone, WhatsApp or e-mail for your web design, mobile app and custom software projects.",
+        "ar": "تواصل مع أجانس موبيل غازي عنتاب: راسلنا بالهاتف أو واتساب أو البريد لمشاريع تصميم المواقع وتطبيقات الجوال والبرمجيات المخصصة. نرد بعرض مكتوب."
       },
       "icon": "home"
     }
-  ]
+  ],
+  "desc": [],
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "modulestatus": {
+    "page": true,
+    "body": true,
+    "detail": true,
+    "img": false
+  }
 }

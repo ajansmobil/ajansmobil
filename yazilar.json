@@ -1,0 +1,80 @@
+{
+  "data": [
+    {
+      "id": "sdzlym1u9u",
+      "name": {
+        "tr": "Özel Yazılım mı, Hazır Yazılım mı?",
+        "en": "Custom Software or Ready-Made Software?",
+        "ar": "برمجيات مخصصة أم جاهزة؟"
+      },
+      "description": {
+        "tr": "Özel yazılım mı, hazır yazılım mı? Karar vermeden önce sorulacak sorular ve her iki seçeneğin artı-eksileri; Gaziantep'ten sade bir rehber.",
+        "en": "Custom or ready-made software? The questions to ask before deciding and the pros and cons of both options, in a plain guide from Gaziantep.",
+        "ar": "برمجيات مخصصة أم جاهزة؟ الأسئلة التي تُطرح قبل القرار ومزايا وعيوب كل خيار في دليل مبسط وواضح من غازي عنتاب يساعدك على اتخاذ قرارك بثقة."
+      },
+      "path": "ozel-yazilim-mi-hazir-yazilim-mi",
+      "icon": "article",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "dajchd"
+        ],
+        "footer": []
+      },
+      "index": 0
+    },
+    {
+      "id": "fi6fa8j322",
+      "name": {
+        "tr": "Mobil Uygulama mı, Mobil Uyumlu Site mi?",
+        "en": "Mobile App or Mobile-Friendly Website?",
+        "ar": "تطبيق جوال أم موقع متوافق مع الجوال؟"
+      },
+      "description": {
+        "tr": "Mobil uygulama mı, mobil uyumlu web sitesi mi gerekir? İşletmeniz için doğru seçimi yapmanıza yardım eden, Gaziantep'ten kısa karşılaştırma rehberi.",
+        "en": "Do you need a mobile app or a mobile-friendly website? A short comparison guide from Gaziantep to help you make the right choice for your business.",
+        "ar": "هل تحتاج تطبيق جوال أم موقعًا متوافقًا مع الجوال؟ دليل مقارنة قصير من غازي عنتاب يساعدك على الاختيار الصحيح لنشاطك التجاري."
+      },
+      "path": "mobil-uygulama-mi-mobil-uyumlu-site-mi",
+      "icon": "article",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "dajchd"
+        ],
+        "footer": []
+      },
+      "index": 1
+    },
+    {
+      "id": "wjtqt7aiec",
+      "name": {
+        "tr": "Kurumsal Web Sitesi Nasıl Hazırlanır?",
+        "en": "How to Prepare a Corporate Website",
+        "ar": "كيف تُعدّ موقعًا مؤسسيًا؟"
+      },
+      "description": {
+        "tr": "Kurumsal web sitesi nasıl hazırlanır? Gaziantep işletmeleri için hedef, sayfa yapısı, içerik, mobil uyum ve SEO adımlarını anlatan kısa kontrol listesi.",
+        "en": "How is a corporate website prepared? A short checklist for Gaziantep businesses covering goals, page structure, content, mobile fit and SEO steps.",
+        "ar": "كيف يُعدّ الموقع المؤسسي؟ قائمة تحقق قصيرة لشركات غازي عنتاب تشمل الهدف وبنية الصفحات والمحتوى والتوافق مع الجوال وخطوات السيو."
+      },
+      "path": "kurumsal-web-sitesi-nasil-hazirlanir",
+      "icon": "article",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "dajchd"
+        ],
+        "footer": []
+      },
+      "index": 2
+    }
+  ],
+  "desc": []
+}

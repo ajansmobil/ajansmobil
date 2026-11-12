@@ -1,0 +1,43 @@
+{
+  "id": "nft4aghwae",
+  "name": {
+    "tr": "Sık Sorulan Sorular",
+    "en": "Frequently Asked Questions",
+    "ar": "الأسئلة الشائعة"
+  },
+  "description": {
+    "tr": "Ajans Mobil hakkında sık sorulan sorular: Gaziantep web tasarım, mobil uygulama, özel yazılım ve SEO hizmetleri, çalışma süreci, dil desteği ve iletişim.",
+    "en": "Frequently asked questions about Ajans Mobil: web design, mobile apps, custom software and SEO services in Gaziantep, our process, language support and contact.",
+    "ar": "أسئلة شائعة عن أجانس موبيل: خدمات تصميم المواقع وتطبيقات الجوال والبرمجيات المخصصة والسيو في غازي عنتاب وطريقة العمل ودعم اللغات والتواصل."
+  },
+  "keyword": {
+    "tr": "ajans mobil sss, gaziantep web tasarım sss, mobil uygulama sık sorulan sorular, özel yazılım sss",
+    "en": "ajans mobil faq, gaziantep web design faq, mobile app questions, custom software faq",
+    "ar": "أسئلة شائعة أجانس موبيل، تصميم مواقع غازي عنتاب، تطبيقات الجوال، برمجيات مخصصة"
+  },
+  "path": "sss",
+  "icon": "help",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "0u68u4"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {
+    "tr": "<h2>Ajans Mobil Hakkında Sık Sorulan Sorular</h2>\n<p><strong>Ajans Mobil, Gaziantep merkezli bir dijital ajanstır.</strong> Web tasarım, mobil uygulama (iOS ve Android), özel yazılım ve uygulama geliştirme ile SEO, sosyal medya ve dijital reklam yönetimi alanlarında çalışır. Aşağıda en çok sorulan soruların kısa cevaplarını bulabilirsiniz; ayrıntılar için ilgili hizmet sayfalarına bakabilir ya da <a href=\"/tr/iletisim/\">bize yazabilirsiniz</a>.</p>\n<p>Hizmet sayfaları: <a href=\"/tr/web-tasarim/\">Gaziantep web tasarım</a> · <a href=\"/tr/mobil-uygulama/\">mobil uygulama geliştirme</a> · <a href=\"/tr/ozel-uygulama-gelistirme/\">özel yazılım</a> · <a href=\"/tr/seo-hizmeti/\">SEO hizmeti</a>.</p>\n",
+    "en": "<h2>Frequently Asked Questions About Ajans Mobil</h2>\n<p><strong>Ajans Mobil is a digital agency based in Gaziantep, Turkey.</strong> It works in web design, mobile apps (iOS and Android), custom software and application development, plus SEO, social media and digital advertising management. Below you will find short answers to the most common questions; see the related service pages for details or <a href=\"/en/iletisim/\">write to us</a>.</p>\n<p>Service pages: <a href=\"/en/web-tasarim/\">web design in Gaziantep</a> · <a href=\"/en/mobil-uygulama/\">mobile app development</a> · <a href=\"/en/ozel-uygulama-gelistirme/\">custom software</a> · <a href=\"/en/seo-hizmeti/\">SEO service</a>.</p>\n",
+    "ar": "<h2>الأسئلة الشائعة حول أجانس موبيل</h2>\n<p><strong>أجانس موبيل وكالة رقمية مقرها غازي عنتاب في تركيا.</strong> تعمل في تصميم المواقع وتطبيقات الجوال (iOS وAndroid) وتطوير البرمجيات والتطبيقات المخصصة، إضافة إلى السيو وإدارة وسائل التواصل والإعلانات الرقمية. تجد أدناه إجابات مختصرة عن أكثر الأسئلة تكرارًا؛ وللتفاصيل راجع صفحات الخدمات أو <a href=\"/ar/iletisim/\">راسلنا</a>.</p>\n<p>صفحات الخدمات: <a href=\"/ar/web-tasarim/\">تصميم مواقع غازي عنتاب</a> · <a href=\"/ar/mobil-uygulama/\">تطوير تطبيقات الجوال</a> · <a href=\"/ar/ozel-uygulama-gelistirme/\">البرمجيات المخصصة</a> · <a href=\"/ar/seo-hizmeti/\">خدمة السيو</a>.</p>\n"
+  },
+  "title": {
+    "tr": "Sık Sorulan Sorular | Ajans Mobil Gaziantep",
+    "en": "FAQ | Ajans Mobil Gaziantep Digital Agency",
+    "ar": "الأسئلة الشائعة | أجانس موبيل غازي عنتاب"
+  },
+  "date": "2026-11-12T07:28:13.665Z",
+  "update": "2026-11-12T07:28:13.694Z"
+}

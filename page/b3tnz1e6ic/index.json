@@ -9,19 +9,20 @@
   "id": "b3tnz1e6ic",
   "externalUrl": "",
   "path": "iletisim",
-  "index": 2,
+  "index": 3,
   "desing": {
     "header": [],
     "body": [
       "vnze3j",
-      "a5mvw9"
+      "a5mvw9",
+      "sa1p69"
     ],
     "footer": []
   },
   "description": {
-    "tr": "Ajans Mobil Gaziantep iletişim: telefon, WhatsApp ve e-posta ile web tasarım, mobil uygulama ve özel uygulama projeleriniz için bize ulaşın.",
-    "en": "Contact Ajans Mobil Gaziantep by phone, WhatsApp or e-mail for your web design, mobile app and custom application projects.",
-    "ar": "تواصل مع أجانس موبيل غازي عنتاب عبر الهاتف أو واتساب أو البريد لمشاريع تصميم المواقع وتطبيقات الجوال والتطبيقات المخصصة."
+    "tr": "Ajans Mobil Gaziantep iletişim: web tasarım, mobil uygulama ve özel yazılım projeleriniz için telefon, WhatsApp veya e-posta ile hemen bize ulaşın.",
+    "en": "Ajans Mobil Gaziantep contact: reach us by phone, WhatsApp or e-mail for your web design, mobile app and custom software projects.",
+    "ar": "تواصل مع أجانس موبيل غازي عنتاب: راسلنا بالهاتف أو واتساب أو البريد لمشاريع تصميم المواقع وتطبيقات الجوال والبرمجيات المخصصة. نرد بعرض مكتوب."
   },
   "keyword": {
     "tr": "ajans mobil iletişim, whatsapp, gaziantep dijital ajans, teklif al, web tasarım teklifi, mobil uygulama teklifi",
@@ -29,12 +30,12 @@
     "ar": "اتصال أجانس موبيل، واتساب، وكالة رقمية غازي عنتاب، احصل على عرض، عرض تصميم موقع، عرض تطبيق جوال"
   },
   "desc": {},
-  "update": "2026-11-02T09:05:17.603Z",
+  "update": "2026-11-12T07:31:15.766Z",
   "date": "2025-10-01T05:29:22.557Z",
   "title": {
-    "tr": "İletişim Gaziantep | Ajans Mobil Gaziantep",
-    "en": "Contact Gaziantep | Ajans Mobil Gaziantep",
-    "ar": "اتصل بنا غازي عنتاب | أجانس موبيل غازي عنتاب"
+    "tr": "İletişim | Ajans Mobil Gaziantep",
+    "en": "Contact | Ajans Mobil Gaziantep",
+    "ar": "اتصل بنا | أجانس موبيل غازي عنتاب"
   },
   "icon": "home"
 }

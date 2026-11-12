@@ -8,9 +8,9 @@
         "ar": "تطوير التطبيقات المخصصة"
       },
       "description": {
-        "tr": "Gaziantep özel yazılım ve uygulama geliştirme: işletmenize özel web tabanlı uygulamalar, yönetim panelleri ve API entegrasyonları.",
-        "en": "Custom software and application development in Gaziantep: tailor-made web applications, admin panels and API integrations.",
-        "ar": "تطوير البرمجيات والتطبيقات المخصصة في غازي عنتاب: تطبيقات ويب ولوحات إدارة وتكامل API مصممة لنشاطك."
+        "tr": "Gaziantep özel yazılım ve uygulama geliştirme: işletmenize özel web tabanlı uygulamalar, yönetim panelleri, API ve entegrasyonlar. Hemen WhatsApp'tan yazın.",
+        "en": "Custom software and application development in Gaziantep: web-based applications, admin panels, APIs and integrations built for your business.",
+        "ar": "تطوير برمجيات وتطبيقات مخصصة في غازي عنتاب: تطبيقات ويب ولوحات إدارة وواجهات API وتكاملات مصممة لنشاطك. راسلنا عبر واتساب للبدء."
       },
       "path": "ozel-uygulama-gelistirme",
       "icon": "home",
@@ -18,7 +18,9 @@
       "status": "play",
       "desing": {
         "header": [],
-        "body": [],
+        "body": [
+          "jexpws"
+        ],
         "footer": []
       },
       "index": 0,
@@ -32,9 +34,9 @@
         "ar": "تطبيقات الجوال"
       },
       "description": {
-        "tr": "Gaziantep mobil uygulama geliştirme: Flutter ile iOS ve Android uygulamaları, web/panel entegrasyonu ve yayın sonrası bakım.",
-        "en": "Mobile app development in Gaziantep: iOS and Android apps with Flutter, web/panel integration and post-release maintenance.",
-        "ar": "تطوير تطبيقات الجوال في غازي عنتاب: تطبيقات iOS وأندرويد بتقنية Flutter وتكامل مع الموقع واللوحة وصيانة بعد الإصدار."
+        "tr": "Gaziantep mobil uygulama geliştirme: Flutter ile iOS ve Android uygulamaları, web/panel entegrasyonu, mağaza yayın desteği ve bakım. WhatsApp'tan yazın.",
+        "en": "Mobile app development in Gaziantep: iOS and Android apps with Flutter, website/admin panel integration, store release support and maintenance.",
+        "ar": "تطوير تطبيقات الجوال في غازي عنتاب: تطبيقات iOS وAndroid بتقنية Flutter مع الربط بالموقع ولوحة الإدارة ودعم النشر في المتاجر والصيانة. راسلنا عبر واتساب."
       },
       "path": "mobil-uygulama",
       "icon": "home",
@@ -42,7 +44,9 @@
       "status": "play",
       "desing": {
         "header": [],
-        "body": [],
+        "body": [
+          "uejvey"
+        ],
         "footer": []
       },
       "index": 1,
@@ -62,16 +66,18 @@
       "index": 2,
       "desing": {
         "header": [],
-        "body": [],
+        "body": [
+          "xji27t"
+        ],
         "footer": []
       },
       "pathnext": "",
       "icon": "home",
       "img": "gh69q.webp",
       "description": {
-        "tr": "Gaziantep web tasarım: kurumsal site, e-ticaret, mobil uyumlu ve SEO uyumlu web siteleri. Türkçe, İngilizce, Arapça çok dilli yapı.",
-        "en": "Web design in Gaziantep: corporate sites, e-commerce, mobile-friendly and SEO-ready websites with Turkish, English and Arabic support.",
-        "ar": "تصميم مواقع في غازي عنتاب: مواقع مؤسسية وتجارة إلكترونية متوافقة مع الجوال ومحركات البحث وبدعم التركية والإنجليزية والعربية."
+        "tr": "Gaziantep web tasarım: kurumsal site, tanıtım sitesi ve e-ticaret. Mobil uyumlu, SEO uyumlu, Türkçe-İngilizce-Arapça çok dilli siteler. WhatsApp'tan yazın.",
+        "en": "Web design in Gaziantep: corporate sites, brochure sites and e-commerce. Mobile-friendly, SEO-ready, multilingual in Turkish, English and Arabic.",
+        "ar": "تصميم مواقع في غازي عنتاب: مواقع مؤسسية وتعريفية ومتاجر إلكترونية متوافقة مع الجوال ومحركات البحث وبثلاث لغات: التركية والإنجليزية والعربية. راسلنا عبر واتساب."
       }
     },
     {
@@ -97,7 +103,7 @@
       "description": {
         "tr": "Gaziantep Google Ads ve sosyal medya reklam yönetimi: hedef kitleye göre kampanya kurulumu, yönetim ve düzenli raporlama.",
         "en": "Google Ads and social media advertising management in Gaziantep: audience-based campaign setup, management and regular reporting.",
-        "ar": "إدارة إعلانات جوجل ووسائل التواصل في غازي عنتاب: إعداد الحملات وفق الجمهور وإدارتها وتقارير منتظمة."
+        "ar": "إدارة إعلانات جوجل ووسائل التواصل في غازي عنتاب: إعداد الحملات وفق الجمهور المستهدف وإدارتها اليومية مع تقارير منتظمة وواضحة."
       }
     },
     {
@@ -115,15 +121,17 @@
       "icon": "home",
       "desing": {
         "header": [],
-        "body": [],
+        "body": [
+          "3vepg2"
+        ],
         "footer": []
       },
       "pathnext": "",
       "img": "xxeqs.webp",
       "description": {
-        "tr": "Gaziantep SEO hizmeti: teknik SEO denetimi, anahtar kelime ve içerik planı, yerel SEO ve düzenli raporlama.",
-        "en": "SEO service in Gaziantep: technical SEO audit, keyword and content plan, local SEO and regular reporting.",
-        "ar": "خدمة SEO في غازي عنتاب: تدقيق تقني وخطة كلمات مفتاحية ومحتوى وSEO محلي وتقارير منتظمة."
+        "tr": "Gaziantep SEO hizmeti: teknik SEO denetimi, anahtar kelime ve içerik planı, yapısal veri, yerel SEO, yapay zekâ aramalarına hazırlık ve düzenli raporlama.",
+        "en": "SEO service in Gaziantep: technical SEO audit, keyword and content plan, structured data, local SEO, AI-search readiness and regular reporting.",
+        "ar": "خدمة السيو في غازي عنتاب: تدقيق تقني وخطة كلمات مفتاحية ومحتوى وبيانات منظمة وسيو محلي وتهيئة للبحث بالذكاء الاصطناعي وتقارير منتظمة. راسلنا عبر واتساب."
       }
     },
     {
@@ -147,9 +155,9 @@
       "pathnext": "",
       "img": "cxfvs.webp",
       "description": {
-        "tr": "Gaziantep sosyal medya yönetimi: içerik takvimi, gönderi ve hikâye tasarımı, hesap yönetimi ve aylık raporlama.",
+        "tr": "Gaziantep sosyal medya yönetimi: içerik takvimi, gönderi ve hikâye tasarımı, hesap yönetimi ve aylık raporlama ile markanızı düzenli biçimde duyurun.",
         "en": "Social media management in Gaziantep: content calendar, post and story design, account management and monthly reporting.",
-        "ar": "إدارة وسائل التواصل في غازي عنتاب: تقويم محتوى وتصميم منشورات وقصص وإدارة حسابات وتقارير شهرية."
+        "ar": "إدارة وسائل التواصل في غازي عنتاب: تقويم محتوى وتصميم منشورات وقصص وإدارة حسابات وتقارير شهرية لإبراز علامتك التجارية بانتظام وبشكل احترافي."
       }
     },
     {
@@ -173,9 +181,9 @@
       "pathnext": "",
       "img": "byl8k.webp",
       "description": {
-        "tr": "Gaziantep ürün ve tanıtım fotoğraf çekimi: web, sosyal medya ve basılı materyal için düzenlenmiş görseller.",
-        "en": "Product and promotional photography in Gaziantep: images edited for web, social media and print.",
-        "ar": "تصوير المنتجات والتصوير الترويجي في غازي عنتاب: صور معدّة للويب ووسائل التواصل والمطبوعات."
+        "tr": "Gaziantep ürün ve tanıtım fotoğraf çekimi: web sitesi, sosyal medya ve basılı materyal için düzenlenmiş, markanıza uygun profesyonel görseller.",
+        "en": "Product and promotional photography in Gaziantep: professionally edited images for your website, social media and print material, matched to your brand.",
+        "ar": "تصوير المنتجات والتصوير الترويجي في غازي عنتاب: صور احترافية معدّلة للموقع الإلكتروني ووسائل التواصل والمطبوعات وتناسب علامتك التجارية."
       }
     }
   ],

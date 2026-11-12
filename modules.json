@@ -1138,6 +1138,636 @@
       "id": "f86mdx",
       "local": "body",
       "index": 16
+    },
+    {
+      "name": "SSS — ytf1pt3kuv",
+      "desing": {
+        "max": "900px",
+        "bgcolor": "transparent",
+        "cardbg": "#f8fafc",
+        "bordercolor": "#e2e8f0",
+        "titlecolor": "#1e293b",
+        "textcolor": "#475569",
+        "accent": "var(--mx-site-primary, #1D71B8)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "badge": {
+          "tr": "SSS",
+          "en": "FAQ",
+          "ar": "الأسئلة الشائعة"
+        },
+        "title": {
+          "tr": "Sıkça Sorulan Sorular",
+          "en": "Frequently Asked Questions",
+          "ar": "الأسئلة الشائعة"
+        },
+        "description": {
+          "tr": "Merak ettiğiniz soruların kısa cevapları.",
+          "en": "Short answers to common questions.",
+          "ar": "إجابات مختصرة عن الأسئلة الشائعة."
+        }
+      },
+      "data": [
+        {
+          "question": {
+            "tr": "Gaziantep'te web tasarım hizmeti veriyor musunuz?",
+            "en": "Do you offer web design services in Gaziantep?",
+            "ar": "هل تقدمون خدمة تصميم المواقع في غازي عنتاب؟"
+          },
+          "answer": {
+            "tr": "Evet. Ajans Mobil Gaziantep merkezli çalışır; kurumsal site, tanıtım sitesi ve e-ticaret sitesi tasarlar. Görüşmeler telefon, WhatsApp veya e-posta üzerinden yürütülebilir.",
+            "en": "Yes. Ajans Mobil is based in Gaziantep and designs corporate sites, brochure sites and e-commerce sites. Meetings can be held by phone, on WhatsApp or by e-mail.",
+            "ar": "نعم. أجانس موبيل مقرها غازي عنتاب وتصمم المواقع المؤسسية والتعريفية والمتاجر الإلكترونية. يمكن إجراء الاجتماعات بالهاتف أو عبر واتساب أو البريد الإلكتروني."
+          }
+        },
+        {
+          "question": {
+            "tr": "Web siteniz mobil uyumlu mu olur?",
+            "en": "Will my website work well on mobile?",
+            "ar": "هل سيكون موقعي متوافقًا مع الجوال؟"
+          },
+          "answer": {
+            "tr": "Evet. Tüm siteler mobil uyumlu (responsive) hazırlanır ve yayından önce telefon ve masaüstü ekranlarında kontrol edilir.",
+            "en": "Yes. Every site is built responsive and checked on phone and desktop screens before launch.",
+            "ar": "نعم. تُبنى جميع المواقع بتصميم متجاوب وتُفحص على شاشات الهاتف والحاسوب قبل الإطلاق."
+          }
+        },
+        {
+          "question": {
+            "tr": "Sitem hangi dillerde yayınlanabilir?",
+            "en": "Which languages can my site be published in?",
+            "ar": "بأي لغات يمكن نشر موقعي؟"
+          },
+          "answer": {
+            "tr": "Türkçe, İngilizce ve Arapça desteklenir. Arapça sayfalarda sağdan sola yerleşim kullanılır.",
+            "en": "Turkish, English and Arabic are supported. Arabic pages use a right-to-left layout.",
+            "ar": "ندعم التركية والإنجليزية والعربية. وتستخدم الصفحات العربية اتجاه الكتابة من اليمين إلى اليسار."
+          }
+        },
+        {
+          "question": {
+            "tr": "Web siteniz Google'da ilk sırada çıkar mı?",
+            "en": "Will my site rank first on Google?",
+            "ar": "هل سيظهر موقعي في المركز الأول على جوجل؟"
+          },
+          "answer": {
+            "tr": "Sıralama garantisi vermeyiz. Teknik SEO zeminini, özgün içeriği ve yapısal veriyi hazırlarız; sonuçları ölçer ve raporlarız.",
+            "en": "We do not guarantee rankings. We prepare the technical SEO foundation, original content and structured data, then measure and report the results.",
+            "ar": "لا نضمن ترتيبًا معينًا. نجهز الأساس التقني للسيو والمحتوى الأصلي والبيانات المنظمة، ثم نقيس النتائج ونبلغ بها."
+          }
+        }
+      ],
+      "category": "faq",
+      "description": "SSS akordeon modülü. Soru-cevap listesini tek seferde bir açık olacak şekilde akordeon düzende gösterir. Çok dilli veri, animasyonlu açılış, mobil uyum ve erişilebilirlik (aria-expanded) desteği içerir.",
+      "version": "1.0.0",
+      "icon": "quiz",
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "id": "xji27t",
+      "path": "faq-1",
+      "local": "body",
+      "index": 17
+    },
+    {
+      "name": "SSS — zh2u4fbto0",
+      "desing": {
+        "max": "900px",
+        "bgcolor": "transparent",
+        "cardbg": "#f8fafc",
+        "bordercolor": "#e2e8f0",
+        "titlecolor": "#1e293b",
+        "textcolor": "#475569",
+        "accent": "var(--mx-site-primary, #1D71B8)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "badge": {
+          "tr": "SSS",
+          "en": "FAQ",
+          "ar": "الأسئلة الشائعة"
+        },
+        "title": {
+          "tr": "Sıkça Sorulan Sorular",
+          "en": "Frequently Asked Questions",
+          "ar": "الأسئلة الشائعة"
+        },
+        "description": {
+          "tr": "Merak ettiğiniz soruların kısa cevapları.",
+          "en": "Short answers to common questions.",
+          "ar": "إجابات مختصرة عن الأسئلة الشائعة."
+        }
+      },
+      "data": [
+        {
+          "question": {
+            "tr": "Gaziantep'te mobil uygulama geliştirme hizmeti veriyor musunuz?",
+            "en": "Do you develop mobile apps in Gaziantep?",
+            "ar": "هل تطورون تطبيقات الجوال في غازي عنتاب؟"
+          },
+          "answer": {
+            "tr": "Evet. Ajans Mobil Gaziantep merkezlidir ve iOS ile Android için mobil uygulama geliştirir.",
+            "en": "Yes. Ajans Mobil is based in Gaziantep and develops mobile apps for iOS and Android.",
+            "ar": "نعم. أجانس موبيل مقرها غازي عنتاب وتطوّر تطبيقات الجوال لنظامي iOS وAndroid."
+          }
+        },
+        {
+          "question": {
+            "tr": "Uygulamayı hem iOS hem Android için yapıyor musunuz?",
+            "en": "Do you build the app for both iOS and Android?",
+            "ar": "هل تبنون التطبيق لنظامي iOS وAndroid معًا؟"
+          },
+          "answer": {
+            "tr": "Evet. Flutter ile tek kod tabanından iki platforma da çıkıyoruz; bu, geliştirme ve güncelleme sürecini sadeleştirir.",
+            "en": "Yes. With Flutter we ship to both platforms from a single codebase, which simplifies development and updates.",
+            "ar": "نعم. بتقنية Flutter نصدر التطبيق للنظامين من قاعدة شيفرة واحدة، مما يبسّط التطوير والتحديث."
+          }
+        },
+        {
+          "question": {
+            "tr": "Mağaza yayınını siz mi yapıyorsunuz?",
+            "en": "Do you handle the store release?",
+            "ar": "هل تتولون النشر في المتاجر؟"
+          },
+          "answer": {
+            "tr": "Mağaza yayın sürecinde destek veriyoruz.",
+            "en": "We support you through the store release process.",
+            "ar": "ندعمك في عملية النشر على المتاجر."
+          }
+        },
+        {
+          "question": {
+            "tr": "Uygulama yayınlandıktan sonra destek veriyor musunuz?",
+            "en": "Do you provide support after the app is published?",
+            "ar": "هل تقدمون الدعم بعد نشر التطبيق؟"
+          },
+          "answer": {
+            "tr": "Evet. Hata düzeltme, güncelleme ve yeni özellik geliştirme için bakım desteği sağlıyoruz.",
+            "en": "Yes. We provide maintenance for bug fixes, updates and new feature development.",
+            "ar": "نعم. نقدم دعم الصيانة لإصلاح الأخطاء والتحديثات وتطوير ميزات جديدة."
+          }
+        }
+      ],
+      "category": "faq",
+      "description": "SSS akordeon modülü. Soru-cevap listesini tek seferde bir açık olacak şekilde akordeon düzende gösterir. Çok dilli veri, animasyonlu açılış, mobil uyum ve erişilebilirlik (aria-expanded) desteği içerir.",
+      "version": "1.0.0",
+      "icon": "quiz",
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "id": "uejvey",
+      "path": "faq-1",
+      "local": "body",
+      "index": 18
+    },
+    {
+      "name": "SSS — egsgh4ls65",
+      "desing": {
+        "max": "900px",
+        "bgcolor": "transparent",
+        "cardbg": "#f8fafc",
+        "bordercolor": "#e2e8f0",
+        "titlecolor": "#1e293b",
+        "textcolor": "#475569",
+        "accent": "var(--mx-site-primary, #1D71B8)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "badge": {
+          "tr": "SSS",
+          "en": "FAQ",
+          "ar": "الأسئلة الشائعة"
+        },
+        "title": {
+          "tr": "Sıkça Sorulan Sorular",
+          "en": "Frequently Asked Questions",
+          "ar": "الأسئلة الشائعة"
+        },
+        "description": {
+          "tr": "Merak ettiğiniz soruların kısa cevapları.",
+          "en": "Short answers to common questions.",
+          "ar": "إجابات مختصرة عن الأسئلة الشائعة."
+        }
+      },
+      "data": [
+        {
+          "question": {
+            "tr": "Özel yazılım ile hazır yazılım arasındaki fark nedir?",
+            "en": "What is the difference between custom and ready-made software?",
+            "ar": "ما الفرق بين البرمجيات المخصصة والجاهزة؟"
+          },
+          "answer": {
+            "tr": "Hazır yazılım herkese uygun genel bir üründür. Özel yazılım ise yalnızca sizin süreçleriniz için tasarlanır; gereksiz özellik taşımaz ve işinizle birlikte büyüyebilir.",
+            "en": "Ready-made software is a general product for everyone. Custom software is designed only for your processes, carries no unnecessary features and can grow with your business.",
+            "ar": "البرنامج الجاهز منتج عام يناسب الجميع، أما البرنامج المخصص فيُصمَّم لإجراءاتك وحدها دون ميزات زائدة ويمكنه النمو مع عملك."
+          }
+        },
+        {
+          "question": {
+            "tr": "Excel ile yürüttüğüm işi uygulamaya taşıyabilir misiniz?",
+            "en": "Can you move the work I run in Excel into an application?",
+            "ar": "هل يمكنكم نقل عملي من إكسل إلى تطبيق؟"
+          },
+          "answer": {
+            "tr": "Evet. Excel'de yürüyen kayıt, takip ve raporlama işleri; kullanıcı yetkileri ve yedekleme ile birlikte web tabanlı bir uygulamaya taşınabilir.",
+            "en": "Yes. Records, tracking and reporting done in Excel can be moved to a web-based application together with user permissions and backups.",
+            "ar": "نعم. يمكن نقل أعمال التسجيل والمتابعة والتقارير من إكسل إلى تطبيق قائم على الويب مع صلاحيات المستخدمين والنسخ الاحتياطي."
+          }
+        },
+        {
+          "question": {
+            "tr": "Uygulama web sitem veya mobil uygulamamla bağlanabilir mi?",
+            "en": "Can the application connect to my website or mobile app?",
+            "ar": "هل يمكن ربط التطبيق بموقعي أو تطبيق الجوال؟"
+          },
+          "answer": {
+            "tr": "Evet. Arka uç (API) aracılığıyla web siteniz, mobil uygulamanız ve mevcut sistemlerinizle veri alışverişi yapacak şekilde tasarlanabilir.",
+            "en": "Yes. Through a back end (API) it can exchange data with your website, mobile app and existing systems.",
+            "ar": "نعم. عبر واجهة خلفية (API) يمكن تبادل البيانات مع موقعك وتطبيق الجوال وأنظمتك الحالية."
+          }
+        },
+        {
+          "question": {
+            "tr": "Verilerim güvende olur mu?",
+            "en": "Will my data be safe?",
+            "ar": "هل ستكون بياناتي آمنة؟"
+          },
+          "answer": {
+            "tr": "Kullanıcı yetkileri, veri güvenliği ve yedekleme planı geliştirme sürecinin başından itibaren tasarıma dahil edilir.",
+            "en": "User permissions, data security and a backup plan are part of the design from the start of development.",
+            "ar": "تدخل صلاحيات المستخدمين وأمان البيانات وخطة النسخ الاحتياطي في التصميم منذ بداية التطوير."
+          }
+        }
+      ],
+      "category": "faq",
+      "description": "SSS akordeon modülü. Soru-cevap listesini tek seferde bir açık olacak şekilde akordeon düzende gösterir. Çok dilli veri, animasyonlu açılış, mobil uyum ve erişilebilirlik (aria-expanded) desteği içerir.",
+      "version": "1.0.0",
+      "icon": "quiz",
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "id": "jexpws",
+      "path": "faq-1",
+      "local": "body",
+      "index": 19
+    },
+    {
+      "name": "SSS — h9f506txbw",
+      "desing": {
+        "max": "900px",
+        "bgcolor": "transparent",
+        "cardbg": "#f8fafc",
+        "bordercolor": "#e2e8f0",
+        "titlecolor": "#1e293b",
+        "textcolor": "#475569",
+        "accent": "var(--mx-site-primary, #1D71B8)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "badge": {
+          "tr": "SSS",
+          "en": "FAQ",
+          "ar": "الأسئلة الشائعة"
+        },
+        "title": {
+          "tr": "Sıkça Sorulan Sorular",
+          "en": "Frequently Asked Questions",
+          "ar": "الأسئلة الشائعة"
+        },
+        "description": {
+          "tr": "Merak ettiğiniz soruların kısa cevapları.",
+          "en": "Short answers to common questions.",
+          "ar": "إجابات مختصرة عن الأسئلة الشائعة."
+        }
+      },
+      "data": [
+        {
+          "question": {
+            "tr": "SEO nedir ve neden gereklidir?",
+            "en": "What is SEO and why is it needed?",
+            "ar": "ما هو السيو ولماذا هو ضروري؟"
+          },
+          "answer": {
+            "tr": "SEO, sitenizin arama motorlarında ilgili aramalarda bulunabilmesi için yapılan teknik ve içerik çalışmasıdır. Müşterileriniz sizi ararken karşılarına çıkmanızı sağlar.",
+            "en": "SEO is the technical and content work that lets your site be found for relevant searches. It helps you appear when your customers are looking for you.",
+            "ar": "السيو هو العمل التقني وعمل المحتوى الذي يتيح ظهور موقعك في عمليات البحث ذات الصلة، فيجدك عملاؤك حين يبحثون عنك."
+          }
+        },
+        {
+          "question": {
+            "tr": "SEO ile Google'da ilk sıra garanti edilir mi?",
+            "en": "Does SEO guarantee the first place on Google?",
+            "ar": "هل يضمن السيو المركز الأول على جوجل؟"
+          },
+          "answer": {
+            "tr": "Hayır. Hiçbir ajans dürüstçe sıra garantisi veremez. Biz ölçülebilir iyileştirmeler yapar, sıra ve görünürlük değişimini Search Console verisiyle raporlarız.",
+            "en": "No. No agency can honestly guarantee a position. We make measurable improvements and report changes in position and visibility using Search Console data.",
+            "ar": "لا. لا تستطيع أي وكالة أن تضمن مركزًا معينًا بصدق. نجري تحسينات قابلة للقياس ونبلغ بتغيّر الترتيب والظهور ببيانات Search Console."
+          }
+        },
+        {
+          "question": {
+            "tr": "Gaziantep için yerel SEO nasıl yapılır?",
+            "en": "How is local SEO done for Gaziantep?",
+            "ar": "كيف يتم السيو المحلي لغازي عنتاب؟"
+          },
+          "answer": {
+            "tr": "Hizmet sayfalarında şehir ve hizmet ifadelerini doğal biçimde kullanır, adres ve telefon bilgisini her yerde tutarlı yazar ve Google işletme profili önerileri hazırlarız.",
+            "en": "We use city and service phrases naturally on service pages, write address and phone details consistently everywhere and prepare Google Business Profile suggestions.",
+            "ar": "نستخدم عبارات المدينة والخدمة بشكل طبيعي في صفحات الخدمات، ونكتب العنوان والهاتف بشكل متسق في كل مكان، ونجهز اقتراحات لملف النشاط التجاري على جوجل."
+          }
+        },
+        {
+          "question": {
+            "tr": "Yapay zekâ cevaplarında sitemin anılması için ne yapıyorsunuz?",
+            "en": "What do you do to get my site mentioned in AI answers?",
+            "ar": "ماذا تفعلون ليُذكر موقعي في إجابات الذكاء الاصطناعي؟"
+          },
+          "answer": {
+            "tr": "Net varlık tanımı, soru-cevap bölümleri, yapısal veri ve llms.txt dosyası hazırlarız. Bunlar anılma olasılığını artırmaya yönelik düzenlemelerdir; kesin sonuç vaat etmeyiz.",
+            "en": "We prepare a clear entity definition, question-and-answer sections, structured data and an llms.txt file. These aim to raise the likelihood of being mentioned; we do not promise a specific outcome.",
+            "ar": "نجهز تعريفًا واضحًا للكيان وأقسام أسئلة وأجوبة وبيانات منظمة وملف llms.txt. تهدف هذه التعديلات إلى رفع احتمال الذكر ولا نعد بنتيجة محددة."
+          }
+        }
+      ],
+      "category": "faq",
+      "description": "SSS akordeon modülü. Soru-cevap listesini tek seferde bir açık olacak şekilde akordeon düzende gösterir. Çok dilli veri, animasyonlu açılış, mobil uyum ve erişilebilirlik (aria-expanded) desteği içerir.",
+      "version": "1.0.0",
+      "icon": "quiz",
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "id": "3vepg2",
+      "path": "faq-1",
+      "local": "body",
+      "index": 20
+    },
+    {
+      "name": "SSS — genel",
+      "desing": {
+        "max": "900px",
+        "bgcolor": "transparent",
+        "cardbg": "#f8fafc",
+        "bordercolor": "#e2e8f0",
+        "titlecolor": "#1e293b",
+        "textcolor": "#475569",
+        "accent": "var(--mx-site-primary, #1D71B8)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "badge": {
+          "tr": "SSS",
+          "en": "FAQ",
+          "ar": "الأسئلة الشائعة"
+        },
+        "title": {
+          "tr": "Sıkça Sorulan Sorular",
+          "en": "Frequently Asked Questions",
+          "ar": "الأسئلة الشائعة"
+        },
+        "description": {
+          "tr": "Ajans Mobil hakkında en çok sorulan sorular.",
+          "en": "The most common questions about Ajans Mobil.",
+          "ar": "أكثر الأسئلة شيوعًا عن أجانس موبيل."
+        }
+      },
+      "data": [
+        {
+          "question": {
+            "tr": "Ajans Mobil nedir, ne iş yapar?",
+            "en": "What is Ajans Mobil and what does it do?",
+            "ar": "ما هي أجانس موبيل وماذا تعمل؟"
+          },
+          "answer": {
+            "tr": "Ajans Mobil, Gaziantep merkezli bir dijital ajanstır. Web tasarım, mobil uygulama, özel yazılım ve uygulama geliştirme, SEO, sosyal medya yönetimi, dijital reklam yönetimi, grafik tasarım ve fotoğraf çekimi hizmetleri verir.",
+            "en": "Ajans Mobil is a digital agency based in Gaziantep. It provides web design, mobile apps, custom software and application development, SEO, social media management, digital advertising management, graphic design and photography.",
+            "ar": "أجانس موبيل وكالة رقمية مقرها غازي عنتاب. تقدم خدمات تصميم المواقع وتطبيقات الجوال وتطوير البرمجيات والتطبيقات المخصصة والسيو وإدارة وسائل التواصل وإدارة الإعلانات الرقمية والتصميم الجرافيكي والتصوير."
+          }
+        },
+        {
+          "question": {
+            "tr": "Gaziantep'te web tasarım hizmeti veriyor musunuz?",
+            "en": "Do you offer web design in Gaziantep?",
+            "ar": "هل تقدمون خدمة تصميم المواقع في غازي عنتاب؟"
+          },
+          "answer": {
+            "tr": "Evet. Kurumsal web sitesi, tanıtım sitesi ve e-ticaret sitesi tasarlıyoruz. Siteler mobil uyumlu ve arama motorlarına hazır olarak yayınlanır.",
+            "en": "Yes. We design corporate websites, brochure sites and e-commerce sites. Sites are published mobile-friendly and ready for search engines.",
+            "ar": "نعم. نصمم المواقع المؤسسية والتعريفية والمتاجر الإلكترونية، وتُنشر المواقع متوافقة مع الجوال وجاهزة لمحركات البحث."
+          }
+        },
+        {
+          "question": {
+            "tr": "Mobil uygulamayı hangi teknolojiyle geliştiriyorsunuz?",
+            "en": "Which technology do you use for mobile apps?",
+            "ar": "ما التقنية التي تستخدمونها لتطوير تطبيقات الجوال؟"
+          },
+          "answer": {
+            "tr": "Flutter kullanıyoruz. Tek kod tabanıyla hem iOS hem Android uygulaması çıkarabildiğimiz için geliştirme ve bakım süreci sadeleşir.",
+            "en": "We use Flutter. Because one codebase produces both the iOS and Android app, development and maintenance stay simple.",
+            "ar": "نستخدم Flutter. فبما أن قاعدة شيفرة واحدة تنتج تطبيقي iOS وAndroid يصبح التطوير والصيانة أبسط."
+          }
+        },
+        {
+          "question": {
+            "tr": "Özel yazılım hangi durumlarda gerekir?",
+            "en": "When is custom software needed?",
+            "ar": "متى نحتاج إلى برمجيات مخصصة؟"
+          },
+          "answer": {
+            "tr": "Hazır yazılımlar süreçlerinizi karşılamıyorsa, aynı işi birden fazla araçta tekrar ediyorsanız veya Excel ile yürüttüğünüz işler büyüdüyse işletmenize özel uygulama düşünülebilir.",
+            "en": "When ready-made software does not fit your processes, you repeat the same work in several tools, or the work you run in Excel has outgrown it, a custom application can be considered.",
+            "ar": "عندما لا تغطي البرامج الجاهزة إجراءاتك، أو تكرر العمل نفسه في عدة أدوات، أو يكبر العمل الذي تديره في إكسل، يمكن التفكير في تطبيق مخصص لنشاطك."
+          }
+        },
+        {
+          "question": {
+            "tr": "Sitem hangi dillerde yayınlanabilir?",
+            "en": "Which languages can my site be published in?",
+            "ar": "بأي لغات يمكن نشر موقعي؟"
+          },
+          "answer": {
+            "tr": "Türkçe, İngilizce ve Arapça desteklenir. Arapça sayfalarda sağdan sola yerleşim kullanılır.",
+            "en": "Turkish, English and Arabic are supported. Arabic pages use a right-to-left layout.",
+            "ar": "ندعم التركية والإنجليزية والعربية، وتستخدم الصفحات العربية اتجاه الكتابة من اليمين إلى اليسار."
+          }
+        },
+        {
+          "question": {
+            "tr": "Fiyatlar nasıl belirleniyor?",
+            "en": "How are prices determined?",
+            "ar": "كيف تُحدَّد الأسعار؟"
+          },
+          "answer": {
+            "tr": "Fiyat projenin kapsamına göre belirlenir. İhtiyacınızı dinledikten sonra kapsamı, adımları ve fiyatı içeren yazılı bir teklif veririz.",
+            "en": "Price depends on the scope of the project. After listening to your need we give a written proposal with scope, steps and price.",
+            "ar": "يعتمد السعر على نطاق المشروع. بعد الاستماع إلى احتياجك نقدم عرضًا مكتوبًا يشمل النطاق والخطوات والسعر."
+          }
+        },
+        {
+          "question": {
+            "tr": "Çalışma süreci nasıl işliyor?",
+            "en": "How does the working process go?",
+            "ar": "كيف تسير عملية العمل؟"
+          },
+          "answer": {
+            "tr": "Tanışma, planlama (yazılı teklif), tasarım ve geliştirme, test ve yayın, ardından bakım adımlarından oluşur. Her aşamada ne olacağını önceden bilirsiniz.",
+            "en": "It consists of discovery, planning (written proposal), design and development, testing and launch, then maintenance. At every stage you know in advance what will happen.",
+            "ar": "تتكون من التعارف والتخطيط (عرض مكتوب) والتصميم والتطوير والاختبار والإطلاق ثم الصيانة. وتعرف مسبقًا في كل مرحلة ما سيحدث."
+          }
+        },
+        {
+          "question": {
+            "tr": "Yayından sonra destek veriyor musunuz?",
+            "en": "Do you provide support after launch?",
+            "ar": "هل تقدمون الدعم بعد الإطلاق؟"
+          },
+          "answer": {
+            "tr": "Evet. Site ve uygulamalar için içerik güncelleme, hata düzeltme, bakım ve yeni özellik geliştirme desteği veriyoruz.",
+            "en": "Yes. For sites and apps we provide content updates, bug fixes, maintenance and new feature development.",
+            "ar": "نعم. نقدم للمواقع والتطبيقات تحديث المحتوى وإصلاح الأخطاء والصيانة وتطوير ميزات جديدة."
+          }
+        },
+        {
+          "question": {
+            "tr": "Size nasıl ulaşabilirim?",
+            "en": "How can I reach you?",
+            "ar": "كيف يمكنني التواصل معكم؟"
+          },
+          "answer": {
+            "tr": "0531 679 10 14 numarasından telefon veya WhatsApp ile, info@ajansmobil.com adresinden e-posta ile ya da iletişim sayfasındaki bilgilerle bize ulaşabilirsiniz.",
+            "en": "You can reach us by phone or WhatsApp at 0531 679 10 14, by e-mail at info@ajansmobil.com, or through the contact page.",
+            "ar": "يمكنك التواصل معنا بالهاتف أو واتساب على الرقم 0531 679 10 14 أو بالبريد info@ajansmobil.com أو عبر صفحة الاتصال."
+          }
+        },
+        {
+          "question": {
+            "tr": "SEO ile Google'da ilk sıra garanti ediliyor mu?",
+            "en": "Is the first place on Google guaranteed with SEO?",
+            "ar": "هل يُضمن المركز الأول على جوجل بالسيو؟"
+          },
+          "answer": {
+            "tr": "Hayır. Sıralama garantisi vermeyiz; teknik zemini ve içeriği iyileştirir, sıra ve görünürlük değişimini ölçüp raporlarız.",
+            "en": "No. We do not guarantee rankings; we improve the technical foundation and content, then measure and report changes in position and visibility.",
+            "ar": "لا. لا نضمن ترتيبًا معينًا؛ بل نحسّن الأساس التقني والمحتوى ونقيس تغيّر الترتيب والظهور ونبلغ به."
+          }
+        }
+      ],
+      "category": "faq",
+      "description": "SSS akordeon modülü. Soru-cevap listesini tek seferde bir açık olacak şekilde akordeon düzende gösterir. Çok dilli veri, animasyonlu açılış, mobil uyum ve erişilebilirlik (aria-expanded) desteği içerir.",
+      "version": "1.0.0",
+      "icon": "quiz",
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "id": "0u68u4",
+      "path": "faq-1",
+      "local": "body",
+      "index": 21
+    },
+    {
+      "name": "SSS — iletişim",
+      "desing": {
+        "max": "900px",
+        "bgcolor": "transparent",
+        "cardbg": "#f8fafc",
+        "bordercolor": "#e2e8f0",
+        "titlecolor": "#1e293b",
+        "textcolor": "#475569",
+        "accent": "var(--mx-site-primary, #1D71B8)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "badge": {
+          "tr": "SSS",
+          "en": "FAQ",
+          "ar": "الأسئلة الشائعة"
+        },
+        "title": {
+          "tr": "İletişim hakkında sık sorulanlar",
+          "en": "Contact: frequently asked questions",
+          "ar": "أسئلة شائعة حول التواصل"
+        },
+        "description": {
+          "tr": "Bize yazmadan önce merak edilenler.",
+          "en": "What people ask before getting in touch.",
+          "ar": "ما يُسأل عنه قبل التواصل معنا."
+        }
+      },
+      "data": [
+        {
+          "question": {
+            "tr": "Ajans Mobil'e nasıl ulaşırım?",
+            "en": "How can I reach Ajans Mobil?",
+            "ar": "كيف أتواصل مع أجانس موبيل؟"
+          },
+          "answer": {
+            "tr": "Ajans Mobil, Gaziantep merkezli bir dijital ajanstır. Bize 0531 679 10 14 numarasından telefon veya <a href=\"https://wa.me/905316791014\" rel=\"noopener\">WhatsApp</a> ile, info@ajansmobil.com adresinden e-posta ile ulaşabilirsiniz.",
+            "en": "Ajans Mobil is a digital agency based in Gaziantep. You can reach us by phone or <a href=\"https://wa.me/905316791014\" rel=\"noopener\">WhatsApp</a> at 0531 679 10 14, or by e-mail at info@ajansmobil.com.",
+            "ar": "أجانس موبيل وكالة رقمية مقرها غازي عنتاب. يمكنك التواصل معنا بالهاتف أو <a href=\"https://wa.me/905316791014\" rel=\"noopener\">واتساب</a> على الرقم 0531 679 10 14 أو بالبريد info@ajansmobil.com."
+          }
+        },
+        {
+          "question": {
+            "tr": "İlk mesajımda neleri yazmalıyım?",
+            "en": "What should my first message include?",
+            "ar": "ماذا أكتب في رسالتي الأولى؟"
+          },
+          "answer": {
+            "tr": "Kısa bir not yeterlidir: ne istediğiniz (web sitesi, mobil uygulama, özel yazılım veya SEO), işletmenizin ne iş yaptığı, varsa mevcut siteniz veya sisteminiz, beklediğiniz takvim ve bütçe aralığı.",
+            "en": "A short note is enough: what you want (website, mobile app, custom software or SEO), what your business does, your current site or system if any, and your expected timeline and budget range.",
+            "ar": "تكفي ملاحظة قصيرة: ما تريده (موقع أو تطبيق جوال أو برمجيات مخصصة أو سيو) وطبيعة نشاطك وموقعك أو نظامك الحالي إن وجد والجدول الزمني ونطاق الميزانية المتوقعين."
+          }
+        },
+        {
+          "question": {
+            "tr": "Yazdıktan sonra ne olur?",
+            "en": "What happens after I write?",
+            "ar": "ماذا يحدث بعد أن أكتب؟"
+          },
+          "answer": {
+            "tr": "Mesajınızı okur, gerekirse birkaç soruyla ihtiyacınızı netleştiririz. Ardından kapsamı, adımları ve fiyatı içeren yazılı bir teklifle dönüş yaparız; teklifi onaylamadan çalışmaya başlanmaz.",
+            "en": "We read your message and, if needed, clarify your need with a few questions. Then we reply with a written proposal covering scope, steps and price; work does not start before you approve it.",
+            "ar": "نقرأ رسالتك ونوضح احتياجك عند الحاجة ببعض الأسئلة، ثم نرد بعرض مكتوب يشمل النطاق والخطوات والسعر، ولا يبدأ العمل قبل موافقتك عليه."
+          }
+        },
+        {
+          "question": {
+            "tr": "Gaziantep dışındaki işletmelerle çalışıyor musunuz?",
+            "en": "Do you work with businesses outside Gaziantep?",
+            "ar": "هل تعملون مع شركات خارج غازي عنتاب؟"
+          },
+          "answer": {
+            "tr": "Evet. Görüşmeler telefon, WhatsApp ve e-posta ile yürütülebildiği için farklı şehirlerdeki işletmelerle de çalışabiliriz.",
+            "en": "Yes. Since meetings can be held by phone, WhatsApp and e-mail, we can also work with businesses in other cities.",
+            "ar": "نعم. بما أن الاجتماعات تُجرى بالهاتف وواتساب والبريد يمكننا العمل مع شركات في مدن أخرى."
+          }
+        },
+        {
+          "question": {
+            "tr": "Hizmetlerin ayrıntısını nereden görebilirim?",
+            "en": "Where can I see the details of your services?",
+            "ar": "أين أجد تفاصيل خدماتكم؟"
+          },
+          "answer": {
+            "tr": "<a href=\"/tr/web-tasarim/\">Web tasarım</a>, <a href=\"/tr/mobil-uygulama/\">mobil uygulama</a>, <a href=\"/tr/ozel-uygulama-gelistirme/\">özel yazılım</a> ve <a href=\"/tr/seo-hizmeti/\">SEO</a> sayfalarına ya da <a href=\"/tr/sss/\">sık sorulan sorulara</a> bakabilirsiniz.",
+            "en": "See the <a href=\"/en/web-tasarim/\">web design</a>, <a href=\"/en/mobil-uygulama/\">mobile app</a>, <a href=\"/en/ozel-uygulama-gelistirme/\">custom software</a> and <a href=\"/en/seo-hizmeti/\">SEO</a> pages, or the <a href=\"/en/sss/\">frequently asked questions</a>.",
+            "ar": "راجع صفحات <a href=\"/ar/web-tasarim/\">تصميم المواقع</a> و<a href=\"/ar/mobil-uygulama/\">تطبيقات الجوال</a> و<a href=\"/ar/ozel-uygulama-gelistirme/\">البرمجيات المخصصة</a> و<a href=\"/ar/seo-hizmeti/\">السيو</a> أو <a href=\"/ar/sss/\">الأسئلة الشائعة</a>."
+          }
+        }
+      ],
+      "category": "faq",
+      "description": "SSS akordeon modülü. Soru-cevap listesini tek seferde bir açık olacak şekilde akordeon düzende gösterir. Çok dilli veri, animasyonlu açılış, mobil uyum ve erişilebilirlik (aria-expanded) desteği içerir.",
+      "version": "1.0.0",
+      "icon": "quiz",
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "id": "sa1p69",
+      "path": "faq-1",
+      "local": "body",
+      "index": 22
     }
   ]
 }

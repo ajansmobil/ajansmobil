@@ -64,6 +64,25 @@
         "body": true,
         "detail": true
       }
+    },
+    {
+      "name": {
+        "tr": "Blog Yazıları",
+        "en": "Blog Posts",
+        "ar": "مقالات المدونة"
+      },
+      "path": "yazilar",
+      "icon": "article",
+      "active": true,
+      "desc": [],
+      "data": [],
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "modulestatus": {},
+      "index": 3
     }
   ]
 }

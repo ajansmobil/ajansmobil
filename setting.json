@@ -13,7 +13,11 @@
   "user": false,
   "status": "Kurumsal",
   "category": "Kurumsal",
-  "name": "Ajans Mobil Gaziantep",
+  "name": {
+    "tr": "Ajans Mobil Gaziantep | Web Tasarım ve Mobil Uygulama",
+    "en": "Ajans Mobil Gaziantep | Web Design and Mobile Apps",
+    "ar": "أجانس موبيل غازي عنتاب | تصميم مواقع وتطبيقات جوال"
+  },
   "domain": "ajansmobil.com",
   "logo": "logo.svg",
   "phone": "0531 679 10 14",

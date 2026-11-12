@@ -13,13 +13,13 @@
     "body": [],
     "footer": []
   },
-  "index": 1,
+  "index": 2,
   "icon": "home",
   "desc": {},
   "description": {
     "tr": "Ajans Mobil'in misyonu: işletmelere web, mobil ve özel uygulamalarla güçlü, sürdürülebilir bir dijital varlık kazandırmak.",
-    "en": "Ajans Mobil's mission: giving businesses a strong, lasting digital presence with web, mobile and custom applications.",
-    "ar": "مهمة أجانس موبيل: منح الشركات حضورًا رقميًا قويًا ومستدامًا عبر المواقع وتطبيقات الجوال والتطبيقات المخصصة."
+    "en": "Ajans Mobil's mission: giving businesses a strong, lasting digital presence with web, mobile and custom applications built in Gaziantep.",
+    "ar": "مهمة أجانس موبيل: منح الشركات حضورًا رقميًا قويًا ومستدامًا عبر المواقع وتطبيقات الجوال والتطبيقات المخصصة التي نطورها في غازي عنتاب."
   },
   "keyword": {
     "tr": "ajans mobil misyon, dijital ajans misyonu, müşteri odaklı hizmet, değer yaratma, dijital dönüşüm, gaziantep dijital ajans",
@@ -31,7 +31,7 @@
     "en": "<h2>Our Mission</h2>\n<p>Our mission is to help businesses in Gaziantep and beyond build a strong, lasting digital presence — through websites, mobile apps and applications built around their specific needs.</p>\n<p>Instead of one-size-fits-all packages, we design solutions that fit each business's goals. We explain our work in plain language, keep you informed throughout, and avoid unrealistic promises.</p>\n<p>We keep technology simple: fast-loading, comfortable on mobile, findable in search engines and easy to maintain.</p>\n<h3>Our principles</h3>\n<ul>\n<li>Understand the client's goals first</li>\n<li>Transparent communication and clear reporting</li>\n<li>User experience and accessibility</li>\n<li>Security and protection of personal data</li>\n</ul>\n<p>To tell us about your project, reach us through the <a href=\"/en/iletisim/\">contact page</a>, by phone or WhatsApp at <strong>0531 679 10 14</strong>, or at <strong>info@ajansmobil.com</strong>.</p>\n",
     "ar": "<h2>مهمتنا</h2>\n<p>مهمتنا مساعدة الشركات في غازي عنتاب وما حولها على بناء حضور رقمي قوي ومستدام، من خلال المواقع الإلكترونية وتطبيقات الجوال والتطبيقات المصممة وفق احتياجاتها.</p>\n<p>بدلًا من الحزم الجاهزة، نصمم حلولًا تناسب هدف كل شركة. نشرح عملنا بلغة واضحة، ونبقيك على اطلاع طوال المشروع، ونتجنب الوعود غير الواقعية.</p>\n<p>نُبقي التقنية بسيطة: حلول سريعة التحميل ومريحة على الجوال وقابلة للعثور عليها في محركات البحث وسهلة الصيانة.</p>\n<h3>مبادئنا</h3>\n<ul>\n<li>فهم هدف العميل أولًا</li>\n<li>تواصل شفاف وتقارير واضحة</li>\n<li>تجربة المستخدم وسهولة الوصول</li>\n<li>الأمان وحماية البيانات الشخصية</li>\n</ul>\n<p>لعرض مشروعك علينا، تواصل معنا عبر <a href=\"/ar/iletisim/\">صفحة الاتصال</a> أو بالهاتف أو واتساب على الرقم <strong>0531 679 10 14</strong> أو عبر البريد <strong>info@ajansmobil.com</strong>.</p>\n"
   },
-  "update": "2026-11-02T06:32:42.668Z",
+  "update": "2026-11-12T07:28:13.575Z",
   "date": "2025-10-01T05:29:22.576Z",
   "title": {
     "tr": "Misyon | Ajans Mobil Gaziantep",

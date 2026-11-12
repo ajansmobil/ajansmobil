@@ -276,7 +276,8 @@
     .h0000menumobil {
       display: flex;
       align-items: center;
-      justify-content: end;
+      justify-content: start; 
+      min-height: 48px;
       background-color: #155A93;
       color: #FFFFFF;
       width: 100%;
@@ -311,15 +312,15 @@
     .h0000menulist {
       position: fixed;
       top: 0;
-      right: 0;
-      transform: translateX(calc(100% + 16px));
+      inset-inline-start: 0;
+      transform: translateX(calc(-100% - 16px));
       width: 80%;
       max-width: 320px;
       height: 100%;
       background-color: #155A93;
       padding: 0;
       border-radius: 0;
-      box-shadow: -2px 0 10px rgba(0, 0, 0, 0.3);
+      box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3);
       z-index: 10000000;
       display: flex;
       flex-direction: column;
@@ -327,7 +328,12 @@
       overflow-y: auto;
     }
 
-    .h0000menulist.active {
+    [dir="rtl"] .h0000menulist {
+      transform: translateX(calc(100% + 16px));
+    }
+
+    .h0000menulist.active,
+    [dir="rtl"] .h0000menulist.active {
       transform: none;
     }
 
@@ -336,6 +342,8 @@
       display: flex;
       align-items: center;
       justify-content: flex-end;
+      min-height: 48px;
+      min-width: 48px;
       padding: 15px;
       background-color: transparent;
       border: none;
@@ -364,6 +372,8 @@
 
     .h0000menulist ul a {
       padding: 15px 20px;
+      min-height: 48px;
+      box-sizing: border-box;
       text-align: left;
       border-bottom: 1px solid color-mix(in srgb, currentColor 12%, transparent);
     }
@@ -384,6 +394,14 @@
       margin: 0;
       justify-content: center;
       flex-wrap: wrap;
+    }
+
+    .h0000menulang ul a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 48px;
+      min-height: 48px;
     }
 
     .h0000menulang ul li {
@@ -485,6 +503,16 @@
     [class*="h0000"] * {
       animation: none !important;
       transition: none !important;
+    }
+  }
+
+  
+  @media (prefers-color-scheme: dark) {
+    .h0000bodylogo {
+      background: #ffffff;
+      padding: 4px 10px;
+      border-radius: 8px;
+      box-sizing: content-box;
     }
   }
 
@@ -875,6 +903,13 @@
     }
   }
 
+  
+  @media (max-width: 768px) {
+    .wa-advanced {
+      bottom: calc(20px + var(--mx-altbar-h, 0px) + env(safe-area-inset-bottom, 0px));
+    }
+  }
+
 
   
   .f0001-f9 {
@@ -1091,6 +1126,60 @@
     [class*="f0001"] * {
       animation: none !important;
       transition: none !important;
+    }
+  }
+
+  
+  .f0001-f9__bar { display: none; }
+  .f0001-f9__bar-oge {
+    flex: 1 1 0;
+    min-width: 0;
+    min-height: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    color: var(--mx-site-text, #f3f4f6);
+    text-decoration: none;
+    opacity: 0.78;
+    transition: opacity 0.2s ease;
+  }
+  .f0001-f9__bar-oge:hover, .f0001-f9__bar-oge:focus-visible { opacity: 1; outline-color: currentColor; }
+  .f0001-f9__bar-oge .material-symbols-outlined { font-size: 22px; line-height: 1; color: color-mix(in srgb, var(--mx-site-primary, #1D71B8) 80%, var(--mx-site-text, #192027)); }
+  .f0001-f9__bar-ad {
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    padding-inline: 4px;
+  }
+  .f0001-f9__bar-oge[aria-current="page"] { opacity: 1; }
+  .f0001-f9__bar-oge[aria-current="page"] .f0001-f9__bar-ad { font-weight: 700; }
+  @media (max-width: 768px) {
+    .f0001-f9 { padding-bottom: 72px; }
+    .f0001-f9__bar { display: flex; position: fixed; inset-inline: 0; bottom: 0; z-index: 9990; background: var(--mx-site-surface-2, #1f2937); border-top: 2px solid color-mix(in srgb, var(--mx-site-primary, #1D71B8) 80%, var(--mx-site-text, #192027)); box-shadow: 0 -6px 20px rgba(0, 0, 0, 0.22); padding-bottom: env(safe-area-inset-bottom, 0); }
+  }
+
+  
+  @media (max-width: 768px) {
+    .f0001-f9__link,
+    .f0001-f9__chip {
+      display: inline-flex;
+      align-items: center;
+      min-height: 48px;
+      box-sizing: border-box;
+    }
+
+    .f0001-f9__bottom .wm-langbar li a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 48px;
+      min-height: 48px;
     }
   }
 

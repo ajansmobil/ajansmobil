@@ -1,0 +1,43 @@
+{
+  "id": "2ovtzlpkin",
+  "name": {
+    "tr": "Blog",
+    "en": "Blog",
+    "ar": "المدونة"
+  },
+  "description": {
+    "tr": "Ajans Mobil blog: web tasarım, mobil uygulama ve özel yazılım kararlarını kolaylaştıran Gaziantep işletmeleri için kısa, anlaşılır rehber yazıları.",
+    "en": "Ajans Mobil blog: short, clear guides for Gaziantep businesses that make web design, mobile app and custom software decisions easier.",
+    "ar": "مدونة أجانس موبيل: مقالات إرشادية قصيرة وواضحة لشركات غازي عنتاب تسهّل قرارات تصميم المواقع وتطبيقات الجوال والبرمجيات المخصصة."
+  },
+  "keyword": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "path": "blog",
+  "icon": "article",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "vnze3j"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {
+    "tr": "<h2>Ajans Mobil Blog — Web, Mobil ve Özel Yazılım Rehberleri</h2>\n<p><strong>Ajans Mobil blogu, Gaziantep'teki işletmelerin web sitesi, mobil uygulama ve özel yazılım kararlarını kolaylaştıran kısa rehberler yayınlar.</strong> Yazılar sade dille hazırlanır; her yazıda kararınızı kolaylaştıracak sorular ve ilgili hizmet sayfasına bağlantı bulunur.</p>\n<ul>\n<li><a href=\"/tr/kurumsal-web-sitesi-nasil-hazirlanir/\"><strong>Kurumsal Web Sitesi Nasıl Hazırlanır?</strong></a> — Kurumsal web sitesi nasıl hazırlanır? Gaziantep işletmeleri için hedef, sayfa yapısı, içerik, mobil uyum ve SEO adımlarını anlatan kısa kontrol listesi.</li>\n<li><a href=\"/tr/mobil-uygulama-mi-mobil-uyumlu-site-mi/\"><strong>Mobil Uygulama mı, Mobil Uyumlu Site mi?</strong></a> — Mobil uygulama mı, mobil uyumlu web sitesi mi gerekir? İşletmeniz için doğru seçimi yapmanıza yardım eden, Gaziantep'ten kısa karşılaştırma rehberi.</li>\n<li><a href=\"/tr/ozel-yazilim-mi-hazir-yazilim-mi/\"><strong>Özel Yazılım mı, Hazır Yazılım mı?</strong></a> — Özel yazılım mı, hazır yazılım mı? Karar vermeden önce sorulacak sorular ve her iki seçeneğin artı-eksileri; Gaziantep'ten sade bir rehber.</li>\n</ul>\n<p>Sorularınız için <a href=\"/tr/sss/\">sık sorulan sorulara</a> bakabilir ya da <a href=\"/tr/iletisim/\">bize yazabilirsiniz</a>.</p>\n",
+    "en": "<h2>Ajans Mobil Blog — Guides on Web, Mobile and Custom Software</h2>\n<p><strong>The Ajans Mobil blog publishes short guides that make web, mobile app and custom software decisions easier for businesses in Gaziantep.</strong> Articles are written in plain language; each one has questions to ease your decision and a link to the related service page.</p>\n<ul>\n<li><a href=\"/en/kurumsal-web-sitesi-nasil-hazirlanir/\"><strong>How to Prepare a Corporate Website</strong></a> — How is a corporate website prepared? A short checklist for Gaziantep businesses covering goals, page structure, content, mobile fit and SEO steps.</li>\n<li><a href=\"/en/mobil-uygulama-mi-mobil-uyumlu-site-mi/\"><strong>Mobile App or Mobile-Friendly Website?</strong></a> — Do you need a mobile app or a mobile-friendly website? A short comparison guide from Gaziantep to help you make the right choice for your business.</li>\n<li><a href=\"/en/ozel-yazilim-mi-hazir-yazilim-mi/\"><strong>Custom Software or Ready-Made Software?</strong></a> — Custom or ready-made software? The questions to ask before deciding and the pros and cons of both options, in a plain guide from Gaziantep.</li>\n</ul>\n<p>For your questions see the <a href=\"/en/sss/\">frequently asked questions</a> or <a href=\"/en/iletisim/\">write to us</a>.</p>\n",
+    "ar": "<h2>مدونة أجانس موبيل — أدلة عن الويب والجوال والبرمجيات المخصصة</h2>\n<p><strong>تنشر مدونة أجانس موبيل أدلة قصيرة تسهّل على شركات غازي عنتاب قرارات الموقع الإلكتروني وتطبيق الجوال والبرمجيات المخصصة.</strong> المقالات بلغة مبسطة، وفي كل مقال أسئلة تساعدك على القرار ورابط لصفحة الخدمة المرتبطة.</p>\n<ul>\n<li><a href=\"/ar/kurumsal-web-sitesi-nasil-hazirlanir/\"><strong>كيف تُعدّ موقعًا مؤسسيًا؟</strong></a> — كيف يُعدّ الموقع المؤسسي؟ قائمة تحقق قصيرة لشركات غازي عنتاب تشمل الهدف وبنية الصفحات والمحتوى والتوافق مع الجوال وخطوات السيو.</li>\n<li><a href=\"/ar/mobil-uygulama-mi-mobil-uyumlu-site-mi/\"><strong>تطبيق جوال أم موقع متوافق مع الجوال؟</strong></a> — هل تحتاج تطبيق جوال أم موقعًا متوافقًا مع الجوال؟ دليل مقارنة قصير من غازي عنتاب يساعدك على الاختيار الصحيح لنشاطك التجاري.</li>\n<li><a href=\"/ar/ozel-yazilim-mi-hazir-yazilim-mi/\"><strong>برمجيات مخصصة أم جاهزة؟</strong></a> — برمجيات مخصصة أم جاهزة؟ الأسئلة التي تُطرح قبل القرار ومزايا وعيوب كل خيار في دليل مبسط وواضح من غازي عنتاب يساعدك على اتخاذ قرارك بثقة.</li>\n</ul>\n<p>لأسئلتك راجع <a href=\"/ar/sss/\">الأسئلة الشائعة</a> أو <a href=\"/ar/iletisim/\">راسلنا</a>.</p>\n"
+  },
+  "title": {
+    "tr": "Blog | Ajans Mobil Gaziantep Dijital Ajans",
+    "en": "Blog | Ajans Mobil Gaziantep Digital Agency",
+    "ar": "المدونة | أجانس موبيل غازي عنتاب"
+  },
+  "date": "2026-11-12T07:28:14.992Z",
+  "update": "2026-11-12T07:28:14.998Z"
+}

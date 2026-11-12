@@ -17,7 +17,7 @@
   "description": {
     "tr": "Web tasarım, mobil uygulama geliştirme, sosyal medya yönetimi ve dijital pazarlama alanlarında profesyonel hizmetler sunuyoruz.",
     "en": "We offer professional services in web design, mobile application development, social media management and digital marketing.",
-    "ar": "نقدم خدمات مهنية في تصميم الويب وتطوير تطبيقات الجوال وإدارة وسائل التواصل الاجتماعي والتسويق الرقمي."
+    "ar": "نقدم خدمات مهنية في تصميم الويب وتطوير تطبيقات الجوال والبرمجيات المخصصة وإدارة وسائل التواصل الاجتماعي والتسويق الرقمي في غازي عنتاب."
   },
   "text": {
     "tr": "<h2>Dijital Hizmetlerimiz — Web, Mobil ve Özel Uygulamalar</h2>\n<p>Ajans Mobil olarak web siteleri, mobil uygulamalar ve ihtiyaca özel uygulamalar geliştiriyor; bunları SEO, sosyal medya ve reklam yönetimiyle destekliyoruz.</p>\n<p>Aşağıdaki kartlardan her hizmetin ayrıntısına ulaşabilirsiniz. Hangisinin size uygun olduğundan emin değilseniz, hedefinizi anlatmanız yeterli; birlikte doğru kapsamı belirleriz.</p>\n<p>Tüm çalışmalarda mobil uyum, hız ve kişisel verilerin korunması temel gereksinim olarak ele alınır.</p>\n<h3>Hizmet alanları</h3>\n<ul>\n<li>Web tasarım ve geliştirme</li>\n<li>Mobil uygulama geliştirme</li>\n<li>Özel yazılım ve uygulama geliştirme</li>\n<li>SEO</li>\n<li>Sosyal medya yönetimi ve dijital reklam</li>\n<li>Grafik tasarım ve fotoğraf çekimi</li>\n</ul>\n<p>Projenizi anlatmak için <a href=\"/tr/iletisim/\">iletişim sayfamızdan</a>, telefon veya WhatsApp ile <strong>0531 679 10 14</strong> numarasından, ya da <strong>info@ajansmobil.com</strong> adresinden bize ulaşabilirsiniz.</p>\n",
@@ -25,7 +25,7 @@
     "ar": "<h2>خدماتنا الرقمية — المواقع وتطبيقات الجوال والتطبيقات المخصصة</h2>\n<p>في أجانس موبيل نطوّر المواقع الإلكترونية وتطبيقات الجوال والتطبيقات المخصصة، ونعززها بخدمات SEO ووسائل التواصل وإدارة الإعلانات.</p>\n<p>يمكنك الوصول إلى تفاصيل كل خدمة من البطاقات أدناه. وإن لم تكن متأكدًا أيها يناسبك، يكفي أن تصف هدفك لنحدد معًا النطاق المناسب.</p>\n<p>في جميع أعمالنا نعتبر التوافق مع الجوال والسرعة وحماية البيانات الشخصية متطلبات أساسية.</p>\n<h3>مجالات الخدمة</h3>\n<ul>\n<li>تصميم المواقع وتطويرها</li>\n<li>تطوير تطبيقات الجوال</li>\n<li>البرمجيات والتطبيقات المخصصة</li>\n<li>تحسين محركات البحث SEO</li>\n<li>إدارة وسائل التواصل والإعلانات الرقمية</li>\n<li>التصميم الجرافيكي والتصوير</li>\n</ul>\n<p>لعرض مشروعك علينا، تواصل معنا عبر <a href=\"/ar/iletisim/\">صفحة الاتصال</a> أو بالهاتف أو واتساب على الرقم <strong>0531 679 10 14</strong> أو عبر البريد <strong>info@ajansmobil.com</strong>.</p>\n"
   },
   "desc": {},
-  "index": 1,
+  "index": 2,
   "desing": {
     "header": [],
     "body": [
@@ -34,7 +34,7 @@
     ],
     "footer": []
   },
-  "update": "2026-11-02T09:08:34.418Z",
+  "update": "2026-11-12T07:28:13.545Z",
   "date": "2025-10-01T05:29:22.554Z",
   "pathnext": "",
   "title": {

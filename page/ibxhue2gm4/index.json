@@ -9,7 +9,7 @@
   "id": "ibxhue2gm4",
   "externalUrl": "",
   "path": "kurumsal",
-  "index": 0,
+  "index": 1,
   "desing": {
     "header": [],
     "body": [
@@ -19,8 +19,8 @@
     "footer": []
   },
   "description": {
-    "tr": "Ajans Mobil, Gaziantep merkezli dijital ajans: web tasarım, mobil uygulama ve özel uygulama geliştirme, SEO ve dijital pazarlama. Misyon, vizyon ve kurumsal bilgiler.",
-    "en": "Ajans Mobil is a Gaziantep digital agency: web design, mobile app and custom application development, SEO and digital marketing. Mission, vision and corporate information.",
+    "tr": "Ajans Mobil, Gaziantep merkezli dijital ajans: web tasarım, mobil uygulama, özel uygulama geliştirme, SEO ve dijital pazarlama. Kurumsal bilgiler.",
+    "en": "Ajans Mobil is a Gaziantep digital agency: web design, mobile apps, custom application development, SEO and digital marketing. Corporate information.",
     "ar": "أجانس موبيل وكالة رقمية في غازي عنتاب: تصميم مواقع وتطبيقات جوال وتطبيقات مخصصة وSEO وتسويق رقمي. المهمة والرؤية والمعلومات المؤسسية."
   },
   "keyword": {
@@ -36,7 +36,7 @@
   "desc": {},
   "bgimg": "k009v.jpg",
   "slider": [],
-  "update": "2026-11-02T10:53:35.123Z",
+  "update": "2026-11-12T07:28:13.557Z",
   "date": "2025-10-01T05:29:22.547Z",
   "pathnext": "hakkimizda",
   "title": {
