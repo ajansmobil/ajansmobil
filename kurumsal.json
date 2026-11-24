@@ -23,7 +23,7 @@
         ],
         "footer": []
       },
-      "index": 0
+      "index": 1
     },
     {
       "name": {
@@ -32,7 +32,7 @@
         "ar": "من نحن"
       },
       "id": "hakkimizda",
-      "index": 1,
+      "index": 2,
       "path": "hakkimizda",
       "category": "",
       "status": "play",
@@ -56,7 +56,7 @@
         "ar": "المهمة"
       },
       "id": "misyon",
-      "index": 2,
+      "index": 3,
       "path": "misyon",
       "category": "",
       "status": "play",
@@ -79,7 +79,7 @@
         "ar": "الرؤية"
       },
       "id": "vizyon",
-      "index": 3,
+      "index": 4,
       "path": "vizyon",
       "category": "",
       "status": "play",
@@ -102,7 +102,7 @@
         "ar": "سياسة الجودة"
       },
       "id": "kalitepolitikamiz",
-      "index": 4,
+      "index": 5,
       "path": "kalite-politikamiz",
       "category": "",
       "status": "play",
@@ -125,7 +125,7 @@
         "ar": "سياسة الخصوصية"
       },
       "id": "gizlilikpolitikasi",
-      "index": 5,
+      "index": 6,
       "path": "gizlilik-politikasi",
       "category": "",
       "status": "play",
@@ -148,7 +148,7 @@
         "ar": "البيانات الشخصية"
       },
       "id": "kisiselveriler",
-      "index": 6,
+      "index": 7,
       "path": "kisisel-veriler-be2",
       "category": "",
       "status": "play",
@@ -171,7 +171,7 @@
         "ar": "حقوق المستخدم"
       },
       "id": "kullanicahaklari",
-      "index": 7,
+      "index": 8,
       "path": "kullanici-haklari",
       "category": "",
       "status": "play",
@@ -194,7 +194,7 @@
         "ar": "إشعار قانوني"
       },
       "id": "yasaluyari",
-      "index": 8,
+      "index": 9,
       "path": "yasal-uyari-mh6",
       "category": "",
       "status": "play",
@@ -231,7 +231,7 @@
         "body": [],
         "footer": []
       },
-      "index": 9
+      "index": 10
     }
   ],
   "desc": [],

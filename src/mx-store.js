@@ -531,6 +531,171 @@
   
   
   
+  
+  var FAVORI_KEY = "mxFavoriV1";
+  var KARSILASTIR_KEY = "mxKarsilastirV1";
+  var KARSILASTIR_SINIR = 4;
+
+  
+  function guvenliAdres(u) {
+    var s = u == null ? "" : String(u).trim();
+    if (!s) {
+      return "";
+    }
+    if (s.charAt(0) === "/" && s.charAt(1) !== "/" && s.charAt(1) !== "\\") {
+      return s;
+    }
+    return /^https?:\/\//i.test(s) ? s : "";
+  }
+
+  
+  function urunNormal(it) {
+    if (!it || it.id == null || String(it.id).trim() === "") {
+      return null;
+    }
+    var fiyat = Number(it.price);
+    var u = {
+      id: String(it.id).trim().slice(0, 64),
+      name: it.name != null ? String(it.name).slice(0, 200) : "",
+      price: isFinite(fiyat) && fiyat > 0 ? Math.round(fiyat * 100) / 100 : 0,
+      img: guvenliAdres(it.img).slice(0, 500),
+      url: guvenliAdres(it.url).slice(0, 500)
+    };
+    
+    var st = it.stok != null ? String(it.stok) : (it.stock_status != null ? String(it.stock_status) : "");
+    if (st === "var" || st === "in_stock") {
+      u.stok = "var";
+    } else if (st === "yok" || st === "out_of_stock") {
+      u.stok = "yok";
+    }
+    return u;
+  }
+
+  
+  function listeDeposu(o) {
+    function oku() {
+      var ham = depoOku(yerel(), o.anahtar, []);
+      var out = [];
+      var gorulen = {};
+      if (!Array.isArray(ham)) {
+        return out;
+      }
+      for (var i = 0; i < ham.length; i++) {
+        var u = urunNormal(ham[i]);
+        
+        if (u && !Object.prototype.hasOwnProperty.call(gorulen, u.id)) {
+          gorulen[u.id] = true;
+          out.push(u);
+        }
+      }
+      if (o.sinir > 0 && out.length > o.sinir) {
+        out = out.slice(0, o.sinir);
+      }
+      return out;
+    }
+
+    function degisti(kaynak, id, kod) {
+      var list = oku();
+      var detay = { liste: list, sayi: list.length, sinir: o.sinir, kaynak: kaynak || "", id: id || "", kod: kod || "" };
+      domListe(o.tur, list);
+      olayYay(o.olay, detay);
+      return detay;
+    }
+
+    function yaz(list, kaynak, id, kod) {
+      depoYaz(yerel(), o.anahtar, list.length ? list : null);
+      return degisti(kaynak, id, kod);
+    }
+
+    function varMi(id) {
+      if (id == null) {
+        return false;
+      }
+      var hedef = String(id);
+      var list = oku();
+      for (var i = 0; i < list.length; i++) {
+        if (list[i].id === hedef) {
+          return true;
+        }
+      }
+      return false;
+    }
+
+    function ekle(item) {
+      var yeni = urunNormal(item);
+      if (!yeni) {
+        return { ok: false, kod: "gecersiz", secili: false, liste: oku() };
+      }
+      var list = oku();
+      for (var i = 0; i < list.length; i++) {
+        if (list[i].id === yeni.id) {
+          
+          list[i] = yeni;
+          return { ok: true, kod: "zaten", secili: true, liste: yaz(list, "tazele", yeni.id, "zaten").liste };
+        }
+      }
+      if (o.sinir > 0 && list.length >= o.sinir) {
+        return { ok: false, kod: "dolu", secili: false, liste: degisti("dolu", yeni.id, "dolu").liste };
+      }
+      if (o.basaEkle) {
+        list.unshift(yeni);
+      } else {
+        list.push(yeni);
+      }
+      return { ok: true, kod: "eklendi", secili: true, liste: yaz(list, "ekle", yeni.id, "eklendi").liste };
+    }
+
+    function sil(id) {
+      var hedef = String(id);
+      var list = oku();
+      var next = [];
+      for (var i = 0; i < list.length; i++) {
+        if (list[i].id !== hedef) {
+          next.push(list[i]);
+        }
+      }
+      return yaz(next, "sil", hedef, "cikti").liste;
+    }
+
+    function degistir(item) {
+      var u = urunNormal(item);
+      if (!u) {
+        return { ok: false, kod: "gecersiz", secili: false, liste: oku() };
+      }
+      if (varMi(u.id)) {
+        return { ok: true, kod: "cikti", secili: false, liste: sil(u.id) };
+      }
+      return ekle(u);
+    }
+
+    function temizle() {
+      yaz([], "temizle", "", "");
+      return [];
+    }
+
+    return {
+      oku: oku,
+      ekle: ekle,
+      sil: sil,
+      degistir: degistir,
+      "var": varMi,
+      icinde: varMi,
+      sayi: function () { return oku().length; },
+      sinir: function () { return o.sinir; },
+      dolu: function () { return o.sinir > 0 && oku().length >= o.sinir; },
+      temizle: temizle,
+      abone: function (fn) { return abone(o.olay, fn); },
+      
+      _degisti: degisti
+    };
+  }
+
+  var favoriDepo = listeDeposu({ tur: "favori", anahtar: FAVORI_KEY, olay: "mx:favori", sinir: 0, basaEkle: true });
+  var karsilastirDepo = listeDeposu({ tur: "karsilastir", anahtar: KARSILASTIR_KEY, olay: "mx:karsilastir", sinir: KARSILASTIR_SINIR, basaEkle: false });
+
+  
+  
+  
 
   
   var uyeDurum = "bilinmiyor";
@@ -739,6 +904,220 @@
   
   
   
+  
+  var KUPON_KEY = "mxKuponV1";
+
+  function kuponKodNormal(v) {
+    var k = String(v == null ? "" : v).replace(/^\s+|\s+$/g, "").toUpperCase();
+    return /^[A-Z0-9_-]{3,32}$/.test(k) ? k : "";
+  }
+
+  function kuponSayi(v, varsayilan) {
+    if (v === null || v === undefined || v === "") {
+      return varsayilan;
+    }
+    var n = Number(v);
+    return isFinite(n) ? n : varsayilan;
+  }
+
+  function kuponKayitNormal(k, kaynak) {
+    if (!k || typeof k !== "object") {
+      return null;
+    }
+    var kod = kuponKodNormal(k.kod);
+    var tip = k.tip === "yuzde" || k.tip === "tutar" ? k.tip : "";
+    var deger = kuponSayi(k.deger, 0);
+    if (!kod || !tip || !(deger > 0)) {
+      return null;
+    }
+    return {
+      kod: kod,
+      tip: tip,
+      deger: deger,
+      minSepet: kuponSayi(k.minSepet, 0) || 0,
+      maxIndirim: kuponSayi(k.maxIndirim, null),
+      bitis: k.bitis ? String(k.bitis) : null,
+      kaynak: kaynak || k.kaynak || "demo",
+      at: k.at || new Date().toISOString()
+    };
+  }
+
+  
+  function kuponHesapla(k, araToplam) {
+    if (!k) {
+      return { ok: false, neden: "yok" };
+    }
+    var bit = k.bitis ? Date.parse(k.bitis) : NaN;
+    if (isFinite(bit) && Date.now() > bit) {
+      return { ok: false, neden: "suresi-doldu" };
+    }
+    var ara = Math.round((Number(araToplam) || 0) * 100) / 100;
+    if (ara <= 0) {
+      return { ok: false, neden: "bos-sepet" };
+    }
+    if (ara < (k.minSepet || 0)) {
+      return { ok: false, neden: "min-sepet", minSepet: k.minSepet || 0 };
+    }
+    var ind = k.tip === "yuzde" ? Math.round(ara * k.deger) / 100 : Math.round(k.deger * 100) / 100;
+    if (k.tip === "yuzde" && k.maxIndirim != null && k.maxIndirim > 0 && ind > k.maxIndirim) {
+      ind = k.maxIndirim;
+    }
+    if (ind > ara) {
+      ind = ara;
+    }
+    return { ok: true, indirim: ind };
+  }
+
+  
+  function kuponDemoListe(v) {
+    var out = [];
+    var ham = v;
+    if (typeof ham === "string") {
+      ham = ham.split(/[;\n]/);
+    }
+    if (!Array.isArray(ham)) {
+      return out;
+    }
+    for (var i = 0; i < ham.length; i++) {
+      var x = ham[i];
+      if (typeof x === "string") {
+        var p = x.split("|");
+        if (p.length < 3) {
+          continue;
+        }
+        x = { kod: p[0], tip: (p[1] || "").replace(/^\s+|\s+$/g, ""), deger: p[2], minSepet: p[3], bitis: p[4] ? String(p[4]).replace(/^\s+|\s+$/g, "") : null };
+      }
+      var k = kuponKayitNormal(x, "demo");
+      if (k) {
+        out.push(k);
+      }
+    }
+    return out;
+  }
+
+  function kuponOku() {
+    return kuponKayitNormal(depoOku(yerel(), KUPON_KEY, null));
+  }
+
+  function kuponDegisti(kaynak) {
+    var d = kuponDurum();
+    olayYay("mx:kupon", { kupon: d.kupon, durum: d, kaynak: kaynak || "" });
+    return d;
+  }
+
+  function kuponDurum(araToplam) {
+    var k = kuponOku();
+    var ara = araToplam == null ? sepetToplam() : Number(araToplam) || 0;
+    if (!k) {
+      return { kupon: null, araToplam: ara, indirim: 0, gecerli: false, neden: "" };
+    }
+    var h = kuponHesapla(k, ara);
+    return {
+      kupon: k,
+      araToplam: ara,
+      indirim: h.ok ? h.indirim : 0,
+      gecerli: !!h.ok,
+      neden: h.ok ? "" : h.neden,
+      minSepet: h.minSepet != null ? h.minSepet : k.minSepet
+    };
+  }
+
+  function kuponHata(neden, ek) {
+    var e = hata(0, "kupon");
+    e.neden = neden;
+    if (ek && ek.minSepet != null) {
+      e.minSepet = ek.minSepet;
+    }
+    if (ek && ek.error) {
+      e.error = ek.error;
+    }
+    return e;
+  }
+
+  function kuponDemodanUygula(kod, o) {
+    var liste = kuponDemoListe(o.demoKuponlar);
+    var bulunan = null;
+    for (var i = 0; i < liste.length; i++) {
+      if (liste[i].kod === kod) {
+        bulunan = liste[i];
+        break;
+      }
+    }
+    if (!bulunan) {
+      return Promise.reject(kuponHata("yok"));
+    }
+    var h = kuponHesapla(bulunan, sepetToplam());
+    if (!h.ok) {
+      return Promise.reject(kuponHata(h.neden, h));
+    }
+    depoYaz(yerel(), KUPON_KEY, bulunan);
+    var d = kuponDegisti("uygula");
+    return Promise.resolve({ ok: true, kupon: d.kupon, indirim: d.indirim, demo: true });
+  }
+
+  
+  function kuponUygula(kodHam, opts) {
+    var o = opts || {};
+    var kod = kuponKodNormal(kodHam);
+    if (!kod) {
+      return Promise.reject(kuponHata("yok"));
+    }
+    var sepet = sepetOku();
+    if (!sepet.length) {
+      return Promise.reject(kuponHata("bos-sepet"));
+    }
+    if (apiBilgi.yok) {
+      return kuponDemodanUygula(kod, o);
+    }
+    return api("/api/public/kupon/dogrula", { method: "POST", body: { kod: kod, kalemler: kalemlerSepetten(sepet) } }).then(function (g) {
+      var d = veriAl(g) || {};
+      var k = kuponKayitNormal(d, "api");
+      if (!k) {
+        throw kuponHata("yok");
+      }
+      depoYaz(yerel(), KUPON_KEY, k);
+      var dd = kuponDegisti("uygula");
+      
+      return { ok: true, kupon: dd.kupon, indirim: dd.indirim, sunucuIndirim: d.indirim };
+    }, function (err) {
+      if (err && err.kod === "api-yok") {
+        
+        return kuponDemodanUygula(kod, o);
+      }
+      var b = err && err.body ? err.body : null;
+      if (b && b.neden) {
+        throw kuponHata(b.neden, { minSepet: b.minSepet, error: b.error });
+      }
+      if (err && (err.status === 404 || err.status === 503)) {
+        
+        throw kuponHata("kurulmamis", { error: err.error });
+      }
+      throw kuponHata("ag", { error: err && err.error });
+    });
+  }
+
+  function kuponKaldir(kaynak) {
+    try {
+      yerel().removeItem(KUPON_KEY);
+    } catch (e) {}
+    return kuponDegisti(kaynak || "kaldir");
+  }
+
+  var kuponDepo = {
+    oku: kuponOku,
+    durum: kuponDurum,
+    uygula: kuponUygula,
+    kaldir: function () { return kuponKaldir("kaldir"); },
+    hesapla: kuponHesapla,
+    demoListe: kuponDemoListe,
+    kodNormal: kuponKodNormal,
+    abone: function (fn) { return abone("mx:kupon", fn); },
+    _degisti: kuponDegisti
+  };
+
+  
+  
+  
 
   
   function kalemlerSepetten(list) {
@@ -774,6 +1153,11 @@
       return demoSiparisOlustur(d, sepet);
     }
     var govde = { kalemler: kalemler, odeme: d.odeme || "kapida" };
+    
+    var kuponKod = d.kupon !== undefined ? kuponKodNormal(d.kupon) : (kuponOku() ? kuponOku().kod : "");
+    if (kuponKod) {
+      govde.kupon = kuponKod;
+    }
     var alanlar = ["adres", "adresId", "notu", "email", "ad_soyad", "ad", "soyad", "telefon"];
     for (var i = 0; i < alanlar.length; i++) {
       if (d[alanlar[i]] != null && d[alanlar[i]] !== "") {
@@ -815,6 +1199,9 @@
       } catch (e) {}
       if (d.sepetiTemizle !== false) {
         sepetTemizle();
+        if (kuponKod) {
+          kuponKaldir("siparis");
+        }
       }
       return kayit;
     });
@@ -853,6 +1240,12 @@
     }
     var kargo = Number(d.kargo) > 0 ? Number(d.kargo) : 0;
     var indirim = Number(d.indirim) > 0 ? Number(d.indirim) : 0;
+    
+    var kd = d.kupon === false ? null : kuponDurum(ara);
+    var demoKupon = kd && kd.gecerli ? kd.kupon.kod : "";
+    if (demoKupon && !(Number(d.indirim) > 0)) {
+      indirim = kd.indirim;
+    }
     var toplam = Math.max(0, ara + kargo - indirim);
     var no = demoSiparisNo();
     var at = new Date().toISOString();
@@ -866,6 +1259,7 @@
       ara_toplam: ara,
       kargo: kargo,
       indirim: indirim,
+      kupon: demoKupon || null,
       toplam: toplam,
       odeme_yontemi: yontem,
       durum: "onaylandi",
@@ -895,6 +1289,9 @@
     } catch (e) {}
     if (d.sepetiTemizle !== false) {
       sepetTemizle();
+      if (demoKupon) {
+        kuponKaldir("siparis");
+      }
     }
     return Promise.resolve(kayit);
   }
@@ -970,9 +1367,140 @@
     }
   }
 
+  
+  var DUGME_NITELIK = { favori: "data-mx-favori-dugme", karsilastir: "data-mx-karsilastir-dugme" };
+
+  function depoTur(tur) {
+    return tur === "karsilastir" ? karsilastirDepo : favoriDepo;
+  }
+
+  function enYakin(el, secici) {
+    if (!el) {
+      return null;
+    }
+    if (typeof el.closest === "function") {
+      try {
+        return el.closest(secici);
+      } catch (e) {
+        return null;
+      }
+    }
+    return null;
+  }
+
+  function dugmeKimlik(el) {
+    var id = el.getAttribute("data-mx-id");
+    if (id) {
+      return id;
+    }
+    var ata = enYakin(el, "[data-mx-id]");
+    return ata ? ata.getAttribute("data-mx-id") : "";
+  }
+
+  function dugmeUrun(el) {
+    var kaynak = el.getAttribute("data-mx-id") ? el : enYakin(el, "[data-mx-id]");
+    if (!kaynak) {
+      return null;
+    }
+    var stok = kaynak.getAttribute("data-mx-stok") || el.getAttribute("data-mx-stok") || "";
+    return urunNormal({
+      id: kaynak.getAttribute("data-mx-id"),
+      name: kaynak.getAttribute("data-mx-name") || "",
+      price: parseFloat(kaynak.getAttribute("data-mx-price")) || 0,
+      img: kaynak.getAttribute("data-mx-img") || "",
+      url: kaynak.getAttribute("data-mx-url") || "",
+      stok: stok
+    });
+  }
+
+  function domListe(tur, list, kok) {
+    var r = kok || document;
+    var l = list || depoTur(tur).oku();
+    var secili = {};
+    for (var i = 0; i < l.length; i++) {
+      secili[l[i].id] = true;
+    }
+    var dugmeler = hepsi(r, "[" + DUGME_NITELIK[tur] + "]");
+    for (var j = 0; j < dugmeler.length; j++) {
+      var el = dugmeler[j];
+      var acik = Object.prototype.hasOwnProperty.call(secili, String(dugmeKimlik(el)));
+      el.setAttribute("aria-pressed", acik ? "true" : "false");
+      if (acik) {
+        el.setAttribute("data-mx-secili", "1");
+      } else {
+        el.removeAttribute("data-mx-secili");
+      }
+      var etiket = el.getAttribute(acik ? "data-mx-etiket-cikar" : "data-mx-etiket-ekle");
+      if (etiket) {
+        el.setAttribute("aria-label", etiket);
+        el.setAttribute("title", etiket);
+      }
+    }
+    var sayaclar = hepsi(r, "[data-mx-" + tur + "-sayi]");
+    for (var k = 0; k < sayaclar.length; k++) {
+      sayaclar[k].textContent = String(l.length);
+      if (l.length > 0) {
+        sayaclar[k].removeAttribute("data-mx-bos");
+      } else {
+        sayaclar[k].setAttribute("data-mx-bos", "1");
+      }
+    }
+  }
+
+  var doluZaman = null;
+
+  function doluBildir(el) {
+    var metin = el.getAttribute("data-mx-etiket-dolu") || "";
+    el.setAttribute("data-mx-dolu", "1");
+    var bolgeler = hepsi(document, "[data-mx-karsilastir-mesaj]");
+    for (var i = 0; i < bolgeler.length; i++) {
+      bolgeler[i].textContent = metin;
+    }
+    if (doluZaman) {
+      clearTimeout(doluZaman);
+    }
+    doluZaman = setTimeout(function () {
+      doluZaman = null;
+      el.removeAttribute("data-mx-dolu");
+      for (var j = 0; j < bolgeler.length; j++) {
+        bolgeler[j].textContent = "";
+      }
+    }, 2400);
+  }
+
+  
+  function tikTemsilci(ev) {
+    var t = ev && ev.target;
+    var el = enYakin(t, "[data-mx-favori-dugme],[data-mx-karsilastir-dugme]");
+    if (!el) {
+      return;
+    }
+    
+    if (typeof ev.preventDefault === "function") {
+      ev.preventDefault();
+    }
+    if (typeof ev.stopPropagation === "function") {
+      ev.stopPropagation();
+    }
+    if (el.disabled || el.getAttribute("aria-disabled") === "true") {
+      return;
+    }
+    var tur = el.hasAttribute(DUGME_NITELIK.karsilastir) ? "karsilastir" : "favori";
+    var u = dugmeUrun(el);
+    if (!u) {
+      return;
+    }
+    var sonuc = depoTur(tur).degistir(u);
+    if (sonuc.kod === "dolu") {
+      doluBildir(el);
+    }
+  }
+
   function bagla(kok) {
     domSepet(null, kok);
     domUye(kok);
+    domListe("favori", null, kok);
+    domListe("karsilastir", null, kok);
   }
 
   
@@ -982,7 +1510,7 @@
   var MxStore = {
     __mxStore: true,
     hazir: true,
-    surum: "1.0.0",
+    surum: "1.2.0",
     api: api,
     apiBilgi: function () {
       return { kok: apiBilgi.kok, ayniOrigin: apiBilgi.ayniOrigin, yok: apiBilgi.yok, uye: uyeKullanilabilir() };
@@ -1026,7 +1554,12 @@
       son: sonSiparis,
       
       demoKip: function () { return !!apiBilgi.yok; }
-    }
+    },
+    
+    favori: favoriDepo,
+    karsilastir: karsilastirDepo,
+    
+    kupon: kuponDepo
   };
 
   window.MxStore = MxStore;
@@ -1040,8 +1573,19 @@
     window.addEventListener("storage", function (ev) {
       if (ev && ev.key === CART_KEY) {
         sepetDegisti("sekme");
+      } else if (ev && ev.key === FAVORI_KEY) {
+        favoriDepo._degisti("sekme");
+      } else if (ev && ev.key === KARSILASTIR_KEY) {
+        karsilastirDepo._degisti("sekme");
+      } else if (ev && ev.key === KUPON_KEY) {
+        kuponDepo._degisti("sekme");
       }
     });
+  }
+
+  
+  if (typeof document.addEventListener === "function") {
+    document.addEventListener("click", tikTemsilci);
   }
 
   
