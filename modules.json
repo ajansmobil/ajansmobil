@@ -1284,14 +1284,14 @@
         },
         {
           "question": {
-            "tr": "Mağaza yayınını siz mi yapıyorsunuz?",
-            "en": "Do you handle the store release?",
-            "ar": "هل تتولون النشر في المتاجر؟"
+            "tr": "Mağaza yayınını ve onayını siz mi alıyorsunuz?",
+            "en": "Do you handle the store release and approval?",
+            "ar": "هل تتولون النشر في المتاجر والحصول على الموافقة؟"
           },
           "answer": {
-            "tr": "Mağaza yayın sürecinde destek veriyoruz.",
-            "en": "We support you through the store release process.",
-            "ar": "ندعمك في عملية النشر على المتاجر."
+            "tr": "Uygulama App Store ve Google Play'in inceleme sürecinden geçer; onay kararını mağazalar verir. Bu süreçte yayına hazırlık ve gönderimde destek veriyoruz.",
+            "en": "The app goes through the App Store and Google Play review process; the stores make the approval decision. We support you with release preparation and submission.",
+            "ar": "يمر التطبيق بعملية المراجعة في App Store وGoogle Play، وقرار الموافقة يعود إلى المتاجر. ندعمك في التحضير للنشر وإرسال التطبيق."
           }
         },
         {
@@ -1304,6 +1304,30 @@
             "tr": "Evet. Hata düzeltme, güncelleme ve yeni özellik geliştirme için bakım desteği sağlıyoruz.",
             "en": "Yes. We provide maintenance for bug fixes, updates and new feature development.",
             "ar": "نعم. نقدم دعم الصيانة لإصلاح الأخطاء والتحديثات وتطوير ميزات جديدة."
+          }
+        },
+        {
+          "question": {
+            "tr": "Mobil uygulama maliyeti neye göre belirlenir?",
+            "en": "What determines the cost of a mobile app?",
+            "ar": "ما الذي يحدد تكلفة تطبيق الجوال؟"
+          },
+          "answer": {
+            "tr": "Maliyet kapsama bağlıdır: ekran sayısı, kullanıcı girişi, bildirim ve ödeme gibi özellikler ile web sitesi ya da yönetim paneliyle bağlantı ihtiyacı belirleyicidir. İhtiyaç netleştikten sonra size yazılı bir yol haritasıyla dönüş yaparız.",
+            "en": "Cost depends on scope: the number of screens, features such as login, notifications and payments, and whether the app must work with a website or admin panel. Once the need is clear, we reply with a written roadmap.",
+            "ar": "تعتمد التكلفة على النطاق: عدد الشاشات، وميزات مثل تسجيل الدخول والإشعارات والدفع، والحاجة إلى الربط بموقع إلكتروني أو لوحة إدارة. بعد وضوح الاحتياج نرد عليك بخارطة طريق مكتوبة."
+          }
+        },
+        {
+          "question": {
+            "tr": "Mobil uygulama ne kadar sürede hazırlanır?",
+            "en": "How long does it take to build a mobile app?",
+            "ar": "كم يستغرق إعداد تطبيق الجوال؟"
+          },
+          "answer": {
+            "tr": "Süre uygulamanın kapsamına göre değişir. Geliştirme kısa aşamalarla ilerler ve her aşamada sizden geri bildirim alırız; aşamalar ihtiyaç netleştirme adımından sonra hazırladığımız yol haritasında yer alır.",
+            "en": "The timeline depends on the app's scope. Development moves in short stages with your feedback at each one; the stages are set out in the roadmap we prepare after clarifying the need.",
+            "ar": "تختلف المدة حسب نطاق التطبيق. يتقدم التطوير على مراحل قصيرة ونأخذ ملاحظاتك في كل مرحلة؛ وتُحدَّد المراحل في خارطة الطريق التي نعدّها بعد توضيح الاحتياج."
           }
         }
       ],
@@ -1395,6 +1419,54 @@
             "tr": "Kullanıcı yetkileri, veri güvenliği ve yedekleme planı geliştirme sürecinin başından itibaren tasarıma dahil edilir.",
             "en": "User permissions, data security and a backup plan are part of the design from the start of development.",
             "ar": "تدخل صلاحيات المستخدمين وأمان البيانات وخطة النسخ الاحتياطي في التصميم منذ بداية التطوير."
+          }
+        },
+        {
+          "question": {
+            "tr": "Özel yazılımın maliyeti nasıl belirlenir?",
+            "en": "How is the cost of custom software determined?",
+            "ar": "كيف تُحدَّد تكلفة البرمجيات المخصصة؟"
+          },
+          "answer": {
+            "tr": "Maliyet kapsama bağlıdır: ekranlar, kullanıcı rolleri, entegrasyonlar ve raporlama ihtiyacı belirleyicidir. Küçük ve net bir ihtiyaç, kapsamı sınırlı tutularak aşamalı geliştirilebilir; ihtiyaç küçükse önce hazır bir çözümün yeterli olup olmadığına birlikte bakarız.",
+            "en": "Cost depends on scope: screens, user roles, integrations and reporting needs. A small, clear need can be built in stages with a limited scope; if the need is small, we first check together whether a ready-made solution is enough.",
+            "ar": "تعتمد التكلفة على النطاق: الشاشات وأدوار المستخدمين والتكاملات واحتياجات التقارير. يمكن تطوير احتياج صغير وواضح على مراحل بنطاق محدود، وإذا كان الاحتياج صغيرًا نتحقق معًا أولًا مما إذا كان حل جاهز يكفي."
+          }
+        },
+        {
+          "question": {
+            "tr": "Özel yazılım ne kadar sürede hazırlanır?",
+            "en": "How long does custom software take?",
+            "ar": "كم يستغرق إعداد برمجية مخصصة؟"
+          },
+          "answer": {
+            "tr": "Süre kapsama göre değişir. İş kısa aşamalarla ilerler ve her aşamada geri bildirim alınır; böylece ihtiyaç netleştikçe yön değiştirmek mümkündür. İhtiyaç analizinden sonra size yazılı bir yol haritası sunarız.",
+            "en": "It depends on scope. Work moves in short stages with feedback at each one, so the direction can change as the need becomes clearer. After the needs analysis we give you a written roadmap.",
+            "ar": "تختلف المدة حسب النطاق. يتقدم العمل على مراحل قصيرة مع ملاحظات في كل مرحلة، ما يتيح تغيير الاتجاه كلما اتضح الاحتياج. بعد تحليل الاحتياج نقدّم لك خارطة طريق مكتوبة."
+          }
+        },
+        {
+          "question": {
+            "tr": "Üretim veya ticaret işletmesi için yazılım geliştiriyor musunuz?",
+            "en": "Do you build software for manufacturing or trading businesses?",
+            "ar": "هل تطوّرون برمجيات لشركات الإنتاج أو التجارة؟"
+          },
+          "answer": {
+            "tr": "Evet. Üretim, ticaret ve hizmet alanındaki işletmeler için sipariş, teklif ve müşteri takip araçları, kayıt takip uygulamaları ve yönetim panelleri geliştiriyoruz.",
+            "en": "Yes. We build order, quote and customer tracking tools, record-keeping apps and admin panels for manufacturing, trading and service businesses.",
+            "ar": "نعم. نطوّر أدوات تتبع الطلبات وعروض الأسعار والعملاء وتطبيقات تتبع السجلات ولوحات الإدارة لشركات الإنتاج والتجارة والخدمات."
+          }
+        },
+        {
+          "question": {
+            "tr": "Yayından sonra bakım ve geliştirme sürüyor mu?",
+            "en": "Does maintenance and development continue after launch?",
+            "ar": "هل تستمر الصيانة والتطوير بعد الإطلاق؟"
+          },
+          "answer": {
+            "tr": "Evet. Yeni ihtiyaçlar çıktıkça uygulamayı genişletiriz; kullanıcı yetkileri, veri güvenliği ve yedekleme planı geliştirmenin başından itibaren tasarıma dahildir.",
+            "en": "Yes. We extend the application as new needs arise; user permissions, data security and the backup plan are part of the design from the start.",
+            "ar": "نعم. نوسّع التطبيق كلما ظهرت احتياجات جديدة؛ وصلاحيات المستخدمين وأمن البيانات وخطة النسخ الاحتياطي جزء من التصميم منذ البداية."
           }
         }
       ],
