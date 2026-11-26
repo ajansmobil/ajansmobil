@@ -136,9 +136,9 @@
     },
     {
       "name": {
-        "tr": "Sosyal Media",
-        "en": "Social Media",
-        "ar": "وسائل التواصل الاجتماعي"
+        "tr": "Sosyal Medya Yönetimi",
+        "en": "Social Media Management",
+        "ar": "إدارة وسائل التواصل الاجتماعي"
       },
       "status": "play",
       "category": "",
@@ -155,8 +155,8 @@
       "pathnext": "",
       "img": "cxfvs.webp",
       "description": {
-        "tr": "Gaziantep sosyal medya yönetimi: içerik takvimi, gönderi ve hikâye tasarımı, hesap yönetimi ve aylık raporlama ile markanızı düzenli biçimde duyurun.",
-        "en": "Social media management in Gaziantep: content calendar, post and story design, account management and monthly reporting.",
+        "tr": "Gaziantep sosyal medya yönetimi: içerik takvimi, gönderi ve hikâye tasarımı, hesap yönetimi ve aylık raporlama. Ajans Mobil'e WhatsApp'tan yazın.",
+        "en": "Social media management in Gaziantep: content calendar, post and story design, account management and monthly reporting. Message Ajans Mobil on WhatsApp.",
         "ar": "إدارة وسائل التواصل في غازي عنتاب: تقويم محتوى وتصميم منشورات وقصص وإدارة حسابات وتقارير شهرية لإبراز علامتك التجارية بانتظام وبشكل احترافي."
       }
     },

@@ -1,75 +1,82 @@
 {
-  "order": false,
-  "description": {
-    "tr": "Ajans Mobil Gaziantep: web tasarım, mobil uygulama ve özel uygulama geliştirme, SEO, sosyal medya ve dijital reklam yönetimi. WhatsApp ile hemen yazın.",
-    "en": "Ajans Mobil Gaziantep: web design, mobile app and custom application development, SEO, social media and digital advertising management. Message us on WhatsApp.",
-    "ar": "أجانس موبيل غازي عنتاب: تصميم مواقع وتطبيقات جوال وتطبيقات مخصصة وSEO وإدارة وسائل التواصل والإعلانات الرقمية. راسلنا عبر واتساب."
+  "address": {
+    "ar": "غازي عنتاب، تركيا",
+    "en": "Gaziantep, Turkey",
+    "tr": "Gaziantep, Türkiye"
   },
-  "keyword": {
-    "tr": "web tasarım gaziantep, mobil uygulama geliştirme, özel yazılım, özel uygulama geliştirme, seo hizmeti, sosyal medya yönetimi, dijital ajans, ajans mobil",
-    "en": "web design gaziantep, mobile app development, custom software, custom application development, seo service, social media management, digital agency, ajans mobil",
-    "ar": "تصميم مواقع غازي عنتاب، تطوير تطبيقات جوال، برمجيات مخصصة، تطوير تطبيقات مخصصة، خدمة seo، إدارة وسائل التواصل، وكالة رقمية، أجانس موبيل"
+  "areaServed": {
+    "ar": "غازي عنتاب",
+    "en": "Gaziantep",
+    "tr": "Gaziantep"
   },
-  "user": false,
-  "status": "Kurumsal",
+  "businessName": "Ajans Mobil",
   "category": "Kurumsal",
-  "name": {
-    "tr": "Ajans Mobil Gaziantep | Web Tasarım ve Mobil Uygulama",
-    "en": "Ajans Mobil Gaziantep | Web Design and Mobile Apps",
-    "ar": "أجانس موبيل غازي عنتاب | تصميم مواقع وتطبيقات جوال"
+  "city": {
+    "ar": "غازي عنتاب",
+    "en": "Gaziantep",
+    "tr": "Gaziantep"
+  },
+  "colorScheme": "auto",
+  "country": "TR",
+  "description": {
+    "ar": "أجانس موبيل غازي عنتاب: تصميم مواقع وتطبيقات جوال وتطبيقات مخصصة وSEO وإدارة وسائل التواصل والإعلانات الرقمية. راسلنا عبر واتساب.",
+    "en": "Ajans Mobil Gaziantep: web design, mobile app and custom application development, SEO, social media and digital advertising management. Message us on WhatsApp.",
+    "tr": "Ajans Mobil Gaziantep: web tasarım, mobil uygulama ve özel uygulama geliştirme, SEO, sosyal medya ve dijital reklam yönetimi. WhatsApp ile hemen yazın."
   },
   "domain": "ajansmobil.com",
-  "logo": "logo.svg",
-  "phone": "0531 679 10 14",
-  "mobile": "0531 679 10 14",
   "email": "info@ajansmobil.com",
-  "address": {
-    "tr": "Gaziantep, Türkiye",
-    "en": "Gaziantep, Turkey",
-    "ar": "غازي عنتاب، تركيا"
+  "emailOff": true,
+  "firma": {
+    "adres": "Gaziantep, Türkiye",
+    "eposta": "info@ajansmobil.com",
+    "site": "https://ajansmobil.com",
+    "telefon": "0531 679 10 14",
+    "unvan": "Ajans Mobil"
   },
-  "person": "Yunus Sevgane",
+  "font": {
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "ibm-plex-sans-arabic"
+    },
+    "body": "inter",
+    "heading": "poppins"
+  },
+  "keyword": {
+    "ar": "تصميم مواقع غازي عنتاب، تطوير تطبيقات جوال، برمجيات مخصصة، تطوير تطبيقات مخصصة، خدمة seo، إدارة وسائل التواصل، وكالة رقمية، أجانس موبيل",
+    "en": "web design gaziantep, mobile app development, custom software, custom application development, seo service, social media management, digital agency, ajans mobil",
+    "tr": "web tasarım gaziantep, mobil uygulama geliştirme, özel yazılım, özel uygulama geliştirme, seo hizmeti, sosyal medya yönetimi, dijital ajans, ajans mobil"
+  },
   "langs": {
-    "tr": true,
-    "en": true,
     "ar": true,
     "de": false,
-    "ru": false,
+    "en": true,
     "es": false,
     "fr": false,
     "it": false,
     "ja": false,
-    "zh": false,
     "ko": false,
-    "pt": false
+    "pt": false,
+    "ru": false,
+    "tr": true,
+    "zh": false
   },
+  "logo": "logo.svg",
+  "mobile": "0531 679 10 14",
   "multi": false,
-  "firma": {
-    "unvan": "Ajans Mobil",
-    "telefon": "0531 679 10 14",
-    "eposta": "info@ajansmobil.com",
-    "adres": "Gaziantep, Türkiye",
-    "site": "https://ajansmobil.com"
+  "name": {
+    "ar": "أجانس موبيل غازي عنتاب | تصميم مواقع وتطبيقات جوال",
+    "en": "Ajans Mobil Gaziantep | Web Design and Mobile Apps",
+    "tr": "Ajans Mobil Gaziantep | Web Tasarım ve Mobil Uygulama"
   },
-  "font": {
-    "heading": "poppins",
-    "body": "inter",
-    "ar": {
-      "heading": "ibm-plex-sans-arabic",
-      "body": "ibm-plex-sans-arabic"
-    }
-  },
-  "colorScheme": "auto",
+  "order": false,
+  "person": "Yunus Sevgane",
+  "phone": "0531 679 10 14",
+  "status": "Kurumsal",
   "theme_color": "#1D71B8",
   "title": {
-    "tr": "Ajans Mobil Gaziantep | Web Tasarım, Mobil Uygulama ve Özel Uygulama Geliştirme",
+    "ar": "أجانس موبيل غازي عنتاب | تصميم المواقع وتطبيقات الجوال وتطوير التطبيقات المخصصة",
     "en": "Ajans Mobil Gaziantep | Web Design, Mobile Apps and Custom Application Development",
-    "ar": "أجانس موبيل غازي عنتاب | تصميم المواقع وتطبيقات الجوال وتطوير التطبيقات المخصصة"
+    "tr": "Ajans Mobil Gaziantep | Web Tasarım, Mobil Uygulama ve Özel Uygulama Geliştirme"
   },
-  "city": {
-    "tr": "Gaziantep",
-    "en": "Gaziantep",
-    "ar": "غازي عنتاب"
-  },
-  "country": "TR"
+  "user": false
 }

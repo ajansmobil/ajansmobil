@@ -1,730 +1,751 @@
-# Ajans Mobil Gaziantep | Web Tasarım ve Mobil Uygulama
+# أجانس موبيل غازي عنتاب | تصميم مواقع وتطبيقات جوال
 
-> Ajans Mobil Gaziantep: web tasarım, mobil uygulama ve özel uygulama geliştirme, SEO, sosyal medya ve dijital reklam yönetimi. WhatsApp ile hemen yazın.
+> أجانس موبيل غازي عنتاب: تصميم مواقع وتطبيقات جوال وتطبيقات مخصصة وSEO وإدارة وسائل التواصل والإعلانات الرقمية. راسلنا عبر واتساب.
 
 ---
 
-## Ajans Mobil Gaziantep | Web Tasarım ve Mobil Uygulama
-https://ajansmobil.com/tr/
+## أجانس موبيل غازي عنتاب | تصميم مواقع وتطبيقات جوال
+https://ajansmobil.com/ar/
 
-Ajans Mobil Gaziantep: web tasarım, mobil uygulama ve özel uygulama geliştirme, SEO, sosyal medya ve dijital reklam yönetimi. WhatsApp ile hemen yazın.
+أجانس موبيل غازي عنتاب: تصميم مواقع وتطبيقات جوال وتطبيقات مخصصة وSEO وإدارة وسائل التواصل والإعلانات الرقمية. راسلنا عبر واتساب.
 
-Gaziantep · web · mobil · özel uygulama
-Fikrinizi çalışan web sitesine, mobil uygulamaya ve özel yazılıma dönüştürüyoruz
-Ajans Mobil; kurumsal web sitelerini, iOS ve Android uygulamalarını ve işinize özel yönetim panellerini tasarlar, geliştirir ve yayında yanınızda durur.
-Projenizi anlatın Hizmetleri inceleyin
-Web tasarım
-Kurumsal tanıtım sitesinden e-ticarete; her cihazda hızlı, erişilebilir ve arama motorlarına hazır web siteleri.
-Mobil uyumlu tasarım
-Çok dilli yapı (TR · EN · AR)
-SEO ve hız altyapısı
-Web tasarım — Web tasarım
-Mobil uygulama
-Flutter ile tek kod tabanından iOS ve Android uygulamaları; mağaza yayını ve sonrası bakım dahil.
-iOS + Android tek projede
-Mağaza yayın desteği
-API ve panel entegrasyonu
-Mobil uygulama — Mobil uygulama
-Özel uygulama geliştirme
-Hazır paketlerin karşılamadığı süreçler için size özel web tabanlı uygulamalar, yönetim panelleri ve entegrasyonlar.
-İhtiyaca göre analiz
-Yönetim paneli ve raporlama
-Üçüncü taraf entegrasyonları
-Özel uygulama — Özel uygulama geliştirme
-SEO ve dijital reklam
-Yeni siteniz yayına çıktıktan sonra arama motoru görünürlüğü, Google Ads ve sosyal medya yönetimiyle büyümeyi destekliyoruz.
-Teknik SEO ve içerik
-Google Ads yönetimi
-Sosyal medya yönetimi
-SEO hizmeti — SEO ve dijital reklam
+غازي عنتاب · ويب · جوال · تطبيقات مخصصة
+نحوّل فكرتك إلى موقع وتطبيق جوال وبرمجيات مخصصة تعمل بكفاءة
+تصمّم أجانس موبيل مواقع الشركات وتطبيقات iOS وAndroid ولوحات الإدارة المخصصة لعملك وتطوّرها وتبقى بجانبك بعد الإطلاق.
+حدّثنا عن مشروعك استعرض الخدمات
+تصميم المواقع
+من مواقع الشركات إلى التجارة الإلكترونية: مواقع سريعة وسهلة الوصول وجاهزة لمحركات البحث على كل جهاز.
+تصميم متجاوب
+بنية متعددة اللغات (TR · EN · AR)
+أساس لتحسين محركات البحث والسرعة
+تصميم المواقع — تصميم المواقع
+تطبيقات الجوال
+تطبيقات iOS وAndroid من قاعدة شيفرة واحدة بتقنية Flutter، مع النشر في المتاجر والصيانة.
+iOS + Android في مشروع واحد
+دعم النشر في المتاجر
+تكامل الواجهات البرمجية ولوحات الإدارة
+تطبيقات الجوال — تطبيقات الجوال
+تطوير تطبيقات مخصصة
+تطبيقات ويب ولوحات إدارة وتكاملات مخصصة للعمليات التي لا تغطيها الحلول الجاهزة.
+تحليل حسب الاحتياج
+لوحة إدارة وتقارير
+تكامل مع خدمات خارجية
+التطبيقات المخصصة — تطوير تطبيقات مخصصة
+تحسين محركات البحث والإعلانات الرقمية
+بعد الإطلاق ندعم النمو عبر الظهور في محركات البحث وإعلانات Google وإدارة وسائل التواصل.
+تحسين تقني ومحتوى
+إدارة إعلانات Google
+إدارة وسائل التواصل
+خدمة SEO — تحسين محركات البحث والإعلانات الرقمية
 01
-Önce ihtiyaç, sonra teknoloji
-Önce işinizi dinler, ardından web, mobil ya da özel uygulama çözümünden hangisinin gerçekten gerektiğini birlikte belirleriz.
-İletişime geçin
+الحاجة أولًا ثم التقنية
+نستمع أولًا ثم نحدد معًا ما إذا كان الويب أو الجوال أو التطبيق المخصص هو ما تحتاجه فعلًا.
+تواصل معنا
 02
-Tek ekip, tek muhatap
-Tasarım, yazılım ve yayın aynı ekipte; proje boyunca aynı kişilerle konuşursunuz.
-İletişime geçin
+فريق واحد وجهة اتصال واحدة
+التصميم والبرمجة والإطلاق في فريق واحد، وتتحدث مع الأشخاص أنفسهم طوال المشروع.
+تواصل معنا
 03
-Yazılı kapsam, açık teklif
-Kapsam ve teslimler yazılı teklifte yer alır; değişiklik gerekirse işe başlamadan önce onayınızı alırız.
-İletişime geçin
+نطاق مكتوب وعرض واضح
+النطاق والمخرجات في عرض مكتوب، وإذا لزم تغيير نطلب موافقتك قبل بدء العمل.
+تواصل معنا
 1
-Adım 1
-Tanışma
-Kısa bir görüşmeyle hedefinizi, bütçenizi ve takviminizi netleştiririz.
+الخطوة 1
+التعارف
+في مكالمة قصيرة نوضّح هدفك وميزانيتك وجدولك الزمني.
 2
-Adım 2
-Planlama
-Kapsamı yazılı teklife döker, onayınızla iş planını kilitleriz.
+الخطوة 2
+التخطيط
+نحوّل النطاق إلى عرض مكتوب ونثبّت الخطة بموافقتك.
 3
-Adım 3
-Geliştirme
-Tasarımı ve yazılımı aşama aşama geliştirir, çalışan sürümleri sizinle paylaşırız.
+الخطوة 3
+التطوير
+نصمّم ونبرمج على مراحل ونشارك معك النسخ العاملة تباعًا.
 4
-Adım 4
-Yayın ve destek
-Kontrol listesiyle yayına alır, sonrasında bakım ve destekle yanınızda oluruz.
-Projenizi birlikte planlayalım
-Web sitesi, mobil uygulama ya da özel yazılım ihtiyacınızı yazın; size dönüş yapalım. WhatsApp'tan da ulaşabilirsiniz.
-İletişime geç Hizmetlerimiz
+الخطوة 4
+الإطلاق والدعم
+نُطلق وفق قائمة تحقق ونبقى معك بالصيانة والدعم.
+لنخطط لمشروعك معًا
+اكتب لنا عن احتياجك من موقع أو تطبيق جوال أو برمجيات مخصصة وسنعاود الاتصال بك. يمكنك أيضًا مراسلتنا عبر واتساب.
+تواصل معنا خدماتنا
 
 ---
 
-## Blog
-https://ajansmobil.com/tr/blog/
+## المدونة
+https://ajansmobil.com/ar/blog/
 
-Ajans Mobil blog: web tasarım, mobil uygulama ve özel yazılım kararlarını kolaylaştıran Gaziantep işletmeleri için kısa, anlaşılır rehber yazıları.
+مدونة أجانس موبيل: مقالات إرشادية قصيرة وواضحة لشركات غازي عنتاب تسهّل قرارات تصميم المواقع وتطبيقات الجوال والبرمجيات المخصصة.
 
-Blog
-Ajans Mobil Blog — Web, Mobil ve Özel Yazılım Rehberleri
-Ajans Mobil blogu, Gaziantep'teki işletmelerin web sitesi, mobil uygulama ve özel yazılım kararlarını kolaylaştıran kısa rehberler yayınlar. Yazılar sade dille hazırlanır; her yazıda kararınızı kolaylaştıracak sorular ve ilgili hizmet sayfasına bağlantı bulunur.
-Kurumsal Web Sitesi Nasıl Hazırlanır? — Kurumsal web sitesi nasıl hazırlanır? Gaziantep işletmeleri için hedef, sayfa yapısı, içerik, mobil uyum ve SEO adımlarını anlatan kısa kontrol listesi.
-Mobil Uygulama mı, Mobil Uyumlu Site mi? — Mobil uygulama mı, mobil uyumlu web sitesi mi gerekir? İşletmeniz için doğru seçimi yapmanıza yardım eden, Gaziantep'ten kısa karşılaştırma rehberi.
-Özel Yazılım mı, Hazır Yazılım mı? — Özel yazılım mı, hazır yazılım mı? Karar vermeden önce sorulacak sorular ve her iki seçeneğin artı-eksileri; Gaziantep'ten sade bir rehber.
-Sorularınız için sık sorulan sorulara bakabilir ya da bize yazabilirsiniz .
-
----
-
-## Kurumsal
-https://ajansmobil.com/tr/hakkimizda/
-
-Ajans Mobil, Gaziantep merkezli dijital ajans: web tasarım, mobil uygulama, özel uygulama geliştirme, SEO ve dijital pazarlama.
-
-Hakkımızda
-Ajans Mobil — Web, Mobil ve Özel Uygulama Geliştirme
-Ajans Mobil, Gaziantep'te çalışan bir dijital ajanstır. İşletmelerin dijital ortamda doğru görünmesi için web siteleri, mobil uygulamalar ve ihtiyaca göre tasarlanan özel uygulamalar geliştiriyoruz.
-Web tasarım ve geliştirme, mobil uygulama (iOS ve Android), özel yazılım ve uygulama geliştirme, SEO, sosyal medya yönetimi, dijital reklam yönetimi, grafik tasarım ve fotoğraf çekimi alanlarında hizmet veriyoruz.
-Her işe önce işletmenin hedefini, müşterisini ve mevcut dijital varlıklarını dinleyerek başlarız. Ardından mobil uyumlu, hızlı açılan ve arama motorlarının anlayabileceği bir yapı kurarız; yayına aldıktan sonra da bakım ve geliştirmeyle yanınızda kalırız.
-Çalışma alanlarımız
-Kurumsal web siteleri ve e-ticaret çözümleri
-Flutter tabanlı mobil uygulamalar
-Özel yazılım, panel ve iş akışı uygulamaları
-SEO, sosyal medya ve dijital reklam yönetimi
-Grafik tasarım ve kurumsal kimlik
-Ürün ve tanıtım fotoğraf çekimi
-Projenizi anlatmak için iletişim sayfamızdan , telefon veya WhatsApp ile 0531 679 10 14 numarasından, ya da info@ajansmobil.com adresinden bize ulaşabilirsiniz.
-Ajans Mobil nedir?
-Ajans Mobil, Gaziantep merkezli bir dijital ajanstır: işletmeler için web sitesi, mobil uygulama ve özel yazılım geliştirir; bu ürünlerin arama motorlarında bulunmasını SEO ile destekler.
-Kimlerle çalışıyoruz?
-Üretim, ticaret ve hizmet alanında çalışan işletmelerle; ayrıca web sitesi, mobil uygulama veya iş süreçlerini tek uygulamada toplamak isteyen ekiplerle çalışıyoruz. Görüşmeler telefon, WhatsApp ve e-posta ile yürütüldüğünden başka şehirlerdeki işletmelere de hizmet verebiliriz.
-Hizmet sayfalarımız
-Web tasarım · Mobil uygulama · Özel yazılım · SEO hizmeti · Sık sorulan sorular · Blog
+المدونة
+مدونة أجانس موبيل — أدلة عن الويب والجوال والبرمجيات المخصصة
+تنشر مدونة أجانس موبيل أدلة قصيرة تسهّل على شركات غازي عنتاب قرارات الموقع الإلكتروني وتطبيق الجوال والبرمجيات المخصصة. المقالات بلغة مبسطة، وفي كل مقال أسئلة تساعدك على القرار ورابط لصفحة الخدمة المرتبطة.
+كيف تُعدّ موقعًا مؤسسيًا؟ — كيف يُعدّ الموقع المؤسسي؟ قائمة تحقق قصيرة لشركات غازي عنتاب تشمل الهدف وبنية الصفحات والمحتوى والتوافق مع الجوال وخطوات السيو.
+تطبيق جوال أم موقع متوافق مع الجوال؟ — هل تحتاج تطبيق جوال أم موقعًا متوافقًا مع الجوال؟ دليل مقارنة قصير من غازي عنتاب يساعدك على الاختيار الصحيح لنشاطك التجاري.
+برمجيات مخصصة أم جاهزة؟ — برمجيات مخصصة أم جاهزة؟ الأسئلة التي تُطرح قبل القرار ومزايا وعيوب كل خيار في دليل مبسط وواضح من غازي عنتاب يساعدك على اتخاذ قرارك بثقة.
+لأسئلتك راجع الأسئلة الشائعة أو راسلنا .
 
 ---
 
-## Dijital Hizmetlerimiz
-https://ajansmobil.com/tr/hizmetlerimiz/
+## الشركات
+https://ajansmobil.com/ar/hakkimizda/
 
-Web tasarım, mobil uygulama geliştirme, sosyal medya yönetimi ve dijital pazarlama alanlarında profesyonel hizmetler sunuyoruz.
+أجانس موبيل وكالة رقمية في غازي عنتاب: تصميم مواقع وتطبيقات جوال وتطبيقات مخصصة وSEO وتسويق رقمي.
 
-Dijital Hizmetlerimiz
-Dijital Hizmetlerimiz — Web, Mobil ve Özel Uygulamalar
-Ajans Mobil olarak web siteleri, mobil uygulamalar ve ihtiyaca özel uygulamalar geliştiriyor; bunları SEO, sosyal medya ve reklam yönetimiyle destekliyoruz.
-Aşağıdaki kartlardan her hizmetin ayrıntısına ulaşabilirsiniz. Hangisinin size uygun olduğundan emin değilseniz, hedefinizi anlatmanız yeterli; birlikte doğru kapsamı belirleriz.
-Tüm çalışmalarda mobil uyum, hız ve kişisel verilerin korunması temel gereksinim olarak ele alınır.
-Hizmet alanları
-Web tasarım ve geliştirme
-Mobil uygulama geliştirme
-Özel yazılım ve uygulama geliştirme
-SEO
-Sosyal medya yönetimi ve dijital reklam
-Grafik tasarım ve fotoğraf çekimi
-Projenizi anlatmak için iletişim sayfamızdan , telefon veya WhatsApp ile 0531 679 10 14 numarasından, ya da info@ajansmobil.com adresinden bize ulaşabilirsiniz.
+من نحن
+أجانس موبيل — تطوير المواقع وتطبيقات الجوال والتطبيقات المخصصة
+أجانس موبيل وكالة رقمية مقرها غازي عنتاب. نطوّر مواقع إلكترونية وتطبيقات جوال وتطبيقات مخصصة تساعد الشركات على الظهور بالشكل الصحيح على الإنترنت.
+تشمل خدماتنا تصميم المواقع وتطويرها، وتطبيقات الجوال (iOS وأندرويد)، والبرمجيات والتطبيقات المخصصة، وتحسين محركات البحث SEO، وإدارة وسائل التواصل الاجتماعي، وإدارة الإعلانات الرقمية، والتصميم الجرافيكي، والتصوير الفوتوغرافي.
+نبدأ كل مشروع بالاستماع إلى الشركة: أهدافها وعملائها وأصولها الرقمية الحالية. ثم نبني أساسًا متوافقًا مع الجوال وسريعًا وقابلًا للفهم من محركات البحث، ونبقى معك بعد الإطلاق للصيانة والتطوير.
+مجالات عملنا
+المواقع المؤسسية وحلول التجارة الإلكترونية
+تطبيقات جوال مبنية بتقنية Flutter
+برمجيات مخصصة ولوحات تحكم وتطبيقات سير العمل
+تحسين محركات البحث وإدارة وسائل التواصل والإعلانات الرقمية
+التصميم الجرافيكي والهوية المؤسسية
+تصوير المنتجات والتصوير الترويجي
+لعرض مشروعك علينا، تواصل معنا عبر صفحة الاتصال أو بالهاتف أو واتساب على الرقم 0531 679 10 14 أو عبر البريد info@ajansmobil.com .
+ما هي أجانس موبيل؟
+أجانس موبيل وكالة رقمية مقرها غازي عنتاب: تبني مواقع إلكترونية وتطبيقات جوال وبرمجيات مخصصة للشركات، وتدعم ظهورها في محركات البحث بالسيو.
+مع من نعمل؟
+نعمل مع شركات الإنتاج والتجارة والخدمات ومع الفرق التي تريد موقعًا أو تطبيق جوال أو جمع إجراءات عملها في تطبيق واحد. ولأن الاجتماعات تجري بالهاتف وواتساب والبريد، يمكننا خدمة شركات في مدن أخرى أيضًا.
+صفحات خدماتنا
+تصميم المواقع · تطبيقات الجوال · البرمجيات المخصصة · خدمة السيو · الأسئلة الشائعة · المدونة
+
+---
+
+## خدماتنا الرقمية
+https://ajansmobil.com/ar/hizmetlerimiz/
+
+نقدم خدمات مهنية في تصميم الويب وتطوير تطبيقات الجوال والبرمجيات المخصصة وإدارة وسائل التواصل الاجتماعي والتسويق الرقمي في غازي عنتاب.
+
+خدماتنا الرقمية
+خدماتنا الرقمية — المواقع وتطبيقات الجوال والتطبيقات المخصصة
+في أجانس موبيل نطوّر المواقع الإلكترونية وتطبيقات الجوال والتطبيقات المخصصة، ونعززها بخدمات SEO ووسائل التواصل وإدارة الإعلانات.
+يمكنك الوصول إلى تفاصيل كل خدمة من البطاقات أدناه. وإن لم تكن متأكدًا أيها يناسبك، يكفي أن تصف هدفك لنحدد معًا النطاق المناسب.
+في جميع أعمالنا نعتبر التوافق مع الجوال والسرعة وحماية البيانات الشخصية متطلبات أساسية.
+مجالات الخدمة
+تصميم المواقع وتطويرها
+تطوير تطبيقات الجوال
+البرمجيات والتطبيقات المخصصة
+تحسين محركات البحث SEO
+إدارة وسائل التواصل والإعلانات الرقمية
+التصميم الجرافيكي والتصوير
+لعرض مشروعك علينا، تواصل معنا عبر صفحة الاتصال أو بالهاتف أو واتساب على الرقم 0531 679 10 14 أو عبر البريد info@ajansmobil.com .
 01
-Web tasarım
-Kurumsal site, tanıtım sitesi ve e-ticaret; mobil uyumlu, hızlı ve arama motorlarına hazır.
+تصميم المواقع
+مواقع شركات وتعريفية وتجارة إلكترونية؛ متجاوبة وسريعة وجاهزة لمحركات البحث.
 02
-Mobil uygulama
-Flutter ile iOS ve Android uygulamaları; mağaza yayını ve bakım dahil.
+تطبيقات الجوال
+تطبيقات iOS وAndroid بتقنية Flutter مع النشر في المتاجر والصيانة.
 03
-Özel uygulama geliştirme
-İşinize özel web tabanlı uygulamalar, yönetim panelleri ve entegrasyonlar.
+تطوير تطبيقات مخصصة
+تطبيقات ويب ولوحات إدارة وتكاملات مخصصة لعملك.
 04
-SEO hizmeti
-Teknik SEO, içerik ve görünürlük çalışmaları.
+خدمة تحسين محركات البحث
+تحسين تقني ومحتوى وزيادة الظهور.
 05
-Reklam yönetimi
-Google Ads ve sosyal medya reklam kampanyalarının kurulumu ve yönetimi.
+إدارة الإعلانات
+إعداد وإدارة حملات إعلانات Google ووسائل التواصل.
 06
-Sosyal medya yönetimi
-Hesap yönetimi, içerik planı ve topluluk yönetimi.
+إدارة وسائل التواصل
+إدارة الحسابات وخطة المحتوى وإدارة المجتمع.
 07
-Fotoğraf çekimi
-Ürün ve kurumsal tanıtım fotoğrafları.
+التصوير
+صور المنتجات والتعريف بالشركة.
 
 ---
 
-## İletişim
-https://ajansmobil.com/tr/iletisim/
+## اتصل بنا
+https://ajansmobil.com/ar/iletisim/
 
-Ajans Mobil Gaziantep iletişim: web tasarım, mobil uygulama ve özel yazılım projeleriniz için telefon, WhatsApp veya e-posta ile hemen bize ulaşın.
+تواصل مع أجانس موبيل غازي عنتاب: راسلنا بالهاتف أو واتساب أو البريد لمشاريع تصميم المواقع وتطبيقات الجوال والبرمجيات المخصصة.
 
-İletişim
-Bize Ulaşın
+اتصل بنا
+اتصل بنا
 0531 679 10 14
-WhatsApp ile yazın: 0531 679 10 14
+راسلنا عبر واتساب: 0531 679 10 14
 info@ajansmobil.com
-Gaziantep, Türkiye
-SSS
-İletişim hakkında sık sorulanlar
-Bize yazmadan önce merak edilenler.
-Ajans Mobil, Gaziantep merkezli bir dijital ajanstır. Bize 0531 679 10 14 numarasından telefon veya WhatsApp ile, info@ajansmobil.com adresinden e-posta ile ulaşabilirsiniz.
-Kısa bir not yeterlidir: ne istediğiniz (web sitesi, mobil uygulama, özel yazılım veya SEO), işletmenizin ne iş yaptığı, varsa mevcut siteniz veya sisteminiz, beklediğiniz takvim ve bütçe aralığı.
-Mesajınızı okur, gerekirse birkaç soruyla ihtiyacınızı netleştiririz. Ardından kapsamı, adımları ve fiyatı içeren yazılı bir teklifle dönüş yaparız; teklifi onaylamadan çalışmaya başlanmaz.
-Evet. Görüşmeler telefon, WhatsApp ve e-posta ile yürütülebildiği için farklı şehirlerdeki işletmelerle de çalışabiliriz.
-Web tasarım , mobil uygulama , özel yazılım ve SEO sayfalarına ya da sık sorulan sorulara bakabilirsiniz.
+غازي عنتاب، تركيا
+الأسئلة الشائعة
+أسئلة شائعة حول التواصل
+ما يُسأل عنه قبل التواصل معنا.
+أجانس موبيل وكالة رقمية مقرها غازي عنتاب. يمكنك التواصل معنا بالهاتف أو واتساب على الرقم 0531 679 10 14 أو بالبريد info@ajansmobil.com.
+تكفي ملاحظة قصيرة: ما تريده (موقع أو تطبيق جوال أو برمجيات مخصصة أو سيو) وطبيعة نشاطك وموقعك أو نظامك الحالي إن وجد والجدول الزمني ونطاق الميزانية المتوقعين.
+نقرأ رسالتك ونوضح احتياجك عند الحاجة ببعض الأسئلة، ثم نرد بعرض مكتوب يشمل النطاق والخطوات والسعر، ولا يبدأ العمل قبل موافقتك عليه.
+نعم. بما أن الاجتماعات تُجرى بالهاتف وواتساب والبريد يمكننا العمل مع شركات في مدن أخرى.
+راجع صفحات تصميم المواقع و تطبيقات الجوال و البرمجيات المخصصة و السيو أو الأسئلة الشائعة .
 
 ---
 
-## Özel Uygulama Geliştirme
-https://ajansmobil.com/tr/ozel-uygulama-gelistirme/
+## تطوير التطبيقات المخصصة
+https://ajansmobil.com/ar/ozel-uygulama-gelistirme/
 
-Gaziantep özel yazılım ve uygulama geliştirme: işletmenize özel web tabanlı uygulamalar, yönetim panelleri, API ve entegrasyonlar.
+تطوير برمجيات وتطبيقات مخصصة في غازي عنتاب: تطبيقات ويب ولوحات إدارة وواجهات API وتكاملات مصممة لنشاطك.
 
-Özel Uygulama Geliştirme
-Gaziantep Özel Yazılım ve Uygulama Geliştirme
-Ajans Mobil, Gaziantep'te işletmelere özel web tabanlı yazılım, yönetim paneli ve uygulama geliştiren bir dijital ajanstır. Hazır yazılımların karşılamadığı ihtiyaçlar için süreçlerinize uyan çözümler hazırlıyoruz.
-Özel yazılım nedir?
-Özel yazılım, hazır bir programın ayarlarını işinize uydurmak yerine, işletmenizin çalışma biçimine göre sıfırdan tasarlanan uygulamadır. Excel tablolarında, kâğıt formlarda veya mesaj gruplarında yürüyen işleri tek bir yerde, yetkilere bağlı ve izlenebilir şekilde toplamak tipik bir örnektir.
-Ne tür çözümler geliştiriyoruz?
-Yönetim paneli ve kayıt takip uygulamaları
-Sipariş, teklif ve müşteri takip araçları
-Web sitesi ve mobil uygulama ile bağlantılı arka uç (API)
-Raporlama ve veri aktarım otomasyonları
-Mevcut sistemlerinizle entegrasyonlar
-Özel yazılım ne zaman doğru seçimdir?
-Süreçleriniz sektörünüze özgüyse, aynı işi birden fazla araçta tekrar ediyorsanız ya da hazır yazılımın lisansı ve sınırları işinizi kısıtlıyorsa özel uygulama düşünülebilir. İhtiyaç küçükse önce hazır bir çözümün yeterli olup olmadığını birlikte değerlendiririz; gerekmeyen yazılımı satmayız.
-Çalışma adımlarımız
-İhtiyaç analizi: mevcut süreci ve çıkmak istediğiniz sonucu netleştiririz.
-Ekran ve veri planı: ekranları, kullanıcı rollerini ve veri yapısını planlarız.
-Aşamalı geliştirme: kısa aşamalarla ilerler, her aşamada sizden geri bildirim alırız.
-Test ve devreye alma: gerçek verilerinizle denenir, ekibiniz bilgilendirilir.
-Bakım ve geliştirme: yeni ihtiyaçlar çıktıkça uygulamayı genişletiriz.
-Kullanıcı yetkileri, veri güvenliği ve yedekleme planı geliştirme sürecinin başından itibaren tasarıma dahil edilir.
-Projenizi konuşalım
-Ne istediğinizi kısaca yazmanız yeterli: iletişim sayfamızdan , WhatsApp veya telefonla 0531 679 10 14 numarasından, ya da info@ajansmobil.com adresinden bize ulaşabilirsiniz. Size yazılı ve anlaşılır bir yol haritasıyla dönüş yaparız.
-SSS
-Sıkça Sorulan Sorular
-Merak ettiğiniz soruların kısa cevapları.
-Hazır yazılım herkese uygun genel bir üründür. Özel yazılım ise yalnızca sizin süreçleriniz için tasarlanır; gereksiz özellik taşımaz ve işinizle birlikte büyüyebilir.
-Evet. Excel'de yürüyen kayıt, takip ve raporlama işleri; kullanıcı yetkileri ve yedekleme ile birlikte web tabanlı bir uygulamaya taşınabilir.
-Evet. Arka uç (API) aracılığıyla web siteniz, mobil uygulamanız ve mevcut sistemlerinizle veri alışverişi yapacak şekilde tasarlanabilir.
-Kullanıcı yetkileri, veri güvenliği ve yedekleme planı geliştirme sürecinin başından itibaren tasarıma dahil edilir.
-
----
-
-## Mobil Uygulama
-https://ajansmobil.com/tr/mobil-uygulama/
-
-Gaziantep mobil uygulama geliştirme: Flutter ile iOS ve Android uygulamaları, web/panel entegrasyonu, mağaza yayın desteği ve bakım.
-
-Mobil Uygulama
-Gaziantep Mobil Uygulama Geliştirme — iOS ve Android
-Ajans Mobil, Gaziantep'te iOS ve Android için mobil uygulama geliştiren bir dijital ajanstır. Tek kod tabanıyla iki platforma çıkabilen Flutter ile çalışarak geliştirme ve bakım sürecini sade tutuyoruz.
-Mobil uygulama nedir?
-Mobil uygulama, telefona veya tablete mağazadan indirilen ve cihazın özelliklerinden (bildirim, kamera, konum) yararlanabilen yazılımdır. Müşterilerinizle düzenli temas kurmak, sipariş veya randevu almak ya da ekibinizin sahada iş takibi yapması için kullanılır.
-Hangi uygulamaları geliştiriyoruz?
-İşletme ve müşteri uygulamaları (katalog, sipariş, randevu, üyelik)
-Sahada çalışan ekipler için iş takip ve kayıt uygulamaları
-Web sitesi veya yönetim paneliyle birlikte çalışan uygulamalar
-Bildirim, kullanıcı girişi ve ödeme gibi gerekli özellikler
-Neden Flutter?
-Flutter ile aynı proje hem iOS hem Android için derlenir. Bu, iki ayrı uygulama yazmaya göre geliştirme ve güncelleme işini sadeleştirir; arayüz iki platformda tutarlı kalır. Uygulamanın web sitesi veya yönetim paneliyle birlikte çalışması gerekiyorsa bunu baştan planlarız.
-Çalışma adımlarımız
-İhtiyaç netleştirme: uygulamanın amacı, kullanıcıları ve temel özellikleri belirlenir.
-Ekran akışı ve tasarım: kullanıcı yolculuğu çizilir, arayüz hazırlanır.
-Geliştirme: kısa aşamalarla ilerler, her aşamada sizden geri bildirim alırız.
-Test: gerçek cihazlarda denenir, hatalar giderilir.
-Mağaza yayını ve bakım: yayın sürecinde destek veririz; sonrasında hata düzeltme, güncelleme ve yeni özellik geliştirme sürer.
-Projenizi konuşalım
-Ne istediğinizi kısaca yazmanız yeterli: iletişim sayfamızdan , WhatsApp veya telefonla 0531 679 10 14 numarasından, ya da info@ajansmobil.com adresinden bize ulaşabilirsiniz. Size yazılı ve anlaşılır bir yol haritasıyla dönüş yaparız.
-SSS
-Sıkça Sorulan Sorular
-Merak ettiğiniz soruların kısa cevapları.
-Evet. Ajans Mobil Gaziantep merkezlidir ve iOS ile Android için mobil uygulama geliştirir.
-Evet. Flutter ile tek kod tabanından iki platforma da çıkıyoruz; bu, geliştirme ve güncelleme sürecini sadeleştirir.
-Mağaza yayın sürecinde destek veriyoruz.
-Evet. Hata düzeltme, güncelleme ve yeni özellik geliştirme için bakım desteği sağlıyoruz.
+تطوير التطبيقات المخصصة
+تطوير البرمجيات والتطبيقات المخصصة في غازي عنتاب
+أجانس موبيل وكالة رقمية في غازي عنتاب بتركيا تبني برمجيات ولوحات إدارة وتطبيقات مخصصة قائمة على الويب للشركات. وللاحتياجات التي لا تغطيها البرامج الجاهزة نجهز حلولًا تناسب إجراءات عملك.
+ما هي البرمجيات المخصصة؟
+البرمجيات المخصصة تطبيق يُصمَّم وفق طريقة عمل نشاطك بدل تعديل برنامج جاهز ليلائمك. ومن الأمثلة الشائعة جمع الأعمال التي تجري في جداول إكسل أو نماذج ورقية أو مجموعات المراسلة في مكان واحد مع صلاحيات وسجل واضح.
+ما أنواع الحلول التي نطوّرها؟
+لوحات إدارة وتطبيقات متابعة السجلات
+أدوات الطلبات وعروض الأسعار ومتابعة العملاء
+واجهة خلفية (API) مرتبطة بالموقع وتطبيق الجوال
+أتمتة التقارير ونقل البيانات
+التكامل مع أنظمتك الحالية
+متى تكون البرمجيات المخصصة الخيار الصحيح؟
+تناسبك إذا كانت إجراءاتك خاصة بقطاعك، أو تكرر العمل نفسه في عدة أدوات، أو تقيّدك تراخيص البرامج الجاهزة وحدودها. وإذا كان الاحتياج صغيرًا فنقيّم معك أولًا هل يكفي حل جاهز؛ ولا نبيع برمجيات لا تحتاجها.
+خطوات عملنا
+تحليل الاحتياج: نوضح الإجراء الحالي والنتيجة التي تريدها.
+خطة الشاشات والبيانات: نخطط الشاشات وأدوار المستخدمين وبنية البيانات.
+تطوير على مراحل: نتقدم بمراحل قصيرة ونأخذ رأيك في كل مرحلة.
+الاختبار والتشغيل: يُجرَّب بياناتك الحقيقية ويُطلَع فريقك عليه.
+الصيانة والتطوير: نوسّع التطبيق كلما ظهرت احتياجات جديدة.
+تدخل صلاحيات المستخدمين وأمان البيانات وخطة النسخ الاحتياطي في التصميم منذ بداية التطوير.
+لنتحدث عن مشروعك
+يكفي أن تكتب لنا باختصار ما تحتاجه: عبر صفحة الاتصال أو واتساب أو الهاتف 0531 679 10 14 أو البريد info@ajansmobil.com . نرد عليك بخطة واضحة ومكتوبة.
+الأسئلة الشائعة
+الأسئلة الشائعة
+إجابات مختصرة عن الأسئلة الشائعة.
+البرنامج الجاهز منتج عام يناسب الجميع، أما البرنامج المخصص فيُصمَّم لإجراءاتك وحدها دون ميزات زائدة ويمكنه النمو مع عملك.
+نعم. يمكن نقل أعمال التسجيل والمتابعة والتقارير من إكسل إلى تطبيق قائم على الويب مع صلاحيات المستخدمين والنسخ الاحتياطي.
+نعم. عبر واجهة خلفية (API) يمكن تبادل البيانات مع موقعك وتطبيق الجوال وأنظمتك الحالية.
+تدخل صلاحيات المستخدمين وأمان البيانات وخطة النسخ الاحتياطي في التصميم منذ بداية التطوير.
 
 ---
 
-## Web Tasarım
-https://ajansmobil.com/tr/web-tasarim/
+## تطبيقات الجوال
+https://ajansmobil.com/ar/mobil-uygulama/
 
-Gaziantep web tasarım: kurumsal site, tanıtım sitesi ve e-ticaret.
+تطوير تطبيقات الجوال في غازي عنتاب: تطبيقات iOS وAndroid بتقنية Flutter مع الربط بالموقع ولوحة الإدارة ودعم النشر في المتاجر والصيانة.
 
-Web Tasarım
-Gaziantep Web Tasarım — Kurumsal Site, Tanıtım Sitesi ve E-Ticaret
-Ajans Mobil, Gaziantep merkezli bir dijital ajanstır; web tasarım, mobil uygulama ve özel yazılım geliştirme hizmeti verir. Web tasarım hizmetimiz; işletmenizin hizmetlerini ve ürünlerini anlatan, telefonda sorunsuz açılan ve arama motorlarının anlayabileceği bir web sitesinin planlanıp tasarlanmasını ve yayına alınmasını kapsar.
-Web tasarım nedir?
-Web tasarım, bir web sitesinin görünümünü, sayfa yapısını, içerik akışını ve teknik altyapısını birlikte planlayıp hayata geçirme işidir. İyi bir site yalnızca güzel görünmez; ziyaretçinin aradığını hızlı bulmasını, işletmeye güven duymasını ve sizinle kolayca iletişime geçmesini sağlar.
-Hangi tür web siteleri hazırlıyoruz?
-Kurumsal web sitesi: firmanızı, hizmetlerinizi ve iletişim bilgilerinizi anlatan çok sayfalı site.
-Tanıtım sitesi: tek bir ürün, hizmet veya kampanya için sade ve hızlı sayfalar.
-E-ticaret sitesi: ürün listeleme, sepet ve sipariş akışı olan online mağaza.
-Çok dilli site: Türkçe, İngilizce ve Arapça yayın; Arapçada sağdan sola doğru yerleşim.
-Sitenizi arama motorlarına hazır kuruyoruz
-Her sayfaya özgün başlık ve açıklama yazar, tek ana başlık (H1) düzenini korur, site haritası ve dil bağlantılarını (hreflang) hazırlar, işletme bilgilerini yapısal veriyle (JSON-LD) arama motorlarına tanıtırız. Görselleri hafif biçimde yayınlar, siteyi mobil cihazlarda test ederiz. Sıralama garantisi vermeyiz; ölçülebilir teknik zemini kurar ve neyin değiştiğini açıkça raporlarız.
-Çalışma adımlarımız
-Tanışma: hedefinizi, müşterinizi ve mevcut dijital varlıklarınızı dinleriz.
-Planlama: sayfa yapısını ve kapsamı yazılı teklife döker, onayınızla planı kilitleriz.
-Tasarım ve geliştirme: markanıza uygun arayüzü hazırlar, içerikleri yerleştiririz.
-Test ve yayın: mobil/masaüstü kontrolü yapar, siteyi yayına alırız.
-Bakım: içerik güncelleme ve iyileştirme için yanınızda kalırız.
-Gaziantep'teki işletmeler için
-Gaziantep'te üretim, ticaret veya hizmet alanında çalışıyorsanız, müşterileriniz sizi önce telefonda arar. «Gaziantep web tasarım» gibi yerel aramalarda anlaşılır olmak için hizmet sayfalarınızı, adres ve telefon bilgilerinizi tutarlı biçimde yazarız; WhatsApp ile tek dokunuşla ulaşılabilir bir site kurarız.
-Projenizi konuşalım
-Ne istediğinizi kısaca yazmanız yeterli: iletişim sayfamızdan , WhatsApp veya telefonla 0531 679 10 14 numarasından, ya da info@ajansmobil.com adresinden bize ulaşabilirsiniz. Size yazılı ve anlaşılır bir yol haritasıyla dönüş yaparız.
-SSS
-Sıkça Sorulan Sorular
-Merak ettiğiniz soruların kısa cevapları.
-Evet. Ajans Mobil Gaziantep merkezli çalışır; kurumsal site, tanıtım sitesi ve e-ticaret sitesi tasarlar. Görüşmeler telefon, WhatsApp veya e-posta üzerinden yürütülebilir.
-Evet. Tüm siteler mobil uyumlu (responsive) hazırlanır ve yayından önce telefon ve masaüstü ekranlarında kontrol edilir.
-Türkçe, İngilizce ve Arapça desteklenir. Arapça sayfalarda sağdan sola yerleşim kullanılır.
-Sıralama garantisi vermeyiz. Teknik SEO zeminini, özgün içeriği ve yapısal veriyi hazırlarız; sonuçları ölçer ve raporlarız.
+تطبيقات الجوال
+تطوير تطبيقات الجوال في غازي عنتاب — iOS وAndroid
+أجانس موبيل وكالة رقمية في غازي عنتاب بتركيا تطوّر تطبيقات الجوال لنظامي iOS وAndroid. نعمل بتقنية Flutter التي تتيح إصدار التطبيق لكلا النظامين من قاعدة شيفرة واحدة، مما يبسّط التطوير والصيانة.
+ما هو تطبيق الجوال؟
+تطبيق الجوال برنامج يُنزَّل من المتجر إلى الهاتف أو اللوحي ويستفيد من إمكانات الجهاز كالإشعارات والكاميرا والموقع. يُستخدم للبقاء على تواصل منتظم مع العملاء واستقبال الطلبات أو المواعيد أو لمتابعة عمل الفريق الميداني.
+أي التطبيقات نطوّرها؟
+تطبيقات للأعمال والعملاء (كتالوج، طلبات، مواعيد، عضوية)
+تطبيقات متابعة العمل وتسجيل البيانات للفرق الميدانية
+تطبيقات تعمل مع موقع إلكتروني أو لوحة إدارة
+ميزات لازمة مثل الإشعارات وتسجيل الدخول والدفع
+لماذا Flutter؟
+مع Flutter يُبنى المشروع نفسه لنظامي iOS وAndroid، ما يبسّط التطوير والتحديث مقارنة بكتابة تطبيقين منفصلين، وتبقى الواجهة متسقة على النظامين. وإذا كان على التطبيق أن يعمل مع موقع أو لوحة إدارة فنخطط لذلك من البداية.
+خطوات عملنا
+توضيح الاحتياج: نحدد هدف التطبيق ومستخدميه وميزاته الأساسية.
+تدفق الشاشات والتصميم: نرسم رحلة المستخدم ونجهز الواجهة.
+التطوير: نتقدم بمراحل قصيرة ونأخذ رأيك في كل مرحلة.
+الاختبار: يُجرَّب التطبيق على أجهزة حقيقية وتُصلَح الأخطاء.
+النشر في المتاجر والصيانة: ندعمك في عملية النشر، ثم تستمر إصلاحات الأخطاء والتحديثات والميزات الجديدة.
+لنتحدث عن مشروعك
+يكفي أن تكتب لنا باختصار ما تحتاجه: عبر صفحة الاتصال أو واتساب أو الهاتف 0531 679 10 14 أو البريد info@ajansmobil.com . نرد عليك بخطة واضحة ومكتوبة.
+الأسئلة الشائعة
+الأسئلة الشائعة
+إجابات مختصرة عن الأسئلة الشائعة.
+نعم. أجانس موبيل مقرها غازي عنتاب وتطوّر تطبيقات الجوال لنظامي iOS وAndroid.
+نعم. بتقنية Flutter نصدر التطبيق للنظامين من قاعدة شيفرة واحدة، مما يبسّط التطوير والتحديث.
+ندعمك في عملية النشر على المتاجر.
+نعم. نقدم دعم الصيانة لإصلاح الأخطاء والتحديثات وتطوير ميزات جديدة.
 
 ---
 
-## Reklam Yönetimi
-https://ajansmobil.com/tr/reklam-yonetimi/
+## تصميم الويب
+https://ajansmobil.com/ar/web-tasarim/
 
-Gaziantep Google Ads ve sosyal medya reklam yönetimi: hedef kitleye göre kampanya kurulumu, yönetim ve düzenli raporlama.
+تصميم مواقع في غازي عنتاب: مواقع مؤسسية وتعريفية ومتاجر إلكترونية متوافقة مع الجوال ومحركات البحث وبثلاث لغات: التركية والإنجليزية والعربية.
 
-Reklam Yönetimi
-Dijital Reklam Yönetimi — Google ve Sosyal Medya
-Google reklamları ve sosyal medya reklamlarını hedefe göre kurar, yönetir ve raporlarız. Amaç, reklam bütçesinin doğru kitleye ve doğru mesajla ulaşmasıdır.
-Çalışmaya hedef ve bütçe konuşmasıyla başlarız; kampanya yapısını, reklam metinlerini ve görselleri hazırlar, sonuçları düzenli olarak sizinle paylaşırız.
-Reklamların yönlendirdiği sayfaların da hızlı ve anlaşılır olması gerekir; bu nedenle web sitesi ve SEO çalışmalarıyla birlikte ele alırız.
-Kapsam
-Google Ads arama ve görüntülü reklam kampanyaları
-Instagram ve Facebook reklamları
-Hedef kitle ve anahtar kelime planı
-Reklam metni ve görseli hazırlama
-Düzenli performans raporu
-Projenizi anlatmak için iletişim sayfamızdan , telefon veya WhatsApp ile 0531 679 10 14 numarasından, ya da info@ajansmobil.com adresinden bize ulaşabilirsiniz.
-Reklam yönetimi nedir?
-Reklam yönetimi; Google ve sosyal medya platformlarında hedef kitleye göre kampanya kurmak, bütçeyi izlemek ve sonuçları düzenli raporlamaktır. Amaç yalnızca tıklama değil, telefon ve WhatsApp ile gelen gerçek talebi artırmaktır.
-Nasıl ilerliyoruz?
-Hedef ve bütçe netleştirilir.
-Hedef kitle ve reklam metinleri hazırlanır.
-Kampanya yayınlanır ve izlenir.
-Sonuçlara göre ayarlanır ve raporlanır.
-Reklamın gideceği sayfanın hazır olması önemlidir; web tasarım ve SEO çalışmaları reklam sonuçlarını destekler.
-
----
-
-## Seo Hizmeti
-https://ajansmobil.com/tr/seo-hizmeti/
-
-Gaziantep SEO hizmeti: teknik SEO denetimi, anahtar kelime ve içerik planı, yapısal veri, yerel SEO, yapay zekâ aramalarına hazırlık ve düzenli raporlama.
-
-Seo Hizmeti
-Gaziantep SEO Hizmeti — Arama Motorlarında Bulunabilirlik
-Ajans Mobil, Gaziantep'te web sitelerinin Google gibi arama motorlarında bulunabilirliğini artırmak için teknik ve içerik çalışması yapan bir dijital ajanstır. Sonuç garantisi vermeyiz; ölçülebilir iyileştirmeler yapar ve nelerin değiştiğini açıkça raporlarız.
-SEO nedir?
-SEO (arama motoru optimizasyonu), sitenizin ilgili aramalarda bulunabilmesi için yapılan teknik düzenleme ve içerik çalışmalarının tamamıdır. Amaç, doğru kişilerin doğru sayfaya ulaşmasıdır; yalnızca sıra değil, telefon ve WhatsApp ile gelen talep de ölçülür.
-Neleri yapıyoruz?
-Teknik SEO denetimi: sayfa başlıkları, açıklamalar, başlık yapısı, site hızı, mobil uyum, site haritası ve iç bağlantılar.
-Anahtar kelime ve içerik planı: müşterilerinizin gerçekten aradığı ifadelerin ve rakiplerde bulunup sizde eksik kalan konuların çıkarılması.
-Yapısal veri: işletme, hizmet ve sık sorulan sorular için arama motorlarının ve yapay zekâ asistanlarının anlayacağı JSON-LD işaretlemesi.
-Yerel SEO: Gaziantep aramaları için tutarlı adres/telefon bilgisi ve Google işletme profili önerileri.
-Raporlama: Search Console verisiyle sıra ve görünürlük değişimlerinin düzenli takibi.
-Yapay zekâ aramalarına hazırlık (GEO)
-Kullanıcılar artık sorularını yapay zekâ asistanlarına da soruyor. Net varlık tanımı, soru-cevap blokları ve llms.txt dosyası gibi düzenlemelerle sitenizin bu cevaplarda anılma ihtimalini artırmaya çalışırız.
-Çalışma adımlarımız
-Ölçüm: mevcut sitenin, rakiplerin ve arama sıralamasının ölçülmesi.
-Öncelik listesi: etkisi yüksek, uygulaması kolay işlerin sıralanması.
-Uygulama: teknik düzeltmeler ve içerik üretimi.
-Takip: düzenli ölçüm; etkisi görülmeyen iş yeniden değerlendirilir.
-SEO sürekli bir iştir; düzenli bakım ve içerik üretimiyle birlikte anlam kazanır.
-Projenizi konuşalım
-Ne istediğinizi kısaca yazmanız yeterli: iletişim sayfamızdan , WhatsApp veya telefonla 0531 679 10 14 numarasından, ya da info@ajansmobil.com adresinden bize ulaşabilirsiniz. Size yazılı ve anlaşılır bir yol haritasıyla dönüş yaparız.
-SSS
-Sıkça Sorulan Sorular
-Merak ettiğiniz soruların kısa cevapları.
-SEO, sitenizin arama motorlarında ilgili aramalarda bulunabilmesi için yapılan teknik ve içerik çalışmasıdır. Müşterileriniz sizi ararken karşılarına çıkmanızı sağlar.
-Hayır. Hiçbir ajans dürüstçe sıra garantisi veremez. Biz ölçülebilir iyileştirmeler yapar, sıra ve görünürlük değişimini Search Console verisiyle raporlarız.
-Hizmet sayfalarında şehir ve hizmet ifadelerini doğal biçimde kullanır, adres ve telefon bilgisini her yerde tutarlı yazar ve Google işletme profili önerileri hazırlarız.
-Net varlık tanımı, soru-cevap bölümleri, yapısal veri ve llms.txt dosyası hazırlarız. Bunlar anılma olasılığını artırmaya yönelik düzenlemelerdir; kesin sonuç vaat etmeyiz.
+تصميم الويب
+تصميم المواقع في غازي عنتاب — مواقع مؤسسية وتعريفية وتجارة إلكترونية
+أجانس موبيل وكالة رقمية مقرها غازي عنتاب في تركيا، تقدم خدمات تصميم المواقع وتطوير تطبيقات الجوال وتطوير البرمجيات المخصصة. تشمل خدمة تصميم المواقع تخطيط موقع يشرح خدماتك ومنتجاتك وتصميمه وإطلاقه بحيث يعمل بسلاسة على الهاتف وتفهمه محركات البحث.
+ما هو تصميم المواقع؟
+تصميم المواقع هو تخطيط مظهر الموقع وبنية صفحاته وتدفق محتواه وأساسه التقني وتنفيذها معًا. الموقع الجيد لا يكتفي بالمظهر الجميل؛ بل يساعد الزائر على إيجاد ما يريد بسرعة والوثوق بالنشاط التجاري والتواصل معك بسهولة.
+ما أنواع المواقع التي نصممها؟
+موقع مؤسسي: موقع متعدد الصفحات يعرّف بشركتك وخدماتك وبيانات التواصل.
+موقع تعريفي: صفحات بسيطة وسريعة لمنتج أو خدمة أو حملة واحدة.
+متجر إلكتروني: متجر عبر الإنترنت مع عرض المنتجات والسلة وطلبات الشراء.
+موقع متعدد اللغات: نشر بالتركية والإنجليزية والعربية مع اتجاه من اليمين إلى اليسار للعربية.
+نجهز موقعك لمحركات البحث
+نكتب عنوانًا ووصفًا فريدين لكل صفحة، ونحافظ على عنوان رئيسي واحد (H1)، ونجهز خريطة الموقع وروابط اللغات (hreflang)، ونعرّف نشاطك لمحركات البحث بالبيانات المنظمة (JSON-LD). تُنشر الصور بصيغ خفيفة ويُختبر الموقع على أجهزة الجوال. لا نعد بترتيب معين؛ بل نبني أساسًا تقنيًا قابلًا للقياس ونبلغك بوضوح بما تغيّر.
+خطوات عملنا
+التعارف: نستمع إلى هدفك وعملائك وأصولك الرقمية الحالية.
+التخطيط: نحوّل بنية الصفحات والنطاق إلى عرض مكتوب ونثبّت الخطة بموافقتك.
+التصميم والتطوير: نجهز واجهة تناسب علامتك ونضع المحتوى.
+الاختبار والإطلاق: نفحص الموقع على الجوال والحاسوب ثم ننشره.
+الصيانة: نبقى معك لتحديث المحتوى والتحسين.
+للأعمال في غازي عنتاب
+إذا كنت تنتج أو تتاجر أو تقدم خدمات في غازي عنتاب فعملاؤك غالبًا يتصلون بك أولًا. ولكي تكون واضحًا في عمليات البحث المحلية مثل «تصميم مواقع غازي عنتاب» نكتب صفحات خدماتك وعنوانك وهاتفك بشكل متسق، ونبني موقعًا يمكن الوصول إليه بلمسة واحدة عبر واتساب.
+لنتحدث عن مشروعك
+يكفي أن تكتب لنا باختصار ما تحتاجه: عبر صفحة الاتصال أو واتساب أو الهاتف 0531 679 10 14 أو البريد info@ajansmobil.com . نرد عليك بخطة واضحة ومكتوبة.
+الأسئلة الشائعة
+الأسئلة الشائعة
+إجابات مختصرة عن الأسئلة الشائعة.
+نعم. أجانس موبيل مقرها غازي عنتاب وتصمم المواقع المؤسسية والتعريفية والمتاجر الإلكترونية. يمكن إجراء الاجتماعات بالهاتف أو عبر واتساب أو البريد الإلكتروني.
+نعم. تُبنى جميع المواقع بتصميم متجاوب وتُفحص على شاشات الهاتف والحاسوب قبل الإطلاق.
+ندعم التركية والإنجليزية والعربية. وتستخدم الصفحات العربية اتجاه الكتابة من اليمين إلى اليسار.
+لا نضمن ترتيبًا معينًا. نجهز الأساس التقني للسيو والمحتوى الأصلي والبيانات المنظمة، ثم نقيس النتائج ونبلغ بها.
 
 ---
 
-## Sosyal Media
-https://ajansmobil.com/tr/sosyal-media/
+## إدارة الإعلانات
+https://ajansmobil.com/ar/reklam-yonetimi/
 
-Gaziantep sosyal medya yönetimi: içerik takvimi, gönderi ve hikâye tasarımı, hesap yönetimi ve aylık raporlama ile markanızı düzenli biçimde duyurun.
+إدارة إعلانات جوجل ووسائل التواصل في غازي عنتاب: إعداد الحملات وفق الجمهور المستهدف وإدارتها اليومية مع تقارير منتظمة وواضحة.
 
-Sosyal Media
-Sosyal Medya Yönetimi
-Markanızın Instagram, Facebook, LinkedIn ve TikTok gibi hesaplarında içerik planlama, tasarım ve yayın işlerini üstleniriz. Amaç, doğru kitleyle düzenli ve tutarlı bir iletişim kurmaktır.
-Aylık içerik takvimi hazırlar, gönderi ve hikâye tasarımlarını markanın görsel diliyle üretir, yorum ve mesajlarda size destek oluruz. Gerektiğinde fotoğraf çekimi ve reklam yönetimiyle birlikte ilerleriz.
-Sonuçları düzenli raporlar, hangi içeriğin işe yaradığını birlikte değerlendiririz.
-Kapsam
-İçerik takvimi ve strateji
-Gönderi, hikâye ve kısa video tasarımı
-Hesap yönetimi ve topluluk iletişimi
-Reklam ve fotoğraf çekimi ile birlikte çalışma
-Aylık performans raporu
-Projenizi anlatmak için iletişim sayfamızdan , telefon veya WhatsApp ile 0531 679 10 14 numarasından, ya da info@ajansmobil.com adresinden bize ulaşabilirsiniz.
-Sosyal medya yönetimi nedir?
-Sosyal medya yönetimi; markanızın hesaplarında düzenli içerik planlamak, gönderi ve hikâye görselleri hazırlamak, hesapları yönetmek ve sonuçları aylık raporlamaktır.
-Nasıl ilerliyoruz?
-Marka, hedef kitle ve platformlar belirlenir.
-Aylık içerik takvimi hazırlanır.
-Görseller ve metinler üretilip yayınlanır.
-Etkileşim izlenir ve aylık raporlanır.
-Sosyal medya, web sitenizle birlikte çalıştığında daha güçlüdür; ziyaretçiyi web sitenize ve iletişim sayfanıza yönlendiririz.
-
----
-
-## Fotoğraf Çekimi
-https://ajansmobil.com/tr/fotograf-cekimi/
-
-Gaziantep ürün ve tanıtım fotoğraf çekimi: web sitesi, sosyal medya ve basılı materyal için düzenlenmiş, markanıza uygun profesyonel görseller.
-
-Fotoğraf Çekimi
-Fotoğraf Çekimi — Ürün ve Tanıtım
-Web siteniz, sosyal medya hesaplarınız ve basılı materyalleriniz için ürün ve tanıtım fotoğrafları çekiyoruz. İyi görsel, ziyaretçinin güvenini ve ilgisini doğrudan etkiler.
-Çekim öncesi markanın tarzını ve görselin kullanılacağı yeri konuşur, çekim planını buna göre yaparız. Çekilen görselleri web ve sosyal medya boyutlarına göre düzenleyip teslim ederiz.
-Görseller web için hafifletilerek hazırlanır; bu da sitenizin hızlı açılmasına yardımcı olur.
-Çekimden önce kullanılacağı mecrayı (web sitesi, sosyal medya, katalog) belirler, ışık ve kadraj planını buna göre hazırlarız; böylece aynı çekim birden fazla yerde tutarlı görünür.
-Kapsam
-Ürün fotoğrafı
-Mekân ve ekip tanıtım fotoğrafı
-Sosyal medya için içerik çekimi
-Web ve sosyal medya boyutlarında düzenleme
-Projenizi anlatmak için iletişim sayfamızdan , telefon veya WhatsApp ile 0531 679 10 14 numarasından, ya da info@ajansmobil.com adresinden bize ulaşabilirsiniz.
-Ürün ve tanıtım fotoğrafı neden önemlidir?
-Web sitesi ve sosyal medyada ilk izlenimi görseller verir. Düzenli ve markaya uygun fotoğraflar, ürün ve hizmetinizin güvenilir görünmesine yardımcı olur.
-Nasıl ilerliyoruz?
-Çekimin amacı ve kullanılacağı yerler (web, sosyal medya, basılı) belirlenir.
-Çekim planlanır ve yapılır.
-Görseller düzenlenir ve ilgili boyutlarda teslim edilir.
-Fotoğrafları web sitenizde ve sosyal medya hesaplarınızda kullanıma hazır teslim ederiz.
+إدارة الإعلانات
+إدارة الإعلانات الرقمية — جوجل ووسائل التواصل
+نُعدّ ونُدير إعلانات جوجل وإعلانات وسائل التواصل الاجتماعي وفق أهدافك ونقدم عنها تقارير. الهدف أن تصل ميزانية الإعلان إلى الجمهور المناسب بالرسالة المناسبة.
+نبدأ بمناقشة الهدف والميزانية، ثم نجهز هيكل الحملة ونصوص الإعلانات والمرئيات، ونشارك النتائج معك بانتظام.
+يجب أن تكون الصفحات التي توجّه إليها الإعلانات سريعة وواضحة، لذلك نتعامل مع الإعلانات مع عمل الموقع وSEO معًا.
+النطاق
+حملات إعلانات جوجل للبحث والعرض
+إعلانات إنستغرام وفيسبوك
+تخطيط الجمهور والكلمات المفتاحية
+إعداد نص الإعلان ومرئياته
+تقارير أداء منتظمة
+لعرض مشروعك علينا، تواصل معنا عبر صفحة الاتصال أو بالهاتف أو واتساب على الرقم 0531 679 10 14 أو عبر البريد info@ajansmobil.com .
+ما هي إدارة الإعلانات؟
+إدارة الإعلانات هي إعداد حملات للجمهور المناسب على جوجل ومنصات التواصل ومراقبة الميزانية وإعداد تقارير منتظمة بالنتائج. والهدف ليس النقرات فقط بل زيادة الطلبات الحقيقية عبر الهاتف وواتساب.
+كيف نسير في العمل؟
+يُوضَّح الهدف والميزانية.
+يُجهَّز الجمهور المستهدف ونصوص الإعلان.
+تُطلق الحملة وتُراقب.
+تُعدَّل بحسب النتائج وتُرفع عنها التقارير.
+من المهم أن تكون الصفحة التي يقود إليها الإعلان جاهزة؛ فأعمال تصميم المواقع و السيو تدعم نتائج الإعلانات.
+الأسئلة الشائعة
+ما منصات الإعلان التي تعملون عليها؟
+نُعدّ وندير حملات Google Ads للبحث والعرض وإعلانات إنستغرام وفيسبوك.
+كيف يبدأ العمل الإعلاني؟
+نبدأ بالحديث عن الهدف والميزانية، ثم نُعدّ الجمهور وخطة الكلمات المفتاحية ونصوص الإعلانات وصورها.
+كيف تقدمون تقارير النتائج؟
+نراقب الحملات بعد نشرها ونعدّلها وفق النتائج ونشاركك الأداء بتقارير منتظمة.
 
 ---
 
-## Sık Sorulan Sorular
-https://ajansmobil.com/tr/sss/
+## خدمة SEO
+https://ajansmobil.com/ar/seo-hizmeti/
 
-Ajans Mobil hakkında sık sorulan sorular: Gaziantep web tasarım, mobil uygulama, özel yazılım ve SEO hizmetleri, çalışma süreci, dil desteği ve iletişim.
+خدمة السيو في غازي عنتاب: تدقيق تقني وخطة كلمات مفتاحية ومحتوى وبيانات منظمة وسيو محلي وتهيئة للبحث بالذكاء الاصطناعي وتقارير منتظمة.
 
-Sık Sorulan Sorular
-Ajans Mobil Hakkında Sık Sorulan Sorular
-Ajans Mobil, Gaziantep merkezli bir dijital ajanstır. Web tasarım, mobil uygulama (iOS ve Android), özel yazılım ve uygulama geliştirme ile SEO, sosyal medya ve dijital reklam yönetimi alanlarında çalışır. Aşağıda en çok sorulan soruların kısa cevaplarını bulabilirsiniz; ayrıntılar için ilgili hizmet sayfalarına bakabilir ya da bize yazabilirsiniz .
-Hizmet sayfaları: Gaziantep web tasarım · mobil uygulama geliştirme · özel yazılım · SEO hizmeti .
-SSS
-Sıkça Sorulan Sorular
-Ajans Mobil hakkında en çok sorulan sorular.
-Ajans Mobil, Gaziantep merkezli bir dijital ajanstır. Web tasarım, mobil uygulama, özel yazılım ve uygulama geliştirme, SEO, sosyal medya yönetimi, dijital reklam yönetimi, grafik tasarım ve fotoğraf çekimi hizmetleri verir.
-Evet. Kurumsal web sitesi, tanıtım sitesi ve e-ticaret sitesi tasarlıyoruz. Siteler mobil uyumlu ve arama motorlarına hazır olarak yayınlanır.
-Flutter kullanıyoruz. Tek kod tabanıyla hem iOS hem Android uygulaması çıkarabildiğimiz için geliştirme ve bakım süreci sadeleşir.
-Hazır yazılımlar süreçlerinizi karşılamıyorsa, aynı işi birden fazla araçta tekrar ediyorsanız veya Excel ile yürüttüğünüz işler büyüdüyse işletmenize özel uygulama düşünülebilir.
-Türkçe, İngilizce ve Arapça desteklenir. Arapça sayfalarda sağdan sola yerleşim kullanılır.
-Fiyat projenin kapsamına göre belirlenir. İhtiyacınızı dinledikten sonra kapsamı, adımları ve fiyatı içeren yazılı bir teklif veririz.
-Tanışma, planlama (yazılı teklif), tasarım ve geliştirme, test ve yayın, ardından bakım adımlarından oluşur. Her aşamada ne olacağını önceden bilirsiniz.
-Evet. Site ve uygulamalar için içerik güncelleme, hata düzeltme, bakım ve yeni özellik geliştirme desteği veriyoruz.
-0531 679 10 14 numarasından telefon veya WhatsApp ile, info@ajansmobil.com adresinden e-posta ile ya da iletişim sayfasındaki bilgilerle bize ulaşabilirsiniz.
-Hayır. Sıralama garantisi vermeyiz; teknik zemini ve içeriği iyileştirir, sıra ve görünürlük değişimini ölçüp raporlarız.
-
----
-
-## Hakkımızda
-https://ajansmobil.com/tr/hakkimizda/
-
-Ajans Mobil, Gaziantep'te web tasarım, mobil uygulama ve özel uygulama geliştirme, SEO ve dijital pazarlama hizmetleri veren dijital ajanstır.
-
-Hakkımızda
-Ajans Mobil — Web, Mobil ve Özel Uygulama Geliştirme
-Ajans Mobil, Gaziantep'te çalışan bir dijital ajanstır. İşletmelerin dijital ortamda doğru görünmesi için web siteleri, mobil uygulamalar ve ihtiyaca göre tasarlanan özel uygulamalar geliştiriyoruz.
-Web tasarım ve geliştirme, mobil uygulama (iOS ve Android), özel yazılım ve uygulama geliştirme, SEO, sosyal medya yönetimi, dijital reklam yönetimi, grafik tasarım ve fotoğraf çekimi alanlarında hizmet veriyoruz.
-Her işe önce işletmenin hedefini, müşterisini ve mevcut dijital varlıklarını dinleyerek başlarız. Ardından mobil uyumlu, hızlı açılan ve arama motorlarının anlayabileceği bir yapı kurarız; yayına aldıktan sonra da bakım ve geliştirmeyle yanınızda kalırız.
-Çalışma alanlarımız
-Kurumsal web siteleri ve e-ticaret çözümleri
-Flutter tabanlı mobil uygulamalar
-Özel yazılım, panel ve iş akışı uygulamaları
-SEO, sosyal medya ve dijital reklam yönetimi
-Grafik tasarım ve kurumsal kimlik
-Ürün ve tanıtım fotoğraf çekimi
-Projenizi anlatmak için iletişim sayfamızdan , telefon veya WhatsApp ile 0531 679 10 14 numarasından, ya da info@ajansmobil.com adresinden bize ulaşabilirsiniz.
-Ajans Mobil nedir?
-Ajans Mobil, Gaziantep merkezli bir dijital ajanstır: işletmeler için web sitesi, mobil uygulama ve özel yazılım geliştirir; bu ürünlerin arama motorlarında bulunmasını SEO ile destekler.
-Kimlerle çalışıyoruz?
-Üretim, ticaret ve hizmet alanında çalışan işletmelerle; ayrıca web sitesi, mobil uygulama veya iş süreçlerini tek uygulamada toplamak isteyen ekiplerle çalışıyoruz. Görüşmeler telefon, WhatsApp ve e-posta ile yürütüldüğünden başka şehirlerdeki işletmelere de hizmet verebiliriz.
-Hizmet sayfalarımız
-Web tasarım · Mobil uygulama · Özel yazılım · SEO hizmeti · Sık sorulan sorular · Blog
+خدمة SEO
+خدمة السيو في غازي عنتاب — الظهور في محركات البحث
+أجانس موبيل وكالة رقمية في غازي عنتاب بتركيا تعمل تقنيًا وعلى المحتوى لتحسين ظهور المواقع في محركات البحث مثل جوجل. لا نعد بترتيب معين؛ بل نجري تحسينات قابلة للقياس ونبلغ بوضوح بما تغيّر.
+ما هو السيو؟
+السيو (تحسين محركات البحث) هو مجموع التعديلات التقنية وأعمال المحتوى التي تساعد موقعك على الظهور في عمليات البحث ذات الصلة. الهدف أن يصل الأشخاص المناسبون إلى الصفحة المناسبة؛ ونقيس الترتيب وكذلك الطلبات الواردة عبر الهاتف وواتساب.
+ماذا نفعل؟
+تدقيق السيو التقني: عناوين الصفحات والأوصاف وبنية العناوين وسرعة الموقع والتوافق مع الجوال وخريطة الموقع والروابط الداخلية.
+خطة الكلمات المفتاحية والمحتوى: تحديد العبارات التي يبحث عنها عملاؤك فعلًا والمواضيع التي يغطيها المنافسون وتنقصك.
+البيانات المنظمة: ترميز JSON-LD لنشاطك وخدماتك وأسئلتك الشائعة تفهمه محركات البحث ومساعدو الذكاء الاصطناعي.
+السيو المحلي: بيانات عنوان وهاتف متسقة واقتراحات لملف النشاط التجاري على جوجل لعمليات البحث في غازي عنتاب.
+التقارير: متابعة منتظمة لتغيّر الترتيب والظهور ببيانات Search Console.
+التهيئة للبحث بالذكاء الاصطناعي (GEO)
+صار الناس يسألون مساعدي الذكاء الاصطناعي أيضًا. وبتعريف واضح للكيان وكتل الأسئلة والأجوبة وملف llms.txt نحاول رفع احتمال ذكر موقعك في هذه الإجابات.
+خطوات عملنا
+القياس: قياس موقعك الحالي والمنافسين وترتيب البحث.
+قائمة الأولويات: ترتيب المهام ذات الأثر الكبير وسهلة التنفيذ.
+التنفيذ: إصلاحات تقنية وإنتاج محتوى.
+المتابعة: قياس منتظم؛ ويُعاد تقييم العمل الذي لا يظهر أثره.
+السيو عمل مستمر ويكتسب معناه مع الصيانة المنتظمة وإنتاج المحتوى.
+لنتحدث عن مشروعك
+يكفي أن تكتب لنا باختصار ما تحتاجه: عبر صفحة الاتصال أو واتساب أو الهاتف 0531 679 10 14 أو البريد info@ajansmobil.com . نرد عليك بخطة واضحة ومكتوبة.
+الأسئلة الشائعة
+الأسئلة الشائعة
+إجابات مختصرة عن الأسئلة الشائعة.
+السيو هو العمل التقني وعمل المحتوى الذي يتيح ظهور موقعك في عمليات البحث ذات الصلة، فيجدك عملاؤك حين يبحثون عنك.
+لا. لا تستطيع أي وكالة أن تضمن مركزًا معينًا بصدق. نجري تحسينات قابلة للقياس ونبلغ بتغيّر الترتيب والظهور ببيانات Search Console.
+نستخدم عبارات المدينة والخدمة بشكل طبيعي في صفحات الخدمات، ونكتب العنوان والهاتف بشكل متسق في كل مكان، ونجهز اقتراحات لملف النشاط التجاري على جوجل.
+نجهز تعريفًا واضحًا للكيان وأقسام أسئلة وأجوبة وبيانات منظمة وملف llms.txt. تهدف هذه التعديلات إلى رفع احتمال الذكر ولا نعد بنتيجة محددة.
 
 ---
 
-## Misyon
-https://ajansmobil.com/tr/misyon/
+## إدارة وسائل التواصل الاجتماعي
+https://ajansmobil.com/ar/sosyal-media/
 
-Ajans Mobil'in misyonu: işletmelere web, mobil ve özel uygulamalarla güçlü, sürdürülebilir bir dijital varlık kazandırmak.
+إدارة وسائل التواصل في غازي عنتاب: تقويم محتوى وتصميم منشورات وقصص وإدارة حسابات وتقارير شهرية لإبراز علامتك التجارية بانتظام وبشكل احترافي.
 
-Misyon
-Misyonumuz
-Misyonumuz, Gaziantep ve çevresindeki işletmelerin dijital ortamda güçlü ve sürdürülebilir bir varlık kurmasına yardımcı olmaktır. Bunu web siteleri, mobil uygulamalar ve ihtiyaca özel geliştirilen uygulamalarla yaparız.
-Hazır paket çözümler yerine her işletmenin hedefine uygun çözüm üretiriz. Yaptığımız işi anlaşılır bir dille anlatır, süreç boyunca sizi bilgilendirir ve gerçekçi olmayan vaatlerden kaçınırız.
-Teknolojiyi sade tutarız: hızlı açılan, mobilde rahat kullanılan, arama motorlarında bulunabilir ve bakımı kolay çözümler geliştiririz.
-Çalışma ilkelerimiz
-Müşterinin hedefini önce anlamak
-Şeffaf iletişim ve açık raporlama
-Kullanıcı deneyimi ve erişilebilirlik
-Güvenlik ve kişisel verilerin korunması
-Projenizi anlatmak için iletişim sayfamızdan , telefon veya WhatsApp ile 0531 679 10 14 numarasından, ya da info@ajansmobil.com adresinden bize ulaşabilirsiniz.
-
----
-
-## Vizyon
-https://ajansmobil.com/tr/vizyon/
-
-Ajans Mobil'in vizyonu: web, mobil ve özel uygulama geliştirmede güvenilir, kullanışlı ve kalıcı dijital ürünler üretmek.
-
-Vizyon
-Vizyonumuz
-Vizyonumuz, web, mobil ve özel uygulama geliştirmede güvenilir ve işini iyi yapan bir dijital ajans olarak tanınmaktır.
-Müşterilerimizin dijital ürünlerinin yalnızca yayına çıkmasını değil, zaman içinde gelişmesini, ölçülmesini ve iş sonuçlarına katkı vermesini hedefleriz.
-Yeni teknolojileri yakından izler, işe yarayanları projelerimize özenle ekleriz. Hedefimiz gösterişli değil, kullanışlı ve kalıcı dijital ürünler üretmektir.
-Bu hedefe ulaşmak için küçük ve ölçülebilir adımlarla ilerler, her projeden öğrendiklerimizi bir sonraki işe taşırız. Müşterilerimizle uzun soluklu bir çalışma ilişkisi kurmak, vizyonumuzun doğal bir parçasıdır.
-Önceliklerimiz
-Mobil öncelikli, hızlı ve erişilebilir arayüzler
-Arama motoru uyumlu içerik ve teknik altyapı
-İhtiyaca göre özelleştirilebilir uygulamalar
-Uzun vadeli bakım ve gelişim ortaklığı
-Projenizi anlatmak için iletişim sayfamızdan , telefon veya WhatsApp ile 0531 679 10 14 numarasından, ya da info@ajansmobil.com adresinden bize ulaşabilirsiniz.
+إدارة وسائل التواصل الاجتماعي
+إدارة وسائل التواصل الاجتماعي
+نتولى تخطيط المحتوى وتصميمه ونشره على حسابات علامتك في إنستغرام وفيسبوك ولينكدإن وتيك توك. الهدف تواصل منتظم ومتسق مع الجمهور المناسب.
+نجهز تقويم محتوى شهريًا، ونصمم المنشورات والقصص بلغة العلامة البصرية، وندعمك في الردود والرسائل. وعند الحاجة نعمل مع التصوير وإدارة الإعلانات.
+نقدم تقارير النتائج بانتظام ونقيّم معًا أي محتوى ينجح.
+النطاق
+تقويم المحتوى والاستراتيجية
+تصميم المنشورات والقصص والفيديو القصير
+إدارة الحسابات والتواصل مع المتابعين
+العمل مع الإعلانات والتصوير
+تقرير أداء شهري
+لعرض مشروعك علينا، تواصل معنا عبر صفحة الاتصال أو بالهاتف أو واتساب على الرقم 0531 679 10 14 أو عبر البريد info@ajansmobil.com .
+ما هي إدارة وسائل التواصل؟
+إدارة وسائل التواصل هي تخطيط محتوى منتظم على حسابات علامتك وإعداد صور المنشورات والقصص وإدارة الحسابات وإعداد تقرير شهري بالنتائج.
+كيف نسير في العمل؟
+تُحدَّد العلامة والجمهور والمنصات.
+يُعدّ تقويم محتوى شهري.
+تُنتج الصور والنصوص وتُنشر.
+يُراقب التفاعل ويُرفع عنه تقرير شهري.
+تكون وسائل التواصل أقوى حين تعمل مع موقعك؛ ونقود الزوار إلى موقعك و صفحة الاتصال .
+الأسئلة الشائعة
+ما الحسابات التي تديرونها؟
+نتولى تخطيط المحتوى وتصميمه ونشره على حسابات مثل إنستغرام وفيسبوك ولينكدإن وتيك توك.
+كيف يُخطَّط المحتوى؟
+بعد تحديد العلامة والجمهور والمنصات يُعدّ تقويم محتوى شهري وتُصمَّم المنشورات والقصص بلغة العلامة البصرية.
+كيف تتابعون النتائج؟
+نراقب التفاعل ونرفع تقريرًا شهريًا بالنتائج ونقيّم معًا أي محتوى ينجح.
 
 ---
 
-## Kalite Politikamız
-https://ajansmobil.com/tr/kalite-politikamiz/
+## التصوير الفوتوغرافي
+https://ajansmobil.com/ar/fotograf-cekimi/
 
-Ajans Mobil kalite politikası: ihtiyacı doğru anlama, açık iletişim, teslim öncesi kontrol, veri güvenliği ve sürekli iyileştirme.
+تصوير المنتجات والتصوير الترويجي في غازي عنتاب: صور احترافية معدّلة للموقع الإلكتروني ووسائل التواصل والمطبوعات وتناسب علامتك التجارية.
 
-Kalite Politikamız
-Kalite Politikamız
-Ajans Mobil olarak kalite politikamız; müşterilerimizin ihtiyacını doğru anlamak, söz verdiğimiz işi zamanında ve anlaşılır biçimde teslim etmek ve yaptığımız işi sürekli iyileştirmektir.
-Her projeye hedefin, kapsamın ve beklentilerin netleştirilmesiyle başlarız. Süreç boyunca sizi bilgilendirir, teslimden önce onayınızı alır ve gerekli düzeltmeleri yaparız.
-Web ve uygulama çalışmalarında mobil uyum, sayfa hızı, erişilebilirlik ve temel güvenlik kontrollerini teslim öncesinde gözden geçiririz. SEO çalışmalarında arama motorlarının yayımladığı rehber ilkelere uyarız; dürüst olmayan yöntemler kullanmayız.
-Müşteri verilerini yalnızca iş için gerekli olduğu ölçüde kullanır, kişisel verilerin korunmasına ilişkin yükümlülüklere uyarız. Geri bildirimleri değerlendirir ve çalışma biçimimizi bu doğrultuda geliştiririz.
-Kalite ilkelerimiz
-İhtiyacı doğru anlamak
-Açık ve düzenli iletişim
-Teslim öncesi kontrol ve onay
-Veri güvenliği ve gizlilik
-Geri bildirimle sürekli iyileştirme
-Projenizi anlatmak için iletişim sayfamızdan , telefon veya WhatsApp ile 0531 679 10 14 numarasından, ya da info@ajansmobil.com adresinden bize ulaşabilirsiniz.
-
----
-
-## Gizlilik Politikası
-https://ajansmobil.com/tr/gizlilik-politikasi/
-
-Ajans Mobil gizlilik politikası - Kişisel verilerin korunması, KVKK uyumluluğu, çerez politikası ve veri güvenliği taahhütlerimiz.
-
-Gizlilik Politikası
-Gizlilik Politikası
-Ajans Mobil olarak kişisel verilerinizin gizliliği ve güvenliği en önemli önceliğimizdir. Bu gizlilik politikası, web sitemizi ziyaret ettiğinizde, hizmetlerimizi kullandığınızda veya bizimle iletişime geçtiğinizde toplanan kişisel verilerinizin nasıl işlendiğini, korunduğunu ve kullanıldığını açıklamaktadır. 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) ve ilgili mevzuat hükümlerine tam uyum göstererek veri sorumlusu sıfatıyla hareket ediyoruz.
-Toplanan Kişisel Veriler
-Web sitemizi ziyaret ettiğinizde ve hizmet talebinde bulunduğunuzda aşağıdaki kişisel veriler toplanabilir: Kimlik bilgileri (ad, soyad), iletişim bilgileri (e-posta adresi, telefon numarası, adres), müşteri işlem bilgileri (hizmet talepleri, teklif bilgileri, sözleşme bilgileri), finansal bilgiler (fatura bilgileri, ödeme bilgileri), teknik veriler (IP adresi, tarayıcı türü, işletim sistemi, çerez verileri), pazarlama ve iletişim tercihleri. Bu veriler, hizmet sunumu, müşteri ilişkileri yönetimi, yasal yükümlülüklerin yerine getirilmesi ve meşru menfaatlerimiz kapsamında işlenmektedir.
-Kişisel Verilerin İşlenme Amaçları
-Toplanan kişisel verileriniz şu amaçlarla işlenmektedir: Web tasarım, dijital pazarlama, SEO, sosyal medya yönetimi, mobil uygulama ve özel uygulama geliştirme hizmetlerinin sunulması; müşteri ilişkileri yönetimi ve iletişim; teklif hazırlama ve sözleşme süreçleri; faturalandırma ve ödeme işlemleri; hizmet kalitesinin geliştirilmesi ve müşteri memnuniyetinin ölçülmesi; yasal yükümlülüklerin yerine getirilmesi; pazarlama ve reklam faaliyetlerinin yürütülmesi (izniniz dahilinde); web sitesi analitikleri ve kullanıcı deneyimi iyileştirme; güvenlik ve dolandırıcılık önleme. Kişisel verileriniz, bu amaçlar dışında kullanılmamakta ve üçüncü kişilerle paylaşılmamaktadır.
-Kişisel Verilerin Korunması
-Kişisel verilerinizin güvenliğini sağlamak için teknik ve idari tedbirler almaktayız. SSL sertifikası ile güvenli bağlantı sağlanmakta, veriler şifreli olarak saklanmakta, yetkisiz erişimlere karşı güvenlik duvarları kullanılmakta, düzenli yedekleme yapılmakta ve erişim yetkilendirme sistemleri uygulanmaktadır. Verileriniz, güvenli sunucularda ve Türkiye sınırları içinde saklanmaktadır. Veri ihlali durumunda yasal süre içinde Kişisel Verileri Koruma Kurumu'na bildirim yapılacak ve ilgili kişiler bilgilendirilecektir.
-Çerez Politikası
-Web sitemizde kullanıcı deneyimini iyileştirmek ve site analitiği yapmak için çerezler kullanılmaktadır. Zorunlu çerezler site işlevselliği için gereklidir ve devre dışı bırakılamaz. Analitik çerezler (Google Analytics) site kullanım istatistiklerini toplar. Pazarlama çerezleri (izniniz ile) kişiselleştirilmiş reklamlar sunmak için kullanılır. Tarayıcı ayarlarınızdan çerezleri yönetebilir veya silebilirsiniz.
-Haklarınız
-KVKK kapsamında kişisel verilerinizle ilgili şu haklara sahipsiniz: Kişisel verilerinizin işlenip işlenmediğini öğrenme, işlenmişse bilgi talep etme, işlenme amacını ve amacına uygun kullanılıp kullanılmadığını öğrenme, yurt içi veya yurt dışında aktarıldığı üçüncü kişileri bilme, eksik veya yanlış işlenmişse düzeltilmesini isteme, KVKK'da öngörülen şartlar çerçevesinde silinmesini veya yok edilmesini isteme, yapılan düzeltme, silme ve yok etme işlemlerinin paylaşılan üçüncü kişilere bildirilmesini isteme, münhasıran otomatik sistemler ile analiz edilmesi nedeniyle aleyhinize bir sonuç doğmasına itiraz etme, kanuna aykırı işleme nedeniyle zarara uğramanız halinde zararın giderilmesini talep etme. Bu haklarınızı kullanmak için info@ajansmobil.com adresine yazılı başvuruda bulunabilirsiniz.
+التصوير الفوتوغرافي
+التصوير الفوتوغرافي — المنتجات والترويج
+نصوّر صور المنتجات والصور الترويجية لموقعك وحسابات التواصل والمطبوعات. الصورة الجيدة تؤثر مباشرة في ثقة الزائر واهتمامه.
+قبل التصوير نناقش أسلوب العلامة ومكان استخدام الصور ونخطط وفقًا لذلك. نعدّل الصور ونسلّمها بمقاسات الويب ووسائل التواصل.
+تُجهَّز الصور للويب بحجم خفيف، مما يساعد موقعك على التحميل السريع.
+قبل التصوير نحدد أين ستُستخدم الصور (الموقع أو وسائل التواصل أو الكتالوج) ونجهز خطة الإضاءة والإطار وفقًا لذلك، فتبدو اللقطات نفسها متسقة في أكثر من مكان.
+النطاق
+تصوير المنتجات
+تصوير المكان والفريق
+تصوير محتوى لوسائل التواصل
+تعديل بمقاسات الويب ووسائل التواصل
+لعرض مشروعك علينا، تواصل معنا عبر صفحة الاتصال أو بالهاتف أو واتساب على الرقم 0531 679 10 14 أو عبر البريد info@ajansmobil.com .
+لماذا تهم صور المنتجات والصور الترويجية؟
+تعطي الصور الانطباع الأول على الموقع ووسائل التواصل. والصور المنظمة التي تناسب علامتك تساعد منتجاتك وخدماتك على الظهور بمظهر موثوق.
+كيف نسير في العمل؟
+يُحدَّد غرض التصوير وأماكن الاستخدام (الويب ووسائل التواصل والمطبوعات).
+يُخطَّط التصوير وينفَّذ.
+تُعدَّل الصور وتُسلَّم بالمقاسات المطلوبة.
+نسلّم الصور جاهزة للاستخدام على موقعك و حسابات التواصل .
+الأسئلة الشائعة
+ما أنواع التصوير التي تقدمونها؟
+نصوّر المنتجات والأماكن وفرق العمل للتعريف بها، ونصوّر محتوى لوسائل التواصل.
+بأي شكل تُسلَّم الصور؟
+تُحرَّر الصور بمقاسات الويب ووسائل التواصل وتُخفَّف للويب وتُسلَّم جاهزة للاستخدام.
+ما الذي يُخطَّط قبل التصوير؟
+يُحدَّد هدف التصوير وأماكن استخدامه (الموقع، وسائل التواصل، الكتالوج) ويُعدّ مخطط الإضاءة والتأطير وفقًا لذلك.
 
 ---
 
-## Kişisel Veriler
-https://ajansmobil.com/tr/kisisel-veriler-be2/
+## الأسئلة الشائعة
+https://ajansmobil.com/ar/sss/
 
-Ajans Mobil KVKK aydınlatma metni - Kişisel verilerin işlenmesi, veri sorumlusu bilgileri, işleme amaçları ve saklama süreleri.
+أسئلة شائعة عن أجانس موبيل: خدمات تصميم المواقع وتطبيقات الجوال والبرمجيات المخصصة والسيو في غازي عنتاب وطريقة العمل ودعم اللغات والتواصل.
 
-Kişisel Veriler
-Kişisel Verilerin Korunması ve İşlenmesi Hakkında Aydınlatma Metni
-6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) uyarınca, Ajans Mobil Gaziantep olarak veri sorumlusu sıfatıyla kişisel verilerinizin işlenmesi hakkında sizi bilgilendirmek isteriz. Bu aydınlatma metni, kişisel verilerinizin hangi amaçlarla işleneceği, işleme hukuki sebepleri, kimlere ve hangi amaçlarla aktarılabileceği, veri toplama yöntemi, saklama süreleri ve haklarınız hakkında detaylı bilgi içermektedir.
-Veri Sorumlusu
-Veri Sorumlusu: Ajans Mobil Gaziantep
-Adres: Gaziantep, Türkiye
-E-posta: info@ajansmobil.com
-Telefon: 0531 679 10 14
-Web Sitesi: www.ajansmobil.com
-İşlenen Kişisel Veri Kategorileri
-Tarafımızca işlenen kişisel veri kategorileri şunlardır: Kimlik Bilgileri: Ad, soyad, TC kimlik numarası (gerektiğinde), doğum tarihi. İletişim Bilgileri: E-posta adresi, telefon numarası, adres bilgileri. Müşteri İşlem Bilgileri: Hizmet talep bilgileri, teklif ve sözleşme bilgileri, proje detayları, iletişim geçmişi. Finansal Bilgiler: Banka hesap bilgileri, fatura bilgileri, ödeme bilgileri. Pazarlama Bilgileri: Çerez kayıtları, pazarlama izinleri, kampanya tercihleri. Hukuki İşlem ve Uyum Bilgileri: Dava ve icra takip bilgileri, hukuki uyum bilgileri. İşlem Güvenliği Bilgileri: IP adresi, log kayıtları, güvenlik kamera kayıtları (ofis ziyaretlerinde).
-Kişisel Verilerin İşlenme Amaçları ve Hukuki Sebepleri
-Kişisel verileriniz aşağıdaki amaçlarla ve hukuki sebeplerle işlenmektedir: Hizmet Sunumu: Web tasarım, dijital pazarlama, SEO, sosyal medya yönetimi, mobil uygulama ve özel uygulama geliştirme hizmetlerinin sunulması (Sözleşmenin kurulması ve ifası). Müşteri İlişkileri Yönetimi: İletişim, talep ve şikayet yönetimi, müşteri memnuniyeti ölçümü (Meşru menfaat). Finansal ve Muhasebe İşlemleri: Faturalandırma, ödeme takibi, muhasebe kayıtları (Yasal yükümlülük). Pazarlama ve Reklam Faaliyetleri: Kampanya bildirimleri, haber bültenleri, özel teklifler (Açık rıza). İş Geliştirme: Pazar araştırması, hizmet geliştirme, iş analitiği (Meşru menfaat). Hukuki Uyum: Yasal yükümlülüklerin yerine getirilmesi, hukuki uyuşmazlıkların yönetimi (Yasal yükümlülük). Güvenlik: Bilgi güvenliği, dolandırıcılık önleme, yetkisiz erişim engelleme (Meşru menfaat).
-Kişisel Verilerin Aktarımı
-Kişisel verileriniz, yukarıda belirtilen amaçların gerçekleştirilmesi doğrultusunda; iş ortaklarımıza (hosting sağlayıcıları, ödeme kuruluşları, e-fatura sistemleri), yasal yükümlülükler çerçevesinde kamu kurum ve kuruluşlarına, hukuki danışmanlarımıza ve denetim firmalarına aktarılabilir. Yurt dışına veri aktarımı yapılması durumunda KVKK'nın 9. maddesi hükümlerine uygun hareket edilecektir.
-Kişisel Verilerin Saklanma Süresi
-Kişisel verileriniz, işleme amaçlarının gerektirdiği süre boyunca ve ilgili mevzuatta öngörülen saklama süreleri kadar saklanmaktadır. Vergi Usul Kanunu gereği mali kayıtlar 10 yıl, Türk Ticaret Kanunu gereği ticari kayıtlar 10 yıl, iş sözleşmesi ve bordro bilgileri İş Kanunu gereği 10 yıl saklanmaktadır. Bu süreler dolduktan sonra veriler silinmekte, yok edilmekte veya anonim hale getirilmektedir.
-İlgili Kişi Hakları
-KVKK'nın 11. maddesi kapsamında ilgili kişi olarak haklarınız şunlardır: Kişisel verilerinizin işlenip işlenmediğini öğrenme, işlenmişse bilgi talep etme, işlenme amacını ve amacına uygun kullanılıp kullanılmadığını öğrenme, yurt içi veya yurt dışında aktarıldığı üçüncü kişileri bilme, eksik veya yanlış işlenmişse düzeltilmesini isteme, işlenmesini gerektiren sebeplerin ortadan kalkması halinde silinmesini veya yok edilmesini isteme, düzeltme, silme ve yok etme işlemlerinin aktarıldığı üçüncü kişilere bildirilmesini isteme, münhasıran otomatik sistemlerle analiz edilmesi nedeniyle aleyhinize sonuç doğmasına itiraz etme, kanuna aykırı işleme nedeniyle zarara uğramanız halinde zararın giderilmesini talep etme. Bu haklarınızı kullanmak için kimliğinizi tespit edici belgeler ile birlikte info@ajansmobil.com adresine e-posta gönderebilir veya noter kanalıyla yazılı başvuruda bulunabilirsiniz. Başvurularınız en geç 30 gün içinde değerlendirilecektir.
+الأسئلة الشائعة
+الأسئلة الشائعة حول أجانس موبيل
+أجانس موبيل وكالة رقمية مقرها غازي عنتاب في تركيا. تعمل في تصميم المواقع وتطبيقات الجوال (iOS وAndroid) وتطوير البرمجيات والتطبيقات المخصصة، إضافة إلى السيو وإدارة وسائل التواصل والإعلانات الرقمية. تجد أدناه إجابات مختصرة عن أكثر الأسئلة تكرارًا؛ وللتفاصيل راجع صفحات الخدمات أو راسلنا .
+صفحات الخدمات: تصميم مواقع غازي عنتاب · تطوير تطبيقات الجوال · البرمجيات المخصصة · خدمة السيو .
+الأسئلة الشائعة
+الأسئلة الشائعة
+أكثر الأسئلة شيوعًا عن أجانس موبيل.
+أجانس موبيل وكالة رقمية مقرها غازي عنتاب. تقدم خدمات تصميم المواقع وتطبيقات الجوال وتطوير البرمجيات والتطبيقات المخصصة والسيو وإدارة وسائل التواصل وإدارة الإعلانات الرقمية والتصميم الجرافيكي والتصوير.
+نعم. نصمم المواقع المؤسسية والتعريفية والمتاجر الإلكترونية، وتُنشر المواقع متوافقة مع الجوال وجاهزة لمحركات البحث.
+نستخدم Flutter. فبما أن قاعدة شيفرة واحدة تنتج تطبيقي iOS وAndroid يصبح التطوير والصيانة أبسط.
+عندما لا تغطي البرامج الجاهزة إجراءاتك، أو تكرر العمل نفسه في عدة أدوات، أو يكبر العمل الذي تديره في إكسل، يمكن التفكير في تطبيق مخصص لنشاطك.
+ندعم التركية والإنجليزية والعربية، وتستخدم الصفحات العربية اتجاه الكتابة من اليمين إلى اليسار.
+يعتمد السعر على نطاق المشروع. بعد الاستماع إلى احتياجك نقدم عرضًا مكتوبًا يشمل النطاق والخطوات والسعر.
+تتكون من التعارف والتخطيط (عرض مكتوب) والتصميم والتطوير والاختبار والإطلاق ثم الصيانة. وتعرف مسبقًا في كل مرحلة ما سيحدث.
+نعم. نقدم للمواقع والتطبيقات تحديث المحتوى وإصلاح الأخطاء والصيانة وتطوير ميزات جديدة.
+يمكنك التواصل معنا بالهاتف أو واتساب على الرقم 0531 679 10 14 أو بالبريد info@ajansmobil.com أو عبر صفحة الاتصال.
+لا. لا نضمن ترتيبًا معينًا؛ بل نحسّن الأساس التقني والمحتوى ونقيس تغيّر الترتيب والظهور ونبلغ به.
 
 ---
 
-## Kullanıcı Hakları
-https://ajansmobil.com/tr/kullanici-haklari/
+## من نحن
+https://ajansmobil.com/ar/hakkimizda/
 
-Ajans Mobil kullanıcı hakları: web sitesi kullanım şartları, telif hakları, kullanıcı sorumlulukları ve yasal haklarınız hakkında bilgilendirme.
+أجانس موبيل وكالة رقمية في غازي عنتاب تقدم تصميم المواقع وتطوير تطبيقات الجوال والتطبيقات المخصصة وSEO والتسويق الرقمي للشركات.
 
-Kullanıcı Hakları
-Kullanıcı Hakları ve Sorumlulukları
-Ajans Mobil web sitesini kullanan, hizmetlerimizden yararlanan veya bizimle iletişime geçen tüm kullanıcılarımızın belirli hak ve sorumlulukları bulunmaktadır. Bu sayfa, kullanıcı haklarınızı, web sitesi kullanım şartlarını, telif hakları bilgilerini ve sorumluluklarınızı açıklamaktadır. Web sitemizi kullanarak bu şartları kabul etmiş sayılırsınız.
-Kullanıcı Hakları
-Web sitemizi kullanan kullanıcılar olarak şu haklara sahipsiniz: Bilgi Edinme Hakkı: Sunduğumuz hizmetler, fiyatlandırma, şirket bilgileri ve iletişim kanalları hakkında doğru ve güncel bilgi alma hakkı. Hizmet Kalitesi: Profesyonel, zamanında ve sözleşme şartlarına uygun hizmet alma hakkı. Kişisel Verilerin Korunması: KVKK kapsamında kişisel verilerinizin korunması, işlenme amaçlarının öğrenilmesi ve haklarınızın kullanılması. Şikayet ve İtiraz: Hizmetlerimizle ilgili şikayet, öneri ve itirazlarınızı iletme ve cevap alma hakkı. İptal ve İade: Sözleşme şartları dahilinde hizmet iptali ve iade talep etme hakkı. Güvenli İletişim: Kişisel ve finansal bilgilerinizi güvenli kanallar üzerinden paylaşma hakkı. Eşit Muamele: Ayrımcılık yapılmaksızın, adil ve eşit hizmet alma hakkı.
-Kullanıcı Sorumlulukları
-Web sitemizi kullanan kullanıcıların sorumlulukları şunlardır: Doğru Bilgi Sağlama: İletişim formları, teklif talepleri ve sözleşme süreçlerinde doğru, eksiksiz ve güncel bilgi verme sorumluluğu. Yasal Uyum: Web sitesini yasalara, ahlak kurallarına ve üçüncü kişilerin haklarına uygun şekilde kullanma sorumluluğu. Fikri Mülkiyet Saygısı: Web sitesindeki içeriklerin telif haklarına saygı gösterme ve izinsiz kullanmama sorumluluğu. Güvenlik: Hesap bilgilerinizi (varsa) güvenli tutma ve yetkisiz kullanımlara karşı önlem alma sorumluluğu. Zarar Vermeme: Web sitesinin işleyişine zarar verecek, sistemi hackleyecek veya kötü amaçlı yazılım yayacak faaliyetlerde bulunmama sorumluluğu. Ticari Amaçlı Kullanım: Ticari amaçlı veri toplama, spam gönderme veya rekabet yasalarını ihlal edecek faaliyetlerde bulunmama sorumluluğu.
-Telif Hakları ve Fikri Mülkiyet
-www.ajansmobil.com web sitesinde yer alan tüm içerikler (metin, görsel, logo, tasarım, kod, video, grafik) Ajans Mobil'in fikri mülkiyetidir ve telif hakları yasalarıyla korunmaktadır. Web sitesindeki içeriklerin kopyalanması, çoğaltılması, dağıtılması, yayınlanması veya ticari amaçla kullanılması yazılı izin olmaksızın yasaktır. Müşterilerimiz için hazırladığımız web siteleri, tasarımlar ve dijital içerikler; aksi sözleşmede belirtilmedikçe müşteriye ait fikri mülkiyet haklarına sahiptir. Ancak portföy, referans ve tanıtım amaçlı kullanım hakkı Ajans Mobil'e aittir. Üçüncü taraf görseller, fontlar ve kod kütüphaneleri ilgili lisans koşullarına uygun şekilde kullanılmaktadır.
-Hizmet Kullanım Şartları
-Hizmetlerimizden yararlanırken geçerli olan şartlar: Sözleşme: Hizmet alımı öncesi detaylı teklif ve sözleşme hazırlanır. Sözleşme şartları her iki tarafı bağlayıcıdır. Ödeme: Hizmet bedelleri sözleşmede belirtilen ödeme planına göre tahsil edilir. Gecikmeler durumunda yasal faiz uygulanabilir. Teslim Süreleri: Proje teslim süreleri sözleşmede belirtilir. Müşteri kaynaklı gecikmeler (içerik sağlanmaması, geri bildirim verilmemesi) teslim süresini uzatabilir. Revizyon: Projeler belirtilen revizyon hakkı dahilinde düzeltilir. Ekstra revizyonlar ek ücret karşılığı yapılabilir. Telif ve Kullanım: Teslim edilen işlerin kullanım hakları sözleşmede belirtilir. Tam ödeme yapılmadan teslim edilen işlerin kullanım hakları geçmez. Gizlilik: Proje sürecinde paylaşılan ticari sırlar ve hassas bilgiler gizli tutulur.
-İtiraz ve Şikayet Hakları
-Hizmetlerimizle ilgili şikayet, öneri veya itirazlarınız için info@ajansmobil.com adresine e-posta gönderebilir veya 0531 679 10 14 numaralı telefondan iletişime geçebilirsiniz. Şikayetleriniz en geç 15 iş günü içinde değerlendirilecek ve sonuç tarafınıza bildirilecektir. Çözülemeyen uyuşmazlıklar için Gaziantep Tüketici Hakem Heyeti ve Gaziantep Mahkemeleri yetkilidir. Ayrıca Tüketici Mahkemesi, Tüketici Hakem Heyeti ve Tüketici Sorunları Hakem Heyeti'ne başvuru hakkınız saklıdır.
-
----
-
-## Yasal Uyarı
-https://ajansmobil.com/tr/yasal-uyari-mh6/
-
-Ajans Mobil yasal uyarı: web sitesi kullanım şartları, sorumluluk reddi beyanı, dış bağlantılar ve feragatname hakkında ayrıntılı bilgilendirme metni.
-
-Yasal Uyarı
-Yasal Uyarı ve Sorumluluk Reddi
-Bu sayfa, www.ajansmobil.com web sitesinin kullanımına ilişkin yasal uyarıları, sorumluluk reddi beyanını, kullanım şartlarını ve önemli bildirimleri içermektedir. Web sitemizi ziyaret ederek ve kullanarak bu şartları kabul etmiş sayılırsınız. Bu şartlara katılmıyorsanız web sitemizi kullanmayınız.
-Genel Bilgilendirme
-www.ajansmobil.com web sitesi Ajans Mobil Gaziantep tarafından işletilmektedir. Web sitesinde yer alan bilgiler genel bilgilendirme amaçlıdır ve herhangi bir danışmanlık, garanti veya taahhüt niteliği taşımamaktadır. Web sitesindeki içerikler önceden haber vermeksizin değiştirilebilir, güncellenebilir veya kaldırılabilir. Ajans Mobil, web sitesinin kesintisiz, hatasız veya güvenli çalışacağını garanti etmemektedir.
-Sorumluluk Reddi (Disclaimer)
-Ajans Mobil, web sitesinde yer alan bilgilerin doğruluğu, güncelliği, tamlığı veya kullanılabilirliği konusunda hiçbir garanti vermemektedir. Web sitesinin kullanımından kaynaklanan doğrudan, dolaylı, tesadüfi, özel veya sonuç olarak ortaya çıkan zararlardan (veri kaybı, iş kaybı, kar kaybı, itibar kaybı dahil) sorumlu değildir. Hizmet teklifleri, fiyatlandırmalar ve kampanya bilgileri bilgilendirme amaçlıdır. Nihai fiyat ve koşullar yazılı teklif ve sözleşme ile belirlenir. Portföy ve referans çalışmalarında gösterilen sonuçlar geçmiş performansı gösterir ve gelecek sonuçları garanti etmez. Her proje ve kampanya benzersizdir; sonuçlar sektör, bütçe, hedef kitle ve pazar koşullarına göre değişiklik gösterebilir.
-Dış Bağlantılar ve Üçüncü Taraf İçerikleri
-Web sitemizde üçüncü taraf web sitelerine bağlantılar bulunabilir. Bu bağlantılar sadece kullanıcı kolaylığı amacıyla sağlanmıştır. Ajans Mobil, bağlantı verilen web sitelerinin içeriğinden, gizlilik politikalarından ve güvenliğinden sorumlu değildir. Dış bağlantıları kendi riskinizle kullanırsınız. Web sitemizde kullanılan bazı görseller, ikonlar ve kaynaklar üçüncü taraf lisanslarına tabidir (Unsplash, Pexels, Google Fonts, Font Awesome vb.). Bu içerikler ilgili lisans koşullarına uygun şekilde kullanılmaktadır.
-Telif Hakları ve Fikri Mülkiyet
-Web sitesindeki tüm içerikler (metin, logo, tasarım, görsel, kod) Ajans Mobil'in telif hakları ve fikri mülkiyetiyle korunmaktadır. İzinsiz kopyalama, çoğaltma, dağıtma, yayınlama, ticari kullanım veya türev eser oluşturma yasaktır. 5846 sayılı Fikir ve Sanat Eserleri Kanunu, 6769 sayılı Sınai Mülkiyet Kanunu ve ilgili mevzuat hükümlerine aykırı kullanımlar hukuki ve cezai yaptırımlara tabidir. İhlal durumunda yasal işlem başlatılacaktır.
-Gizlilik ve Kişisel Verilerin Korunması
-Kişisel verilerinizin işlenmesi ve korunması hakkında detaylı bilgi için Gizlilik Politikamızı ve KVKK Aydınlatma Metni sayfalarını inceleyiniz. 6698 sayılı KVKK hükümlerine tam uyum göstermekteyiz. Kişisel verilerinizin güvenliği önceliğimizdir. SSL sertifikası, güvenlik duvarları ve düzenli yedekleme sistemleri kullanılmaktadır.
-Yürürlük ve Değişiklikler
-Bu yasal uyarı metni, web sitesinde yayınlandığı andan itibaren yürürlüktedir. Ajans Mobil, bu metni önceden haber vermeksizin değiştirme hakkını saklı tutar. Önemli değişikliklerde kullanıcılar e-posta veya web sitesi bildirimi ile bilgilendirilecektir. Güncel versiyonu düzenli olarak kontrol etmeniz tavsiye edilir. Web sitemizi kullanmaya devam ederek güncel şartları kabul etmiş sayılırsınız.
-Uygulanacak Hukuk ve Yetki
-Bu web sitesinin kullanımından kaynaklanan tüm uyuşmazlıklarda Türkiye Cumhuriyeti yasaları uygulanır. Uyuşmazlıkların çözümünde Gaziantep Mahkemeleri ve İcra Daireleri yetkilidir. Kullanıcılar, web sitemizi kullanarak bu yetkiyi kabul etmiş sayılır.
-İletişim
-Yasal uyarı ve web sitesi kullanımı hakkında sorularınız için:
-E-posta: info@ajansmobil.com
-Telefon: 0531 679 10 14
-Adres: Gaziantep, Türkiye
+من نحن
+أجانس موبيل — تطوير المواقع وتطبيقات الجوال والتطبيقات المخصصة
+أجانس موبيل وكالة رقمية مقرها غازي عنتاب. نطوّر مواقع إلكترونية وتطبيقات جوال وتطبيقات مخصصة تساعد الشركات على الظهور بالشكل الصحيح على الإنترنت.
+تشمل خدماتنا تصميم المواقع وتطويرها، وتطبيقات الجوال (iOS وأندرويد)، والبرمجيات والتطبيقات المخصصة، وتحسين محركات البحث SEO، وإدارة وسائل التواصل الاجتماعي، وإدارة الإعلانات الرقمية، والتصميم الجرافيكي، والتصوير الفوتوغرافي.
+نبدأ كل مشروع بالاستماع إلى الشركة: أهدافها وعملائها وأصولها الرقمية الحالية. ثم نبني أساسًا متوافقًا مع الجوال وسريعًا وقابلًا للفهم من محركات البحث، ونبقى معك بعد الإطلاق للصيانة والتطوير.
+مجالات عملنا
+المواقع المؤسسية وحلول التجارة الإلكترونية
+تطبيقات جوال مبنية بتقنية Flutter
+برمجيات مخصصة ولوحات تحكم وتطبيقات سير العمل
+تحسين محركات البحث وإدارة وسائل التواصل والإعلانات الرقمية
+التصميم الجرافيكي والهوية المؤسسية
+تصوير المنتجات والتصوير الترويجي
+لعرض مشروعك علينا، تواصل معنا عبر صفحة الاتصال أو بالهاتف أو واتساب على الرقم 0531 679 10 14 أو عبر البريد info@ajansmobil.com .
+ما هي أجانس موبيل؟
+أجانس موبيل وكالة رقمية مقرها غازي عنتاب: تبني مواقع إلكترونية وتطبيقات جوال وبرمجيات مخصصة للشركات، وتدعم ظهورها في محركات البحث بالسيو.
+مع من نعمل؟
+نعمل مع شركات الإنتاج والتجارة والخدمات ومع الفرق التي تريد موقعًا أو تطبيق جوال أو جمع إجراءات عملها في تطبيق واحد. ولأن الاجتماعات تجري بالهاتف وواتساب والبريد، يمكننا خدمة شركات في مدن أخرى أيضًا.
+صفحات خدماتنا
+تصميم المواقع · تطبيقات الجوال · البرمجيات المخصصة · خدمة السيو · الأسئلة الشائعة · المدونة
 
 ---
 
-## Çerez Politikası
-https://ajansmobil.com/tr/cerez-politikasi/
+## المهمة
+https://ajansmobil.com/ar/misyon/
 
-Bu politika, Ajans Mobil tarafından işletilen https://ajansmobil.com internet sitesinde kullanılan çerezleri, bunların hangi amaçlarla kullanıldığını ve…
+مهمة أجانس موبيل: منح الشركات حضورًا رقميًا قويًا ومستدامًا عبر المواقع وتطبيقات الجوال والتطبيقات المخصصة التي نطورها في غازي عنتاب.
 
-Çerez Politikası
-Çerez Politikası
-Bu politika, Ajans Mobil tarafından işletilen https://ajansmobil.com internet sitesinde kullanılan çerezleri, bunların hangi amaçlarla kullanıldığını ve tercihlerinizi nasıl yönetebileceğinizi açıklar. Çerezler aracılığıyla elde edilen kişisel veriler 6698 sayılı Kişisel Verilerin Korunması Kanunu’na uygun olarak işlenir.
-Çerez nedir?
-Çerezler, bir internet sitesini ziyaret ettiğinizde tarayıcınız aracılığıyla cihazınıza kaydedilen küçük metin dosyalarıdır. Oturumunuzun sürdürülmesi, tercihlerinizin hatırlanması ve sitenin nasıl kullanıldığının anlaşılması gibi amaçlara hizmet eder. Çerezler, tarayıcı kapatıldığında silinen oturum çerezleri veya belirli bir süre cihazda kalan kalıcı çerezler olabilir.
-Kullandığımız çerez türleri
-Sitemizde aşağıdaki kategorilerde çerezler kullanılabilir:
-Zorunlu çerezler: Sitenin temel işlevlerinin, güvenliğin ve oturumun sağlanması için gereklidir; devre dışı bırakılmaları sitenin çalışmasını engelleyebilir.
-İşlevsel çerezler: Dil, bölge veya görünüm gibi tercihlerinizi hatırlayarak daha kişisel bir deneyim sunar.
-Analitik çerezler: Ziyaretçilerin siteyi nasıl kullandığını toplu olarak ölçerek sitenin iyileştirilmesine yardımcı olur.
-Pazarlama çerezleri: İlgi alanlarınıza uygun içerik ve reklamların gösterilmesi amacıyla kullanılır.
-Onay ve tercihlerin yönetimi
-Zorunlu çerezler dışındaki çerezler yalnızca açık rızanız alınarak kullanılır. Sitemizi ilk ziyaretinizde gösterilen çerez bildirimi üzerinden tercihlerinizi belirleyebilir, verdiğiniz onayı dilediğiniz zaman geri alabilirsiniz.
-Ayrıca tarayıcınızın ayarlar bölümündeki gizlilik veya site verileri seçenekleri aracılığıyla çerezleri görüntüleyebilir, silebilir ya da engelleyebilirsiniz. Çerezleri tamamen engellemeniz hâlinde sitenin bazı bölümleri beklendiği gibi çalışmayabilir.
-Haklarınız
-Çerezler aracılığıyla işlenen kişisel verilerinize ilişkin olarak Kanun’un 11. maddesindeki haklarınızı kullanmak için info@ajansmobil.com adresine başvurabilirsiniz.
-Son güncelleme: 2026-11-02. Kullandığımız çerezlerde değişiklik olduğunda bu politika güncellenir.
+المهمة
+مهمتنا
+مهمتنا مساعدة الشركات في غازي عنتاب وما حولها على بناء حضور رقمي قوي ومستدام، من خلال المواقع الإلكترونية وتطبيقات الجوال والتطبيقات المصممة وفق احتياجاتها.
+بدلًا من الحزم الجاهزة، نصمم حلولًا تناسب هدف كل شركة. نشرح عملنا بلغة واضحة، ونبقيك على اطلاع طوال المشروع، ونتجنب الوعود غير الواقعية.
+نُبقي التقنية بسيطة: حلول سريعة التحميل ومريحة على الجوال وقابلة للعثور عليها في محركات البحث وسهلة الصيانة.
+مبادئنا
+فهم هدف العميل أولًا
+تواصل شفاف وتقارير واضحة
+تجربة المستخدم وسهولة الوصول
+الأمان وحماية البيانات الشخصية
+لعرض مشروعك علينا، تواصل معنا عبر صفحة الاتصال أو بالهاتف أو واتساب على الرقم 0531 679 10 14 أو عبر البريد info@ajansmobil.com .
 
 ---
 
-## Özel Yazılım mı, Hazır Yazılım mı?
-https://ajansmobil.com/tr/ozel-yazilim-mi-hazir-yazilim-mi/
+## الرؤية
+https://ajansmobil.com/ar/vizyon/
 
-Özel yazılım mı, hazır yazılım mı?
+رؤية أجانس موبيل: منتجات رقمية موثوقة ومفيدة ودائمة في تطوير المواقع وتطبيقات الجوال والتطبيقات المخصصة للشركات في غازي عنتاب وخارجها.
 
-Özel Yazılım mı, Hazır Yazılım mı?
-Özel Yazılım mı, Hazır Yazılım mı?
-Hazır yazılım, birçok işletme için ortak hazırlanmış genel bir üründür; özel yazılım ise yalnızca bir işletmenin süreçlerine göre tasarlanan uygulamadır. Hangisinin doğru olduğu, işin ne kadar standart ya da ne kadar size özgü olduğuna bağlıdır.
-Hazır yazılımın güçlü yanları
-Hemen kullanılmaya başlanır, başlangıç maliyeti çoğu zaman düşüktür ve birçok işletmenin aynı yöntemi kullandığı konularda (muhasebe, e-posta gibi) iyi sonuç verir. Zayıf yanı, işinize tam uymayabilmesi ve ihtiyaç değiştiğinde yazılımın sınırlarına takılabilmenizdir.
-Özel yazılımın güçlü yanları
-Yalnızca ihtiyacınız olan özellikleri taşır, süreçlerinize uyar ve işiniz büyüdükçe genişletilebilir. Excel dosyaları, kâğıt formlar veya mesaj grupları üzerinden yürüyen işler tek bir yetkilendirmeli uygulamada toplanabilir. Zayıf yanı, planlama ve geliştirme emeği gerektirmesidir.
-Karar vermeden önce sorulacak sorular
-Bu işi yapan hazır bir yazılım var mı ve ihtiyacımın yüzde kaçını karşılıyor?
-Aynı bilgiyi birden fazla yere elle giriyor muyum?
-Sürecim sektörüme veya işletmeme özgü mü?
-Web sitem, mobil uygulamam veya diğer sistemlerimle veri alışverişi gerekiyor mu?
-Kullanıcı yetkileri ve veri güvenliği benim için ne kadar önemli?
-Dürüst yaklaşım
-İhtiyaç küçükse önce hazır bir çözümün yeterli olup olmadığına birlikte bakmak doğrudur. Özel yazılım, ancak hazır seçenekler yetmediğinde anlamlıdır.
-Ayrıntılar için özel yazılım ve uygulama geliştirme sayfamıza bakabilir ya da projenizi bize anlatabilirsiniz .
-Kısa sorular, kısa cevaplar
-Özel yazılım her zaman pahalı mıdır? Maliyet kapsama bağlıdır; küçük ve net bir ihtiyaç, kapsamı sınırlı tutularak aşamalı geliştirilebilir.
-Başladıktan sonra değişiklik yapılabilir mi? Aşamalı geliştirmede her aşamada geri bildirim alınır; böylece ihtiyaç netleştikçe yön değiştirmek mümkündür.
-Verilerim kime ait olur? İşletmenizin verisi sizindir; yetkilendirme, güvenlik ve yedekleme planı tasarımın başında konuşulur.
-Projenizi konuşalım
-Ne istediğinizi kısaca yazmanız yeterli: iletişim sayfamızdan , WhatsApp veya telefonla 0531 679 10 14 numarasından, ya da info@ajansmobil.com adresinden bize ulaşabilirsiniz. Size yazılı ve anlaşılır bir yol haritasıyla dönüş yaparız.
+الرؤية
+رؤيتنا
+رؤيتنا أن نُعرف كوكالة رقمية موثوقة تُتقن عملها في المواقع وتطبيقات الجوال والتطبيقات المخصصة.
+نهدف إلى أن لا تقتصر المنتجات الرقمية لعملائنا على الإطلاق، بل أن تتطور مع الوقت ويمكن قياسها وتسهم في نتائج الأعمال.
+نتابع التقنيات الجديدة عن كثب ونضيف ما يفيد إلى مشاريعنا بعناية. هدفنا منتجات رقمية مفيدة ودائمة لا مجرد مظهر لافت.
+للوصول إلى هذا الهدف نتقدم بخطوات صغيرة قابلة للقياس وننقل ما نتعلمه من كل مشروع إلى المشروع التالي. وبناء علاقات عمل طويلة الأمد مع عملائنا جزء طبيعي من رؤيتنا.
+أولوياتنا
+واجهات سريعة وسهلة الوصول تعطي الأولوية للجوال
+محتوى وبنية تقنية متوافقة مع محركات البحث
+تطبيقات قابلة للتخصيص حسب الحاجة
+شراكة طويلة الأمد في الصيانة والتطوير
+لعرض مشروعك علينا، تواصل معنا عبر صفحة الاتصال أو بالهاتف أو واتساب على الرقم 0531 679 10 14 أو عبر البريد info@ajansmobil.com .
 
 ---
 
-## Mobil Uygulama mı, Mobil Uyumlu Site mi?
-https://ajansmobil.com/tr/mobil-uygulama-mi-mobil-uyumlu-site-mi/
+## سياسة الجودة
+https://ajansmobil.com/ar/kalite-politikamiz/
 
-Mobil uygulama mı, mobil uyumlu web sitesi mi gerekir?
+سياسة جودة أجانس موبيل: فهم الحاجة بدقة وتواصل واضح وفحص قبل التسليم وحماية البيانات وتحسين مستمر لكل مشروع نسلّمه لعملائنا.
 
-Mobil Uygulama mı, Mobil Uyumlu Site mi?
-Mobil Uygulama mı, Mobil Uyumlu Site mi?
-Mobil uyumlu web sitesi tarayıcıda açılan ve telefon ekranına uyum sağlayan sitedir; mobil uygulama ise mağazadan indirilen ve cihazın özelliklerini kullanabilen ayrı bir yazılımdır. İkisi birbirinin alternatifi gibi görünse de ihtiyaçları farklıdır.
-Mobil uyumlu site ne zaman yeterlidir?
-Amacınız işletmenizi tanıtmak, hizmetlerinizi anlatmak ve telefon ya da WhatsApp ile talep almaksa mobil uyumlu bir web sitesi çoğu zaman yeterlidir. Arama motorlarından gelen ziyaretçi herhangi bir şey indirmeden size ulaşabilir.
-Mobil uygulama ne zaman mantıklıdır?
-Müşterilerinizin sizi düzenli ve sık kullanması bekleniyorsa (sipariş, randevu, üyelik).
-Bildirim göndermek, kamera veya konum gibi cihaz özelliklerini kullanmak gerekiyorsa.
-Sahadaki ekibiniz iş takibi ve kayıt için bir araca ihtiyaç duyuyorsa.
-İkisi birlikte olabilir mi?
-Evet. Çoğu işletme için doğru başlangıç, aranabilir bir web sitesidir; ihtiyaç doğrulandıkça aynı veriyi kullanan bir mobil uygulama eklenebilir. Uygulamanın web sitesi veya yönetim paneliyle birlikte çalışması baştan planlanırsa tekrar eden iş azalır.
-Hangi teknolojiyle geliştirilir?
-Flutter ile tek kod tabanından hem iOS hem Android uygulaması çıkarılabilir. Bu, iki ayrı uygulama yazmaya göre geliştirme ve güncelleme sürecini sadeleştirir.
-Karar verirken kendinize sorun
-Müşteriniz sizi arıyor mu, yoksa sizi her gün mü kullanacak? Cevap «arıyor» ise önce web sitesi, «her gün kullanacak» ise mobil uygulama öne çıkar.
-Ayrıntılar için mobil uygulama geliştirme ve web tasarım sayfalarımıza bakabilirsiniz.
-Kısa sorular, kısa cevaplar
-Önce web sitesi mi yaptırmalıyım? Müşteriler sizi internette arıyorsa evet; web sitesi hem tanıtım hem de arama motorlarından gelen ziyaretçi için ilk adımdır.
-Mobil uygulama mağazada otomatik görünür mü? Hayır; mağaza yayını, tanıtım ve kullanıcıyı uygulamayı indirmeye ikna etmek ayrı bir çabadır.
-Uygulama yayınlandıktan sonra iş biter mi? Hayır; telefon sistemleri güncellendikçe uygulamanın bakımı ve iyileştirilmesi sürer.
-Projenizi konuşalım
-Ne istediğinizi kısaca yazmanız yeterli: iletişim sayfamızdan , WhatsApp veya telefonla 0531 679 10 14 numarasından, ya da info@ajansmobil.com adresinden bize ulaşabilirsiniz. Size yazılı ve anlaşılır bir yol haritasıyla dönüş yaparız.
+سياسة الجودة
+سياسة الجودة
+سياسة الجودة لدينا في أجانس موبيل هي فهم احتياجات عملائنا فهمًا صحيحًا، وتسليم ما نعد به في وقته وبشكل واضح، وتحسين عملنا باستمرار.
+نبدأ كل مشروع بتوضيح الهدف والنطاق والتوقعات. وطوال العمل نبقيك على اطلاع، ونحصل على موافقتك قبل التسليم ونجري التصحيحات اللازمة.
+في أعمال المواقع والتطبيقات نراجع قبل التسليم التوافق مع الجوال وسرعة الصفحة وسهولة الوصول وفحوص الأمان الأساسية. وفي أعمال SEO نلتزم بالإرشادات التي تنشرها محركات البحث ولا نستخدم أساليب غير نزيهة.
+نستخدم بيانات العملاء بالقدر الذي يتطلبه العمل فقط، ونلتزم بواجبات حماية البيانات الشخصية. ونقيّم الملاحظات ونطوّر طريقة عملنا وفقًا لها.
+مبادئ الجودة
+فهم الحاجة بشكل صحيح
+تواصل واضح ومنتظم
+فحص وموافقة قبل التسليم
+أمان البيانات وسريتها
+تحسين مستمر عبر الملاحظات
+لعرض مشروعك علينا، تواصل معنا عبر صفحة الاتصال أو بالهاتف أو واتساب على الرقم 0531 679 10 14 أو عبر البريد info@ajansmobil.com .
 
 ---
 
-## Kurumsal Web Sitesi Nasıl Hazırlanır?
-https://ajansmobil.com/tr/kurumsal-web-sitesi-nasil-hazirlanir/
+## سياسة الخصوصية
+https://ajansmobil.com/ar/gizlilik-politikasi/
 
-Kurumsal web sitesi nasıl hazırlanır?
+سياسة الخصوصية أجانس موبيل - حماية البيانات الشخصية، امتثال KVKK، سياسة ملفات تعريف الارتباط والتزامات أمان البيانات لدينا.
 
-Kurumsal Web Sitesi Nasıl Hazırlanır?
-Kurumsal Web Sitesi Nasıl Hazırlanır?
-Kurumsal web sitesi, bir işletmenin kim olduğunu, ne sunduğunu ve nasıl ulaşılacağını arama motorlarında ve ziyaretçilerin karşısında anlatan resmî dijital adrestir. Gaziantep'te üretim, ticaret veya hizmet alanında çalışıyorsanız müşterileriniz sizi çoğu zaman önce internette arar. Aşağıdaki adımlar, siteyi yaptırmadan önce hazırlık yapmanıza yardım eder.
-1. Sitenin amacı nedir?
-Telefon veya WhatsApp ile talep almak mı, ürün tanıtmak mı, online satış yapmak mı? Amaç, sayfa sayısını ve içeriği belirler. Tek bir ana hedef seçmek işi sadeleştirir.
-2. Hangi sayfalar olmalı?
-Çoğu kurumsal sitede ana sayfa, hakkımızda, her hizmet için ayrı sayfa, iletişim ve sık sorulan sorular bulunur. Her hizmetin ayrı sayfası olması, o hizmeti arayan kişinin doğrudan doğru sayfaya gelmesini sağlar.
-3. İçerik kim için yazılıyor?
-Metinleri sektör jargonuyla değil, müşterinizin sorduğu sorularla kurun. «Gaziantep web tasarım nedir, nasıl ilerler?» gibi gerçek soruların cevabı hem ziyaretçiye hem arama motoruna yardımcı olur.
-4. Mobil uyum ve hız
-Ziyaretçilerin büyük bölümü siteye telefondan girer. Sayfaların küçük ekranda rahat okunması, görsellerin hafif olması ve WhatsApp gibi iletişim düğmelerinin kolay erişilebilir olması gerekir.
-5. Arama motoru düzeni
-Her sayfa için özgün başlık ve açıklama, tek ana başlık, site haritası ve işletme bilgilerinin yapısal veriyle işaretlenmesi temel düzendir. Bunlar sıralama garantisi vermez ama sitenin anlaşılmasını sağlar.
-6. Yayından sonra
-Site yayına alındıktan sonra içerik güncel tutulmalı, iletişim bilgileri kontrol edilmeli ve sonuçlar ölçülmelidir.
-Daha ayrıntılı bilgi için Gaziantep web tasarım hizmet sayfamıza, çok dilli ve aranabilir siteler için SEO hizmetine göz atabilir ya da sık sorulan sorulara bakabilirsiniz.
-Kısa sorular, kısa cevaplar
-Kurumsal site kaç sayfadan oluşmalı? Sayfa sayısı hedefe göre değişir; önemli olan her hizmetin ve her sorunun net bir sayfada karşılık bulmasıdır.
-Site kendi başına Google'da çıkar mı? Yayınlanan her site arama sonuçlarında kendiliğinden üst sıralarda yer almaz; teknik düzen, özgün içerik ve zamanla gelen güven birlikte etkili olur.
-İçeriği kim hazırlar? İşletmenizi en iyi siz bilirsiniz; biz soruları sorar, metni birlikte şekillendirir ve düzenli bir yapıya oturturuz.
-Projenizi konuşalım
-Ne istediğinizi kısaca yazmanız yeterli: iletişim sayfamızdan , WhatsApp veya telefonla 0531 679 10 14 numarasından, ya da info@ajansmobil.com adresinden bize ulaşabilirsiniz. Size yazılı ve anlaşılır bir yol haritasıyla dönüş yaparız.
+سياسة الخصوصية
+سياسة الخصوصية
+كأجانس موبيل، خصوصية وأمان بياناتك الشخصية هو أهم أولويتنا. توضح سياسة الخصوصية هذه كيفية معالجة وحماية واستخدام بياناتك الشخصية التي يتم جمعها عند زيارة موقعنا أو استخدام خدماتنا أو الاتصال بنا. نعمل كمسؤول عن البيانات في الامتثال الكامل لقانون حماية البيانات الشخصية رقم 6698 (KVKK) وأحكام التشريعات ذات الصلة.
+البيانات الشخصية المجمعة
+عند زيارة موقعنا وطلب الخدمات، قد يتم جمع البيانات الشخصية التالية: معلومات الهوية (الاسم، اللقب)، معلومات الاتصال (عنوان البريد الإلكتروني، رقم الهاتف، العنوان)، معلومات معاملات العملاء (طلبات الخدمة، معلومات العرض، معلومات العقد)، المعلومات المالية (معلومات الفاتورة، معلومات الدفع)، البيانات التقنية (عنوان IP، نوع المتصفح، نظام التشغيل، بيانات ملفات تعريف الارتباط)، تفضيلات التسويق والاتصال. يتم معالجة هذه البيانات في نطاق تقديم الخدمة وإدارة علاقات العملاء والوفاء بالالتزامات القانونية ومصالحنا المشروعة.
+أغراض معالجة البيانات الشخصية
+يتم معالجة بياناتك الشخصية المجمعة للأغراض التالية: تقديم خدمات تصميم الويب والتسويق الرقمي وSEO وإدارة وسائل التواصل الاجتماعي وتطوير تطبيقات الجوال والتطبيقات المخصصة؛ إدارة علاقات العملاء والاتصال؛ إعداد العروض وعمليات العقد؛ معاملات الفوترة والدفع؛ تحسين جودة الخدمة وقياس رضا العملاء؛ الوفاء بالالتزامات القانونية؛ تنفيذ أنشطة التسويق والإعلان (بموافقتك)؛ تحليلات الموقع وتحسين تجربة المستخدم؛ الأمان ومنع الاحتيال. لا يتم استخدام بياناتك الشخصية لأغراض أخرى ولا يتم مشاركتها مع أطراف ثالثة.
+حماية البيانات الشخصية
+نتخذ تدابير تقنية وإدارية لضمان أمان بياناتك الشخصية. يتم توفير اتصال آمن بشهادة SSL، يتم تخزين البيانات مشفرة، يتم استخدام جدران الحماية ضد الوصول غير المصرح به، يتم إجراء نسخ احتياطية منتظمة ويتم تنفيذ أنظمة تفويض الوصول. يتم تخزين بياناتك على خوادم آمنة وداخل حدود تركيا. في حالة خرق البيانات، سيتم إجراء إشعار إلى هيئة حماية البيانات الشخصية خلال الفترة القانونية وسيتم إبلاغ الأشخاص المعنيين.
+سياسة ملفات تعريف الارتباط
+يتم استخدام ملفات تعريف الارتباط على موقعنا لتحسين تجربة المستخدم وأداء تحليلات الموقع. ملفات تعريف الارتباط الإلزامية ضرورية لوظائف الموقع ولا يمكن تعطيلها. ملفات تعريف الارتباط التحليلية (Google Analytics) تجمع إحصائيات استخدام الموقع. ملفات تعريف الارتباط التسويقية (بموافقتك) تُستخدم لتقديم إعلانات مخصصة. يمكنك إدارة أو حذف ملفات تعريف الارتباط من إعدادات المتصفح الخاصة بك.
+حقوقك
+في نطاق KVKK، لديك الحقوق التالية فيما يتعلق ببياناتك الشخصية: معرفة ما إذا كانت بياناتك الشخصية معالجة، طلب المعلومات إذا تمت معالجتها، معرفة غرض المعالجة وما إذا كانت تُستخدم وفقاً للغرض، معرفة الأطراف الثالثة التي يتم نقلها إليها محلياً أو في الخارج، طلب التصحيح إذا تمت معالجتها بشكل غير كامل أو غير صحيح، طلب الحذف أو التدمير في إطار الشروط المتوقعة في KVKK، طلب إشعار عمليات التصحيح والحذف والتدمير للأطراف الثالثة المشتركة، الاعتراض على نتيجة تنشأ ضدك بسبب تحليلها حصرياً مع الأنظمة التلقائية، طلب التعويض عن الضرر إذا عانيت من ضرر بسبب المعالجة غير القانونية. يمكنك تقديم طلب كتابي إلى info@ajansmobil.com لممارسة هذه الحقوق.
+
+---
+
+## البيانات الشخصية
+https://ajansmobil.com/ar/kisisel-veriler-be2/
+
+نص إفصاح KVKK من أجانس موبيل: كيفية معالجة البيانات الشخصية ومعلومات مسؤول البيانات وأغراض المعالجة وفترات الاحتفاظ بالبيانات.
+
+البيانات الشخصية
+نص الإفصاح حول حماية ومعالجة البيانات الشخصية
+وفقاً لقانون رقم 6698 بشأن حماية البيانات الشخصية (KVKK)، نود إعلامك حول معالجة بياناتك الشخصية كأجانس موبيل غازي عنتاب بصفتنا مسؤول البيانات. يحتوي نص الإفصاح هذا على معلومات تفصيلية حول الأغراض التي سيتم معالجة بياناتك الشخصية من أجلها والأسباب القانونية للمعالجة وإلى من ولأي أغراض قد يتم نقلها وطريقة جمع البيانات وفترات الاحتفاظ وحقوقك.
+مسؤول البيانات
+مسؤول البيانات: أجانس موبيل غازي عنتاب
+العنوان: غازي عنتاب، تركيا
+البريد الإلكتروني: info@ajansmobil.com
+الهاتف: 0531 679 10 14
+الموقع: www.ajansmobil.com
+فئات البيانات الشخصية المعالجة
+فئات البيانات الشخصية التي نعالجها هي كما يلي: معلومات الهوية: الاسم واللقب ورقم الهوية التركية (عند الحاجة) وتاريخ الميلاد. معلومات الاتصال: عنوان البريد الإلكتروني ورقم الهاتف ومعلومات العنوان. معلومات معاملات العملاء: معلومات طلب الخدمة ومعلومات العرض والعقد وتفاصيل المشروع وسجل الاتصال. المعلومات المالية: معلومات حساب البنك ومعلومات الفاتورة ومعلومات الدفع. معلومات التسويق: سجلات ملفات تعريف الارتباط وأذونات التسويق وتفضيلات الحملة. معلومات المعاملات القانونية والامتثال: معلومات تتبع الدعوى والتنفيذ ومعلومات الامتثال القانوني. معلومات أمان المعاملات: عنوان IP وسجلات السجل وسجلات كاميرا الأمان (في زيارات المكتب).
+أغراض المعالجة والأسباب القانونية للبيانات الشخصية
+يتم معالجة بياناتك الشخصية للأغراض والأسباب القانونية التالية: تقديم الخدمة: تقديم خدمات تصميم الويب والتسويق الرقمي وSEO وإدارة وسائل التواصل الاجتماعي وتطوير تطبيقات الجوال والتطبيقات المخصصة (إنشاء العقد وأدائه). إدارة علاقات العملاء: الاتصال وإدارة الطلبات والشكاوى وقياس رضا العملاء (المصلحة المشروعة). المعاملات المالية والمحاسبية: الفوترة وتتبع الدفع والسجلات المحاسبية (الالتزام القانوني). أنشطة التسويق والإعلان: إشعارات الحملة والنشرات الإخبارية والعروض الخاصة (الموافقة الصريحة). تطوير الأعمال: أبحاث السوق وتطوير الخدمة وتحليلات الأعمال (المصلحة المشروعة). الامتثال القانوني: الوفاء بالالتزامات القانونية وإدارة النزاعات القانونية (الالتزام القانوني). الأمان: أمان المعلومات ومنع الاحتيال ومنع الوصول غير المصرح به (المصلحة المشروعة).
+نقل البيانات الشخصية
+قد يتم نقل بياناتك الشخصية إلى شركائنا التجاريين (مقدمي الاستضافة ومؤسسات الدفع وأنظمة الفواتير الإلكترونية) والمؤسسات والمنظمات العامة في إطار الالتزامات القانونية ومستشارينا القانونيين وشركات التدقيق من أجل تحقيق الأغراض المذكورة أعلاه. في حالة نقل البيانات إلى الخارج، سيتم الامتثال لأحكام المادة 9 من KVKK.
+فترة الاحتفاظ بالبيانات الشخصية
+يتم الاحتفاظ ببياناتك الشخصية للفترة المطلوبة من أغراض المعالجة وطالما فترات الاحتفاظ المتوقعة في التشريعات ذات الصلة. يتم الاحتفاظ بالسجلات المالية لمدة 10 سنوات وفقاً لقانون الإجراءات الضريبية والسجلات التجارية لمدة 10 سنوات وفقاً لقانون التجارة التركي ومعلومات عقد العمل وكشوف المرتبات لمدة 10 سنوات وفقاً لقانون العمل. بعد انتهاء هذه الفترات، يتم حذف البيانات أو تدميرها أو إخفاء هويتها.
+حقوق صاحب البيانات
+كصاحب بيانات في نطاق المادة 11 من KVKK، حقوقك هي كما يلي: معرفة ما إذا كانت بياناتك الشخصية معالجة، طلب المعلومات إذا تمت المعالجة، معرفة غرض المعالجة وما إذا كانت مستخدمة وفقاً للغرض، معرفة الأطراف الثالثة التي تم نقلها إليها محلياً أو في الخارج، طلب التصحيح إذا تمت المعالجة بشكل غير كامل أو خاطئ، طلب الحذف أو التدمير إذا اختفت الأسباب التي تتطلب المعالجة، طلب إشعار عمليات التصحيح والحذف والتدمير للأطراف الثالثة التي تم نقلها إليها، الاعتراض على النتائج الناشئة ضدك بسبب التحليل حصرياً بواسطة أنظمة آلية، طلب التعويض عن الضرر إذا عانيت من ضرر بسبب المعالجة غير القانونية. لممارسة هذه الحقوق، يمكنك إرسال بريد إلكتروني إلى info@ajansmobil.com مع المستندات التي تحدد هويتك أو تقديم طلب كتابي من خلال كاتب عدل. سيتم تقييم طلباتك في غضون 30 يوماً على الأكثر.
+
+---
+
+## حقوق المستخدم
+https://ajansmobil.com/ar/kullanici-haklari/
+
+حقوق مستخدم أجانس موبيل: شروط استخدام الموقع وحقوق النشر ومسؤوليات المستخدم وحقوقك القانونية موضحة بوضوح للزوار في صفحة واحدة.
+
+حقوق المستخدم
+حقوق ومسؤوليات المستخدم
+جميع المستخدمين الذين يستخدمون موقع أجانس موبيل أو يستفيدون من خدماتنا أو يتصلون بنا لديهم حقوق ومسؤوليات معينة. توضح هذه الصفحة حقوق المستخدم الخاصة بك وشروط استخدام الموقع ومعلومات حقوق النشر ومسؤولياتك. باستخدام موقعنا، يُعتبر أنك قبلت هذه الشروط.
+حقوق المستخدم
+كمستخدمين يستخدمون موقعنا، لديك الحقوق التالية: حق الحصول على المعلومات: الحق في الحصول على معلومات دقيقة وحديثة حول الخدمات التي نقدمها والتسعير ومعلومات الشركة وقنوات الاتصال. جودة الخدمة: الحق في الحصول على خدمة احترافية وفي الوقت المناسب ومتوافقة مع العقد. حماية البيانات الشخصية: حماية بياناتك الشخصية في نطاق KVKK ومعرفة أغراض المعالجة وممارسة حقوقك. الشكوى والاعتراض: الحق في نقل الشكاوى والاقتراحات والاعتراضات المتعلقة بخدماتنا والحصول على رد. الإلغاء والاسترداد: الحق في طلب إلغاء الخدمة والاسترداد ضمن شروط العقد. الاتصال الآمن: الحق في مشاركة معلوماتك الشخصية والمالية من خلال قنوات آمنة. المعاملة المتساوية: الحق في الحصول على خدمة عادلة ومتساوية دون تمييز.
+مسؤوليات المستخدم
+مسؤوليات المستخدمين الذين يستخدمون موقعنا هي كما يلي: تقديم معلومات دقيقة: مسؤولية تقديم معلومات دقيقة وكاملة وحديثة في نماذج الاتصال وطلبات العرض وعمليات العقد. الامتثال القانوني: مسؤولية استخدام الموقع وفقاً للقوانين والقواعد الأخلاقية وحقوق الأطراف الثالثة. احترام الملكية الفكرية: مسؤولية احترام حقوق النشر للمحتويات على الموقع وعدم الاستخدام دون إذن. الأمان: مسؤولية الحفاظ على معلومات حسابك (إن وجدت) آمنة واتخاذ احتياطات ضد الاستخدام غير المصرح به. عدم إلحاق الضرر: مسؤولية عدم الانخراط في أنشطة ستضر بعمل الموقع أو اختراق النظام أو نشر برامج ضارة. الاستخدام التجاري: مسؤولية عدم الانخراط في جمع البيانات التجارية أو إرسال البريد العشوائي أو الأنشطة التي ستخالف قوانين المنافسة.
+حقوق النشر والملكية الفكرية
+جميع المحتويات (النص والصورة والشعار والتصميم والرمز والفيديو والرسم) على موقع www.ajansmobil.com هي ملكية فكرية لأجانس موبيل ومحمية بقوانين حقوق النشر. نسخ أو إعادة إنتاج أو توزيع أو نشر أو استخدام محتويات الموقع لأغراض تجارية محظور دون إذن كتابي. المواقع والتصاميم والمحتويات الرقمية التي نعدها لعملائنا؛ ما لم يُذكر خلاف ذلك في العقد، لديها حقوق ملكية فكرية تعود للعميل. ومع ذلك، الحق في الاستخدام لأغراض المحفظة والمرجع والترويج يعود لأجانس موبيل. صور الأطراف الثالثة والخطوط ومكتبات الرموز تُستخدم وفقاً لشروط الترخيص ذات الصلة.
+شروط استخدام الخدمة
+الشروط المعمول بها عند الاستفادة من خدماتنا: العقد: يتم إعداد عرض وعقد تفصيلي قبل شراء الخدمة. شروط العقد ملزمة لكلا الطرفين. الدفع: يتم تحصيل رسوم الخدمة وفقاً لخطة الدفع المحددة في العقد. قد يتم تطبيق فائدة قانونية في حالة التأخير. فترات التسليم: فترات تسليم المشروع محددة في العقد. التأخيرات الناجمة عن العميل (عدم توفير المحتوى، عدم إعطاء الملاحظات) قد تمدد فترة التسليم. المراجعة: يتم تصحيح المشاريع ضمن حق المراجعة المحدد. قد تتم المراجعات الإضافية مقابل رسوم إضافية. حقوق النشر والاستخدام: حقوق استخدام الأعمال المسلمة محددة في العقد. حقوق استخدام الأعمال المسلمة دون دفع كامل لا تنتقل. السرية: الأسرار التجارية والمعلومات الحساسة المشتركة أثناء عملية المشروع تُحفظ سرية.
+حقوق الاعتراض والشكوى
+للشكاوى أو الاقتراحات أو الاعتراضات المتعلقة بخدماتنا، يمكنك إرسال بريد إلكتروني إلى info@ajansmobil.com أو الاتصال عبر الهاتف 0531 679 10 14. سيتم تقييم شكاويك في غضون 15 يوماً عمل على الأكثر وستُبلغ النتيجة لك. لجنة التحكيم للمستهلك في غازي عنتاب ومحاكم غازي عنتاب مخولة للنزاعات غير المحلولة. بالإضافة إلى ذلك، حقك في التقدم إلى محكمة المستهلك ولجنة التحكيم للمستهلك ولجنة التحكيم لمشاكل المستهلك محفوظ.
+
+---
+
+## إشعار قانوني
+https://ajansmobil.com/ar/yasal-uyari-mh6/
+
+الإشعار القانوني لأجانس موبيل: شروط استخدام الموقع وإخلاء المسؤولية والروابط الخارجية والتنازل موضحة بالتفصيل لكل زائر لموقعنا الإلكتروني.
+
+إشعار قانوني
+إشعار قانوني وإخلاء المسؤولية
+تحتوي هذه الصفحة على إشعارات قانونية وإخلاء المسؤولية وشروط الاستخدام وإشعارات مهمة فيما يتعلق باستخدام موقع www.ajansmobil.com. بزيارة واستخدام موقعنا، يُعتبر أنك قبلت هذه الشروط. إذا كنت لا توافق على هذه الشروط، يرجى عدم استخدام موقعنا.
+معلومات عامة
+موقع www.ajansmobil.com يُدار من قبل أجانس موبيل غازي عنتاب. المعلومات على الموقع لأغراض المعلومات العامة ولا تشكل أي استشارة أو ضمان أو التزام. قد يتم تغيير أو تحديث أو إزالة المحتويات على الموقع دون إشعار مسبق. أجانس موبيل لا تضمن أن الموقع سيعمل بشكل مستمر أو خالٍ من الأخطاء أو بشكل آمن.
+إخلاء المسؤولية
+أجانس موبيل لا تقدم أي ضمان فيما يتعلق بدقة أو حداثة أو اكتمال أو قابلية استخدام المعلومات على الموقع. ليست مسؤولة عن الأضرار المباشرة أو غير المباشرة أو العرضية أو الخاصة أو الناتجة (بما في ذلك فقدان البيانات وفقدان الأعمال وفقدان الربح وفقدان السمعة) الناشئة عن استخدام الموقع. عروض الخدمة والتسعير ومعلومات الحملة لأغراض إعلامية. يتم تحديد الأسعار والشروط النهائية من خلال العرض المكتوب والعقد. النتائج المعروضة في المحفظة وأعمال المرجعية تُظهر الأداء السابق ولا تضمن النتائج المستقبلية. كل مشروع وحملة فريدة؛ قد تختلف النتائج حسب الصناعة والميزانية والجمهور المستهدف وظروف السوق.
+الروابط الخارجية ومحتوى الطرف الثالث
+قد توجد روابط لمواقع طرف ثالث على موقعنا. هذه الروابط م provided فقط لراحة المستخدم. أجانس موبيل ليست مسؤولة عن محتوى أو سياسات الخصوصية أو أمان المواقع المرتبطة. تستخدم الروابط الخارجية على مسؤوليتك الخاصة. بعض الصور والأيقونات والموارد المستخدمة على موقعنا تخضع لتراخيص طرف ثالث (Unsplash وPexels وGoogle Fonts وFont Awesome وغيرها). يتم استخدام هذه المحتويات وفقاً لشروط الترخيص ذات الصلة.
+حقوق الطبع والنشر والملكية الفكرية
+جميع المحتويات على الموقع (النص والشعار والتصميم والمرئي والكود) محمية بحقوق الطبع والنشر والملكية الفكرية لأجانس موبيل. النسخ غير المصرح به أو الاستنساخ أو التوزيع أو النشر أو الاستخدام التجاري أو إنشاء أعمال مشتقة محظور. الاستخدامات المخالفة لقانون رقم 5846 بشأن الأعمال الفكرية والفنية وقانون رقم 6769 بشأن الملكية الصناعية وأحكام التشريعات ذات الصلة تخضع لعقوبات قانونية وجنائية. سيتم بدء الإجراءات القانونية في حالة الانتهاك.
+الخصوصية وحماية البيانات الشخصية
+يرجى مراجعة صفحات سياسة الخصوصية ونص توضيح قانون حماية البيانات الشخصية الخاصة بنا للحصول على معلومات مفصلة حول معالجة وحماية بياناتك الشخصية. نلتزم بالكامل بأحكام قانون حماية البيانات الشخصية رقم 6698. أمان بياناتك الشخصية هو أولويتنا. يتم استخدام شهادة SSL وجدران الحماية وأنظمة النسخ الاحتياطي المنتظمة.
+الفعالية والتغييرات
+نص الإشعار القانوني هذا ساري المفعول من لحظة نشره على الموقع. أجانس موبيل تحتفظ بالحق في تغيير هذا النص دون إشعار مسبق. سيتم إعلام المستخدمين بالتغييرات المهمة عبر البريد الإلكتروني أو إشعار الموقع. يُنصح بفحص النسخة الحالية بانتظام. من خلال الاستمرار في استخدام موقعنا، يُعتبر أنك قبلت الشروط الحالية.
+القانون الواجب التطبيق والاختصاص
+قوانين جمهورية تركيا تنطبق على جميع النزاعات الناشئة عن استخدام هذا الموقع. محاكم غازي عنتاب ومكاتب التنفيذ مخولة في حل النزاعات. يُعتبر المستخدمون قد قبلوا هذه السلطة باستخدام موقعنا.
+اتصل
+لأسئلتك حول الإشعار القانوني واستخدام الموقع:
+البريد الإلكتروني: info@ajansmobil.com
+الهاتف: 0531 679 10 14
+العنوان: غازي عنتاب، تركيا
+
+---
+
+## سياسة ملفات تعريف الارتباط
+https://ajansmobil.com/ar/cerez-politikasi/
+
+توضح هذه السياسة ملفات تعريف الارتباط المستخدمة على موقع ajansmobil.com وأغراض استخدامها وكيفية إدارة تفضيلاتك بسهولة وأمان تام.
+
+سياسة ملفات تعريف الارتباط
+سياسة ملفات تعريف الارتباط (الكوكيز)
+توضح هذه السياسة ملفات تعريف الارتباط المستخدمة على الموقع https://ajansmobil.com الذي تديره أجانس موبيل، والأغراض التي تُستخدم من أجلها، وكيفية إدارة تفضيلاتك. تُعالج البيانات الشخصية التي يتم الحصول عليها عبر ملفات تعريف الارتباط وفق قانون حماية البيانات الشخصية التركي رقم 6698.
+ما هي ملفات تعريف الارتباط؟
+هي ملفات نصية صغيرة يحفظها المتصفح على جهازك عند زيارة موقع إلكتروني. وتخدم أغراضًا مثل استمرار جلستك وتذكّر تفضيلاتك وفهم كيفية استخدام الموقع. وقد تكون ملفات جلسة تُحذف عند إغلاق المتصفح، أو ملفات دائمة تبقى على الجهاز مدة محددة.
+أنواع ملفات تعريف الارتباط التي نستخدمها
+قد تُستخدم الفئات التالية من ملفات تعريف الارتباط على موقعنا:
+ملفات ضرورية: لازمة للوظائف الأساسية للموقع والأمان والجلسة؛ وقد يؤدي تعطيلها إلى توقف الموقع عن العمل.
+ملفات وظيفية: تتذكر تفضيلات مثل اللغة أو المنطقة أو المظهر لتقديم تجربة أكثر خصوصية.
+ملفات تحليلية: تقيس بشكل إجمالي كيفية استخدام الزوار للموقع للمساعدة في تحسينه.
+ملفات تسويقية: تُستخدم لعرض محتوى وإعلانات تناسب اهتماماتك.
+الموافقة وإدارة التفضيلات
+لا تُستخدم ملفات تعريف الارتباط غير الضرورية إلا بموافقتك الصريحة. يمكنك تحديد تفضيلاتك من خلال إشعار ملفات تعريف الارتباط الذي يظهر عند أول زيارة، وسحب موافقتك في أي وقت.
+ويمكنك أيضًا عرض ملفات تعريف الارتباط أو حذفها أو حظرها من خيارات الخصوصية أو بيانات المواقع في إعدادات المتصفح. وإذا حظرتها بالكامل فقد لا تعمل بعض أجزاء الموقع كما هو متوقع.
+حقوقك
+لممارسة حقوقك بموجب المادة 11 من القانون بشأن البيانات الشخصية المعالجة عبر ملفات تعريف الارتباط، يمكنك التواصل معنا على info@ajansmobil.com.
+آخر تحديث: 2026-11-02. تُحدَّث هذه السياسة عند تغيّر ملفات تعريف الارتباط التي نستخدمها.
+
+---
+
+## برمجيات مخصصة أم جاهزة؟
+https://ajansmobil.com/ar/ozel-yazilim-mi-hazir-yazilim-mi/
+
+برمجيات مخصصة أم جاهزة؟ الأسئلة التي تُطرح قبل القرار ومزايا وعيوب كل خيار في دليل مبسط وواضح من غازي عنتاب يساعدك على اتخاذ قرارك بثقة.
+
+برمجيات مخصصة أم جاهزة؟
+برمجيات مخصصة أم جاهزة؟
+البرنامج الجاهز منتج عام أُعدّ لكثير من الأعمال، أما البرنامج المخصص فتطبيق مصمم وفق إجراءات نشاط واحد فقط. ويعتمد الاختيار الصحيح على مدى كون عملك نمطيًا أو خاصًا بك.
+نقاط قوة البرمجيات الجاهزة
+تُستخدم فورًا وتكلفة البدء فيها منخفضة غالبًا، وتعطي نتائج جيدة حيث تتبع أعمال كثيرة الطريقة نفسها (المحاسبة، البريد الإلكتروني). ونقطة ضعفها أنها قد لا تناسب عملك تمامًا وقد تصطدم بحدودها حين تتغير احتياجاتك.
+نقاط قوة البرمجيات المخصصة
+تحمل الميزات التي تحتاجها فقط، وتناسب إجراءاتك، ويمكن توسيعها مع نمو عملك. والأعمال التي تجري عبر ملفات إكسل أو نماذج ورقية أو مجموعات مراسلة يمكن جمعها في تطبيق واحد بصلاحيات. ونقطة ضعفها أنها تحتاج جهد تخطيط وتطوير.
+أسئلة قبل اتخاذ القرار
+هل يوجد برنامج جاهز لهذا العمل وكم يغطي من احتياجي؟
+هل أدخل المعلومات نفسها يدويًا في أكثر من مكان؟
+هل إجراءاتي خاصة بقطاعي أو نشاطي؟
+هل أحتاج إلى تبادل البيانات مع موقعي أو تطبيق الجوال أو أنظمة أخرى؟
+ما مدى أهمية صلاحيات المستخدمين وأمان البيانات بالنسبة لي؟
+نهج صادق
+إذا كان الاحتياج صغيرًا فمن الصواب أن ننظر معًا أولًا هل يكفي حل جاهز. ولا يكون للبرمجيات المخصصة معنى إلا حين لا تكفي الخيارات الجاهزة.
+راجع صفحة البرمجيات والتطبيقات المخصصة أو حدثنا عن مشروعك .
+أسئلة قصيرة وإجابات قصيرة
+هل البرمجيات المخصصة مكلفة دائمًا؟ تعتمد التكلفة على النطاق؛ ويمكن تطوير احتياج صغير وواضح على مراحل بنطاق محدود.
+هل يمكن إجراء تغييرات بعد البدء؟ في التطوير على مراحل يُؤخذ الرأي في كل مرحلة، فيمكن تغيير الاتجاه كلما اتضح الاحتياج.
+لمن تعود بياناتي؟ بيانات نشاطك ملك لك؛ وتُناقش الصلاحيات والأمان وخطة النسخ الاحتياطي في بداية التصميم.
+لنتحدث عن مشروعك
+يكفي أن تكتب لنا باختصار ما تحتاجه: عبر صفحة الاتصال أو واتساب أو الهاتف 0531 679 10 14 أو البريد info@ajansmobil.com . نرد عليك بخطة واضحة ومكتوبة.
+
+---
+
+## تطبيق جوال أم موقع متوافق مع الجوال؟
+https://ajansmobil.com/ar/mobil-uygulama-mi-mobil-uyumlu-site-mi/
+
+هل تحتاج تطبيق جوال أم موقعًا متوافقًا مع الجوال؟ دليل مقارنة قصير من غازي عنتاب يساعدك على الاختيار الصحيح لنشاطك التجاري.
+
+تطبيق جوال أم موقع متوافق مع الجوال؟
+تطبيق جوال أم موقع متوافق مع الجوال؟
+الموقع المتوافق مع الجوال يُفتح في المتصفح ويتكيف مع شاشة الهاتف، أما تطبيق الجوال فبرنامج مستقل يُنزَّل من المتجر ويستخدم إمكانات الجهاز. قد يبدوان بديلين لكن احتياجاتهما مختلفة.
+متى يكفي الموقع المتوافق مع الجوال؟
+إذا كان هدفك التعريف بنشاطك وشرح خدماتك واستقبال الطلبات بالهاتف أو واتساب فغالبًا يكفي موقع متوافق مع الجوال. ويستطيع الزائر القادم من محرك البحث الوصول إليك دون تنزيل أي شيء.
+متى يكون تطبيق الجوال منطقيًا؟
+إذا كان متوقعًا أن يستخدمك العملاء بانتظام وكثرة (طلبات، مواعيد، عضوية).
+إذا احتجت إلى إرسال إشعارات أو استخدام ميزات الجهاز كالكاميرا والموقع.
+إذا كان فريقك الميداني يحتاج أداة لمتابعة العمل وتسجيله.
+هل يمكن الجمع بينهما؟
+نعم. البداية الصحيحة لمعظم الأعمال موقع قابل للظهور في البحث، ومع تأكد الحاجة يمكن إضافة تطبيق جوال يستخدم البيانات نفسها. وإذا خُطط من البداية لعمل التطبيق مع الموقع أو لوحة الإدارة يقل تكرار العمل.
+بأي تقنية يُطوَّر؟
+بتقنية Flutter يمكن إصدار تطبيقي iOS وAndroid من قاعدة شيفرة واحدة، ما يبسّط التطوير والتحديث مقارنة بكتابة تطبيقين منفصلين.
+اسأل نفسك قبل القرار
+هل سيبحث عنك عميلك أم سيستخدمك كل يوم؟ إن كان «سيبحث عنك» فالموقع أولًا، وإن كان «سيستخدمك يوميًا» فالتطبيق هو الأبرز.
+للتفاصيل راجع صفحتي تطوير تطبيقات الجوال و تصميم المواقع .
+أسئلة قصيرة وإجابات قصيرة
+هل أبدأ بإنشاء موقع إلكتروني؟ إذا كان العملاء يبحثون عنك على الإنترنت فنعم؛ فالموقع هو الخطوة الأولى للتعريف وللزوار القادمين من محركات البحث.
+هل يظهر تطبيق الجوال في المتجر تلقائيًا؟ لا؛ فالنشر في المتجر والترويج وإقناع المستخدمين بتنزيل التطبيق جهد مستقل.
+هل ينتهي العمل بعد نشر التطبيق؟ لا؛ فمع تحديث أنظمة الهواتف يحتاج التطبيق إلى صيانة وتحسين.
+لنتحدث عن مشروعك
+يكفي أن تكتب لنا باختصار ما تحتاجه: عبر صفحة الاتصال أو واتساب أو الهاتف 0531 679 10 14 أو البريد info@ajansmobil.com . نرد عليك بخطة واضحة ومكتوبة.
+
+---
+
+## كيف تُعدّ موقعًا مؤسسيًا؟
+https://ajansmobil.com/ar/kurumsal-web-sitesi-nasil-hazirlanir/
+
+كيف يُعدّ الموقع المؤسسي؟ قائمة تحقق قصيرة لشركات غازي عنتاب تشمل الهدف وبنية الصفحات والمحتوى والتوافق مع الجوال وخطوات السيو.
+
+كيف تُعدّ موقعًا مؤسسيًا؟
+كيف تُعدّ موقعًا مؤسسيًا؟
+الموقع المؤسسي هو العنوان الرقمي الرسمي الذي يعرّف محركات البحث والزوار بمن هو النشاط التجاري وماذا يقدم وكيف يمكن الوصول إليه. إذا كنت تنتج أو تتاجر أو تقدم خدمات في غازي عنتاب فإن عملاءك يبحثون عنك غالبًا على الإنترنت أولًا. وتساعدك الخطوات التالية على الاستعداد قبل طلب إنشاء الموقع.
+1. ما هدف الموقع؟
+استقبال الطلبات بالهاتف أو واتساب أم عرض المنتجات أم البيع عبر الإنترنت؟ الهدف يحدد عدد الصفحات والمحتوى، واختيار هدف رئيسي واحد يبسّط العمل.
+2. ما الصفحات المطلوبة؟
+تضم معظم المواقع المؤسسية صفحة رئيسية وصفحة «من نحن» وصفحة مستقلة لكل خدمة وصفحة اتصال وأسئلة شائعة. وصفحة مستقلة لكل خدمة تقود من يبحث عنها مباشرة إلى الصفحة الصحيحة.
+3. لمن يُكتب المحتوى؟
+ابنِ النصوص على الأسئلة التي يطرحها عملاؤك لا على مصطلحات القطاع. فالإجابة عن أسئلة حقيقية مثل «ما هو تصميم المواقع في غازي عنتاب وكيف يسير؟» تفيد الزائر ومحرك البحث معًا.
+4. التوافق مع الجوال والسرعة
+يدخل معظم الزوار من الهاتف، لذا يجب أن تُقرأ الصفحات بسهولة على الشاشات الصغيرة، وأن تكون الصور خفيفة، وأزرار التواصل مثل واتساب سهلة الوصول.
+5. إعداد محركات البحث
+عنوان ووصف فريدان لكل صفحة، وعنوان رئيسي واحد، وخريطة موقع، وبيانات منظمة تُعرّف بنشاطك: هذه هي الأساسيات. لا تضمن ترتيبًا لكنها تجعل الموقع مفهومًا.
+6. بعد الإطلاق
+بعد النشر حافظ على تحديث المحتوى وتحقق من بيانات التواصل وقِس النتائج.
+لمزيد من التفاصيل راجع صفحة تصميم المواقع في غازي عنتاب أو خدمة السيو أو الأسئلة الشائعة .
+أسئلة قصيرة وإجابات قصيرة
+كم صفحة ينبغي أن يضم الموقع المؤسسي؟ يختلف العدد بحسب الهدف؛ المهم أن يجد كل خدمة وكل سؤال صفحة واضحة.
+هل يظهر الموقع على جوجل من تلقاء نفسه؟ الموقع المنشور لا يظهر تلقائيًا في المراتب الأولى؛ فالإعداد التقني والمحتوى الأصلي والثقة التي تُبنى مع الوقت تعمل معًا.
+من يعدّ المحتوى؟ أنت أعرف الناس بنشاطك؛ ونحن نطرح الأسئلة ونصوغ النص معك ونضعه في بنية منظمة.
+لنتحدث عن مشروعك
+يكفي أن تكتب لنا باختصار ما تحتاجه: عبر صفحة الاتصال أو واتساب أو الهاتف 0531 679 10 14 أو البريد info@ajansmobil.com . نرد عليك بخطة واضحة ومكتوبة.

@@ -1,13 +1,13 @@
 {
-  "name": "Ajans Mobil Gaziantep | Web Tasarım ve Mobil Uygulama",
-  "short_name": "Ajans Mobil",
-  "description": "Ajans Mobil Gaziantep: web tasarım, mobil uygulama ve özel uygulama geliştirme, SEO, sosyal medya ve dijital reklam yönetimi. WhatsApp ile hemen yazın.",
-  "start_url": "/tr/",
+  "name": "أجانس موبيل غازي عنتاب | تصميم مواقع وتطبيقات جوال",
+  "short_name": "أجانس موبيل",
+  "description": "أجانس موبيل غازي عنتاب: تصميم مواقع وتطبيقات جوال وتطبيقات مخصصة وSEO وإدارة وسائل التواصل والإعلانات الرقمية. راسلنا عبر واتساب.",
+  "start_url": "/ar/",
   "scope": "/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#1D71B8",
-  "lang": "tr",
+  "lang": "ar",
   "icons": [
     {
       "src": "/img/logo.svg",

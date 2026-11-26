@@ -507,14 +507,6 @@
   }
 
   
-  @media (prefers-color-scheme: dark) {
-    .h0000bodylogo {
-      background: #ffffff;
-      padding: 4px 10px;
-      border-radius: 8px;
-      box-sizing: content-box;
-    }
-  }
 
 
   #content {

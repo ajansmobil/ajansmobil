@@ -1,35 +1,35 @@
-# Ajans Mobil Gaziantep | Web Tasarım ve Mobil Uygulama
+# أجانس موبيل غازي عنتاب | تصميم مواقع وتطبيقات جوال
 
-> Ajans Mobil Gaziantep: web tasarım, mobil uygulama ve özel uygulama geliştirme, SEO, sosyal medya ve dijital reklam yönetimi. WhatsApp ile hemen yazın.
+> أجانس موبيل غازي عنتاب: تصميم مواقع وتطبيقات جوال وتطبيقات مخصصة وSEO وإدارة وسائل التواصل والإعلانات الرقمية. راسلنا عبر واتساب.
 
-Web: https://ajansmobil.com/tr/ · Adres: Gaziantep, Türkiye · Telefon: 0531 679 10 14 · E-posta: info@ajansmobil.com · Diller: tr, en, ar (varsayilan: tr)
+Web: https://ajansmobil.com/ar/ · Adres: غازي عنتاب، تركيا · Telefon: 0531 679 10 14 · E-posta: info@ajansmobil.com · Diller: ar, en, tr (varsayilan: ar)
 
 ## Sayfalar
-- [Ajans Mobil Gaziantep | Web Tasarım ve Mobil Uygulama](https://ajansmobil.com/tr/): Ajans Mobil Gaziantep: web tasarım, mobil uygulama ve özel uygulama geliştirme, SEO, sosyal medya ve dijital reklam yönetimi.
-- [Blog](https://ajansmobil.com/tr/blog/): Ajans Mobil blog: web tasarım, mobil uygulama ve özel yazılım kararlarını kolaylaştıran Gaziantep işletmeleri için kısa, anlaşılır rehber yazıları.
-- [Kurumsal](https://ajansmobil.com/tr/hakkimizda/): Ajans Mobil, Gaziantep merkezli dijital ajans: web tasarım, mobil uygulama, özel uygulama geliştirme, SEO ve dijital pazarlama.
-- [Dijital Hizmetlerimiz](https://ajansmobil.com/tr/hizmetlerimiz/): Web tasarım, mobil uygulama geliştirme, sosyal medya yönetimi ve dijital pazarlama alanlarında profesyonel hizmetler sunuyoruz.
-- [İletişim](https://ajansmobil.com/tr/iletisim/): Ajans Mobil Gaziantep iletişim: web tasarım, mobil uygulama ve özel yazılım projeleriniz için telefon, WhatsApp veya e-posta ile hemen bize ulaşın.
-- [Özel Uygulama Geliştirme](https://ajansmobil.com/tr/ozel-uygulama-gelistirme/): Gaziantep özel yazılım ve uygulama geliştirme: işletmenize özel web tabanlı uygulamalar, yönetim panelleri, API ve entegrasyonlar.
-- [Mobil Uygulama](https://ajansmobil.com/tr/mobil-uygulama/): Gaziantep mobil uygulama geliştirme: Flutter ile iOS ve Android uygulamaları, web/panel entegrasyonu, mağaza yayın desteği ve bakım.
-- [Web Tasarım](https://ajansmobil.com/tr/web-tasarim/): Gaziantep web tasarım: kurumsal site, tanıtım sitesi ve e-ticaret.
-- [Reklam Yönetimi](https://ajansmobil.com/tr/reklam-yonetimi/): Gaziantep Google Ads ve sosyal medya reklam yönetimi: hedef kitleye göre kampanya kurulumu, yönetim ve düzenli raporlama.
-- [Seo Hizmeti](https://ajansmobil.com/tr/seo-hizmeti/): Gaziantep SEO hizmeti: teknik SEO denetimi, anahtar kelime ve içerik planı, yapısal veri, yerel SEO, yapay zekâ aramalarına hazırlık ve düzenli raporlama.
-- [Sosyal Media](https://ajansmobil.com/tr/sosyal-media/): Gaziantep sosyal medya yönetimi: içerik takvimi, gönderi ve hikâye tasarımı, hesap yönetimi ve aylık raporlama ile markanızı düzenli biçimde duyurun.
-- [Fotoğraf Çekimi](https://ajansmobil.com/tr/fotograf-cekimi/): Gaziantep ürün ve tanıtım fotoğraf çekimi: web sitesi, sosyal medya ve basılı materyal için düzenlenmiş, markanıza uygun profesyonel görseller.
-- [Sık Sorulan Sorular](https://ajansmobil.com/tr/sss/): Ajans Mobil hakkında sık sorulan sorular: Gaziantep web tasarım, mobil uygulama, özel yazılım ve SEO hizmetleri, çalışma süreci, dil desteği ve iletişim.
-- [Hakkımızda](https://ajansmobil.com/tr/hakkimizda/): Ajans Mobil, Gaziantep'te web tasarım, mobil uygulama ve özel uygulama geliştirme, SEO ve dijital pazarlama hizmetleri veren dijital ajanstır.
-- [Misyon](https://ajansmobil.com/tr/misyon/): Ajans Mobil'in misyonu: işletmelere web, mobil ve özel uygulamalarla güçlü, sürdürülebilir bir dijital varlık kazandırmak.
-- [Vizyon](https://ajansmobil.com/tr/vizyon/): Ajans Mobil'in vizyonu: web, mobil ve özel uygulama geliştirmede güvenilir, kullanışlı ve kalıcı dijital ürünler üretmek.
-- [Kalite Politikamız](https://ajansmobil.com/tr/kalite-politikamiz/): Ajans Mobil kalite politikası: ihtiyacı doğru anlama, açık iletişim, teslim öncesi kontrol, veri güvenliği ve sürekli iyileştirme.
-- [Gizlilik Politikası](https://ajansmobil.com/tr/gizlilik-politikasi/): Ajans Mobil gizlilik politikası - Kişisel verilerin korunması, KVKK uyumluluğu, çerez politikası ve veri güvenliği taahhütlerimiz.
-- [Kişisel Veriler](https://ajansmobil.com/tr/kisisel-veriler-be2/): Ajans Mobil KVKK aydınlatma metni - Kişisel verilerin işlenmesi, veri sorumlusu bilgileri, işleme amaçları ve saklama süreleri.
-- [Kullanıcı Hakları](https://ajansmobil.com/tr/kullanici-haklari/): Ajans Mobil kullanıcı hakları: web sitesi kullanım şartları, telif hakları, kullanıcı sorumlulukları ve yasal haklarınız hakkında bilgilendirme.
-- [Yasal Uyarı](https://ajansmobil.com/tr/yasal-uyari-mh6/): Ajans Mobil yasal uyarı: web sitesi kullanım şartları, sorumluluk reddi beyanı, dış bağlantılar ve feragatname hakkında ayrıntılı bilgilendirme metni.
-- [Çerez Politikası](https://ajansmobil.com/tr/cerez-politikasi/): Bu politika, Ajans Mobil tarafından işletilen https://ajansmobil.com internet sitesinde kullanılan çerezleri, bunların hangi amaçlarla kullanıldığını ve…
-- [Özel Yazılım mı, Hazır Yazılım mı?](https://ajansmobil.com/tr/ozel-yazilim-mi-hazir-yazilim-mi/): Özel yazılım mı, hazır yazılım mı?
-- [Mobil Uygulama mı, Mobil Uyumlu Site mi?](https://ajansmobil.com/tr/mobil-uygulama-mi-mobil-uyumlu-site-mi/): Mobil uygulama mı, mobil uyumlu web sitesi mi gerekir?
-- [Kurumsal Web Sitesi Nasıl Hazırlanır?](https://ajansmobil.com/tr/kurumsal-web-sitesi-nasil-hazirlanir/): Kurumsal web sitesi nasıl hazırlanır?
+- [أجانس موبيل غازي عنتاب | تصميم مواقع وتطبيقات جوال](https://ajansmobil.com/ar/): أجانس موبيل غازي عنتاب: تصميم مواقع وتطبيقات جوال وتطبيقات مخصصة وSEO وإدارة وسائل التواصل والإعلانات الرقمية.
+- [المدونة](https://ajansmobil.com/ar/blog/): مدونة أجانس موبيل: مقالات إرشادية قصيرة وواضحة لشركات غازي عنتاب تسهّل قرارات تصميم المواقع وتطبيقات الجوال والبرمجيات المخصصة.
+- [الشركات](https://ajansmobil.com/ar/hakkimizda/): أجانس موبيل وكالة رقمية في غازي عنتاب: تصميم مواقع وتطبيقات جوال وتطبيقات مخصصة وSEO وتسويق رقمي.
+- [خدماتنا الرقمية](https://ajansmobil.com/ar/hizmetlerimiz/): نقدم خدمات مهنية في تصميم الويب وتطوير تطبيقات الجوال والبرمجيات المخصصة وإدارة وسائل التواصل الاجتماعي والتسويق الرقمي في غازي عنتاب.
+- [اتصل بنا](https://ajansmobil.com/ar/iletisim/): تواصل مع أجانس موبيل غازي عنتاب: راسلنا بالهاتف أو واتساب أو البريد لمشاريع تصميم المواقع وتطبيقات الجوال والبرمجيات المخصصة.
+- [تطوير التطبيقات المخصصة](https://ajansmobil.com/ar/ozel-uygulama-gelistirme/): تطوير برمجيات وتطبيقات مخصصة في غازي عنتاب: تطبيقات ويب ولوحات إدارة وواجهات API وتكاملات مصممة لنشاطك.
+- [تطبيقات الجوال](https://ajansmobil.com/ar/mobil-uygulama/): تطوير تطبيقات الجوال في غازي عنتاب: تطبيقات iOS وAndroid بتقنية Flutter مع الربط بالموقع ولوحة الإدارة ودعم النشر في المتاجر والصيانة.
+- [تصميم الويب](https://ajansmobil.com/ar/web-tasarim/): تصميم مواقع في غازي عنتاب: مواقع مؤسسية وتعريفية ومتاجر إلكترونية متوافقة مع الجوال ومحركات البحث وبثلاث لغات: التركية والإنجليزية والعربية.
+- [إدارة الإعلانات](https://ajansmobil.com/ar/reklam-yonetimi/): إدارة إعلانات جوجل ووسائل التواصل في غازي عنتاب: إعداد الحملات وفق الجمهور المستهدف وإدارتها اليومية مع تقارير منتظمة وواضحة.
+- [خدمة SEO](https://ajansmobil.com/ar/seo-hizmeti/): خدمة السيو في غازي عنتاب: تدقيق تقني وخطة كلمات مفتاحية ومحتوى وبيانات منظمة وسيو محلي وتهيئة للبحث بالذكاء الاصطناعي وتقارير منتظمة.
+- [إدارة وسائل التواصل الاجتماعي](https://ajansmobil.com/ar/sosyal-media/): إدارة وسائل التواصل في غازي عنتاب: تقويم محتوى وتصميم منشورات وقصص وإدارة حسابات وتقارير شهرية لإبراز علامتك التجارية بانتظام وبشكل احترافي.
+- [التصوير الفوتوغرافي](https://ajansmobil.com/ar/fotograf-cekimi/): تصوير المنتجات والتصوير الترويجي في غازي عنتاب: صور احترافية معدّلة للموقع الإلكتروني ووسائل التواصل والمطبوعات وتناسب علامتك التجارية.
+- [الأسئلة الشائعة](https://ajansmobil.com/ar/sss/): أسئلة شائعة عن أجانس موبيل: خدمات تصميم المواقع وتطبيقات الجوال والبرمجيات المخصصة والسيو في غازي عنتاب وطريقة العمل ودعم اللغات والتواصل.
+- [من نحن](https://ajansmobil.com/ar/hakkimizda/): أجانس موبيل وكالة رقمية في غازي عنتاب تقدم تصميم المواقع وتطوير تطبيقات الجوال والتطبيقات المخصصة وSEO والتسويق الرقمي للشركات.
+- [المهمة](https://ajansmobil.com/ar/misyon/): مهمة أجانس موبيل: منح الشركات حضورًا رقميًا قويًا ومستدامًا عبر المواقع وتطبيقات الجوال والتطبيقات المخصصة التي نطورها في غازي عنتاب.
+- [الرؤية](https://ajansmobil.com/ar/vizyon/): رؤية أجانس موبيل: منتجات رقمية موثوقة ومفيدة ودائمة في تطوير المواقع وتطبيقات الجوال والتطبيقات المخصصة للشركات في غازي عنتاب وخارجها.
+- [سياسة الجودة](https://ajansmobil.com/ar/kalite-politikamiz/): سياسة جودة أجانس موبيل: فهم الحاجة بدقة وتواصل واضح وفحص قبل التسليم وحماية البيانات وتحسين مستمر لكل مشروع نسلّمه لعملائنا.
+- [سياسة الخصوصية](https://ajansmobil.com/ar/gizlilik-politikasi/): سياسة الخصوصية أجانس موبيل - حماية البيانات الشخصية، امتثال KVKK، سياسة ملفات تعريف الارتباط والتزامات أمان البيانات لدينا.
+- [البيانات الشخصية](https://ajansmobil.com/ar/kisisel-veriler-be2/): نص إفصاح KVKK من أجانس موبيل: كيفية معالجة البيانات الشخصية ومعلومات مسؤول البيانات وأغراض المعالجة وفترات الاحتفاظ بالبيانات.
+- [حقوق المستخدم](https://ajansmobil.com/ar/kullanici-haklari/): حقوق مستخدم أجانس موبيل: شروط استخدام الموقع وحقوق النشر ومسؤوليات المستخدم وحقوقك القانونية موضحة بوضوح للزوار في صفحة واحدة.
+- [إشعار قانوني](https://ajansmobil.com/ar/yasal-uyari-mh6/): الإشعار القانوني لأجانس موبيل: شروط استخدام الموقع وإخلاء المسؤولية والروابط الخارجية والتنازل موضحة بالتفصيل لكل زائر لموقعنا الإلكتروني.
+- [سياسة ملفات تعريف الارتباط](https://ajansmobil.com/ar/cerez-politikasi/): توضح هذه السياسة ملفات تعريف الارتباط المستخدمة على موقع ajansmobil.com وأغراض استخدامها وكيفية إدارة تفضيلاتك بسهولة وأمان تام.
+- [برمجيات مخصصة أم جاهزة؟](https://ajansmobil.com/ar/ozel-yazilim-mi-hazir-yazilim-mi/): برمجيات مخصصة أم جاهزة؟ الأسئلة التي تُطرح قبل القرار ومزايا وعيوب كل خيار في دليل مبسط وواضح من غازي عنتاب يساعدك على اتخاذ قرارك بثقة.
+- [تطبيق جوال أم موقع متوافق مع الجوال؟](https://ajansmobil.com/ar/mobil-uygulama-mi-mobil-uyumlu-site-mi/): هل تحتاج تطبيق جوال أم موقعًا متوافقًا مع الجوال؟ دليل مقارنة قصير من غازي عنتاب يساعدك على الاختيار الصحيح لنشاطك التجاري.
+- [كيف تُعدّ موقعًا مؤسسيًا؟](https://ajansmobil.com/ar/kurumsal-web-sitesi-nasil-hazirlanir/): كيف يُعدّ الموقع المؤسسي؟ قائمة تحقق قصيرة لشركات غازي عنتاب تشمل الهدف وبنية الصفحات والمحتوى والتوافق مع الجوال وخطوات السيو.
 
 ## Diger
 - [sitemap.xml](https://ajansmobil.com/sitemap.xml): tum URL listesi
